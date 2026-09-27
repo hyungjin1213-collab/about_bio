@@ -1,25 +1,2 @@
 ﻿university,official_domain,page_title,department_url,department,faculty_count,accepted,method
-Sogang University,sogang.ac.kr,전임교원 | 생명과학과,http://lifescien.sogang.ac.kr/bbs/board.php?bo_table=teacher,생명과학,13,yes,crawl
-University of Seoul,uos.ac.kr,전임교수 - 교수진 - 교수/연구 - 서울시립대학교 생명과학과,https://lifesci.uos.ac.kr/research/faculty,전임교수,11,yes,crawl
-Soonchunhyang University,sch.ac.kr,순천향대학교 의과대학,https://med.sch.ac.kr/bbs/board.php?bo_table=spage_1&swr_1=4,기초의학교실,8,yes,crawl
-Soonchunhyang University,sch.ac.kr,순천향대학교 의과대학,https://med.sch.ac.kr/bbs/board.php?bo_table=spage_1&swr_1=7,미생물학 교실,5,yes,crawl
-Soonchunhyang University,sch.ac.kr,순천향대학교 의과대학,https://med.sch.ac.kr/bbs/board.php?bo_table=spage_1&swr_1=6,생화학교실,5,yes,crawl
-Inje University,inje.ac.kr,교수진소개 | 인제대학교 임상병리학과,https://biomls.inje.ac.kr/biomls/intro/faculty.do,교수진소개,5,yes,crawl
-Inje University,inje.ac.kr,교수진소개 | 인제대학교 혁신신약·제약공학부,https://ipse.inje.ac.kr/ipse/intro/faculty.do,혁신신약ㆍ제약공학부,8,yes,crawl
-Inje University,inje.ac.kr,교수진소개 | 인제대학교 약학과,http://pharm.inje.ac.kr/pharm/intro/faculty01.do,약학과,12,yes,crawl
-Inje University,inje.ac.kr,교수진소개 | 인제대학교 약학과,https://pharm.inje.ac.kr/pharm/intro/faculty01.do,약학과,12,yes,crawl
-Inje University,inje.ac.kr,교수진소개 | 인제대학교 의생명공학과,https://bio.inje.ac.kr/bio/intro/faculty.do,의생명보건계열,4,yes,crawl
-Keimyung University,kmu.ac.kr,계명대학교 교수소개,https://www.kmu.ac.kr/programs/common/com_KmuUserList.jsp?ucd=10862&parm_gb=1&parm_cd=11034,약학대학,8,yes,crawl
-Keimyung University,kmu.ac.kr,계명대학교 교수소개,https://www.kmu.ac.kr/programs/common/com_KmuUserList.jsp?ucd=10862&parm_gb=1&parm_cd=11035,약학대학,7,yes,crawl
-Keimyung University,kmu.ac.kr,교수진 소개,https://pharmarcy.kmu.ac.kr/pharmarcy/8007/subview.do,약학과,8,yes,crawl
-Keimyung University,kmu.ac.kr,교수진 소개,https://pharmaceutics.kmu.ac.kr/pharmaceutics/8086/subview.do,제약학과,7,yes,crawl
-Keimyung University,kmu.ac.kr,Faculty,https://pharmaceutics.kmu.ac.kr/pharmaceutics/8105/subview.do,제약학과,4,yes,crawl
-Keimyung University,kmu.ac.kr,Faculty,https://pharmarcy.kmu.ac.kr/pharmarcy/8027/subview.do,약학과,6,yes,crawl
-Keimyung University,kmu.ac.kr,교수진 소개,http://pharmaceutics.kmu.ac.kr/pharmaceutics/8086/subview.do,약학대학,7,yes,crawl
-Keimyung University,kmu.ac.kr,Faculty,http://pharmaceutics.kmu.ac.kr/pharmaceutics/8105/subview.do,약학대학,4,yes,crawl
-Keimyung University,kmu.ac.kr,교수진 소개,http://pharmarcy.kmu.ac.kr/pharmarcy/8007/subview.do,약학대학,8,yes,crawl
-Keimyung University,kmu.ac.kr,Faculty,http://pharmarcy.kmu.ac.kr/pharmarcy/8027/subview.do,약학대학,6,yes,crawl
-Yeungnam University,yu.ac.kr,통합검색 | 영남대학교,https://www.yu.ac.kr/main/etc/search.do?qt=교수,의생명공학과,3,yes,crawl
-Chonnam National University,jnu.ac.kr,전임교수,https://biology.jnu.ac.kr/biology/16859/subview.do,전임교수,12,yes,crawl
-Chonnam National University,jnu.ac.kr,전임교수,https://biology.jnu.ac.kr/biology/13158/subview.do,전임교수,12,yes,crawl
-Chonnam National University,jnu.ac.kr,객원교수/강의전담교수,https://biology.jnu.ac.kr/biology/16861/subview.do,객원교수/강의전담교수,4,yes,crawl
+National Cancer Center,ncc.re.kr,교수진 소개 > 조직도 > 국립암센터국제암대학원대학교 | 국립암센터,https://ncc.re.kr/main.ncc?uri=school02_3,종양은행 (바이오뱅크),3,yes,crawl

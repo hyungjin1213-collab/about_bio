@@ -1,2 +1,3 @@
 ﻿source_id,faculty_url,error
-AUTO_HANYANG_7EF04A,https://site.hanyang.ac.kr/ko/web/medix/-02-2-4-faculty,"ConnectTimeout: HTTPSConnectionPool(host='site.hanyang.ac.kr', port=443): Max retries exceeded with url: /ko/web/medix/-02-2-4-faculty (Caused by ConnectTimeoutError(<HTTPSConnection(host='site.hanyang.ac.kr', port=443) at 0x7ff8c22b7c10>, 'Connection to site.hanyang.ac.kr timed out. (connect timeout=12)'))"
+AUTO_KHU_FEC6FB,http://fst.khu.ac.kr/cls/user/bbs/BMSR00047/list.do?menuNo=11600089,"ConnectionError: HTTPConnectionPool(host='fst.khu.ac.kr', port=80): Read timed out."
+AUTO_KHU_92FBEA,http://genetech.khu.ac.kr/cls/user/bbs/BMSR00047/list.do?menuNo=11600082,"ConnectionError: HTTPConnectionPool(host='genetech.khu.ac.kr', port=80): Read timed out."

@@ -150,6 +150,16 @@ P0003,P0201,advisor_student,no,공동연구일 뿐
   (`src/sectors.py`, `output/professor_sectors.csv`). 틀리면 `data/sector_overrides.csv`: `P0001,학;산,바이오 스타트업 겸직`
 - 필터 탭의 **산학연병** 칩으로도 거를 수 있다.
 
+## OpenAlex 소속 검색 (크롤링이 안 되는 곳)
+
+- 크롤러가 교수진 페이지를 못 찾은 대학과 모든 연구소는 OpenAlex에 직접 묻는다:
+  **현재 소속이 그 기관(또는 그 기관 병원)** 이고, **바이오 논문 비중 50% 이상**, **논문 30편·h-index 12 이상**,
+  **최근 3년 논문 3편 이상**인 연구자 (`src/institution_discovery.py`).
+- OpenAlex ID로 바로 들어가서 신원이 정확하다. 한글 이름은 비어 있으니 필요하면 직접 채운다
+  (`identity_status = openalex_institution`, `source_url` = OpenAlex 프로필).
+- 하루 12곳씩(`INSTITUTION_DISCOVERY_LIMIT`), 기관당 최대 60명. 처리한 곳은 `data/institution_discovery_log.csv`.
+- 이미 있는 사람(같은 OpenAlex ID / ORCID / 같은 기관의 같은 이름)과 `identity_rejections.csv`는 건너뛴다.
+
 ## 연구소
 
 - `data/universities_seed.csv`에 `org_type=institute`로 14곳 추가: KIST, 생명연, 화학연, IBS, 뇌연구원,

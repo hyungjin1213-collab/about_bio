@@ -7,6 +7,7 @@ from candidate_review import classify_candidates
 from department_discovery import discover_departments
 from faculty_identity import import_verified_faculty, match_faculty_identities
 from faculty_identity_v2 import import_verified_faculty_v2, resolve_faculty_identities_v2
+from institution_discovery import discover_by_institution
 from faculty_agent import collect_faculty_with_agent
 from faculty_scraper import scrape_faculty
 from faculty_scraper_v2 import scrape_faculty_v2
@@ -72,6 +73,9 @@ def main() -> None:
         faculty = scrape_faculty_v2()
         identities = resolve_faculty_identities_v2(client)
         count = import_verified_faculty_v2()
+        # Organisations whose sites the crawler cannot read: researchers by OpenAlex affiliation.
+        by_institution = discover_by_institution(client)
+        print(f"Added {by_institution} researchers by OpenAlex institution")
         print(f"Department search results: {len(departments)}")
         print(f"Faculty v2 rows: {len(faculty)}")
         print(f"Faculty identity v2 rows: {len(identities)}")

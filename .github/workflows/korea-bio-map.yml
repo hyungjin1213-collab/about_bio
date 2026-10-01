@@ -57,6 +57,7 @@ jobs:
       IDENTITY_BATCH_LIMIT: "400"
       PROFILE_FETCH_LIMIT: "600"
       DISCOVERY_UNIVERSITY_LIMIT: "20"
+      INSTITUTION_DISCOVERY_LIMIT: "12"
       CRAWL_PAGE_LIMIT: "100"
       SCHOLAR_LOOKUP_LIMIT: "60"
 
@@ -108,6 +109,9 @@ jobs:
           git add "0. korea bio map/data/faculty_sources.csv"
           if [ -f "0. korea bio map/data/discovery_log.csv" ]; then
             git add "0. korea bio map/data/discovery_log.csv"
+          fi
+          if [ -f "0. korea bio map/data/institution_discovery_log.csv" ]; then
+            git add "0. korea bio map/data/institution_discovery_log.csv"
           fi
           if [ -f "0. korea bio map/data/scopus_author_cache.csv" ]; then
             git add "0. korea bio map/data/scopus_author_cache.csv"

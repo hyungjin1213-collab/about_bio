@@ -12,10 +12,11 @@ BIO = [{"count": 40, "domain": {"display_name": "Life Sciences"}, "subfield": {"
 ENG = [{"count": 40, "domain": {"display_name": "Physical Sciences"}, "subfield": {"display_name": "Electrical Engineering"}}]
 
 
-def _author(aid, name, works=80, h=25, recent=10, topics=BIO, orcid=""):
+def _author(aid, name, works=80, h=25, recent=10, topics=BIO, orcid="", insts=("I1", "I5"), years=(2024, 2025, 2026)):
     return {"id": f"https://openalex.org/{aid}", "display_name": name, "works_count": works,
             "summary_stats": {"h_index": h}, "orcid": orcid, "topics": topics,
-            "counts_by_year": [{"year": 2025, "works_count": recent}]}
+            "counts_by_year": [{"year": 2025, "works_count": recent}],
+            "affiliations": [{"institution": {"id": f"https://openalex.org/{i}"}, "years": list(years)} for i in insts]}
 
 
 class FakeOpenAlex:
@@ -73,6 +74,9 @@ def test_discovery_adds_researchers_once(tmp_path, monkeypatch):
         _author("A3", "Gildong Hong"),          # hand-entered 홍길동 without ID
         _author("A4", "Postdoc Kim", h=5),      # not PI-like
         _author("A9", "Rejected Lee"),          # identity_rejections
+        _author("A5", "Shoichiro Tsugane"),     # not a Korean name (Japan's NCC mixed in)
+        _author("A6", "Jiwon Choi", insts=("I99",)),            # never actually at KIST
+        _author("A7", "Sora Kang", years=(2019, 2020, 2026)),   # one recent year only
     ])
     assert idisc.discover_by_institution(client, now_year=2026) == 1
     seed = pd.read_csv(tmp_path / "professors_seed.csv", dtype=str).fillna("")
@@ -98,3 +102,20 @@ def test_budget_exhaustion_keeps_progress(tmp_path, monkeypatch):
     assert idisc.discover_by_institution(client, now_year=2026) == 1
     log = pd.read_csv(tmp_path / "institution_discovery_log.csv", dtype=str)
     assert log["university"].tolist() == ["Institute for Basic Science"]   # Brain retried next run
+
+
+def test_same_organisation_is_strict():
+    assert idisc.same_organisation("National Cancer Center", "National Cancer Center Hospital")
+    assert idisc.same_organisation("Korea Institute of Science and Technology", "Korea Institute of Science and Technology")
+    assert not idisc.same_organisation("Korea Institute of Science and Technology",
+                                       "Korea Institute of Ocean Science and Technology")
+    assert not idisc.same_organisation("Korea Institute of Science and Technology",
+                                       "Korea Institute of Science & Technology Information")
+    assert not idisc.same_organisation("Korea Food Research Institute", "Nonghyup Food Research Institute (South Korea)")
+
+
+def test_chemistry_does_not_count_as_life_science():
+    chem = [{"count": 40, "domain": {"display_name": "Physical Sciences"}, "field": {"display_name": "Chemistry"},
+             "subfield": {"display_name": "Organic Chemistry"}}]
+    assert not idisc.is_pi_like(_author("A1", "Sukbok Chang", topics=chem), 2026)[0]
+    assert idisc.korean_name("Gou Young Koh") and not idisc.korean_name("Hertzel C. Gerstein")

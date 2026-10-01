@@ -21,8 +21,8 @@ from datetime import date
 import pandas as pd
 
 from config import DATA_DIR
-from faculty_identity_v2 import _bio_share, _primary_field, institution_matches, load_rejections
-from name_extraction import english_matches_korean, normalize_english_name
+from faculty_identity_v2 import _inst_tokens, _primary_field, load_rejections
+from name_extraction import ALL_ROMANIZATIONS, english_matches_korean, normalize_english_name
 from openalex_client import OpenAlexClient, OpenAlexUnavailable, normalize_openalex_id
 
 INSTITUTION_DISCOVERY_LIMIT = int(os.getenv("INSTITUTION_DISCOVERY_LIMIT", "8"))
@@ -33,7 +33,17 @@ MIN_RECENT_WORKS = 3          # in the last 3 years: still active here
 MIN_BIO_SHARE = 0.5
 AUTHOR_PAGES = 2              # 200 authors per page, most prolific first
 LOG_COLUMNS = ["university", "institution_ids", "institution_names", "authors_seen", "added", "run_at", "note"]
-AUTHOR_FIELDS = "id,display_name,orcid,works_count,summary_stats,counts_by_year,last_known_institutions,topics"
+AUTHOR_FIELDS = ("id,display_name,orcid,works_count,summary_stats,counts_by_year,"
+                 "last_known_institutions,affiliations,topics")
+# Words an institution's name may add to the organisation's own name: its
+# hospital / medical school. Anything else is another organisation (Korea
+# Institute of *Ocean* Science and Technology is not KIST).
+SAME_ORG_EXTRA_WORDS = {"hospital", "hospitals", "medical", "center", "centre", "medicine", "college", "school",
+                        "graduate", "health", "system", "campus", "clinic", "south", "korea", "republic"}
+LIFE_DOMAINS = {"Life Sciences", "Health Sciences"}
+LIFE_SUBFIELDS = {"Biomedical Engineering", "Bioengineering"}
+KOREAN_SURNAMES = {r.casefold() for rs in ALL_ROMANIZATIONS.values() for r in rs}
+AFFILIATION_YEARS = 2          # years at the organisation within the last 4
 
 
 def _read(path) -> pd.DataFrame:
@@ -65,8 +75,47 @@ def targets(universities: pd.DataFrame, discovery_log: pd.DataFrame, done: set[s
 def find_institutions(client: OpenAlexClient, name: str) -> list[dict]:
     """OpenAlex institutions that are this organisation or its hospital / medical centre (max 3)."""
     data = client._get("institutions", {"search": name, "filter": "country_code:KR", "per-page": 15})
-    hits = [i for i in data.get("results", []) or [] if institution_matches(name, i.get("display_name", ""))]
+    hits = [i for i in data.get("results", []) or []
+            if str(i.get("country_code", "KR")).upper() == "KR" and same_organisation(name, i.get("display_name", ""))]
     return hits[:3]
+
+
+def same_organisation(name: str, institution: str) -> bool:
+    """Every word of the name, and nothing else but hospital / medical-school words."""
+    target, inst = _inst_tokens(name), _inst_tokens(institution)
+    return bool(target) and target <= inst and (inst - target) <= SAME_ORG_EXTRA_WORDS
+
+
+def life_science_share(author: dict) -> float:
+    """Share of topics in life / health sciences only (chemistry does not count here)."""
+    total = bio = 0
+    for t in author.get("topics") or []:
+        n = int(t.get("count", 1) or 1)
+        total += n
+        if (t.get("domain") or {}).get("display_name", "") in LIFE_DOMAINS or \
+                (t.get("subfield") or {}).get("display_name", "") in LIFE_SUBFIELDS:
+            bio += n
+    return bio / total if total else 0.0
+
+
+def korean_name(display: str) -> bool:
+    """Romanized Korean name: a Korean surname as the first or last word."""
+    words = [w for w in re.split(r"[\s.,]+", normalize_english_name(display)) if w]
+    return len(words) >= 2 and (words[-1].casefold() in KOREAN_SURNAMES or words[0].casefold() in KOREAN_SURNAMES)
+
+
+def settled_at(author: dict, inst_ids: set[str], now_year: int) -> bool:
+    """Affiliated with the organisation in at least AFFILIATION_YEARS of the last 4 years.
+
+    last_known_institutions alone is noisy: one co-affiliated paper can put a
+    hospital surgeon or a foreign professor "at" a research institute.
+    """
+    years: set[int] = set()
+    for aff in author.get("affiliations") or []:
+        inst = normalize_openalex_id(str((aff.get("institution") or {}).get("id", "")))
+        if inst in inst_ids:
+            years |= {int(y) for y in aff.get("years") or [] if int(y) >= now_year - 3}
+    return len(years) >= AFFILIATION_YEARS
 
 
 def is_pi_like(author: dict, now_year: int) -> tuple[bool, str]:
@@ -76,7 +125,7 @@ def is_pi_like(author: dict, now_year: int) -> tuple[bool, str]:
                  if int(c.get("year", 0) or 0) >= now_year - 2)
     if not author.get("topics"):
         return False, "no topics"
-    share = _bio_share(author)
+    share = life_science_share(author)
     if works < MIN_WORKS or h < MIN_H_INDEX:
         return False, f"{works} works, h {h}"
     if recent < MIN_RECENT_WORKS:
@@ -146,6 +195,7 @@ def discover_by_institution(client: OpenAlexClient | None = None, now_year: int 
             log_rows.append({"university": name, "authors_seen": "0", "added": "0", "note": "no OpenAlex institution"})
             continue
         inst_filter = "|".join(normalize_openalex_id(i["id"]) for i in insts)
+        inst_ids = {normalize_openalex_id(i["id"]) for i in insts}
         same_org = seed[seed["university"].str.split(";").str[0].str.strip().str.casefold() == name.casefold()]
         added = 0
         for a in candidates:
@@ -156,9 +206,12 @@ def discover_by_institution(client: OpenAlexClient | None = None, now_year: int 
             if not aid or aid in known_ids or aid in rejected or (orcid and orcid in known_orcid):
                 continue
             ok, _ = is_pi_like(a, now_year)
-            if not ok:
-                continue
             display = str(a.get("display_name", ""))
+            # Korean organisations: romanized Korean names only (OpenAlex mixes in
+            # same-name institutions abroad, e.g. Japan's National Cancer Center).
+            # Foreign PIs can be added by hand.
+            if not ok or not korean_name(display) or not settled_at(a, inst_ids, now_year):
+                continue
             # Already in the DB under a Korean name without an ID (hand-entered rows).
             if any(english_matches_korean(display, k) for k in same_org["name_ko"] if k) or \
                     any(_name_key(display) == _name_key(e) for e in same_org["name_en"] if e):

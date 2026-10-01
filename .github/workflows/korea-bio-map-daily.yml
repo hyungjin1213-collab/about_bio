@@ -5,8 +5,10 @@ name: Korea Bio Map Daily
 # Korea Bio Map branch, where all pipeline code and data live.
 on:
   schedule:
-    # 01:00 UTC = 10:00 KST, one hour after OpenAlex's daily budget resets.
-    - cron: "0 1 * * *"
+    # 00:17 UTC = 09:17 KST, after OpenAlex's daily budget resets (00:00 UTC).
+    # Not on the hour: GitHub delays top-of-the-hour schedules most (runs
+    # set for 01:00 started 5-6 hours late).
+    - cron: "17 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -16,7 +18,23 @@ jobs:
   dispatch:
     runs-on: ubuntu-latest
     steps:
+      - name: Check whether the collector already ran today
+        id: today
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # A late schedule after a manual run would start with the OpenAlex
+          # budget already spent: one collection per UTC day is enough.
+          today=$(date -u +%F)
+          count=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow korea-bio-map.yml \
+            --branch about-bio-v0.1 --limit 20 --json createdAt,conclusion \
+            --jq "[.[] | select(.createdAt >= \"$today\") | select(.conclusion != \"cancelled\")] | length")
+          echo "Collector runs today: $count"
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+
       - name: Start galaxy-full on about-bio-v0.1
+        # Manual dispatch always runs; the schedule skips a day already collected.
+        if: github.event_name == 'workflow_dispatch' || steps.today.outputs.count == '0'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

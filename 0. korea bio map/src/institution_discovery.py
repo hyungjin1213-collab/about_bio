@@ -41,6 +41,18 @@ AUTHOR_FIELDS = ("id,display_name,orcid,works_count,summary_stats,counts_by_year
 SAME_ORG_EXTRA_WORDS = {"hospital", "hospitals", "medical", "center", "centre", "medicine", "college", "school",
                         "graduate", "health", "system", "campus", "clinic", "south", "korea", "republic"}
 LIFE_DOMAINS = {"Life Sciences", "Health Sciences"}
+# Clinical specialties: researchers at a research institute that is not a
+# hospital rarely have one as their main subfield; such profiles were
+# merged same-name clinicians in run #34.
+CLINICAL_SUBFIELDS = {
+    "Surgery", "Pulmonary and Respiratory Medicine", "Dermatology", "Otorhinolaryngology", "Hematology",
+    "Rheumatology", "Radiology, Nuclear Medicine and Imaging", "Cardiology and Cardiovascular Medicine",
+    "Pediatrics, Perinatology and Child Health", "Oral Surgery", "Reproductive Medicine", "Hepatology",
+    "Obstetrics and Gynecology", "Orthopedics and Sports Medicine", "Ophthalmology", "Urology", "Nephrology",
+    "Gastroenterology", "Anesthesiology and Pain Medicine", "Emergency Medicine", "Critical Care and Intensive Care Medicine",
+    "Neurology", "Psychiatry and Mental health", "Geriatrics and Gerontology", "Endocrinology, Diabetes and Metabolism",
+    "Transplantation", "Otolaryngology", "Dentistry", "Periodontics", "Orthodontics",
+}
 LIFE_SUBFIELDS = {"Biomedical Engineering", "Bioengineering"}
 KOREAN_SURNAMES = {r.casefold() for rs in ALL_ROMANIZATIONS.values() for r in rs}
 AFFILIATION_YEARS = 2          # years at the organisation within the last 4
@@ -99,9 +111,13 @@ def life_science_share(author: dict) -> float:
 
 
 def korean_name(display: str) -> bool:
-    """Romanized Korean name: a Korean surname as the first or last word."""
+    """Romanized Korean name, given names first (OpenAlex order): a Korean surname as the last word.
+
+    The first word is not checked: Japanese names such as "Kan Yonemori"
+    start with a syllable that is also a Korean surname.
+    """
     words = [w for w in re.split(r"[\s.,]+", normalize_english_name(display)) if w]
-    return len(words) >= 2 and (words[-1].casefold() in KOREAN_SURNAMES or words[0].casefold() in KOREAN_SURNAMES)
+    return len(words) >= 2 and words[-1].casefold() in KOREAN_SURNAMES
 
 
 def settled_at(author: dict, inst_ids: set[str], now_year: int) -> bool:
@@ -111,11 +127,32 @@ def settled_at(author: dict, inst_ids: set[str], now_year: int) -> bool:
     hospital surgeon or a foreign professor "at" a research institute.
     """
     years: set[int] = set()
+    elsewhere: dict[str, set[int]] = {}
     for aff in author.get("affiliations") or []:
         inst = normalize_openalex_id(str((aff.get("institution") or {}).get("id", "")))
+        recent = {int(y) for y in aff.get("years") or [] if int(y) >= now_year - 3}
         if inst in inst_ids:
-            years |= {int(y) for y in aff.get("years") or [] if int(y) >= now_year - 3}
-    return len(years) >= AFFILIATION_YEARS
+            years |= recent
+        elif inst:
+            elsewhere[inst] = recent
+    # The organisation must also be the main affiliation: OpenAlex merges
+    # same-name people, so a hospital surgeon's profile can carry a few
+    # institute years next to four hospital years (run #34).
+    busiest_elsewhere = max((len(y) for y in elsewhere.values()), default=0)
+    return len(years) >= AFFILIATION_YEARS and len(years) >= busiest_elsewhere
+
+
+def main_topic_ok(author: dict, clinical_ok: bool) -> bool:
+    """The author's top topic is life / health science (and not clinical, at a non-hospital institute)."""
+    topics = author.get("topics") or []
+    if not topics:
+        return False
+    top = topics[0]
+    domain = (top.get("domain") or {}).get("display_name", "")
+    subfield = (top.get("subfield") or {}).get("display_name", "")
+    if domain not in LIFE_DOMAINS and subfield not in LIFE_SUBFIELDS:
+        return False
+    return clinical_ok or subfield not in CLINICAL_SUBFIELDS
 
 
 def is_pi_like(author: dict, now_year: int) -> tuple[bool, str]:
@@ -196,6 +233,10 @@ def discover_by_institution(client: OpenAlexClient | None = None, now_year: int 
             continue
         inst_filter = "|".join(normalize_openalex_id(i["id"]) for i in insts)
         inst_ids = {normalize_openalex_id(i["id"]) for i in insts}
+        # Clinicians belong at universities and hospitals (National Cancer Center Hospital), not at
+        # a research institute without one.
+        clinical_ok = t["org_type"] != "institute" or any(
+            "hospital" in i.get("display_name", "").casefold() for i in insts)
         same_org = seed[seed["university"].str.split(";").str[0].str.strip().str.casefold() == name.casefold()]
         added = 0
         for a in candidates:
@@ -210,7 +251,8 @@ def discover_by_institution(client: OpenAlexClient | None = None, now_year: int 
             # Korean organisations: romanized Korean names only (OpenAlex mixes in
             # same-name institutions abroad, e.g. Japan's National Cancer Center).
             # Foreign PIs can be added by hand.
-            if not ok or not korean_name(display) or not settled_at(a, inst_ids, now_year):
+            if not ok or not korean_name(display) or not settled_at(a, inst_ids, now_year) \
+                    or not main_topic_ok(a, clinical_ok):
                 continue
             # Already in the DB under a Korean name without an ID (hand-entered rows).
             if any(english_matches_korean(display, k) for k in same_org["name_ko"] if k) or \

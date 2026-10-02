@@ -119,3 +119,20 @@ def test_chemistry_does_not_count_as_life_science():
              "subfield": {"display_name": "Organic Chemistry"}}]
     assert not idisc.is_pi_like(_author("A1", "Sukbok Chang", topics=chem), 2026)[0]
     assert idisc.korean_name("Gou Young Koh") and not idisc.korean_name("Hertzel C. Gerstein")
+
+
+def test_main_affiliation_must_be_the_organisation():
+    surgeon = _author("A1", "Hong Seog Seo", insts=("I1",), years=(2025, 2026))
+    surgeon["affiliations"].append({"institution": {"id": "https://openalex.org/I77"}, "years": [2023, 2024, 2025, 2026]})
+    assert not idisc.settled_at(surgeon, {"I1"}, 2026)
+    researcher = _author("A2", "Minsu Park", insts=("I1",), years=(2024, 2025, 2026))
+    researcher["affiliations"].append({"institution": {"id": "https://openalex.org/I88"}, "years": [2025]})
+    assert idisc.settled_at(researcher, {"I1"}, 2026)
+
+
+def test_japanese_names_and_clinicians_at_institutes():
+    assert not idisc.korean_name("Kan Yonemori")
+    clinic = [{"count": 40, "domain": {"display_name": "Health Sciences"}, "subfield": {"display_name": "Surgery"}}]
+    assert not idisc.main_topic_ok(_author("A1", "Jiwon Kim", topics=clinic), clinical_ok=False)
+    assert idisc.main_topic_ok(_author("A1", "Jiwon Kim", topics=clinic), clinical_ok=True)   # hospital
+    assert idisc.main_topic_ok(_author("A2", "Jiwon Kim"), clinical_ok=False)

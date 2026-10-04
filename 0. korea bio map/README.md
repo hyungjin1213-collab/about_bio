@@ -157,7 +157,11 @@ P0003,P0201,advisor_student,no,공동연구일 뿐
   **최근 3년 논문 3편 이상**인 연구자 (`src/institution_discovery.py`).
 - OpenAlex ID로 바로 들어가서 신원이 정확하다. 한글 이름은 비어 있으니 필요하면 직접 채운다
   (`identity_status = openalex_institution`, `source_url` = OpenAlex 프로필).
-- 하루 12곳씩(`INSTITUTION_DISCOVERY_LIMIT`), 기관당 최대 60명. 처리한 곳은 `data/institution_discovery_log.csv`.
+- **기업(산)**: `universities_seed.csv`에 `org_type=company`로 바이오·제약 20곳(삼성바이오로직스, 셀트리온, 한미약품,
+  유한양행, GC녹십자, 종근당, 대웅제약, SK바이오사이언스, 알테오젠, 에이비엘바이오, 마크로젠, 씨젠, CJ제일제당, LG화학,
+  보령, JW중외제약, 일동제약, 한올바이오파마, 제넥신, 동아에스티). 기업 연구자는 논문이 적어 기준을 낮춘다
+  (논문 10편·h-index 5·최근 3년 1편 이상, 기업당 최대 30명). 기업은 크롤링하지 않는다.
+- 하루 20곳씩(`INSTITUTION_DISCOVERY_LIMIT`), 기관당 최대 60명. 처리한 곳은 `data/institution_discovery_log.csv`.
 - 이미 있는 사람(같은 OpenAlex ID / ORCID / 같은 기관의 같은 이름)과 `identity_rejections.csv`는 건너뛴다.
 
 ## 연구소

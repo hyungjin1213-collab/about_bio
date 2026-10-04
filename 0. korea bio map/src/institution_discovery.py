@@ -31,6 +31,11 @@ MIN_WORKS = 30
 MIN_H_INDEX = 12
 MIN_RECENT_WORKS = 3          # in the last 3 years: still active here
 MIN_BIO_SHARE = 0.5
+# Company scientists publish far less than academics: lower bars, fewer people.
+THRESHOLDS = {
+    "default": {"works": MIN_WORKS, "h": MIN_H_INDEX, "recent": MIN_RECENT_WORKS, "max": None},
+    "company": {"works": 10, "h": 5, "recent": 1, "max": 30},
+}
 AUTHOR_PAGES = 2              # 200 authors per page, most prolific first
 LOG_COLUMNS = ["university", "institution_ids", "institution_names", "authors_seen", "added", "run_at", "note"]
 AUTHOR_FIELDS = ("id,display_name,orcid,works_count,summary_stats,counts_by_year,"
@@ -76,11 +81,11 @@ def targets(universities: pd.DataFrame, discovery_log: pd.DataFrame, done: set[s
     out = []
     for _, u in universities.iterrows():
         name, kind = u["university"], (u.get("org_type", "") or "university")
-        if name in done or kind in ("hospital", "company"):
+        if name in done or kind == "hospital":
             continue
-        if kind == "institute" or (name in crawled_pages and crawled_pages[name] == 0):
+        if kind in ("institute", "company") or (name in crawled_pages and crawled_pages[name] == 0):
             out.append({"university": name, "org_type": kind})
-    out.sort(key=lambda t: t["org_type"] != "institute")   # institutes first
+    out.sort(key=lambda t: {"institute": 0, "company": 1}.get(t["org_type"], 2))   # institutes, companies, then universities
     return out
 
 
@@ -155,7 +160,8 @@ def main_topic_ok(author: dict, clinical_ok: bool) -> bool:
     return clinical_ok or subfield not in CLINICAL_SUBFIELDS
 
 
-def is_pi_like(author: dict, now_year: int) -> tuple[bool, str]:
+def is_pi_like(author: dict, now_year: int, org_type: str = "") -> tuple[bool, str]:
+    bar = THRESHOLDS.get(org_type, THRESHOLDS["default"])
     works = int(author.get("works_count", 0) or 0)
     h = int((author.get("summary_stats") or {}).get("h_index", 0) or 0)
     recent = sum(int(c.get("works_count", 0) or 0) for c in author.get("counts_by_year") or []
@@ -163,22 +169,22 @@ def is_pi_like(author: dict, now_year: int) -> tuple[bool, str]:
     if not author.get("topics"):
         return False, "no topics"
     share = life_science_share(author)
-    if works < MIN_WORKS or h < MIN_H_INDEX:
+    if works < bar["works"] or h < bar["h"]:
         return False, f"{works} works, h {h}"
-    if recent < MIN_RECENT_WORKS:
+    if recent < bar["recent"]:
         return False, f"{recent} recent works"
     if share < MIN_BIO_SHARE:
         return False, f"{share:.0%} bio"
     return True, ""
 
 
-def _authors_at(client: OpenAlexClient, insts: list[dict]) -> tuple[list[dict], int]:
+def _authors_at(client: OpenAlexClient, insts: list[dict], min_works: int = MIN_WORKS) -> tuple[list[dict], int]:
     """Authors whose current affiliation is one of these institutions, most prolific first."""
     inst_filter = "|".join(normalize_openalex_id(i["id"]) for i in insts)
     candidates: list[dict] = []
     for page in range(1, AUTHOR_PAGES + 1):
         data = client._get("authors", {
-            "filter": f"last_known_institutions.id:{inst_filter},works_count:>{MIN_WORKS - 1}",
+            "filter": f"last_known_institutions.id:{inst_filter},works_count:>{min_works - 1}",
             "sort": "works_count:desc", "per-page": 200, "page": page, "select": AUTHOR_FIELDS,
         })
         results = data.get("results", []) or []
@@ -223,7 +229,8 @@ def discover_by_institution(client: OpenAlexClient | None = None, now_year: int 
         print(f"[institution] {name}", flush=True)
         try:
             insts = find_institutions(client, name)
-            candidates, seen = _authors_at(client, insts) if insts else ([], 0)
+            bar = THRESHOLDS.get(t["org_type"], THRESHOLDS["default"])
+            candidates, seen = _authors_at(client, insts, bar["works"]) if insts else ([], 0)
         except OpenAlexUnavailable as exc:
             # Keep what is done; this organisation is retried next run.
             print(f"  stopping institution discovery: {exc}", flush=True)
@@ -235,18 +242,18 @@ def discover_by_institution(client: OpenAlexClient | None = None, now_year: int 
         inst_ids = {normalize_openalex_id(i["id"]) for i in insts}
         # Clinicians belong at universities and hospitals (National Cancer Center Hospital), not at
         # a research institute without one.
-        clinical_ok = t["org_type"] != "institute" or any(
+        clinical_ok = t["org_type"] not in ("institute", "company") or any(
             "hospital" in i.get("display_name", "").casefold() for i in insts)
         same_org = seed[seed["university"].str.split(";").str[0].str.strip().str.casefold() == name.casefold()]
         added = 0
         for a in candidates:
-            if added >= MAX_PER_INSTITUTION:
+            if added >= (bar["max"] or MAX_PER_INSTITUTION):
                 break
             aid = normalize_openalex_id(a.get("id", ""))
             orcid = str(a.get("orcid", "") or "").rstrip("/").split("/")[-1]
             if not aid or aid in known_ids or aid in rejected or (orcid and orcid in known_orcid):
                 continue
-            ok, _ = is_pi_like(a, now_year)
+            ok, _ = is_pi_like(a, now_year, t["org_type"])
             display = str(a.get("display_name", ""))
             # Korean organisations: romanized Korean names only (OpenAlex mixes in
             # same-name institutions abroad, e.g. Japan's National Cancer Center).

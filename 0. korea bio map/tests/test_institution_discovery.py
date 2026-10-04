@@ -136,3 +136,14 @@ def test_japanese_names_and_clinicians_at_institutes():
     assert not idisc.main_topic_ok(_author("A1", "Jiwon Kim", topics=clinic), clinical_ok=False)
     assert idisc.main_topic_ok(_author("A1", "Jiwon Kim", topics=clinic), clinical_ok=True)   # hospital
     assert idisc.main_topic_ok(_author("A2", "Jiwon Kim"), clinical_ok=False)
+
+
+def test_companies_are_targets_with_lower_bars():
+    unis = pd.DataFrame([{"university": "Celltrion", "org_type": "company"},
+                         {"university": "Samsung Medical Center", "org_type": "hospital"}])
+    got = idisc.targets(unis, pd.DataFrame(columns=["university", "pages_found"]), done=set())
+    assert [t["university"] for t in got] == ["Celltrion"]
+    scientist = _author("A1", "Jiwon Kim", works=15, h=7, recent=2)
+    assert idisc.is_pi_like(scientist, 2026, "company")[0]
+    assert not idisc.is_pi_like(scientist, 2026, "institute")[0]
+    assert idisc.same_organisation("Celltrion", "Celltrion (South Korea)")

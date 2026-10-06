@@ -137,14 +137,14 @@ jobs:
         run: |
           rm -rf /tmp/korea-bio-map-pages
           mkdir -p /tmp/korea-bio-map-pages
-          cp "0. korea bio map/web/index.html" /tmp/korea-bio-map-pages/index.html
+          # Every page of the site (map, community ...) plus the map data.
+          cp "0. korea bio map/web/"*.html /tmp/korea-bio-map-pages/
           cp "0. korea bio map/web/network-data.js" /tmp/korea-bio-map-pages/network-data.js
 
           git fetch origin gh-pages
           git switch gh-pages
-          cp /tmp/korea-bio-map-pages/index.html ./index.html
-          cp /tmp/korea-bio-map-pages/network-data.js ./network-data.js
-          git add index.html network-data.js
+          cp /tmp/korea-bio-map-pages/* ./
+          git add ./*.html network-data.js
 
           if git diff --cached --quiet; then
             echo "Pages already up to date."

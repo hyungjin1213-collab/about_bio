@@ -53,9 +53,37 @@
     .empty{color:#7f8aa8;font-size:12px;padding:10px 6px}
     .open-side{position:fixed;top:14px;right:14px;z-index:21;background:rgba(3,7,18,.78);border:1px solid rgba(255,255,255,.14);color:#fff;border-radius:999px;padding:8px 13px;font:600 13px Arial,sans-serif;cursor:pointer}
     .open-side[hidden]{display:none}
+    /* professor card */
+    .card{position:fixed;top:14px;left:14px;z-index:22;width:340px;max-height:calc(100vh - 90px);overflow-y:auto;background:rgba(5,9,22,.9);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:16px 16px 12px;box-shadow:0 10px 40px rgba(0,0,0,.45)}
+    .card[hidden]{display:none}
+    body.card-open .panel{display:none}
+    .card .close{position:absolute;top:10px;right:10px;background:none;border:0;color:#9aa7c7;font-size:18px;cursor:pointer}
+    .card h2{margin:0 26px 2px 0;font-size:20px}
+    .card .en{color:#9aa7c7;font-size:13px;margin-left:4px;font-weight:400}
+    .card .org{color:#d7def0;font-size:13px;margin:4px 0 8px}
+    .card h3{font-size:12px;color:#9aa7c7;font-weight:600;margin:14px 0 6px;letter-spacing:.02em}
+    .tags{display:flex;flex-wrap:wrap;gap:5px}
+    .tag{font-size:11.5px;padding:3px 8px;border-radius:999px;background:rgba(255,255,255,.07);color:#dbe4ff;border:1px solid rgba(255,255,255,.08)}
+    .tag.tech{color:#99f6e4}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+    .stat{background:rgba(255,255,255,.05);border-radius:10px;padding:8px 4px;text-align:center}
+    .stat b{display:block;font-size:17px;color:#fff}.stat span{font-size:10.5px;color:#9aa7c7}
+    .people{display:flex;flex-wrap:wrap;gap:5px}
+    .people button{background:rgba(251,191,36,.10);border:1px solid rgba(251,191,36,.35);color:#fde68a;border-radius:999px;padding:3px 9px;font-size:12px;cursor:pointer}
+    .people button.pd{background:rgba(192,132,252,.10);border-color:rgba(192,132,252,.35);color:#e9d5ff}
+    .lab{display:grid;grid-template-columns:1fr auto;gap:4px 10px;font-size:12.5px;color:#d7def0}
+    .lab span:nth-child(even){color:#fff;font-weight:600;text-align:right}
+    .muted{color:#7f8aa8;font-size:12px;line-height:1.5}
+    .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+    .links a{font-size:12px;color:#93c5fd;text-decoration:none;border:1px solid rgba(147,197,253,.3);border-radius:8px;padding:5px 9px}
+    .recruit{display:inline-block;margin-left:6px;font-size:11px;padding:2px 7px;border-radius:999px;background:#fbbf24;color:#111;vertical-align:middle}
+    /* community button */
+    .community{position:fixed;right:14px;bottom:14px;z-index:21;display:flex;align-items:center;gap:7px;background:linear-gradient(135deg,#fbbf24,#f59e0b);color:#111;font:700 13px Arial,sans-serif;padding:10px 15px;border-radius:999px;text-decoration:none;box-shadow:0 6px 24px rgba(251,191,36,.35)}
+    .community:hover{filter:brightness(1.08)}
     .viewbar{position:fixed;left:14px;bottom:14px;z-index:21;display:flex;gap:3px;background:rgba(3,7,18,.78);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:4px}
     .viewbar label{display:inline-flex;align-items:center;gap:7px;color:#d7def0;font:600 12px Arial,sans-serif;padding:5px 11px;cursor:pointer;user-select:none}
     .viewbar input{accent-color:#fbbf24;width:15px;height:15px;margin:0}
+    .viewbar label+label{border-left:1px solid rgba(255,255,255,.12)}
     .viewbar:has(input:checked){border-color:#fbbf24;background:rgba(40,32,8,.82)}
     .setbar{position:fixed;left:14px;bottom:62px;z-index:21;display:flex;flex-wrap:wrap;align-items:center;gap:6px;max-width:calc(100vw - 360px);background:rgba(3,7,18,.78);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:7px 9px}
     .setbar[hidden]{display:none}
@@ -71,7 +99,9 @@
       .side{top:auto;bottom:52px;left:10px;right:10px;width:auto;max-height:52vh}
       .list{max-height:calc(52vh - 110px)}
       .hint{display:none}
-      .viewbar{left:10px;bottom:10px}
+      .viewbar{left:10px;bottom:10px;flex-direction:column;align-items:flex-start;border-radius:14px}
+      .card{top:auto;bottom:10px;left:10px;right:10px;width:auto;max-height:62vh}
+      .community{right:10px;bottom:10px;padding:9px 12px}
       .setbar{left:10px;right:10px;max-width:none;bottom:54px}
     }
   </style>
@@ -83,7 +113,7 @@
     <div class="lines">
       <div><span class="line" style="background:#fbbf24;height:3px"></span>지도교수 → 제자 (PI 10점 · 제자 1점)</div>
       <div><span class="line" style="background:#c084fc;height:2px"></span>포닥 멘토 → 포닥 (PI 3점 · 포닥 1점)</div>
-      <div><span class="line" style="background:rgba(147,197,253,.45);height:1px"></span>공동연구 (1명당 1점 · 협업 강도순 밝기 · 별을 누르면 강조)</div>
+      <div><span class="line" style="background:rgba(147,197,253,.45);height:1px"></span>공동연구 (별을 누르면 표시 · 전체는 아래 체크)</div>
     </div>
     <div class="legend" id="legend"></div>
   </div>
@@ -125,7 +155,7 @@
       <ol class="list" id="rank-list"></ol>
     </div>
   </div>
-  <div class="hint">드래그: 회전 · 두 손가락: 줌 · 별 터치: 정보·공동연구 강조 · 빈 곳 터치: 해제</div>
+  <div class="hint">드래그: 회전 · 두 손가락: 줌 · 별을 누르면 교수 카드와 공동연구 선 · 빈 곳: 닫기</div>
   <div id="graph"></div>
   <div class="setbar" id="setbar" hidden>
     <span id="set-buttons"></span>
@@ -133,7 +163,10 @@
   </div>
   <div class="viewbar" id="viewbar">
     <label><input type="checkbox" id="view-sectors">산학연병으로 보기</label>
+    <label><input type="checkbox" id="view-collab">공동연구 선 보기</label>
   </div>
+  <aside class="card" id="card" hidden aria-live="polite"></aside>
+  <a class="community" href="./community.html">💬 커뮤니티</a>
 
   <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
   <script src="https://unpkg.com/3d-force-graph@1.76.1/dist/3d-force-graph.min.js"></script>
@@ -173,6 +206,12 @@
       return parts.length?`<br><span style="color:#fde68a">연구실: ${parts.map(p=>p.startsWith("<b")?p:esc(p)).join(" · ")}</span>`:"";
     }
     const fieldColor=n=>CATEGORY_COLORS[n.category]||CATEGORY_COLORS["기타"];
+    // Stars, not billiard balls: the field colour mixed with white light.
+    function soften(hex,t=.5){
+      const v=parseInt(hex.slice(1),16),r=v>>16,g=(v>>8)&255,b=v&255,m=c=>Math.round(c+(255-c)*t);
+      return `#${((1<<24)|(m(r)<<16)|(m(g)<<8)|m(b)).toString(16).slice(1)}`;
+    }
+    const starColor=n=>soften(fieldColor(n),.45);
     const NODE_COUNT=(window.KOREA_BIO_MAP.nodes||[]).length;
     const SEG=NODE_COUNT>800?8:NODE_COUNT>200?14:24;
 
@@ -183,8 +222,8 @@
     // lines are the story, drawn bright with arrows (PI -> trainee).
     const LINK_STYLE={
       collaboration:{color:"rgba(147,197,253,0.10)",focus:"rgba(191,219,254,0.85)",width:0,focusWidth:.45,particles:0},
-      advisor_student:{color:"#fbbf24",width:1.9,particles:3,particleColor:"#fde68a"},
-      postdoc_mentor:{color:"#c084fc",width:1.4,particles:2,particleColor:"#ede9fe"}
+      advisor_student:{color:"#fbbf24",width:1.9,particles:2,particleColor:"#fde68a"},
+      postdoc_mentor:{color:"#c084fc",width:1.4,particles:1,particleColor:"#ede9fe"}
     };
     const isLineage=l=>l.type==="advisor_student"||l.type==="postdoc_mentor";
     const endId=v=>typeof v==="object"?v.id:v;
@@ -212,42 +251,45 @@
       Graph.linkColor(linkColor).linkWidth(linkWidth);  // re-evaluate accessors
     }
 
+    // Only PI -> student / postdoc lines are drawn by default; the 9,000+
+    // collaboration lines are opt-in ("공동연구 선 보기"), and a selected
+    // professor's own collaborations are drawn as a light overlay.
+    const ALL_LINKS=window.KOREA_BIO_MAP.links||[];
+    const LINEAGE_LINKS=ALL_LINKS.filter(isLineage);
+    const COLLAB_BY_NODE=new Map();
+    ALL_LINKS.forEach(l=>{
+      if(isLineage(l)) return;
+      [endId(l.source),endId(l.target)].forEach(id=>{(COLLAB_BY_NODE.get(id)||COLLAB_BY_NODE.set(id,[]).get(id)).push(l);});
+    });
+    let showCollab=false;
+
+    const STAR_TEX=(()=>{
+      const c=document.createElement("canvas");c.width=c.height=64;
+      const g=c.getContext("2d"),gr=g.createRadialGradient(32,32,0,32,32,32);
+      gr.addColorStop(0,"rgba(255,255,255,1)");gr.addColorStop(.16,"rgba(255,255,255,.95)");
+      gr.addColorStop(.34,"rgba(255,255,255,.38)");gr.addColorStop(.6,"rgba(255,255,255,.10)");gr.addColorStop(1,"rgba(255,255,255,0)");
+      g.fillStyle=gr;g.fillRect(0,0,64,64);
+      return new THREE.CanvasTexture(c);
+    })();
+    const starMats=new Map();
+    const starMaterial=color=>starMats.get(color)||starMats.set(color,new THREE.SpriteMaterial(
+      {map:STAR_TEX,color,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending})).get(color);
+
     const el=document.getElementById("graph");
     const Graph=ForceGraph3D()(el)
       .width(window.innerWidth)
       .height(window.innerHeight)
       .backgroundColor("rgba(0,0,0,0)")
       .showNavInfo(false)
-      .graphData(window.KOREA_BIO_MAP)
+      .graphData({nodes:window.KOREA_BIO_MAP.nodes,links:LINEAGE_LINKS})
+      // One glowing sprite per star (2,500+ stars: spheres were too heavy).
       .nodeThreeObject(node=>{
-        const group=new THREE.Group();
-        const c=fieldColor(node);
-        const score=Number(node.score||0);
-        const r=2.8+Math.sqrt(score+1)*1.6;
-
-        const core=new THREE.Mesh(
-          new THREE.SphereGeometry(r,SEG,SEG),
-          new THREE.MeshBasicMaterial({color:c})
-        );
-        group.add(core);
-
-        const glow=new THREE.Mesh(
-          new THREE.SphereGeometry(r*1.9,SEG,SEG),
-          new THREE.MeshBasicMaterial({color:c,transparent:true,opacity:.14,depthWrite:false})
-        );
-        group.add(glow);
-
-        if(score>0){
-          const halo=new THREE.Mesh(
-            new THREE.RingGeometry(r*1.35,r*1.5,32),
-            new THREE.MeshBasicMaterial({color:c,transparent:true,opacity:.35,side:THREE.DoubleSide,depthWrite:false})
-          );
-          halo.rotation.x=Math.PI/2;
-          group.add(halo);
-        }
-        return group;
+        const r=2.8+Math.sqrt(Number(node.score||0)+1)*1.6;
+        const s=new THREE.Sprite(starMaterial(starColor(node)));
+        s.scale.set(r*3.4,r*3.4,1);
+        return s;
       })
-      .nodeLabel(n=>`<div style="padding:6px 8px"><b>${esc(n.name)}</b>${n.name_en&&n.name_en!==n.name?` (${esc(n.name_en)})`:""}<br>${esc(n.university_ko||n.university)}${n.department?` · ${esc(n.department)}`:""}${n.position?` · ${esc(n.position)}`:""}<br>${sectorsOf(n).map(x=>`<span style="color:${SECTOR_INFO[x].color}">${esc(SECTOR_INFO[x].label)}</span>`).join(" ∩ ")}<br>${esc(n.category||"")}${n.field?` <span style="color:#9aa7c7">(${esc(n.field)})</span>`:""} · ${esc(n.region||"")}<br>Score: ${n.score} · 공동연구 ${n.collaborator_count}명${n.faculty_trainee_count?` · 교수 된 제자 ${n.faculty_trainee_count}`:""}${n.postdoc_PI_count?` · PI 된 포닥 ${n.postdoc_PI_count}`:""}${(n.keywords||[]).length?`<br><span class="kw">연구 분야: ${n.keywords.slice(0,6).map(esc).join(", ")}</span>`:""}${(n.techniques||[]).length?`<br><span class="kw">주요 기술: ${n.techniques.slice(0,4).map(esc).join(", ")}</span>`:""}${labLine(n.lab)}${n.orcid?`<br>ORCID: ${esc(n.orcid)}`:""}</div>`)
+      .nodeLabel(n=>`<div style="padding:6px 8px"><b>${esc(n.name)}</b>${n.name_en&&n.name_en!==n.name?` (${esc(n.name_en)})`:""}<br>${esc(n.university_ko||n.university)}${n.department?` · ${esc(n.department)}`:""}<br><span style="color:#9aa7c7">${esc(n.category||"")}${(n.keywords||[]).length?` · ${n.keywords.slice(0,3).map(esc).join(", ")}`:""}</span></div>`)
       .linkLabel(l=>isLineage(l)
         ?`<div style="padding:5px 7px">${l.type==="advisor_student"?"지도교수 → 제자":"포닥 멘토 → 포닥"}<br>${l.verified==="auto"?`자동 추정 · 근거 논문 ${l.paper_count}편`:"확인됨"}</div>`
         :`<div style="padding:5px 7px">공동연구 · 논문 ${l.paper_count}편${l.last_year?` · 최근 ${l.last_year}년`:""}<br>협업 강도 ${(Number(l.strength)||0).toFixed(2)}</div>`)
@@ -265,7 +307,8 @@
         if(!selected){setFocus(node);}
         el.style.cursor=node?"pointer":"default";
       })
-      .onBackgroundClick(()=>{selected=null;setFocus(null);markActive(null);})
+      .onBackgroundClick(()=>{selected=null;setFocus(null);markActive(null);closeCard();drawOverlay();})
+      .onEngineTick(()=>{if(overlay) drawOverlay();})
       .onNodeClick(node=>flyTo(node));
 
     function flyTo(node){
@@ -281,7 +324,87 @@
         900
       );
       markActive(node.id);
+      openCard(node);
+      drawOverlay();
     }
+
+    // ---------- selected professor's collaboration lines (overlay) ----------
+    let overlay=null;
+    function drawOverlay(){
+      if(overlay){Graph.scene().remove(overlay);overlay.geometry.dispose();overlay.material.dispose();overlay=null;}
+      if(showCollab||!selected) return;
+      const pts=[];
+      (COLLAB_BY_NODE.get(selected.id)||[]).forEach(l=>{
+        const other=NODE_BY_ID.get(endId(l.source)===selected.id?endId(l.target):endId(l.source));
+        if(other&&shownNode(other)) pts.push(selected.x,selected.y,selected.z,other.x,other.y,other.z);
+      });
+      if(!pts.length) return;
+      const g=new THREE.BufferGeometry();
+      g.setAttribute("position",new THREE.Float32BufferAttribute(pts,3));
+      overlay=new THREE.LineSegments(g,new THREE.LineBasicMaterial({color:"#bfdbfe",transparent:true,opacity:.5,depthWrite:false}));
+      Graph.scene().add(overlay);
+    }
+    document.getElementById("view-collab").addEventListener("change",e=>{
+      showCollab=e.target.checked;
+      Graph.graphData({nodes:window.KOREA_BIO_MAP.nodes,links:showCollab?ALL_LINKS:LINEAGE_LINKS});
+      refreshVisibility();drawOverlay();
+    });
+
+    // ---------- professor card ----------
+    const card=document.getElementById("card");
+    const safeUrl=u=>/^https?:\/\//i.test(String(u||""))?String(u):"";
+    function people(ids,cls){
+      return ids.map(id=>NODE_BY_ID.get(id)).filter(Boolean)
+        .map(p=>`<button class="${cls}" data-id="${esc(p.id)}">${esc(p.name)}</button>`).join("");
+    }
+    function lineageOf(n){
+      const out={advisors:[],students:[],mentors:[],postdocs:[]};
+      LINEAGE_LINKS.forEach(l=>{
+        const a=endId(l.source),b=endId(l.target);
+        if(l.type==="advisor_student"){if(a===n.id)out.students.push(b);if(b===n.id)out.advisors.push(a);}
+        else{if(a===n.id)out.postdocs.push(b);if(b===n.id)out.mentors.push(a);}
+      });
+      return out;
+    }
+    function labRows(lab){
+      const L=lab||{},rows=[
+        ["박사 평균 졸업기간",L.phd_years&&`${L.phd_years}년`],["석박통합 평균",L.integrated_years&&`${L.integrated_years}년`],
+        ["석사 평균 졸업기간",L.ms_years&&`${L.ms_years}년`],["학생당 평균 논문",L.papers_per_student&&`${L.papers_per_student}편`],
+        ["학생당 1저자 논문",L.first_author_per_student&&`${L.first_author_per_student}편`],["박사 졸업생",L.phd_graduates&&`${L.phd_graduates}명`],
+        ["현재 구성",[L.phd_students&&`박사 ${L.phd_students}`,L.ms_students&&`석사 ${L.ms_students}`,L.postdocs&&`포닥 ${L.postdocs}`].filter(Boolean).join(" · ")]
+      ].filter(r=>r[1]);
+      return rows;
+    }
+    function openCard(n){
+      const lin=lineageOf(n),lab=labRows(n.lab),recruiting=/^(예|yes|y|o|모집)/i.test(String((n.lab||{}).recruiting||""));
+      const url=safeUrl(n.url);
+      card.innerHTML=`<button class="close" aria-label="닫기">×</button>
+        <h2>${esc(n.name)}${n.name_en&&n.name_en!==n.name?`<span class="en">${esc(n.name_en)}</span>`:""}${recruiting?`<span class="recruit">모집 중</span>`:""}</h2>
+        <div class="org">${esc(n.university_ko||n._uni||n.university)}${n.department?` · ${esc(n.department)}`:""}${n.position?` · ${esc(n.position)}`:""}</div>
+        <div class="tags">${sectorsOf(n).map(x=>`<span class="tag" style="border-color:${SECTOR_INFO[x].color}55;color:${SECTOR_INFO[x].color}">${esc(SECTOR_INFO[x].label)}</span>`).join("")}
+          ${n.category?`<span class="tag" style="color:${soften(fieldColor(n),.3)}">${esc(n.category)}</span>`:""}${n.region?`<span class="tag">${esc(n.region)}</span>`:""}</div>
+        <div class="stats" style="margin-top:12px">
+          <div class="stat"><b>${n.score}</b><span>점수</span></div>
+          <div class="stat"><b>${n.collaborator_count}</b><span>공동연구</span></div>
+          <div class="stat"><b>${lin.students.length}</b><span>교수 된 제자</span></div>
+          <div class="stat"><b>${lin.postdocs.length}</b><span>PI 된 포닥</span></div>
+        </div>
+        <h3>연구실 정보</h3>
+        ${lab.length?`<div class="lab">${lab.map(r=>`<span>${esc(r[0])}</span><span>${esc(r[1])}</span>`).join("")}</div>`
+          :`<div class="muted">아직 졸업기간·학생당 논문 수 같은 연구실 정보가 없어요. 이 연구실을 아신다면 커뮤니티에서 알려주세요.</div>`}
+        ${(n.keywords||[]).length?`<h3>연구 분야</h3><div class="tags">${n.keywords.slice(0,8).map(k=>`<span class="tag">${esc(k)}</span>`).join("")}</div>`:""}
+        ${(n.techniques||[]).length?`<h3>주요 기술</h3><div class="tags">${n.techniques.slice(0,6).map(k=>`<span class="tag tech">${esc(k)}</span>`).join("")}</div>`:""}
+        ${lin.advisors.length||lin.mentors.length?`<h3>지도교수 · 포닥 멘토</h3><div class="people">${people(lin.advisors,"")}${people(lin.mentors,"pd")}</div>`:""}
+        ${lin.students.length||lin.postdocs.length?`<h3>교수가 된 제자 · 포닥</h3><div class="people">${people(lin.students,"")}${people(lin.postdocs,"pd")}</div>`:""}
+        <div class="links">${url?`<a href="${esc(url)}" target="_blank" rel="noopener">연구실·소속 페이지</a>`:""}
+          ${n.openalex_id?`<a href="https://openalex.org/${esc(n.openalex_id)}" target="_blank" rel="noopener">논문 (OpenAlex)</a>`:""}
+          ${n.orcid?`<a href="https://orcid.org/${esc(n.orcid)}" target="_blank" rel="noopener">ORCID</a>`:""}</div>`;
+      card.hidden=false;document.body.classList.add("card-open");
+      card.scrollTop=0;
+      card.querySelector(".close").addEventListener("click",()=>{selected=null;setFocus(null);markActive(null);closeCard();drawOverlay();});
+      card.querySelectorAll(".people button").forEach(b=>b.addEventListener("click",()=>{const p=NODE_BY_ID.get(b.dataset.id);if(p) flyTo(p);}));
+    }
+    function closeCard(){card.hidden=true;document.body.classList.remove("card-open");}
 
     Graph.d3Force("charge").strength(-170);
     // Lineage pulls PI and trainees close; collaboration only loosely.
@@ -321,6 +444,7 @@
     });
     // ---------- search / ranking panel ----------
     const NODES=window.KOREA_BIO_MAP.nodes||[];
+    const NODE_BY_ID=new Map(NODES.map(n=>[n.id,n]));
     const uniName=u=>String(u||"").split(";")[0].trim().replace(/\b\w/g,c=>c.toUpperCase());
     const norm=v=>String(v||"").toLowerCase().replace(/\s+/g,"");
     NODES.forEach(n=>{
@@ -458,7 +582,7 @@
       document.getElementById("f-extra").replaceChildren(...Object.entries(EXTRA).map(([k,x])=>chip("extra",k,x.label,NODES.filter(x.test).length)));
       document.getElementById("legend").replaceChildren(...CATEGORY_ORDER.filter(v=>count("category",v)).map(v=>{
         const d=document.createElement("div");
-        d.innerHTML=`<span class="dot" style="background:${CATEGORY_COLORS[v]};color:${CATEGORY_COLORS[v]}"></span>${esc(v)}`;
+        d.innerHTML=`<span class="dot" style="background:${soften(CATEGORY_COLORS[v],.45)};color:${soften(CATEGORY_COLORS[v],.45)}"></span>${esc(v)}`;
         return d;
       }));
     }

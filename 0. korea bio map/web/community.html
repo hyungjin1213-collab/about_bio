@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About Bio 커뮤니티</title>
+  <style>
+    :root{--bg:#050816;--panel:rgba(255,255,255,.04);--line:rgba(255,255,255,.10);--text:#e8edf9;--muted:#93a0bf;--accent:#fbbf24}
+    *{box-sizing:border-box}
+    html,body{margin:0;background:radial-gradient(1200px 600px at 70% -10%,#13204a 0%,var(--bg) 60%) fixed;color:var(--text);font-family:Arial,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+    a{color:inherit}
+    header{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:22px;padding:14px 24px;background:rgba(5,8,22,.82);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+    .logo{font-weight:800;font-size:18px;text-decoration:none;letter-spacing:.01em}
+    .logo span{color:var(--accent)}
+    nav{display:flex;gap:4px;flex-wrap:wrap}
+    nav a{padding:7px 12px;border-radius:999px;text-decoration:none;font-size:14px;color:var(--muted)}
+    nav a.on{color:#111;background:var(--accent);font-weight:700}
+    nav a.soon{opacity:.55;cursor:default}
+    nav small{font-size:10px;margin-left:3px}
+    main{max-width:1080px;margin:0 auto;padding:28px 20px 60px}
+    .hero{padding:22px 0 8px}
+    .hero h1{margin:0 0 8px;font-size:28px}
+    .hero p{margin:0;color:var(--muted);line-height:1.6}
+    .layout{display:grid;grid-template-columns:260px 1fr;gap:20px;margin-top:24px}
+    .boards{display:flex;flex-direction:column;gap:6px}
+    .board{display:flex;align-items:flex-start;gap:10px;text-align:left;width:100%;background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:12px;padding:12px;cursor:pointer;font:inherit}
+    .board.on{border-color:var(--accent);background:rgba(251,191,36,.08)}
+    .board .ico{font-size:20px;line-height:1}
+    .board b{display:block;font-size:14px}
+    .board small{display:block;color:var(--muted);font-size:12px;margin-top:3px;line-height:1.4}
+    .feed{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;min-height:420px}
+    .feed-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px}
+    .feed-head h2{margin:0;font-size:20px}
+    .write{background:var(--accent);color:#111;border:0;border-radius:10px;padding:9px 14px;font-weight:700;cursor:pointer}
+    .write[disabled]{opacity:.45;cursor:not-allowed}
+    .post{padding:14px 2px;border-top:1px solid var(--line)}
+    .post:first-of-type{border-top:0}
+    .post b{font-size:15px}
+    .post .meta{color:var(--muted);font-size:12px;margin-top:4px}
+    .post p{margin:8px 0 0;color:#cbd5ee;font-size:14px;line-height:1.6}
+    .empty{color:var(--muted);text-align:center;padding:50px 10px;line-height:1.8}
+    .notice{background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.35);border-radius:12px;padding:12px 14px;color:#fde68a;font-size:13px;line-height:1.6;margin-bottom:14px}
+    .tomap{position:fixed;right:16px;bottom:16px;background:rgba(5,8,22,.85);border:1px solid var(--line);border-radius:999px;padding:10px 15px;text-decoration:none;font-size:13px;font-weight:700}
+    @media (max-width:760px){
+      header{gap:10px;padding:12px 14px;flex-wrap:wrap}
+      .layout{grid-template-columns:1fr}
+      .boards{flex-direction:row;overflow-x:auto;padding-bottom:4px}
+      .board{min-width:170px}
+      .hero h1{font-size:23px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="./index.html">About <span>Bio</span></a>
+    <nav>
+      <a href="./index.html">🌌 인맥 지도</a>
+      <a class="on" href="./community.html">💬 커뮤니티</a>
+      <a class="soon" aria-disabled="true">연구실 평가<small>준비 중</small></a>
+      <a class="soon" aria-disabled="true">채용 연구실<small>준비 중</small></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>바이오 연구자들의 이야기</h1>
+      <p>연구실 생활, 대학원 진학, 포닥·채용, 실험 기술까지.<br>인맥 지도에서 찾은 연구실에 대해 묻고, 아는 것을 나눠 주세요.</p>
+    </section>
+
+    <div class="layout">
+      <div class="boards" id="boards" role="tablist" aria-label="게시판"></div>
+      <section class="feed" aria-live="polite">
+        <div class="feed-head">
+          <h2 id="board-title"></h2>
+          <button class="write" id="write" disabled>글쓰기</button>
+        </div>
+        <div id="board-body"></div>
+      </section>
+    </div>
+  </main>
+  <a class="tomap" href="./index.html">🌌 지도로 돌아가기</a>
+
+  <script>
+    // Boards. Posting needs a backend; until one is configured (COMMUNITY_BACKEND)
+    // the page shows the structure and says the board opens soon.
+    const BOARDS=[
+      {id:"free",ico:"💬",name:"자유게시판",desc:"바이오 연구자들의 자유로운 이야기"},
+      {id:"lab",ico:"🔬",name:"연구실 · 교수 Q&A",desc:"연구실 분위기, 졸업 기간, 지도 스타일 질문"},
+      {id:"grad",ico:"🎓",name:"대학원 진학",desc:"컨택, 면접, 석박통합 고민"},
+      {id:"jobs",ico:"📢",name:"채용 · 포닥 모집",desc:"연구실 인력 모집, 포닥 자리, 기업 채용"},
+      {id:"tech",ico:"🧪",name:"실험 기술 Q&A",desc:"FACS, CRISPR, 오가노이드… 기술 질문"},
+      {id:"notice",ico:"📌",name:"공지",desc:"About Bio 소식과 업데이트"}
+    ];
+    // Official notices only (not user posts).
+    const NOTICES=[
+      {title:"About Bio 커뮤니티를 준비하고 있어요",date:"2026-10",
+       body:"지금은 게시판 구성을 먼저 공개했어요. 글쓰기는 곧 열립니다. 인맥 지도에서 연구실을 찾아보고, 연구실 정보(졸업 기간, 학생당 논문 수 등)를 알려주실 수 있다면 큰 도움이 돼요."}
+    ];
+    const COMMUNITY_BACKEND=null;   // e.g. a hosted board service, set when chosen
+
+    const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+    const boardsEl=document.getElementById("boards"),title=document.getElementById("board-title"),body=document.getElementById("board-body");
+    function show(id){
+      const b=BOARDS.find(x=>x.id===id)||BOARDS[0];
+      boardsEl.querySelectorAll(".board").forEach(x=>x.classList.toggle("on",x.dataset.id===b.id));
+      title.textContent=`${b.ico} ${b.name}`;
+      document.getElementById("write").disabled=!COMMUNITY_BACKEND||b.id==="notice";
+      if(b.id==="notice"){
+        body.innerHTML=NOTICES.map(n=>`<article class="post"><b>${esc(n.title)}</b><div class="meta">About Bio · ${esc(n.date)}</div><p>${esc(n.body)}</p></article>`).join("");
+      }else{
+        body.innerHTML=`${COMMUNITY_BACKEND?"":`<div class="notice">게시판은 곧 열려요. 지금은 구성만 미리 보여드리고 있어요.</div>`}
+          <div class="empty">아직 글이 없어요.<br>${esc(b.desc)}</div>`;
+      }
+      history.replaceState(null,"",`#${b.id}`);
+    }
+    BOARDS.forEach(b=>{
+      const el=document.createElement("button");
+      el.className="board";el.dataset.id=b.id;el.setAttribute("role","tab");
+      el.innerHTML=`<span class="ico">${b.ico}</span><span><b>${esc(b.name)}</b><small>${esc(b.desc)}</small></span>`;
+      el.addEventListener("click",()=>show(b.id));
+      boardsEl.append(el);
+    });
+    show(location.hash.slice(1)||"free");
+  </script>
+</body>
+</html>

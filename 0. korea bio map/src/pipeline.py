@@ -598,6 +598,8 @@ def export_web_data(nodes: pd.DataFrame, links: pd.DataFrame) -> None:
                 # 연구실정보 tab of the master Excel file (graduation time, papers per student ...)
                 "lab": labs.get(row.get("professor_id", ""), {}),
                 "orcid": row.get("orcid", ""),
+                # lab / faculty page (or OpenAlex profile) for the professor card
+                "url": row.get("source_url", "") if str(row.get("source_url", "")).startswith(("http://", "https://")) else "",
                 "openalex_id": (_openalex_ids(row.get("openalex_id", "")) or [""])[0],
                 "identity": row.get("identity_status", "") or "seed",
                 "score": _safe_int(row.get("network_score", 0)),

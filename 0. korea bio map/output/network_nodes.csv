@@ -1649,9 +1649,6 @@ P1712,,Haemin Chon,Hanmi Pharmaceutical,,Genetics,A5048938630,https://openalex.o
 P1713,,Jisook Kim,Hanmi Pharmaceutical,,Molecular Biology,A5102835527,https://openalex.org/A5102835527,0000-0001-7389-0778,openalex_institution,,3,0,0,0,0,3
 P1714,,Aran Park,Hanmi Pharmaceutical,,Genetics,A5061783995,https://openalex.org/A5061783995,,openalex_institution,,5,0,0,0,0,5
 P1715,,Eunhye Baek,Hanmi Pharmaceutical,,Oncology,A5111382250,https://openalex.org/A5111382250,,openalex_institution,,2,0,0,0,0,2
-P1716,,Se‐Woong Oh,Yuhan,,Molecular Biology,A5104110299,https://openalex.org/A5104110299,,openalex_institution,,1,0,0,0,0,1
-P1717,,Su Kyung Kim,Yuhan,,Immunology and Allergy,A5113913305,https://openalex.org/A5113913305,0000-0002-3204-1398,openalex_institution,,1,0,0,0,0,1
-P1718,,Eun‐Hee Doo,Yuhan,,Molecular Biology,A5007448124,https://openalex.org/A5007448124,0000-0002-3151-8967,openalex_institution,,0,0,0,0,0,0
 P1719,,Hye Young Ji,Daewoong Pharmaceutical,,Pharmacology,A5110041875,https://openalex.org/A5110041875,0009-0003-0280-5021,openalex_institution,,6,0,0,0,0,6
 P1720,,Hyun‐Woo Lim,Daewoong Pharmaceutical,,Food Science,A5029883520,https://openalex.org/A5029883520,0000-0001-6013-8106,openalex_institution,,1,0,0,0,0,1
 P1721,,Gwanyoung Kim,Daewoong Pharmaceutical,,Pharmaceutical Science,A5055083229,https://openalex.org/A5055083229,0009-0006-4528-2816,openalex_institution,,1,0,0,0,0,1
@@ -2122,7 +2119,7 @@ P2185,,Heeyoung Kim,Kosin University,,Pulmonary and Respiratory Medicine,A510071
 P2186,,Taeyun Kim,Kosin University,,Pulmonary and Respiratory Medicine,A5101503305,https://openalex.org/A5101503305,0000-0001-7786-5051,openalex_institution,,7,0,0,0,0,7
 P2187,,Jee‐Yeong Jeong,Kosin University,,Molecular Biology,A5045541544,https://openalex.org/A5045541544,0000-0001-9482-4526,openalex_institution,,8,0,0,0,0,8
 P2188,,Kyoung Seob Song,Kosin University,,Molecular Biology,A5089551393,https://openalex.org/A5089551393,0000-0003-1343-2163,openalex_institution,,10,0,0,0,0,10
-P2189,,Minyoung Jung,Kosin University,,Dermatology,A5068967377,https://openalex.org/A5068967377,0000-0003-2851-9480,openalex_institution,,7,0,0,0,0,7
+P2189,,Minyoung Jung,Kosin University,,Dermatology,A5068967377,https://openalex.org/A5068967377,0000-0003-2851-9480,openalex_institution,,6,0,0,0,0,6
 P2190,,Bong‐Joon Kim,Kosin University,,Cardiology and Cardiovascular Medicine,A5032934840,https://openalex.org/A5032934840,0000-0002-5435-7449,openalex_institution,,3,0,0,0,0,3
 P2191,,Yunkyung Kim,Kosin University,,Rheumatology,A5056517357,https://openalex.org/A5056517357,0000-0003-0393-7264,openalex_institution,,0,0,0,0,0,0
 P2192,,Jong Bin Park,Kosin University,,Dermatology,A5026406544,https://openalex.org/A5026406544,0000-0002-3547-421X,openalex_institution,,2,0,1,0,0,3
@@ -2480,7 +2477,7 @@ P2543,,Dong Soo Lee,POSTECH,,"Radiology, Nuclear Medicine and Imaging",A51004363
 P2544,,Young Chul Sung,POSTECH,,Immunology,A5088163862,https://openalex.org/A5088163862,0000-0003-2726-907X,openalex_institution,,13,1,0,0,0,23
 P2545,,Sin‐Hyeog Im,POSTECH,,Immunology,A5018682015,https://openalex.org/A5018682015,0000-0002-3173-1856,openalex_institution,,17,0,0,0,0,17
 P2546,,Ki Hean Kim,POSTECH,,Biophysics,A5003825516,https://openalex.org/A5003825516,0000-0003-3410-7706,openalex_institution,,17,0,0,0,0,17
-P2547,,Ju Young Park,POSTECH,,Biomedical Engineering,A5089743772,https://openalex.org/A5089743772,0000-0002-5896-0958,openalex_institution,,8,0,0,0,0,8
+P2547,,Ju Young Park,POSTECH,,Biomedical Engineering,A5089743772,https://openalex.org/A5089743772,0000-0002-5896-0958,openalex_institution,,7,0,0,0,0,7
 P2548,,Jongmin Kim,POSTECH,,Molecular Biology,A5100334905,https://openalex.org/A5100334905,0000-0002-2713-1006,openalex_institution,,5,0,0,0,0,5
 P2549,,Tae-Kyung Kim,POSTECH,,Molecular Biology,A5068518101,https://openalex.org/A5068518101,0000-0001-5161-9864,openalex_institution,,8,0,0,0,0,8
 P2550,,Steve Park,POSTECH,,Biomedical Engineering,A5088241881,https://openalex.org/A5088241881,0000-0002-1428-592X,openalex_institution,,16,0,0,0,0,16

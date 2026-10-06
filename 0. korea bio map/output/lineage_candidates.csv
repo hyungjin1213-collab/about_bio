@@ -1,4 +1,4 @@
-﻿professor_a_id,a_name,professor_b_id,b_name,relationship_type,evidence_papers,b_first_year,years,b_institution,example_title,evidence_url,status
+professor_a_id,a_name,professor_b_id,b_name,relationship_type,evidence_papers,b_first_year,years,b_institution,example_title,evidence_url,status
 P2470,Jin Won Hyun,P2492,Kyoung Ah Kang,advisor_student,33,2005,2005-2010,Jeju National University,Antioxidant activity of ethanol extract of Callophyllis japonica,https://doi.org/10.1002/ptr.1692,auto
 P0212,오경수,P0207,김훈영,postdoc_mentor,20,2005,2011-2016,Indiana University – Purdue University Indianapolis,Highly Diastereo- and Enantioselective Aldol Reaction of Methyl α-Isocyanoacetate: A Cooperative Catalysis Approach,https://doi.org/10.1021/ol103104y,auto
 P2179,Kee Suck Suh,P2184,Min Soo Jang,advisor_student,15,2011,2011-2016,Kosin University,Epithelioid cell histiocytoma: Broad differential diagnostic considerations,https://doi.org/10.1111/j.1346-8138.2011.01429.x,auto

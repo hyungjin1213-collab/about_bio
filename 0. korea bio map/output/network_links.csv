@@ -6759,8 +6759,6 @@ AUTO006757,P1710,P2225,collaboration,2,,auto,OpenAlex coauthorship between confi
 AUTO006758,P1710,P2590,collaboration,12,,auto,OpenAlex coauthorship between confirmed professors,2.389,2014,2024,P1710,P2590
 AUTO006759,P1710,P2605,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.21,2018,2024,P1710,P2605
 AUTO006760,P1711,P1714,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.313,2025,2026,P1711,P1714
-AUTO006761,P1716,P2547,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.115,2019,2022,P1716,P2547
-AUTO006762,P1717,P2189,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,0.297,2021,2023,P1717,P2189
 AUTO006763,P1719,P2412,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.081,2003,2009,P1719,P2412
 AUTO006764,P1721,P1724,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,0.497,2025,2026,P1721,P1724
 AUTO006765,P1723,P2275,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.286,2017,2023,P1723,P2275

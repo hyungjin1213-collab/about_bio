@@ -147,3 +147,10 @@ def test_companies_are_targets_with_lower_bars():
     assert idisc.is_pi_like(scientist, 2026, "company")[0]
     assert not idisc.is_pi_like(scientist, 2026, "institute")[0]
     assert idisc.same_organisation("Celltrion", "Celltrion (South Korea)")
+
+
+def test_company_does_not_match_same_name_university():
+    client = FakeOpenAlex({"Yuhan": [
+        {"id": "https://openalex.org/I1", "display_name": "Yuhan University", "type": "education"},
+        {"id": "https://openalex.org/I2", "display_name": "Yuhan (South Korea)", "type": "company"}]}, [])
+    assert [i["id"][-2:] for i in idisc.find_institutions(client, "Yuhan", "company")] == ["I2"]

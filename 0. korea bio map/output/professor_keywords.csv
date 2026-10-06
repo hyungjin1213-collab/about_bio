@@ -1,4 +1,4 @@
-﻿professor_id,kind,rank,term,term_en,score
+professor_id,kind,rank,term,term_en,score
 P1989,keyword,1,cerebrovascular reactivity,cerebrovascular reactivity,10.519
 P1989,keyword,2,acute ischemic stroke,acute ischemic stroke,8.565
 P1989,keyword,3,Cerebrovascular Circulation,Cerebrovascular Circulation,7.732
@@ -6127,18 +6127,6 @@ P1506,technique,2,전기생리,Electrophysiology,1.74
 P1506,technique,3,질량분석,Mass Spectrometry,1.399
 P1506,technique,4,줄기세포·iPSC,Stem Cells / iPSC,1.375
 P1506,technique,5,대사체·지질체,Metabolomics / Lipidomics,1.26
-P1718,keyword,1,neurological health,neurological health,6.247
-P1718,keyword,2,skeletal health,skeletal health,5.068
-P1718,keyword,3,health risks,health risks,4.705
-P1718,keyword,4,mineral retention,mineral retention,4.473
-P1718,keyword,5,oven baking,oven baking,4.428
-P1718,keyword,6,yeast extract,yeast extract,4.366
-P1718,keyword,7,mung bean sprouts,mung bean sprouts,3.89
-P1718,keyword,8,gut health,gut health,3.825
-P1718,keyword,9,baking methods,baking methods,3.738
-P1718,keyword,10,health benefits,health benefits,3.588
-P1718,keyword,11,sustainable diets,sustainable diets,3.586
-P1718,keyword,12,dietary nucleotides,dietary nucleotides,3.478
 P1723,keyword,1,microtubule acetylation,microtubule acetylation,4.683
 P1723,keyword,2,breast cancer progression,breast cancer progression,4.013
 P1723,keyword,3,tumor-stroma interactions,tumor-stroma interactions,2.937
@@ -18033,18 +18021,6 @@ P0018,technique,1,RNA-seq·전사체,RNA-seq / Transcriptomics,0.482
 P0018,technique,2,MRI·PET 영상,MRI / PET Imaging,0.349
 P0018,technique,3,질량분석,Mass Spectrometry,0.252
 P0018,technique,4,대사체·지질체,Metabolomics / Lipidomics,0.175
-P1717,keyword,1,VCA IgM,VCA IgM,2.818
-P1717,keyword,2,omalizumab,omalizumab,2.748
-P1717,keyword,3,pharmacodynamics,pharmacodynamics,2.543
-P1717,keyword,4,safety and tolerability,safety and tolerability,2.467
-P1717,keyword,5,fistulectomy,fistulectomy,2.355
-P1717,keyword,6,VCA IgG,VCA IgG,2.355
-P1717,keyword,7,IgE-mediated allergic diseases,IgE-mediated allergic diseases,2.182
-P1717,keyword,8,pulmonary sequestration,pulmonary sequestration,2.181
-P1717,keyword,9,food allergy,food allergy,2.026
-P1717,keyword,10,esophagobronchial fistula,esophagobronchial fistula,1.961
-P1717,keyword,11,tracheoesophageal fistula,tracheoesophageal fistula,1.772
-P1717,keyword,12,esophageal repair,esophageal repair,1.68
 P2046,keyword,1,School Nursing,School Nursing,10.615
 P2046,keyword,2,LH pulse frequency,LH pulse frequency,8.49
 P2046,keyword,3,"Diabetes Mellitus, Type 1","Diabetes Mellitus, Type 1",7.469
@@ -25621,19 +25597,6 @@ P2056,keyword,12,acute coronary syndrome,acute coronary syndrome,9.922
 P2056,technique,1,MRI·PET 영상,MRI / PET Imaging,1.467
 P2056,technique,2,머신러닝·AI,Machine Learning / AI,0.69
 P2056,technique,3,임상시험,Clinical Trials,0.225
-P1716,keyword,1,RET receptor,RET receptor,6.59
-P1716,keyword,2,intracranial activity,intracranial activity,6.179
-P1716,keyword,3,GFRAL,GFRAL,5.752
-P1716,keyword,4,GDF15,GDF15,5.295
-P1716,keyword,5,Growth Differentiation Factor 15,Growth Differentiation Factor 15,4.81
-P1716,keyword,6,CD137 (4-1BB),CD137 (4-1BB),3.919
-P1716,keyword,7,ob/ob mice,ob/ob mice,3.843
-P1716,keyword,8,IFN-gamma secretion,IFN-gamma secretion,2.869
-P1716,keyword,9,cynomolgus monkey toxicity,cynomolgus monkey toxicity,2.688
-P1716,keyword,10,brain metastases,brain metastases,2.649
-P1716,keyword,11,dose range finding,dose range finding,2.377
-P1716,keyword,12,Fc fusion protein,Fc fusion protein,2.24
-P1716,technique,1,항체 개발,Antibody Engineering,1.683
 P1324,keyword,1,glycyrrhizin,glycyrrhizin,37.836
 P1324,keyword,2,liquiritin,liquiritin,32.551
 P1324,keyword,3,simultaneous determination,simultaneous determination,32.37

@@ -89,11 +89,17 @@ def targets(universities: pd.DataFrame, discovery_log: pd.DataFrame, done: set[s
     return out
 
 
-def find_institutions(client: OpenAlexClient, name: str) -> list[dict]:
+def find_institutions(client: OpenAlexClient, name: str, org_type: str = "") -> list[dict]:
     """OpenAlex institutions that are this organisation or its hospital / medical centre (max 3)."""
     data = client._get("institutions", {"search": name, "filter": "country_code:KR", "per-page": 15})
     hits = [i for i in data.get("results", []) or []
             if str(i.get("country_code", "KR")).upper() == "KR" and same_organisation(name, i.get("display_name", ""))]
+    if org_type == "company":
+        # "university" is not a distinguishing word for same_organisation, so a
+        # company would also match a university of the same name (Yuhan ->
+        # Yuhan University).
+        hits = [i for i in hits if str(i.get("type", "company")) == "company"
+                and "university" not in str(i.get("display_name", "")).casefold()]
     return hits[:3]
 
 
@@ -228,7 +234,7 @@ def discover_by_institution(client: OpenAlexClient | None = None, now_year: int 
         name = t["university"]
         print(f"[institution] {name}", flush=True)
         try:
-            insts = find_institutions(client, name)
+            insts = find_institutions(client, name, t["org_type"])
             bar = THRESHOLDS.get(t["org_type"], THRESHOLDS["default"])
             candidates, seen = _authors_at(client, insts, bar["works"]) if insts else ([], 0)
         except OpenAlexUnavailable as exc:

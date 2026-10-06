@@ -164,6 +164,17 @@ P0003,P0201,advisor_student,no,공동연구일 뿐
 - 하루 20곳씩(`INSTITUTION_DISCOVERY_LIMIT`), 기관당 최대 60명. 처리한 곳은 `data/institution_discovery_log.csv`.
 - 이미 있는 사람(같은 OpenAlex ID / ORCID / 같은 기관의 같은 이름)과 `identity_rejections.csv`는 건너뛴다.
 
+## 한글 이름 채우기
+
+OpenAlex로 들어온 연구자는 영문 이름뿐이다. 로마자를 한글로 되돌리는 건 추측이 되므로(Jiwon → 지원/지운…) 하지 않고,
+**그 사람의 한글 이름이 실제로 적혀 있는 곳**에서만 가져온다 (`src/korean_names.py`, 매 실행):
+
+1. 크롤링한 교수진 목록 (같은 OpenAlex ID, 또는 같은 기관에서 로마자가 맞는 이름이 하나뿐일 때)
+2. OpenAlex 저자의 다른 표기(`display_name_alternatives`)에 있는 한글 이름 (50명씩 묶어 조회)
+3. ORCID 기록의 다른 이름 / 표시 이름 (실행당 300명)
+
+한글 이름의 로마자가 영문 이름과 맞아야 하고, 후보가 둘 이상이면 비워 둔다. 채운 내역은 `output/korean_name_fills.csv`.
+
 ## 연구소
 
 - `data/universities_seed.csv`에 `org_type=institute`로 14곳 추가: KIST, 생명연, 화학연, IBS, 뇌연구원,

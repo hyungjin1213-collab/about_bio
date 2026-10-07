@@ -1507,8 +1507,8 @@ window.KOREA_BIO_MAP = {
       "url": "http://molpathlab.snu.ac.kr",
       "openalex_id": "A5002243126",
       "identity": "verified",
-      "score": 36,
-      "collaborator_count": 26,
+      "score": 35,
+      "collaborator_count": 25,
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -2066,8 +2066,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Wip1",
         "histone H2AX",
-        "dephosphorylation",
         "pluripotent stem cells",
+        "dephosphorylation",
         "human pluripotent stem cells",
         "naive pluripotency",
         "DNA damage response",
@@ -2422,8 +2422,8 @@ window.KOREA_BIO_MAP = {
       "url": "http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=63&sc=y",
       "openalex_id": "A5058387827",
       "identity": "verified",
-      "score": 20,
-      "collaborator_count": 20,
+      "score": 21,
+      "collaborator_count": 21,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -3262,7 +3262,7 @@ window.KOREA_BIO_MAP = {
         "salinosporamide A",
         "Oxazolidinones",
         "α-amino acids",
-        "contiguous stereocenters"
+        "bioisosteres"
       ],
       "techniques": [
         "분자도킹·시뮬레이션",
@@ -3419,8 +3419,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Astrocytes",
         "Monoamine Oxidase",
-        "gliosis",
         "astrocyte activation",
+        "gliosis",
         "Alzheimer Disease",
         "PD-1/PD-L1 blockade",
         "tau phosphorylation",
@@ -3465,8 +3465,8 @@ window.KOREA_BIO_MAP = {
         "Syringes",
         "Protein Aggregates",
         "Calorimetry, Differential Scanning",
-        "etanercept",
         "drug stability",
+        "etanercept",
         "silicone oil"
       ],
       "techniques": [
@@ -3509,9 +3509,9 @@ window.KOREA_BIO_MAP = {
         "HIF-2α",
         "tamoxifen resistance",
         "Amino Acid Transport System ASC",
-        "SLC1A5",
+        "ferroptosis",
         "metabolic reprogramming",
-        "ferroptosis"
+        "cysteine deficiency"
       ],
       "techniques": [
         "면역조직화학",
@@ -3524,8 +3524,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://pharmacy.yonsei.ac.kr/faculty/name_search.do?mode=view&userId=gq%2FL4c4KdYkPhh77oMSQmA%3D%3D&sosokcd=",
       "openalex_id": "A5056812442",
       "identity": "verified",
-      "score": 5,
-      "collaborator_count": 5,
+      "score": 6,
+      "collaborator_count": 6,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -3758,8 +3758,8 @@ window.KOREA_BIO_MAP = {
       "position": "교수",
       "keywords": [
         "empagliflozin",
-        "SGLT2 inhibitors",
         "dapagliflozin",
+        "SGLT2 inhibitors",
         "Sodium-Glucose Transporter 2 Inhibitors",
         "ischemic cardiovascular events",
         "misinformation detection",
@@ -3919,8 +3919,8 @@ window.KOREA_BIO_MAP = {
         "xenogeneic immune response",
         "T cell-dependent immunity",
         "Tec family tyrosine kinases",
-        "antiviral immunity",
         "humoral immune response",
+        "antiviral immunity",
         "Toxicity Tests, Chronic",
         "xenotransplantation",
         "TCF1"
@@ -4213,7 +4213,7 @@ window.KOREA_BIO_MAP = {
       "name": "황지수",
       "name_en": "Jisoo Hwang",
       "university": "Seoul National University",
-      "field": "",
+      "field": "Economics and Econometrics",
       "category": "유전체·생물정보",
       "region": "서울",
       "home_sector": "학",
@@ -4662,11 +4662,11 @@ window.KOREA_BIO_MAP = {
       "url": "http://bio.skku.edu/bbs/board.php?bo_table=F1&wr_id=72",
       "openalex_id": "A5039577998",
       "identity": "verified",
-      "score": 5,
-      "collaborator_count": 5,
+      "score": 7,
+      "collaborator_count": 6,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
-      "advisor_count": 0,
+      "advisor_count": 1,
       "postdoc_mentor_count": 0
     },
     {
@@ -4736,8 +4736,8 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [
         "RNA-seq·전사체",
-        "단일세포 분석",
         "오가노이드",
+        "단일세포 분석",
         "차세대 시퀀싱(NGS)",
         "줄기세포·iPSC"
       ],
@@ -4835,8 +4835,8 @@ window.KOREA_BIO_MAP = {
       "url": "http://bio.skku.edu/bbs/board.php?bo_table=F1&wr_id=60",
       "openalex_id": "A5009660139",
       "identity": "verified",
-      "score": 0,
-      "collaborator_count": 0,
+      "score": 1,
+      "collaborator_count": 1,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -4948,7 +4948,7 @@ window.KOREA_BIO_MAP = {
         "pilus assembly",
         "antibiotic potentiation",
         "Secretin",
-        "N-Acetylmuramoyl-L-alanine Amidase"
+        "Peptidoglycan"
       ],
       "techniques": [],
       "department": "Faculty 1 페이지",
@@ -4982,8 +4982,8 @@ window.KOREA_BIO_MAP = {
         "Synthetic Biology",
         "Escherichia coli",
         "minimal genome",
-        "gene essentiality",
         "Gene Expression Regulation, Bacterial",
+        "gene essentiality",
         "adaptive laboratory evolution",
         "Escherichia coli Proteins",
         "Genome, Bacterial"
@@ -5304,8 +5304,8 @@ window.KOREA_BIO_MAP = {
         "TSG-6",
         "Protein Serine-Threonine Kinases",
         "Cell Cycle Proteins",
-        "PLK1 inhibitors",
         "Pteridines",
+        "PLK1 inhibitors",
         "Proto-Oncogene Proteins"
       ],
       "techniques": [
@@ -5344,8 +5344,8 @@ window.KOREA_BIO_MAP = {
       "position": "교수",
       "keywords": [
         "poorly water-soluble drugs",
-        "Biological Availability",
         "oral bioavailability",
+        "Biological Availability",
         "Solubility",
         "spray drying",
         "drug solubility enhancement",
@@ -5543,8 +5543,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Parkinson's disease",
         "alpha-synuclein aggregation",
-        "cell therapy",
         "FGF8",
+        "cell therapy",
         "alpha-Synuclein",
         "endometrial stem cells",
         "Lewy bodies",
@@ -5719,8 +5719,8 @@ window.KOREA_BIO_MAP = {
       "position": "교수",
       "keywords": [
         "cIAP1",
-        "Fragile X Messenger Ribonucleoprotein 1",
         "Fragile X Mental Retardation Protein",
+        "Fragile X Messenger Ribonucleoprotein 1",
         "CHIP",
         "Ubiquitin-Protein Ligases",
         "ADAR2",
@@ -6049,8 +6049,8 @@ window.KOREA_BIO_MAP = {
         "Embryo, Nonmammalian",
         "single-minded",
         "Gene Expression Regulation, Developmental",
-        "Zelda",
-        "transcription bubble"
+        "transcription bubble",
+        "enhancer binding sites"
       ],
       "techniques": [
         "초파리",
@@ -6195,8 +6195,8 @@ window.KOREA_BIO_MAP = {
       "techniques": [
         "나노입자·약물전달",
         "분자도킹·시뮬레이션",
-        "줄기세포·iPSC",
         "qPCR",
+        "줄기세포·iPSC",
         "대사체·지질체"
       ],
       "department": "융합바이오·신소재공학과; 한방생명공학과",
@@ -6205,8 +6205,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://khu.elsevierpure.com/en/persons/tae-hoo-yi",
       "openalex_id": "A5043673106",
       "identity": "verified",
-      "score": 7,
-      "collaborator_count": 7,
+      "score": 6,
+      "collaborator_count": 6,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -6274,8 +6274,8 @@ window.KOREA_BIO_MAP = {
         "lithium bromide aqueous solution",
         "recyclable adsorbent",
         "methylene blue adsorption",
-        "Cellulose",
         "periodate oxidation",
+        "Cellulose",
         "amino group content"
       ],
       "techniques": [
@@ -7574,8 +7574,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "FOXL2",
         "Forkhead Box Protein L2",
-        "Granulosa Cells",
         "DNA End-Joining Repair",
+        "Granulosa Cells",
         "Mcl-1",
         "Ku complex",
         "adult granulosa cell tumor",
@@ -7954,8 +7954,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Lupus Erythematosus, Systemic",
         "systemic lupus erythematosus",
-        "hydroxychloroquine",
         "Pregnancy Outcome",
+        "hydroxychloroquine",
         "Antirheumatic Agents",
         "older adults",
         "chronic pain",
@@ -8087,8 +8087,8 @@ window.KOREA_BIO_MAP = {
         "cilengitide",
         "Muscle, Skeletal",
         "high-fat diet",
-        "adipogenesis",
-        "integrin αvβ5"
+        "integrin αvβ5",
+        "adipogenesis"
       ],
       "techniques": [
         "유전자변형 마우스",
@@ -8133,7 +8133,7 @@ window.KOREA_BIO_MAP = {
         "Listeria monocytogenes",
         "probiotics",
         "conjugated linoleic acid",
-        "Isomerases"
+        "two-peptide bacteriocin"
       ],
       "techniques": [
         "나노입자·약물전달"
@@ -8922,8 +8922,8 @@ window.KOREA_BIO_MAP = {
         "aliphatic glucosinolates",
         "floral induction",
         "Gene Expression Regulation, Plant",
-        "Chinese cabbage",
-        "glucosinolate biosynthesis"
+        "glucosinolate biosynthesis",
+        "Chinese cabbage"
       ],
       "techniques": [
         "애기장대·식물 모델",
@@ -9059,8 +9059,8 @@ window.KOREA_BIO_MAP = {
       "techniques": [
         "엑소좀·세포외소포",
         "조직공학·바이오프린팅",
-        "줄기세포·iPSC",
         "미세유체·장기칩",
+        "줄기세포·iPSC",
         "하이드로젤·스캐폴드"
       ],
       "department": "시스템생명공학과",
@@ -11516,7 +11516,7 @@ window.KOREA_BIO_MAP = {
       "name": "강유진",
       "name_en": "Yoojin Kang",
       "university": "Kookmin University",
-      "field": "",
+      "field": "Ecology",
       "category": "농생명·식품·생태",
       "region": "서울",
       "home_sector": "학",
@@ -11715,8 +11715,8 @@ window.KOREA_BIO_MAP = {
         "xylooligosaccharides",
         "xylobiose",
         "dose-dependent effects",
-        "sucrose",
         "Dietary Fiber",
+        "sucrose",
         "sugar consumption"
       ],
       "techniques": [],
@@ -11906,7 +11906,7 @@ window.KOREA_BIO_MAP = {
       "name": "강제원",
       "name_en": "Kang Je-Won",
       "university": "Ewha Womans University",
-      "field": "",
+      "field": "Computer Graphics and Computer-Aided Design",
       "category": "임상의학",
       "region": "서울",
       "home_sector": "학",
@@ -12697,13 +12697,13 @@ window.KOREA_BIO_MAP = {
       "position": "교수",
       "keywords": [
         "recurrent ovarian cancer",
+        "recurrent endometrial cancer",
+        "advanced endometrial cancer",
         "early-stage cervical cancer",
         "Radiation Oncologists",
         "Ovarian Neoplasms",
         "low-risk endometrial cancer",
-        "serous tubal intraepithelial carcinoma",
-        "quality control program",
-        "loop electrosurgical excision procedure"
+        "serous tubal intraepithelial carcinoma"
       ],
       "techniques": [
         "MRI·PET 영상",
@@ -13792,7 +13792,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "lymphedema",
         "tissue dielectric constant",
-        "lymphography",
+        "Lymphography",
         "Low-Level Light Therapy",
         "Hemiarthroplasty",
         "Gait Analysis",
@@ -14039,8 +14039,8 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [
         "MRI·PET 영상",
-        "임상시험",
         "GWAS·유전역학",
+        "임상시험",
         "항체 개발",
         "RNA 치료제·siRNA"
       ],
@@ -14704,7 +14704,7 @@ window.KOREA_BIO_MAP = {
         "Fracture Fixation, Internal",
         "Hip Prosthesis",
         "Osteoporotic Fractures",
-        "ceramic-on-ceramic bearings"
+        "periprosthetic joint infection"
       ],
       "techniques": [
         "임상시험",
@@ -14748,7 +14748,7 @@ window.KOREA_BIO_MAP = {
         "Brain",
         "trauma exposure",
         "Neural Pathways",
-        "Prefrontal Cortex"
+        "Cognition"
       ],
       "techniques": [
         "MRI·PET 영상",
@@ -14762,8 +14762,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=EaPrOGq4I7uodWzxDIfxNA%3D%3D",
       "openalex_id": "A5026755638",
       "identity": "verified",
-      "score": 5,
-      "collaborator_count": 5,
+      "score": 4,
+      "collaborator_count": 4,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -15392,8 +15392,8 @@ window.KOREA_BIO_MAP = {
         "thrombectomy",
         "oral health",
         "toothbrushing",
-        "tooth loss",
         "Stroke",
+        "tooth loss",
         "Endovascular Procedures",
         "oral hygiene"
       ],
@@ -15756,10 +15756,10 @@ window.KOREA_BIO_MAP = {
         "SNOMED CT",
         "psychiatric outpatient visits",
         "trigeminal neuralgia",
+        "Terminology as Topic",
         "Multi-Institutional Systems",
         "angular deformity",
-        "psychiatric comorbidity",
-        "clinical terminology standardization"
+        "psychiatric comorbidity"
       ],
       "techniques": [],
       "department": "의과대학",
@@ -16382,8 +16382,8 @@ window.KOREA_BIO_MAP = {
         "Chlorthalidone",
         "cardiovascular-kidney-metabolic syndrome",
         "Amlodipine",
-        "resistant hypertension",
         "Antihypertensive Agents",
+        "resistant hypertension",
         "essential hypertension"
       ],
       "techniques": [
@@ -16552,7 +16552,7 @@ window.KOREA_BIO_MAP = {
         "Influenza Vaccines",
         "internal ribosome entry site",
         "Lymphocytic choriomeningitis virus",
-        "NOD mice"
+        "Internal Ribosome Entry Sites"
       ],
       "techniques": [
         "RNA-seq·전사체",
@@ -16648,8 +16648,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=Vrp3KfRhIraOS8odmINGWQ%3D%3D",
       "openalex_id": "A5030591928",
       "identity": "verified",
-      "score": 10,
-      "collaborator_count": 10,
+      "score": 9,
+      "collaborator_count": 9,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -17076,9 +17076,9 @@ window.KOREA_BIO_MAP = {
         "Esterification",
         "bioavailability",
         "oil-in-water emulsions",
+        "fatty acid esterification",
         "antioxidant activity",
-        "oxygen solubility",
-        "fatty acid esterification"
+        "oxygen solubility"
       ],
       "techniques": [
         "질량분석"
@@ -17270,7 +17270,7 @@ window.KOREA_BIO_MAP = {
         "rosacea",
         "corticotropin-releasing factor",
         "Gene Products, tat",
-        "TAT protein transduction domain"
+        "Hair Follicle"
       ],
       "techniques": [
         "RNA 치료제·siRNA",
@@ -17449,7 +17449,7 @@ window.KOREA_BIO_MAP = {
         "하이드로젤·스캐폴드",
         "줄기세포·iPSC",
         "나노입자·약물전달",
-        "유전자변형 마우스"
+        "RNA 치료제·siRNA"
       ],
       "department": "생명과학대학",
       "lab": {},
@@ -17789,8 +17789,8 @@ window.KOREA_BIO_MAP = {
         "ethanol-induced gastric injury",
         "silkworm powder",
         "Diethylnitrosamine",
-        "Kelch-Like ECH-Associated Protein 1",
-        "climate-resilient breeding"
+        "Colitis-Associated Neoplasms",
+        "Kelch-Like ECH-Associated Protein 1"
       ],
       "techniques": [
         "유전자변형 마우스",
@@ -18902,8 +18902,8 @@ window.KOREA_BIO_MAP = {
         "human rights",
         "secondary infertility",
         "Health Personnel",
-        "psychiatric hospitals",
-        "primary infertility"
+        "primary infertility",
+        "psychiatric hospitals"
       ],
       "techniques": [],
       "department": "의예과",
@@ -19020,9 +19020,9 @@ window.KOREA_BIO_MAP = {
       "university_ko": "을지대학교",
       "position": "교수",
       "keywords": [
-        "caloric restriction mimetics",
         "CNS homeostasis",
         "astrocyte-neuron crosstalk",
+        "caloric restriction mimetics",
         "cytochrome c oxidase subunit IV",
         "Central Nervous System",
         "trimethyltin",
@@ -19065,7 +19065,7 @@ window.KOREA_BIO_MAP = {
         "photothrombotic stroke",
         "NLR Family, Pyrin Domain-Containing 3 Protein",
         "Brain Injuries",
-        "inflammasome priming"
+        "Polylactic Acid-Polyglycolic Acid Copolymer"
       ],
       "techniques": [
         "나노입자·약물전달",
@@ -19184,12 +19184,12 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Cancellous Bone",
         "TotalSegmentator",
+        "presepsin",
         "vertebral trabecular bone",
+        "soluble CD14",
         "brain atrophy",
-        "amyloid PET",
-        "Fluorodeoxyglucose F18",
-        "Radiopharmaceuticals",
-        "mild cognitive impairment"
+        "fungemia",
+        "amyloid PET"
       ],
       "techniques": [
         "MRI·PET 영상"
@@ -20013,8 +20013,8 @@ window.KOREA_BIO_MAP = {
         "melanocyte stem cells",
         "melanoma initiation",
         "genetically engineered mouse models",
-        "phenotypic plasticity",
         "TET2",
+        "phenotypic plasticity",
         "PI3K signaling",
         "CDK4",
         "JAK/STAT signaling"
@@ -20412,8 +20412,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "radish",
         "fruit yield",
-        "fruit set",
         "fruit size",
+        "fruit set",
         "heat stress",
         "tomato",
         "heat tolerance",
@@ -23281,9 +23281,9 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Urinary Bladder Neoplasms",
         "BCG Vaccine",
+        "alpha-defensins",
         "stone location",
         "percutaneous nephrostomy",
-        "alpha-defensins",
         "Non-Muscle Invasive Bladder Neoplasms",
         "non-muscle-invasive bladder cancer",
         "ginseng polysaccharides"
@@ -23368,8 +23368,8 @@ window.KOREA_BIO_MAP = {
         "renal angiomyolipoma",
         "Drug Resistance, Bacterial",
         "retroperitoneal hemorrhage",
-        "NIH-CPSI",
         "Macrolides",
+        "NIH-CPSI",
         "prophylactic embolization"
       ],
       "techniques": [],
@@ -23980,8 +23980,8 @@ window.KOREA_BIO_MAP = {
       "position": "부교수",
       "keywords": [
         "long-term potentiation and depression",
-        "artificial synapses",
         "neuromorphic computing",
+        "artificial synapses",
         "paired-pulse facilitation",
         "neuromorphic hardware",
         "ion retention",
@@ -24754,7 +24754,7 @@ window.KOREA_BIO_MAP = {
         "STAT6 Transcription Factor",
         "BCL2L13",
         "Myeloid-Lymphoid Leukemia Protein",
-        "Gene Expression Regulation, Leukemic"
+        "SGPP1"
       ],
       "techniques": [
         "RNA-seq·전사체",
@@ -25359,8 +25359,8 @@ window.KOREA_BIO_MAP = {
       "position": "교수",
       "keywords": [
         "chlorosulfonyl isocyanate",
-        "cellulose nanofibers",
         "microfibrillated cellulose",
+        "cellulose nanofibers",
         "Gelidium amansii",
         "Cellulose",
         "probiotics",
@@ -25551,8 +25551,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://snupharm.snu.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84/",
       "openalex_id": "A5102934767",
       "identity": "verified",
-      "score": 17,
-      "collaborator_count": 17,
+      "score": 16,
+      "collaborator_count": 16,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -25830,8 +25830,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://sparklab.snu.ac.kr/",
       "openalex_id": "A5028979905",
       "identity": "verified",
-      "score": 17,
-      "collaborator_count": 17,
+      "score": 18,
+      "collaborator_count": 18,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -26039,30 +26039,16 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
-      "keywords": [
-        "Chaperone-Mediated Autophagy",
-        "LAMP2A",
-        "hepatic lipid metabolism",
-        "hepatic steatosis",
-        "Autophagy",
-        "Glycine Hydroxymethyltransferase",
-        "Hepatocytes",
-        "historical and cultural resources"
-      ],
-      "techniques": [
-        "유전자변형 마우스",
-        "웨스턴블롯",
-        "RNA-seq·전사체",
-        "면역조직화학"
-      ],
+      "keywords": [],
+      "techniques": [],
       "department": "College of Pharmacy",
       "lab": {},
       "orcid": "",
       "url": "https://bhlee.snu.ac.kr/",
-      "openalex_id": "A5101402393",
+      "openalex_id": "",
       "identity": "seed",
-      "score": 5,
-      "collaborator_count": 5,
+      "score": 0,
+      "collaborator_count": 0,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -26084,8 +26070,8 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "antiproliferative activity",
-        "G0/G1 cell cycle arrest",
         "apoptosis",
+        "G0/G1 cell cycle arrest",
         "Antineoplastic Agents",
         "gemcitabine resistance",
         "Streptomyces",
@@ -26105,8 +26091,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://skleelab.wordpress.com/",
       "openalex_id": "A5033086793",
       "identity": "verified",
-      "score": 39,
-      "collaborator_count": 39,
+      "score": 40,
+      "collaborator_count": 40,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -26170,16 +26156,31 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
-      "keywords": [],
-      "techniques": [],
+      "keywords": [
+        "CL316,243",
+        "adipocyte progenitors",
+        "Adipocytes",
+        "gonadal white adipose tissue",
+        "Adipose Tissue, Brown",
+        "ALOX15",
+        "beta3-adrenergic receptor",
+        "Arachidonate 15-Lipoxygenase"
+      ],
+      "techniques": [
+        "유전자변형 마우스",
+        "RNA-seq·전사체",
+        "면역조직화학",
+        "유세포분석",
+        "대사체·지질체"
+      ],
       "department": "College of Pharmacy",
       "lab": {},
       "orcid": "",
       "url": "https://yhllab.snu.ac.kr/",
-      "openalex_id": "",
+      "openalex_id": "A5101688100",
       "identity": "seed",
-      "score": 0,
-      "collaborator_count": 0,
+      "score": 2,
+      "collaborator_count": 2,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -26525,8 +26526,8 @@ window.KOREA_BIO_MAP = {
       "url": "http://molcelltoxicology.creatorlink.net/",
       "openalex_id": "A5085515614",
       "identity": "verified",
-      "score": 7,
-      "collaborator_count": 7,
+      "score": 6,
+      "collaborator_count": 6,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -26624,8 +26625,8 @@ window.KOREA_BIO_MAP = {
         "Si/Al ratio",
         "tetrapropylammonium hydroxide",
         "dealumination",
-        "zeolite crystal size",
-        "ammonium hexafluorosilicate"
+        "ammonium hexafluorosilicate",
+        "structure-reactivity relationships"
       ],
       "techniques": [
         "나노입자·약물전달"
@@ -26636,8 +26637,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/list.do?menuNo=300015&profCate=66",
       "openalex_id": "A5076816392",
       "identity": "seed",
-      "score": 2,
-      "collaborator_count": 2,
+      "score": 3,
+      "collaborator_count": 3,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -26721,8 +26722,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://eecat.snu.ac.kr/",
       "openalex_id": "A5074784835",
       "identity": "probable",
-      "score": 2,
-      "collaborator_count": 2,
+      "score": 3,
+      "collaborator_count": 3,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -27165,20 +27166,34 @@ window.KOREA_BIO_MAP = {
       "region": "서울",
       "home_sector": "학",
       "sectors": [
-        "학"
+        "학",
+        "연"
       ],
       "university_ko": "서울대학교",
       "position": "",
-      "keywords": [],
-      "techniques": [],
+      "keywords": [
+        "visible light photocatalysis",
+        "Surface Plasmon Resonance",
+        "Lymphography",
+        "nanogels",
+        "Contrast Media",
+        "C–C cross-coupling",
+        "carbon nitride",
+        "rhenium catalysts"
+      ],
+      "techniques": [
+        "나노입자·약물전달",
+        "MRI·PET 영상",
+        "종양 이종이식 모델"
+      ],
       "department": "Chemical and Biological Engineering",
       "lab": {},
       "orcid": "",
       "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/list.do?menuNo=300015&profCate=66",
-      "openalex_id": "",
+      "openalex_id": "A5018978707",
       "identity": "seed",
-      "score": 0,
-      "collaborator_count": 0,
+      "score": 3,
+      "collaborator_count": 3,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -27478,8 +27493,8 @@ window.KOREA_BIO_MAP = {
         "LED curing light",
         "dental composites",
         "Dental Cavity Preparation",
-        "cuspal deflection",
         "Composite Resins",
+        "cuspal deflection",
         "microhybrid composite"
       ],
       "techniques": [],
@@ -27513,12 +27528,12 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "positive-unlabeled learning",
         "retrosynthesis",
-        "materials discovery",
         "large language models",
-        "microkinetic modeling",
+        "materials discovery",
         "single-atom catalysts",
         "solid electrolytes",
-        "crystal structure prediction"
+        "crystal structure prediction",
+        "microkinetic modeling"
       ],
       "techniques": [
         "머신러닝·AI",
@@ -27662,8 +27677,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/list.do?menuNo=300015&profCate=66",
       "openalex_id": "A5023801774",
       "identity": "seed",
-      "score": 8,
-      "collaborator_count": 8,
+      "score": 9,
+      "collaborator_count": 9,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -27707,8 +27722,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://nanomat.snu.ac.kr/",
       "openalex_id": "A5025901845",
       "identity": "verified",
-      "score": 41,
-      "collaborator_count": 31,
+      "score": 43,
+      "collaborator_count": 33,
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -27961,8 +27976,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://narrykim.org/ko/",
       "openalex_id": "A5100752174",
       "identity": "verified",
-      "score": 12,
-      "collaborator_count": 12,
+      "score": 14,
+      "collaborator_count": 14,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -28005,8 +28020,8 @@ window.KOREA_BIO_MAP = {
       "url": "http://biosci.snu.ac.kr/lamr",
       "openalex_id": "A5080563770",
       "identity": "verified",
-      "score": 13,
-      "collaborator_count": 13,
+      "score": 14,
+      "collaborator_count": 14,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -28050,8 +28065,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://biosci.snu.ac.kr/proteomics/",
       "openalex_id": "A5082258548",
       "identity": "verified",
-      "score": 19,
-      "collaborator_count": 19,
+      "score": 20,
+      "collaborator_count": 20,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -28077,8 +28092,8 @@ window.KOREA_BIO_MAP = {
         "chondrocyte senescence",
         "cooling towers",
         "Chondrosarcoma",
-        "Cartilage, Articular",
         "Chondrocytes",
+        "Cartilage, Articular",
         "ASHRAE Guideline 14",
         "physics-based modeling"
       ],
@@ -28993,17 +29008,32 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
-      "keywords": [],
-      "techniques": [],
+      "keywords": [
+        "touch neurons",
+        "alternative lengthening of telomeres",
+        "Telomere",
+        "Nematoda",
+        "neuronal aging",
+        "microtubule stability",
+        "telomere evolution",
+        "dauer larvae"
+      ],
+      "techniques": [
+        "예쁜꼬마선충",
+        "전자현미경",
+        "줄기세포·iPSC",
+        "차세대 시퀀싱(NGS)",
+        "RNA-seq·전사체"
+      ],
       "department": "School of Biological Sciences",
       "lab": {},
       "orcid": "",
       "url": "http://biosci.snu.ac.kr/elegans",
-      "openalex_id": "",
+      "openalex_id": "A5100366248",
       "identity": "seed",
-      "score": 0,
-      "collaborator_count": 0,
-      "faculty_trainee_count": 0,
+      "score": 18,
+      "collaborator_count": 8,
+      "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
       "postdoc_mentor_count": 0
@@ -29230,8 +29260,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://qbio.io/",
       "openalex_id": "A5073947704",
       "identity": "verified",
-      "score": 8,
-      "collaborator_count": 8,
+      "score": 9,
+      "collaborator_count": 9,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -29810,37 +29840,20 @@ window.KOREA_BIO_MAP = {
       "region": "서울",
       "home_sector": "학",
       "sectors": [
-        "학",
-        "병",
-        "산"
+        "학"
       ],
       "university_ko": "고려대학교",
       "position": "교수",
-      "keywords": [
-        "test utilization",
-        "Korean adults",
-        "Folic Acid Deficiency",
-        "equation validation",
-        "Vitamin B 12 Deficiency",
-        "chronic kidney disease prevalence",
-        "binding epitope",
-        "Hospitals"
-      ],
-      "techniques": [
-        "질량분석",
-        "항체 개발",
-        "qPCR",
-        "X선 결정학·구조분석",
-        "종양 이종이식 모델"
-      ],
+      "keywords": [],
+      "techniques": [],
       "department": "College of Pharmacy",
       "lab": {},
       "orcid": "",
       "url": "https://ppri.korea.ac.kr/ipstr/7282/subview.do",
-      "openalex_id": "A5101406059",
+      "openalex_id": "",
       "identity": "seed",
-      "score": 7,
-      "collaborator_count": 7,
+      "score": 0,
+      "collaborator_count": 0,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -30008,7 +30021,7 @@ window.KOREA_BIO_MAP = {
         "C–H activation",
         "C–H functionalization",
         "nitrogen heterocycles",
-        "Rhodium"
+        "iridium(III) catalysis"
       ],
       "techniques": [
         "미세유체·장기칩",
@@ -30503,16 +30516,31 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
-      "keywords": [],
-      "techniques": [],
+      "keywords": [
+        "enzyme immobilization",
+        "glucose oxidase",
+        "Enzymes, Immobilized",
+        "Enzyme Stability",
+        "biofuel cells",
+        "nanobiocatalysis",
+        "enzyme stabilization",
+        "enzyme adsorption"
+      ],
+      "techniques": [
+        "하이드로젤·스캐폴드",
+        "나노입자·약물전달",
+        "단백체",
+        "전자현미경",
+        "질량분석"
+      ],
       "department": "Chemical and Biological Engineering",
       "lab": {},
       "orcid": "",
       "url": "http://nbc.korea.ac.kr/",
-      "openalex_id": "",
+      "openalex_id": "A5056333341",
       "identity": "seed",
-      "score": 0,
-      "collaborator_count": 0,
+      "score": 5,
+      "collaborator_count": 5,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -30662,20 +30690,13 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
-      "keywords": [
-        "chemical state analysis",
-        "in situ electrochemistry",
-        "quantitative chemical analysis",
-        "optical microscopy",
-        "large language models",
-        "model validation"
-      ],
+      "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
       "lab": {},
       "orcid": "",
       "url": "http://moonlab.korea.ac.kr/",
-      "openalex_id": "A5140581042",
+      "openalex_id": "",
       "identity": "seed",
       "score": 0,
       "collaborator_count": 0,
@@ -30727,16 +30748,28 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
-      "keywords": [],
-      "techniques": [],
+      "keywords": [
+        "in situ hydrogen generation",
+        "C–C bond cleavage",
+        "tandem catalysis",
+        "catalyst stability",
+        "Brønsted acid sites",
+        "isotopic labeling",
+        "plastic recycling",
+        "life cycle assessment"
+      ],
+      "techniques": [
+        "나노입자·약물전달",
+        "머신러닝·AI"
+      ],
       "department": "Chemical and Biological Engineering",
       "lab": {},
       "orcid": "",
       "url": "https://catalyst.korea.ac.kr/",
-      "openalex_id": "",
+      "openalex_id": "A5065144287",
       "identity": "seed",
-      "score": 0,
-      "collaborator_count": 0,
+      "score": 2,
+      "collaborator_count": 2,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -30849,8 +30882,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://sites.google.com",
       "openalex_id": "A5006759772",
       "identity": "verified",
-      "score": 1,
-      "collaborator_count": 1,
+      "score": 2,
+      "collaborator_count": 2,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -30917,9 +30950,9 @@ window.KOREA_BIO_MAP = {
         "aqueous zinc-ion batteries",
         "dendrite suppression",
         "lithium-ion batteries",
-        "solid electrolyte interphase",
         "Coulombic efficiency",
-        "cycling stability"
+        "cycling stability",
+        "zinc dendrite suppression"
       ],
       "techniques": [
         "X선 결정학·구조분석",
@@ -30954,13 +30987,22 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
-      "keywords": [],
+      "keywords": [
+        "molten salt electrolysis",
+        "in-situ resource utilization",
+        "electrolyte engineering",
+        "oxygen production",
+        "low atmospheric pressure",
+        "supply chain decision-making",
+        "electrode design",
+        "bubble behavior"
+      ],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
       "lab": {},
       "orcid": "",
       "url": "https://cbe.korea.ac.kr/wp/professor/",
-      "openalex_id": "",
+      "openalex_id": "A5139386377",
       "identity": "seed",
       "score": 0,
       "collaborator_count": 0,
@@ -31074,8 +31116,8 @@ window.KOREA_BIO_MAP = {
       "url": "http://bbtl.narun.net/",
       "openalex_id": "A5091837577",
       "identity": "verified",
-      "score": 6,
-      "collaborator_count": 6,
+      "score": 7,
+      "collaborator_count": 7,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -32195,8 +32237,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "gap junctional intercellular communication",
         "reasoning traces",
-        "Connexins",
         "Gap Junctions",
+        "Connexins",
         "directed acyclic graphs",
         "afamin",
         "out-of-domain generalization",
@@ -32328,8 +32370,8 @@ window.KOREA_BIO_MAP = {
         "cryptococcosis",
         "Candida auris",
         "fungal virulence",
-        "antifungal resistance",
         "Virulence",
+        "antifungal resistance",
         "Fungal Proteins",
         "cell wall integrity"
       ],
@@ -33701,8 +33743,8 @@ window.KOREA_BIO_MAP = {
         "Citric Acid Cycle",
         "isotope tracing",
         "lipolysis",
-        "Lactic Acid",
         "hyperlactatemia",
+        "Lactic Acid",
         "HCAR1"
       ],
       "techniques": [
@@ -33808,20 +33850,34 @@ window.KOREA_BIO_MAP = {
       "region": "서울",
       "home_sector": "학",
       "sectors": [
-        "학"
+        "학",
+        "병"
       ],
       "university_ko": "연세대학교",
       "position": "교수",
-      "keywords": [],
-      "techniques": [],
+      "keywords": [
+        "sympathetic dominance",
+        "normal sinus rhythm",
+        "driver fatigue",
+        "chlorin e6",
+        "high oxygen concentration",
+        "SDNN",
+        "LF/HF ratio",
+        "road safety"
+      ],
+      "techniques": [
+        "하이드로젤·스캐폴드",
+        "조직공학·바이오프린팅",
+        "줄기세포·iPSC"
+      ],
       "department": "Department of Biochemistry",
       "lab": {},
       "orcid": "",
       "url": "https://imil.yshonglab.com/",
-      "openalex_id": "",
+      "openalex_id": "A5100709912",
       "identity": "verified",
-      "score": 0,
-      "collaborator_count": 0,
+      "score": 1,
+      "collaborator_count": 1,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -33924,20 +33980,35 @@ window.KOREA_BIO_MAP = {
       "region": "서울",
       "home_sector": "학",
       "sectors": [
-        "학"
+        "학",
+        "병"
       ],
       "university_ko": "연세대학교",
       "position": "",
-      "keywords": [],
-      "techniques": [],
+      "keywords": [
+        "population pharmacokinetics",
+        "allometric scaling",
+        "precision dosing",
+        "Cross-Over Studies",
+        "Healthy Volunteers",
+        "ferroelectric field-effect transistors",
+        "age-related clearance",
+        "bioequivalence"
+      ],
+      "techniques": [
+        "임상시험",
+        "나노입자·약물전달",
+        "유전자변형 마우스",
+        "질량분석"
+      ],
       "department": "College of Medicine / Pharmacology",
       "lab": {},
       "orcid": "",
       "url": "https://medicine.yonsei.ac.kr/medicine/profile-view.do?empNo=eXVoczIwMjBAKUApM%2BkzjWsqFetuVa7NDRNIPfvTrLARFOWwrLH9g4tfS%2FA%3D",
-      "openalex_id": "",
+      "openalex_id": "A5073604371",
       "identity": "verified",
-      "score": 0,
-      "collaborator_count": 0,
+      "score": 2,
+      "collaborator_count": 2,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -33981,8 +34052,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://medicine.yonsei.ac.kr/medicine/profile-view.do?empNo=eXVoczIwMjBAKUApNMQSjHYrE9ZaVa7NDBFIMxeBjDboStpKuYSJ3qdn3Uk%3D",
       "openalex_id": "A5034176785",
       "identity": "verified",
-      "score": 20,
-      "collaborator_count": 20,
+      "score": 21,
+      "collaborator_count": 21,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -34819,13 +34890,22 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
-      "keywords": [],
+      "keywords": [
+        "carrier compensation",
+        "radioresistance",
+        "amorphous indium gallium zinc oxide",
+        "hydrogen doping",
+        "thin-film transistors",
+        "proton irradiation",
+        "oxygen vacancies",
+        "radiation damage"
+      ],
       "techniques": [],
       "department": "Department of Chemical and Biomolecular Engineering",
       "lab": {},
       "orcid": "",
       "url": "",
-      "openalex_id": "",
+      "openalex_id": "A5053917545",
       "identity": "verified",
       "score": 0,
       "collaborator_count": 0,
@@ -35372,8 +35452,8 @@ window.KOREA_BIO_MAP = {
         "osteoclastogenesis",
         "osteoporosis",
         "RANKL",
-        "Bone Resorption",
         "cathepsin K",
+        "Bone Resorption",
         "Ovariectomy",
         "DC-STAMP"
       ],
@@ -35661,8 +35741,8 @@ window.KOREA_BIO_MAP = {
       "university_ko": "목포대학교",
       "position": "교수",
       "keywords": [
-        "oxaliplatin resistance",
         "caspase activation",
+        "oxaliplatin resistance",
         "herbacetin",
         "apoptosis",
         "G2/M cell cycle arrest",
@@ -35822,8 +35902,8 @@ window.KOREA_BIO_MAP = {
         "Silicone Oils",
         "Syringes",
         "flow imaging microscopy",
-        "Immunoglobulins, Intravenous",
         "drug stability",
+        "Immunoglobulins, Intravenous",
         "protein aggregation",
         "intravenous immunoglobulin"
       ],
@@ -36182,7 +36262,7 @@ window.KOREA_BIO_MAP = {
         "Salmonella Vaccines",
         "Antibodies, Bacterial",
         "stx2e",
-        "swine diseases"
+        "Bacterial Vaccines"
       ],
       "techniques": [
         "ELISA",
@@ -36311,9 +36391,9 @@ window.KOREA_BIO_MAP = {
       "techniques": [
         "나노입자·약물전달",
         "머신러닝·AI",
-        "조직공학·바이오프린팅",
         "RNA-seq·전사체",
-        "유전자변형 마우스"
+        "조직공학·바이오프린팅",
+        "줄기세포·iPSC"
       ],
       "department": "수의과대학",
       "lab": {},
@@ -37003,8 +37083,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://pharm.chungbuk.ac.kr/app/index.html?pg_idx=46",
       "openalex_id": "A5037204409",
       "identity": "verified",
-      "score": 28,
-      "collaborator_count": 28,
+      "score": 29,
+      "collaborator_count": 29,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -37636,7 +37716,7 @@ window.KOREA_BIO_MAP = {
       "name": "백승재",
       "name_en": "Seungjae Baek",
       "university": "UNIST",
-      "field": "",
+      "field": "Transportation",
       "category": "분자·세포생물",
       "region": "부산·울산·경남",
       "home_sector": "학",
@@ -37688,9 +37768,9 @@ window.KOREA_BIO_MAP = {
         "vanB gene",
         "PNA-FISH",
         "fluorescence in situ hybridization",
-        "mitochondrial RNA polymerase",
         "single-molecule FRET",
         "Fluorescence Resonance Energy Transfer",
+        "mitochondrial RNA polymerase",
         "single-molecule measurement",
         "yeast mitochondria"
       ],
@@ -37947,8 +38027,8 @@ window.KOREA_BIO_MAP = {
         "two-dimensional infrared spectroscopy",
         "hydrogen bond dynamics",
         "Fermi resonance",
-        "syn and anti isomers",
         "deuterated acetic acid",
+        "syn and anti isomers",
         "C-O stretch",
         "2D infrared spectroscopy",
         "aqueous solutions"
@@ -39184,8 +39264,8 @@ window.KOREA_BIO_MAP = {
         "Hepatitis A",
         "Drugs, Investigational",
         "illicit drug use",
-        "Stakeholder Participation",
-        "Medical Audit"
+        "Research Personnel",
+        "Stakeholder Participation"
       ],
       "techniques": [
         "임상시험",
@@ -39343,8 +39423,8 @@ window.KOREA_BIO_MAP = {
         "Salmonella Infantis",
         "antimicrobial resistance",
         "foodborne pathogens",
-        "zoonotic transmission",
         "Mycobacterium avium subsp. paratuberculosis",
+        "zoonotic transmission",
         "virulence genes"
       ],
       "techniques": [
@@ -39388,8 +39468,8 @@ window.KOREA_BIO_MAP = {
         "endothelial phenotype",
         "endothelial permeability",
         "vascular permeability",
-        "oscillatory shear stress",
-        "Endothelial Cells"
+        "Endothelial Cells",
+        "oscillatory shear stress"
       ],
       "techniques": [
         "RNA 치료제·siRNA",
@@ -40039,13 +40119,13 @@ window.KOREA_BIO_MAP = {
       "position": "책임연구원",
       "keywords": [
         "Polyhydroxyalkanoates",
-        "Hydroxybutyrates",
         "biodegradable plastics",
+        "Hydroxybutyrates",
         "biohydrogen production",
         "Polyesters",
         "Polyhydroxybutyrates",
         "Halomonas",
-        "Solanum melongena"
+        "Pseudomonas resinovorans"
       ],
       "techniques": [],
       "department": "시스템생명공학과",
@@ -40551,9 +40631,9 @@ window.KOREA_BIO_MAP = {
       "position": "교수",
       "keywords": [
         "seedling growth",
+        "carbon sequestration",
         "root collar diameter",
         "litterfall",
-        "carbon sequestration",
         "container seedling production",
         "air pollutant removal",
         "biochar",
@@ -41095,8 +41175,8 @@ window.KOREA_BIO_MAP = {
         "foodborne pathogens",
         "Listeriosis",
         "bacterial adhesion and invasion",
-        "Food Microbiology",
-        "retail food products"
+        "retail food products",
+        "food safety"
       ],
       "techniques": [
         "qPCR",
@@ -41211,8 +41291,8 @@ window.KOREA_BIO_MAP = {
       "university_ko": "충남대학교",
       "position": "조교수",
       "keywords": [
-        "papillary thyroid carcinoma",
         "Proto-Oncogene Proteins c-ret",
+        "papillary thyroid carcinoma",
         "RET/PTC",
         "Carcinoma, Papillary",
         "Thyroid Neoplasms",
@@ -41366,9 +41446,9 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Cicatrix, Hypertrophic",
         "familial hypokalemic periodic paralysis",
-        "hypokalemic periodic paralysis",
         "Burns",
         "hypertrophic scars",
+        "hypokalemic periodic paralysis",
         "channelopathies",
         "Fibroblasts",
         "TRAM-34"
@@ -41726,8 +41806,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5028371173",
       "openalex_id": "A5028371173",
       "identity": "openalex_institution",
-      "score": 27,
-      "collaborator_count": 17,
+      "score": 28,
+      "collaborator_count": 18,
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -42019,8 +42099,8 @@ window.KOREA_BIO_MAP = {
         "deep eutectic solvents",
         "lignin valorization",
         "biorefinery",
-        "bis(2-hydroxyethyl) terephthalate",
         "lignin depolymerization",
+        "bis(2-hydroxyethyl) terephthalate",
         "techno-economic analysis",
         "chemical recycling",
         "choline chloride"
@@ -42152,10 +42232,10 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Biosensing Techniques",
         "Alzheimer's disease diagnosis",
+        "antibody-antigen binding kinetics",
         "cuff electrodes",
         "ultrasensitive detection",
         "amyloid-beta oligomers",
-        "antibody-antigen binding kinetics",
         "Troponin I",
         "Equipment Design"
       ],
@@ -42335,8 +42415,8 @@ window.KOREA_BIO_MAP = {
       "techniques": [
         "예쁜꼬마선충",
         "분자도킹·시뮬레이션",
-        "질량분석",
         "X선 결정학·구조분석",
+        "질량분석",
         "전자현미경"
       ],
       "department": "",
@@ -43176,8 +43256,8 @@ window.KOREA_BIO_MAP = {
         "Spectrum Analysis, Raman",
         "visible light photocatalysis",
         "photocatalytic ammonia synthesis",
-        "Ice",
         "Gold",
+        "Ice",
         "photoacoustic imaging"
       ],
       "techniques": [
@@ -43663,8 +43743,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "RNA activation",
         "small activating RNA",
-        "Antineoplastic Agents",
         "Histone Deacetylase Inhibitors",
+        "Antineoplastic Agents",
         "TXNIP",
         "Drug Screening Assays, Antitumor",
         "Streptomyces",
@@ -44342,8 +44422,8 @@ window.KOREA_BIO_MAP = {
         "Severe Fever with Thrombocytopenia Syndrome",
         "Scrophularia buergeriana",
         "Scrophularia",
-        "Nucleic Acid Amplification Techniques",
         "Influenza A virus",
+        "Nucleic Acid Amplification Techniques",
         "novel bacterial species"
       ],
       "techniques": [
@@ -44524,7 +44604,7 @@ window.KOREA_BIO_MAP = {
         "RNA, Viral",
         "Phylogeny",
         "Luteoviridae",
-        "capsid protein"
+        "complete genome sequence"
       ],
       "techniques": [
         "차세대 시퀀싱(NGS)",
@@ -44801,7 +44881,7 @@ window.KOREA_BIO_MAP = {
         "오가노이드",
         "qPCR",
         "차세대 시퀀싱(NGS)",
-        "대사체·지질체"
+        "종양 이종이식 모델"
       ],
       "department": "",
       "lab": {},
@@ -44838,7 +44918,7 @@ window.KOREA_BIO_MAP = {
         "DNA, Bacterial",
         "Phylogeny",
         "16S rRNA phylogeny",
-        "Fatty Acids"
+        "bacterial taxonomy"
       ],
       "techniques": [
         "오가노이드",
@@ -45326,8 +45406,8 @@ window.KOREA_BIO_MAP = {
         "Bacterial Typing Techniques",
         "Mollusca",
         "metallothionein genes",
-        "molecular phylogeny",
-        "microsatellite markers"
+        "microsatellite markers",
+        "molecular phylogeny"
       ],
       "techniques": [
         "RNA-seq·전사체",
@@ -46094,8 +46174,8 @@ window.KOREA_BIO_MAP = {
         "오가노이드",
         "하이드로젤·스캐폴드",
         "단백체",
-        "분자도킹·시뮬레이션",
-        "제브라피시"
+        "제브라피시",
+        "분자도킹·시뮬레이션"
       ],
       "department": "",
       "lab": {},
@@ -46439,8 +46519,8 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "Antiviral Agents",
-        "Influenza A virus",
         "COVID-19 Drug Treatment",
+        "Influenza A virus",
         "SARS-CoV-2",
         "antiviral activity",
         "influenza B",
@@ -46505,8 +46585,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5118899054",
       "openalex_id": "A5118899054",
       "identity": "openalex_institution",
-      "score": 3,
-      "collaborator_count": 3,
+      "score": 4,
+      "collaborator_count": 4,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -46615,8 +46695,8 @@ window.KOREA_BIO_MAP = {
         "Blood-Brain Barrier",
         "bisphenol F",
         "kynurenine pathway",
-        "3-hydroxykynurenine",
-        "neurotoxicity"
+        "neurotoxicity",
+        "3-hydroxykynurenine"
       ],
       "techniques": [
         "제브라피시",
@@ -47691,7 +47771,7 @@ window.KOREA_BIO_MAP = {
         "functional connectivity",
         "neuroimaging",
         "Brain Mapping",
-        "resting-state functional connectivity"
+        "autism spectrum disorder"
       ],
       "techniques": [
         "MRI·PET 영상",
@@ -48097,8 +48177,8 @@ window.KOREA_BIO_MAP = {
         "Diacylglycerol Kinase",
         "off-target effects",
         "Clustered Regularly Interspaced Short Palindromic Repeats",
-        "Endonucleases",
-        "SpCas9"
+        "SpCas9",
+        "Endonucleases"
       ],
       "techniques": [
         "CRISPR 유전자편집",
@@ -48231,8 +48311,8 @@ window.KOREA_BIO_MAP = {
         "quasi-steady-state approximation",
         "circadian clock",
         "sleep",
-        "bistability",
         "Wearable Electronic Devices",
+        "bistability",
         "biochemical reaction networks",
         "transcriptional noise"
       ],
@@ -49289,7 +49369,7 @@ window.KOREA_BIO_MAP = {
         "large-scale simulation",
         "parallel simulation",
         "Purkinje Cells",
-        "portability"
+        "Cerebellum"
       ],
       "techniques": [
         "머신러닝·AI",
@@ -49348,8 +49428,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5101499358",
       "openalex_id": "A5101499358",
       "identity": "openalex_institution",
-      "score": 8,
-      "collaborator_count": 7,
+      "score": 9,
+      "collaborator_count": 8,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
@@ -49506,8 +49586,8 @@ window.KOREA_BIO_MAP = {
         "mucin-type O-glycosylation",
         "cannabidiol",
         "O-glycosylation",
-        "retrograde endocannabinoid signaling",
-        "Stress Disorders, Post-Traumatic"
+        "Stress Disorders, Post-Traumatic",
+        "retrograde endocannabinoid signaling"
       ],
       "techniques": [
         "유전자변형 마우스",
@@ -49643,7 +49723,7 @@ window.KOREA_BIO_MAP = {
         "Lipofuscin",
         "Myosin Binding Protein C",
         "WDR45",
-        "autophagic flux"
+        "L-serine"
       ],
       "techniques": [
         "전자현미경",
@@ -50000,8 +50080,8 @@ window.KOREA_BIO_MAP = {
         "Brain-Derived Neurotrophic Factor",
         "Akinetic Mutism",
         "Astrocytes",
-        "Endocytosis",
-        "CD63"
+        "Tetraspanin 30",
+        "Endocytosis"
       ],
       "techniques": [
         "엑소좀·세포외소포",
@@ -50043,7 +50123,7 @@ window.KOREA_BIO_MAP = {
         "TRPA1",
         "hyperpolarization-activated current",
         "overripe fruit",
-        "Hyperpolarization-Activated Cyclic Nucleotide-Gated Channels"
+        "Sensilla"
       ],
       "techniques": [
         "초파리",
@@ -50125,8 +50205,8 @@ window.KOREA_BIO_MAP = {
       "university_ko": "한국뇌연구원",
       "position": "",
       "keywords": [
-        "multi-omics integration",
         "Alzheimer Disease",
+        "multi-omics integration",
         "5xFAD mice",
         "brain disorders",
         "3-methoxytyramine",
@@ -50398,7 +50478,7 @@ window.KOREA_BIO_MAP = {
         "parental stress",
         "Brain",
         "fractional anisotropy",
-        "Receptors, Vasopressin"
+        "oxytocin receptor"
       ],
       "techniques": [
         "MRI·PET 영상",
@@ -50735,8 +50815,8 @@ window.KOREA_BIO_MAP = {
         "TDP-43 phosphorylation",
         "synucleinopathies",
         "alpha-Synuclein",
-        "TDP-43 pathology",
         "brain endothelial cells",
+        "TDP-43 pathology",
         "Ras Homolog Enriched in Brain Protein",
         "gadolinium-based contrast agents"
       ],
@@ -50919,8 +50999,8 @@ window.KOREA_BIO_MAP = {
       "techniques": [
         "질량분석",
         "줄기세포·iPSC",
-        "대사체·지질체",
         "RNA-seq·전사체",
+        "대사체·지질체",
         "웨스턴블롯"
       ],
       "department": "",
@@ -50952,8 +51032,8 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "glycyrrhizin",
-        "liquiritin",
         "traditional Korean medicine",
+        "liquiritin",
         "herbal medicine safety",
         "Drugs, Chinese Herbal",
         "herbal formula",
@@ -51140,8 +51220,8 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [
         "제브라피시",
-        "애기장대·식물 모델",
         "웨스턴블롯",
+        "애기장대·식물 모델",
         "유전자변형 마우스",
         "ELISA"
       ],
@@ -51219,8 +51299,8 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "herbal medicine authentication",
-        "chloroplast genome",
         "DNA barcoding",
+        "chloroplast genome",
         "SCAR markers",
         "Genome, Chloroplast",
         "herbal medicine adulteration",
@@ -51311,8 +51391,8 @@ window.KOREA_BIO_MAP = {
         "traditional Chinese medicine",
         "traditional Korean medicine",
         "Astragali Radix",
-        "HIF-1 signaling",
         "acupuncture",
+        "HIF-1 signaling",
         "electroacupuncture",
         "body composition indices",
         "Protein Interaction Maps"
@@ -51915,8 +51995,8 @@ window.KOREA_BIO_MAP = {
         "acupoint catgut embedding",
         "acupotomy",
         "Acupuncture Points",
-        "manual acupuncture",
-        "pharmacopuncture"
+        "pharmacopuncture",
+        "manual acupuncture"
       ],
       "techniques": [
         "임상시험"
@@ -52316,8 +52396,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5091015282",
       "openalex_id": "A5091015282",
       "identity": "openalex_institution",
-      "score": 18,
-      "collaborator_count": 18,
+      "score": 19,
+      "collaborator_count": 19,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -52379,8 +52459,8 @@ window.KOREA_BIO_MAP = {
         "Influenza A virus",
         "antiviral activity",
         "Neuraminidase",
-        "Antiviral Agents",
         "virucidal effect",
+        "Antiviral Agents",
         "cytopathic effect",
         "H3N2",
         "Influenza A Virus, H1N1 Subtype"
@@ -53221,9 +53301,9 @@ window.KOREA_BIO_MAP = {
         "PGC-1α",
         "licochalcone B",
         "ginsenoside Rc",
-        "Glycyrrhiza",
         "Muscular Atrophy",
-        "Drugs, Chinese Herbal"
+        "Drugs, Chinese Herbal",
+        "Glycyrrhiza"
       ],
       "techniques": [
         "줄기세포·iPSC",
@@ -53528,8 +53608,8 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "marbofloxacin",
-        "post-antibiotic effect",
         "developmental toxicity",
+        "post-antibiotic effect",
         "GPR55",
         "Staphylococcus pseudintermedius",
         "Mac-1",
@@ -53638,8 +53718,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5109102389",
       "openalex_id": "A5109102389",
       "identity": "openalex_institution",
-      "score": 14,
-      "collaborator_count": 14,
+      "score": 13,
+      "collaborator_count": 13,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -53727,8 +53807,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5068552056",
       "openalex_id": "A5068552056",
       "identity": "openalex_institution",
-      "score": 12,
-      "collaborator_count": 12,
+      "score": 11,
+      "collaborator_count": 11,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -53795,19 +53875,19 @@ window.KOREA_BIO_MAP = {
       "university_ko": "안전성평가연구소",
       "position": "",
       "keywords": [
+        "pesticide residues",
+        "Solanum melongena",
         "pre-harvest interval",
         "etofenprox",
         "chlorfluazuron",
+        "Dietary Exposure",
         "etoxazole",
-        "chlorantraniliprole",
-        "maximum residue limits",
-        "fluxapyroxad",
-        "fungicide residues"
+        "chlorantraniliprole"
       ],
       "techniques": [
         "제브라피시",
-        "단백체",
-        "질량분석"
+        "질량분석",
+        "단백체"
       ],
       "department": "",
       "lab": {},
@@ -53978,8 +54058,8 @@ window.KOREA_BIO_MAP = {
         "microcontact printing",
         "gelatin methacryloyl",
         "extracellular matrix",
-        "covalent cross-linking",
-        "cartilage regeneration"
+        "cartilage regeneration",
+        "covalent cross-linking"
       ],
       "techniques": [
         "하이드로젤·스캐폴드",
@@ -54237,8 +54317,8 @@ window.KOREA_BIO_MAP = {
         "environmental chemicals",
         "PSA-NCAM",
         "distant disease-free survival",
-        "Neural Cell Adhesion Molecule L1",
         "Toxicity Tests",
+        "Neural Cell Adhesion Molecule L1",
         "mean firing rate",
         "early childhood behavior problems"
       ],
@@ -54252,8 +54332,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5112543640",
       "openalex_id": "A5112543640",
       "identity": "openalex_institution",
-      "score": 8,
-      "collaborator_count": 8,
+      "score": 7,
+      "collaborator_count": 7,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -54446,8 +54526,8 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "Fluorocarbons",
-        "GenX",
         "Myocytes, Cardiac",
+        "GenX",
         "cardiotoxicity",
         "endocrine disruptors",
         "Caprylates",
@@ -55244,7 +55324,7 @@ window.KOREA_BIO_MAP = {
         "RASSF1A",
         "single plane illumination microscopy",
         "m-calpain",
-        "Embryo, Nonmammalian"
+        "anaphase-promoting complex"
       ],
       "techniques": [
         "제브라피시",
@@ -55483,8 +55563,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5100737571",
       "openalex_id": "A5100737571",
       "identity": "openalex_institution",
-      "score": 3,
-      "collaborator_count": 3,
+      "score": 4,
+      "collaborator_count": 4,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -55771,8 +55851,8 @@ window.KOREA_BIO_MAP = {
         "rotor eccentricity",
         "finite element model",
         "ethylene-propylene-diene rubber",
-        "rotor dynamics",
         "end coupling",
+        "rotor dynamics",
         "torque response"
       ],
       "techniques": [
@@ -56125,8 +56205,8 @@ window.KOREA_BIO_MAP = {
         "N-linked glycoproteins",
         "Glycopeptides",
         "collision-induced dissociation",
-        "core fucosylation",
-        "single amino acid variants"
+        "single amino acid variants",
+        "core fucosylation"
       ],
       "techniques": [
         "질량분석",
@@ -56813,13 +56893,13 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "Sarcopenia",
+        "Muscular Atrophy",
         "skeletal muscle atrophy",
         "lithospermic acid",
+        "Muscle, Skeletal",
+        "Aging",
         "atrogenes",
-        "myosin heavy chain isoforms",
-        "Muscular Atrophy",
-        "age-related muscle loss",
-        "Muscle, Skeletal"
+        "myosin heavy chain isoforms"
       ],
       "techniques": [
         "예쁜꼬마선충",
@@ -56860,8 +56940,8 @@ window.KOREA_BIO_MAP = {
         "advanced glycation end products",
         "Receptor for Advanced Glycation End Products",
         "Glycation End Products, Advanced",
-        "diabetic nephropathy",
         "methylglyoxal",
+        "diabetic nephropathy",
         "glycolaldehyde",
         "glyoxalase I",
         "carboxymethyllysine"
@@ -57201,13 +57281,13 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "Aging",
-        "Longevity",
         "Sarcopenia",
+        "Longevity",
         "Plant Extracts",
+        "Muscle, Skeletal",
         "Autophagy",
         "lipogenesis",
-        "Justicia procumbens",
-        "hair growth"
+        "Justicia procumbens"
       ],
       "techniques": [
         "예쁜꼬마선충",
@@ -57683,7 +57763,7 @@ window.KOREA_BIO_MAP = {
         "hepatic lipid accumulation",
         "Liver",
         "Coriandrum",
-        "indolic glucosinolates"
+        "advanced glycation end products"
       ],
       "techniques": [
         "유전자변형 마우스",
@@ -58320,8 +58400,8 @@ window.KOREA_BIO_MAP = {
         "doenjang",
         "Brassica juncea",
         "amino nitrogen",
-        "Bacillus amyloliquefaciens",
-        "lactic acid bacteria"
+        "lactic acid bacteria",
+        "Bacillus amyloliquefaciens"
       ],
       "techniques": [
         "차세대 시퀀싱(NGS)",
@@ -58487,8 +58567,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "green synthesis",
         "Bacillus cereus",
-        "foodborne pathogens",
         "anodized aluminum oxide membranes",
+        "foodborne pathogens",
         "Immunomagnetic Separation",
         "bioactive packaging",
         "Foodborne Diseases",
@@ -58791,7 +58871,7 @@ window.KOREA_BIO_MAP = {
         "Epigenome",
         "Myocytes, Cardiac",
         "cardiotoxicity",
-        "Biological Products"
+        "DNA Methylation"
       ],
       "techniques": [
         "GWAS·유전역학",
@@ -59238,6 +59318,7 @@ window.KOREA_BIO_MAP = {
       "region": "경기·인천",
       "home_sector": "연",
       "sectors": [
+        "학",
         "병",
         "연"
       ],
@@ -60065,7 +60146,7 @@ window.KOREA_BIO_MAP = {
         "Hepatectomy",
         "pancreatobiliary cancer",
         "extrahepatic cholangiocarcinoma",
-        "enhanced recovery after surgery"
+        "gallbladder cancer"
       ],
       "techniques": [
         "MRI·PET 영상",
@@ -60650,7 +60731,7 @@ window.KOREA_BIO_MAP = {
         "NR1D1",
         "antitumor immunity",
         "Autophagy",
-        "Epithelial-Mesenchymal Transition"
+        "cGAS-STING pathway"
       ],
       "techniques": [
         "유전자변형 마우스",
@@ -60665,8 +60746,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5100715877",
       "openalex_id": "A5100715877",
       "identity": "openalex_institution",
-      "score": 28,
-      "collaborator_count": 28,
+      "score": 29,
+      "collaborator_count": 29,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -60918,8 +60999,8 @@ window.KOREA_BIO_MAP = {
       "techniques": [
         "항체 개발",
         "임상시험",
-        "CRISPR 유전자편집",
         "엑소좀·세포외소포",
+        "CRISPR 유전자편집",
         "종양 이종이식 모델"
       ],
       "department": "",
@@ -61122,8 +61203,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Hepatitis C",
         "mother-to-child transmission",
-        "hepatitis C virus",
         "Hepatitis C, Chronic",
+        "hepatitis C virus",
         "Hepacivirus",
         "Cost of Illness",
         "South Korea",
@@ -61434,8 +61515,8 @@ window.KOREA_BIO_MAP = {
         "aquaporin-4 antibodies",
         "disability progression",
         "Aquaporin 4",
-        "MOG antibody-associated disease",
-        "anti-MOG antibodies"
+        "Myelin-Oligodendrocyte Glycoprotein",
+        "MOG antibody-associated disease"
       ],
       "techniques": [
         "MRI·PET 영상",
@@ -62740,13 +62821,13 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "childhood obesity",
-        "Meals",
         "adolescent obesity",
         "Pediatric Obesity",
         "diet quality",
         "late-night eating",
         "chrononutrition",
-        "Frail Elderly"
+        "Frail Elderly",
+        "Healthy Eating Index"
       ],
       "techniques": [
         "GWAS·유전역학",
@@ -63375,8 +63456,8 @@ window.KOREA_BIO_MAP = {
         "SARS-CoV-2",
         "peptide epitopes",
         "Antibodies, Viral",
-        "Antibodies, Neutralizing",
-        "Middle East Respiratory Syndrome Coronavirus"
+        "Middle East Respiratory Syndrome Coronavirus",
+        "Antibodies, Neutralizing"
       ],
       "techniques": [
         "항체 개발",
@@ -63937,8 +64018,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5027044660",
       "openalex_id": "A5027044660",
       "identity": "openalex_institution",
-      "score": 7,
-      "collaborator_count": 7,
+      "score": 8,
+      "collaborator_count": 8,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -63967,7 +64048,7 @@ window.KOREA_BIO_MAP = {
         "GPRC6A",
         "SQ109",
         "Trypanocidal Agents",
-        "AIMP2"
+        "epimastigotes"
       ],
       "techniques": [
         "줄기세포·iPSC",
@@ -64137,8 +64218,8 @@ window.KOREA_BIO_MAP = {
         "Programmed Cell Death 1 Receptor",
         "adenovirus type 5",
         "viral vector vaccines",
-        "CD8-Positive T-Lymphocytes",
-        "semiconductor fabrication facilities"
+        "semiconductor fabrication facilities",
+        "CD8-Positive T-Lymphocytes"
       ],
       "techniques": [
         "RNA 치료제·siRNA",
@@ -64614,8 +64695,8 @@ window.KOREA_BIO_MAP = {
         "5-HT1A receptor",
         "Radiopharmaceuticals",
         "Fluorine Radioisotopes",
-        "serotonergic system",
         "Alzheimer's disease",
+        "serotonergic system",
         "[18F]FPEB",
         "Alzheimer Disease"
       ],
@@ -64837,8 +64918,8 @@ window.KOREA_BIO_MAP = {
         "protein kinase activity",
         "Myelodysplastic Syndromes",
         "PRKAR2B",
-        "FOS",
-        "HSPA2"
+        "HSPA2",
+        "FOS"
       ],
       "techniques": [
         "RNA-seq·전사체",
@@ -65139,16 +65220,16 @@ window.KOREA_BIO_MAP = {
         "adaptive laboratory evolution",
         "gut commensals",
         "GLPK",
+        "mucin utilization",
         "Metabolic Engineering",
-        "Escherichia coli",
-        "ppsA"
+        "Escherichia coli"
       ],
       "techniques": [
         "머신러닝·AI",
+        "CRISPR 유전자편집",
         "단일세포 분석",
         "RNA-seq·전사체",
-        "유전자변형 마우스",
-        "형광·공초점 이미징"
+        "유전자변형 마우스"
       ],
       "department": "",
       "lab": {},
@@ -66133,7 +66214,7 @@ window.KOREA_BIO_MAP = {
         "cell therapy manufacturing",
         "liquid core waveguide",
         "national metrology institutes",
-        "measurement uncertainty"
+        "interlaboratory comparison"
       ],
       "techniques": [
         "유세포분석",
@@ -66215,8 +66296,8 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "digital PCR",
-        "Reference Standards",
         "PCR cycling conditions",
+        "Reference Standards",
         "nucleic acid quantification",
         "RNA, Viral",
         "reference material homogeneity",
@@ -66562,8 +66643,8 @@ window.KOREA_BIO_MAP = {
         "biosimilars",
         "plaque psoriasis",
         "CT-P13",
-        "Therapeutic Equivalency",
         "immunogenicity",
+        "Therapeutic Equivalency",
         "adalimumab",
         "Arthritis, Rheumatoid"
       ],
@@ -67805,8 +67886,8 @@ window.KOREA_BIO_MAP = {
         "metastatic solid tumors",
         "cobimetinib",
         "Erigeron",
-        "dose escalation",
         "Maximum Tolerated Dose",
+        "dose escalation",
         "Erigeron breviscapus",
         "Bayesian optimal interval design",
         "acetic acid-induced pain"
@@ -69229,8 +69310,8 @@ window.KOREA_BIO_MAP = {
         "sodium tert-butoxide",
         "forward osmosis",
         "dilute acid pretreatment",
-        "electrotaxis",
-        "chaotic advection"
+        "chaotic advection",
+        "3D food printing"
       ],
       "techniques": [
         "미세유체·장기칩",
@@ -69926,8 +70007,8 @@ window.KOREA_BIO_MAP = {
       "university_ko": "인하대학교",
       "position": "",
       "keywords": [
-        "Cellular Senescence",
         "Cathepsin D",
+        "Cellular Senescence",
         "senescence markers",
         "therapy-induced senescence",
         "senescence-associated secretory phenotype",
@@ -69948,8 +70029,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5011771218",
       "openalex_id": "A5011771218",
       "identity": "openalex_institution",
-      "score": 26,
-      "collaborator_count": 25,
+      "score": 27,
+      "collaborator_count": 26,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
@@ -69977,7 +70058,7 @@ window.KOREA_BIO_MAP = {
         "colorimetric biosensor",
         "planar lipid bilayers",
         "membrane stability",
-        "Water Purification"
+        "tear film lipid layer"
       ],
       "techniques": [
         "미세유체·장기칩",
@@ -70020,9 +70101,9 @@ window.KOREA_BIO_MAP = {
         "vitiligo",
         "Lasers, Dye",
         "pulsed dye laser",
-        "suicide",
         "Low-Level Light Therapy",
-        "nerve fiber density"
+        "nerve fiber density",
+        "social determinants of health"
       ],
       "techniques": [
         "면역조직화학",
@@ -70597,8 +70678,8 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [
         "줄기세포·iPSC",
-        "조직공학·바이오프린팅",
         "엑소좀·세포외소포",
+        "조직공학·바이오프린팅",
         "하이드로젤·스캐폴드",
         "임상시험"
       ],
@@ -70892,13 +70973,13 @@ window.KOREA_BIO_MAP = {
       "university_ko": "인하대학교",
       "position": "",
       "keywords": [
+        "Infectious Disease Transmission, Patient-to-Professional",
         "Splenic Infarction",
         "scrub typhus",
         "Malaria, Vivax",
         "Plasmodium vivax",
         "EBV viremia",
         "COVID-19",
-        "Health Personnel",
         "Babesiosis"
       ],
       "techniques": [
@@ -71842,8 +71923,8 @@ window.KOREA_BIO_MAP = {
         "MST2",
         "Estrogen Receptor alpha",
         "health statistics",
-        "styrene monomer recovery",
         "endocrine disruptors",
+        "styrene monomer recovery",
         "hypoxia"
       ],
       "techniques": [
@@ -72237,7 +72318,7 @@ window.KOREA_BIO_MAP = {
         "remanent polarization",
         "Silybum marianum",
         "telomere-to-telomere genome assembly",
-        "ferroelectric thin films"
+        "AlScN"
       ],
       "techniques": [
         "GWAS·유전역학",
@@ -73360,8 +73441,8 @@ window.KOREA_BIO_MAP = {
         "Phylogeny",
         "Base Composition",
         "1-Deoxynojirimycin",
-        "Halobacteriaceae",
         "novel bacterial species",
+        "Halobacteriaceae",
         "bacterioruberin",
         "Bacterial Typing Techniques"
       ],
@@ -73447,8 +73528,8 @@ window.KOREA_BIO_MAP = {
         "Knee Joint",
         "Gait",
         "largest Lyapunov exponent",
-        "Gait Analysis",
-        "ionic polymer-metal composite"
+        "ionic polymer-metal composite",
+        "Gait Analysis"
       ],
       "techniques": [
         "임상시험",
@@ -73709,8 +73790,8 @@ window.KOREA_BIO_MAP = {
         "fish cell lines",
         "Cyprinus carpio",
         "bacterial artificial chromosome",
-        "climbazole",
-        "senescent fibroblasts"
+        "Mitochondria",
+        "climbazole"
       ],
       "techniques": [
         "제브라피시",
@@ -74519,8 +74600,8 @@ window.KOREA_BIO_MAP = {
         "talin",
         "integrins",
         "single-molecule force measurement",
-        "endotoxin removal",
-        "mechanobiology"
+        "mechanobiology",
+        "endotoxin removal"
       ],
       "techniques": [
         "형광·공초점 이미징",
@@ -74941,8 +75022,8 @@ window.KOREA_BIO_MAP = {
         "social pain",
         "panic disorder",
         "pulse transit time",
-        "major depressive disorder",
-        "electrodermal activity"
+        "electrodermal activity",
+        "major depressive disorder"
       ],
       "techniques": [
         "머신러닝·AI",
@@ -75112,8 +75193,8 @@ window.KOREA_BIO_MAP = {
         "Receptors, Adrenergic, alpha-2",
         "energy expenditure",
         "Thyroid Nuclear Factor 1",
-        "energy homeostasis",
-        "guanabenz"
+        "guanabenz",
+        "energy homeostasis"
       ],
       "techniques": [
         "유전자변형 마우스",
@@ -75547,8 +75628,8 @@ window.KOREA_BIO_MAP = {
         "Promyelocytic Leukemia Protein",
         "DNA repair",
         "PML nuclear bodies",
-        "DNA damage response",
         "Intranuclear Inclusion Bodies",
+        "DNA damage response",
         "Recombinases"
       ],
       "techniques": [
@@ -75716,12 +75797,12 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Knee Prosthesis",
         "medial unicompartmental knee arthroplasty",
+        "Receptor for Advanced Glycation End Products",
         "contact stress",
         "stress shielding",
         "novice counselors",
         "Arthroplasty, Replacement, Knee",
-        "work volition",
-        "quadriceps force"
+        "work volition"
       ],
       "techniques": [
         "줄기세포·iPSC",
@@ -76069,7 +76150,7 @@ window.KOREA_BIO_MAP = {
         "Arginine",
         "Tubulin",
         "arginine methylation",
-        "KDM4A"
+        "Mitosis"
       ],
       "techniques": [
         "RNA 치료제·siRNA",
@@ -77404,7 +77485,7 @@ window.KOREA_BIO_MAP = {
         "하이드로젤·스캐폴드",
         "제브라피시",
         "머신러닝·AI",
-        "임상시험"
+        "X선 결정학·구조분석"
       ],
       "department": "",
       "lab": {},
@@ -77931,8 +78012,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5028938021",
       "openalex_id": "A5028938021",
       "identity": "openalex_institution",
-      "score": 7,
-      "collaborator_count": 7,
+      "score": 8,
+      "collaborator_count": 8,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -78127,8 +78208,8 @@ window.KOREA_BIO_MAP = {
       "university_ko": "가천대학교",
       "position": "",
       "keywords": [
-        "low-temperature pyrolysis",
         "advanced glycation end products",
+        "low-temperature pyrolysis",
         "environmental fatigue",
         "factor IX",
         "hemophilia B",
@@ -79392,8 +79473,8 @@ window.KOREA_BIO_MAP = {
         "breast cancer stem cells",
         "plasminogen activator inhibitor-2",
         "endometrial regeneration",
-        "Angiopoietin-Like Protein 4",
         "Wnt/β-catenin signaling",
+        "Angiopoietin-Like Protein 4",
         "small molecule inhibitors"
       ],
       "techniques": [
@@ -79777,7 +79858,7 @@ window.KOREA_BIO_MAP = {
         "Anesthesia, General",
         "Remifentanil",
         "regional cerebral oxygen saturation",
-        "Sevoflurane"
+        "dexmedetomidine"
       ],
       "techniques": [],
       "department": "",
@@ -80776,8 +80857,8 @@ window.KOREA_BIO_MAP = {
         "acute ischemic stroke",
         "Ischemic Stroke",
         "thrombectomy",
-        "mechanical thrombectomy",
         "Stroke",
+        "mechanical thrombectomy",
         "modified Rankin Scale",
         "Endovascular Procedures",
         "large vessel occlusion"
@@ -81575,8 +81656,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5060967197",
       "openalex_id": "A5060967197",
       "identity": "openalex_institution",
-      "score": 8,
-      "collaborator_count": 8,
+      "score": 7,
+      "collaborator_count": 7,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -82260,8 +82341,8 @@ window.KOREA_BIO_MAP = {
         "dermal fillers"
       ],
       "techniques": [
-        "웨스턴블롯",
-        "면역조직화학"
+        "면역조직화학",
+        "웨스턴블롯"
       ],
       "department": "",
       "lab": {},
@@ -83806,8 +83887,8 @@ window.KOREA_BIO_MAP = {
         "mesangial hypercellularity",
         "fine needle aspiration cytology",
         "karyorrhexis",
-        "Cholesteatoma, Middle Ear",
-        "BRAF V600E mutation"
+        "BRAF V600E mutation",
+        "Cholesteatoma, Middle Ear"
       ],
       "techniques": [
         "면역조직화학",
@@ -84477,8 +84558,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "hippocampal neurogenesis",
         "Neurogenesis",
-        "neural progenitor cells",
         "Neuroprotective Agents",
+        "neural progenitor cells",
         "Neural Stem Cells",
         "dopaminergic neuron loss",
         "Hippocampus",
@@ -84577,7 +84658,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달",
         "하이드로젤·스캐폴드",
         "RNA-seq·전사체",
-        "CRISPR 유전자편집"
+        "조직공학·바이오프린팅"
       ],
       "department": "",
       "lab": {},
@@ -84744,8 +84825,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "type 2 diabetes",
         "Diabetes Mellitus, Type 2",
-        "artificially sweetened beverages",
         "HbA1c",
+        "artificially sweetened beverages",
         "diabetic nephropathy",
         "prediabetes",
         "Diabetic Nephropathies",
@@ -86788,8 +86869,8 @@ window.KOREA_BIO_MAP = {
       "techniques": [
         "MRI·PET 영상",
         "차세대 시퀀싱(NGS)",
-        "CRISPR 유전자편집",
         "전기생리",
+        "CRISPR 유전자편집",
         "항체 개발"
       ],
       "department": "",
@@ -87348,8 +87429,8 @@ window.KOREA_BIO_MAP = {
         "Helicobacter pylori infection",
         "proton pump inhibitors",
         "Amoxicillin",
-        "Rifaximin",
         "gastroesophageal reflux disease",
+        "Rifaximin",
         "autoimmune gastritis"
       ],
       "techniques": [],
@@ -87642,8 +87723,8 @@ window.KOREA_BIO_MAP = {
         "papillary thyroid carcinoma",
         "reinnervation",
         "thyroid surgery",
-        "Carcinoma, Papillary",
-        "recurrent laryngeal nerve injury"
+        "recurrent laryngeal nerve injury",
+        "Carcinoma, Papillary"
       ],
       "techniques": [],
       "department": "",
@@ -87889,8 +87970,8 @@ window.KOREA_BIO_MAP = {
         "latent profiles",
         "Noncommunicable Diseases",
         "non-alcoholic fatty liver disease",
-        "Insulin Resistance",
         "progestogens",
+        "Insulin Resistance",
         "bone mineral density"
       ],
       "techniques": [
@@ -88769,8 +88850,8 @@ window.KOREA_BIO_MAP = {
         "self-esteem",
         "COVID-19 wards",
         "self-care performance",
-        "task significance",
-        "resilience"
+        "resilience",
+        "task significance"
       ],
       "techniques": [],
       "department": "",
@@ -88889,8 +88970,8 @@ window.KOREA_BIO_MAP = {
         "drug desensitization",
         "Indenes",
         "Drug Hypersensitivity Syndrome",
-        "drug provocation test",
         "anaphylaxis",
+        "drug provocation test",
         "moderate-to-severe atopic dermatitis"
       ],
       "techniques": [
@@ -89055,8 +89136,8 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "free allocation",
-        "voluntary carbon markets",
         "endoscopic ultrasound",
+        "voluntary carbon markets",
         "mentalization-based treatment",
         "Laparoscopy",
         "Crohn's disease",
@@ -89750,8 +89831,8 @@ window.KOREA_BIO_MAP = {
         "Malaria, Vivax",
         "bee venom",
         "Acute Kidney Injury",
-        "tubular cell death",
         "oxidative stress",
+        "tubular cell death",
         "vivax malaria",
         "macrophage infiltration"
       ],
@@ -90373,7 +90454,7 @@ window.KOREA_BIO_MAP = {
       "university_ko": "대구가톨릭대학교",
       "position": "",
       "keywords": [
-        "Taste Disorders",
+        "taste disorders",
         "maxillary sinus",
         "chronic rhinosinusitis",
         "olfactory dysfunction",
@@ -90663,9 +90744,9 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Sicyos angulatus",
         "lipopolysaccharide translocation",
+        "Liver Diseases, Alcoholic",
         "alcoholic liver injury",
         "type A aortic dissection",
-        "Liver Diseases, Alcoholic",
         "Endarterectomy, Carotid",
         "innominate artery cannulation",
         "Protective Agents"
@@ -91469,7 +91550,7 @@ window.KOREA_BIO_MAP = {
         "Glycine Hydroxymethyltransferase",
         "Holstein calves",
         "fatty acid uptake",
-        "Adaptor Proteins, Vesicular Transport"
+        "Sortilin"
       ],
       "techniques": [
         "유전자변형 마우스",
@@ -91481,8 +91562,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5102950612",
       "openalex_id": "A5102950612",
       "identity": "openalex_institution",
-      "score": 3,
-      "collaborator_count": 3,
+      "score": 2,
+      "collaborator_count": 2,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -91683,8 +91764,8 @@ window.KOREA_BIO_MAP = {
         "Antimicrobial Cationic Peptides",
         "Biofilms",
         "biofilm inhibition",
-        "nanopores",
         "Anti-Bacterial Agents",
+        "nanopores",
         "Microbial Sensitivity Tests",
         "antibiofilm activity"
       ],
@@ -91987,8 +92068,8 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "stunting",
-        "North Korean defectors",
         "wasting",
+        "North Korean defectors",
         "Refugees",
         "refugee children",
         "Democratic People's Republic of Korea",
@@ -92084,8 +92165,8 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달",
         "형광·공초점 이미징",
         "RNA-seq·전사체",
-        "전자현미경",
-        "X선 결정학·구조분석"
+        "X선 결정학·구조분석",
+        "전자현미경"
       ],
       "department": "",
       "lab": {},
@@ -92287,8 +92368,8 @@ window.KOREA_BIO_MAP = {
         "medication algorithm",
         "autosomal dominant Alzheimer's disease",
         "subcortical atrophy",
-        "amyloid PET",
-        "subjective memory complaints"
+        "subjective memory complaints",
+        "amyloid PET"
       ],
       "techniques": [
         "MRI·PET 영상"
@@ -92423,8 +92504,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5100678940",
       "openalex_id": "A5100678940",
       "identity": "openalex_institution",
-      "score": 6,
-      "collaborator_count": 6,
+      "score": 5,
+      "collaborator_count": 5,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -92445,8 +92526,8 @@ window.KOREA_BIO_MAP = {
       "university_ko": "조선대학교",
       "position": "",
       "keywords": [
-        "Severe Fever with Thrombocytopenia Syndrome",
         "scrub typhus",
+        "Severe Fever with Thrombocytopenia Syndrome",
         "Orientia tsutsugamushi",
         "Haemaphysalis longicornis",
         "Phlebovirus",
@@ -92660,8 +92741,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "endoscopic submucosal dissection",
         "ulcerative colitis",
-        "Endoscopic Mucosal Resection",
         "Colonoscopy",
+        "Endoscopic Mucosal Resection",
         "rectal GIST",
         "Colorectal Neoplasms",
         "colorectal neoplasia",
@@ -93146,8 +93227,8 @@ window.KOREA_BIO_MAP = {
         "miR-22",
         "microRNA-22",
         "DNA double-strand break repair",
-        "Guanine Nucleotide Exchange Factors",
-        "53BP1"
+        "53BP1",
+        "Guanine Nucleotide Exchange Factors"
       ],
       "techniques": [
         "웨스턴블롯",
@@ -93191,7 +93272,7 @@ window.KOREA_BIO_MAP = {
         "Gynostemma",
         "Codium fragile",
         "destabilization of the medial meniscus",
-        "Chondrocytes"
+        "cartilage degeneration"
       ],
       "techniques": [
         "종양 이종이식 모델",
@@ -93397,8 +93478,8 @@ window.KOREA_BIO_MAP = {
         "SGLT2 inhibitors",
         "Diabetes Mellitus, Type 2",
         "Thyroid Neoplasms",
-        "cardiorenal outcomes",
         "Diabetes Mellitus",
+        "cardiorenal outcomes",
         "Sodium-Glucose Transporter 2 Inhibitors",
         "GLP-1 receptor agonists"
       ],
@@ -93438,8 +93519,8 @@ window.KOREA_BIO_MAP = {
         "25-hydroxycholesterol",
         "Hydroxycholesterols",
         "proteoglycan loss",
-        "oxysterols",
         "Osteoarthritis",
+        "oxysterols",
         "Chondrocytes",
         "apoptosis"
       ],
@@ -94036,8 +94117,8 @@ window.KOREA_BIO_MAP = {
         "tralokinumab",
         "biologic therapy",
         "abrocitinib",
-        "upadacitinib",
-        "Histiocytoma, Benign Fibrous"
+        "Histiocytoma, Benign Fibrous",
+        "upadacitinib"
       ],
       "techniques": [
         "항체 개발"
@@ -94120,7 +94201,7 @@ window.KOREA_BIO_MAP = {
         "VCAM-1",
         "adhesion molecules",
         "sustainability education",
-        "Plant Extracts"
+        "vaginal progesterone"
       ],
       "techniques": [
         "유전자변형 마우스",
@@ -94164,8 +94245,8 @@ window.KOREA_BIO_MAP = {
         "sedentary behavior",
         "physical activity",
         "physical function",
-        "Independent Living",
-        "community-dwelling older adults"
+        "community-dwelling older adults",
+        "Independent Living"
       ],
       "techniques": [
         "머신러닝·AI",
@@ -94601,8 +94682,8 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [
         "머신러닝·AI",
-        "웨스턴블롯",
-        "ELISA"
+        "ELISA",
+        "웨스턴블롯"
       ],
       "department": "",
       "lab": {},
@@ -95650,8 +95731,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Percutaneous Coronary Intervention",
         "Drug-Eluting Stents",
-        "Coronary Angiography",
         "coronary artery disease",
+        "Coronary Angiography",
         "target vessel failure",
         "acute coronary syndrome",
         "myocardial infarction",
@@ -96356,8 +96437,8 @@ window.KOREA_BIO_MAP = {
         "postoperative pain",
         "Laparoscopy",
         "postoperative delirium",
-        "Anesthesia, General",
         "general anesthesia",
+        "Anesthesia, General",
         "Emergence Delirium",
         "remimazolam",
         "Remifentanil"
@@ -97557,8 +97638,8 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "pharmacokinetics",
-        "population pharmacokinetics",
         "bioequivalence",
+        "population pharmacokinetics",
         "interindividual variability",
         "toxicokinetics",
         "human risk assessment",
@@ -97773,10 +97854,10 @@ window.KOREA_BIO_MAP = {
         "universal stress protein",
         "Molecular Chaperones",
         "disulfide reductase",
-        "Circadian Clocks",
-        "Thioredoxin-Disulfide Reductase",
         "Oxidation-Reduction",
-        "Plants, Genetically Modified"
+        "Circadian Clocks",
+        "Plants, Genetically Modified",
+        "CCA1"
       ],
       "techniques": [
         "애기장대·식물 모델",
@@ -98070,8 +98151,8 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "cholinergic system",
-        "acetylcholinesterase",
         "oxidative stress",
+        "acetylcholinesterase",
         "neuroprotection",
         "cognitive impairment",
         "Cognitive Dysfunction",
@@ -98550,8 +98631,8 @@ window.KOREA_BIO_MAP = {
         "bovine embryos",
         "Embryo Culture Techniques",
         "bovine oocytes",
-        "Oocytes",
-        "Cattle"
+        "Cattle",
+        "Oocytes"
       ],
       "techniques": [
         "CRISPR 유전자편집",
@@ -100101,8 +100182,8 @@ window.KOREA_BIO_MAP = {
         "symptomatic intracranial hemorrhage"
       ],
       "techniques": [
-        "머신러닝·AI",
         "MRI·PET 영상",
+        "머신러닝·AI",
         "임상시험"
       ],
       "department": "",
@@ -100357,7 +100438,7 @@ window.KOREA_BIO_MAP = {
         "organ preservation",
         "Hypothermia, Induced",
         "vascular access patency",
-        "2-deoxy-D-ribose"
+        "cystine uptake"
       ],
       "techniques": [
         "나노입자·약물전달",
@@ -100963,8 +101044,8 @@ window.KOREA_BIO_MAP = {
         "diffusion kurtosis imaging",
         "cancer prognosis",
         "model interpretability",
-        "SHAP",
-        "intravoxel incoherent motion"
+        "intravoxel incoherent motion",
+        "SHAP"
       ],
       "techniques": [
         "임상시험",
@@ -101068,8 +101149,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5044362368",
       "openalex_id": "A5044362368",
       "identity": "openalex_institution",
-      "score": 7,
-      "collaborator_count": 7,
+      "score": 8,
+      "collaborator_count": 8,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -101520,8 +101601,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Acute Kidney Injury",
         "Reperfusion Injury",
-        "myofibroblast transformation",
         "renal ischemia-reperfusion injury",
+        "myofibroblast transformation",
         "Kidney Tubules, Proximal",
         "kidney fibroblasts",
         "tubulointerstitial fibrosis",
@@ -102554,7 +102635,7 @@ window.KOREA_BIO_MAP = {
         "avalanche photodiode",
         "continuous glucose monitoring",
         "closed-loop neuromodulation",
-        "public service motivation"
+        "type 1 diabetes"
       ],
       "techniques": [
         "머신러닝·AI",
@@ -102913,8 +102994,8 @@ window.KOREA_BIO_MAP = {
         "오가노이드",
         "항체 개발",
         "RNA 치료제·siRNA",
-        "나노입자·약물전달",
-        "머신러닝·AI"
+        "조직공학·바이오프린팅",
+        "나노입자·약물전달"
       ],
       "department": "",
       "lab": {},
@@ -103124,11 +103205,11 @@ window.KOREA_BIO_MAP = {
         "Chloroplasts",
         "Nicotiana benthamiana",
         "Protein Transport",
-        "Protoplasts",
         "chloroplast protein import",
+        "Protoplasts",
         "Chloroplast Proteins",
-        "transit peptide",
-        "Gene Expression Regulation, Plant"
+        "Gene Expression Regulation, Plant",
+        "Bienertia sinuspersici"
       ],
       "techniques": [
         "애기장대·식물 모델",
@@ -103143,8 +103224,8 @@ window.KOREA_BIO_MAP = {
       "url": "https://openalex.org/A5083020137",
       "openalex_id": "A5083020137",
       "identity": "openalex_institution",
-      "score": 10,
-      "collaborator_count": 10,
+      "score": 11,
+      "collaborator_count": 11,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -103483,8 +103564,8 @@ window.KOREA_BIO_MAP = {
         "enhancer RNA",
         "Enhancer Elements, Genetic",
         "basolateral amygdala",
-        "DNA Topoisomerases, Type I",
-        "Cyclin-Dependent Kinase-Activating Kinase"
+        "Cyclin-Dependent Kinase-Activating Kinase",
+        "DNA Topoisomerases, Type I"
       ],
       "techniques": [
         "후성유전 분석",
@@ -104053,7 +104134,7 @@ window.KOREA_BIO_MAP = {
         "triple-negative breast cancer",
         "HER2-positive metastatic breast cancer",
         "CDK4/6 inhibitors",
-        "pertuzumab"
+        "hormone receptor-positive breast cancer"
       ],
       "techniques": [
         "항체 개발",
@@ -104095,8 +104176,8 @@ window.KOREA_BIO_MAP = {
         "MEDLINE abstracts",
         "PubMed abstracts",
         "ibrutinib",
-        "drug response prediction",
         "named entity recognition",
+        "drug response prediction",
         "early stopping"
       ],
       "techniques": [
@@ -104271,8 +104352,8 @@ window.KOREA_BIO_MAP = {
         "Electric Conductivity",
         "reduced graphene oxide",
         "nerve conduits",
-        "bioelectrodes",
         "Pyrroles",
+        "bioelectrodes",
         "Hyaluronic Acid"
       ],
       "techniques": [
@@ -104357,8 +104438,8 @@ window.KOREA_BIO_MAP = {
         "dysadherin",
         "DCLK1",
         "breast cancer",
-        "Niclosamide",
-        "TGF-beta"
+        "TGF-beta",
+        "Niclosamide"
       ],
       "techniques": [
         "종양 이종이식 모델",
@@ -104400,8 +104481,8 @@ window.KOREA_BIO_MAP = {
         "Receptors, Purinergic P2X3",
         "P2X7 receptor antagonists",
         "Receptors, Purinergic P2X7",
-        "Drug Discovery",
         "P2X3 receptor antagonist",
+        "Drug Discovery",
         "P2X3 receptor"
       ],
       "techniques": [
@@ -104840,8 +104921,8 @@ window.KOREA_BIO_MAP = {
         "laser speckle contrast imaging",
         "meibomian glands",
         "oblique plane microscopy",
-        "Neuralgia",
-        "light-sheet microscopy"
+        "Eye Pain",
+        "Neuralgia"
       ],
       "techniques": [
         "형광·공초점 이미징",
@@ -105062,7 +105143,7 @@ window.KOREA_BIO_MAP = {
         "metagenomics",
         "Metagenome",
         "resistome",
-        "oral microbiota"
+        "p-cresyl sulfate"
       ],
       "techniques": [
         "RNA-seq·전사체",
@@ -105279,7 +105360,7 @@ window.KOREA_BIO_MAP = {
         "peptidomimetics",
         "Anti-Bacterial Agents",
         "Molecular Structure",
-        "bacterial membrane disruption"
+        "ATCUN motif"
       ],
       "techniques": [
         "나노입자·약물전달",
@@ -105538,8 +105619,8 @@ window.KOREA_BIO_MAP = {
         "uricase",
         "site-specific conjugation",
         "formate dehydrogenase",
-        "inverse electron demand Diels-Alder reaction",
         "elastin-like polypeptides",
+        "inverse electron demand Diels-Alder reaction",
         "strain-promoted azide-alkyne cycloaddition",
         "Urate Oxidase"
       ],
@@ -105588,8 +105669,8 @@ window.KOREA_BIO_MAP = {
         "PEX14"
       ],
       "techniques": [
-        "유전자변형 마우스",
         "제브라피시",
+        "유전자변형 마우스",
         "RNA-seq·전사체",
         "웨스턴블롯",
         "면역조직화학"
@@ -105847,8 +105928,8 @@ window.KOREA_BIO_MAP = {
         "intersegmental vessels",
         "vascular morphogenesis",
         "endothelial cell motility",
-        "transcriptional feedback loop",
         "Endothelial Cells",
+        "transcriptional feedback loop",
         "Activin Receptors, Type I",
         "focal adhesion maturation"
       ],
@@ -105936,8 +106017,8 @@ window.KOREA_BIO_MAP = {
         "mitochondrial calcium accumulation",
         "Phosphogluconate Dehydrogenase",
         "oxidative pentose phosphate pathway",
-        "Ubiquitin-Protein Ligases",
         "Adaptor Proteins, Signal Transducing",
+        "Ubiquitin-Protein Ligases",
         "imetelstat"
       ],
       "techniques": [
@@ -106239,7 +106320,7 @@ window.KOREA_BIO_MAP = {
         "Methionyl Aminopeptidases",
         "nitrogen recycling",
         "CO2 utilization",
-        "bioelectrochemical systems"
+        "Carbon Dioxide"
       ],
       "techniques": [
         "애기장대·식물 모델",
@@ -107478,7 +107559,7 @@ window.KOREA_BIO_MAP = {
         "abscisic acid response",
         "Plant Epidermis",
         "abscisic acid signaling",
-        "cuticle formation"
+        "Plant Stomata"
       ],
       "techniques": [
         "애기장대·식물 모델",
@@ -107828,8 +107909,8 @@ window.KOREA_BIO_MAP = {
         "Motor Neurons",
         "avoidance behavior",
         "osm-9",
-        "daf-7",
-        "FMRFamide"
+        "FMRFamide",
+        "daf-7"
       ],
       "techniques": [
         "예쁜꼬마선충",
@@ -107877,8 +107958,8 @@ window.KOREA_BIO_MAP = {
       "techniques": [
         "분자도킹·시뮬레이션",
         "X선 결정학·구조분석",
-        "크라이오전자현미경",
         "단백체",
+        "크라이오전자현미경",
         "머신러닝·AI"
       ],
       "department": "",
@@ -109008,8 +109089,8 @@ window.KOREA_BIO_MAP = {
         "fish meal replacement",
         "fish growth",
         "growth performance",
-        "lysozyme activity",
         "feed efficiency",
+        "lysozyme activity",
         "non-specific immunity",
         "vertical hydraulic conductivity"
       ],
@@ -109050,8 +109131,8 @@ window.KOREA_BIO_MAP = {
         "type II collagen",
         "Cell Dedifferentiation",
         "alkaline phosphatase inhibitors",
-        "Rabbits",
-        "Collagen Type II"
+        "Collagen Type II",
+        "Rabbits"
       ],
       "techniques": [
         "분자도킹·시뮬레이션",
@@ -109919,7 +110000,7 @@ window.KOREA_BIO_MAP = {
         "Gene Expression Regulation, Plant",
         "salt stress",
         "Brachypodium",
-        "salt tolerance"
+        "drought stress"
       ],
       "techniques": [
         "애기장대·식물 모델",
@@ -109958,8 +110039,8 @@ window.KOREA_BIO_MAP = {
         "japonica",
         "differential selection",
         "pre-harvest sprouting",
-        "balancing selection",
         "chloroplast genome",
+        "balancing selection",
         "ERF transcription factors"
       ],
       "techniques": [
@@ -110045,7 +110126,7 @@ window.KOREA_BIO_MAP = {
         "polyphenols",
         "moisture content",
         "DPPH radical scavenging",
-        "functional food ingredients"
+        "texture profile analysis"
       ],
       "techniques": [],
       "department": "",
@@ -110664,6 +110745,50 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
+      "postdoc_mentor_count": 0
+    },
+    {
+      "id": "P2718",
+      "name": "김유식",
+      "name_en": "Yoosik Kim",
+      "university": "KAIST",
+      "field": "Molecular Biology",
+      "category": "분자·세포생물",
+      "region": "대전·충청",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "한국과학기술원",
+      "position": "부교수",
+      "keywords": [
+        "RNA, Double-Stranded",
+        "mitochondrial double-stranded RNA",
+        "double-stranded RNA",
+        "RNA, Mitochondrial",
+        "PKR",
+        "RNA-Binding Proteins",
+        "alternative polyadenylation",
+        "interferon response"
+      ],
+      "techniques": [
+        "CRISPR 유전자편집",
+        "초파리",
+        "RNA-seq·전사체",
+        "차세대 시퀀싱(NGS)",
+        "단일세포 분석"
+      ],
+      "department": "KAIST 생명과학과",
+      "lab": {},
+      "orcid": "0000-0003-3064-4643",
+      "url": "https://bio.kaist.ac.kr/index.do?menuSeq=3344",
+      "openalex_id": "A5050514444",
+      "identity": "verified",
+      "score": 8,
+      "collaborator_count": 8,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
       "postdoc_mentor_count": 0
     }
   ],
@@ -113685,15 +113810,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0040",
-      "target": "P0702",
-      "type": "collaboration",
-      "paper_count": 3,
-      "verified": "auto",
-      "strength": 0.121,
-      "last_year": 2009
-    },
-    {
-      "source": "P0040",
       "target": "P0703",
       "type": "collaboration",
       "paper_count": 4,
@@ -115484,6 +115600,15 @@ window.KOREA_BIO_MAP = {
       "last_year": 2018
     },
     {
+      "source": "P0066",
+      "target": "P2718",
+      "type": "collaboration",
+      "paper_count": 2,
+      "verified": "auto",
+      "strength": 0.143,
+      "last_year": 2025
+    },
+    {
       "source": "P0067",
       "target": "P0068",
       "type": "collaboration",
@@ -116871,6 +116996,15 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0098",
+      "target": "P0705",
+      "type": "collaboration",
+      "paper_count": 3,
+      "verified": "auto",
+      "strength": 0.65,
+      "last_year": 2020
+    },
+    {
+      "source": "P0098",
       "target": "P0868",
       "type": "collaboration",
       "paper_count": 3,
@@ -117726,6 +117860,15 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0132",
+      "target": "P0779",
+      "type": "collaboration",
+      "paper_count": 7,
+      "verified": "auto",
+      "strength": 0.5,
+      "last_year": 2016
+    },
+    {
+      "source": "P0132",
       "target": "P1304",
       "type": "collaboration",
       "paper_count": 22,
@@ -117858,6 +118001,15 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.071,
       "last_year": 2012
+    },
+    {
+      "source": "P0136",
+      "target": "P0779",
+      "type": "collaboration",
+      "paper_count": 8,
+      "verified": "auto",
+      "strength": 1.465,
+      "last_year": 2024
     },
     {
       "source": "P0137",
@@ -118533,15 +118685,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 1.475,
       "last_year": 2018
-    },
-    {
-      "source": "P0173",
-      "target": "P0802",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.099,
-      "last_year": 2013
     },
     {
       "source": "P0173",
@@ -124820,10 +124963,10 @@ window.KOREA_BIO_MAP = {
       "source": "P0355",
       "target": "P2425",
       "type": "collaboration",
-      "paper_count": 10,
+      "paper_count": 11,
       "verified": "auto",
-      "strength": 0.197,
-      "last_year": 2020
+      "strength": 0.288,
+      "last_year": 2026
     },
     {
       "source": "P0355",
@@ -126138,15 +126281,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.088,
       "last_year": 2018
-    },
-    {
-      "source": "P0399",
-      "target": "P0802",
-      "type": "collaboration",
-      "paper_count": 3,
-      "verified": "auto",
-      "strength": 0.194,
-      "last_year": 2020
     },
     {
       "source": "P0399",
@@ -127470,15 +127604,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.135,
       "last_year": 2021
-    },
-    {
-      "source": "P0453",
-      "target": "P0802",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.067,
-      "last_year": 2018
     },
     {
       "source": "P0453",
@@ -133323,15 +133448,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0689",
-      "target": "P0702",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.155,
-      "last_year": 2022
-    },
-    {
-      "source": "P0689",
       "target": "P0703",
       "type": "collaboration",
       "paper_count": 2,
@@ -133854,6 +133970,15 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0696",
+      "target": "P0779",
+      "type": "collaboration",
+      "paper_count": 2,
+      "verified": "auto",
+      "strength": 0.147,
+      "last_year": 2020
+    },
+    {
+      "source": "P0696",
       "target": "P1572",
       "type": "collaboration",
       "paper_count": 5,
@@ -134051,33 +134176,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2024
     },
     {
-      "source": "P0702",
-      "target": "P0714",
-      "type": "collaboration",
-      "paper_count": 11,
-      "verified": "auto",
-      "strength": 1.403,
-      "last_year": 2026
-    },
-    {
-      "source": "P0702",
-      "target": "P2268",
-      "type": "collaboration",
-      "paper_count": 34,
-      "verified": "auto",
-      "strength": 3.714,
-      "last_year": 2026
-    },
-    {
-      "source": "P0702",
-      "target": "P2290",
-      "type": "collaboration",
-      "paper_count": 4,
-      "verified": "auto",
-      "strength": 0.278,
-      "last_year": 2011
-    },
-    {
       "source": "P0703",
       "target": "P0711",
       "type": "collaboration",
@@ -134258,6 +134356,15 @@ window.KOREA_BIO_MAP = {
       "last_year": 2018
     },
     {
+      "source": "P0703",
+      "target": "P2718",
+      "type": "collaboration",
+      "paper_count": 2,
+      "verified": "auto",
+      "strength": 0.119,
+      "last_year": 2021
+    },
+    {
       "source": "P0704",
       "target": "P0711",
       "type": "collaboration",
@@ -134292,6 +134399,15 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.222,
       "last_year": 2026
+    },
+    {
+      "source": "P0705",
+      "target": "P1000",
+      "type": "collaboration",
+      "paper_count": 2,
+      "verified": "auto",
+      "strength": 0.079,
+      "last_year": 2014
     },
     {
       "source": "P0707",
@@ -134744,6 +134860,15 @@ window.KOREA_BIO_MAP = {
       "last_year": 2024
     },
     {
+      "source": "P0717",
+      "target": "P0827",
+      "type": "collaboration",
+      "paper_count": 3,
+      "verified": "auto",
+      "strength": 0.51,
+      "last_year": 2025
+    },
+    {
       "source": "P0718",
       "target": "P0738",
       "type": "collaboration",
@@ -134840,6 +134965,15 @@ window.KOREA_BIO_MAP = {
       "paper_count": 4,
       "verified": "auto",
       "strength": 0.145,
+      "last_year": 2022
+    },
+    {
+      "source": "P0719",
+      "target": "P0733",
+      "type": "collaboration",
+      "paper_count": 2,
+      "verified": "auto",
+      "strength": 0.081,
       "last_year": 2022
     },
     {
@@ -135021,6 +135155,24 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.183,
       "last_year": 2020
+    },
+    {
+      "source": "P0733",
+      "target": "P0745",
+      "type": "collaboration",
+      "paper_count": 2,
+      "verified": "auto",
+      "strength": 0.25,
+      "last_year": 2025
+    },
+    {
+      "source": "P0733",
+      "target": "P0746",
+      "type": "collaboration",
+      "paper_count": 6,
+      "verified": "auto",
+      "strength": 0.399,
+      "last_year": 2025
     },
     {
       "source": "P0734",
@@ -135336,6 +135488,15 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.102,
       "last_year": 2023
+    },
+    {
+      "source": "P0746",
+      "target": "P0821",
+      "type": "collaboration",
+      "paper_count": 24,
+      "verified": "auto",
+      "strength": 0.769,
+      "last_year": 2017
     },
     {
       "source": "P0746",
@@ -135672,6 +135833,15 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0752",
+      "target": "P0779",
+      "type": "collaboration",
+      "paper_count": 2,
+      "verified": "auto",
+      "strength": 0.076,
+      "last_year": 2021
+    },
+    {
+      "source": "P0752",
       "target": "P0785",
       "type": "collaboration",
       "paper_count": 45,
@@ -135707,6 +135877,15 @@ window.KOREA_BIO_MAP = {
       "last_year": 2015
     },
     {
+      "source": "P0752",
+      "target": "P2718",
+      "type": "collaboration",
+      "paper_count": 3,
+      "verified": "auto",
+      "strength": 0.353,
+      "last_year": 2018
+    },
+    {
       "source": "P0753",
       "target": "P0754",
       "type": "collaboration",
@@ -135714,6 +135893,15 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.159,
       "last_year": 2022
+    },
+    {
+      "source": "P0753",
+      "target": "P0779",
+      "type": "collaboration",
+      "paper_count": 3,
+      "verified": "auto",
+      "strength": 0.187,
+      "last_year": 2016
     },
     {
       "source": "P0753",
@@ -135921,6 +136109,15 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.136,
       "last_year": 2024
+    },
+    {
+      "source": "P0754",
+      "target": "P2718",
+      "type": "collaboration",
+      "paper_count": 4,
+      "verified": "auto",
+      "strength": 0.322,
+      "last_year": 2025
     },
     {
       "source": "P0755",
@@ -136427,6 +136624,33 @@ window.KOREA_BIO_MAP = {
       "last_year": 2026
     },
     {
+      "source": "P0779",
+      "target": "P1356",
+      "type": "collaboration",
+      "paper_count": 4,
+      "verified": "auto",
+      "strength": 0.655,
+      "last_year": 2025
+    },
+    {
+      "source": "P0779",
+      "target": "P1953",
+      "type": "collaboration",
+      "paper_count": 2,
+      "verified": "auto",
+      "strength": 0.055,
+      "last_year": 2006
+    },
+    {
+      "source": "P0779",
+      "target": "P2541",
+      "type": "collaboration",
+      "paper_count": 7,
+      "verified": "auto",
+      "strength": 0.467,
+      "last_year": 2019
+    },
+    {
       "source": "P0782",
       "target": "P1533",
       "type": "collaboration",
@@ -136514,6 +136738,15 @@ window.KOREA_BIO_MAP = {
       "paper_count": 3,
       "verified": "auto",
       "strength": 0.222,
+      "last_year": 2016
+    },
+    {
+      "source": "P0785",
+      "target": "P2718",
+      "type": "collaboration",
+      "paper_count": 2,
+      "verified": "auto",
+      "strength": 0.169,
       "last_year": 2016
     },
     {
@@ -136776,42 +137009,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 1.036,
       "last_year": 2026
-    },
-    {
-      "source": "P0802",
-      "target": "P1387",
-      "type": "collaboration",
-      "paper_count": 4,
-      "verified": "auto",
-      "strength": 0.216,
-      "last_year": 2013
-    },
-    {
-      "source": "P0802",
-      "target": "P1389",
-      "type": "collaboration",
-      "paper_count": 4,
-      "verified": "auto",
-      "strength": 0.216,
-      "last_year": 2013
-    },
-    {
-      "source": "P0802",
-      "target": "P1401",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.128,
-      "last_year": 2013
-    },
-    {
-      "source": "P0802",
-      "target": "P2037",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.196,
-      "last_year": 2016
     },
     {
       "source": "P0804",
@@ -137255,6 +137452,42 @@ window.KOREA_BIO_MAP = {
       "last_year": 2022
     },
     {
+      "source": "P0821",
+      "target": "P0836",
+      "type": "collaboration",
+      "paper_count": 31,
+      "verified": "auto",
+      "strength": 1.699,
+      "last_year": 2022
+    },
+    {
+      "source": "P0821",
+      "target": "P1116",
+      "type": "collaboration",
+      "paper_count": 2,
+      "verified": "auto",
+      "strength": 0.174,
+      "last_year": 2017
+    },
+    {
+      "source": "P0821",
+      "target": "P1223",
+      "type": "collaboration",
+      "paper_count": 9,
+      "verified": "auto",
+      "strength": 0.291,
+      "last_year": 2012
+    },
+    {
+      "source": "P0821",
+      "target": "P1288",
+      "type": "collaboration",
+      "paper_count": 2,
+      "verified": "auto",
+      "strength": 0.174,
+      "last_year": 2017
+    },
+    {
       "source": "P0822",
       "target": "P0829",
       "type": "collaboration",
@@ -137352,6 +137585,15 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.167,
       "last_year": 2016
+    },
+    {
+      "source": "P0827",
+      "target": "P0830",
+      "type": "collaboration",
+      "paper_count": 13,
+      "verified": "auto",
+      "strength": 3.201,
+      "last_year": 2026
     },
     {
       "source": "P0829",
@@ -138359,6 +138601,33 @@ window.KOREA_BIO_MAP = {
       "paper_count": 2,
       "verified": "auto",
       "strength": 0.214,
+      "last_year": 2020
+    },
+    {
+      "source": "P0915",
+      "target": "P1429",
+      "type": "collaboration",
+      "paper_count": 3,
+      "verified": "auto",
+      "strength": 0.251,
+      "last_year": 2019
+    },
+    {
+      "source": "P0919",
+      "target": "P0920",
+      "type": "collaboration",
+      "paper_count": 3,
+      "verified": "auto",
+      "strength": 0.157,
+      "last_year": 2026
+    },
+    {
+      "source": "P0919",
+      "target": "P1548",
+      "type": "collaboration",
+      "paper_count": 2,
+      "verified": "auto",
+      "strength": 0.109,
       "last_year": 2020
     },
     {
@@ -171293,6 +171562,15 @@ window.KOREA_BIO_MAP = {
       "last_year": 2024
     },
     {
+      "source": "P1624",
+      "target": "P2718",
+      "type": "collaboration",
+      "paper_count": 2,
+      "verified": "auto",
+      "strength": 0.114,
+      "last_year": 2025
+    },
+    {
       "source": "P1625",
       "target": "P1626",
       "type": "collaboration",
@@ -175098,6 +175376,15 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.119,
       "last_year": 2017
+    },
+    {
+      "source": "P1768",
+      "target": "P2718",
+      "type": "collaboration",
+      "paper_count": 2,
+      "verified": "auto",
+      "strength": 0.114,
+      "last_year": 2025
     },
     {
       "source": "P1770",
@@ -180332,9 +180619,9 @@ window.KOREA_BIO_MAP = {
       "source": "P1969",
       "target": "P1970",
       "type": "collaboration",
-      "paper_count": 57,
+      "paper_count": 58,
       "verified": "auto",
-      "strength": 7.984,
+      "strength": 8.15,
       "last_year": 2026
     },
     {
@@ -188387,18 +188674,18 @@ window.KOREA_BIO_MAP = {
       "source": "P2187",
       "target": "P2194",
       "type": "collaboration",
-      "paper_count": 3,
+      "paper_count": 4,
       "verified": "auto",
-      "strength": 0.514,
+      "strength": 0.681,
       "last_year": 2026
     },
     {
       "source": "P2187",
       "target": "P2197",
       "type": "collaboration",
-      "paper_count": 24,
+      "paper_count": 25,
       "verified": "auto",
-      "strength": 2.976,
+      "strength": 3.143,
       "last_year": 2026
     },
     {
@@ -188486,9 +188773,9 @@ window.KOREA_BIO_MAP = {
       "source": "P2194",
       "target": "P2197",
       "type": "collaboration",
-      "paper_count": 2,
+      "paper_count": 3,
       "verified": "auto",
-      "strength": 0.264,
+      "strength": 0.431,
       "last_year": 2026
     },
     {
@@ -195350,6 +195637,15 @@ window.KOREA_BIO_MAP = {
       "last_year": 2025
     },
     {
+      "source": "P2493",
+      "target": "P2718",
+      "type": "collaboration",
+      "paper_count": 3,
+      "verified": "auto",
+      "strength": 0.281,
+      "last_year": 2025
+    },
+    {
       "source": "P2495",
       "target": "P2499",
       "type": "collaboration",
@@ -199015,6 +199311,15 @@ window.KOREA_BIO_MAP = {
     {
       "source": "P1890",
       "target": "P1913",
+      "type": "advisor_student",
+      "paper_count": 3,
+      "verified": "auto",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0779",
+      "target": "P0132",
       "type": "advisor_student",
       "paper_count": 3,
       "verified": "auto",

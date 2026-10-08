@@ -3,6 +3,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
+from datetime import date  # noqa: E402
+
+import pandas as pd  # noqa: E402
+
 import alumni  # noqa: E402
 from alumni import (_same_person, alumni_links, career_of, degree_of, lab_links, parse_alumni,  # noqa: E402
                     summarize, years_of)
@@ -108,7 +112,21 @@ def test_papers_and_summary():
     alumni.add_papers(FakeClient(), ["A1"], people)
     kim = people[0]
     assert (kim["papers"], kim["first_author"], kim["top10"]) == (2, 1, 1)
-    s = summarize("P1", "http://lab", ["http://lab/alumni"], people)
+    s = summarize("P1", "http://lab", ["http://lab/alumni"], people, today=date(2024, 6, 1))
     assert s["alumni"] == 3 and s["phd_graduates"] == 2 and s["phd_years"] == 5.4
     assert s["career_industry"] == 1 and s["career_postdoc"] == 1 and s["career_faculty"] == 1
     assert s["fwci_median"] == 2.0 and s["top10_share"] == 0.5 and s["top_journals"] == "Nature"
+    # Left in the last 5 years (2019+): 김민수 (2019) and 이지은 (2019), not 박준형 (2018).
+    assert s["recent_alumni"] == 2 and s["recent_phd_graduates"] == 1 and s["recent_career_faculty"] == 0
+
+
+def test_lab_info_has_recent(tmp_path, monkeypatch):
+    people = parse_alumni(LIST_PAGE)
+    path = tmp_path / "summary.csv"
+    pd.DataFrame([summarize("P1", "http://lab", ["http://lab/alumni"], people, today=date(2024, 6, 1))]).to_csv(path)
+    monkeypatch.setattr(alumni, "SUMMARY_PATH", path)
+    info = alumni.alumni_lab_info()["P1"]
+    assert info["alumni"] == 3 and info["careers"]["faculty"] == 1
+    assert info["recent"]["alumni"] == 2 and "faculty" not in info["recent"]["careers"] or \
+        info["recent"]["careers"]["faculty"] == 0
+    assert info["alumni_url"] == "http://lab/alumni"

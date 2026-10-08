@@ -568,7 +568,7 @@ def export_web_data(nodes: pd.DataFrame, links: pd.DataFrame) -> None:
     # what was typed into the master Excel file (연구실정보).
     labs = alumni_lab_info()
     for pid, info in lab_info(nodes).items():
-        merged = {**labs.get(pid, {}), **info}
+        merged = {**labs.get(pid, {}), **info, "manual": sorted(info)}   # typed values apply to every period
         if pid in labs and "source" in info:
             merged["source"] = f"{info['source']} · {labs[pid]['source']}"
         labs[pid] = merged

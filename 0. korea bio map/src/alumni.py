@@ -423,13 +423,19 @@ def add_papers(client: OpenAlexClient, openalex_ids: list[str], people: list[dic
 
 
 # ------------------------------------------------------------------ summary
-def summarize(pid: str, lab_url: str, pages: list[str], people: list[dict]) -> dict:
+RECENT_YEARS = 5
+CAREER_KINDS = ("faculty", "postdoc", "industry", "hospital", "institute", "other")
+STAT_KEYS = ("alumni", "phd_graduates", "ms_graduates", "postdoc_alumni", "phd_years", "integrated_years", "ms_years",
+             "students_with_papers", "papers_per_student", "first_author_per_student", "fwci_median", "top10_share")
+
+
+def _stats(people: list[dict]) -> dict:
+    """Lab totals for one group of alumni (all of them, or the recent ones)."""
     def med(values):
         values = [v for v in values if v is not None]
         return round(statistics.median(values), 1) if values else ""
 
     grads = [p for p in people if p["degree"] in ("phd", "integrated", "ms")]
-    phd = [p for p in people if p["degree"] in ("phd", "integrated")]
     careers = Counter(p["career"] for p in people if p["career"] not in ("unknown", ""))
     with_papers = [p for p in grads if "papers" in p]
     fwci = {}
@@ -442,14 +448,14 @@ def summarize(pid: str, lab_url: str, pages: list[str], people: list[dict]) -> d
     for p in with_papers:
         journals.update(p["journals"])
     return {
-        "professor_id": pid, "lab_url": lab_url, "alumni_urls": ";".join(pages),
-        "alumni": len(people), "phd_graduates": len(phd),
+        "alumni": len(people),
+        "phd_graduates": sum(p["degree"] in ("phd", "integrated") for p in people),
         "ms_graduates": sum(p["degree"] == "ms" for p in people),
         "postdoc_alumni": sum(p["degree"] == "postdoc" for p in people),
         "phd_years": med(p["years"] for p in people if p["degree"] == "phd"),
         "integrated_years": med(p["years"] for p in people if p["degree"] == "integrated"),
         "ms_years": med(p["years"] for p in people if p["degree"] == "ms"),
-        **{f"career_{k}": careers.get(k, 0) for k in ("faculty", "postdoc", "industry", "hospital", "institute", "other")},
+        **{f"career_{k}": careers.get(k, 0) for k in CAREER_KINDS},
         "students_with_papers": len(with_papers),
         "papers_per_student": round(sum(p["papers"] for p in with_papers) / len(with_papers), 1) if with_papers else "",
         "first_author_per_student": round(sum(p["first_author"] for p in with_papers) / len(with_papers), 1)
@@ -457,8 +463,16 @@ def summarize(pid: str, lab_url: str, pages: list[str], people: list[dict]) -> d
         "fwci_median": med(fwci.values()),
         "top10_share": round(top10 / len(all_ids), 2) if all_ids else "",
         "top_journals": "; ".join(j for j, _ in journals.most_common(3)),
-        "checked_at": date.today().isoformat(),
     }
+
+
+def summarize(pid: str, lab_url: str, pages: list[str], people: list[dict], today: date | None = None) -> dict:
+    """All-time totals plus recent_* totals for alumni who left in the last RECENT_YEARS years."""
+    today = today or date.today()
+    recent = [p for p in people if p.get("end_year") and p["end_year"] >= today.year - RECENT_YEARS]
+    return {"professor_id": pid, "lab_url": lab_url, "alumni_urls": ";".join(pages),
+            **_stats(people), **{f"recent_{k}": v for k, v in _stats(recent).items()},
+            "checked_at": today.isoformat()}
 
 
 def _read(path, columns=None) -> pd.DataFrame:
@@ -546,26 +560,32 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
     return summary
 
 
+def _lab_fields(r, prefix: str = "") -> dict:
+    info = {}
+    for key in STAT_KEYS:
+        try:
+            if r.get(prefix + key, "") != "":
+                info[key] = float(r[prefix + key])
+        except ValueError:
+            pass
+    careers = {k: int(float(r.get(f"{prefix}career_{k}", 0) or 0)) for k in CAREER_KINDS}
+    if any(careers.values()):
+        info["careers"] = careers
+    if r.get(prefix + "top_journals"):
+        info["top_journals"] = r[prefix + "top_journals"]
+    return info
+
+
 def alumni_lab_info() -> dict[str, dict]:
-    """{professor_id: lab fields} from the alumni summary, in the master sheet's keys."""
+    """{professor_id: lab fields} from the alumni summary, in the master sheet's keys.
+    "recent" holds the same fields for alumni of the last RECENT_YEARS years."""
     df = _read(SUMMARY_PATH)
     out = {}
     for _, r in df.iterrows():
-        info = {}
-        for key in ("phd_years", "integrated_years", "ms_years", "phd_graduates", "papers_per_student",
-                    "first_author_per_student", "fwci_median", "top10_share"):
-            try:
-                if r.get(key, "") != "":
-                    info[key] = float(r[key])
-            except ValueError:
-                pass
-        careers = {k: int(float(r.get(f"career_{k}", 0) or 0))
-                   for k in ("faculty", "postdoc", "industry", "hospital", "institute", "other")}
-        if any(careers.values()):
-            info["careers"] = careers
-        if r.get("top_journals"):
-            info["top_journals"] = r["top_journals"]
-        info["alumni"] = int(float(r.get("alumni", 0) or 0))
+        info = _lab_fields(r)
+        recent = _lab_fields(r, "recent_")
+        if recent.get("alumni"):
+            info["recent"] = recent
         info["alumni_url"] = (r.get("alumni_urls", "") or "").split(";")[0]
         info["source"] = "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)"
         info["as_of"] = r.get("checked_at", "")

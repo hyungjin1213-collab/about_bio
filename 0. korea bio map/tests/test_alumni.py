@@ -169,3 +169,10 @@ def test_v3_fixes():
     assert p["degree"] == "postdoc" and p["career"] == "unknown"
     footer = "<p>이지은 석사 2017-2019 현재 KIST</p><div>Copyright Lab</div><p>시신기증 총동문회 2020</p>"
     assert [x["name_ko"] for x in parse_alumni(footer)] == ["이지은"]
+
+
+def test_duration_from_years_only_is_an_estimate():
+    people = parse_alumni(LIST_PAGE)          # 김민수 2014.03-2019.08 (exact), 이지은 2017-2019 (years only)
+    assert people[0]["years_exact"] and not people[1]["years_exact"]
+    s = summarize("P1", "", [], people, today=date(2024, 6, 1))
+    assert s["phd_years_est"] == 0 and s["ms_years_est"] == 1 and s["ms_years"] == 2.0

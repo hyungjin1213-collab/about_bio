@@ -53,7 +53,7 @@ SUMMARY_PATH = OUTPUT_DIR / "lab_alumni_summary.csv"
 PEOPLE_DIR = OUTPUT_DIR / "alumni"
 SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at", "parser"]
 # Bump when the parser changes: labs read by an older parser are read again.
-PARSER_VERSION = "3"
+PARSER_VERSION = "4"
 MANUAL_COLUMNS = ["professor_id", "name", "lab_url", "alumni_url", "memo"]
 
 LAB_LINK_WORDS = ["연구실 홈페이지", "연구실홈페이지", "홈페이지", "연구실", "lab homepage", "lab website", "homepage",
@@ -141,8 +141,14 @@ def career_of(position: str) -> str:
     return "other"
 
 
+def exact_months(text: str) -> bool:
+    """True when both the entry and graduation month are written ('2015.03 - 2020.08')."""
+    return sum(1 for _, m in YEAR_RE.findall(text) if m and 1 <= int(m) <= 12) >= 2
+
+
 def years_of(text: str, degree: str = "") -> tuple[int | None, int | None, float | None]:
-    """(start, end, duration in years) from '2015.03 - 2020.08', '2015~2020', '2020' (graduation only)."""
+    """(start, end, duration in years) from '2015.03 - 2020.08', '2015~2020', '2020' (graduation only).
+    Without both months the duration is year minus year: an estimate (see exact_months)."""
     found = [(int(y), int(m) if m and 1 <= int(m) <= 12 else None) for y, m in YEAR_RE.findall(text)]
     found = [(y, m) for y, m in found if 1980 <= y <= date.today().year + 1]
     if not found:
@@ -245,6 +251,7 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
             continue
         people.append({"name_ko": e["name_ko"], "name_en": e["name_en"], "degree": degree or "unknown",
                        "start_year": start, "end_year": end, "years": duration,
+                       "years_exact": duration is not None and exact_months(text),
                        "position": position, "career": career or "unknown", "raw": text[:300]})
     return people
 
@@ -466,6 +473,7 @@ def add_papers(client: OpenAlexClient, openalex_ids: list[str], people: list[dic
 RECENT_YEARS = 5
 CAREER_KINDS = ("faculty", "postdoc", "industry", "hospital", "institute", "other")
 STAT_KEYS = ("alumni", "phd_graduates", "ms_graduates", "postdoc_alumni", "phd_years", "integrated_years", "ms_years",
+             "phd_years_est", "integrated_years_est", "ms_years_est",
              "students_with_papers", "papers_per_student", "first_author_per_student", "fwci_median", "top10_share")
 
 
@@ -495,6 +503,9 @@ def _stats(people: list[dict]) -> dict:
         "phd_years": med(p["years"] for p in people if p["degree"] == "phd"),
         "integrated_years": med(p["years"] for p in people if p["degree"] == "integrated"),
         "ms_years": med(p["years"] for p in people if p["degree"] == "ms"),
+        # 1 = some of these durations come from years only (entry/graduation month not written)
+        **{f"{d}_years_est": int(any(p["years"] is not None and not p.get("years_exact") for p in people
+                                     if p["degree"] == d)) for d in ("phd", "integrated", "ms")},
         **{f"career_{k}": careers.get(k, 0) for k in CAREER_KINDS},
         "students_with_papers": len(with_papers),
         "papers_per_student": round(sum(p["papers"] for p in with_papers) / len(with_papers), 1) if with_papers else "",

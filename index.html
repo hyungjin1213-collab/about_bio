@@ -74,6 +74,12 @@
     .lab{display:grid;grid-template-columns:1fr auto;gap:4px 10px;font-size:12.5px;color:#d7def0}
     .lab span:nth-child(even){color:#fff;font-weight:600;text-align:right}
     .muted{color:#7f8aa8;font-size:12px;line-height:1.5}
+    .seg.period{margin:0 0 8px}
+    .fgroup .seg.period{margin:2px 0 6px}
+    .careers{display:flex;height:10px;border-radius:999px;overflow:hidden;gap:2px}
+    .careers i{display:block;min-width:4px}
+    .career-legend{display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:6px;font-size:11.5px;color:#d7def0}
+    .career-legend b{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
     .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
     .links a{font-size:12px;color:#93c5fd;text-decoration:none;border:1px solid rgba(147,197,253,.3);border-radius:8px;padding:5px 9px}
     .recruit{display:inline-block;margin-left:6px;font-size:11px;padding:2px 7px;border-radius:999px;background:#fbbf24;color:#111;vertical-align:middle}
@@ -140,6 +146,9 @@
         <div class="fgroup"><h4>지역</h4><div class="chips" id="f-region"></div></div>
         <div class="fgroup"><h4>기술</h4><div class="chips" id="f-technique"></div></div>
         <div class="fgroup"><h4>직위</h4><div class="chips" id="f-position"></div></div>
+        <div class="fgroup"><h4>연구실 (졸업생 기준)</h4>
+          <div class="seg period" role="radiogroup" aria-label="기간"><button data-period="recent" class="on">최근 5년</button><button data-period="all">전체</button></div>
+          <div class="chips" id="f-lab"></div></div>
         <div class="fgroup"><h4>기타</h4><div class="chips" id="f-extra"></div></div>
       </div>
     </div>
@@ -149,7 +158,18 @@
           <option value="score">종합 점수</option>
           <option value="collaborator_count">공동연구 교수 수</option>
           <option value="faculty_trainee_count">교수가 된 제자 수</option>
+          <optgroup label="연구실 (졸업생 기준)">
+            <option value="lab:phd_years">박사 졸업기간 짧은 순</option>
+            <option value="lab:papers_per_student">학생당 논문 수</option>
+            <option value="lab:first_author_per_student">학생당 1저자 논문 수</option>
+            <option value="lab:fwci_median">논문 영향력 (FWCI)</option>
+            <option value="lab:top10_share">상위 10% 논문 비율</option>
+            <option value="lab:faculty">교수가 된 졸업생 수</option>
+            <option value="lab:industry">기업 진출 졸업생 수</option>
+            <option value="lab:alumni">졸업생 수</option>
+          </optgroup>
         </select>
+        <select id="rank-period" aria-label="기간" hidden><option value="recent">최근 5년</option><option value="all">전체</option></select>
         <select id="rank-uni" aria-label="대학"></select>
       </div>
       <ol class="list" id="rank-list"></ol>
@@ -377,12 +397,59 @@
         ["박사 평균 졸업기간",L.phd_years&&`${L.phd_years}년`],["석박통합 평균",L.integrated_years&&`${L.integrated_years}년`],
         ["석사 평균 졸업기간",L.ms_years&&`${L.ms_years}년`],["학생당 평균 논문",L.papers_per_student&&`${L.papers_per_student}편`],
         ["학생당 1저자 논문",L.first_author_per_student&&`${L.first_author_per_student}편`],["박사 졸업생",L.phd_graduates&&`${L.phd_graduates}명`],
-        ["현재 구성",[L.phd_students&&`박사 ${L.phd_students}`,L.ms_students&&`석사 ${L.ms_students}`,L.postdocs&&`포닥 ${L.postdocs}`].filter(Boolean).join(" · ")]
+        ["현재 구성",[L.phd_students&&`박사 ${L.phd_students}`,L.ms_students&&`석사 ${L.ms_students}`,L.postdocs&&`포닥 ${L.postdocs}`].filter(Boolean).join(" · ")],
+        // FWCI 1.0 = world average for the field and year.
+        ["논문 영향력 (FWCI 중앙값)",L.fwci_median!=null&&L.fwci_median!==""&&`${L.fwci_median} (세계 평균 1.0)`],
+        ["상위 10% 피인용 논문",L.top10_share!=null&&L.top10_share!==""&&`${Math.round(L.top10_share*100)}%`]
       ].filter(r=>r[1]);
       return rows;
     }
+    // Where the lab's alumni went (from the lab's alumni page), as one bar.
+    const CAREER_INFO=[["faculty","교수","#fbbf24"],["postdoc","포닥","#c084fc"],["industry","기업","#60a5fa"],
+      ["hospital","병원","#f472b6"],["institute","연구소","#34d399"],["other","기타","#94a3b8"]];
+    function careerBlock(lab){
+      const L=lab||{},c=L.careers;
+      const total=c?CAREER_INFO.reduce((s,[k])=>s+(c[k]||0),0):0;
+      const head=[L.top_journals&&`주요 1저자 저널: ${esc(L.top_journals)}`,
+        L.source&&`출처: ${esc(L.source)}${L.as_of?` · ${esc(L.as_of)}`:""}`,
+        L.alumni_url&&safeUrl(L.alumni_url)&&`<a href="${esc(safeUrl(L.alumni_url))}" target="_blank" rel="noopener" style="color:#93c5fd">졸업생 페이지</a>`].filter(Boolean);
+      if(!total) return head.length?`<div class="muted" style="margin-top:8px">${head.join("<br>")}</div>`:"";
+      const parts=CAREER_INFO.filter(([k])=>c[k]);
+      return `<h3>졸업생 진로 (${total}명)</h3>
+        <div class="careers">${parts.map(([k,,col])=>`<i style="flex:${c[k]};background:${col}"></i>`).join("")}</div>
+        <div class="career-legend">${parts.map(([k,label,col])=>`<span><b style="background:${col}"></b>${label} ${c[k]}</span>`).join("")}</div>
+        ${head.length?`<div class="muted" style="margin-top:6px">${head.join("<br>")}</div>`:""}`;
+    }
+    // ---------- lab alumni: recent 5 years / all time ----------
+    let labPeriod="recent";
+    const LAB_AUTO_KEYS=["alumni","phd_graduates","ms_graduates","postdoc_alumni","phd_years","integrated_years","ms_years",
+      "students_with_papers","papers_per_student","first_author_per_student","fwci_median","top10_share","careers","top_journals"];
+    // The lab's figures for one period; values typed into the master sheet apply to both.
+    function labView(lab,period=labPeriod){
+      if(!lab) return {};
+      if(period!=="recent") return lab;
+      const manual=new Set(lab.manual||[]),v={...lab};
+      LAB_AUTO_KEYS.forEach(k=>{if(!manual.has(k)) delete v[k];});
+      Object.entries(lab.recent||{}).forEach(([k,x])=>{if(!manual.has(k)) v[k]=x;});
+      return v;
+    }
+    const hasAlumni=lab=>!!(lab&&(lab.alumni||lab.alumni_url));
+    function periodSeg(lab){
+      if(!hasAlumni(lab)) return "";
+      const n=p=>labView(lab,p).alumni||0;
+      return `<div class="seg period" role="radiogroup" aria-label="기간">
+        <button data-period="recent" class="${labPeriod==="recent"?"on":""}">최근 5년 · ${n("recent")}명</button>
+        <button data-period="all" class="${labPeriod==="all"?"on":""}">전체 · ${n("all")}명</button></div>`;
+    }
+    function setLabPeriod(p){
+      if(p===labPeriod) return;
+      labPeriod=p;
+      document.querySelectorAll("[data-period]").forEach(b=>b.classList.toggle("on",b.dataset.period===p));
+      buildLabFilters();applyFilters();
+      if(selected&&!card.hidden){const top=card.scrollTop;openCard(selected);card.scrollTop=top;}
+    }
     function openCard(n){
-      const lin=lineageOf(n),lab=labRows(n.lab),recruiting=/^(예|yes|y|o|모집)/i.test(String((n.lab||{}).recruiting||""));
+      const view=labView(n.lab),lin=lineageOf(n),lab=labRows(view),recruiting=/^(예|yes|y|o|모집)/i.test(String((n.lab||{}).recruiting||""));
       const url=safeUrl(n.url);
       card.innerHTML=`<button class="close" aria-label="닫기">×</button>
         <h2>${esc(n.name)}${n.name_en&&n.name_en!==n.name?`<span class="en">${esc(n.name_en)}</span>`:""}${recruiting?`<span class="recruit">모집 중</span>`:""}</h2>
@@ -396,8 +463,10 @@
           <div class="stat"><b>${lin.postdocs.length}</b><span>PI 된 포닥</span></div>
         </div>
         <h3>연구실 정보</h3>
+        ${periodSeg(n.lab)}
         ${lab.length?`<div class="lab">${lab.map(r=>`<span>${esc(r[0])}</span><span>${esc(r[1])}</span>`).join("")}</div>`
-          :`<div class="muted">아직 졸업기간·학생당 논문 수 같은 연구실 정보가 없어요. 이 연구실을 아신다면 커뮤니티에서 알려주세요.</div>`}
+          :`<div class="muted">${hasAlumni(n.lab)&&labPeriod==="recent"?"최근 5년 졸업생 정보가 없어요. 전체를 눌러 보세요.":"아직 졸업기간·학생당 논문 수 같은 연구실 정보가 없어요. 이 연구실을 아신다면 커뮤니티에서 알려주세요."}</div>`}
+        ${careerBlock(view)}
         ${(n.keywords||[]).length?`<h3>연구 분야</h3><div class="tags">${n.keywords.slice(0,8).map(k=>`<span class="tag">${esc(k)}</span>`).join("")}</div>`:""}
         ${(n.techniques||[]).length?`<h3>주요 기술</h3><div class="tags">${n.techniques.slice(0,6).map(k=>`<span class="tag tech">${esc(k)}</span>`).join("")}</div>`:""}
         ${lin.advisors.length||lin.mentors.length?`<h3>지도교수 · 포닥 멘토</h3><div class="people">${people(lin.advisors,"")}${people(lin.mentors,"pd")}</div>`:""}
@@ -407,6 +476,7 @@
           ${n.orcid?`<a href="https://orcid.org/${esc(n.orcid)}" target="_blank" rel="noopener">ORCID</a>`:""}</div>`;
       card.hidden=false;document.body.classList.add("card-open");
       card.scrollTop=0;
+      card.querySelectorAll(".period [data-period]").forEach(b=>b.addEventListener("click",()=>setLabPeriod(b.dataset.period)));
       card.querySelector(".close").addEventListener("click",()=>{selected=null;setFocus(null);markActive(null);closeCard();drawOverlay();});
       card.querySelectorAll(".people button").forEach(b=>b.addEventListener("click",()=>{const p=NODE_BY_ID.get(b.dataset.id);if(p) flyTo(p);}));
     }
@@ -638,8 +708,34 @@
 
     const unis=[...new Set(NODES.map(n=>n._uni).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
     rankUni.replaceChildren(new Option("전체 대학",""),...unis.map(u=>new Option(u,u)));
+    // Lab rankings read the alumni figures of the chosen period; labs without them are left out.
+    const LAB_RANK={
+      phd_years:{get:v=>v.phd_years||v.integrated_years,asc:true,fmt:x=>`${x}년`},
+      papers_per_student:{get:v=>v.papers_per_student,fmt:x=>`${x}편`},
+      first_author_per_student:{get:v=>v.first_author_per_student,fmt:x=>`${x}편`},
+      fwci_median:{get:v=>v.fwci_median,fmt:x=>x},
+      top10_share:{get:v=>v.top10_share,fmt:x=>`${Math.round(x*100)}%`},
+      faculty:{get:v=>(v.careers||{}).faculty,fmt:x=>`${x}명`},
+      industry:{get:v=>(v.careers||{}).industry,fmt:x=>`${x}명`},
+      alumni:{get:v=>v.alumni,fmt:x=>`${x}명`}
+    };
+    const rankPeriod=document.getElementById("rank-period");
+    rankPeriod.addEventListener("change",()=>setLabPeriod(rankPeriod.value));
     function runRank(){
       const key=rankBy.value, uni=rankUni.value;
+      rankPeriod.hidden=!key.startsWith("lab:");rankPeriod.value=labPeriod;
+      if(key.startsWith("lab:")){
+        const R=LAB_RANK[key.slice(4)];
+        const items=NODES.filter(n=>n._pass!==false&&(!uni||n._uni===uni))
+          .map(n=>({n,v:Number(R.get(labView(n.lab)))})).filter(x=>x.v>0)
+          .sort((a,b)=>(R.asc?a.v-b.v:b.v-a.v)||b.n.score-a.n.score);
+        let rank=0,prev=null;
+        fill(rankList,items.slice(0,100).map((x,i)=>{
+          if(x.v!==prev){rank=i+1;prev=x.v;}
+          return row(x.n,{rank,value:R.fmt(x.v)});
+        }),"아직 이 기준의 연구실 정보가 없어요");
+        return;
+      }
       const items=NODES.filter(n=>n._pass!==false&&(!uni||n._uni===uni))
         .sort((a,b)=>(b[key]||0)-(a[key]||0)||b.score-a.score);
       let rank=0,prev=null;
@@ -665,12 +761,32 @@
       recent:{label:"최근 5년 공동연구",test:n=>recentIds.has(n.id)},
       verified:{label:"신원 확인됨 (ORCID 등)",test:n=>n.identity==="verified"}
     };
-    const FILTERS={category:new Set(),region:new Set(),position:new Set(),technique:new Set(),sector:new Set(),extra:new Set()};
+    // Lab filters read the alumni figures of the chosen period (최근 5년 / 전체).
+    const careerShare=(v,k)=>{const c=v.careers||{},t=Object.values(c).reduce((s,x)=>s+x,0);return t?(c[k]||0)/t:0;};
+    const LAB_FILTERS={
+      has:{label:"졸업생 정보 있음",test:v=>v.alumni>0},
+      fast:{label:"박사 졸업 5.5년 이하",test:v=>(v.phd_years||v.integrated_years)>0&&(v.phd_years||v.integrated_years)<=5.5},
+      faculty:{label:"교수가 된 졸업생 있음",test:v=>((v.careers||{}).faculty||0)>0},
+      industry:{label:"기업 진출 30% 이상",test:v=>careerShare(v,"industry")>=.3},
+      first:{label:"학생당 1저자 2편 이상",test:v=>v.first_author_per_student>=2},
+      impact:{label:"논문 영향력 FWCI 1.5 이상",test:v=>v.fwci_median>=1.5},
+      top10:{label:"상위 10% 논문 20% 이상",test:v=>v.top10_share>=.2}
+    };
+    const FILTERS={category:new Set(),region:new Set(),position:new Set(),technique:new Set(),sector:new Set(),extra:new Set(),lab:new Set()};
     const valueOf={category:n=>n.category||"기타",region:n=>n.region||"기타",position:n=>n.position||"미상"};
     const passes=n=>["category","region","position"].every(k=>!FILTERS[k].size||FILTERS[k].has(valueOf[k](n)))
       &&(!FILTERS.technique.size||(n.techniques||[]).some(t=>FILTERS.technique.has(t)))
       &&(!FILTERS.sector.size||sectorsOf(n).some(x=>FILTERS.sector.has(x)))
-      &&[...FILTERS.extra].every(k=>EXTRA[k].test(n));
+      &&[...FILTERS.extra].every(k=>EXTRA[k].test(n))
+      &&(!FILTERS.lab.size||(v=>[...FILTERS.lab].every(k=>LAB_FILTERS[k].test(v)))(labView(n.lab)));
+    function buildLabFilters(){
+      document.getElementById("f-lab").replaceChildren(...Object.entries(LAB_FILTERS).map(([k,x])=>{
+        const el=chip("lab",k,x.label,NODES.filter(n=>x.test(labView(n.lab))).length);
+        if(FILTERS.lab.has(k)){el.classList.add("on");el.querySelector("input").checked=true;}
+        return el;
+      }));
+    }
+    document.querySelectorAll("#pane-filter .period [data-period]").forEach(b=>b.addEventListener("click",()=>setLabPeriod(b.dataset.period)));
 
     function chip(group,value,label,count,color){
       const el=document.createElement("label");
@@ -695,6 +811,7 @@
         ?techs.map(([t,c])=>chip("technique",t,t,c))
         :[Object.assign(document.createElement("span"),{className:"empty",textContent:"다음 수집 후 표시돼요"})]));
       document.getElementById("f-position").replaceChildren(...POSITION_ORDER.map(v=>chip("position",v,v,count("position",v))));
+      buildLabFilters();
       document.getElementById("f-extra").replaceChildren(...Object.entries(EXTRA).map(([k,x])=>chip("extra",k,x.label,NODES.filter(x.test).length)));
       document.getElementById("legend").replaceChildren(...CATEGORY_ORDER.filter(v=>count("category",v)).map(v=>{
         const d=document.createElement("div");

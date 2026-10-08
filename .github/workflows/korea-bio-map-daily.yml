@@ -4,11 +4,10 @@ name: Korea Bio Map Daily
 # This file must live on main; it just starts the collector on the
 # Korea Bio Map branch, where all pipeline code and data live.
 on:
-  schedule:
-    # 00:17 UTC = 09:17 KST, after OpenAlex's daily budget resets (00:00 UTC).
-    # Not on the hour: GitHub delays top-of-the-hour schedules most (runs
-    # set for 01:00 started 5-6 hours late).
-    - cron: "17 0 * * *"
+  # Paused: daily collection is off for now. To turn it back on, restore
+  #   schedule:
+  #     - cron: "17 0 * * *"
+  # (00:17 UTC = 09:17 KST). Manual "Run workflow" still works.
   workflow_dispatch:
 
 permissions:

@@ -3,6 +3,9 @@ from __future__ import annotations
 import argparse
 import atexit
 
+import pandas as pd
+
+from alumni import collect_alumni
 from candidate_review import classify_candidates
 from department_discovery import discover_departments
 from faculty_identity import import_verified_faculty, match_faculty_identities
@@ -12,7 +15,7 @@ from korean_names import fill_korean_names
 from faculty_agent import collect_faculty_with_agent
 from faculty_scraper import scrape_faculty
 from faculty_scraper_v2 import scrape_faculty_v2
-from config import DATA_DIR
+from config import DATA_DIR, OUTPUT_DIR
 from master_sheet import add_master_professors
 from openalex_client import OpenAlexClient, OpenAlexUnavailable
 from pipeline import (
@@ -46,6 +49,13 @@ def run_all(client: OpenAlexClient) -> None:
     print(f"Network links: {len(links)}")
 
 
+def rebuild() -> None:
+    """Redraw the map from data already collected: no OpenAlex, no crawling."""
+    professors = pd.read_csv(OUTPUT_DIR / "professors_enriched.csv", dtype=str).fillna("")
+    nodes, links = build_network(professors)
+    print(f"Rebuilt the map: {len(nodes)} nodes, {len(links)} links")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="About Bio - Korea Bio Map data pipeline")
     parser.add_argument(
@@ -58,7 +68,7 @@ def main() -> None:
             "faculty-full", "faculty-full-v2",
             "import-faculty", "import-faculty-and-all",
             "import-faculty-v2", "import-faculty-v2-and-all",
-            "galaxy-full",
+            "galaxy-full", "alumni", "rebuild",
         ],
         help="Pipeline step to run",
     )
@@ -84,6 +94,17 @@ def main() -> None:
         print(f"Faculty identity v2 rows: {len(identities)}")
         print(f"Imported {count} faculty into professors_seed.csv")
         run_all(client)
+        return
+
+    if args.command == "rebuild":
+        rebuild()
+        return
+
+    if args.command == "alumni":
+        # Lab alumni pages -> degree time, careers, paper quality; then redraw.
+        summary = collect_alumni(client)
+        print(f"Labs with alumni data: {len(summary)}")
+        rebuild()
         return
 
     if args.command == "discover-departments":

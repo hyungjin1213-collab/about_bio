@@ -14,6 +14,8 @@ on:
         type: choice
         options:
           - galaxy-full
+          - alumni
+          - rebuild
           - all
           - promote-and-all
           - discover-departments
@@ -98,6 +100,17 @@ jobs:
             0. korea bio map/web/network-data.js
           if-no-files-found: error
 
+      - name: Upload alumni rows for checking
+        # Per-person alumni rows stay out of the repository (private people);
+        # kept briefly so the parser can be checked.
+        if: ${{ !cancelled() && inputs.mode == 'alumni' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: lab-alumni-people
+          path: 0. korea bio map/output/alumni/*.csv
+          retention-days: 7
+          if-no-files-found: ignore
+
       - name: Commit generated data back to target branch
         if: ${{ !cancelled() }}
         run: |
@@ -110,6 +123,11 @@ jobs:
           if [ -f "0. korea bio map/data/discovery_log.csv" ]; then
             git add "0. korea bio map/data/discovery_log.csv"
           fi
+          for f in lab_sites.csv lab_sites_manual.csv; do
+            if [ -f "0. korea bio map/data/$f" ]; then
+              git add "0. korea bio map/data/$f"
+            fi
+          done
           if [ -f "0. korea bio map/data/institution_discovery_log.csv" ]; then
             git add "0. korea bio map/data/institution_discovery_log.csv"
           fi
@@ -133,7 +151,7 @@ jobs:
           fi
 
       - name: Publish latest map to gh-pages
-        if: ${{ inputs.mode == 'galaxy-full' || inputs.mode == 'all' || inputs.mode == 'promote-and-all' || inputs.mode == 'import-faculty-and-all' || inputs.mode == 'import-faculty-v2-and-all' }}
+        if: ${{ inputs.mode == 'galaxy-full' || inputs.mode == 'alumni' || inputs.mode == 'rebuild' || inputs.mode == 'all' || inputs.mode == 'promote-and-all' || inputs.mode == 'import-faculty-and-all' || inputs.mode == 'import-faculty-v2-and-all' }}
         run: |
           rm -rf /tmp/korea-bio-map-pages
           mkdir -p /tmp/korea-bio-map-pages

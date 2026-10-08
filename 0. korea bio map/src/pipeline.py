@@ -22,6 +22,7 @@ from classify import Classifier, position
 from keywords import KeywordCollector
 from lineage import Authorship, infer_lineage, lineage_relationships
 from name_extraction import name_compatible, normalize_english_name
+from alumni import alumni_lab_info
 from master_sheet import lab_info, master_relationships
 from sectors import ORG_TYPE_SECTOR, SectorCollector, SectorTable
 from openalex_client import OpenAlexClient, OpenAlexUnavailable, normalize_openalex_id
@@ -563,7 +564,14 @@ def export_web_data(nodes: pd.DataFrame, links: pd.DataFrame) -> None:
     WEB_DIR.mkdir(parents=True, exist_ok=True)
     classifier = Classifier(DATA_DIR)
     sector_table = SectorTable(DATA_DIR, OUTPUT_DIR)
-    labs = lab_info(nodes)
+    # Lab facts: totals from lab alumni pages, overridden field by field by
+    # what was typed into the master Excel file (연구실정보).
+    labs = alumni_lab_info()
+    for pid, info in lab_info(nodes).items():
+        merged = {**labs.get(pid, {}), **info}
+        if pid in labs and "source" in info:
+            merged["source"] = f"{info['source']} · {labs[pid]['source']}"
+        labs[pid] = merged
     titles = _titles_by_professor(nodes)
     terms: dict[str, dict[str, list[str]]] = defaultdict(lambda: {"keyword": [], "technique": []})
     kw = _read_csv(OUTPUT_DIR / "professor_keywords.csv")

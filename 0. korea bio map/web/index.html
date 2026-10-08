@@ -74,6 +74,10 @@
     .lab{display:grid;grid-template-columns:1fr auto;gap:4px 10px;font-size:12.5px;color:#d7def0}
     .lab span:nth-child(even){color:#fff;font-weight:600;text-align:right}
     .muted{color:#7f8aa8;font-size:12px;line-height:1.5}
+    .careers{display:flex;height:10px;border-radius:999px;overflow:hidden;gap:2px}
+    .careers i{display:block;min-width:4px}
+    .career-legend{display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:6px;font-size:11.5px;color:#d7def0}
+    .career-legend b{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
     .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
     .links a{font-size:12px;color:#93c5fd;text-decoration:none;border:1px solid rgba(147,197,253,.3);border-radius:8px;padding:5px 9px}
     .recruit{display:inline-block;margin-left:6px;font-size:11px;padding:2px 7px;border-radius:999px;background:#fbbf24;color:#111;vertical-align:middle}
@@ -377,9 +381,28 @@
         ["박사 평균 졸업기간",L.phd_years&&`${L.phd_years}년`],["석박통합 평균",L.integrated_years&&`${L.integrated_years}년`],
         ["석사 평균 졸업기간",L.ms_years&&`${L.ms_years}년`],["학생당 평균 논문",L.papers_per_student&&`${L.papers_per_student}편`],
         ["학생당 1저자 논문",L.first_author_per_student&&`${L.first_author_per_student}편`],["박사 졸업생",L.phd_graduates&&`${L.phd_graduates}명`],
-        ["현재 구성",[L.phd_students&&`박사 ${L.phd_students}`,L.ms_students&&`석사 ${L.ms_students}`,L.postdocs&&`포닥 ${L.postdocs}`].filter(Boolean).join(" · ")]
+        ["현재 구성",[L.phd_students&&`박사 ${L.phd_students}`,L.ms_students&&`석사 ${L.ms_students}`,L.postdocs&&`포닥 ${L.postdocs}`].filter(Boolean).join(" · ")],
+        // FWCI 1.0 = world average for the field and year.
+        ["논문 영향력 (FWCI 중앙값)",L.fwci_median!=null&&L.fwci_median!==""&&`${L.fwci_median} (세계 평균 1.0)`],
+        ["상위 10% 피인용 논문",L.top10_share!=null&&L.top10_share!==""&&`${Math.round(L.top10_share*100)}%`]
       ].filter(r=>r[1]);
       return rows;
+    }
+    // Where the lab's alumni went (from the lab's alumni page), as one bar.
+    const CAREER_INFO=[["faculty","교수","#fbbf24"],["postdoc","포닥","#c084fc"],["industry","기업","#60a5fa"],
+      ["hospital","병원","#f472b6"],["institute","연구소","#34d399"],["other","기타","#94a3b8"]];
+    function careerBlock(lab){
+      const L=lab||{},c=L.careers;
+      const total=c?CAREER_INFO.reduce((s,[k])=>s+(c[k]||0),0):0;
+      const head=[L.top_journals&&`주요 1저자 저널: ${esc(L.top_journals)}`,
+        L.source&&`출처: ${esc(L.source)}${L.as_of?` · ${esc(L.as_of)}`:""}`,
+        L.alumni_url&&safeUrl(L.alumni_url)&&`<a href="${esc(safeUrl(L.alumni_url))}" target="_blank" rel="noopener" style="color:#93c5fd">졸업생 페이지</a>`].filter(Boolean);
+      if(!total) return head.length?`<div class="muted" style="margin-top:8px">${head.join("<br>")}</div>`:"";
+      const parts=CAREER_INFO.filter(([k])=>c[k]);
+      return `<h3>졸업생 진로 (${total}명)</h3>
+        <div class="careers">${parts.map(([k,,col])=>`<i style="flex:${c[k]};background:${col}"></i>`).join("")}</div>
+        <div class="career-legend">${parts.map(([k,label,col])=>`<span><b style="background:${col}"></b>${label} ${c[k]}</span>`).join("")}</div>
+        ${head.length?`<div class="muted" style="margin-top:6px">${head.join("<br>")}</div>`:""}`;
     }
     function openCard(n){
       const lin=lineageOf(n),lab=labRows(n.lab),recruiting=/^(예|yes|y|o|모집)/i.test(String((n.lab||{}).recruiting||""));
@@ -398,6 +421,7 @@
         <h3>연구실 정보</h3>
         ${lab.length?`<div class="lab">${lab.map(r=>`<span>${esc(r[0])}</span><span>${esc(r[1])}</span>`).join("")}</div>`
           :`<div class="muted">아직 졸업기간·학생당 논문 수 같은 연구실 정보가 없어요. 이 연구실을 아신다면 커뮤니티에서 알려주세요.</div>`}
+        ${careerBlock(n.lab)}
         ${(n.keywords||[]).length?`<h3>연구 분야</h3><div class="tags">${n.keywords.slice(0,8).map(k=>`<span class="tag">${esc(k)}</span>`).join("")}</div>`:""}
         ${(n.techniques||[]).length?`<h3>주요 기술</h3><div class="tags">${n.techniques.slice(0,6).map(k=>`<span class="tag tech">${esc(k)}</span>`).join("")}</div>`:""}
         ${lin.advisors.length||lin.mentors.length?`<h3>지도교수 · 포닥 멘토</h3><div class="people">${people(lin.advisors,"")}${people(lin.mentors,"pd")}</div>`:""}

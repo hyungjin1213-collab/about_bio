@@ -8,3 +8,5 @@ venv/
 **/output/*.csv
 **/output/*.xlsx
 !**/output/.gitkeep
+
+**/output/alumni/

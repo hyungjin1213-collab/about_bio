@@ -40,6 +40,7 @@ from config import DATA_DIR, OUTPUT_DIR
 from name_extraction import english_matches_korean, is_korean_person_name, normalize_english_name
 from openalex_client import OpenAlexClient, OpenAlexUnavailable, normalize_openalex_id
 
+SAMPLE_LABS = int(os.getenv("ALUMNI_SAMPLE_LABS", "40"))
 PROFESSOR_LIMIT = int(os.getenv("ALUMNI_PROFESSOR_LIMIT", "700"))
 RECHECK_DAYS = int(os.getenv("ALUMNI_RECHECK_DAYS", "60"))
 DELAY = float(os.getenv("ALUMNI_DELAY_SECONDS", "0.5"))
@@ -50,7 +51,9 @@ SITES_PATH = DATA_DIR / "lab_sites.csv"
 MANUAL_PATH = DATA_DIR / "lab_sites_manual.csv"
 SUMMARY_PATH = OUTPUT_DIR / "lab_alumni_summary.csv"
 PEOPLE_DIR = OUTPUT_DIR / "alumni"
-SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at"]
+SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at", "parser"]
+# Bump when the parser changes: labs read by an older parser are read again.
+PARSER_VERSION = "2"
 MANUAL_COLUMNS = ["professor_id", "name", "lab_url", "alumni_url", "memo"]
 
 LAB_LINK_WORDS = ["연구실 홈페이지", "연구실홈페이지", "홈페이지", "연구실", "lab homepage", "lab website", "homepage",
@@ -59,7 +62,11 @@ NOT_LAB_HOSTS = ["facebook.", "youtube.", "instagram.", "twitter.", "x.com", "li
                  "orcid.org", "pubmed", "ncbi.nlm", "researchgate", "scopus.", "webofscience", "naver.",
                  "kakao", "blog.", "github.com", "openalex.org", "doi.org", "google.com/maps"]
 ALUMNI_WORDS = ["alumni", "alumnus", "alumnae", "former member", "past member", "graduates", "graduated",
-                "졸업생", "졸업 연구원", "졸업연구원", "동문", "퇴직", "former"]
+                "졸업생", "졸업 연구원", "졸업연구원", "동문", "former student", "former researcher", "former lab"]
+# Department news / boards / chair lists are not a lab's alumni.
+NOT_ALUMNI_URL = re.compile(r"news|notice|board|bbs|articleNo|chair|dean|학과장|공지|게시판", re.I)
+# A short line naming a degree group: names under it share that degree.
+GROUP_WORDS = ["alumni", "alumnae", "graduates", "students", "former", "members", "졸업생", "동문", "졸업자"]
 MEMBER_WORDS = ["members", "member", "people", "구성원", "멤버", "연구원 소개", "lab members"]
 STOP_WORDS = ["publication", "논문", "research", "연구분야", "연구 분야", "contact", "오시는", "news", "소식",
               "gallery", "갤러리", "copyright", "©"]
@@ -180,10 +187,16 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
     lines = _section_lines(BeautifulSoup(html, "html.parser"), whole_page)
     entries: list[dict] = []
     current: dict | None = None
+    group = ""      # degree of the heading the names sit under ("Ph.D. Alumni")
     for line in lines:
         ko, en = _name_in(line)
+        low = line.casefold()
+        if (not ko and not en and len(line) <= 40 and not YEAR_RE.search(line)
+                and degree_of(line) and any(w in low for w in GROUP_WORDS)):
+            group, current = degree_of(line), None
+            continue
         if ko or en:
-            current = {"name_ko": ko, "name_en": en, "lines": [line]}
+            current = {"name_ko": ko, "name_en": en, "lines": [line], "group": group}
             entries.append(current)
         elif current is not None and len(current["lines"]) < 5 and len(line) <= 200:
             current["lines"].append(line)
@@ -191,7 +204,7 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
     for e in entries:
         text = " | ".join(e["lines"])
         marker = re.search(POSITION_MARKERS, text, flags=re.I)
-        degree = degree_of(text[:marker.start()] if marker else text)
+        degree = degree_of(text[:marker.start()] if marker else text) or e["group"]
         start, end, duration = years_of(text, degree)
         if marker:
             position = text[marker.end():]
@@ -202,6 +215,8 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
                 position = re.sub(pattern, " ", position, flags=re.I)
         position = _clean(re.sub(r"[|()\[\]~\-–,:]+", " ", position))[:160]
         career = career_of(position)
+        if career == "other" and not marker:
+            career = ""     # leftover words of the entry, not a stated position
         # A name alone is not an alumnus: nav links, captions, the PI's name.
         if not (degree or end or career):
             continue
@@ -304,6 +319,8 @@ def alumni_links(html: str, base: str) -> tuple[list[str], list[str]]:
         if urlparse(url).netloc != host:
             continue
         hay = f"{text} {urlparse(url).path}".casefold()
+        if NOT_ALUMNI_URL.search(url) or NOT_ALUMNI_URL.search(text):
+            continue
         if any(w in hay for w in ALUMNI_WORDS):
             alumni.append(url)
         elif any(w in hay for w in MEMBER_WORDS):
@@ -502,13 +519,14 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
     manual = {r["professor_id"]: r.to_dict() for _, r in _read(MANUAL_PATH, MANUAL_COLUMNS).iterrows()
               if r["professor_id"]}
     checked = dict(zip(sites["professor_id"], sites["checked_at"]))
+    parsed = dict(zip(sites["professor_id"], sites["parser"]))
     today = date.today()
 
     def due(pid: str) -> tuple[int, str]:
         if pid in manual:
             return (0, "")                      # hand-entered pages first
         last = checked.get(pid, "")
-        if not last:
+        if not last or parsed.get(pid, "") != PARSER_VERSION:
             return (1, "")
         return (2, last) if (today - date.fromisoformat(last)).days >= RECHECK_DAYS else (9, last)
 
@@ -523,10 +541,21 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
     def save() -> pd.DataFrame:
         """Write what this run has found so far (also mid-run: a timeout keeps the work)."""
         done = {x["professor_id"] for x in site_rows}
-        pd.concat([sites[~sites["professor_id"].isin(done)], pd.DataFrame(site_rows, columns=SITE_COLUMNS)],
-                  ignore_index=True).to_csv(SITES_PATH, index=False, encoding="utf-8-sig")
+        all_sites = pd.concat([sites[~sites["professor_id"].isin(done)], pd.DataFrame(site_rows, columns=SITE_COLUMNS)],
+                              ignore_index=True)
+        # A page credited to several professors is a department page, not a lab's alumni.
+        users: dict[str, set[str]] = {}
+        for _, x in all_sites.iterrows():
+            for u in filter(None, str(x["alumni_urls"]).split(";")):
+                users.setdefault(u, set()).add(x["professor_id"])
+        shared = {x["professor_id"] for _, x in all_sites.iterrows() if x["professor_id"] not in manual
+                  and x["alumni_urls"] and all(len(users[u]) > 1 for u in str(x["alumni_urls"]).split(";") if u)}
+        all_sites.loc[all_sites["professor_id"].isin(shared), "status"] = "shared_page"
+        all_sites.to_csv(SITES_PATH, index=False, encoding="utf-8-sig")
         kept = old_summary[~old_summary["professor_id"].isin(done)] if not old_summary.empty else old_summary
         summary = pd.concat([kept, pd.DataFrame(summaries)], ignore_index=True)
+        if not summary.empty:
+            summary = summary[~summary["professor_id"].isin(shared)]
         summary.to_csv(SUMMARY_PATH, index=False, encoding="utf-8-sig")
         PEOPLE_DIR.mkdir(parents=True, exist_ok=True)
         pd.DataFrame(people_rows).to_csv(PEOPLE_DIR / f"lab_alumni_people_{today.isoformat()}.csv",
@@ -553,6 +582,12 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
                 if isinstance(exc, OpenAlexUnavailable):
                     openalex_ok = False      # budget spent: keep reading alumni pages only
         if people:
+            if len(summaries) < SAMPLE_LABS:
+                # Parser check in the run log; names masked (김**), positions cut short.
+                for p in people[:3]:
+                    who = (p["name_ko"] or p["name_en"] or "?")[:1] + "**"
+                    print(f"[alumni sample] {pid} {who} {p['degree']} {p['start_year']}-{p['end_year']} "
+                          f"{p['career']} | {p['position'][:40]}", flush=True)
             summaries.append(summarize(pid, lab_url, pages, people))
             for p in people:
                 people_rows.append({"professor_id": pid, **{k: v for k, v in p.items()
@@ -560,7 +595,8 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
                                     "fwci_mean": round(statistics.mean(p["fwci"]), 2) if p.get("fwci") else ""})
         status = "alumni" if people else ("lab_site" if lab_url else "no_lab_site")
         site_rows.append({"professor_id": pid, "lab_url": lab_url, "alumni_urls": ";".join(pages),
-                          "status": status, "alumni_found": len(people), "checked_at": today.isoformat()})
+                          "status": status, "alumni_found": len(people), "checked_at": today.isoformat(),
+                          "parser": PARSER_VERSION})
         if n % 100 == 0:
             save()
         if n % 50 == 0:

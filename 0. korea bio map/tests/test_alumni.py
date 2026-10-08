@@ -139,3 +139,17 @@ def test_no_openalex_id_makes_no_request():
     people = parse_alumni(LIST_PAGE)
     alumni.add_papers(Boom(), [""], people)
     assert all("papers" not in p for p in people)
+
+
+def test_heading_gives_degree_and_no_fake_other():
+    html = """<h2>Ph.D. Alumni</h2><p>김민수</p><p>2014 - 2019</p><p>홍길동</p><p>2012 - 2017</p>
+    <h2>M.S. Alumni</h2><p>이지은</p><p>2017 - 2019</p>"""
+    people = parse_alumni(html)
+    assert [(p["name_ko"], p["degree"], p["career"]) for p in people] == [
+        ("김민수", "phd", "unknown"), ("홍길동", "phd", "unknown"), ("이지은", "ms", "unknown")]
+
+
+def test_department_pages_are_not_alumni_links():
+    lab = """<a href="/about/former-chairperson">Former Chairperson</a><a href="/news.do?articleNo=1">졸업생 소식</a>
+    <a href="/people/alumni">Alumni</a>"""
+    assert alumni_links(lab, "http://dept.ac.kr/")[0] == ["http://dept.ac.kr/people/alumni"]

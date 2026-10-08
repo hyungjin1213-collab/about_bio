@@ -18,9 +18,9 @@ window.KOREA_BIO_MAP = {
       "techniques": [],
       "department": "공과대학",
       "lab": {
-        "alumni": 40.0,
-        "phd_graduates": 1.0,
-        "ms_graduates": 0.0,
+        "alumni": 39.0,
+        "phd_graduates": 34.0,
+        "ms_graduates": 4.0,
         "postdoc_alumni": 0.0,
         "students_with_papers": 0.0,
         "careers": {
@@ -29,7 +29,7 @@ window.KOREA_BIO_MAP = {
           "industry": 6,
           "hospital": 0,
           "institute": 3,
-          "other": 22
+          "other": 2
         },
         "alumni_url": "https://bmie.snu.ac.kr/lab-members/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -79,7 +79,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "공과대학",
       "lab": {
-        "alumni": 7.0,
+        "alumni": 5.0,
         "phd_graduates": 4.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 0.0,
@@ -95,7 +95,7 @@ window.KOREA_BIO_MAP = {
           "industry": 0,
           "hospital": 0,
           "institute": 0,
-          "other": 3
+          "other": 0
         },
         "top_journals": "Microbial Cell Factories; Nature Communications; Methods in molecular biology",
         "recent": {
@@ -115,7 +115,7 @@ window.KOREA_BIO_MAP = {
             "industry": 0,
             "hospital": 0,
             "institute": 0,
-            "other": 1
+            "other": 0
           },
           "top_journals": "Microbial Cell Factories; Nature Communications; Methods in molecular biology"
         },
@@ -152,7 +152,7 @@ window.KOREA_BIO_MAP = {
       "techniques": [],
       "department": "약학대학",
       "lab": {
-        "alumni": 5.0,
+        "alumni": 3.0,
         "phd_graduates": 1.0,
         "ms_graduates": 2.0,
         "postdoc_alumni": 0.0,
@@ -165,7 +165,7 @@ window.KOREA_BIO_MAP = {
           "industry": 0,
           "hospital": 0,
           "institute": 0,
-          "other": 4
+          "other": 0
         },
         "recent": {
           "alumni": 3.0,
@@ -181,7 +181,7 @@ window.KOREA_BIO_MAP = {
             "industry": 0,
             "hospital": 0,
             "institute": 0,
-            "other": 2
+            "other": 0
           }
         },
         "alumni_url": "https://cgt.snu.ac.kr/members",
@@ -596,7 +596,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "College of Medicine / Hematology-Oncology",
       "lab": {
-        "alumni": 10.0,
+        "alumni": 8.0,
         "phd_graduates": 0.0,
         "ms_graduates": 1.0,
         "postdoc_alumni": 0.0,
@@ -604,14 +604,6 @@ window.KOREA_BIO_MAP = {
         "students_with_papers": 1.0,
         "papers_per_student": 0.0,
         "first_author_per_student": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 10
-        },
         "recent": {
           "alumni": 8.0,
           "phd_graduates": 0.0,
@@ -620,15 +612,7 @@ window.KOREA_BIO_MAP = {
           "ms_years": 4.0,
           "students_with_papers": 1.0,
           "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 8
-          }
+          "first_author_per_student": 0.0
         },
         "alumni_url": "http://sites.google.com/view/immunoinformatics-lab/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -971,7 +955,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "Department of Chemistry",
       "lab": {
-        "alumni": 48.0,
+        "alumni": 47.0,
         "phd_graduates": 21.0,
         "ms_graduates": 23.0,
         "postdoc_alumni": 1.0,
@@ -987,7 +971,7 @@ window.KOREA_BIO_MAP = {
           "industry": 16,
           "hospital": 1,
           "institute": 2,
-          "other": 20
+          "other": 13
         },
         "top_journals": "The Journal of Physical Chemistry C; ACS Nano; Advanced Functional Materials",
         "recent": {
@@ -1007,7 +991,7 @@ window.KOREA_BIO_MAP = {
             "industry": 7,
             "hospital": 0,
             "institute": 0,
-            "other": 6
+            "other": 4
           },
           "top_journals": "Advanced Science; The Journal of Physical Chemistry C; Molecules"
         },
@@ -1170,24 +1154,7 @@ window.KOREA_BIO_MAP = {
         "줄기세포·iPSC"
       ],
       "department": "Department of Integrative Biotechnology",
-      "lab": {
-        "alumni": 12.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 1,
-          "postdoc": 0,
-          "industry": 3,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
-        "alumni_url": "https://biotech.skku.edu/biotech/news.do?mode=view&articleNo=110027",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://biotech.skku.edu/",
       "openalex_id": "A5075962780",
@@ -1274,7 +1241,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "School of Medicine / Cancer Biology",
       "lab": {
-        "alumni": 21.0,
+        "alumni": 7.0,
         "phd_graduates": 0.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 0.0,
@@ -1285,7 +1252,7 @@ window.KOREA_BIO_MAP = {
           "industry": 0,
           "hospital": 0,
           "institute": 1,
-          "other": 20
+          "other": 0
         },
         "alumni_url": "https://biomedical.skku.edu/eng/html/people/alumni.asp",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -1454,24 +1421,7 @@ window.KOREA_BIO_MAP = {
         "줄기세포·iPSC"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 3.0,
-        "phd_graduates": 2.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 3
-        },
-        "alumni_url": "https://snupharm.snu.ac.kr/%ed%95%99%ec%9c%84%eb%b3%84-%ec%a7%84%eb%a1%9c/",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-1149-0880",
       "url": "https://snupharm.snu.ac.kr/snu__professor/%ea%b0%95%ec%9c%a4%ed%91%9c/",
       "openalex_id": "A5068089918",
@@ -1516,7 +1466,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "College of Pharmacy",
       "lab": {
-        "alumni": 31.0,
+        "alumni": 22.0,
         "phd_graduates": 1.0,
         "ms_graduates": 2.0,
         "postdoc_alumni": 0.0,
@@ -1529,7 +1479,7 @@ window.KOREA_BIO_MAP = {
           "industry": 0,
           "hospital": 0,
           "institute": 0,
-          "other": 31
+          "other": 1
         },
         "recent": {
           "alumni": 20.0,
@@ -1545,7 +1495,7 @@ window.KOREA_BIO_MAP = {
             "industry": 0,
             "hospital": 0,
             "institute": 0,
-            "other": 20
+            "other": 1
           }
         },
         "alumni_url": "http://koo.snu.ac.kr/구성원",
@@ -1595,24 +1545,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 3.0,
-        "phd_graduates": 2.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 3
-        },
-        "alumni_url": "https://snupharm.snu.ac.kr/%ed%95%99%ec%9c%84%eb%b3%84-%ec%a7%84%eb%a1%9c/",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-7161-4737",
       "url": "https://snupharm.snu.ac.kr/snu__professor/%ea%b6%8c%ec%84%b1%ec%9b%90/",
       "openalex_id": "A5066812821",
@@ -1653,39 +1586,7 @@ window.KOREA_BIO_MAP = {
         "종양 이종이식 모델"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 1,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 5.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 1,
-            "hospital": 0,
-            "institute": 1,
-            "other": 3
-          }
-        },
-        "alumni_url": "https://yklab.snu.ac.kr/people/former-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-7812-9638",
       "url": "https://yklab.snu.ac.kr",
       "openalex_id": "A5051360291",
@@ -1729,24 +1630,7 @@ window.KOREA_BIO_MAP = {
         "RNA 치료제·siRNA"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 3.0,
-        "phd_graduates": 2.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 3
-        },
-        "alumni_url": "https://snupharm.snu.ac.kr/%ed%95%99%ec%9c%84%eb%b3%84-%ec%a7%84%eb%a1%9c/",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-4020-5372",
       "url": "https://snupharm.snu.ac.kr/snu__professor/%eb%85%b8%eb%af%bc%ec%88%98/",
       "openalex_id": "A5018847566",
@@ -1835,7 +1719,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "College of Pharmacy",
       "lab": {
-        "alumni": 54.0,
+        "alumni": 25.0,
         "phd_graduates": 3.0,
         "ms_graduates": 13.0,
         "postdoc_alumni": 5.0,
@@ -1848,7 +1732,7 @@ window.KOREA_BIO_MAP = {
           "industry": 0,
           "hospital": 0,
           "institute": 1,
-          "other": 47
+          "other": 0
         },
         "recent": {
           "alumni": 15.0,
@@ -1864,7 +1748,7 @@ window.KOREA_BIO_MAP = {
             "industry": 0,
             "hospital": 0,
             "institute": 1,
-            "other": 14
+            "other": 0
           }
         },
         "alumni_url": "https://molpathlab.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90-2-2-2/",
@@ -2253,7 +2137,7 @@ window.KOREA_BIO_MAP = {
           "industry": 6,
           "hospital": 0,
           "institute": 1,
-          "other": 9
+          "other": 0
         },
         "top_journals": "Archives of Pharmacal Research; Journal of Pharmaceutical Investigation; Nano Today",
         "recent": {
@@ -2273,7 +2157,7 @@ window.KOREA_BIO_MAP = {
             "industry": 4,
             "hospital": 0,
             "institute": 1,
-            "other": 5
+            "other": 0
           },
           "top_journals": "Nano Today"
         },
@@ -2334,7 +2218,7 @@ window.KOREA_BIO_MAP = {
           "industry": 5,
           "hospital": 2,
           "institute": 1,
-          "other": 26
+          "other": 0
         },
         "alumni_url": "https://bama.snu.ac.kr/members/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -2383,24 +2267,7 @@ window.KOREA_BIO_MAP = {
         "종양 이종이식 모델"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 13.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/janglab/team/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-7962-3395",
       "url": "https://sites.google.com/view/janglab",
       "openalex_id": "A5048760496",
@@ -2439,24 +2306,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 2.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 2
-        },
-        "alumni_url": "http://idetoxlab.snu.ac.kr/members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0009-9637-7972",
       "url": "http://idetoxlab.snu.ac.kr",
       "openalex_id": "A5072167140",
@@ -2588,39 +2438,7 @@ window.KOREA_BIO_MAP = {
         "단일세포 분석"
       ],
       "department": "Graduate School of Biomedical Sciences",
-      "lab": {
-        "alumni": 7.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "http://biomed.snu.ac.kr/about/former-chairperson",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-7090-537X",
       "url": "http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=2&sc=y",
       "openalex_id": "A5001974637",
@@ -2706,39 +2524,7 @@ window.KOREA_BIO_MAP = {
         "줄기세포·iPSC"
       ],
       "department": "Graduate School of Biomedical Sciences",
-      "lab": {
-        "alumni": 7.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "http://biomed.snu.ac.kr/about/former-chairperson",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-8115-3150",
       "url": "http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=5&sc=y",
       "openalex_id": "A5032827509",
@@ -2767,39 +2553,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "Graduate School of Biomedical Sciences",
-      "lab": {
-        "alumni": 7.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "http://biomed.snu.ac.kr/about/former-chairperson",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0000-2066-3096",
       "url": "http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=16&sc=y",
       "openalex_id": "",
@@ -2890,39 +2644,7 @@ window.KOREA_BIO_MAP = {
         "분자도킹·시뮬레이션"
       ],
       "department": "Graduate School of Biomedical Sciences",
-      "lab": {
-        "alumni": 7.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "http://biomed.snu.ac.kr/about/former-chairperson",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-4522-9928",
       "url": "http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=67&sc=y",
       "openalex_id": "A5100625452",
@@ -2965,19 +2687,11 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "Graduate School of Biomedical Sciences",
       "lab": {
-        "alumni": 4.0,
+        "alumni": 3.0,
         "phd_graduates": 1.0,
         "ms_graduates": 1.0,
         "postdoc_alumni": 0.0,
         "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 4
-        },
         "alumni_url": "https://www.banglab.org/team-3",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
         "as_of": "2026-10-08"
@@ -3040,22 +2754,14 @@ window.KOREA_BIO_MAP = {
           "industry": 1,
           "hospital": 0,
           "institute": 0,
-          "other": 1
+          "other": 0
         },
         "recent": {
           "alumni": 1.0,
           "phd_graduates": 0.0,
           "ms_graduates": 0.0,
           "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
+          "students_with_papers": 0.0
         },
         "alumni_url": "https://sites.google.com/view/baelab/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -3104,39 +2810,7 @@ window.KOREA_BIO_MAP = {
         "유전자변형 마우스"
       ],
       "department": "Graduate School of Biomedical Sciences",
-      "lab": {
-        "alumni": 7.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "http://biomed.snu.ac.kr/about/former-chairperson",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-4315-0688",
       "url": "http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=20&sc=y",
       "openalex_id": "A5060951283",
@@ -3180,39 +2854,7 @@ window.KOREA_BIO_MAP = {
         "ELISA"
       ],
       "department": "Graduate School of Biomedical Sciences",
-      "lab": {
-        "alumni": 7.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "http://biomed.snu.ac.kr/about/former-chairperson",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-3671-1029",
       "url": "http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=72&sc=y",
       "openalex_id": "A5062435434",
@@ -3298,7 +2940,24 @@ window.KOREA_BIO_MAP = {
         "RNA-seq·전사체"
       ],
       "department": "Graduate School of Biomedical Sciences",
-      "lab": {},
+      "lab": {
+        "alumni": 4.0,
+        "phd_graduates": 3.0,
+        "ms_graduates": 0.0,
+        "postdoc_alumni": 0.0,
+        "students_with_papers": 0.0,
+        "careers": {
+          "faculty": 1,
+          "postdoc": 0,
+          "industry": 0,
+          "hospital": 0,
+          "institute": 1,
+          "other": 0
+        },
+        "alumni_url": "https://www.yeomlab.com/people",
+        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
+        "as_of": "2026-10-08"
+      },
       "orcid": "0000-0002-5332-2658",
       "url": "http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=24&sc=y",
       "openalex_id": "A5078633080",
@@ -3341,39 +3000,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "Graduate School of Biomedical Sciences",
-      "lab": {
-        "alumni": 7.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "http://biomed.snu.ac.kr/about/former-chairperson",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0527-023X",
       "url": "http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=74&sc=y",
       "openalex_id": "A5010464805",
@@ -3418,39 +3045,7 @@ window.KOREA_BIO_MAP = {
         "RNA-seq·전사체"
       ],
       "department": "Graduate School of Biomedical Sciences",
-      "lab": {
-        "alumni": 7.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "http://biomed.snu.ac.kr/about/former-chairperson",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-5347-9591",
       "url": "http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=31&sc=y",
       "openalex_id": "A5061831347",
@@ -3495,19 +3090,11 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "Graduate School of Biomedical Sciences",
       "lab": {
-        "alumni": 13.0,
+        "alumni": 1.0,
         "phd_graduates": 0.0,
         "ms_graduates": 1.0,
         "postdoc_alumni": 0.0,
         "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 13
-        },
         "alumni_url": "https://nfi0829snu.wixsite.com/nfisnu/blank-4",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
         "as_of": "2026-10-08"
@@ -3612,14 +3199,6 @@ window.KOREA_BIO_MAP = {
         "first_author_per_student": 0.0,
         "fwci_median": 2.9,
         "top10_share": 0.33,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 4
-        },
         "recent": {
           "alumni": 5.0,
           "phd_graduates": 2.0,
@@ -3631,15 +3210,7 @@ window.KOREA_BIO_MAP = {
           "papers_per_student": 1.8,
           "first_author_per_student": 0.0,
           "fwci_median": 2.9,
-          "top10_share": 0.33,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 3
-          }
+          "top10_share": 0.33
         },
         "alumni_url": "https://www.junglab.snu.ac.kr/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -3727,39 +3298,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "Graduate School of Biomedical Sciences",
-      "lab": {
-        "alumni": 7.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "http://biomed.snu.ac.kr/about/former-chairperson",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=39&sc=y",
       "openalex_id": "A5109733656",
@@ -3788,24 +3327,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "Graduate School of Biomedical Sciences",
-      "lab": {
-        "alumni": 1.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 1
-        },
-        "alumni_url": "https://csybio3.wixsite.com/lpmo/people",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0006-7566-2019",
       "url": "http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=40&sc=y",
       "openalex_id": "",
@@ -3849,39 +3371,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "Graduate School of Biomedical Sciences",
-      "lab": {
-        "alumni": 7.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "http://biomed.snu.ac.kr/about/former-chairperson",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0593-6978",
       "url": "http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=48&sc=y",
       "openalex_id": "A5081889848",
@@ -3926,7 +3416,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "Bioengineering",
       "lab": {
-        "alumni": 27.0,
+        "alumni": 19.0,
         "phd_graduates": 6.0,
         "ms_graduates": 11.0,
         "postdoc_alumni": 0.0,
@@ -3941,7 +3431,7 @@ window.KOREA_BIO_MAP = {
           "industry": 4,
           "hospital": 0,
           "institute": 0,
-          "other": 22
+          "other": 0
         },
         "top_journals": "Biotechnology and Bioengineering; BioDrugs; Experimental & Molecular Medicine",
         "recent": {
@@ -3960,7 +3450,7 @@ window.KOREA_BIO_MAP = {
             "industry": 1,
             "hospital": 0,
             "institute": 0,
-            "other": 3
+            "other": 0
           },
           "top_journals": "BioDrugs"
         },
@@ -4140,7 +3630,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "College of Pharmacy",
       "lab": {
-        "alumni": 69.0,
+        "alumni": 68.0,
         "phd_graduates": 10.0,
         "ms_graduates": 7.0,
         "postdoc_alumni": 8.0,
@@ -4154,7 +3644,7 @@ window.KOREA_BIO_MAP = {
           "industry": 16,
           "hospital": 0,
           "institute": 2,
-          "other": 50
+          "other": 0
         },
         "recent": {
           "alumni": 20.0,
@@ -4170,7 +3660,7 @@ window.KOREA_BIO_MAP = {
             "industry": 9,
             "hospital": 0,
             "institute": 0,
-            "other": 11
+            "other": 0
           }
         },
         "alumni_url": "http://chembio.yonsei.ac.kr/members/former-members",
@@ -4382,7 +3872,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "College of Pharmacy",
       "lab": {
-        "alumni": 51.0,
+        "alumni": 42.0,
         "phd_graduates": 4.0,
         "ms_graduates": 20.0,
         "postdoc_alumni": 0.0,
@@ -4398,7 +3888,7 @@ window.KOREA_BIO_MAP = {
           "industry": 11,
           "hospital": 1,
           "institute": 0,
-          "other": 39
+          "other": 0
         },
         "top_journals": "Zenodo (CERN European Organization for Nuclear Research); Anesthesiology; Scientific Reports",
         "recent": {
@@ -4418,7 +3908,7 @@ window.KOREA_BIO_MAP = {
             "industry": 2,
             "hospital": 0,
             "institute": 0,
-            "other": 11
+            "other": 0
           },
           "top_journals": "Zenodo (CERN European Organization for Nuclear Research); Anesthesiology; Scientific Reports"
         },
@@ -4684,24 +4174,7 @@ window.KOREA_BIO_MAP = {
         "단백체"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "https://sites.google.com/view/soohwanlab/our-voyage/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-4764-5127",
       "url": "https://pharm.korea.ac.kr/faculty/8670/subview.do",
       "openalex_id": "A5074209511",
@@ -4783,24 +4256,7 @@ window.KOREA_BIO_MAP = {
         "ELISA"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "https://sites.google.com/view/soohwanlab/our-voyage/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-5599-0553",
       "url": "https://pharm.korea.ac.kr/faculty/8670/subview.do",
       "openalex_id": "A5087798691",
@@ -4841,24 +4297,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "https://sites.google.com/view/soohwanlab/our-voyage/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-7997-696X",
       "url": "https://pharm.korea.ac.kr/faculty/8670/subview.do",
       "openalex_id": "A5026173579",
@@ -4902,24 +4341,7 @@ window.KOREA_BIO_MAP = {
         "종양 이종이식 모델"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "https://sites.google.com/view/soohwanlab/our-voyage/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-4860-034X",
       "url": "https://sites.google.com/view/soohwanlab",
       "openalex_id": "A5030678508",
@@ -4994,7 +4416,7 @@ window.KOREA_BIO_MAP = {
       "techniques": [],
       "department": "College of Pharmacy",
       "lab": {
-        "alumni": 8.0,
+        "alumni": 3.0,
         "phd_graduates": 1.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 1.0,
@@ -5005,7 +4427,7 @@ window.KOREA_BIO_MAP = {
           "industry": 0,
           "hospital": 0,
           "institute": 1,
-          "other": 7
+          "other": 1
         },
         "alumni_url": "https://sites.google.com/view/envitox-ku/member/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -5048,39 +4470,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "Graduate School of Biomedical Sciences",
-      "lab": {
-        "alumni": 7.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "http://biomed.snu.ac.kr/about/former-chairperson",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=53&sc=y",
       "openalex_id": "A5104020946",
@@ -5110,35 +4500,19 @@ window.KOREA_BIO_MAP = {
       "techniques": [],
       "department": "응용바이오공학과",
       "lab": {
-        "alumni": 8.0,
+        "alumni": 7.0,
         "phd_graduates": 0.0,
         "ms_graduates": 1.0,
         "postdoc_alumni": 0.0,
         "ms_years": 2.0,
         "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
         "recent": {
           "alumni": 6.0,
           "phd_graduates": 0.0,
           "ms_graduates": 1.0,
           "postdoc_alumni": 0.0,
           "ms_years": 2.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 6
-          }
+          "students_with_papers": 0.0
         },
         "alumni_url": "https://klab.snu.ac.kr/members/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -5217,7 +4591,7 @@ window.KOREA_BIO_MAP = {
       "techniques": [],
       "department": "응용바이오공학과",
       "lab": {
-        "alumni": 14.0,
+        "alumni": 9.0,
         "phd_graduates": 4.0,
         "ms_graduates": 2.0,
         "postdoc_alumni": 0.0,
@@ -5230,7 +4604,7 @@ window.KOREA_BIO_MAP = {
           "industry": 1,
           "hospital": 1,
           "institute": 0,
-          "other": 10
+          "other": 0
         },
         "alumni_url": "http://drl.snu.ac.kr/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -5371,14 +4745,6 @@ window.KOREA_BIO_MAP = {
         "students_with_papers": 55.0,
         "papers_per_student": 0.0,
         "first_author_per_student": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 1
-        },
         "recent": {
           "alumni": 11.0,
           "phd_graduates": 3.0,
@@ -5806,24 +5172,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "농업생명과학대학(8개)",
-      "lab": {
-        "alumni": 2.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 2
-        },
-        "alumni_url": "https://ge.snu.ac.kr/announcement/?mod=document&uid=187",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-5969-9176",
       "url": "http://cals.snu.ac.kr/about/organization/search/faculty?page=1&mode=view&profidx=7",
       "openalex_id": "A5087568409",
@@ -5865,7 +5214,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "농업생명과학대학(8개)",
       "lab": {
-        "alumni": 14.0,
+        "alumni": 13.0,
         "phd_graduates": 5.0,
         "ms_graduates": 6.0,
         "postdoc_alumni": 1.0,
@@ -5880,7 +5229,7 @@ window.KOREA_BIO_MAP = {
           "industry": 0,
           "hospital": 0,
           "institute": 0,
-          "other": 13
+          "other": 0
         },
         "top_journals": "Research Square; Proceedings of the Royal Society B Biological Sciences; Journal of Asia-Pacific Entomology",
         "recent": {
@@ -5899,7 +5248,7 @@ window.KOREA_BIO_MAP = {
             "industry": 0,
             "hospital": 0,
             "institute": 0,
-            "other": 12
+            "other": 0
           },
           "top_journals": "Research Square; Proceedings of the Royal Society B Biological Sciences; Journal of Asia-Pacific Entomology"
         },
@@ -5951,20 +5300,29 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "Faculty 1 페이지",
       "lab": {
-        "alumni": 2.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
+        "alumni": 11.0,
+        "phd_graduates": 6.0,
+        "ms_graduates": 5.0,
         "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 2
+        "students_with_papers": 10.0,
+        "papers_per_student": 1.9,
+        "first_author_per_student": 0.8,
+        "fwci_median": 1.5,
+        "top10_share": 0.07,
+        "top_journals": "Molecules and Cells; PLoS ONE; FEBS Letters",
+        "recent": {
+          "alumni": 4.0,
+          "phd_graduates": 1.0,
+          "ms_graduates": 3.0,
+          "postdoc_alumni": 0.0,
+          "students_with_papers": 4.0,
+          "papers_per_student": 1.2,
+          "first_author_per_student": 0.2,
+          "fwci_median": 1.0,
+          "top10_share": 0.0,
+          "top_journals": "iScience"
         },
-        "alumni_url": "http://bio.skku.edu/bbs/board.php?bo_table=N7",
+        "alumni_url": "https://sites.google.com/view/neurogenetics-skku/people/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
         "as_of": "2026-10-08"
       },
@@ -6008,11 +5366,13 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "Faculty 1 페이지",
       "lab": {
-        "alumni": 2.0,
+        "alumni": 5.0,
         "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
+        "ms_graduates": 4.0,
         "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
+        "students_with_papers": 2.0,
+        "papers_per_student": 0.0,
+        "first_author_per_student": 0.0,
         "careers": {
           "faculty": 0,
           "postdoc": 0,
@@ -6021,7 +5381,24 @@ window.KOREA_BIO_MAP = {
           "institute": 0,
           "other": 2
         },
-        "alumni_url": "http://bio.skku.edu/bbs/board.php?bo_table=N7",
+        "recent": {
+          "alumni": 2.0,
+          "phd_graduates": 0.0,
+          "ms_graduates": 2.0,
+          "postdoc_alumni": 0.0,
+          "students_with_papers": 2.0,
+          "papers_per_student": 0.0,
+          "first_author_per_student": 0.0,
+          "careers": {
+            "faculty": 0,
+            "postdoc": 0,
+            "industry": 0,
+            "hospital": 0,
+            "institute": 0,
+            "other": 1
+          }
+        },
+        "alumni_url": "https://sites.google.com/view/haeun-skku/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
         "as_of": "2026-10-08"
       },
@@ -6069,24 +5446,7 @@ window.KOREA_BIO_MAP = {
         "줄기세포·iPSC"
       ],
       "department": "Faculty 1 페이지",
-      "lab": {
-        "alumni": 2.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 2
-        },
-        "alumni_url": "http://bio.skku.edu/bbs/board.php?bo_table=N7",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0971-0853",
       "url": "http://bio.skku.edu/bbs/board.php?bo_table=F1&wr_id=65",
       "openalex_id": "A5061799347",
@@ -6130,24 +5490,7 @@ window.KOREA_BIO_MAP = {
         "유세포분석"
       ],
       "department": "Faculty 1 페이지",
-      "lab": {
-        "alumni": 2.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 2
-        },
-        "alumni_url": "http://bio.skku.edu/bbs/board.php?bo_table=N7",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-6374-0140",
       "url": "http://bio.skku.edu/bbs/board.php?bo_table=F1&wr_id=62",
       "openalex_id": "A5074548240",
@@ -6192,20 +5535,19 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "Faculty 1 페이지",
       "lab": {
-        "alumni": 2.0,
+        "alumni": 1.0,
         "phd_graduates": 0.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 0.0,
         "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 2
+        "recent": {
+          "alumni": 1.0,
+          "phd_graduates": 0.0,
+          "ms_graduates": 0.0,
+          "postdoc_alumni": 0.0,
+          "students_with_papers": 0.0
         },
-        "alumni_url": "http://bio.skku.edu/bbs/board.php?bo_table=N7",
+        "alumni_url": "https://sites.google.com/view/evomics/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
         "as_of": "2026-10-08"
       },
@@ -6252,24 +5594,7 @@ window.KOREA_BIO_MAP = {
         "조직공학·바이오프린팅"
       ],
       "department": "Faculty 1 페이지",
-      "lab": {
-        "alumni": 2.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 2
-        },
-        "alumni_url": "http://bio.skku.edu/bbs/board.php?bo_table=N7",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0944-5172",
       "url": "http://bio.skku.edu/bbs/board.php?bo_table=F1&wr_id=58",
       "openalex_id": "A5021296521",
@@ -6309,24 +5634,7 @@ window.KOREA_BIO_MAP = {
         "유전자변형 마우스"
       ],
       "department": "Faculty 1 페이지",
-      "lab": {
-        "alumni": 2.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 2
-        },
-        "alumni_url": "http://bio.skku.edu/bbs/board.php?bo_table=N7",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-7074-3438",
       "url": "http://bio.skku.edu/bbs/board.php?bo_table=F1&wr_id=56",
       "openalex_id": "A5113983336",
@@ -6364,24 +5672,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "Faculty 1 페이지",
-      "lab": {
-        "alumni": 2.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 2
-        },
-        "alumni_url": "http://bio.skku.edu/bbs/board.php?bo_table=N7",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9360-6981",
       "url": "http://bio.skku.edu/bbs/board.php?bo_table=F1&wr_id=54",
       "openalex_id": "A5085542419",
@@ -6424,24 +5715,7 @@ window.KOREA_BIO_MAP = {
         "차세대 시퀀싱(NGS)"
       ],
       "department": "Faculty 1 페이지",
-      "lab": {
-        "alumni": 2.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 2
-        },
-        "alumni_url": "http://bio.skku.edu/bbs/board.php?bo_table=N7",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-1107-7380",
       "url": "http://bio.skku.edu/bbs/board.php?bo_table=F1&wr_id=52",
       "openalex_id": "A5060226532",
@@ -6482,24 +5756,7 @@ window.KOREA_BIO_MAP = {
         "종양 이종이식 모델"
       ],
       "department": "약학대학",
-      "lab": {
-        "alumni": 16.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 16
-        },
-        "alumni_url": "http://nam.hanyang.ac.kr/front/graduate",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-5292-9335",
       "url": "http://pharmacy.hanyang.ac.kr/front/professors-en/view?id=15",
       "openalex_id": "A5071300207",
@@ -6544,20 +5801,18 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "약학대학",
       "lab": {
-        "alumni": 17.0,
-        "phd_graduates": 4.0,
-        "ms_graduates": 10.0,
+        "alumni": 16.0,
+        "phd_graduates": 6.0,
+        "ms_graduates": 9.0,
         "postdoc_alumni": 0.0,
-        "students_with_papers": 1.0,
-        "papers_per_student": 0.0,
-        "first_author_per_student": 0.0,
+        "students_with_papers": 0.0,
         "careers": {
           "faculty": 1,
           "postdoc": 0,
           "industry": 0,
           "hospital": 0,
           "institute": 0,
-          "other": 16
+          "other": 0
         },
         "alumni_url": "http://onbae.hanyang.ac.kr/front/laboratory/Alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -6702,7 +5957,7 @@ window.KOREA_BIO_MAP = {
           "industry": 0,
           "hospital": 0,
           "institute": 0,
-          "other": 11
+          "other": 3
         },
         "recent": {
           "alumni": 8.0,
@@ -6718,7 +5973,7 @@ window.KOREA_BIO_MAP = {
             "industry": 0,
             "hospital": 0,
             "institute": 0,
-            "other": 8
+            "other": 3
           }
         },
         "alumni_url": "http://pmm.hanyang.ac.kr/front/laboratory/Alumni",
@@ -6791,7 +6046,7 @@ window.KOREA_BIO_MAP = {
       "techniques": [],
       "department": "약학대학",
       "lab": {
-        "alumni": 17.0,
+        "alumni": 4.0,
         "phd_graduates": 0.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 2.0,
@@ -6802,7 +6057,7 @@ window.KOREA_BIO_MAP = {
           "industry": 0,
           "hospital": 0,
           "institute": 2,
-          "other": 14
+          "other": 1
         },
         "alumni_url": "http://pharmacognosy.hanyang.ac.kr/front/laboratory/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -6867,7 +6122,7 @@ window.KOREA_BIO_MAP = {
           "industry": 2,
           "hospital": 0,
           "institute": 2,
-          "other": 14
+          "other": 1
         },
         "top_journals": "Oncogene; Journal of Cellular Physiology; Therapeutic Advances in Medical Oncology",
         "recent": {
@@ -6886,7 +6141,7 @@ window.KOREA_BIO_MAP = {
             "industry": 0,
             "hospital": 0,
             "institute": 2,
-            "other": 5
+            "other": 0
           },
           "top_journals": "Theranostics; Cell Biology and Toxicology; Biomedicine & Pharmacotherapy"
         },
@@ -6966,39 +6221,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "신경과학교실",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://medix.hanyang.ac.kr/-05-3",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0005-2282-7548",
       "url": "https://medix.hanyang.ac.kr/-02-3-9-faculty#none",
       "openalex_id": "",
@@ -7036,39 +6259,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "신경과학교실",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://medix.hanyang.ac.kr/-05-3",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://medix.hanyang.ac.kr/-02-3-9-faculty#none",
       "openalex_id": "A5071626743",
@@ -7113,39 +6304,7 @@ window.KOREA_BIO_MAP = {
         "임상시험"
       ],
       "department": "신경과학교실",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://medix.hanyang.ac.kr/-05-3",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-6011-629X",
       "url": "https://medix.hanyang.ac.kr/-02-3-9-faculty#none",
       "openalex_id": "A5047391677",
@@ -7186,39 +6345,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "신경과학교실",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://medix.hanyang.ac.kr/-05-3",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-4637-5890",
       "url": "https://medix.hanyang.ac.kr/-02-3-9-faculty#none",
       "openalex_id": "A5054954388",
@@ -7263,39 +6390,7 @@ window.KOREA_BIO_MAP = {
         "웨스턴블롯"
       ],
       "department": "생화학·분자생물학교실",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://medix.hanyang.ac.kr/-05-3",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-9249-8664",
       "url": "https://medix.hanyang.ac.kr/-02-2-4-faculty#none",
       "openalex_id": "A5002180055",
@@ -7341,39 +6436,7 @@ window.KOREA_BIO_MAP = {
         "RNA 치료제·siRNA"
       ],
       "department": "해부·세포생물학교실",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://medix.hanyang.ac.kr/-05-3",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-3435-4195",
       "url": "https://medix.hanyang.ac.kr/-02-2-12-faculty#none",
       "openalex_id": "A5103095511",
@@ -7417,39 +6480,7 @@ window.KOREA_BIO_MAP = {
         "단일세포 분석"
       ],
       "department": "해부·세포생물학교실",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://medix.hanyang.ac.kr/-05-3",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-5550-1660",
       "url": "https://medix.hanyang.ac.kr/-02-2-12-faculty#none",
       "openalex_id": "A5066227784",
@@ -7492,39 +6523,7 @@ window.KOREA_BIO_MAP = {
         "RNA-seq·전사체"
       ],
       "department": "해부·세포생물학교실",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://medix.hanyang.ac.kr/-05-3",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://medix.hanyang.ac.kr/-02-2-12-faculty#none",
       "openalex_id": "A5035832257",
@@ -7564,24 +6563,7 @@ window.KOREA_BIO_MAP = {
         "초파리"
       ],
       "department": "생물학과",
-      "lab": {
-        "alumni": 4.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 4
-        },
-        "alumni_url": "https://biology.khu.ac.kr/biology/user/bbs/BMSR00044/list.do?menuNo=900014",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-4916-7923",
       "url": "https://biology.khu.ac.kr/biology/user/bbs/BMSR00047/list.do?menuNo=900015",
       "openalex_id": "A5088944811",
@@ -7619,24 +6601,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "생물학과",
-      "lab": {
-        "alumni": 4.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 4
-        },
-        "alumni_url": "https://biology.khu.ac.kr/biology/user/bbs/BMSR00044/list.do?menuNo=900014",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://biology.khu.ac.kr/biology/user/bbs/BMSR00047/list.do?menuNo=900015",
       "openalex_id": "A5124905726",
@@ -7676,24 +6641,7 @@ window.KOREA_BIO_MAP = {
         "X선 결정학·구조분석"
       ],
       "department": "생물학과",
-      "lab": {
-        "alumni": 4.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 4
-        },
-        "alumni_url": "https://biology.khu.ac.kr/biology/user/bbs/BMSR00044/list.do?menuNo=900014",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-3997-9020",
       "url": "https://biology.khu.ac.kr/biology/user/bbs/BMSR00047/list.do?menuNo=900015",
       "openalex_id": "A5101581200",
@@ -7736,53 +6684,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "생물학과",
-      "lab": {
-        "alumni": 6.0,
-        "phd_graduates": 2.0,
-        "ms_graduates": 4.0,
-        "postdoc_alumni": 0.0,
-        "integrated_years": 5.0,
-        "ms_years": 2.0,
-        "students_with_papers": 6.0,
-        "papers_per_student": 6.3,
-        "first_author_per_student": 1.5,
-        "fwci_median": 1.7,
-        "top10_share": 0.31,
-        "careers": {
-          "faculty": 1,
-          "postdoc": 0,
-          "industry": 2,
-          "hospital": 0,
-          "institute": 0,
-          "other": 3
-        },
-        "top_journals": "Annals of the Rheumatic Diseases; Scientific Reports; Seminars in Immunopathology",
-        "recent": {
-          "alumni": 3.0,
-          "phd_graduates": 1.0,
-          "ms_graduates": 2.0,
-          "postdoc_alumni": 0.0,
-          "integrated_years": 5.0,
-          "ms_years": 2.5,
-          "students_with_papers": 3.0,
-          "papers_per_student": 9.7,
-          "first_author_per_student": 1.7,
-          "fwci_median": 1.6,
-          "top10_share": 0.32,
-          "careers": {
-            "faculty": 1,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          },
-          "top_journals": "Annals of the Rheumatic Diseases; Seminars in Immunopathology; npj Genomic Medicine"
-        },
-        "alumni_url": "https://kimlab.khu.ac.kr/members/",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-8926-6216",
       "url": "https://kimlab.khu.ac.kr/",
       "openalex_id": "A5034947656",
@@ -7827,19 +6729,11 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "생물학과",
       "lab": {
-        "alumni": 2.0,
+        "alumni": 1.0,
         "phd_graduates": 0.0,
         "ms_graduates": 1.0,
         "postdoc_alumni": 0.0,
         "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 2
-        },
         "alumni_url": "http://www.sysbioinfo.com/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
         "as_of": "2026-10-08"
@@ -7898,7 +6792,7 @@ window.KOREA_BIO_MAP = {
           "industry": 0,
           "hospital": 0,
           "institute": 0,
-          "other": 5
+          "other": 3
         },
         "top_journals": "Ecology and Evolution; Journal of Evolutionary Biology; Behavioral Ecology",
         "recent": {
@@ -7918,7 +6812,7 @@ window.KOREA_BIO_MAP = {
             "industry": 0,
             "hospital": 0,
             "institute": 0,
-            "other": 5
+            "other": 3
           },
           "top_journals": "Ecology and Evolution; Journal of Evolutionary Biology; Behavioral Ecology"
         },
@@ -7967,24 +6861,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "생물학과",
-      "lab": {
-        "alumni": 4.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 4
-        },
-        "alumni_url": "https://biology.khu.ac.kr/biology/user/bbs/BMSR00044/list.do?menuNo=900014",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-1640-7601",
       "url": "https://biology.khu.ac.kr/biology/user/bbs/BMSR00047/list.do?menuNo=900015",
       "openalex_id": "A5075633450",
@@ -8755,14 +7632,6 @@ window.KOREA_BIO_MAP = {
         "first_author_per_student": 2.0,
         "fwci_median": 0.0,
         "top10_share": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 1
-        },
         "top_journals": "Separations; ACS Omega",
         "recent": {
           "alumni": 1.0,
@@ -8774,14 +7643,6 @@ window.KOREA_BIO_MAP = {
           "first_author_per_student": 2.0,
           "fwci_median": 0.0,
           "top10_share": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          },
           "top_journals": "Separations; ACS Omega"
         },
         "alumni_url": "https://www.khunp.com/team-3-1",
@@ -9078,24 +7939,7 @@ window.KOREA_BIO_MAP = {
         "GWAS·유전역학"
       ],
       "department": "유전생명공학과",
-      "lab": {
-        "alumni": 4.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 0,
-          "other": 3
-        },
-        "alumni_url": "https://khu.elsevierpure.com/en/clippings/korea-university-guro-hospital-details-findings-in-science-deep-l/",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0427-5901",
       "url": "https://khu.elsevierpure.com/en/persons/ki-hong-jung",
       "openalex_id": "A5088947963",
@@ -9441,24 +8285,7 @@ window.KOREA_BIO_MAP = {
         "qPCR"
       ],
       "department": "약학대학; 규제약학과",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-7572-4666",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=94",
       "openalex_id": "A5102716188",
@@ -9503,24 +8330,7 @@ window.KOREA_BIO_MAP = {
         "단백체"
       ],
       "department": "약학대학; 규제약학과",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-3525-8805",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=77",
       "openalex_id": "A5100370256",
@@ -9558,24 +8368,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "약학대학",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-8461-8910",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=100",
       "openalex_id": "A5011080089",
@@ -9619,24 +8412,7 @@ window.KOREA_BIO_MAP = {
         "ELISA"
       ],
       "department": "약학대학; 규제약학과",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9313-0127",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=107",
       "openalex_id": "A5062790247",
@@ -9680,24 +8456,7 @@ window.KOREA_BIO_MAP = {
         "전자현미경"
       ],
       "department": "약학대학; 규제약학과",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9928-0847",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=108",
       "openalex_id": "A5022716093",
@@ -9741,24 +8500,7 @@ window.KOREA_BIO_MAP = {
         "종양 이종이식 모델"
       ],
       "department": "약학대학",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-1995-1378",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=73",
       "openalex_id": "A5005827139",
@@ -9802,24 +8544,7 @@ window.KOREA_BIO_MAP = {
         "유전자변형 마우스"
       ],
       "department": "약학대학; 규제약학과",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-5811-0833",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=96",
       "openalex_id": "A5002688685",
@@ -9862,24 +8587,7 @@ window.KOREA_BIO_MAP = {
         "X선 결정학·구조분석"
       ],
       "department": "약학대학",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-4566-6573",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=95",
       "openalex_id": "A5057348325",
@@ -9923,24 +8631,7 @@ window.KOREA_BIO_MAP = {
         "항체 개발"
       ],
       "department": "약학대학",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-0864-2142",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=111",
       "openalex_id": "A5031189107",
@@ -10023,24 +8714,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "약학대학; 규제약학과",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-8216-6076",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=136",
       "openalex_id": "A5014912552",
@@ -10124,24 +8798,7 @@ window.KOREA_BIO_MAP = {
         "분자도킹·시뮬레이션"
       ],
       "department": "약학대학",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=20",
       "openalex_id": "A5042835593",
@@ -10179,24 +8836,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "약학대학",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-2615-5564",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=98",
       "openalex_id": "A5007514931",
@@ -10240,24 +8880,7 @@ window.KOREA_BIO_MAP = {
         "단일세포 분석"
       ],
       "department": "약학대학; 규제약학과",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-2032-112X",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=106",
       "openalex_id": "A5020022360",
@@ -10301,24 +8924,7 @@ window.KOREA_BIO_MAP = {
         "질량분석"
       ],
       "department": "약학대학",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-8950-5704",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=21",
       "openalex_id": "A5030757123",
@@ -10359,24 +8965,7 @@ window.KOREA_BIO_MAP = {
         "종양 이종이식 모델"
       ],
       "department": "약학대학",
-      "lab": {
-        "alumni": 1.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 1
-        },
-        "alumni_url": "https://sites.google.com/view/jbcho/people/members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-8295-8084",
       "url": "https://sites.google.com/view/jbcho/home",
       "openalex_id": "A5009747502",
@@ -10420,24 +9009,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "약학대학",
-      "lab": {
-        "alumni": 5.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 5
-        },
-        "alumni_url": "http://pharm.cau.ac.kr/em/em-2-2.php",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0001-2936-863X",
       "url": "http://pharm.cau.ac.kr/professor/?p_pfno=144",
       "openalex_id": "A5103285217",
@@ -10702,14 +9274,6 @@ window.KOREA_BIO_MAP = {
         "first_author_per_student": 0.3,
         "fwci_median": 0.9,
         "top10_share": 0.25,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 3
-        },
         "top_journals": "Current Stem Cell Research & Therapy",
         "recent": {
           "alumni": 3.0,
@@ -10721,14 +9285,6 @@ window.KOREA_BIO_MAP = {
           "first_author_per_student": 0.3,
           "fwci_median": 0.9,
           "top10_share": 0.25,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 3
-          },
           "top_journals": "Current Stem Cell Research & Therapy"
         },
         "alumni_url": "https://cauacelab.modoo.link/xj072ezl",
@@ -10982,24 +9538,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "생명공학대학",
-      "lab": {
-        "alumni": 3.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 3
-        },
-        "alumni_url": "https://www.fpclab.cau.ac.kr/people/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9841-7899",
       "url": "https://www.fpclab.cau.ac.kr",
       "openalex_id": "A5044969054",
@@ -11332,7 +9871,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "- 식물생명공학전공",
       "lab": {
-        "alumni": 11.0,
+        "alumni": 8.0,
         "phd_graduates": 0.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 3.0,
@@ -11343,7 +9882,7 @@ window.KOREA_BIO_MAP = {
           "industry": 1,
           "hospital": 0,
           "institute": 6,
-          "other": 3
+          "other": 0
         },
         "recent": {
           "alumni": 8.0,
@@ -11451,7 +9990,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "시스템생명공학과",
       "lab": {
-        "alumni": 12.0,
+        "alumni": 7.0,
         "phd_graduates": 3.0,
         "ms_graduates": 3.0,
         "postdoc_alumni": 1.0,
@@ -11467,7 +10006,7 @@ window.KOREA_BIO_MAP = {
           "industry": 1,
           "hospital": 0,
           "institute": 1,
-          "other": 9
+          "other": 0
         },
         "top_journals": "Journal of Microbiology and Biotechnology; Frontiers in Microbiology; Scientific Reports",
         "recent": {
@@ -11487,7 +10026,7 @@ window.KOREA_BIO_MAP = {
             "industry": 1,
             "hospital": 0,
             "institute": 0,
-            "other": 3
+            "other": 0
           },
           "top_journals": "Journal of Microbiology and Biotechnology; Frontiers in Microbiology; Scientific Reports"
         },
@@ -11744,49 +10283,7 @@ window.KOREA_BIO_MAP = {
         "전자현미경"
       ],
       "department": "생명과학대학; 생명과학특성학과",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 2.0,
-        "ms_graduates": 1.0,
-        "postdoc_alumni": 1.0,
-        "students_with_papers": 2.0,
-        "papers_per_student": 5.0,
-        "first_author_per_student": 2.0,
-        "fwci_median": 1.6,
-        "top10_share": 0.2,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 1,
-          "industry": 5,
-          "hospital": 2,
-          "institute": 0,
-          "other": 22
-        },
-        "top_journals": "International Journal of Molecular Sciences; Autophagy Reports; Biochemical and Biophysical Research Communications",
-        "recent": {
-          "alumni": 11.0,
-          "phd_graduates": 1.0,
-          "ms_graduates": 1.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 2.0,
-          "papers_per_student": 5.0,
-          "first_author_per_student": 2.0,
-          "fwci_median": 1.6,
-          "top10_share": 0.2,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 2,
-            "hospital": 1,
-            "institute": 0,
-            "other": 8
-          },
-          "top_journals": "International Journal of Molecular Sciences; Autophagy Reports; Biochemical and Biophysical Research Communications"
-        },
-        "alumni_url": "https://sites.google.com/view/kugenetics/lab-members/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-3277-8269",
       "url": "https://www.konkuk.ac.kr/konkuk/28990/subview.do#none",
       "openalex_id": "A5053823621",
@@ -11830,43 +10327,7 @@ window.KOREA_BIO_MAP = {
         "형광·공초점 이미징"
       ],
       "department": "생명과학대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 2.0,
-        "ms_graduates": 1.0,
-        "postdoc_alumni": 1.0,
-        "students_with_papers": 2.0,
-        "papers_per_student": 0.0,
-        "first_author_per_student": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 1,
-          "industry": 5,
-          "hospital": 2,
-          "institute": 0,
-          "other": 22
-        },
-        "recent": {
-          "alumni": 11.0,
-          "phd_graduates": 1.0,
-          "ms_graduates": 1.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 2.0,
-          "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 2,
-            "hospital": 1,
-            "institute": 0,
-            "other": 8
-          }
-        },
-        "alumni_url": "https://sites.google.com/view/kugenetics/lab-members/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-7456-0348",
       "url": "https://www.konkuk.ac.kr/konkuk/28990/subview.do#none",
       "openalex_id": "A5049922592",
@@ -11911,43 +10372,7 @@ window.KOREA_BIO_MAP = {
         "RNA 치료제·siRNA"
       ],
       "department": "생명과학대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 2.0,
-        "ms_graduates": 1.0,
-        "postdoc_alumni": 1.0,
-        "students_with_papers": 2.0,
-        "papers_per_student": 0.0,
-        "first_author_per_student": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 1,
-          "industry": 5,
-          "hospital": 2,
-          "institute": 0,
-          "other": 22
-        },
-        "recent": {
-          "alumni": 11.0,
-          "phd_graduates": 1.0,
-          "ms_graduates": 1.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 2.0,
-          "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 2,
-            "hospital": 1,
-            "institute": 0,
-            "other": 8
-          }
-        },
-        "alumni_url": "https://sites.google.com/view/kugenetics/lab-members/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-3533-7979",
       "url": "https://www.konkuk.ac.kr/konkuk/28990/subview.do#none",
       "openalex_id": "A5018052057",
@@ -11991,24 +10416,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-6237-9958",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5085756019",
@@ -12052,24 +10460,7 @@ window.KOREA_BIO_MAP = {
         "qPCR"
       ],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-8104-8775",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5035770919",
@@ -12109,24 +10500,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-2462-1181",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5089865505",
@@ -12170,24 +10544,7 @@ window.KOREA_BIO_MAP = {
         "항체 개발"
       ],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-4158-6402",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5057441397",
@@ -12231,24 +10588,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-7254-9524",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5102877998",
@@ -12286,24 +10626,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-8809-6064",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5029908502",
@@ -12347,24 +10670,7 @@ window.KOREA_BIO_MAP = {
         "유세포분석"
       ],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-2191-666X",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5062378176",
@@ -12402,24 +10708,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-4969-5443",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5123706664",
@@ -12463,24 +10752,7 @@ window.KOREA_BIO_MAP = {
         "웨스턴블롯"
       ],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-3527-9879",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5103587566",
@@ -12518,24 +10790,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5146636570",
@@ -12579,24 +10834,7 @@ window.KOREA_BIO_MAP = {
         "RNA 치료제·siRNA"
       ],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-0608-6269",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5100739356",
@@ -12640,24 +10878,7 @@ window.KOREA_BIO_MAP = {
         "RNA 치료제·siRNA"
       ],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0907-2265",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5018235560",
@@ -12702,24 +10923,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-4752-2810",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5101520419",
@@ -12759,24 +10963,7 @@ window.KOREA_BIO_MAP = {
         "면역조직화학"
       ],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-1157-2237",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5076978341",
@@ -12819,24 +11006,7 @@ window.KOREA_BIO_MAP = {
         "종양 이종이식 모델"
       ],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-3783-8590",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5089730140",
@@ -12865,24 +11035,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-5317-3007",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "",
@@ -12920,24 +11073,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "수의과대학",
-      "lab": {
-        "alumni": 30.0,
-        "phd_graduates": 12.0,
-        "ms_graduates": 15.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 5,
-          "hospital": 3,
-          "institute": 4,
-          "other": 13
-        },
-        "alumni_url": "https://sites.google.com/view/ku-vphl/졸업생-현황-almuni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://www.konkuk.ac.kr/vet/11136/subview.do#none",
       "openalex_id": "A5133372113",
@@ -12981,51 +11117,7 @@ window.KOREA_BIO_MAP = {
         "초파리"
       ],
       "department": "생명과학특성학과",
-      "lab": {
-        "alumni": 23.0,
-        "phd_graduates": 4.0,
-        "ms_graduates": 12.0,
-        "postdoc_alumni": 0.0,
-        "ms_years": 1.0,
-        "students_with_papers": 16.0,
-        "papers_per_student": 0.8,
-        "first_author_per_student": 0.3,
-        "fwci_median": 0.8,
-        "top10_share": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 2,
-          "hospital": 3,
-          "institute": 1,
-          "other": 17
-        },
-        "top_journals": "Archives of Biochemistry and Biophysics; Molecules and Cells; Biochemical and Biophysical Research Communications",
-        "recent": {
-          "alumni": 6.0,
-          "phd_graduates": 1.0,
-          "ms_graduates": 5.0,
-          "postdoc_alumni": 0.0,
-          "ms_years": 1.0,
-          "students_with_papers": 6.0,
-          "papers_per_student": 0.7,
-          "first_author_per_student": 0.3,
-          "fwci_median": 0.5,
-          "top10_share": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 6
-          },
-          "top_journals": "Archives of Biochemistry and Biophysics"
-        },
-        "alumni_url": "https://sites.google.com/site/donghak0906/lab-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-1411-3132",
       "url": "https://biology.konkuk.ac.kr/biology/10864/subview.do#none",
       "openalex_id": "A5054954881",
@@ -13064,45 +11156,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "생명과학특성학과",
-      "lab": {
-        "alumni": 23.0,
-        "phd_graduates": 4.0,
-        "ms_graduates": 12.0,
-        "postdoc_alumni": 0.0,
-        "ms_years": 1.0,
-        "students_with_papers": 16.0,
-        "papers_per_student": 0.0,
-        "first_author_per_student": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 2,
-          "hospital": 3,
-          "institute": 1,
-          "other": 17
-        },
-        "recent": {
-          "alumni": 6.0,
-          "phd_graduates": 1.0,
-          "ms_graduates": 5.0,
-          "postdoc_alumni": 0.0,
-          "ms_years": 1.0,
-          "students_with_papers": 6.0,
-          "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 6
-          }
-        },
-        "alumni_url": "https://sites.google.com/site/donghak0906/lab-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-7423-100X",
       "url": "https://biology.konkuk.ac.kr/biology/10864/subview.do#none",
       "openalex_id": "A5026513276",
@@ -13143,47 +11197,7 @@ window.KOREA_BIO_MAP = {
         "초파리"
       ],
       "department": "생명과학특성학과",
-      "lab": {
-        "alumni": 23.0,
-        "phd_graduates": 4.0,
-        "ms_graduates": 12.0,
-        "postdoc_alumni": 0.0,
-        "ms_years": 1.0,
-        "students_with_papers": 16.0,
-        "papers_per_student": 0.1,
-        "first_author_per_student": 0.0,
-        "fwci_median": 2.2,
-        "top10_share": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 2,
-          "hospital": 3,
-          "institute": 1,
-          "other": 17
-        },
-        "recent": {
-          "alumni": 6.0,
-          "phd_graduates": 1.0,
-          "ms_graduates": 5.0,
-          "postdoc_alumni": 0.0,
-          "ms_years": 1.0,
-          "students_with_papers": 6.0,
-          "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 6
-          }
-        },
-        "alumni_url": "https://sites.google.com/site/donghak0906/lab-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-1070-467X",
       "url": "https://biology.konkuk.ac.kr/biology/10864/subview.do#none",
       "openalex_id": "A5057805155",
@@ -13227,50 +11241,7 @@ window.KOREA_BIO_MAP = {
         "웨스턴블롯"
       ],
       "department": "생명과학특성학과",
-      "lab": {
-        "alumni": 23.0,
-        "phd_graduates": 4.0,
-        "ms_graduates": 12.0,
-        "postdoc_alumni": 0.0,
-        "ms_years": 1.0,
-        "students_with_papers": 16.0,
-        "papers_per_student": 0.3,
-        "first_author_per_student": 0.1,
-        "fwci_median": 1.6,
-        "top10_share": 0.25,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 2,
-          "hospital": 3,
-          "institute": 1,
-          "other": 17
-        },
-        "top_journals": "Chemico-Biological Interactions",
-        "recent": {
-          "alumni": 6.0,
-          "phd_graduates": 1.0,
-          "ms_graduates": 5.0,
-          "postdoc_alumni": 0.0,
-          "ms_years": 1.0,
-          "students_with_papers": 6.0,
-          "papers_per_student": 0.2,
-          "first_author_per_student": 0.0,
-          "fwci_median": 1.7,
-          "top10_share": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 6
-          }
-        },
-        "alumni_url": "https://sites.google.com/site/donghak0906/lab-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-1392-8516",
       "url": "https://biology.konkuk.ac.kr/biology/10864/subview.do#none",
       "openalex_id": "A5038006412",
@@ -13299,41 +11270,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "생명과학특성학과",
-      "lab": {
-        "alumni": 23.0,
-        "phd_graduates": 4.0,
-        "ms_graduates": 12.0,
-        "postdoc_alumni": 0.0,
-        "ms_years": 1.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 2,
-          "hospital": 3,
-          "institute": 1,
-          "other": 17
-        },
-        "recent": {
-          "alumni": 6.0,
-          "phd_graduates": 1.0,
-          "ms_graduates": 5.0,
-          "postdoc_alumni": 0.0,
-          "ms_years": 1.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 6
-          }
-        },
-        "alumni_url": "https://sites.google.com/site/donghak0906/lab-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0000-4751-1711",
       "url": "https://biology.konkuk.ac.kr/biology/10864/subview.do#none",
       "openalex_id": "",
@@ -13377,48 +11314,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "생명과학특성학과",
-      "lab": {
-        "alumni": 23.0,
-        "phd_graduates": 4.0,
-        "ms_graduates": 12.0,
-        "postdoc_alumni": 0.0,
-        "ms_years": 1.0,
-        "students_with_papers": 16.0,
-        "papers_per_student": 1.3,
-        "first_author_per_student": 0.1,
-        "fwci_median": 2.0,
-        "top10_share": 0.35,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 2,
-          "hospital": 3,
-          "institute": 1,
-          "other": 17
-        },
-        "top_journals": "International Journal of Precision Engineering and Manufacturing",
-        "recent": {
-          "alumni": 6.0,
-          "phd_graduates": 1.0,
-          "ms_graduates": 5.0,
-          "postdoc_alumni": 0.0,
-          "ms_years": 1.0,
-          "students_with_papers": 6.0,
-          "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 6
-          }
-        },
-        "alumni_url": "https://sites.google.com/site/donghak0906/lab-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-8447-4518",
       "url": "https://biology.konkuk.ac.kr/biology/10864/subview.do#none",
       "openalex_id": "A5080135133",
@@ -13458,39 +11354,7 @@ window.KOREA_BIO_MAP = {
         "항체 개발"
       ],
       "department": "축산식품생명공학과",
-      "lab": {
-        "alumni": 3.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 3
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://sites.google.com/view/kufmsel/lab-member",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-8076-3758",
       "url": "https://foodbio.konkuk.ac.kr/foodbio/11016/subview.do#none",
       "openalex_id": "A5008758518",
@@ -13534,39 +11398,7 @@ window.KOREA_BIO_MAP = {
         "RNA 치료제·siRNA"
       ],
       "department": "축산식품생명공학과",
-      "lab": {
-        "alumni": 3.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 3
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://sites.google.com/view/kufmsel/lab-member",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-4370-2366",
       "url": "https://foodbio.konkuk.ac.kr/foodbio/11016/subview.do#none",
       "openalex_id": "A5014493578",
@@ -13609,39 +11441,7 @@ window.KOREA_BIO_MAP = {
         "단백체"
       ],
       "department": "축산식품생명공학과",
-      "lab": {
-        "alumni": 3.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 3
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://sites.google.com/view/kufmsel/lab-member",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0009-3419-6850",
       "url": "https://foodbio.konkuk.ac.kr/foodbio/11016/subview.do#none",
       "openalex_id": "A5102442929",
@@ -13683,39 +11483,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "축산식품생명공학과",
-      "lab": {
-        "alumni": 3.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 3
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://sites.google.com/view/kufmsel/lab-member",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-8060-6237",
       "url": "https://foodbio.konkuk.ac.kr/foodbio/11016/subview.do#none",
       "openalex_id": "A5059995518",
@@ -13753,39 +11521,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "축산식품생명공학과",
-      "lab": {
-        "alumni": 3.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 3
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://sites.google.com/view/kufmsel/lab-member",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0133-7003",
       "url": "https://foodbio.konkuk.ac.kr/foodbio/11016/subview.do#none",
       "openalex_id": "A5018409052",
@@ -13869,24 +11605,7 @@ window.KOREA_BIO_MAP = {
         "종양 이종이식 모델"
       ],
       "department": "약학과",
-      "lab": {
-        "alumni": 13.0,
-        "phd_graduates": 3.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 7,
-          "other": 6
-        },
-        "alumni_url": "https://sites.google.com/view/pharmaceutical-microbiology-la/people/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-2342-0468",
       "url": "https://pharm.dongguk.edu/professor/list?professor_haggwa_type=PROFH_057",
       "openalex_id": "A5103111249",
@@ -13930,24 +11649,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "약학과",
-      "lab": {
-        "alumni": 13.0,
-        "phd_graduates": 3.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 7,
-          "other": 6
-        },
-        "alumni_url": "https://sites.google.com/view/pharmaceutical-microbiology-la/people/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-9360-6436",
       "url": "https://pharm.dongguk.edu/professor/list?professor_haggwa_type=PROFH_057",
       "openalex_id": "A5026860974",
@@ -13987,24 +11689,7 @@ window.KOREA_BIO_MAP = {
         "질량분석"
       ],
       "department": "약학과",
-      "lab": {
-        "alumni": 13.0,
-        "phd_graduates": 3.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 7,
-          "other": 6
-        },
-        "alumni_url": "https://sites.google.com/view/pharmaceutical-microbiology-la/people/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0009-7494-3785",
       "url": "https://pharm.dongguk.edu/professor/list?professor_haggwa_type=PROFH_057",
       "openalex_id": "A5016494385",
@@ -14087,7 +11772,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "생명과학과",
       "lab": {
-        "alumni": 27.0,
+        "alumni": 1.0,
         "phd_graduates": 0.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 0.0,
@@ -14098,7 +11783,7 @@ window.KOREA_BIO_MAP = {
           "industry": 0,
           "hospital": 0,
           "institute": 0,
-          "other": 27
+          "other": 1
         },
         "alumni_url": "https://sites.google.com/dgu.ac.kr/molecular-biology-dongguk/member",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -14159,7 +11844,7 @@ window.KOREA_BIO_MAP = {
           "industry": 1,
           "hospital": 0,
           "institute": 1,
-          "other": 5
+          "other": 0
         },
         "alumni_url": "https://sites.google.com/view/dgu-janglab/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -14207,7 +11892,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "생명과학과",
       "lab": {
-        "alumni": 22.0,
+        "alumni": 19.0,
         "phd_graduates": 0.0,
         "ms_graduates": 2.0,
         "postdoc_alumni": 0.0,
@@ -14223,7 +11908,7 @@ window.KOREA_BIO_MAP = {
           "industry": 0,
           "hospital": 0,
           "institute": 1,
-          "other": 5
+          "other": 1
         },
         "top_journals": "Frontiers in Neuroanatomy; Current Biology; PLoS ONE",
         "recent": {
@@ -14243,7 +11928,7 @@ window.KOREA_BIO_MAP = {
             "industry": 0,
             "hospital": 0,
             "institute": 1,
-            "other": 2
+            "other": 1
           },
           "top_journals": "Frontiers in Neuroanatomy; Current Biology; PLoS ONE"
         },
@@ -15213,24 +12898,7 @@ window.KOREA_BIO_MAP = {
         "유전자변형 마우스"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-8475-8932",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=%2FMtjaabuzJl3Aqq070mzCw%3D%3D",
       "openalex_id": "A5088071825",
@@ -15271,24 +12939,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-2431-3397",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=0vsCqFMB3fA6mDaQMnBzCw%3D%3D",
       "openalex_id": "A5069892543",
@@ -15329,24 +12980,7 @@ window.KOREA_BIO_MAP = {
         "엑소좀·세포외소포"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-0477-683X",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=NRpU2C16NAmgIXXbXu7WFA%3D%3D",
       "openalex_id": "A5035875835",
@@ -15418,24 +13052,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=ont%2BjMQMvySkIsT7MHk9tg%3D%3D",
       "openalex_id": "A5040563900",
@@ -15478,24 +13095,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-4979-8749",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=PZiudeFZjcWmWGCB0h%2FHLw%3D%3D",
       "openalex_id": "A5081068365",
@@ -15534,24 +13134,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-7061-6183",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=7GNIBvFwIiw25iqzcXjuxg%3D%3D",
       "openalex_id": "A5074361224",
@@ -15594,24 +13177,7 @@ window.KOREA_BIO_MAP = {
         "항체 개발"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-5395-1924",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=FnVjL6i1fwesVkxTKjaqXA%3D%3D",
       "openalex_id": "A5065068590",
@@ -15656,24 +13222,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-6264-5109",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=WijuVUS3YQUrF5dVZYakbg%3D%3D",
       "openalex_id": "A5015699501",
@@ -15712,24 +13261,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-1817-4415",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=sx%2BEIWfTH%2BGxn4AtsDP9tA%3D%3D",
       "openalex_id": "A5101533516",
@@ -15768,24 +13300,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-4414-5653",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=ag8sX5Ye0Fq3We90eHg3xw%3D%3D",
       "openalex_id": "A5100667195",
@@ -15829,24 +13344,7 @@ window.KOREA_BIO_MAP = {
         "조직공학·바이오프린팅"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-6829-332X",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=1WRX04%2FU3LMWx%2BYToqJaLQ%3D%3D",
       "openalex_id": "A5100646678",
@@ -15889,24 +13387,7 @@ window.KOREA_BIO_MAP = {
         "RNA 치료제·siRNA"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0139-4067",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=uDjW9DvTJcCrxkKe5EGzZg%3D%3D",
       "openalex_id": "A5100786204",
@@ -15952,20 +13433,19 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "의과대학",
       "lab": {
-        "alumni": 15.0,
+        "alumni": 3.0,
         "phd_graduates": 0.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 0.0,
         "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
+        "recent": {
+          "alumni": 3.0,
+          "phd_graduates": 0.0,
+          "ms_graduates": 0.0,
+          "postdoc_alumni": 0.0,
+          "students_with_papers": 0.0
         },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
+        "alumni_url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=G8dhuvpREtIhOLkkgrjKYw%3D%3D",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
         "as_of": "2026-10-08"
       },
@@ -16013,24 +13493,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9406-8628",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=dxNGbbZaXlrQ%2BAUW70qHew%3D%3D",
       "openalex_id": "A5053622077",
@@ -16073,24 +13536,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-6909-5034",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=gNse0So5EIdjbriGoAHyMQ%3D%3D",
       "openalex_id": "A5091564004",
@@ -16129,24 +13575,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-4927-2018",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=wdhvhLgGIU45VNqzodKxvg%3D%3D",
       "openalex_id": "A5033890698",
@@ -16175,24 +13604,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0000-5437-1489",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=CpOH%2Fl9pYrHk3I9gQ3Yf%2BQ%3D%3D",
       "openalex_id": "",
@@ -16237,24 +13649,7 @@ window.KOREA_BIO_MAP = {
         "질량분석"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-3153-3008",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=hjqoqtZnDbpt2YwKlU7Sgg%3D%3D",
       "openalex_id": "A5052617482",
@@ -16296,24 +13691,7 @@ window.KOREA_BIO_MAP = {
         "종양 이종이식 모델"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-8280-3805",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=pM9Ze7b7QuuI9iaSWQfNXg%3D%3D",
       "openalex_id": "A5082210140",
@@ -16358,24 +13736,7 @@ window.KOREA_BIO_MAP = {
         "면역조직화학"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-2046-8690",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=oFkjbWbbDG1KWnGp%2F7MgUg%3D%3D",
       "openalex_id": "A5031126514",
@@ -16414,24 +13775,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9189-5839",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=H9ufErBiVjfxwG8RZJTLHA%3D%3D",
       "openalex_id": "A5005610854",
@@ -16476,24 +13820,7 @@ window.KOREA_BIO_MAP = {
         "면역조직화학"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9498-2938",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=SIMVcWFfBEDcBqkesezCxg%3D%3D",
       "openalex_id": "A5025558509",
@@ -16534,24 +13861,7 @@ window.KOREA_BIO_MAP = {
         "줄기세포·iPSC"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-8448-1064",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=mCaJ3YEcY9wu%2FXWd7uylsA%3D%3D",
       "openalex_id": "A5025113442",
@@ -16594,24 +13904,7 @@ window.KOREA_BIO_MAP = {
         "오가노이드"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-3321-2507",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=%2B5voOq%2BkcmYEvM76puD17g%3D%3D",
       "openalex_id": "A5077707703",
@@ -16656,24 +13949,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-1672-5730",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=PhP8wgX5Wxn5sA6xBj0HNg%3D%3D",
       "openalex_id": "A5100372661",
@@ -16714,24 +13990,7 @@ window.KOREA_BIO_MAP = {
         "qPCR"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-9987-6533",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=JbwviWUx%2BDVoWW6Xhg1DKA%3D%3D",
       "openalex_id": "A5010188652",
@@ -16760,24 +14019,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0007-6191-9298",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=EHnYrP%2FLiB3jr%2FiTE7ulgA%3D%3D",
       "openalex_id": "",
@@ -16822,24 +14064,7 @@ window.KOREA_BIO_MAP = {
         "전자현미경"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-2239-0225",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=%2BQRIpI%2Bt2KLCe0AQsklwzQ%3D%3D",
       "openalex_id": "A5101420718",
@@ -16881,24 +14106,7 @@ window.KOREA_BIO_MAP = {
         "면역조직화학"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0108-5352",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=7eZ7haYhm2wREzk9Y8i%2BhA%3D%3D",
       "openalex_id": "A5065847671",
@@ -16939,24 +14147,7 @@ window.KOREA_BIO_MAP = {
         "엑소좀·세포외소포"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9849-8211",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=cjU4q2cvqHhcEvD%2BfyMhdg%3D%3D",
       "openalex_id": "A5050107922",
@@ -16997,24 +14188,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-7192-4046",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=zFkStDTAZXkJPCy%2Bw1rK7g%3D%3D",
       "openalex_id": "A5073977855",
@@ -17043,24 +14217,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0008-3864-5601",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=L19Z4hHfrRK%2BbeKmJqlB4g%3D%3D",
       "openalex_id": "",
@@ -17105,24 +14262,7 @@ window.KOREA_BIO_MAP = {
         "유전자변형 마우스"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-7441-8472",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=p34vpYtFT%2Btp5pIm9csDbg%3D%3D",
       "openalex_id": "A5006972618",
@@ -17167,24 +14307,7 @@ window.KOREA_BIO_MAP = {
         "RNA 치료제·siRNA"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-1882-3983",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=QeYkE4T1LW%2FDO53v%2B3t6ew%3D%3D",
       "openalex_id": "A5054573839",
@@ -17223,24 +14346,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9894-7603",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=%2B81KuK0kL5WkBpbylrZ7ug%3D%3D",
       "openalex_id": "A5025610156",
@@ -17282,24 +14388,7 @@ window.KOREA_BIO_MAP = {
         "줄기세포·iPSC"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-4612-6672",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=auNNe6fAKl4X2Kt2I9Rc%2FQ%3D%3D",
       "openalex_id": "A5101855653",
@@ -17343,24 +14432,7 @@ window.KOREA_BIO_MAP = {
         "항체 개발"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-3837-8677",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=%2FIt3r%2FQH%2B2XnWF3ZGMUa3Q%3D%3D",
       "openalex_id": "A5077871290",
@@ -17404,24 +14476,7 @@ window.KOREA_BIO_MAP = {
         "RNA 치료제·siRNA"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-6558-7410",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=vJezPXpgxuZmIHekDUpX2g%3D%3D",
       "openalex_id": "A5101566800",
@@ -17459,24 +14514,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=XI%2FbCXfUmdFCVkKKTR4shw%3D%3D",
       "openalex_id": "A5109177214",
@@ -17505,24 +14543,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-9872-2997",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=DtefD29O6pP7xmfxkeCOPw%3D%3D",
       "openalex_id": "",
@@ -17566,24 +14587,7 @@ window.KOREA_BIO_MAP = {
         "유전자변형 마우스"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-2414-3789",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=xjexhjuIGt1UxOLYqEsRcw%3D%3D",
       "openalex_id": "A5018467910",
@@ -17624,24 +14628,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-1685-4276",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=SWApQfLR52i8qC4vRFeLDg%3D%3D",
       "openalex_id": "A5017011288",
@@ -17684,24 +14671,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-6269-6451",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=LedDi0Wk79mon5oj5kkiWg%3D%3D",
       "openalex_id": "A5040339204",
@@ -17746,24 +14716,7 @@ window.KOREA_BIO_MAP = {
         "질량분석"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-5297-5059",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=ll%2FRx0c%2B%2FFYH3zy1O%2Bdugw%3D%3D",
       "openalex_id": "A5112035321",
@@ -17801,24 +14754,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=6Q17NpaKZ0S6oPe3nA8lgg%3D%3D",
       "openalex_id": "A5111963635",
@@ -17904,24 +14840,7 @@ window.KOREA_BIO_MAP = {
         "웨스턴블롯"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0681-6708",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=hlaaw8bnX8jSm7%2BScldp9w%3D%3D",
       "openalex_id": "A5101622800",
@@ -17950,24 +14869,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=%2BC%2BQe%2FuTIXq%2Fxw2U%2Fhj6kA%3D%3D",
       "openalex_id": "A5029053861",
@@ -18006,24 +14908,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0508-3696",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=z7KngvAL1j3d1fuascr%2F5g%3D%3D",
       "openalex_id": "A5064084991",
@@ -18064,24 +14949,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-1051-6775",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=ozSO6DteglJLNFpcj%2FSWZg%3D%3D",
       "openalex_id": "A5039413983",
@@ -18120,24 +14988,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-5458-6401",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=O5cJxW5NQMZ2Dc6FxaEBTA%3D%3D",
       "openalex_id": "A5001413485",
@@ -18179,24 +15030,7 @@ window.KOREA_BIO_MAP = {
         "면역조직화학"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-4519-9474",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=5DKShJeZ6AlPq35OElw8Bg%3D%3D",
       "openalex_id": "A5068693487",
@@ -18234,24 +15068,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=DFsCLufBrsSLHU0ckqWhVA%3D%3D",
       "openalex_id": "A5079132307",
@@ -18290,24 +15107,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-3247-3817",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=vvuAI9fsXBUMxQpQ6aENfg%3D%3D",
       "openalex_id": "A5084084769",
@@ -18352,24 +15152,7 @@ window.KOREA_BIO_MAP = {
         "RNA 치료제·siRNA"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-9937-762X",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=0HV%2BKvN50bcirbzYzvUlog%3D%3D",
       "openalex_id": "A5084093979",
@@ -18408,24 +15191,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-7918-3783",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=dOBBEf33vTFD0ukH8YHt3A%3D%3D",
       "openalex_id": "A5068301299",
@@ -18464,24 +15230,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-8093-2673",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=Q%2FyZot0j%2BCqHDBkV%2BshfMA%3D%3D",
       "openalex_id": "A5041032577",
@@ -18510,24 +15259,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0009-3261-8415",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=iXn5wbL9bJkiVPK5naIh3g%3D%3D",
       "openalex_id": "",
@@ -18566,24 +15298,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-8289-9301",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=stSQmYEZkusxwrHsPhNuKw%3D%3D",
       "openalex_id": "A5080899797",
@@ -18628,24 +15343,7 @@ window.KOREA_BIO_MAP = {
         "엑소좀·세포외소포"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-4004-6292",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=%2F8uwIX474ayfW%2F1gYBcWIQ%3D%3D",
       "openalex_id": "A5044683284",
@@ -18674,24 +15372,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=1OXchnd0UsTjxgUcqLtm8g%3D%3D",
       "openalex_id": "A5063074604",
@@ -18732,24 +15413,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-8846-0364",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=jyKivksG9uma4tB5Gf%2BzmA%3D%3D",
       "openalex_id": "A5069892964",
@@ -18793,24 +15457,7 @@ window.KOREA_BIO_MAP = {
         "RNA 치료제·siRNA"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-1084-0367",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=cHDYULUWtPkKS2kiw1IbkQ%3D%3D",
       "openalex_id": "A5003463853",
@@ -18853,24 +15500,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-1996-6249",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=gJHvS3jvkgo8MOV2f62nuA%3D%3D",
       "openalex_id": "A5032769507",
@@ -18914,24 +15544,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-3226-5631",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=KDIQiyJFejL012m63iQ79A%3D%3D",
       "openalex_id": "A5019367734",
@@ -18970,24 +15583,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-3822-4002",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=NqDzPtZv7%2F9%2Bq%2BzmA40Q%2FA%3D%3D",
       "openalex_id": "A5103526623",
@@ -19026,24 +15622,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9819-5915",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=gIKxQdbEkmgV%2BC6z%2BkCBmw%3D%3D",
       "openalex_id": "A5008973495",
@@ -19087,24 +15666,7 @@ window.KOREA_BIO_MAP = {
         "유세포분석"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-6902-0315",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=Cpl4RtIL46uwCfZyYZlCtQ%3D%3D",
       "openalex_id": "A5019619340",
@@ -19146,24 +15708,7 @@ window.KOREA_BIO_MAP = {
         "면역조직화학"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-2820-8287",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=TW%2BrfPgprcsUjUMZNCK%2BEw%3D%3D",
       "openalex_id": "A5103233263",
@@ -19202,24 +15747,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=sAY9TLGROl7ELwYYGi5Syw%3D%3D",
       "openalex_id": "A5079720156",
@@ -19248,24 +15776,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0003-6152-6620",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=QTeS2YOzUl5TgFr9NAtHXQ%3D%3D",
       "openalex_id": "A5140648060",
@@ -19310,24 +15821,7 @@ window.KOREA_BIO_MAP = {
         "X선 결정학·구조분석"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-8518-6331",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=Janpx3xqlfxbaKZ9YyfNgw%3D%3D",
       "openalex_id": "A5038499014",
@@ -19370,24 +15864,7 @@ window.KOREA_BIO_MAP = {
         "RNA-seq·전사체"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9705-415X",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=EaPrOGq4I7uodWzxDIfxNA%3D%3D",
       "openalex_id": "A5026755638",
@@ -19428,24 +15905,7 @@ window.KOREA_BIO_MAP = {
         "ELISA"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9395-8418",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=5P5m3uNKocTL9bhNmROPYw%3D%3D",
       "openalex_id": "A5029794001",
@@ -19487,24 +15947,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-2266-0803",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=yV8DqHOWAJIA%2Ft2HJggVOA%3D%3D",
       "openalex_id": "A5090076385",
@@ -19533,24 +15976,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0001-2763-8990",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=OT6k3tEOYWcN60My1DQBEw%3D%3D",
       "openalex_id": "",
@@ -19592,24 +16018,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-3491-6223",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=RhkObbp4SoGLEPgvTTmT2w%3D%3D",
       "openalex_id": "A5052111126",
@@ -19653,24 +16062,7 @@ window.KOREA_BIO_MAP = {
         "RNA 치료제·siRNA"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-4251-6323",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=UBri0DmVmB%2FGKguIZJa%2BRA%3D%3D",
       "openalex_id": "A5100735592",
@@ -19709,24 +16101,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-2643-2007",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=x18haVaWKvxm8bzyqdoQpw%3D%3D",
       "openalex_id": "A5012612378",
@@ -19755,24 +16130,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0008-7537-0934",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=Xfczmk3Ec4L5mG5h3KQJ4w%3D%3D",
       "openalex_id": "",
@@ -19811,24 +16169,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-1846-3153",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=Hv9a8P7hMlmE3yOKIY%2BKrw%3D%3D",
       "openalex_id": "A5100331824",
@@ -19873,24 +16214,7 @@ window.KOREA_BIO_MAP = {
         "임상시험"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-6279-7025",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=tnaOfJq%2B3ftrVCvRH0Pqzg%3D%3D",
       "openalex_id": "A5100349137",
@@ -19935,24 +16259,7 @@ window.KOREA_BIO_MAP = {
         "유전자변형 마우스"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0843-9862",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=cjUaIIVdE705c%2FDydQKxtw%3D%3D",
       "openalex_id": "A5000741482",
@@ -19993,24 +16300,7 @@ window.KOREA_BIO_MAP = {
         "유전자변형 마우스"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=9EcaYfeSrJiHZDEdrtPztQ%3D%3D",
       "openalex_id": "A5015953706",
@@ -20051,24 +16341,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-9590-3477",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=xwrh1sjE3%2BnOv7ut2qBM9A%3D%3D",
       "openalex_id": "A5045686998",
@@ -20106,24 +16379,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=xso6ve7fsNgGOueLvOitzA%3D%3D",
       "openalex_id": "A5032769052",
@@ -20166,24 +16422,7 @@ window.KOREA_BIO_MAP = {
         "엑소좀·세포외소포"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-2863-9346",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=29hq5Kxq%2F73SL95erHxXGA%3D%3D",
       "openalex_id": "A5081798094",
@@ -20228,24 +16467,7 @@ window.KOREA_BIO_MAP = {
         "웨스턴블롯"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0972-9271",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=%2F%2BdNGdqW7HghOg9x%2Flop8Q%3D%3D",
       "openalex_id": "A5056395040",
@@ -20288,24 +16510,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-0345-2278",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=CxaoHyzJSoz3TXDvQrEtzw%3D%3D",
       "openalex_id": "A5020691745",
@@ -20344,24 +16549,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-1414-8175",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=Vzk01QUMChslIOrYeBaVaw%3D%3D",
       "openalex_id": "A5101693300",
@@ -20405,24 +16593,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-3174-8965",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=k5kTPeW9lxcB%2BFHtxae%2Btw%3D%3D",
       "openalex_id": "A5031979012",
@@ -20451,24 +16622,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0004-2636-327X",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=X3VSTKMgFKIOqB0%2Bj4YGpQ%3D%3D",
       "openalex_id": "",
@@ -20508,24 +16662,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-8179-4620",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=36Mf4s%2FV1s4qlE6mBhtEUQ%3D%3D",
       "openalex_id": "A5015908503",
@@ -20563,24 +16700,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=33CI3r2FhMnXDmkgK0Lqxw%3D%3D",
       "openalex_id": "A5050512372",
@@ -20623,24 +16743,7 @@ window.KOREA_BIO_MAP = {
         "qPCR"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-3873-3117",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=M8i%2Ff6edAC6HrHUXDuGUBw%3D%3D",
       "openalex_id": "A5031941923",
@@ -20684,24 +16787,7 @@ window.KOREA_BIO_MAP = {
         "면역조직화학"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-6653-5214",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=ntaJOXEpZJDN9ORUErUuHg%3D%3D",
       "openalex_id": "A5021373549",
@@ -20745,24 +16831,7 @@ window.KOREA_BIO_MAP = {
         "RNA-seq·전사체"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-6382-4099",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=aFkWtFKh1ZVqM7iaY9GhCA%3D%3D",
       "openalex_id": "A5052355596",
@@ -20801,24 +16870,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-7116-9052",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=%2BHbxToL%2B6%2Fbt3wD%2FKkz2Cw%3D%3D",
       "openalex_id": "A5016544527",
@@ -20857,24 +16909,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-0232-766X",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=Md9PUZYURmT0%2Bz04E9%2Bydw%3D%3D",
       "openalex_id": "A5101700419",
@@ -20913,24 +16948,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=CXPZcmjRdoLF2yYFfwgV0w%3D%3D",
       "openalex_id": "A5074988414",
@@ -21016,24 +17034,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-1209-5129",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=o2S4NZSvPkSqOMb%2F%2B8tfCg%3D%3D",
       "openalex_id": "A5028772152",
@@ -21076,24 +17077,7 @@ window.KOREA_BIO_MAP = {
         "면역조직화학"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0008-7259-3841",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=60OhbgUhpToLeEBwmpNdLw%3D%3D",
       "openalex_id": "A5029241174",
@@ -21132,24 +17116,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-5914-678X",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=hMRPmCUdOJQaVuvCRK4OEA%3D%3D",
       "openalex_id": "A5018823684",
@@ -21187,24 +17154,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-9800-0994",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=cVhJHxf8NUiG%2B6afMSefBg%3D%3D",
       "openalex_id": "A5015330883",
@@ -21247,24 +17197,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-6164-8706",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=Lf%2BKkFTlGFgqdOFYFlGAuA%3D%3D",
       "openalex_id": "A5057445154",
@@ -21305,24 +17238,7 @@ window.KOREA_BIO_MAP = {
         "면역조직화학"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-6315-3889",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=jYlsozTuYtltkP41nlTi7w%3D%3D",
       "openalex_id": "A5006653003",
@@ -21367,24 +17283,7 @@ window.KOREA_BIO_MAP = {
         "분자도킹·시뮬레이션"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-7971-9493",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=oqiaaDXR0V7LxpgwrNpNaw%3D%3D",
       "openalex_id": "A5025326383",
@@ -21426,24 +17325,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-9284-9276",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=CyKU2I9cNtrD6CK2ucbRrA%3D%3D",
       "openalex_id": "A5039645150",
@@ -21486,24 +17368,7 @@ window.KOREA_BIO_MAP = {
         "형광·공초점 이미징"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9273-034X",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=ZOw%2FjvBypTEp5CBsYPbJDQ%3D%3D",
       "openalex_id": "A5083618878",
@@ -21546,24 +17411,7 @@ window.KOREA_BIO_MAP = {
         "질량분석"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-1468-4074",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=kkHg0m4mWTcdtbEg1TasQw%3D%3D",
       "openalex_id": "A5026949923",
@@ -21608,24 +17456,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-0764-7793",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=fdgoCYmxHX2F2hTCEi%2B%2BOA%3D%3D",
       "openalex_id": "A5025155778",
@@ -21667,24 +17498,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-6377-0411",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=1nfuO%2BetPGZmHouHZM2SSA%3D%3D",
       "openalex_id": "A5055427587",
@@ -21728,24 +17542,7 @@ window.KOREA_BIO_MAP = {
         "웨스턴블롯"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-6881-0515",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=g96pjvFfh5PV%2B2e8dvnljw%3D%3D",
       "openalex_id": "A5040799625",
@@ -21783,24 +17580,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=ncqoKxoqSdwnqq8Jw1ts6Q%3D%3D",
       "openalex_id": "A5009517792",
@@ -21845,24 +17625,7 @@ window.KOREA_BIO_MAP = {
         "qPCR"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-8758-9847",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=jku9b0h6kmc%2F%2F%2B6zN6Wi3Q%3D%3D",
       "openalex_id": "A5048920395",
@@ -21906,24 +17669,7 @@ window.KOREA_BIO_MAP = {
         "유세포분석"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-2833-8025",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=7Hb%2FP2jmPTlhGZdfsKsyrw%3D%3D",
       "openalex_id": "A5002386539",
@@ -21962,24 +17708,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-6925-6114",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=67BdLSgZZcGgf%2FjxcI%2B6jw%3D%3D",
       "openalex_id": "A5073776098",
@@ -22021,24 +17750,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-8552-9066",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=Vrp3KfRhIraOS8odmINGWQ%3D%3D",
       "openalex_id": "A5030591928",
@@ -22079,24 +17791,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0813-1315",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=xlgrSGAU8%2F%2FE7u8JNpUg%2BA%3D%3D",
       "openalex_id": "A5081062150",
@@ -22137,24 +17832,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "의과대학",
-      "lab": {
-        "alumni": 15.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 15
-        },
-        "alumni_url": "https://www.ewha.ac.kr/ewha/news/people.do",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9889-6172",
       "url": "https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=BxdJtfrfp4uEXpqsigfHGg%3D%3D",
       "openalex_id": "A5080361662",
@@ -22303,39 +17981,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "약학대학",
-      "lab": {
-        "alumni": 41.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 1,
-          "institute": 0,
-          "other": 40
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://pharmacy.dongduk.ac.kr/page/page19",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-3193-8152",
       "url": "https://pharmacy.dongduk.ac.kr/myboard/st_prof",
       "openalex_id": "A5130904230",
@@ -22373,39 +18019,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "약학대학",
-      "lab": {
-        "alumni": 41.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 1,
-          "institute": 0,
-          "other": 40
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://pharmacy.dongduk.ac.kr/page/page19",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0005-2456-2459",
       "url": "https://pharmacy.dongduk.ac.kr/myboard/st_prof",
       "openalex_id": "A5029273980",
@@ -22449,39 +18063,7 @@ window.KOREA_BIO_MAP = {
         "항체 개발"
       ],
       "department": "약학대학",
-      "lab": {
-        "alumni": 41.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 1,
-          "institute": 0,
-          "other": 40
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://pharmacy.dongduk.ac.kr/page/page19",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0009-0008-2913-9723",
       "url": "https://pharmacy.dongduk.ac.kr/myboard/st_prof",
       "openalex_id": "A5035280018",
@@ -22525,39 +18107,7 @@ window.KOREA_BIO_MAP = {
         "RNA-seq·전사체"
       ],
       "department": "약학대학",
-      "lab": {
-        "alumni": 41.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 1,
-          "institute": 0,
-          "other": 40
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://pharmacy.dongduk.ac.kr/page/page19",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-0786-6187",
       "url": "https://pharmacy.dongduk.ac.kr/myboard/st_prof",
       "openalex_id": "A5082247143",
@@ -22601,39 +18151,7 @@ window.KOREA_BIO_MAP = {
         "qPCR"
       ],
       "department": "약학대학",
-      "lab": {
-        "alumni": 41.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 1,
-          "institute": 0,
-          "other": 40
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://pharmacy.dongduk.ac.kr/page/page19",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-3276-8957",
       "url": "https://pharmacy.dongduk.ac.kr/myboard/st_prof",
       "openalex_id": "A5051416913",
@@ -22673,39 +18191,7 @@ window.KOREA_BIO_MAP = {
         "질량분석"
       ],
       "department": "약학대학",
-      "lab": {
-        "alumni": 41.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 1,
-          "institute": 0,
-          "other": 40
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://pharmacy.dongduk.ac.kr/page/page19",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-2216-3292",
       "url": "https://pharmacy.dongduk.ac.kr/myboard/st_prof",
       "openalex_id": "A5025112626",
@@ -22749,39 +18235,7 @@ window.KOREA_BIO_MAP = {
         "qPCR"
       ],
       "department": "약학대학",
-      "lab": {
-        "alumni": 41.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 1,
-          "institute": 0,
-          "other": 40
-        },
-        "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
-        },
-        "alumni_url": "https://pharmacy.dongduk.ac.kr/page/page19",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-1656-6362",
       "url": "https://pharmacy.dongduk.ac.kr/myboard/st_prof",
       "openalex_id": "A5002092609",
@@ -26123,18 +21577,10 @@ window.KOREA_BIO_MAP = {
       "department": "바이오융합대학",
       "lab": {
         "alumni": 2.0,
-        "phd_graduates": 0.0,
+        "phd_graduates": 2.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 0.0,
         "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 2
-        },
         "alumni_url": "https://www.dkucblab.kr/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
         "as_of": "2026-10-08"
@@ -29640,33 +25086,43 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "화공생명공학과",
       "lab": {
-        "alumni": 26.0,
-        "phd_graduates": 1.0,
+        "alumni": 25.0,
+        "phd_graduates": 13.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
+        "students_with_papers": 3.0,
+        "papers_per_student": 1.3,
+        "first_author_per_student": 0.7,
+        "fwci_median": 1.7,
+        "top10_share": 0.5,
         "careers": {
           "faculty": 0,
           "postdoc": 0,
           "industry": 0,
           "hospital": 0,
           "institute": 0,
-          "other": 25
+          "other": 4
         },
+        "top_journals": "Journal of Industrial and Engineering Chemistry; Biotechnology Journal",
         "recent": {
           "alumni": 7.0,
-          "phd_graduates": 0.0,
+          "phd_graduates": 2.0,
           "ms_graduates": 0.0,
           "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
+          "students_with_papers": 2.0,
+          "papers_per_student": 1.5,
+          "first_author_per_student": 0.5,
+          "fwci_median": 1.7,
+          "top10_share": 0.5,
           "careers": {
             "faculty": 0,
             "postdoc": 0,
             "industry": 0,
             "hospital": 0,
             "institute": 0,
-            "other": 7
-          }
+            "other": 1
+          },
+          "top_journals": "Journal of Industrial and Engineering Chemistry"
         },
         "alumni_url": "https://sites.google.com/view/kooslaborotory/members/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -29713,7 +25169,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "화공생명공학과",
       "lab": {
-        "alumni": 10.0,
+        "alumni": 6.0,
         "phd_graduates": 0.0,
         "ms_graduates": 3.0,
         "postdoc_alumni": 0.0,
@@ -29728,7 +25184,7 @@ window.KOREA_BIO_MAP = {
           "industry": 2,
           "hospital": 0,
           "institute": 0,
-          "other": 7
+          "other": 0
         },
         "top_journals": "SSRN Electronic Journal; Advanced Science; Small",
         "recent": {
@@ -29747,7 +25203,7 @@ window.KOREA_BIO_MAP = {
             "industry": 2,
             "hospital": 0,
             "institute": 0,
-            "other": 3
+            "other": 0
           },
           "top_journals": "SSRN Electronic Journal; Advanced Science; Small"
         },
@@ -29792,39 +25248,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "식품생명공학과",
-      "lab": {
-        "alumni": 34.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 34
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "https://food.seoultech.ac.kr/graduateschool/general",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-2755-2863",
       "url": "https://food.seoultech.ac.kr/department/prof?togo=list&menu=2049&profidx=02553",
       "openalex_id": "A5086310135",
@@ -29866,39 +25290,7 @@ window.KOREA_BIO_MAP = {
         "X선 결정학·구조분석"
       ],
       "department": "식품생명공학과; 나노바이오융합공학과",
-      "lab": {
-        "alumni": 34.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 34
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "https://food.seoultech.ac.kr/graduateschool/general",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-6876-4520",
       "url": "https://food.seoultech.ac.kr/department/prof?togo=list&menu=2049&profidx=02570",
       "openalex_id": "A5064277560",
@@ -29979,39 +25371,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "식품생명공학과",
-      "lab": {
-        "alumni": 34.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 34
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "https://food.seoultech.ac.kr/graduateschool/general",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-5650-8116",
       "url": "https://food.seoultech.ac.kr/department/prof?togo=list&menu=2049&profidx=02750",
       "openalex_id": "A5029762059",
@@ -30095,24 +25455,7 @@ window.KOREA_BIO_MAP = {
         "X선 결정학·구조분석"
       ],
       "department": "바이오메디컬학과",
-      "lab": {
-        "alumni": 1.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 1
-        },
-        "alumni_url": "https://sites.google.com/view/hatcherlab/members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-5728-5364",
       "url": "https://bms.seoultech.ac.kr/intro/professors?togo=list&menu=78647&profidx=02482",
       "openalex_id": "A5056578032",
@@ -30157,7 +25500,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "바이오메디컬학과; 방사선의과학전공",
       "lab": {
-        "alumni": 21.0,
+        "alumni": 17.0,
         "phd_graduates": 7.0,
         "ms_graduates": 2.0,
         "postdoc_alumni": 0.0,
@@ -30168,14 +25511,6 @@ window.KOREA_BIO_MAP = {
         "first_author_per_student": 2.0,
         "fwci_median": 0.7,
         "top10_share": 0.58,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 21
-        },
         "top_journals": "Biomaterials Research; Materials Today Bio; International Journal of Pharmaceutics",
         "recent": {
           "alumni": 16.0,
@@ -30189,14 +25524,6 @@ window.KOREA_BIO_MAP = {
           "first_author_per_student": 2.0,
           "fwci_median": 0.7,
           "top10_share": 0.58,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 16
-          },
           "top_journals": "Biomaterials Research; Materials Today Bio; International Journal of Pharmaceutics"
         },
         "alumni_url": "https://sites.google.com/view/drewkimlab/members/alumni",
@@ -30431,24 +25758,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "글로벌철도시스템학과(계약학과)",
-      "lab": {
-        "alumni": 3.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 3
-        },
-        "alumni_url": "https://sites.google.com/view/seoultech-raiselab/people/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-3135-869X",
       "url": "https://sites.google.com/view/seoultech-raiselab/home",
       "openalex_id": "A5100436332",
@@ -30492,24 +25802,7 @@ window.KOREA_BIO_MAP = {
         "유전자변형 마우스"
       ],
       "department": "경조직-바이오치아재생연구소",
-      "lab": {
-        "alumni": 11.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 10,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 1,
-          "other": 0
-        },
-        "alumni_url": "https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-9049-6908",
       "url": "https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679",
       "openalex_id": "A5102818065",
@@ -30550,24 +25843,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "경조직-바이오치아재생연구소",
-      "lab": {
-        "alumni": 11.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 10,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 1,
-          "other": 0
-        },
-        "alumni_url": "https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-0469-4324",
       "url": "https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679",
       "openalex_id": "A5009905509",
@@ -30605,24 +25881,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "경조직-바이오치아재생연구소",
-      "lab": {
-        "alumni": 11.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 10,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 1,
-          "other": 0
-        },
-        "alumni_url": "https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679",
       "openalex_id": "A5013180075",
@@ -30663,24 +25922,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상"
       ],
       "department": "경조직-바이오치아재생연구소",
-      "lab": {
-        "alumni": 11.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 10,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 1,
-          "other": 0
-        },
-        "alumni_url": "https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-5795-6968",
       "url": "https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679",
       "openalex_id": "A5058334295",
@@ -30924,7 +26166,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "생명공학부",
       "lab": {
-        "alumni": 8.0,
+        "alumni": 5.0,
         "phd_graduates": 0.0,
         "ms_graduates": 5.0,
         "postdoc_alumni": 0.0,
@@ -30933,14 +26175,6 @@ window.KOREA_BIO_MAP = {
         "first_author_per_student": 0.3,
         "fwci_median": 1.7,
         "top10_share": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
         "top_journals": "International Journal of Molecular Sciences",
         "recent": {
           "alumni": 3.0,
@@ -30952,14 +26186,6 @@ window.KOREA_BIO_MAP = {
           "first_author_per_student": 0.3,
           "fwci_median": 1.7,
           "top10_share": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 3
-          },
           "top_journals": "International Journal of Molecular Sciences"
         },
         "alumni_url": "https://sites.google.com/view/knu-lme/people",
@@ -31124,7 +26350,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "생명공학부",
       "lab": {
-        "alumni": 8.0,
+        "alumni": 4.0,
         "phd_graduates": 0.0,
         "ms_graduates": 3.0,
         "postdoc_alumni": 0.0,
@@ -31133,14 +26359,6 @@ window.KOREA_BIO_MAP = {
         "first_author_per_student": 0.0,
         "fwci_median": 0.0,
         "top10_share": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
         "recent": {
           "alumni": 4.0,
           "phd_graduates": 0.0,
@@ -31150,15 +26368,7 @@ window.KOREA_BIO_MAP = {
           "papers_per_student": 0.3,
           "first_author_per_student": 0.0,
           "fwci_median": 0.0,
-          "top10_share": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 4
-          }
+          "top10_share": 0.0
         },
         "alumni_url": "https://sites.google.com/view/knu-leb/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -31246,39 +26456,7 @@ window.KOREA_BIO_MAP = {
         "유전자변형 마우스"
       ],
       "department": "경북대학교 농업생명과학대학 식품공학부",
-      "lab": {
-        "alumni": 8.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "https://sites.google.com/view/knufbr/members/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-6061-2928",
       "url": "https://foodbio.knu.ac.kr/HOME/foodbio/sub.htm?nav_code=foo1623153979",
       "openalex_id": "A5087538716",
@@ -31323,7 +26501,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "경북대학교 농업생명과학대학 식품공학부",
       "lab": {
-        "alumni": 57.0,
+        "alumni": 21.0,
         "phd_graduates": 3.0,
         "ms_graduates": 7.0,
         "postdoc_alumni": 2.0,
@@ -31339,7 +26517,7 @@ window.KOREA_BIO_MAP = {
           "industry": 4,
           "hospital": 0,
           "institute": 8,
-          "other": 42
+          "other": 0
         },
         "top_journals": "KSBB Journal; Journal of Microbiology and Biotechnology; Journal of Industrial Microbiology & Biotechnology",
         "recent": {
@@ -31358,7 +26536,7 @@ window.KOREA_BIO_MAP = {
             "industry": 1,
             "hospital": 0,
             "institute": 1,
-            "other": 3
+            "other": 0
           },
           "top_journals": "KSBB Journal; Journal of Microbiology and Biotechnology; Journal of Industrial Microbiology & Biotechnology"
         },
@@ -31494,7 +26672,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "경북대학교 농업생명과학대학 식품공학부",
       "lab": {
-        "alumni": 26.0,
+        "alumni": 21.0,
         "phd_graduates": 0.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 0.0,
@@ -31505,7 +26683,7 @@ window.KOREA_BIO_MAP = {
           "industry": 5,
           "hospital": 0,
           "institute": 0,
-          "other": 21
+          "other": 0
         },
         "recent": {
           "alumni": 19.0,
@@ -31519,7 +26697,7 @@ window.KOREA_BIO_MAP = {
             "industry": 4,
             "hospital": 0,
             "institute": 0,
-            "other": 15
+            "other": 0
           }
         },
         "alumni_url": "https://skjung05.wixsite.com/knu-lab/alumni",
@@ -31654,39 +26832,7 @@ window.KOREA_BIO_MAP = {
         "질량분석"
       ],
       "department": "경북대학교 농업생명과학대학 식품공학부",
-      "lab": {
-        "alumni": 8.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
-        "recent": {
-          "alumni": 2.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
-        },
-        "alumni_url": "https://sites.google.com/view/knufbr/members/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-2365-6294",
       "url": "https://foodbio.knu.ac.kr/HOME/foodbio/sub.htm?nav_code=foo1623153979",
       "openalex_id": "A5087022737",
@@ -31772,39 +26918,7 @@ window.KOREA_BIO_MAP = {
         "단일세포 분석"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 1,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 5.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 1,
-            "hospital": 0,
-            "institute": 1,
-            "other": 3
-          }
-        },
-        "alumni_url": "https://yklab.snu.ac.kr/people/former-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-2867-8940",
       "url": "https://snupharm.snu.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84/",
       "openalex_id": "A5102934767",
@@ -31906,39 +27020,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 1,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 5.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 1,
-            "hospital": 0,
-            "institute": 1,
-            "other": 3
-          }
-        },
-        "alumni_url": "https://yklab.snu.ac.kr/people/former-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://snupharm.snu.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84/",
       "openalex_id": "",
@@ -32001,7 +27083,7 @@ window.KOREA_BIO_MAP = {
           "industry": 1,
           "hospital": 0,
           "institute": 2,
-          "other": 1
+          "other": 0
         },
         "top_journals": "Journal for ImmunoTherapy of Cancer; Nature Medicine; Alzheimer s & Dementia",
         "recent": {
@@ -32022,7 +27104,7 @@ window.KOREA_BIO_MAP = {
             "industry": 1,
             "hospital": 0,
             "institute": 1,
-            "other": 1
+            "other": 0
           },
           "top_journals": "Journal for ImmunoTherapy of Cancer; Nature Medicine; Alzheimer s & Dementia"
         },
@@ -32161,24 +27243,7 @@ window.KOREA_BIO_MAP = {
         "줄기세포·iPSC"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 1.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 1
-        },
-        "alumni_url": "https://sparklab.snu.ac.kr/",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-1981-3274",
       "url": "https://sparklab.snu.ac.kr/",
       "openalex_id": "A5028979905",
@@ -32207,39 +27272,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 1,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 5.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 1,
-            "hospital": 0,
-            "institute": 1,
-            "other": 3
-          }
-        },
-        "alumni_url": "https://yklab.snu.ac.kr/people/former-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://snupharm.snu.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84/",
       "openalex_id": "",
@@ -32325,39 +27358,7 @@ window.KOREA_BIO_MAP = {
         "칼슘 이미징"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 1,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 5.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 1,
-            "hospital": 0,
-            "institute": 1,
-            "other": 3
-          }
-        },
-        "alumni_url": "https://yklab.snu.ac.kr/people/former-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-6697-3639",
       "url": "https://snupharm.snu.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84/",
       "openalex_id": "A5102942205",
@@ -32401,39 +27402,7 @@ window.KOREA_BIO_MAP = {
         "질량분석"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 1,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 5.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 1,
-            "hospital": 0,
-            "institute": 1,
-            "other": 3
-          }
-        },
-        "alumni_url": "https://yklab.snu.ac.kr/people/former-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-6405-5535",
       "url": "https://snupharm.snu.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84/",
       "openalex_id": "A5000424971",
@@ -32535,24 +27504,7 @@ window.KOREA_BIO_MAP = {
         "웨스턴블롯"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 1.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 1
-        },
-        "alumni_url": "https://skleelab.wordpress.com/members/",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-4306-7024",
       "url": "https://skleelab.wordpress.com/",
       "openalex_id": "A5033086793",
@@ -32596,39 +27548,7 @@ window.KOREA_BIO_MAP = {
         "종양 이종이식 모델"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 1,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 5.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 1,
-            "hospital": 0,
-            "institute": 1,
-            "other": 3
-          }
-        },
-        "alumni_url": "https://yklab.snu.ac.kr/people/former-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-7805-869X",
       "url": "https://snupharm.snu.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84/",
       "openalex_id": "A5056530476",
@@ -32712,39 +27632,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 1,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 5.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 1,
-            "hospital": 0,
-            "institute": 1,
-            "other": 3
-          }
-        },
-        "alumni_url": "https://yklab.snu.ac.kr/people/former-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-5565-8323",
       "url": "https://snupharm.snu.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84/",
       "openalex_id": "A5032408021",
@@ -32818,39 +27706,7 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 1,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 5.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 1,
-            "hospital": 0,
-            "institute": 1,
-            "other": 3
-          }
-        },
-        "alumni_url": "https://yklab.snu.ac.kr/people/former-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://snupharm.snu.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84/",
       "openalex_id": "",
@@ -32894,39 +27750,7 @@ window.KOREA_BIO_MAP = {
         "질량분석"
       ],
       "department": "College of Pharmacy",
-      "lab": {
-        "alumni": 9.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 0,
-          "institute": 1,
-          "other": 7
-        },
-        "recent": {
-          "alumni": 5.0,
-          "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 1,
-            "hospital": 0,
-            "institute": 1,
-            "other": 3
-          }
-        },
-        "alumni_url": "https://yklab.snu.ac.kr/people/former-members",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-1174-4358",
       "url": "https://snupharm.snu.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84/",
       "openalex_id": "A5066026979",
@@ -33085,11 +27909,11 @@ window.KOREA_BIO_MAP = {
         "top10_share": 0.51,
         "careers": {
           "faculty": 5,
-          "postdoc": 4,
-          "industry": 0,
+          "postdoc": 3,
+          "industry": 1,
           "hospital": 0,
           "institute": 0,
-          "other": 2
+          "other": 1
         },
         "top_journals": "Immune Network; Proceedings of the National Academy of Sciences; Nature Immunology",
         "recent": {
@@ -33105,8 +27929,8 @@ window.KOREA_BIO_MAP = {
           "top10_share": 0.42,
           "careers": {
             "faculty": 3,
-            "postdoc": 4,
-            "industry": 0,
+            "postdoc": 3,
+            "industry": 1,
             "hospital": 0,
             "institute": 0,
             "other": 0
@@ -33233,31 +28057,27 @@ window.KOREA_BIO_MAP = {
       "lab": {
         "alumni": 8.0,
         "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
+        "ms_graduates": 8.0,
         "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 8
-        },
+        "ms_years": 1.9,
+        "students_with_papers": 4.0,
+        "papers_per_student": 1.5,
+        "first_author_per_student": 0.5,
+        "fwci_median": 2.4,
+        "top10_share": 0.4,
+        "top_journals": "Organic & Biomolecular Chemistry; The Journal of Organic Chemistry",
         "recent": {
           "alumni": 3.0,
           "phd_graduates": 0.0,
-          "ms_graduates": 0.0,
+          "ms_graduates": 3.0,
           "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 3
-          }
+          "ms_years": 1.9,
+          "students_with_papers": 3.0,
+          "papers_per_student": 1.3,
+          "first_author_per_student": 0.3,
+          "fwci_median": 1.6,
+          "top10_share": 0.25,
+          "top_journals": "The Journal of Organic Chemistry"
         },
         "alumni_url": "https://www.schong17.com/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -33403,7 +28223,7 @@ window.KOREA_BIO_MAP = {
           "industry": 9,
           "hospital": 0,
           "institute": 4,
-          "other": 27
+          "other": 3
         },
         "top_journals": "Catalysis Today; Applied Catalysis A General; Applied Catalysis B: Environmental",
         "recent": {
@@ -33422,7 +28242,7 @@ window.KOREA_BIO_MAP = {
             "industry": 7,
             "hospital": 0,
             "institute": 1,
-            "other": 16
+            "other": 1
           },
           "top_journals": "Applied Catalysis A General; Catalysis Today; Chemical Engineering Journal"
         },
@@ -33689,7 +28509,7 @@ window.KOREA_BIO_MAP = {
           "industry": 17,
           "hospital": 0,
           "institute": 2,
-          "other": 6
+          "other": 0
         },
         "top_journals": "Journal of Applied Physics; Microscopy and Microanalysis; The Journal of Physical Chemistry C",
         "recent": {
@@ -33704,7 +28524,7 @@ window.KOREA_BIO_MAP = {
             "industry": 11,
             "hospital": 0,
             "institute": 2,
-            "other": 2
+            "other": 0
           }
         },
         "alumni_url": "https://fluid.snu.ac.kr/people/",
@@ -34137,7 +28957,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "Chemical and Biological Engineering",
       "lab": {
-        "alumni": 77.0,
+        "alumni": 61.0,
         "phd_graduates": 1.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 3.0,
@@ -34148,7 +28968,7 @@ window.KOREA_BIO_MAP = {
           "industry": 49,
           "hospital": 0,
           "institute": 3,
-          "other": 17
+          "other": 0
         },
         "alumni_url": "https://tcsm.snu.ac.kr/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -34226,24 +29046,7 @@ window.KOREA_BIO_MAP = {
         "조직공학·바이오프린팅"
       ],
       "department": "Chemical and Biological Engineering",
-      "lab": {
-        "alumni": 4.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 1,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 3
-        },
-        "alumni_url": "http://pcl.snu.ac.kr/bbs/board.php?tbl=alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-5587-1183",
       "url": "http://pcl.snu.ac.kr/",
       "openalex_id": "A5035995884",
@@ -34326,7 +29129,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "Chemical and Biological Engineering",
       "lab": {
-        "alumni": 32.0,
+        "alumni": 30.0,
         "phd_graduates": 23.0,
         "ms_graduates": 6.0,
         "postdoc_alumni": 0.0,
@@ -34335,14 +29138,6 @@ window.KOREA_BIO_MAP = {
         "first_author_per_student": 0.4,
         "fwci_median": 1.5,
         "top10_share": 0.52,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 32
-        },
         "top_journals": "Energy & Environmental Science; Journal of Power Sources; ChemRxiv",
         "recent": {
           "alumni": 30.0,
@@ -34354,14 +29149,6 @@ window.KOREA_BIO_MAP = {
           "first_author_per_student": 0.4,
           "fwci_median": 1.5,
           "top10_share": 0.52,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 30
-          },
           "top_journals": "Energy & Environmental Science; Journal of Power Sources; ChemRxiv"
         },
         "alumni_url": "https://micc.snu.ac.kr/members/",
@@ -34410,7 +29197,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "Chemical and Biological Engineering",
       "lab": {
-        "alumni": 9.0,
+        "alumni": 4.0,
         "phd_graduates": 0.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 1.0,
@@ -34421,7 +29208,7 @@ window.KOREA_BIO_MAP = {
           "industry": 3,
           "hospital": 0,
           "institute": 0,
-          "other": 6
+          "other": 0
         },
         "alumni_url": "https://inchung.snu.ac.kr/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -34471,7 +29258,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "Chemical and Biological Engineering",
       "lab": {
-        "alumni": 70.0,
+        "alumni": 67.0,
         "phd_graduates": 10.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 11.0,
@@ -34487,7 +29274,7 @@ window.KOREA_BIO_MAP = {
           "industry": 20,
           "hospital": 0,
           "institute": 3,
-          "other": 24
+          "other": 5
         },
         "top_journals": "Figshare; Journal of the American Chemical Society; Angewandte Chemie International Edition",
         "recent": {
@@ -34507,7 +29294,7 @@ window.KOREA_BIO_MAP = {
             "industry": 8,
             "hospital": 0,
             "institute": 0,
-            "other": 6
+            "other": 2
           },
           "top_journals": "Figshare; Journal of the American Chemical Society; Angewandte Chemie International Edition"
         },
@@ -34603,24 +29390,7 @@ window.KOREA_BIO_MAP = {
         "전기생리"
       ],
       "department": "Chemical and Biological Engineering",
-      "lab": {
-        "alumni": 2.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 2
-        },
-        "alumni_url": "https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-5959-6257",
       "url": "https://nanomat.snu.ac.kr/",
       "openalex_id": "A5025901845",
@@ -34763,7 +29533,7 @@ window.KOREA_BIO_MAP = {
           "industry": 0,
           "hospital": 0,
           "institute": 4,
-          "other": 5
+          "other": 1
         },
         "top_journals": "Animal Cells and Systems",
         "recent": {
@@ -34782,7 +29552,7 @@ window.KOREA_BIO_MAP = {
             "industry": 0,
             "hospital": 0,
             "institute": 0,
-            "other": 2
+            "other": 1
           },
           "top_journals": "Animal Cells and Systems"
         },
@@ -34827,24 +29597,7 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "School of Biological Sciences",
-      "lab": {
-        "alumni": 10.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 1,
-          "other": 4
-        },
-        "alumni_url": "http://biosci.snu.ac.kr/about/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-2920-2656",
       "url": "https://biosci.snu.ac.kr/jkoh",
       "openalex_id": "A5091561167",
@@ -34888,24 +29641,7 @@ window.KOREA_BIO_MAP = {
         "RNA-seq·전사체"
       ],
       "department": "School of Biological Sciences",
-      "lab": {
-        "alumni": 10.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 1,
-          "other": 4
-        },
-        "alumni_url": "http://biosci.snu.ac.kr/about/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-7335-3729",
       "url": "http://biosci.snu.ac.kr/labdnd",
       "openalex_id": "A5101786821",
@@ -34967,7 +29703,7 @@ window.KOREA_BIO_MAP = {
           "industry": 1,
           "hospital": 0,
           "institute": 1,
-          "other": 1
+          "other": 0
         },
         "top_journals": "Proceedings of the International Display Workshops; Nature; Frontiers in Immunology",
         "recent": {
@@ -35038,24 +29774,7 @@ window.KOREA_BIO_MAP = {
         "후성유전 분석"
       ],
       "department": "School of Biological Sciences",
-      "lab": {
-        "alumni": 10.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 1,
-          "other": 4
-        },
-        "alumni_url": "http://biosci.snu.ac.kr/about/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-2337-6935",
       "url": "http://biosci.snu.ac.kr/lamr",
       "openalex_id": "A5080563770",
@@ -35100,24 +29819,7 @@ window.KOREA_BIO_MAP = {
         "애기장대·식물 모델"
       ],
       "department": "School of Biological Sciences",
-      "lab": {
-        "alumni": 10.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 1,
-          "other": 4
-        },
-        "alumni_url": "http://biosci.snu.ac.kr/about/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0002-8909-8440",
       "url": "https://biosci.snu.ac.kr/proteomics/",
       "openalex_id": "A5082258548",
@@ -35178,7 +29880,7 @@ window.KOREA_BIO_MAP = {
           "industry": 1,
           "hospital": 0,
           "institute": 1,
-          "other": 5
+          "other": 0
         },
         "recent": {
           "alumni": 4.0,
@@ -35196,7 +29898,7 @@ window.KOREA_BIO_MAP = {
             "industry": 0,
             "hospital": 0,
             "institute": 1,
-            "other": 3
+            "other": 0
           }
         },
         "alumni_url": "https://www.mrmlab.org/members",
@@ -35232,33 +29934,17 @@ window.KOREA_BIO_MAP = {
       "techniques": [],
       "department": "School of Biological Sciences",
       "lab": {
-        "alumni": 34.0,
+        "alumni": 16.0,
         "phd_graduates": 6.0,
         "ms_graduates": 10.0,
         "postdoc_alumni": 0.0,
         "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 34
-        },
         "recent": {
           "alumni": 2.0,
           "phd_graduates": 1.0,
           "ms_graduates": 1.0,
           "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 2
-          }
+          "students_with_papers": 0.0
         },
         "alumni_url": "http://biosci.snu.ac.kr/joykim/en/people/former",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -35293,33 +29979,17 @@ window.KOREA_BIO_MAP = {
       "techniques": [],
       "department": "School of Biological Sciences",
       "lab": {
-        "alumni": 10.0,
+        "alumni": 5.0,
         "phd_graduates": 0.0,
         "ms_graduates": 4.0,
         "postdoc_alumni": 0.0,
         "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 10
-        },
         "recent": {
           "alumni": 1.0,
           "phd_graduates": 0.0,
           "ms_graduates": 0.0,
           "postdoc_alumni": 0.0,
-          "students_with_papers": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 0,
-            "other": 1
-          }
+          "students_with_papers": 0.0
         },
         "alumni_url": "https://cocila.net/people-2/alumni-2/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -35368,43 +30038,7 @@ window.KOREA_BIO_MAP = {
         "X선 결정학·구조분석"
       ],
       "department": "School of Biological Sciences",
-      "lab": {
-        "alumni": 51.0,
-        "phd_graduates": 17.0,
-        "ms_graduates": 1.0,
-        "postdoc_alumni": 1.0,
-        "students_with_papers": 2.0,
-        "papers_per_student": 0.0,
-        "first_author_per_student": 0.0,
-        "careers": {
-          "faculty": 3,
-          "postdoc": 0,
-          "industry": 1,
-          "hospital": 1,
-          "institute": 1,
-          "other": 45
-        },
-        "recent": {
-          "alumni": 6.0,
-          "phd_graduates": 1.0,
-          "ms_graduates": 0.0,
-          "postdoc_alumni": 0.0,
-          "students_with_papers": 1.0,
-          "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
-          "careers": {
-            "faculty": 0,
-            "postdoc": 0,
-            "industry": 0,
-            "hospital": 0,
-            "institute": 1,
-            "other": 5
-          }
-        },
-        "alumni_url": "http://snucryoem.creatorlink.net/",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-3851-7200",
       "url": "http://snucryoem.creatorlink.net",
       "openalex_id": "A5079762603",
@@ -35434,7 +30068,7 @@ window.KOREA_BIO_MAP = {
       "techniques": [],
       "department": "School of Biological Sciences",
       "lab": {
-        "alumni": 28.0,
+        "alumni": 27.0,
         "phd_graduates": 5.0,
         "ms_graduates": 3.0,
         "postdoc_alumni": 6.0,
@@ -35445,7 +30079,7 @@ window.KOREA_BIO_MAP = {
           "industry": 0,
           "hospital": 0,
           "institute": 17,
-          "other": 11
+          "other": 0
         },
         "alumni_url": "http://biosci.snu.ac.kr/ysnoh/people/former",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -35493,24 +30127,7 @@ window.KOREA_BIO_MAP = {
         "RNA-seq·전사체"
       ],
       "department": "School of Biological Sciences",
-      "lab": {
-        "alumni": 6.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 2,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 4
-        },
-        "alumni_url": "http://www.karkilab.com/bbs/board.php?bo_table=sub3_3",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "http://www.karkilab.com/",
       "openalex_id": "A5079920356",
@@ -35554,24 +30171,7 @@ window.KOREA_BIO_MAP = {
         "CRISPR 유전자편집"
       ],
       "department": "School of Biological Sciences",
-      "lab": {
-        "alumni": 1.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 0,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 0,
-          "other": 1
-        },
-        "alumni_url": "https://steineggerlab.com/en/people/",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0001-8781-9753",
       "url": "https://steineggerlab.com",
       "openalex_id": "A5019985343",
@@ -35640,24 +30240,7 @@ window.KOREA_BIO_MAP = {
         "RNA-seq·전사체"
       ],
       "department": "School of Biological Sciences",
-      "lab": {
-        "alumni": 10.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 1,
-          "other": 4
-        },
-        "alumni_url": "http://biosci.snu.ac.kr/about/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "0000-0003-0647-6416",
       "url": "http://biosci.snu.ac.kr/symbio",
       "openalex_id": "A5064408083",
@@ -35701,24 +30284,7 @@ window.KOREA_BIO_MAP = {
         "단일세포 분석"
       ],
       "department": "School of Biological Sciences",
-      "lab": {
-        "alumni": 10.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 1,
-          "other": 4
-        },
-        "alumni_url": "http://biosci.snu.ac.kr/about/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://biosci.snu.ac.kr/AIinBiomedicine",
       "openalex_id": "A5080394046",
@@ -35762,24 +30328,7 @@ window.KOREA_BIO_MAP = {
         "X선 결정학·구조분석"
       ],
       "department": "School of Biological Sciences",
-      "lab": {
-        "alumni": 10.0,
-        "phd_graduates": 0.0,
-        "ms_graduates": 0.0,
-        "postdoc_alumni": 0.0,
-        "students_with_papers": 0.0,
-        "careers": {
-          "faculty": 5,
-          "postdoc": 0,
-          "industry": 0,
-          "hospital": 0,
-          "institute": 1,
-          "other": 4
-        },
-        "alumni_url": "http://biosci.snu.ac.kr/about/alumni",
-        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-08"
-      },
+      "lab": {},
       "orcid": "",
       "url": "https://biosci.snu.ac.kr/cssb",
       "openalex_id": "A5044961635",

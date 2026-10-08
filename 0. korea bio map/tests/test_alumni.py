@@ -130,3 +130,12 @@ def test_lab_info_has_recent(tmp_path, monkeypatch):
     assert info["recent"]["alumni"] == 2 and "faculty" not in info["recent"]["careers"] or \
         info["recent"]["careers"]["faculty"] == 0
     assert info["alumni_url"] == "http://lab/alumni"
+
+
+def test_no_openalex_id_makes_no_request():
+    class Boom:
+        def _get(self, *a, **k):
+            raise AssertionError("no request expected")
+    people = parse_alumni(LIST_PAGE)
+    alumni.add_papers(Boom(), [""], people)
+    assert all("papers" not in p for p in people)

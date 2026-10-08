@@ -389,11 +389,11 @@ def _window(alum: dict) -> tuple[int, int] | None:
 def add_papers(client: OpenAlexClient, openalex_ids: list[str], people: list[dict]) -> None:
     """Papers each alumnus wrote with the professor during their time in the lab."""
     todo = [p for p in people if _window(p)]
-    if not todo or not openalex_ids:
+    ids = "|".join(normalize_openalex_id(i) for i in openalex_ids if normalize_openalex_id(i))
+    if not todo or not ids:      # no OpenAlex profile: no papers to match
         return
     for p in todo:
         p.update(papers=0, first_author=0, fwci=[], top10=0, journals=Counter(), paper_ids=[])
-    ids = "|".join(normalize_openalex_id(i) for i in openalex_ids if normalize_openalex_id(i))
     cursor = "*"
     while cursor:
         data = client._get("works", {"filter": f"author.id:{ids}", "per-page": 200, "cursor": cursor,
@@ -517,6 +517,22 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
     rows = professors.set_index("professor_id")
     summaries, site_rows, people_rows = [], [], []
     started = datetime.now(timezone.utc)
+    openalex_ok = True
+    old_summary = _read(SUMMARY_PATH)
+
+    def save() -> pd.DataFrame:
+        """Write what this run has found so far (also mid-run: a timeout keeps the work)."""
+        done = {x["professor_id"] for x in site_rows}
+        pd.concat([sites[~sites["professor_id"].isin(done)], pd.DataFrame(site_rows, columns=SITE_COLUMNS)],
+                  ignore_index=True).to_csv(SITES_PATH, index=False, encoding="utf-8-sig")
+        kept = old_summary[~old_summary["professor_id"].isin(done)] if not old_summary.empty else old_summary
+        summary = pd.concat([kept, pd.DataFrame(summaries)], ignore_index=True)
+        summary.to_csv(SUMMARY_PATH, index=False, encoding="utf-8-sig")
+        PEOPLE_DIR.mkdir(parents=True, exist_ok=True)
+        pd.DataFrame(people_rows).to_csv(PEOPLE_DIR / f"lab_alumni_people_{today.isoformat()}.csv",
+                                         index=False, encoding="utf-8-sig")
+        return summary
+
     for n, pid in enumerate(order, 1):
         r = rows.loc[pid]
         try:
@@ -525,11 +541,18 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
         except Exception as exc:  # one broken site must not stop the batch
             print(f"[alumni] {pid}: {exc}", flush=True)
             lab_url, pages, people = "", [], []
-        if people:
+        if people and openalex_ok:
             try:
                 add_papers(client, str(r.get("openalex_id", "")).split(";"), people)
-            except OpenAlexUnavailable as exc:
-                print(f"[alumni] OpenAlex unavailable, papers skipped: {exc}", flush=True)
+            except requests.RequestException as exc:
+                # Half-counted papers would mislead: drop them for this lab.
+                for p in people:
+                    for k in ("papers", "first_author", "fwci", "top10", "journals", "paper_ids"):
+                        p.pop(k, None)
+                print(f"[alumni] {pid}: papers skipped: {exc}", flush=True)
+                if isinstance(exc, OpenAlexUnavailable):
+                    openalex_ok = False      # budget spent: keep reading alumni pages only
+        if people:
             summaries.append(summarize(pid, lab_url, pages, people))
             for p in people:
                 people_rows.append({"professor_id": pid, **{k: v for k, v in p.items()
@@ -538,22 +561,13 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
         status = "alumni" if people else ("lab_site" if lab_url else "no_lab_site")
         site_rows.append({"professor_id": pid, "lab_url": lab_url, "alumni_urls": ";".join(pages),
                           "status": status, "alumni_found": len(people), "checked_at": today.isoformat()})
+        if n % 100 == 0:
+            save()
         if n % 50 == 0:
             print(f"[alumni] {n}/{len(order)} labs checked, {len(summaries)} with alumni, "
                   f"{fetch.count} pages fetched ({(datetime.now(timezone.utc) - started).seconds // 60} min)", flush=True)
 
-    done = {s["professor_id"] for s in site_rows}
-    sites = pd.concat([sites[~sites["professor_id"].isin(done)], pd.DataFrame(site_rows, columns=SITE_COLUMNS)],
-                      ignore_index=True)
-    sites.to_csv(SITES_PATH, index=False, encoding="utf-8-sig")
-    old = _read(SUMMARY_PATH)
-    if not old.empty:
-        old = old[~old["professor_id"].isin(done)]
-    summary = pd.concat([old, pd.DataFrame(summaries)], ignore_index=True)
-    summary.to_csv(SUMMARY_PATH, index=False, encoding="utf-8-sig")
-    PEOPLE_DIR.mkdir(parents=True, exist_ok=True)
-    pd.DataFrame(people_rows).to_csv(PEOPLE_DIR / f"lab_alumni_people_{today.isoformat()}.csv",
-                                     index=False, encoding="utf-8-sig")
+    summary = save()
     print(f"[alumni] checked {len(site_rows)} labs: {len(summaries)} with alumni "
           f"({sum(len(s['alumni_urls']) > 0 for s in summaries)} alumni pages), "
           f"{sum(s['status'] != 'no_lab_site' for s in site_rows)} lab sites; {fetch.count} pages fetched", flush=True)

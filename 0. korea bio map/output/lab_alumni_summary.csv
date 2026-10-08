@@ -1,319 +1,65 @@
 ﻿professor_id,lab_url,alumni_urls,alumni,phd_graduates,ms_graduates,postdoc_alumni,phd_years,integrated_years,ms_years,career_faculty,career_postdoc,career_industry,career_hospital,career_institute,career_other,students_with_papers,papers_per_student,first_author_per_student,fwci_median,top10_share,top_journals,recent_alumni,recent_phd_graduates,recent_ms_graduates,recent_postdoc_alumni,recent_phd_years,recent_integrated_years,recent_ms_years,recent_career_faculty,recent_career_postdoc,recent_career_industry,recent_career_hospital,recent_career_institute,recent_career_other,recent_students_with_papers,recent_papers_per_student,recent_first_author_per_student,recent_fwci_median,recent_top10_share,recent_top_journals,checked_at
-P0001,https://bmie.snu.ac.kr/lab-members/,https://bmie.snu.ac.kr/lab-members/,40,1,0,0,,,,3,6,6,0,3,22,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0002,https://seolab.snu.ac.kr/contact,https://seolab.snu.ac.kr/people,7,4,0,0,6.8,,,0,3,0,0,0,3,4,4.8,2.0,0.9,0.17,Microbial Cell Factories; Nature Communications; Methods in molecular biology,5,4,0,0,6.8,,,0,3,0,0,0,1,4,4.8,2.0,0.9,0.17,Microbial Cell Factories; Nature Communications; Methods in molecular biology,2026-10-08
-P0003,https://cgt.snu.ac.kr/home,https://cgt.snu.ac.kr/members,5,1,2,0,2.0,,1.0,1,0,0,0,0,4,0,,,,,,3,1,2,0,2.0,,1.0,1,0,0,0,0,2,0,,,,,,2026-10-08
-P0013,http://sites.google.com/view/immunoinformatics-lab,http://sites.google.com/view/immunoinformatics-lab/members,10,0,1,0,,,4.0,0,0,0,0,0,10,1,0.0,0.0,,,,8,0,1,0,,,4.0,0,0,0,0,0,8,1,0.0,0.0,,,,2026-10-08
-P0022,https://nanotrio.postech.ac.kr/,https://nanotrio.postech.ac.kr/nanotrio/mem/alumni.do,48,21,23,1,2.0,,,6,3,16,1,2,20,44,7.7,1.5,1.7,0.89,The Journal of Physical Chemistry C; ACS Nano; Advanced Functional Materials,13,6,7,0,2.0,,,0,0,7,0,0,6,13,3.8,1.0,1.2,0.26,Advanced Science; The Journal of Physical Chemistry C; Molecules,2026-10-08
-P0026,https://biotech.skku.edu/,https://biotech.skku.edu/biotech/news.do?mode=view&articleNo=110027;https://biotech.skku.edu/biotech/news.do?mode=view&articleNo=110014,12,0,0,0,,,,1,0,3,0,0,8,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0028,https://biomedical.skku.edu/eng/html/research/laboratory.asp,https://biomedical.skku.edu/eng/html/people/alumni.asp,21,0,0,0,,,,0,0,0,0,1,20,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0032,https://snupharm.snu.ac.kr/snu__professor/%ea%b0%95%ec%9c%a4%ed%91%9c/,https://snupharm.snu.ac.kr/%ed%95%99%ec%9c%84%eb%b3%84-%ec%a7%84%eb%a1%9c/,3,2,0,0,,,,0,0,0,0,0,3,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0033,http://koo.snu.ac.kr/home,http://koo.snu.ac.kr/구성원,31,1,2,0,,,,0,0,0,0,0,31,1,0.0,0.0,,,,20,1,0,0,,,,0,0,0,0,0,20,1,0.0,0.0,,,,2026-10-08
-P0034,https://snupharm.snu.ac.kr/snu__professor/%ea%b6%8c%ec%84%b1%ec%9b%90/,https://snupharm.snu.ac.kr/%ed%95%99%ec%9c%84%eb%b3%84-%ec%a7%84%eb%a1%9c/,3,2,0,0,,,,0,0,0,0,0,3,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0035,https://yklab.snu.ac.kr/home,https://yklab.snu.ac.kr/people/former-members,9,0,0,0,,,,0,0,1,0,1,7,0,,,,,,5,0,0,0,,,,0,0,1,0,1,3,0,,,,,,2026-10-08
-P0036,https://snupharm.snu.ac.kr/snu__professor/%eb%85%b8%eb%af%bc%ec%88%98/,https://snupharm.snu.ac.kr/%ed%95%99%ec%9c%84%eb%b3%84-%ec%a7%84%eb%a1%9c/,3,2,0,0,,,,0,0,0,0,0,3,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0040,https://molpathlab.snu.ac.kr/,https://molpathlab.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90-2-2-2/;https://molpathlab.snu.ac.kr/alumni/,54,3,13,5,,,,3,3,0,0,1,47,15,0.0,0.0,,,,15,2,13,0,,,,0,0,0,0,1,14,15,0.0,0.0,,,,2026-10-08
-P0050,https://bedds.snu.ac.kr/index.html,https://bedds.snu.ac.kr/alumni.html,17,0,12,0,,,2.5,0,0,6,0,1,9,12,2.9,0.2,0.9,0.14,Archives of Pharmacal Research; Journal of Pharmaceutical Investigation; Nano Today,11,0,9,0,,,3.0,0,0,4,0,1,5,9,2.6,0.1,0.6,0.15,Nano Today,2026-10-08
-P0052,https://bama.snu.ac.kr/,https://bama.snu.ac.kr/members/alumni/,37,0,0,2,,,,3,0,5,2,1,26,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0053,https://sites.google.com/view/janglab/home,https://sites.google.com/view/janglab/team/alumni,13,0,0,0,,,,0,0,0,0,0,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0054,http://idetoxlab.snu.ac.kr/home,http://idetoxlab.snu.ac.kr/members,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0057,http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=2&sc=y,http://biomed.snu.ac.kr/about/former-chairperson,7,0,0,0,,,,0,0,0,0,0,7,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0060,http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=5&sc=y,http://biomed.snu.ac.kr/about/former-chairperson,7,0,0,0,,,,0,0,0,0,0,7,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0062,http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=16&sc=y,http://biomed.snu.ac.kr/about/former-chairperson,7,0,0,0,,,,0,0,0,0,0,7,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0064,http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=67&sc=y,http://biomed.snu.ac.kr/about/former-chairperson,7,0,0,0,,,,0,0,0,0,0,7,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0065,https://www.banglab.org,https://www.banglab.org/team-3,4,1,1,0,,,,0,0,0,0,0,4,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0066,https://sites.google.com/view/baelab/,https://sites.google.com/view/baelab/members,3,0,1,0,,,1.9,1,0,1,0,0,1,1,0.0,0.0,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0067,http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=20&sc=y,http://biomed.snu.ac.kr/about/former-chairperson,7,0,0,0,,,,0,0,0,0,0,7,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0068,http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=72&sc=y,http://biomed.snu.ac.kr/about/former-chairperson,7,0,0,0,,,,0,0,0,0,0,7,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0074,http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=74&sc=y,http://biomed.snu.ac.kr/about/former-chairperson,7,0,0,0,,,,0,0,0,0,0,7,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0075,http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=31&sc=y,http://biomed.snu.ac.kr/about/former-chairperson,7,0,0,0,,,,0,0,0,0,0,7,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0076,https://nfi0829snu.wixsite.com/nfisnu,https://nfi0829snu.wixsite.com/nfisnu/blank-4,13,0,1,0,,,,0,0,0,0,0,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0078,http://www.junglab.snu.ac.kr/,https://www.junglab.snu.ac.kr/members,6,3,3,0,4.0,,2.0,0,0,0,0,0,4,5,1.8,0.0,2.9,0.33,,5,2,3,0,4.0,,2.0,0,0,0,0,0,3,5,1.8,0.0,2.9,0.33,,2026-10-08
-P0080,http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=39&sc=y,http://biomed.snu.ac.kr/about/former-chairperson,7,0,0,0,,,,0,0,0,0,0,7,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0081,https://csybio3.wixsite.com/lpmo,https://csybio3.wixsite.com/lpmo/people,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0083,http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=48&sc=y,http://biomed.snu.ac.kr/about/former-chairperson,7,0,0,0,,,,0,0,0,0,0,7,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0084,https://apel.snu.ac.kr,https://apel.snu.ac.kr/members/alumni,27,6,11,0,,,,1,0,4,0,0,22,12,1.4,0.5,0.9,0.15,Biotechnology and Bioengineering; BioDrugs; Experimental & Molecular Medicine,4,2,2,0,,,,0,0,1,0,0,3,4,1.0,0.2,1.4,0.0,BioDrugs,2026-10-08
-P0088,http://chembio.yonsei.ac.kr,http://chembio.yonsei.ac.kr/members/former-members,69,10,7,8,,,2.0,0,1,16,0,2,50,17,0.0,0.0,,,,20,5,0,0,,,,0,0,9,0,0,11,5,0.0,0.0,,,,2026-10-08
-P0095,https://clarity.yonsei.ac.kr/,https://clarity.yonsei.ac.kr/people/alumni,51,4,20,0,4.0,,,0,0,11,1,0,39,2,6.5,2.5,0.2,0.15,Zenodo (CERN European Organization for Nuclear Research); Anesthesiology; Scientific Reports,13,1,0,0,4.0,,,0,0,2,0,0,11,1,12.0,5.0,0.1,0.17,Zenodo (CERN European Organization for Nuclear Research); Anesthesiology; Scientific Reports,2026-10-08
-P0102,https://sites.google.com/view/soohwanlab,https://sites.google.com/view/soohwanlab/our-voyage/alumni,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0104,https://sites.google.com/view/soohwanlab,https://sites.google.com/view/soohwanlab/our-voyage/alumni,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0105,https://sites.google.com/view/soohwanlab,https://sites.google.com/view/soohwanlab/our-voyage/alumni,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0107,https://sites.google.com/view/soohwanlab/home,https://sites.google.com/view/soohwanlab/our-voyage/alumni,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0109,https://sites.google.com/view/envitox-ku/main,https://sites.google.com/view/envitox-ku/member/alumni,8,1,0,1,,,,0,0,0,0,1,7,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0110,http://biomed.snu.ac.kr/research-faculty/faculty?mode=view&profidx=53&sc=y,http://biomed.snu.ac.kr/about/former-chairperson,7,0,0,0,,,,0,0,0,0,0,7,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0111,https://klab.snu.ac.kr/lab-photos/,https://klab.snu.ac.kr/members/,8,0,1,0,,,2.0,0,0,0,0,0,8,0,,,,,,6,0,1,0,,,2.0,0,0,0,0,0,6,0,,,,,,2026-10-08
-P0113,http://drl.snu.ac.kr,http://drl.snu.ac.kr/people,14,4,2,0,,,,1,1,1,1,0,10,2,0.0,0.0,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0116,https://ux.snu.ac.kr/blog/2025/04/02/hw.html,https://ux.snu.ac.kr/people.html,55,5,50,0,,,,0,0,0,0,0,1,55,0.0,0.0,,,,11,3,8,0,,,,0,0,0,0,0,0,11,0.0,0.0,,,,2026-10-08
-P0130,https://ge.snu.ac.kr,https://ge.snu.ac.kr/announcement/?mod=document&uid=187,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0131,http://kanglab.weebly.com,http://kanglab.weebly.com/people.html,14,5,6,1,,,,0,1,0,0,0,13,11,3.7,1.1,0.5,0.0,Research Square; Proceedings of the Royal Society B Biological Sciences; Journal of Asia-Pacific Entomology,13,5,6,1,,,,0,1,0,0,0,12,11,3.7,1.1,0.5,0.0,Research Square; Proceedings of the Royal Society B Biological Sciences; Journal of Asia-Pacific Entomology,2026-10-08
-P0132,http://bio.skku.edu/,http://bio.skku.edu/bbs/board.php?bo_table=N7,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0133,http://bio.skku.edu/,http://bio.skku.edu/bbs/board.php?bo_table=N7,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0134,http://bio.skku.edu/,http://bio.skku.edu/bbs/board.php?bo_table=N7,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0135,http://bio.skku.edu/,http://bio.skku.edu/bbs/board.php?bo_table=N7,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0136,http://bio.skku.edu/,http://bio.skku.edu/bbs/board.php?bo_table=N7,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0137,http://bio.skku.edu/,http://bio.skku.edu/bbs/board.php?bo_table=N7,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0138,http://bio.skku.edu/,http://bio.skku.edu/bbs/board.php?bo_table=N7,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0139,http://bio.skku.edu/,http://bio.skku.edu/bbs/board.php?bo_table=N7,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0140,http://bio.skku.edu/,http://bio.skku.edu/bbs/board.php?bo_table=N7,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0141,http://nam.hanyang.ac.kr/,http://nam.hanyang.ac.kr/front/graduate,16,0,0,0,,,,0,0,0,0,0,16,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0142,http://onbae.hanyang.ac.kr/,http://onbae.hanyang.ac.kr/front/laboratory/Alumni,17,4,10,0,,,,1,0,0,0,0,16,1,0.0,0.0,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0145,http://pmm.hanyang.ac.kr/,http://pmm.hanyang.ac.kr/front/laboratory/Alumni,12,0,8,0,,,,1,0,0,0,0,11,8,0.0,0.0,,,,8,0,5,0,,,,0,0,0,0,0,8,5,0.0,0.0,,,,2026-10-08
-P0147,http://pharmacognosy.hanyang.ac.kr/,http://pharmacognosy.hanyang.ac.kr/front/laboratory/alumni,17,0,0,2,,,,1,0,0,0,2,14,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0148,http://hyim.hanyang.ac.kr/,http://hyim.hanyang.ac.kr/front/laboratory/people,18,9,8,1,,,,0,0,2,0,2,14,11,4.9,0.9,2.0,0.63,Oncogene; Journal of Cellular Physiology; Therapeutic Advances in Medical Oncology,7,1,6,0,,,,0,0,0,0,2,5,7,4.0,0.4,1.8,0.71,Theranostics; Cell Biology and Toxicology; Biomedicine & Pharmacotherapy,2026-10-08
-P0151,https://medix.hanyang.ac.kr/-02-3-9-faculty#none,https://medix.hanyang.ac.kr/-05-3,9,0,0,0,,,,0,0,1,0,0,8,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0152,https://medix.hanyang.ac.kr/-02-3-9-faculty#none,https://medix.hanyang.ac.kr/-05-3,9,0,0,0,,,,0,0,1,0,0,8,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0153,https://medix.hanyang.ac.kr/-02-3-9-faculty#none,https://medix.hanyang.ac.kr/-05-3,9,0,0,0,,,,0,0,1,0,0,8,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0154,https://medix.hanyang.ac.kr/-02-3-9-faculty#none,https://medix.hanyang.ac.kr/-05-3,9,0,0,0,,,,0,0,1,0,0,8,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0155,https://medix.hanyang.ac.kr/-02-2-4-faculty#none,https://medix.hanyang.ac.kr/-05-3,9,0,0,0,,,,0,0,1,0,0,8,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0156,https://medix.hanyang.ac.kr/-02-2-12-faculty#none,https://medix.hanyang.ac.kr/-05-3,9,0,0,0,,,,0,0,1,0,0,8,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0157,https://medix.hanyang.ac.kr/-02-2-12-faculty#none,https://medix.hanyang.ac.kr/-05-3,9,0,0,0,,,,0,0,1,0,0,8,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0158,https://medix.hanyang.ac.kr/-02-2-12-faculty#none,https://medix.hanyang.ac.kr/-05-3,9,0,0,0,,,,0,0,1,0,0,8,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0159,https://biology.khu.ac.kr/biology/user/contents/view.do?menuNo=900024,https://biology.khu.ac.kr/biology/user/bbs/BMSR00044/list.do?menuNo=900014,4,0,0,0,,,,0,0,0,0,0,4,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0160,https://biology.khu.ac.kr/biology/user/contents/view.do?menuNo=900024,https://biology.khu.ac.kr/biology/user/bbs/BMSR00044/list.do?menuNo=900014,4,0,0,0,,,,0,0,0,0,0,4,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0161,https://biology.khu.ac.kr/biology/user/contents/view.do?menuNo=900024,https://biology.khu.ac.kr/biology/user/bbs/BMSR00044/list.do?menuNo=900014,4,0,0,0,,,,0,0,0,0,0,4,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0162,https://kimlab.khu.ac.kr/members/,https://kimlab.khu.ac.kr/members/,6,2,4,0,,5.0,2.0,1,0,2,0,0,3,6,6.3,1.5,1.7,0.31,Annals of the Rheumatic Diseases; Scientific Reports; Seminars in Immunopathology,3,1,2,0,,5.0,2.5,1,0,0,0,0,2,3,9.7,1.7,1.6,0.32,Annals of the Rheumatic Diseases; Seminars in Immunopathology; npj Genomic Medicine,2026-10-08
-P0163,http://www.sysbioinfo.com/group-photos,http://www.sysbioinfo.com/people,2,0,1,0,,,,0,0,0,0,0,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0164,https://hanlab.squarespace.com/our-roots,https://hanlab.squarespace.com/people,5,0,5,0,,,2.0,0,0,0,0,0,5,5,2.4,2.0,0.6,0.0,Ecology and Evolution; Journal of Evolutionary Biology; Behavioral Ecology,5,0,5,0,,,2.0,0,0,0,0,0,5,5,2.4,2.0,0.6,0.0,Ecology and Evolution; Journal of Evolutionary Biology; Behavioral Ecology,2026-10-08
-P0165,https://biology.khu.ac.kr/biology/user/contents/view.do?menuNo=900024,https://biology.khu.ac.kr/biology/user/bbs/BMSR00044/list.do?menuNo=900014,4,0,0,0,,,,0,0,0,0,0,4,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0187,https://www.khunp.com/,https://www.khunp.com/team-3-1,1,0,1,0,,,,0,0,0,0,0,1,1,4.0,2.0,0.0,0.0,Separations; ACS Omega,1,0,1,0,,,,0,0,0,0,0,1,1,4.0,2.0,0.0,0.0,Separations; ACS Omega,2026-10-08
-P0194,https://khu.elsevierpure.com/en/persons/ki-hong-jung,https://khu.elsevierpure.com/en/clippings/korea-university-guro-hospital-details-findings-in-science-deep-l/,4,0,0,0,,,,0,0,1,0,0,3,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0204,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0205,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0207,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0208,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0209,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0210,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0211,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0212,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0213,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0215,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0217,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0218,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0219,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0220,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0221,https://sites.google.com/view/jbcho/research,https://sites.google.com/view/jbcho/people/members,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0222,http://pharm.cau.ac.kr/,http://pharm.cau.ac.kr/em/em-2-2.php,5,0,0,0,,,,0,0,0,0,0,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0228,https://cauacelab.modoo.link/board/view/104/116,https://cauacelab.modoo.link/xj072ezl,3,0,3,0,,,,0,0,0,0,0,3,3,2.7,0.3,0.9,0.25,Current Stem Cell Research & Therapy,3,0,3,0,,,,0,0,0,0,0,3,3,2.7,0.3,0.9,0.25,Current Stem Cell Research & Therapy,2026-10-08
-P0235,https://www.fpclab.cau.ac.kr/home,https://www.fpclab.cau.ac.kr/people/alumni,3,0,0,0,,,,0,0,0,0,0,3,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0243,https://sites.google.com/view/pmblcau/home/lab-members,https://sites.google.com/view/pmblcau/home/lab-members,11,0,0,3,,,,1,0,1,0,6,3,0,,,,,,8,0,0,3,,,,1,0,1,0,6,0,0,,,,,,2026-10-08
-P0245,https://sites.google.com/view/cau-smb/home,https://sites.google.com/view/cau-smb/members/alumni,12,3,3,1,,,2.0,0,1,1,0,1,9,5,5.6,2.0,0.8,0.04,Journal of Microbiology and Biotechnology; Frontiers in Microbiology; Scientific Reports,4,1,3,0,,,2.0,0,0,1,0,0,3,4,7.0,2.5,0.8,0.04,Journal of Microbiology and Biotechnology; Frontiers in Microbiology; Scientific Reports,2026-10-08
-P0251,https://sites.google.com/view/kugenetics/home,https://sites.google.com/view/kugenetics/lab-members/alumni,30,2,1,1,,,,0,1,5,2,0,22,2,5.0,2.0,1.6,0.2,International Journal of Molecular Sciences; Autophagy Reports; Biochemical and Biophysical Research Communications,11,1,1,0,,,,0,0,2,1,0,8,2,5.0,2.0,1.6,0.2,International Journal of Molecular Sciences; Autophagy Reports; Biochemical and Biophysical Research Communications,2026-10-08
-P0252,https://sites.google.com/view/kugenetics/home,https://sites.google.com/view/kugenetics/lab-members/alumni,30,2,1,1,,,,0,1,5,2,0,22,2,0.0,0.0,,,,11,1,1,0,,,,0,0,2,1,0,8,2,0.0,0.0,,,,2026-10-08
-P0253,https://sites.google.com/view/kugenetics/home,https://sites.google.com/view/kugenetics/lab-members/alumni,30,2,1,1,,,,0,1,5,2,0,22,2,0.0,0.0,,,,11,1,1,0,,,,0,0,2,1,0,8,2,0.0,0.0,,,,2026-10-08
-P0254,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0255,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0256,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0257,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0258,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0259,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0260,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0261,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0263,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0264,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0265,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0266,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0267,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0268,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0269,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0270,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0271,https://sites.google.com/view/ku-vphl/%ED%99%88-home,https://sites.google.com/view/ku-vphl/졸업생-현황-almuni,30,12,15,0,,,,5,0,5,3,4,13,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0272,https://sites.google.com/site/donghak0906,https://sites.google.com/site/donghak0906/lab-members,23,4,12,0,,,1.0,0,0,2,3,1,17,16,0.8,0.3,0.8,0.0,Archives of Biochemistry and Biophysics; Molecules and Cells; Biochemical and Biophysical Research Communications,6,1,5,0,,,1.0,0,0,0,0,0,6,6,0.7,0.3,0.5,0.0,Archives of Biochemistry and Biophysics,2026-10-08
-P0273,https://sites.google.com/site/donghak0906,https://sites.google.com/site/donghak0906/lab-members,23,4,12,0,,,1.0,0,0,2,3,1,17,16,0.0,0.0,,,,6,1,5,0,,,1.0,0,0,0,0,0,6,6,0.0,0.0,,,,2026-10-08
-P0274,https://sites.google.com/site/donghak0906,https://sites.google.com/site/donghak0906/lab-members,23,4,12,0,,,1.0,0,0,2,3,1,17,16,0.1,0.0,2.2,0.0,,6,1,5,0,,,1.0,0,0,0,0,0,6,6,0.0,0.0,,,,2026-10-08
-P0275,https://sites.google.com/site/donghak0906,https://sites.google.com/site/donghak0906/lab-members,23,4,12,0,,,1.0,0,0,2,3,1,17,16,0.3,0.1,1.6,0.25,Chemico-Biological Interactions,6,1,5,0,,,1.0,0,0,0,0,0,6,6,0.2,0.0,1.7,0.0,,2026-10-08
-P0276,https://sites.google.com/site/donghak0906,https://sites.google.com/site/donghak0906/lab-members,23,4,12,0,,,1.0,0,0,2,3,1,17,0,,,,,,6,1,5,0,,,1.0,0,0,0,0,0,6,0,,,,,,2026-10-08
-P0277,https://sites.google.com/site/donghak0906,https://sites.google.com/site/donghak0906/lab-members,23,4,12,0,,,1.0,0,0,2,3,1,17,16,1.3,0.1,2.0,0.35,International Journal of Precision Engineering and Manufacturing,6,1,5,0,,,1.0,0,0,0,0,0,6,6,0.0,0.0,,,,2026-10-08
-P0278,https://sites.google.com/view/kufmsel,https://sites.google.com/view/kufmsel/lab-member,3,0,0,0,,,,0,0,0,0,0,3,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0279,https://sites.google.com/view/kufmsel,https://sites.google.com/view/kufmsel/lab-member,3,0,0,0,,,,0,0,0,0,0,3,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0280,https://sites.google.com/view/kufmsel,https://sites.google.com/view/kufmsel/lab-member,3,0,0,0,,,,0,0,0,0,0,3,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0281,https://sites.google.com/view/kufmsel,https://sites.google.com/view/kufmsel/lab-member,3,0,0,0,,,,0,0,0,0,0,3,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0282,https://sites.google.com/view/kufmsel,https://sites.google.com/view/kufmsel/lab-member,3,0,0,0,,,,0,0,0,0,0,3,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0284,https://sites.google.com/view/pharmaceutical-microbiology-la/home,https://sites.google.com/view/pharmaceutical-microbiology-la/people/alumni,13,3,0,0,,,,0,0,0,0,7,6,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0285,https://sites.google.com/view/pharmaceutical-microbiology-la/home,https://sites.google.com/view/pharmaceutical-microbiology-la/people/alumni,13,3,0,0,,,,0,0,0,0,7,6,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0286,https://sites.google.com/view/pharmaceutical-microbiology-la/home,https://sites.google.com/view/pharmaceutical-microbiology-la/people/alumni,13,3,0,0,,,,0,0,0,0,7,6,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0288,https://sites.google.com/dgu.ac.kr/molecular-biology-dongguk/home,https://sites.google.com/dgu.ac.kr/molecular-biology-dongguk/member,27,0,0,0,,,,0,0,0,0,0,27,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0289,https://sites.google.com/view/dgu-janglab/home,https://sites.google.com/view/dgu-janglab/members,9,5,2,1,,,,1,0,1,0,1,5,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0290,https://sites.google.com/view/kim-lab-neuroscience/home,https://sites.google.com/view/kim-lab-neuroscience/people,22,0,2,0,,,3.5,0,0,0,0,1,5,2,2.5,2.5,0.7,0.0,Frontiers in Neuroanatomy; Current Biology; PLoS ONE,16,0,2,0,,,3.5,0,0,0,0,1,2,2,2.5,2.5,0.7,0.0,Frontiers in Neuroanatomy; Current Biology; PLoS ONE,2026-10-08
-P0317,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0318,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0319,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0321,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0322,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0323,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0325,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0326,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0327,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0328,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0329,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0330,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0331,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0333,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0334,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0335,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0336,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0337,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0338,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0340,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0341,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0342,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0344,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0345,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0346,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0347,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0348,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0349,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0350,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0351,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0352,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0353,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0354,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0355,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0356,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0358,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0359,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0361,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0362,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0363,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0364,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0365,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0366,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0367,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0369,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0371,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0372,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0373,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0374,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0375,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0376,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0377,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0378,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0379,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0380,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0381,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0382,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0383,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0384,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0385,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0386,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0388,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0389,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0390,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0391,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0392,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0393,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0394,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0395,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0396,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0398,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0399,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0400,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0401,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0402,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0403,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0404,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0405,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0406,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0407,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0408,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0409,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0411,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0412,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0413,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0414,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0415,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0416,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0417,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0422,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0423,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0424,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0425,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0427,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0428,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0429,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0430,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0431,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0432,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0434,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0435,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0437,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0438,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0439,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0440,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0441,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0442,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0443,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0444,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0445,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0446,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0447,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0448,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0449,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0451,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0452,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0453,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0454,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0455,https://www.ewha.ac.kr/ewha/life/homepage.do,https://www.ewha.ac.kr/ewha/news/people.do,15,0,0,0,,,,0,0,0,0,0,15,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0460,https://pharmacy.dongduk.ac.kr/myboard/st_prof,https://pharmacy.dongduk.ac.kr/page/page19;https://pharmacy.dongduk.ac.kr/page/page26;https://pharmacy.dongduk.ac.kr/bbs/board5,41,0,0,0,,,,0,0,0,1,0,40,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0461,https://pharmacy.dongduk.ac.kr/myboard/st_prof,https://pharmacy.dongduk.ac.kr/page/page19;https://pharmacy.dongduk.ac.kr/page/page26;https://pharmacy.dongduk.ac.kr/bbs/board5,41,0,0,0,,,,0,0,0,1,0,40,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0462,https://pharmacy.dongduk.ac.kr/myboard/st_prof,https://pharmacy.dongduk.ac.kr/page/page19;https://pharmacy.dongduk.ac.kr/page/page26;https://pharmacy.dongduk.ac.kr/bbs/board5,41,0,0,0,,,,0,0,0,1,0,40,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0463,https://pharmacy.dongduk.ac.kr/myboard/st_prof,https://pharmacy.dongduk.ac.kr/page/page19;https://pharmacy.dongduk.ac.kr/page/page26;https://pharmacy.dongduk.ac.kr/bbs/board5,41,0,0,0,,,,0,0,0,1,0,40,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0464,https://pharmacy.dongduk.ac.kr/myboard/st_prof,https://pharmacy.dongduk.ac.kr/page/page19;https://pharmacy.dongduk.ac.kr/page/page26;https://pharmacy.dongduk.ac.kr/bbs/board5,41,0,0,0,,,,0,0,0,1,0,40,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0465,https://pharmacy.dongduk.ac.kr/myboard/st_prof,https://pharmacy.dongduk.ac.kr/page/page19;https://pharmacy.dongduk.ac.kr/page/page26;https://pharmacy.dongduk.ac.kr/bbs/board5,41,0,0,0,,,,0,0,0,1,0,40,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0466,https://pharmacy.dongduk.ac.kr/myboard/st_prof,https://pharmacy.dongduk.ac.kr/page/page19;https://pharmacy.dongduk.ac.kr/page/page26;https://pharmacy.dongduk.ac.kr/bbs/board5,41,0,0,0,,,,0,0,0,1,0,40,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0557,https://www.dkucblab.kr/home,https://www.dkucblab.kr/members,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0001,https://bmie.snu.ac.kr/lab-members/,https://bmie.snu.ac.kr/lab-members/,39,34,4,0,,,,3,6,6,0,3,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0002,https://seolab.snu.ac.kr/contact,https://seolab.snu.ac.kr/people,5,4,0,0,6.8,,,0,3,0,0,0,0,4,4.8,2.0,0.9,0.17,Microbial Cell Factories; Nature Communications; Methods in molecular biology,5,4,0,0,6.8,,,0,3,0,0,0,0,4,4.8,2.0,0.9,0.17,Microbial Cell Factories; Nature Communications; Methods in molecular biology,2026-10-08
+P0003,https://cgt.snu.ac.kr/home,https://cgt.snu.ac.kr/members,3,1,2,0,2.0,,1.0,1,0,0,0,0,0,0,,,,,,3,1,2,0,2.0,,1.0,1,0,0,0,0,0,0,,,,,,2026-10-08
+P0013,http://sites.google.com/view/immunoinformatics-lab,http://sites.google.com/view/immunoinformatics-lab/members,8,0,1,0,,,4.0,0,0,0,0,0,0,1,0.0,0.0,,,,8,0,1,0,,,4.0,0,0,0,0,0,0,1,0.0,0.0,,,,2026-10-08
+P0022,https://nanotrio.postech.ac.kr/,https://nanotrio.postech.ac.kr/nanotrio/mem/alumni.do,47,21,23,1,2.0,,,6,3,16,1,2,13,44,7.7,1.5,1.7,0.89,The Journal of Physical Chemistry C; ACS Nano; Advanced Functional Materials,13,6,7,0,2.0,,,0,0,7,0,0,4,13,3.8,1.0,1.2,0.26,Advanced Science; The Journal of Physical Chemistry C; Molecules,2026-10-08
+P0028,https://biomedical.skku.edu/eng/html/research/laboratory.asp,https://biomedical.skku.edu/eng/html/people/alumni.asp,7,0,0,0,,,,0,0,0,0,1,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0033,http://koo.snu.ac.kr/home,http://koo.snu.ac.kr/구성원,22,1,2,0,,,,0,0,0,0,0,1,1,0.0,0.0,,,,20,1,0,0,,,,0,0,0,0,0,1,1,0.0,0.0,,,,2026-10-08
+P0040,https://molpathlab.snu.ac.kr/,https://molpathlab.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90-2-2-2/;https://molpathlab.snu.ac.kr/alumni/,25,3,13,5,,,,3,3,0,0,1,0,15,0.0,0.0,,,,15,2,13,0,,,,0,0,0,0,1,0,15,0.0,0.0,,,,2026-10-08
+P0050,https://bedds.snu.ac.kr/index.html,https://bedds.snu.ac.kr/alumni.html,17,0,12,0,,,2.5,0,0,6,0,1,0,12,2.9,0.2,0.9,0.14,Archives of Pharmacal Research; Journal of Pharmaceutical Investigation; Nano Today,11,0,9,0,,,3.0,0,0,4,0,1,0,9,2.6,0.1,0.6,0.15,Nano Today,2026-10-08
+P0052,https://bama.snu.ac.kr/,https://bama.snu.ac.kr/members/alumni/,37,0,0,2,,,,3,0,5,2,1,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0065,https://www.banglab.org,https://www.banglab.org/team-3,3,1,1,0,,,,0,0,0,0,0,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0066,https://sites.google.com/view/baelab/,https://sites.google.com/view/baelab/members,3,0,1,0,,,1.9,1,0,1,0,0,0,1,0.0,0.0,,,,1,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0071,https://www.yeomlab.com/,https://www.yeomlab.com/people,4,3,0,0,,,,1,0,0,0,1,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0076,https://nfi0829snu.wixsite.com/nfisnu,https://nfi0829snu.wixsite.com/nfisnu/blank-4,1,0,1,0,,,,0,0,0,0,0,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0078,http://www.junglab.snu.ac.kr/,https://www.junglab.snu.ac.kr/members,6,3,3,0,4.0,,2.0,0,0,0,0,0,0,5,1.8,0.0,2.9,0.33,,5,2,3,0,4.0,,2.0,0,0,0,0,0,0,5,1.8,0.0,2.9,0.33,,2026-10-08
+P0084,https://apel.snu.ac.kr,https://apel.snu.ac.kr/members/alumni,19,6,11,0,,,,1,0,4,0,0,0,12,1.4,0.5,0.9,0.15,Biotechnology and Bioengineering; BioDrugs; Experimental & Molecular Medicine,4,2,2,0,,,,0,0,1,0,0,0,4,1.0,0.2,1.4,0.0,BioDrugs,2026-10-08
+P0088,http://chembio.yonsei.ac.kr,http://chembio.yonsei.ac.kr/members/former-members,68,10,7,8,,,2.0,0,1,16,0,2,0,17,0.0,0.0,,,,20,5,0,0,,,,0,0,9,0,0,0,5,0.0,0.0,,,,2026-10-08
+P0095,https://clarity.yonsei.ac.kr/,https://clarity.yonsei.ac.kr/people/alumni,42,4,20,0,4.0,,,0,0,11,1,0,0,2,6.5,2.5,0.2,0.15,Zenodo (CERN European Organization for Nuclear Research); Anesthesiology; Scientific Reports,13,1,0,0,4.0,,,0,0,2,0,0,0,1,12.0,5.0,0.1,0.17,Zenodo (CERN European Organization for Nuclear Research); Anesthesiology; Scientific Reports,2026-10-08
+P0109,https://sites.google.com/view/envitox-ku/main,https://sites.google.com/view/envitox-ku/member/alumni,3,1,0,1,,,,0,0,0,0,1,1,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0111,https://klab.snu.ac.kr/lab-photos/,https://klab.snu.ac.kr/members/,7,0,1,0,,,2.0,0,0,0,0,0,0,0,,,,,,6,0,1,0,,,2.0,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0113,http://drl.snu.ac.kr,http://drl.snu.ac.kr/people,9,4,2,0,,,,1,1,1,1,0,0,2,0.0,0.0,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0116,https://ux.snu.ac.kr/blog/2025/04/02/hw.html,https://ux.snu.ac.kr/people.html,55,5,50,0,,,,0,0,0,0,0,0,55,0.0,0.0,,,,11,3,8,0,,,,0,0,0,0,0,0,11,0.0,0.0,,,,2026-10-08
+P0131,http://kanglab.weebly.com,http://kanglab.weebly.com/people.html,13,5,6,1,,,,0,1,0,0,0,0,11,3.7,1.1,0.5,0.0,Research Square; Proceedings of the Royal Society B Biological Sciences; Journal of Asia-Pacific Entomology,13,5,6,1,,,,0,1,0,0,0,0,11,3.7,1.1,0.5,0.0,Research Square; Proceedings of the Royal Society B Biological Sciences; Journal of Asia-Pacific Entomology,2026-10-08
+P0132,https://sites.google.com/view/neurogenetics-skku/home,https://sites.google.com/view/neurogenetics-skku/people/alumni,11,6,5,0,,,,0,0,0,0,0,0,10,1.9,0.8,1.5,0.07,Molecules and Cells; PLoS ONE; FEBS Letters,4,1,3,0,,,,0,0,0,0,0,0,4,1.2,0.2,1.0,0.0,iScience,2026-10-08
+P0133,https://sites.google.com/view/haeun-skku/,https://sites.google.com/view/haeun-skku/members,5,0,4,0,,,,0,0,0,0,0,2,2,0.0,0.0,,,,2,0,2,0,,,,0,0,0,0,0,1,2,0.0,0.0,,,,2026-10-08
+P0136,https://sites.google.com/view/evomics/research,https://sites.google.com/view/evomics/people,1,0,0,0,,,,0,0,0,0,0,0,0,,,,,,1,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0142,http://onbae.hanyang.ac.kr/,http://onbae.hanyang.ac.kr/front/laboratory/Alumni,16,6,9,0,,,,1,0,0,0,0,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0145,http://pmm.hanyang.ac.kr/,http://pmm.hanyang.ac.kr/front/laboratory/Alumni,12,0,8,0,,,,1,0,0,0,0,3,8,0.0,0.0,,,,8,0,5,0,,,,0,0,0,0,0,3,5,0.0,0.0,,,,2026-10-08
+P0147,http://pharmacognosy.hanyang.ac.kr/,http://pharmacognosy.hanyang.ac.kr/front/laboratory/alumni,4,0,0,2,,,,1,0,0,0,2,1,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0148,http://hyim.hanyang.ac.kr/,http://hyim.hanyang.ac.kr/front/laboratory/people,18,9,8,1,,,,0,0,2,0,2,1,11,4.9,0.9,2.0,0.63,Oncogene; Journal of Cellular Physiology; Therapeutic Advances in Medical Oncology,7,1,6,0,,,,0,0,0,0,2,0,7,4.0,0.4,1.8,0.71,Theranostics; Cell Biology and Toxicology; Biomedicine & Pharmacotherapy,2026-10-08
+P0163,http://www.sysbioinfo.com/group-photos,http://www.sysbioinfo.com/people,1,0,1,0,,,,0,0,0,0,0,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0164,https://hanlab.squarespace.com/our-roots,https://hanlab.squarespace.com/people,5,0,5,0,,,2.0,0,0,0,0,0,3,5,2.4,2.0,0.6,0.0,Ecology and Evolution; Journal of Evolutionary Biology; Behavioral Ecology,5,0,5,0,,,2.0,0,0,0,0,0,3,5,2.4,2.0,0.6,0.0,Ecology and Evolution; Journal of Evolutionary Biology; Behavioral Ecology,2026-10-08
+P0187,https://www.khunp.com/,https://www.khunp.com/team-3-1,1,0,1,0,,,,0,0,0,0,0,0,1,4.0,2.0,0.0,0.0,Separations; ACS Omega,1,0,1,0,,,,0,0,0,0,0,0,1,4.0,2.0,0.0,0.0,Separations; ACS Omega,2026-10-08
+P0228,https://cauacelab.modoo.link/board/view/104/116,https://cauacelab.modoo.link/xj072ezl,3,0,3,0,,,,0,0,0,0,0,0,3,2.7,0.3,0.9,0.25,Current Stem Cell Research & Therapy,3,0,3,0,,,,0,0,0,0,0,0,3,2.7,0.3,0.9,0.25,Current Stem Cell Research & Therapy,2026-10-08
+P0243,https://sites.google.com/view/pmblcau/home/lab-members,https://sites.google.com/view/pmblcau/home/lab-members,8,0,0,3,,,,1,0,1,0,6,0,0,,,,,,8,0,0,3,,,,1,0,1,0,6,0,0,,,,,,2026-10-08
+P0245,https://sites.google.com/view/cau-smb/home,https://sites.google.com/view/cau-smb/members/alumni,7,3,3,1,,,2.0,0,1,1,0,1,0,5,5.6,2.0,0.8,0.04,Journal of Microbiology and Biotechnology; Frontiers in Microbiology; Scientific Reports,4,1,3,0,,,2.0,0,0,1,0,0,0,4,7.0,2.5,0.8,0.04,Journal of Microbiology and Biotechnology; Frontiers in Microbiology; Scientific Reports,2026-10-08
+P0288,https://sites.google.com/dgu.ac.kr/molecular-biology-dongguk/home,https://sites.google.com/dgu.ac.kr/molecular-biology-dongguk/member,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0289,https://sites.google.com/view/dgu-janglab/home,https://sites.google.com/view/dgu-janglab/members,9,5,2,1,,,,1,0,1,0,1,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0290,https://sites.google.com/view/kim-lab-neuroscience/home,https://sites.google.com/view/kim-lab-neuroscience/people,19,0,2,0,,,3.5,0,0,0,0,1,1,2,2.5,2.5,0.7,0.0,Frontiers in Neuroanatomy; Current Biology; PLoS ONE,16,0,2,0,,,3.5,0,0,0,0,1,1,2,2.5,2.5,0.7,0.0,Frontiers in Neuroanatomy; Current Biology; PLoS ONE,2026-10-08
+P0331,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=G8dhuvpREtIhOLkkgrjKYw%3D%3D,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=G8dhuvpREtIhOLkkgrjKYw%3D%3D,3,0,0,0,,,,0,0,0,0,0,0,0,,,,,,3,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0557,https://www.dkucblab.kr/home,https://www.dkucblab.kr/members,2,2,0,0,,,,0,0,0,0,0,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
 P0564,https://lab.researchwho.com/Hanmedchemlab/member/,https://lab.researchwho.com/Hanmedchemlab/member/,1,0,0,0,,,,1,0,0,0,0,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0648,https://sites.google.com/view/kooslaborotory,https://sites.google.com/view/kooslaborotory/members/alumni,26,1,0,0,,,,0,0,0,0,0,25,0,,,,,,7,0,0,0,,,,0,0,0,0,0,7,0,,,,,,2026-10-08
-P0649,https://sites.google.com/view/fsdlab,https://sites.google.com/view/fsdlab/member/alumni,10,0,3,0,,,,0,0,2,0,0,7,3,16.7,5.3,1.9,0.32,SSRN Electronic Journal; Advanced Science; Small,6,0,3,0,,,,0,0,2,0,0,3,3,16.7,5.3,1.9,0.32,SSRN Electronic Journal; Advanced Science; Small,2026-10-08
-P0650,https://food.seoultech.ac.kr/department/prof?togo=list&menu=2049&profidx=02553,https://food.seoultech.ac.kr/graduateschool/general;https://food.seoultech.ac.kr/graduateschool/industry;https://food.seoultech.ac.kr/community/alumni,34,0,0,0,,,,0,0,0,0,0,34,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0651,https://food.seoultech.ac.kr/department/prof?togo=list&menu=2049&profidx=02570,https://food.seoultech.ac.kr/graduateschool/general;https://food.seoultech.ac.kr/graduateschool/industry;https://food.seoultech.ac.kr/community/alumni,34,0,0,0,,,,0,0,0,0,0,34,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0654,https://food.seoultech.ac.kr/department/prof?togo=list&menu=2049&profidx=02750,https://food.seoultech.ac.kr/graduateschool/general;https://food.seoultech.ac.kr/graduateschool/industry;https://food.seoultech.ac.kr/community/alumni,34,0,0,0,,,,0,0,0,0,0,34,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0656,https://sites.google.com/view/hatcherlab/,https://sites.google.com/view/hatcherlab/members,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0657,https://sites.google.com/view/drewkimlab,https://sites.google.com/view/drewkimlab/members/alumni,21,7,2,0,3.0,,3.5,0,0,0,0,0,21,9,6.1,2.0,0.7,0.58,Biomaterials Research; Materials Today Bio; International Journal of Pharmaceutics,16,7,2,0,3.0,,3.5,0,0,0,0,0,16,9,6.1,2.0,0.7,0.58,Biomaterials Research; Materials Today Bio; International Journal of Pharmaceutics,2026-10-08
-P0664,https://sites.google.com/view/seoultech-raiselab/people,https://sites.google.com/view/seoultech-raiselab/people/alumni,3,0,0,0,,,,0,0,0,0,0,3,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0665,https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679,https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679,11,0,0,0,,,,10,0,0,0,1,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0666,https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679,https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679,11,0,0,0,,,,10,0,0,0,1,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0667,https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679,https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679,11,0,0,0,,,,10,0,0,0,1,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0668,https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679,https://home.knu.ac.kr/HOME/ihbr/sub.htm?nav_code=ihb1656463679,11,0,0,0,,,,10,0,0,0,1,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0674,https://sites.google.com/view/knu-lme/,https://sites.google.com/view/knu-lme/people,8,0,5,0,,,,0,0,0,0,0,8,3,1.3,0.3,1.7,0.0,International Journal of Molecular Sciences,3,0,3,0,,,,0,0,0,0,0,3,3,1.3,0.3,1.7,0.0,International Journal of Molecular Sciences,2026-10-08
-P0678,https://sites.google.com/view/knu-leb,https://sites.google.com/view/knu-leb/people,8,0,3,0,,,,0,0,0,0,0,8,3,0.3,0.0,0.0,0.0,,4,0,3,0,,,,0,0,0,0,0,4,3,0.3,0.0,0.0,0.0,,2026-10-08
-P0680,https://sites.google.com/view/knufbr/,https://sites.google.com/view/knufbr/members/alumni,8,0,0,0,,,,0,0,0,0,0,8,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0681,https://sites.google.com/site/kimlabknu/website-builder,https://sites.google.com/site/kimlabknu/website-builder/events,57,3,7,2,,,1.0,1,2,4,0,8,42,7,1.3,0.7,0.8,0.11,KSBB Journal; Journal of Microbiology and Biotechnology; Journal of Industrial Microbiology & Biotechnology,6,2,0,0,,,,1,0,1,0,1,3,2,4.5,2.5,0.8,0.11,KSBB Journal; Journal of Microbiology and Biotechnology; Journal of Industrial Microbiology & Biotechnology,2026-10-08
-P0684,https://skjung05.wixsite.com/knu-lab/lab-members,https://skjung05.wixsite.com/knu-lab/alumni,26,0,0,0,,,,0,0,5,0,0,21,0,,,,,,19,0,0,0,,,,0,0,4,0,0,15,0,,,,,,2026-10-08
-P0687,https://sites.google.com/view/knufbr/,https://sites.google.com/view/knufbr/members/alumni,8,0,0,0,,,,0,0,0,0,0,8,0,,,,,,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0689,https://yklab.snu.ac.kr,https://yklab.snu.ac.kr/people/former-members,9,0,0,0,,,,0,0,1,0,1,7,0,,,,,,5,0,0,0,,,,0,0,1,0,1,3,0,,,,,,2026-10-08
-P0692,https://yklab.snu.ac.kr,https://yklab.snu.ac.kr/people/former-members,9,0,0,0,,,,0,0,1,0,1,7,0,,,,,,5,0,0,0,,,,0,0,1,0,1,3,0,,,,,,2026-10-08
-P0693,https://klit.snu.ac.kr/,https://klit.snu.ac.kr/members/,9,7,1,1,5.0,,2.0,0,4,1,0,2,1,8,3.8,1.0,2.0,0.53,Journal for ImmunoTherapy of Cancer; Nature Medicine; Alzheimer s & Dementia,8,7,1,0,5.0,,2.0,0,4,1,0,1,1,8,3.8,1.0,2.0,0.53,Journal for ImmunoTherapy of Cancer; Nature Medicine; Alzheimer s & Dementia,2026-10-08
-P0696,https://sparklab.snu.ac.kr/,https://sparklab.snu.ac.kr/,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0697,https://yklab.snu.ac.kr,https://yklab.snu.ac.kr/people/former-members,9,0,0,0,,,,0,0,1,0,1,7,0,,,,,,5,0,0,0,,,,0,0,1,0,1,3,0,,,,,,2026-10-08
-P0699,https://yklab.snu.ac.kr,https://yklab.snu.ac.kr/people/former-members,9,0,0,0,,,,0,0,1,0,1,7,0,,,,,,5,0,0,0,,,,0,0,1,0,1,3,0,,,,,,2026-10-08
-P0700,https://yklab.snu.ac.kr,https://yklab.snu.ac.kr/people/former-members,9,0,0,0,,,,0,0,1,0,1,7,0,,,,,,5,0,0,0,,,,0,0,1,0,1,3,0,,,,,,2026-10-08
-P0703,https://skleelab.wordpress.com/2018/03/28/the-journey-begins/,https://skleelab.wordpress.com/members/,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0704,https://yklab.snu.ac.kr,https://yklab.snu.ac.kr/people/former-members,9,0,0,0,,,,0,0,1,0,1,7,0,,,,,,5,0,0,0,,,,0,0,1,0,1,3,0,,,,,,2026-10-08
-P0706,https://yklab.snu.ac.kr,https://yklab.snu.ac.kr/people/former-members,9,0,0,0,,,,0,0,1,0,1,7,0,,,,,,5,0,0,0,,,,0,0,1,0,1,3,0,,,,,,2026-10-08
-P0708,https://yklab.snu.ac.kr,https://yklab.snu.ac.kr/people/former-members,9,0,0,0,,,,0,0,1,0,1,7,0,,,,,,5,0,0,0,,,,0,0,1,0,1,3,0,,,,,,2026-10-08
-P0709,https://yklab.snu.ac.kr,https://yklab.snu.ac.kr/people/former-members,9,0,0,0,,,,0,0,1,0,1,7,0,,,,,,5,0,0,0,,,,0,0,1,0,1,3,0,,,,,,2026-10-08
-P0713,https://immprove.snu.ac.kr/,https://immprove.snu.ac.kr/alumni/,11,6,0,5,5.5,,,5,4,0,0,0,2,6,9.7,3.0,1.5,0.51,Immune Network; Proceedings of the National Academy of Sciences; Nature Immunology,7,4,0,3,6.0,,,3,4,0,0,0,0,4,10.5,2.8,1.4,0.42,Proceedings of the National Academy of Sciences; Cell Reports; Oncotarget,2026-10-08
-P0716,https://www.schong17.com/,https://www.schong17.com/alumni,8,0,0,0,,,,0,0,0,0,0,8,0,,,,,,3,0,0,0,,,,0,0,0,0,0,3,0,,,,,,2026-10-08
-P0719,https://eecat.snu.ac.kr/,https://eecat.snu.ac.kr/members/alumni/index.jsp,44,34,7,0,,,,4,0,9,0,4,27,41,9.1,3.0,1.3,0.47,Catalysis Today; Applied Catalysis A General; Applied Catalysis B: Environmental,26,23,2,0,,,,2,0,7,0,1,16,25,9.4,2.7,1.3,0.36,Applied Catalysis A General; Catalysis Today; Chemical Engineering Journal,2026-10-08
-P0726,https://fluid.snu.ac.kr/research/self-driving-lab/,https://fluid.snu.ac.kr/people/,26,0,1,0,,,,0,0,17,0,2,6,1,12.0,3.0,2.7,0.33,Journal of Applied Physics; Microscopy and Microanalysis; The Journal of Physical Chemistry C,15,0,0,0,,,,0,0,11,0,2,2,0,,,,,,2026-10-08
-P0738,https://tcsm.snu.ac.kr/,https://tcsm.snu.ac.kr/alumni/,77,1,0,3,,,,5,3,49,0,3,17,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0740,http://pcl.snu.ac.kr/bbs/board.php?tbl=candidate1,http://pcl.snu.ac.kr/bbs/board.php?tbl=alumni,4,0,0,0,,,,1,0,0,0,0,3,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0742,https://micc.snu.ac.kr/groupmeeting-2/,https://micc.snu.ac.kr/members/,32,23,6,0,,,,0,0,0,0,0,32,29,2.4,0.4,1.5,0.52,Energy & Environmental Science; Journal of Power Sources; ChemRxiv,30,23,6,0,,,,0,0,0,0,0,30,29,2.4,0.4,1.5,0.52,Energy & Environmental Science; Journal of Power Sources; ChemRxiv,2026-10-08
-P0743,https://inchung.snu.ac.kr/,https://inchung.snu.ac.kr/alumni/,9,0,0,1,,,,0,0,3,0,0,6,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0744,https://mest.snu.ac.kr/,https://mest.snu.ac.kr/alumni/,70,10,0,11,7.0,,,9,4,20,0,3,24,4,18.2,4.8,1.9,0.32,Figshare; Journal of the American Chemical Society; Angewandte Chemie International Edition,19,4,0,0,7.0,,,3,1,8,0,0,6,4,18.2,4.8,1.9,0.32,Figshare; Journal of the American Chemical Society; Angewandte Chemie International Edition,2026-10-08
-P0746,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub6_1,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,2,0,0,0,,,,0,0,0,0,0,2,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0749,http://biosci.snu.ac.kr/kanglab/aboutus,http://biosci.snu.ac.kr/kanglab/people/former,9,4,2,0,,,,0,0,0,0,4,5,2,0.5,0.5,1.9,0.0,Animal Cells and Systems,2,1,0,0,,,,0,0,0,0,0,2,1,1.0,1.0,1.9,0.0,Animal Cells and Systems,2026-10-08
-P0750,http://biosci.snu.ac.kr,http://biosci.snu.ac.kr/about/alumni,10,0,0,0,,,,5,0,0,0,1,4,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0751,http://biosci.snu.ac.kr,http://biosci.snu.ac.kr/about/alumni,10,0,0,0,,,,5,0,0,0,1,4,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0752,https://narrykim.org/,https://narrykim.org/en/members/,18,11,0,6,7.0,,,1,14,1,0,1,1,11,2.1,0.7,4.1,0.55,Proceedings of the International Display Workshops; Nature; Frontiers in Immunology,10,8,0,2,7.0,,,1,8,0,0,1,0,8,2.9,1.0,4.1,0.55,Proceedings of the International Display Workshops; Nature; Frontiers in Immunology,2026-10-08
-P0753,http://biosci.snu.ac.kr,http://biosci.snu.ac.kr/about/alumni,10,0,0,0,,,,5,0,0,0,1,4,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0754,http://biosci.snu.ac.kr,http://biosci.snu.ac.kr/about/alumni,10,0,0,0,,,,5,0,0,0,1,4,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0755,https://www.mrmlab.org/members,https://www.mrmlab.org/members,7,2,0,0,,,,0,0,1,0,1,5,2,1.0,0.0,1.0,0.0,,4,2,0,0,,,,0,0,0,0,1,3,2,1.0,0.0,1.0,0.0,,2026-10-08
-P0756,http://biosci.snu.ac.kr/joykim/en,http://biosci.snu.ac.kr/joykim/en/people/former,34,6,10,0,,,,0,0,0,0,0,34,0,,,,,,2,1,1,0,,,,0,0,0,0,0,2,0,,,,,,2026-10-08
-P0757,https://cocila.net/centeruniv/,https://cocila.net/people-2/alumni-2/,10,0,4,0,,,,0,0,0,0,0,10,0,,,,,,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,2026-10-08
-P0758,http://snucryoem.creatorlink.net/index/view/2225370,http://snucryoem.creatorlink.net/,51,17,1,1,,,,3,0,1,1,1,45,2,0.0,0.0,,,,6,1,0,0,,,,0,0,0,0,1,5,1,0.0,0.0,,,,2026-10-08
-P0759,http://biosci.snu.ac.kr/ysnoh/board/lab,http://biosci.snu.ac.kr/ysnoh/people/former,28,5,3,6,,,,0,0,0,0,17,11,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0760,http://www.karkilab.com/bbs/board.php?bo_table=sub4_1,http://www.karkilab.com/bbs/board.php?bo_table=sub3_3,6,0,0,0,,,,2,0,0,0,0,4,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0761,https://steineggerlab.com/en,https://steineggerlab.com/en/people/,1,0,0,0,,,,0,0,0,0,0,1,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0763,http://biosci.snu.ac.kr,http://biosci.snu.ac.kr/about/alumni,10,0,0,0,,,,5,0,0,0,1,4,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0764,http://biosci.snu.ac.kr,http://biosci.snu.ac.kr/about/alumni,10,0,0,0,,,,5,0,0,0,1,4,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
-P0765,http://biosci.snu.ac.kr,http://biosci.snu.ac.kr/about/alumni,10,0,0,0,,,,5,0,0,0,1,4,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0648,https://sites.google.com/view/kooslaborotory,https://sites.google.com/view/kooslaborotory/members/alumni,25,13,0,0,,,,0,0,0,0,0,4,3,1.3,0.7,1.7,0.5,Journal of Industrial and Engineering Chemistry; Biotechnology Journal,7,2,0,0,,,,0,0,0,0,0,1,2,1.5,0.5,1.7,0.5,Journal of Industrial and Engineering Chemistry,2026-10-08
+P0649,https://sites.google.com/view/fsdlab,https://sites.google.com/view/fsdlab/member/alumni,6,0,3,0,,,,0,0,2,0,0,0,3,16.7,5.3,1.9,0.32,SSRN Electronic Journal; Advanced Science; Small,6,0,3,0,,,,0,0,2,0,0,0,3,16.7,5.3,1.9,0.32,SSRN Electronic Journal; Advanced Science; Small,2026-10-08
+P0657,https://sites.google.com/view/drewkimlab,https://sites.google.com/view/drewkimlab/members/alumni,17,7,2,0,3.0,,3.5,0,0,0,0,0,0,9,6.1,2.0,0.7,0.58,Biomaterials Research; Materials Today Bio; International Journal of Pharmaceutics,16,7,2,0,3.0,,3.5,0,0,0,0,0,0,9,6.1,2.0,0.7,0.58,Biomaterials Research; Materials Today Bio; International Journal of Pharmaceutics,2026-10-08
+P0674,https://sites.google.com/view/knu-lme/,https://sites.google.com/view/knu-lme/people,5,0,5,0,,,,0,0,0,0,0,0,3,1.3,0.3,1.7,0.0,International Journal of Molecular Sciences,3,0,3,0,,,,0,0,0,0,0,0,3,1.3,0.3,1.7,0.0,International Journal of Molecular Sciences,2026-10-08
+P0678,https://sites.google.com/view/knu-leb,https://sites.google.com/view/knu-leb/people,4,0,3,0,,,,0,0,0,0,0,0,3,0.3,0.0,0.0,0.0,,4,0,3,0,,,,0,0,0,0,0,0,3,0.3,0.0,0.0,0.0,,2026-10-08
+P0681,https://sites.google.com/site/kimlabknu/website-builder,https://sites.google.com/site/kimlabknu/website-builder/events,21,3,7,2,,,1.0,1,2,4,0,8,0,7,1.3,0.7,0.8,0.11,KSBB Journal; Journal of Microbiology and Biotechnology; Journal of Industrial Microbiology & Biotechnology,6,2,0,0,,,,1,0,1,0,1,0,2,4.5,2.5,0.8,0.11,KSBB Journal; Journal of Microbiology and Biotechnology; Journal of Industrial Microbiology & Biotechnology,2026-10-08
+P0684,https://skjung05.wixsite.com/knu-lab/lab-members,https://skjung05.wixsite.com/knu-lab/alumni,21,0,0,0,,,,0,0,5,0,0,0,0,,,,,,19,0,0,0,,,,0,0,4,0,0,0,0,,,,,,2026-10-08
+P0693,https://klit.snu.ac.kr/,https://klit.snu.ac.kr/members/,9,7,1,1,5.0,,2.0,0,4,1,0,2,0,8,3.8,1.0,2.0,0.53,Journal for ImmunoTherapy of Cancer; Nature Medicine; Alzheimer s & Dementia,8,7,1,0,5.0,,2.0,0,4,1,0,1,0,8,3.8,1.0,2.0,0.53,Journal for ImmunoTherapy of Cancer; Nature Medicine; Alzheimer s & Dementia,2026-10-08
+P0713,https://immprove.snu.ac.kr/,https://immprove.snu.ac.kr/alumni/,11,6,0,5,5.5,,,5,3,1,0,0,1,6,9.7,3.0,1.5,0.51,Immune Network; Proceedings of the National Academy of Sciences; Nature Immunology,7,4,0,3,6.0,,,3,3,1,0,0,0,4,10.5,2.8,1.4,0.42,Proceedings of the National Academy of Sciences; Cell Reports; Oncotarget,2026-10-08
+P0716,https://www.schong17.com/,https://www.schong17.com/alumni,8,0,8,0,,,1.9,0,0,0,0,0,0,4,1.5,0.5,2.4,0.4,Organic & Biomolecular Chemistry; The Journal of Organic Chemistry,3,0,3,0,,,1.9,0,0,0,0,0,0,3,1.3,0.3,1.6,0.25,The Journal of Organic Chemistry,2026-10-08
+P0719,https://eecat.snu.ac.kr/,https://eecat.snu.ac.kr/members/alumni/index.jsp,44,34,7,0,,,,4,0,9,0,4,3,41,9.1,3.0,1.3,0.47,Catalysis Today; Applied Catalysis A General; Applied Catalysis B: Environmental,26,23,2,0,,,,2,0,7,0,1,1,25,9.4,2.7,1.3,0.36,Applied Catalysis A General; Catalysis Today; Chemical Engineering Journal,2026-10-08
+P0726,https://fluid.snu.ac.kr/research/self-driving-lab/,https://fluid.snu.ac.kr/people/,26,0,1,0,,,,0,0,17,0,2,0,1,12.0,3.0,2.7,0.33,Journal of Applied Physics; Microscopy and Microanalysis; The Journal of Physical Chemistry C,15,0,0,0,,,,0,0,11,0,2,0,0,,,,,,2026-10-08
+P0738,https://tcsm.snu.ac.kr/,https://tcsm.snu.ac.kr/alumni/,61,1,0,3,,,,5,3,49,0,3,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0742,https://micc.snu.ac.kr/groupmeeting-2/,https://micc.snu.ac.kr/members/,30,23,6,0,,,,0,0,0,0,0,0,29,2.4,0.4,1.5,0.52,Energy & Environmental Science; Journal of Power Sources; ChemRxiv,30,23,6,0,,,,0,0,0,0,0,0,29,2.4,0.4,1.5,0.52,Energy & Environmental Science; Journal of Power Sources; ChemRxiv,2026-10-08
+P0743,https://inchung.snu.ac.kr/,https://inchung.snu.ac.kr/alumni/,4,0,0,1,,,,0,0,3,0,0,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0744,https://mest.snu.ac.kr/,https://mest.snu.ac.kr/alumni/,67,10,0,11,7.0,,,9,4,20,0,3,5,4,18.2,4.8,1.9,0.32,Figshare; Journal of the American Chemical Society; Angewandte Chemie International Edition,19,4,0,0,7.0,,,3,1,8,0,0,2,4,18.2,4.8,1.9,0.32,Figshare; Journal of the American Chemical Society; Angewandte Chemie International Edition,2026-10-08
+P0749,http://biosci.snu.ac.kr/kanglab/aboutus,http://biosci.snu.ac.kr/kanglab/people/former,9,4,2,0,,,,0,0,0,0,4,1,2,0.5,0.5,1.9,0.0,Animal Cells and Systems,2,1,0,0,,,,0,0,0,0,0,1,1,1.0,1.0,1.9,0.0,Animal Cells and Systems,2026-10-08
+P0752,https://narrykim.org/,https://narrykim.org/en/members/,18,11,0,6,7.0,,,1,14,1,0,1,0,11,2.1,0.7,4.1,0.55,Proceedings of the International Display Workshops; Nature; Frontiers in Immunology,10,8,0,2,7.0,,,1,8,0,0,1,0,8,2.9,1.0,4.1,0.55,Proceedings of the International Display Workshops; Nature; Frontiers in Immunology,2026-10-08
+P0755,https://www.mrmlab.org/members,https://www.mrmlab.org/members,7,2,0,0,,,,0,0,1,0,1,0,2,1.0,0.0,1.0,0.0,,4,2,0,0,,,,0,0,0,0,1,0,2,1.0,0.0,1.0,0.0,,2026-10-08
+P0756,http://biosci.snu.ac.kr/joykim/en,http://biosci.snu.ac.kr/joykim/en/people/former,16,6,10,0,,,,0,0,0,0,0,0,0,,,,,,2,1,1,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0757,https://cocila.net/centeruniv/,https://cocila.net/people-2/alumni-2/,5,0,4,0,,,,0,0,0,0,0,0,0,,,,,,1,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08
+P0759,http://biosci.snu.ac.kr/ysnoh/board/lab,http://biosci.snu.ac.kr/ysnoh/people/former,27,5,3,6,,,,0,0,0,0,17,0,0,,,,,,0,0,0,0,,,,0,0,0,0,0,0,0,,,,,,2026-10-08

@@ -53,7 +53,7 @@ SUMMARY_PATH = OUTPUT_DIR / "lab_alumni_summary.csv"
 PEOPLE_DIR = OUTPUT_DIR / "alumni"
 SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at", "parser"]
 # Bump when the parser changes: labs read by an older parser are read again.
-PARSER_VERSION = "2"
+PARSER_VERSION = "3"
 MANUAL_COLUMNS = ["professor_id", "name", "lab_url", "alumni_url", "memo"]
 
 LAB_LINK_WORDS = ["연구실 홈페이지", "연구실홈페이지", "홈페이지", "연구실", "lab homepage", "lab website", "homepage",
@@ -62,7 +62,7 @@ NOT_LAB_HOSTS = ["facebook.", "youtube.", "instagram.", "twitter.", "x.com", "li
                  "orcid.org", "pubmed", "ncbi.nlm", "researchgate", "scopus.", "webofscience", "naver.",
                  "kakao", "blog.", "github.com", "openalex.org", "doi.org", "google.com/maps"]
 ALUMNI_WORDS = ["alumni", "alumnus", "alumnae", "former member", "past member", "graduates", "graduated",
-                "졸업생", "졸업 연구원", "졸업연구원", "동문", "former student", "former researcher", "former lab"]
+                "졸업생", "졸업 연구원", "졸업연구원", "former student", "former researcher", "former lab"]
 # Department news / boards / chair lists are not a lab's alumni.
 NOT_ALUMNI_URL = re.compile(r"news|notice|board|bbs|articleNo|chair|dean|학과장|공지|게시판", re.I)
 # A short line naming a degree group: names under it share that degree.
@@ -81,17 +81,23 @@ DEGREES = [  # (kind, pattern); order matters: integrated before PhD/MS.
 TYPICAL_YEARS = {"phd": (2.0, 9.0), "integrated": (3.0, 10.0), "ms": (1.0, 4.0), "postdoc": (0.5, 8.0)}
 CAREERS = [  # (kind, pattern); first match wins.
     ("postdoc", r"post[-\s]?doc|박사\s*후|research\s+fellow|박사후"),
-    ("faculty", r"professor|교수|lecturer|faculty|강사"),
+    ("faculty", r"professor|\bprof\b\.?|교수|lecturer|faculty|강사"),
     ("hospital", r"hospital|병원|medical\s+center|의료원|resident|레지던트|전공의|clinic|의원"),
-    ("industry", r"\binc\b|\bco\.|\bltd\b|\bcorp|주식회사|\(주\)|제약|pharm|biologics|bioscience|biotech|samsung|삼성|\blg\b|"
-                 r"\bsk\b|celltrion|셀트리온|유한|한미|녹십자|종근당|대웅|\bcj\b|amore|아모레|genentech|novartis|pfizer|"
-                 r"roche|merck|startup|스타트업|company|회사|기업|scientist|engineer|patent|특허|변리사|consult|컨설팅"),
+    ("industry", r"\binc\b|\bco\.|\bltd\b|\bcorp|주식회사|\(주\)|제약|약품|samsung|삼성|\blg\b|"
+                 r"\bsk\b|celltrion|셀트리온|유한|한미|녹십자|종근당|대웅|\bcj\b|amore|아모레|콜마|kolmar|genentech|novartis|"
+                 r"pfizer|roche|merck|astrazeneca|startup|스타트업|회사|기업|화학|전자|헬스케어|바이오로직스|바이오사이언스|"
+                 r"특허|변리사|consult|컨설팅"),
+    # Generic words count as industry only away from schools and institutes
+    # ("Program in Department of Pharmaceutics" is not a company).
+    ("industry_weak", r"pharm|biologics|bioscience|biotech|company|scientist|engineer|patent"),
     ("institute", r"kist|kribb|생명공학연구원|ibs|기초과학연구원|institute|연구원|연구소|nih|nci|max\s+planck|"
                   r"식약처|mfds|질병관리|kdca|government|정부|공무원"),
 ]
 # Table headers and degree words that look like Korean names (박사 = 박 + 사).
 NOT_NAMES = {"이름", "성명", "학위", "기간", "현재", "현직", "박사", "석사", "학사", "소속", "졸업", "입학", "비고", "과정",
-             "연구원", "교수", "진로", "근무처", "연도", "년도", "분야", "직위", "직책", "구분", "졸업생", "동문", "학위과정"}
+             "연구원", "교수", "진로", "근무처", "연도", "년도", "분야", "직위", "직책", "구분", "졸업생", "동문", "학위과정",
+             "사이트맵", "홈페이지", "로그인", "연구실", "교수소개", "연구분야", "오시는길", "공지사항", "갤러리", "바로가기",
+             "상세보기", "메일", "주소", "전화", "팩스", "소개", "자료실", "후기", "현황"}
 POSITION_MARKERS = r"(?:current(?:ly)?(?:\s+position)?|present(?:\s+position)?|now|현재|현직|현\s|→|->|=>|▶)\s*[:：]?\s*"
 YEAR_RE = re.compile(r"((?:19[89]|20[0-4])\d)(?:\s*[./]\s*(\d{1,2}))?")
 EN_NAME_RE = re.compile(r"^([A-Z][a-z]+(?:[-\s][A-Z]?[a-z]+)?(?:[\s,]+[A-Z][a-z]+(?:[-\s][A-Z]?[a-z]+)?){1,2})\b")
@@ -124,8 +130,13 @@ def career_of(position: str) -> str:
     low = position.casefold()
     if not low.strip():
         return ""
+    academic = re.search(r"department|dept\.?|program|school|college|universit|institute|대학|학과|과정|연구원|연구소", low)
     for kind, pattern in CAREERS:
         if re.search(pattern, low):
+            if kind == "industry_weak":
+                if academic:
+                    continue
+                kind = "industry"
             return kind
     return "other"
 
@@ -138,7 +149,8 @@ def years_of(text: str, degree: str = "") -> tuple[int | None, int | None, float
         return None, None, None
     if len(found) == 1:
         return None, found[0][0], None
-    (y1, m1), (y2, m2) = min(found), max(found)
+    key = lambda ym: (ym[0], ym[1] or 0)
+    (y1, m1), (y2, m2) = min(found, key=key), max(found, key=key)
     if y1 == y2:
         return None, y2, None
     duration = (y2 + ((m2 or 8) - 1) / 12) - (y1 + ((m1 or 3) - 1) / 12) if (m1 or m2) else float(y2 - y1)
@@ -149,7 +161,11 @@ def years_of(text: str, degree: str = "") -> tuple[int | None, int | None, float
 def _name_in(line: str) -> tuple[str, str]:
     """(korean, english) name at the start of a line ('', '' if none)."""
     line = line.strip(" -•·*|:")
-    m = re.match(r"^([가-힣]{2,4})(?=$|[\s(,/·|:\-])", line)
+    # Sentences and menus are not name lines ("최근에 해외 유학 ...", "사이트맵").
+    sentence = len(line) > 90 or re.search(r"(다|요|니다)[.!]?$", line)
+    m = None if sentence else re.match(r"^([가-힣]{2,4})(?=$|[\s(,/·|:\-])", line)
+    if m and re.search(r"[에는을를의로도서께]$", m.group(1)):
+        m = None
     if m and m.group(1) not in NOT_NAMES and not degree_of(m.group(1)) and is_korean_person_name(m.group(1)):
         rest = line[m.end():]
         en = re.match(r"^\s*\(?\s*([A-Z][A-Za-z\-]+(?:[\s,]+[A-Z][A-Za-z\-]+){1,2})", rest)
@@ -169,6 +185,10 @@ def _section_lines(soup: BeautifulSoup, whole_page: bool) -> list[str]:
         tag.decompose()
     lines = [_clean(x) for x in soup.get_text("\n").split("\n")]
     lines = [x for x in lines if x]
+    for i, line in enumerate(lines):
+        if re.search(r"copyright|all rights reserved|©", line, flags=re.I):
+            lines = lines[:i]
+            break
     if whole_page:
         return lines
     for i, line in enumerate(lines):
@@ -211,12 +231,15 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
         else:
             position = " | ".join(e["lines"][1:]) if len(e["lines"]) > 1 else text
             position = YEAR_RE.sub(" ", position)
+            # Keep "postdoc" whole before degree words go ("박사후연구원" is not "후연구원").
+            position = re.sub(dict(DEGREES)["postdoc"], " postdoc ", position, flags=re.I)
             for _, pattern in DEGREES[:1] + DEGREES[2:]:
                 position = re.sub(pattern, " ", position, flags=re.I)
+        position = re.sub(r"\S+@\S+|https?://\S+", " ", position)
         position = _clean(re.sub(r"[|()\[\]~\-–,:]+", " ", position))[:160]
         career = career_of(position)
-        if career == "other" and not marker:
-            career = ""     # leftover words of the entry, not a stated position
+        if not marker and (career == "other" or (career == "postdoc" and degree == "postdoc")):
+            career = ""     # leftover words of the entry / the lab role itself, not a stated position
         # A name alone is not an alumnus: nav links, captions, the PI's name.
         if not (degree or end or career):
             continue

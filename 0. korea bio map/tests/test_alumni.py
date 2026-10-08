@@ -153,3 +153,19 @@ def test_department_pages_are_not_alumni_links():
     lab = """<a href="/about/former-chairperson">Former Chairperson</a><a href="/news.do?articleNo=1">졸업생 소식</a>
     <a href="/people/alumni">Alumni</a>"""
     assert alumni_links(lab, "http://dept.ac.kr/")[0] == ["http://dept.ac.kr/people/alumni"]
+
+
+def test_v3_fixes():
+    assert years_of("2019.03 - 2020 - 2023.02", "phd")[0] == 2019          # mixed month/no month: no crash
+    assert career_of("Post doctoral Researcher at Harvard") == "postdoc"
+    assert career_of("Res. Prof. Seoul") == "faculty"
+    assert career_of("Program in Department of Pharmaceutical Sciences") == "other"
+    assert career_of("Senior Scientist, Genentech") == "industry"
+    assert career_of("한국콜마 연구원") == "industry"
+    prose = "<h2>Alumni</h2><p>최근에 해외 유학 학생 수는 점차 줄어들고 있는 실정이다.</p><p>해외에 유학 을 하게 된다.</p>"
+    assert parse_alumni(prose) == []
+    table = "<table><tr><td>김민수</td><td>박사후연구원</td><td>2015-2018</td></tr></table>"
+    p = parse_alumni(table)[0]
+    assert p["degree"] == "postdoc" and p["career"] == "unknown"
+    footer = "<p>이지은 석사 2017-2019 현재 KIST</p><div>Copyright Lab</div><p>시신기증 총동문회 2020</p>"
+    assert [x["name_ko"] for x in parse_alumni(footer)] == ["이지은"]

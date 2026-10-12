@@ -4,10 +4,10 @@ name: Korea Bio Map Daily
 # This file must live on main; it just starts the collector on the
 # Korea Bio Map branch, where all pipeline code and data live.
 on:
-  # Paused: daily collection is off for now. To turn it back on, restore
-  #   schedule:
-  #     - cron: "17 0 * * *"
-  # (00:17 UTC = 09:17 KST). Manual "Run workflow" still works.
+  schedule:
+    # 00:17 UTC = 09:17 KST. Not on the hour: GitHub delays top-of-the-hour
+    # schedules most.
+    - cron: "17 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -22,8 +22,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # A late schedule after a manual run would start with the OpenAlex
-          # budget already spent: one collection per UTC day is enough.
+          # One refresh per UTC day is enough (a late schedule after a manual run is skipped).
           today=$(date -u +%F)
           count=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow korea-bio-map.yml \
             --branch about-bio-v0.1 --limit 20 --json createdAt,conclusion \
@@ -31,8 +30,9 @@ jobs:
           echo "Collector runs today: $count"
           echo "count=$count" >> "$GITHUB_OUTPUT"
 
-      - name: Start galaxy-full on about-bio-v0.1
-        # Manual dispatch always runs; the schedule skips a day already collected.
+      - name: Refresh lab alumni data on about-bio-v0.1
+        # Daily: re-read the alumni pages already found (degree years, careers,
+        # papers). No new labs and no full galaxy collection; those run by hand.
         if: github.event_name == 'workflow_dispatch' || steps.today.outputs.count == '0'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -41,4 +41,4 @@ jobs:
             --repo "$GITHUB_REPOSITORY" \
             --ref about-bio-v0.1 \
             -f target_branch=about-bio-v0.1 \
-            -f mode=galaxy-full
+            -f mode=alumni-refresh

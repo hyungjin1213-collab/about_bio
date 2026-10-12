@@ -30,7 +30,7 @@ import time
 from collections import Counter
 from datetime import date, datetime, timezone
 from urllib import robotparser
-from urllib.parse import urljoin, urlparse
+from urllib.parse import unquote, urljoin, urlparse
 
 import pandas as pd
 import requests
@@ -372,6 +372,25 @@ def orcid_urls(orcid: str, session: requests.Session) -> list[str]:
     return [u for u in urls if u.startswith("http") and not any(h in u.casefold() for h in NOT_LAB_HOSTS)][:2]
 
 
+def reread_alumni(fetch: Fetcher, lab_url: str, alumni_urls: str) -> tuple[str, list[str], list[dict]]:
+    """Read the alumni pages already found for a lab again (no search for new pages)."""
+    people, used = [], []
+    for url in filter(None, alumni_urls.split(";")):
+        html = fetch.html(url)
+        if not html:
+            continue
+        path = unquote(urlparse(url).path).casefold()
+        # A dedicated alumni page is read whole; a lab or members page only in its alumni section.
+        whole = url != lab_url and any(w in path for w in ALUMNI_WORDS)
+        found = parse_alumni(html, whole_page=whole)
+        if not found and url != lab_url and not any(w in path for w in MEMBER_WORDS):
+            found = parse_alumni(html)
+        if found:
+            people += found
+            used.append(url)
+    return lab_url, used, people
+
+
 def find_alumni(fetch: Fetcher, profile_url: str, manual: dict, orcid: str = "") -> tuple[str, list[str], list[dict]]:
     """(lab url, alumni page urls, alumni) for one professor."""
     if manual.get("alumni_url"):
@@ -542,7 +561,10 @@ def ensure_manual_file() -> None:
 
 
 def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None = None,
-                   limit: int = PROFESSOR_LIMIT) -> pd.DataFrame:
+                   limit: int = PROFESSOR_LIMIT, known_only: bool = False) -> pd.DataFrame:
+    """known_only: the daily refresh. Re-read every lab whose alumni page was already found
+    (degree years, careers, papers); no new labs are searched, and a lab whose page cannot be
+    read today keeps its earlier figures."""
     client = client or OpenAlexClient()
     fetch = fetch or Fetcher()
     ensure_manual_file()
@@ -564,8 +586,13 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
             return (1, "")
         return (2, last) if (today - date.fromisoformat(last)).days >= RECHECK_DAYS else (9, last)
 
-    order = sorted(professors["professor_id"], key=due)
-    order = [p for p in order if due(p)[0] < 9][:limit]
+    if known_only:
+        known = sites[(sites["status"] == "alumni") & (sites["alumni_urls"] != "")]
+        site_of = {r["professor_id"]: r for _, r in known.iterrows()}
+        order = [p for p in professors["professor_id"] if p in site_of or p in manual]
+    else:
+        order = sorted(professors["professor_id"], key=due)
+        order = [p for p in order if due(p)[0] < 9][:limit]
     rows = professors.set_index("professor_id")
     summaries, site_rows, people_rows = [], [], []
     started = datetime.now(timezone.utc)
@@ -599,8 +626,11 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
     for n, pid in enumerate(order, 1):
         r = rows.loc[pid]
         try:
-            lab_url, pages, people = find_alumni(fetch, str(r.get("source_url", "")), manual.get(pid, {}),
-                                                 str(r.get("orcid", "")))
+            if known_only and pid not in manual:
+                lab_url, pages, people = reread_alumni(fetch, site_of[pid]["lab_url"], site_of[pid]["alumni_urls"])
+            else:
+                lab_url, pages, people = find_alumni(fetch, str(r.get("source_url", "")), manual.get(pid, {}),
+                                                     str(r.get("orcid", "")))
         except Exception as exc:  # one broken site must not stop the batch
             print(f"[alumni] {pid}: {exc}", flush=True)
             lab_url, pages, people = "", [], []
@@ -627,6 +657,9 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
                 people_rows.append({"professor_id": pid, **{k: v for k, v in p.items()
                                                              if k not in ("fwci", "journals", "paper_ids")},
                                     "fwci_mean": round(statistics.mean(p["fwci"]), 2) if p.get("fwci") else ""})
+        if known_only and not people:
+            print(f"[alumni] {pid}: alumni page not readable today, earlier figures kept", flush=True)
+            continue
         status = "alumni" if people else ("lab_site" if lab_url else "no_lab_site")
         site_rows.append({"professor_id": pid, "lab_url": lab_url, "alumni_urls": ";".join(pages),
                           "status": status, "alumni_found": len(people), "checked_at": today.isoformat(),

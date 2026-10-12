@@ -68,7 +68,7 @@ def main() -> None:
             "faculty-full", "faculty-full-v2",
             "import-faculty", "import-faculty-and-all",
             "import-faculty-v2", "import-faculty-v2-and-all",
-            "galaxy-full", "alumni", "rebuild",
+            "galaxy-full", "alumni", "alumni-refresh", "rebuild",
         ],
         help="Pipeline step to run",
     )
@@ -97,6 +97,13 @@ def main() -> None:
         return
 
     if args.command == "rebuild":
+        rebuild()
+        return
+
+    if args.command == "alumni-refresh":
+        # Daily: re-read the alumni pages already found (degree years, careers, papers); no new labs.
+        summary = collect_alumni(client, known_only=True)
+        print(f"Labs with alumni data: {len(summary)}")
         rebuild()
         return
 

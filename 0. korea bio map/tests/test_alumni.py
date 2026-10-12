@@ -176,3 +176,33 @@ def test_duration_from_years_only_is_an_estimate():
     assert people[0]["years_exact"] and not people[1]["years_exact"]
     s = summarize("P1", "", [], people, today=date(2024, 6, 1))
     assert s["phd_years_est"] == 0 and s["ms_years_est"] == 1 and s["ms_years"] == 2.0
+
+
+def test_refresh_rereads_known_pages_only_and_keeps_old_on_failure(tmp_path, monkeypatch):
+    for name, path in (("SITES_PATH", "s.csv"), ("SUMMARY_PATH", "sum.csv"), ("MANUAL_PATH", "m.csv")):
+        monkeypatch.setattr(alumni, name, tmp_path / path)
+    monkeypatch.setattr(alumni, "PEOPLE_DIR", tmp_path / "people")
+    monkeypatch.setattr(alumni, "OUTPUT_DIR", tmp_path)
+    monkeypatch.setattr(alumni, "DATA_DIR", tmp_path)
+    pd.DataFrame([{"professor_id": p, "source_url": "", "openalex_id": "", "orcid": ""} for p in ("P1", "P2", "P3")]
+                 ).to_csv(tmp_path / "professors_enriched.csv", index=False)
+    pd.DataFrame([
+        {"professor_id": "P1", "lab_url": "http://a.kr/", "alumni_urls": "http://a.kr/alumni", "status": "alumni"},
+        {"professor_id": "P2", "lab_url": "http://b.kr/", "alumni_urls": "http://b.kr/alumni", "status": "alumni"},
+        {"professor_id": "P3", "lab_url": "http://c.kr/", "alumni_urls": "", "status": "lab_site"},
+    ]).to_csv(tmp_path / "s.csv", index=False)
+    pd.DataFrame([{"professor_id": "P2", "alumni": 9}]).to_csv(tmp_path / "sum.csv", index=False)
+    fetched = []
+
+    class F:
+        count = 0
+        session = None
+
+        def html(self, url):
+            fetched.append(url)
+            return LIST_PAGE if url.startswith("http://a.kr") else ""      # b.kr is down today
+
+    s = alumni.collect_alumni(object(), F(), known_only=True)
+    assert fetched == ["http://a.kr/alumni", "http://b.kr/alumni"]          # no search, P3 untouched
+    got = dict(zip(s["professor_id"], s["alumni"].astype(int)))
+    assert got == {"P1": 3, "P2": 9}                                        # P2 keeps yesterday's figures

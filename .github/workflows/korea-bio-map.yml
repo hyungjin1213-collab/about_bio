@@ -15,6 +15,7 @@ on:
         options:
           - galaxy-full
           - alumni
+          - alumni-refresh
           - rebuild
           - all
           - promote-and-all
@@ -103,7 +104,7 @@ jobs:
       - name: Upload alumni rows for checking
         # Per-person alumni rows stay out of the repository (private people);
         # kept briefly so the parser can be checked.
-        if: ${{ !cancelled() && inputs.mode == 'alumni' }}
+        if: ${{ !cancelled() && (inputs.mode == 'alumni' || inputs.mode == 'alumni-refresh') }}
         uses: actions/upload-artifact@v4
         with:
           name: lab-alumni-people
@@ -151,7 +152,7 @@ jobs:
           fi
 
       - name: Publish latest map to gh-pages
-        if: ${{ inputs.mode == 'galaxy-full' || inputs.mode == 'alumni' || inputs.mode == 'rebuild' || inputs.mode == 'all' || inputs.mode == 'promote-and-all' || inputs.mode == 'import-faculty-and-all' || inputs.mode == 'import-faculty-v2-and-all' }}
+        if: ${{ inputs.mode == 'galaxy-full' || inputs.mode == 'alumni' || inputs.mode == 'alumni-refresh' || inputs.mode == 'rebuild' || inputs.mode == 'all' || inputs.mode == 'promote-and-all' || inputs.mode == 'import-faculty-and-all' || inputs.mode == 'import-faculty-v2-and-all' }}
         run: |
           rm -rf /tmp/korea-bio-map-pages
           mkdir -p /tmp/korea-bio-map-pages

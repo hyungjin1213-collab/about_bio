@@ -1,0 +1,10 @@
+keep_id,merge_id,reason
+P0881,P1257,조승우: Yonsei University professor and IBS (same person; Yonsei row had no OpenAlex profile)
+P1005,P1269,김호민: KAIST and IBS (same person; protein design / VEGF trap)
+P1026,P0941,Hosuk Sean Lee: Sogang University listed twice
+P1580,P1606,Bong-Jo Kim: Korea National Institute of Health; OpenAlex split profiles (genomics / HLA)
+P1580,P1615,Bong-Jo Kim: Korea National Institute of Health; OpenAlex split profiles
+P2471,P2518,Joon-Tae Kim: Jeju National University; split profiles (ischemic stroke)
+P1870,P1882,Nyeonju Kang: Incheon National University; split profiles (force variability / tDCS)
+P2472,P2507,Jehee Lee: Jeju National University; split profiles (fish disease)
+P1965,P1975,Youngjin Lee: Gachon University; split profiles (image denoising)

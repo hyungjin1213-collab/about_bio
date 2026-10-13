@@ -125,8 +125,34 @@ def _next_professor_id(existing_ids: set[str]) -> str:
     return f"P{(max(nums) if nums else 0) + 1:04d}"
 
 
+def apply_professor_merges(professors: pd.DataFrame, merges: pd.DataFrame) -> pd.DataFrame:
+    """One row per person: each merge_id row is folded into its keep_id row (OpenAlex
+    profiles joined with ';', blanks filled) and dropped. Re-applied every run, so a
+    person re-added later (e.g. from an OpenAlex split profile) is folded in again."""
+    if merges.empty:
+        return professors
+    out = professors.copy()
+    for _, m in merges.iterrows():
+        keep, drop = out["professor_id"] == m["keep_id"], out["professor_id"] == m["merge_id"]
+        if not keep.any() or not drop.any():
+            continue
+        k, d = out.loc[keep].index[0], out.loc[drop].index[0]
+        ids = list(dict.fromkeys(_openalex_ids(out.at[k, "openalex_id"]) + _openalex_ids(out.at[d, "openalex_id"])))
+        out.at[k, "openalex_id"] = ";".join(ids)
+        for col in out.columns:
+            if col not in ("professor_id", "openalex_id") and not str(out.at[k, col]) and str(out.at[d, col]):
+                out.at[k, col] = out.at[d, col]
+        out = out.drop(index=d)
+    return out.reset_index(drop=True)
+
+
 def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
-    professors = _read_csv(DATA_DIR / "professors_seed.csv", PROFESSOR_COLUMNS).copy()
+    seed = _read_csv(DATA_DIR / "professors_seed.csv", PROFESSOR_COLUMNS)
+    professors = apply_professor_merges(seed, _read_csv(DATA_DIR / "professor_merges.csv"))
+    if len(professors) < len(seed):
+        print(f"[merge] {len(seed) - len(professors)} duplicate professors folded into one", flush=True)
+        professors.to_csv(DATA_DIR / "professors_seed.csv", index=False, encoding="utf-8-sig")
+    professors = professors.copy()
     resolved_rows: list[dict[str, str]] = []
 
     for _, row in professors.iterrows():

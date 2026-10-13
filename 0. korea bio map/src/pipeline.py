@@ -146,11 +146,22 @@ def apply_professor_merges(professors: pd.DataFrame, merges: pd.DataFrame) -> pd
     return out.reset_index(drop=True)
 
 
+def apply_professor_overrides(professors: pd.DataFrame, overrides: pd.DataFrame) -> pd.DataFrame:
+    """Hand corrections (data/professor_overrides.csv: professor_id, column, value):
+    re-applied every run so a collection never undoes them."""
+    out = professors.copy()
+    for _, o in overrides.iterrows():
+        if o.get("column") in out.columns and o.get("column") != "professor_id":
+            out.loc[out["professor_id"] == o.get("professor_id"), o["column"]] = o.get("value", "")
+    return out
+
+
 def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
     seed = _read_csv(DATA_DIR / "professors_seed.csv", PROFESSOR_COLUMNS)
     professors = apply_professor_merges(seed, _read_csv(DATA_DIR / "professor_merges.csv"))
-    if len(professors) < len(seed):
-        print(f"[merge] {len(seed) - len(professors)} duplicate professors folded into one", flush=True)
+    professors = apply_professor_overrides(professors, _read_csv(DATA_DIR / "professor_overrides.csv"))
+    if not professors.equals(seed):
+        print(f"[merge] {len(seed) - len(professors)} duplicates folded; hand corrections applied", flush=True)
         professors.to_csv(DATA_DIR / "professors_seed.csv", index=False, encoding="utf-8-sig")
     professors = professors.copy()
     resolved_rows: list[dict[str, str]] = []

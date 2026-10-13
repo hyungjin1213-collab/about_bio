@@ -187,10 +187,10 @@ def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
             from faculty_identity_v2 import MIN_BIO_SHARE, _best_openalex, _bio_share, _name_similarity
 
             try:
-                match, _ = _best_openalex(client, item.get("name_ko", ""), item.get("name_en", ""),
-                                          item.get("university", ""), item.get("name_en") or item.get("name_ko", ""))
+                match, why = _best_openalex(client, item.get("name_ko", ""), item.get("name_en", ""),
+                                            item.get("university", ""), item.get("name_en") or item.get("name_ko", ""))
             except OpenAlexUnavailable:
-                match = None
+                match, why = None, "OpenAlex unavailable"
             shown = str((match or {}).get("display_name", ""))
             name_en = normalize_english_name(item.get("name_en", ""))
             # Korean name romanizes to the profile name, or the English name
@@ -201,6 +201,13 @@ def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
             # polymers) a marketing researcher's profile.
             if match and name_ok and _bio_share(match) >= MIN_BIO_SHARE:
                 current_id = normalize_openalex_id(match.get("id", ""))
+            else:
+                # Why a hand-entered professor has no paper profile: fix it with an
+                # openalex_id row in data/professor_overrides.csv.
+                reason = why if not match else ("name does not fit" if not name_ok
+                                                else f"bio share {_bio_share(match):.2f} < {MIN_BIO_SHARE}")
+                print(f"[resolve] {item.get('professor_id')} {item.get('name_ko') or item.get('name_en')} "
+                      f"({item.get('university')}): no OpenAlex profile - {reason}", flush=True)
 
         if current_id:
             from faculty_identity_v2 import load_rejections

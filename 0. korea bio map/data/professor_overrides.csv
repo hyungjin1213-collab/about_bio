@@ -1,3 +1,15 @@
 professor_id,column,value,memo
 P2532,name_ko,정규열,사용자 제보 (10/13): Gyoo Yeol Jung = 정규열
 P2532,department,Department of Chemical Engineering,POSTECH 화학공학과
+P0001,openalex_id,A5086462999,"도준상: OpenAlex Junsang Doh (SNU, POSTECH; 85 papers with 55 professors in the map). Hand-entered row never matched"
+P0001,name_en,Junsang Doh,capitalisation
+P0001,university,Seoul National University,capitalisation
+P0001,department,Department of Materials Science and Engineering,서울대 재료공학부 (was 공과대학)
+P0003,openalex_id,A5102852128,"서형석: OpenAlex Hyungseok Seo (SNU, La Jolla Institute for Immunology; HER2 antigen immunology)"
+P0003,name_en,Hyungseok Seo,capitalisation
+P0003,university,Seoul National University,capitalisation
+P0003,department,College of Pharmacy,서울대 약학대학
+P0002,name_en,Sang Woo Seo,capitalisation
+P0002,university,Seoul National University,capitalisation
+P0002,department,School of Chemical and Biological Engineering,서울대 화학생물공학부 (was 공과대학)
+P0005,university,Kookmin University,capitalisation

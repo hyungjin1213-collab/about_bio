@@ -607,7 +607,7 @@ def export_web_data(nodes: pd.DataFrame, links: pd.DataFrame) -> None:
     homepages = lab_homepages()
     for pid, info in lab_info(nodes).items():
         merged = {**labs.get(pid, {}), **info, "manual": sorted(info)}   # typed values apply to every period
-        for d in ("phd", "integrated", "ms"):
+        for d in ("phd", "integrated", "ms", "stay"):
             if f"{d}_years" in info:
                 merged.pop(f"{d}_years_est", None)   # a typed value is not an estimate
         if pid in labs and "source" in info:

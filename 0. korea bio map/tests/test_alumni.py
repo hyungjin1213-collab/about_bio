@@ -274,3 +274,21 @@ def test_bilingual_pages_take_only_bilingual_lines_as_names():
     people = parse_alumni(html)
     assert [(p["name_ko"], p["career"]) for p in people] == [("정가온", "industry"), ("하도윤", "industry"),
                                                              ("여시우", "faculty")]
+
+
+def test_years_in_lab_without_degree():
+    # Made-up names; layout: name / email / years in the lab / Current: position.
+    html = "<h2>Alumni</h2>" + "".join(f"<p>{x}</p>" for x in [
+        "강하나", "Email: a@example.org", "Education and Research Experience at Lab: 2010-2016",
+        "Current: Profressor, KENTECH",
+        "정두리", "Email:", "Education and Research Experience at Lab: 2013-2015",
+        "Current: National Research Foundation of Korea",
+        "조세나", "Email: c@example.org", "Education and Research Experience at Lab: 2023-2025",
+        "Current: PhD Program, Seoul National University",
+        "오네모", "Email:", "Education and Research Experience at Lab: 2024-2026", "Current: COSMAX"])
+    people = parse_alumni(html)
+    assert [(p["name_ko"], p["degree"], p["years"], p["career"]) for p in people] == [
+        ("강하나", "unknown", 6.0, "faculty"), ("정두리", "unknown", 2.0, "institute"),
+        ("조세나", "unknown", 2.0, "study"), ("오네모", "unknown", 2.0, "industry")]
+    s = summarize("P1", "", [], people, today=date(2026, 1, 1))
+    assert s["stay_years"] == 2.0 and s["stay_years_est"] == 1 and s["career_study"] == 1

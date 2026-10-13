@@ -59,7 +59,7 @@ UNI_NOISE = {"university", "national", "college", "of", "the", "and", "institute
 PEOPLE_DIR = OUTPUT_DIR / "alumni"
 SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at", "parser"]
 # Bump when the parser changes: labs read by an older parser are read again.
-PARSER_VERSION = "8"
+PARSER_VERSION = "9"
 MANUAL_COLUMNS = ["professor_id", "name", "lab_url", "alumni_url", "memo"]
 
 LAB_LINK_WORDS = ["연구실 홈페이지", "연구실홈페이지", "홈페이지", "연구실", "lab homepage", "lab website", "homepage",
@@ -86,17 +86,18 @@ DEGREES = [  # (kind, pattern); order matters: integrated before PhD/MS.
 ]
 TYPICAL_YEARS = {"phd": (2.0, 9.0), "integrated": (3.0, 10.0), "ms": (1.0, 4.0), "postdoc": (0.5, 8.0)}
 CAREERS = [  # (kind, pattern); first match wins.
+    ("study", r"ph\.?\s?d\.?\s*(?:program|student|course|candidate)|박사\s*과정|대학원\s*진학|graduate\s+student"),
     ("postdoc", r"post[-\s]?doc|박사\s*후|research\s+fellow|박사후"),
-    ("faculty", r"professor|\bprof\b\.?|교수|lecturer|faculty|강사"),
+    ("faculty", r"pro\w{0,3}ss?or|\bprof\b\.?|교수|lecturer|faculty|강사"),
     ("hospital", r"hospital|병원|medical\s+center|의료원|resident|레지던트|전공의|clinic|의원"),
     # Public sector before companies ('Examiner ... Bio-Healthcare ... Ministry').
-    ("institute", r"ministry|examiner|심사관|식약처|mfds|\bfda\b|질병관리|kdca|government|정부|공무원|특허청"),
+    ("institute", r"research\s+foundation|연구재단|\bnrf\b|ministry|examiner|심사관|식약처|mfds|\bfda\b|질병관리|kdca|government|정부|공무원|특허청"),
     ("industry", r"\binc\b|\bco\.|\bltd\b|\bcorp|주식회사|\(주\)|제약|약품|samsung|삼성|\blg\b|"
                  r"\bsk\b|celltrion|셀트리온|유한|한미|녹십자|종근당|대웅|\bcj\b|amore|아모레|콜마|kolmar|genentech|novartis|"
                  r"pfizer|roche|merck|astrazeneca|startup|스타트업|회사|기업|화학|전자|헬스케어|바이오로직스|바이오사이언스|"
                  r"특허|변리사|consult|컨설팅|\bplc\b|investment|capital|holdings|medicines|healthcare|health\s+korea|"
                  r"syneos|iqvia|icon\b|novotech|parexel|\bcro\b|venture|벤처|투자|hyundai|현대|oil\s*bank|pacific|롯데|lotte|"
-                 r"hanwha|한화|gs\b|posco|포스코|bioepis|에피스"),
+                 r"hanwha|한화|gs\b|posco|포스코|bioepis|에피스|cosmax|코스맥스|biopharma|daewoong|celltrion|cheiljedang"),
     # Generic words count as industry only away from schools and institutes
     # ("Program in Department of Pharmaceutics" is not a company).
     ("industry_weak", r"pharm|biologics|bioscience|biotech|company|scientist|engineer|patent"),
@@ -563,9 +564,9 @@ def add_papers(client: OpenAlexClient, openalex_ids: list[str], people: list[dic
 
 # ------------------------------------------------------------------ summary
 RECENT_YEARS = 5
-CAREER_KINDS = ("faculty", "postdoc", "industry", "hospital", "institute", "other")
+CAREER_KINDS = ("faculty", "postdoc", "industry", "hospital", "institute", "study", "other")
 STAT_KEYS = ("alumni", "phd_graduates", "ms_graduates", "postdoc_alumni", "phd_years", "integrated_years", "ms_years",
-             "phd_years_est", "integrated_years_est", "ms_years_est",
+             "phd_years_est", "integrated_years_est", "ms_years_est", "stay_years", "stay_years_est",
              "students_with_papers", "papers_per_student", "first_author_per_student", "fwci_median", "top10_share")
 
 
@@ -598,6 +599,10 @@ def _stats(people: list[dict]) -> dict:
         # 1 = some of these durations come from years only (entry/graduation month not written)
         **{f"{d}_years_est": int(any(p["years"] is not None and not p.get("years_exact") for p in people
                                      if p["degree"] == d)) for d in ("phd", "integrated", "ms")},
+        # Pages that give only the years in the lab, no degree ('2010-2016'): time in the lab.
+        "stay_years": med(p["years"] for p in people if p["degree"] == "unknown"),
+        "stay_years_est": int(any(p["years"] is not None and not p.get("years_exact") for p in people
+                                  if p["degree"] == "unknown")),
         **{f"career_{k}": careers.get(k, 0) for k in CAREER_KINDS},
         "students_with_papers": len(with_papers),
         "papers_per_student": round(sum(p["papers"] for p in with_papers) / len(with_papers), 1) if with_papers else "",

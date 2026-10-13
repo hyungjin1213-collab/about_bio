@@ -237,3 +237,31 @@ def test_semester_notation():
     assert years_of("2022F~2024 (Part time)", "ms") == (2022, 2024, 1.5)     # Sep 2022 - Feb 2024
     assert years_of("2013F~2021", "integrated") == (2013, 2021, 7.5)
     assert alumni.exact_months("2023S~2025") and not alumni.exact_months("2023~2025")
+
+
+def test_photo_cards_with_bilingual_names():
+    # Made-up names; layout: caption / 'English (한글)' / position / degree + year.
+    html = "<h1>Alumni</h1>" + "".join(f"<p>{x}</p>" for x in [
+        "Post-doctoral Fellows", "Ph.D. students", "멤버사진", "SeaRin Park (박서린)", "Professor, Dankook University",
+        "Ph.D. 2011", "멤버사진", "Ha-Neul Choi (최하늘)", "Histogenetics Inc.", "M.S. 2010", "멤버사진",
+        "MinJu Song (송민주)", "에이비씨파트너스(주)", "M.S./Ph.D. 2015-2020", "Tel : 02-000-0000"])
+    people = parse_alumni(html)
+    assert [(p["name_ko"], p["degree"], p["career"]) for p in people] == [
+        ("박서린", "phd", "faculty"), ("최하늘", "ms", "industry"), ("송민주", "integrated", "industry")]
+    assert people[2]["years"] == 5.0
+
+
+def test_alumni_who_are_professors_become_lineage_links():
+    profs = pd.DataFrame([
+        {"professor_id": "P1", "name_ko": "이교수", "name_en": "Gyo Su Lee", "university": "Seoul National University"},
+        {"professor_id": "P2", "name_ko": "박서린", "name_en": "Seo Rin Park", "university": "Dankook University"},
+        {"professor_id": "P3", "name_ko": "박서린", "name_en": "Seo Rin Park", "university": "Busan University"},
+        {"professor_id": "P4", "name_ko": "최하늘", "name_en": "Ha Neul Choi", "university": "Korea University"},
+    ])
+    people = [
+        {"name_ko": "박서린", "name_en": "", "degree": "phd", "position": "Professor, Dankook University",
+         "end_year": 2011},                                          # same name twice: university decides
+        {"name_ko": "최하늘", "name_en": "", "degree": "ms", "position": "Histogenetics Inc.", "end_year": 2010},
+    ]
+    rows = alumni.alumni_relationships("P1", people, alumni.ProfessorIndex(profs), "http://lab/alumni")
+    assert [(r["professor_b_id"], r["relationship_type"]) for r in rows] == [("P2", "advisor_student")]

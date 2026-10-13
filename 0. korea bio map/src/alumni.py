@@ -50,10 +50,16 @@ USER_AGENT = "Mozilla/5.0 (compatible; AboutBioFacultyCollector/2.1)"
 SITES_PATH = DATA_DIR / "lab_sites.csv"
 MANUAL_PATH = DATA_DIR / "lab_sites_manual.csv"
 SUMMARY_PATH = OUTPUT_DIR / "lab_alumni_summary.csv"
+# PI -> alumnus links for alumni who are professors in the map (both public faculty).
+ALUMNI_REL_PATH = OUTPUT_DIR / "relationships_alumni.csv"
+REL_COLUMNS = ["relationship_id", "professor_a_id", "professor_b_id", "relationship_type",
+               "collaboration_paper_count", "evidence_url", "verified", "notes"]
+UNI_NOISE = {"university", "national", "college", "of", "the", "and", "institute", "science", "technology",
+             "korea", "korean", "school", "medicine", "medical", "center", "대학교", "대학"}
 PEOPLE_DIR = OUTPUT_DIR / "alumni"
 SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at", "parser"]
 # Bump when the parser changes: labs read by an older parser are read again.
-PARSER_VERSION = "6"
+PARSER_VERSION = "7"
 MANUAL_COLUMNS = ["professor_id", "name", "lab_url", "alumni_url", "memo"]
 
 LAB_LINK_WORDS = ["연구실 홈페이지", "연구실홈페이지", "홈페이지", "연구실", "lab homepage", "lab website", "homepage",
@@ -84,7 +90,7 @@ CAREERS = [  # (kind, pattern); first match wins.
     ("faculty", r"professor|\bprof\b\.?|교수|lecturer|faculty|강사"),
     ("hospital", r"hospital|병원|medical\s+center|의료원|resident|레지던트|전공의|clinic|의원"),
     # Public sector before companies ('Examiner ... Bio-Healthcare ... Ministry').
-    ("institute", r"ministry|examiner|심사관|식약처|mfds|질병관리|kdca|government|정부|공무원|특허청"),
+    ("institute", r"ministry|examiner|심사관|식약처|mfds|\bfda\b|질병관리|kdca|government|정부|공무원|특허청"),
     ("industry", r"\binc\b|\bco\.|\bltd\b|\bcorp|주식회사|\(주\)|제약|약품|samsung|삼성|\blg\b|"
                  r"\bsk\b|celltrion|셀트리온|유한|한미|녹십자|종근당|대웅|\bcj\b|amore|아모레|콜마|kolmar|genentech|novartis|"
                  r"pfizer|roche|merck|astrazeneca|startup|스타트업|회사|기업|화학|전자|헬스케어|바이오로직스|바이오사이언스|"
@@ -107,7 +113,12 @@ EN_NAME_RE = re.compile(r"^([A-Z][a-z]+(?:[-\s][A-Z]?[a-z]+)?(?:[\s,]+[A-Z][a-z]
 EN_NAME_STOP = {"current", "alumni", "former", "present", "member", "members", "postdoc", "professor", "research",
                 "samsung", "korea", "seoul", "university", "institute", "department", "school", "college", "lab",
                 "laboratory", "phd", "master", "graduate", "student", "students", "now", "position", "thesis",
-                "senior", "principal", "assistant", "associate", "scientist", "researcher", "the", "and", "at", "of"}
+                "senior", "principal", "assistant", "associate", "scientist", "researcher", "the", "and", "at", "of",
+                # menu items and employers that look like 'First Last'
+                "post", "doctoral", "fellow", "fellows", "home", "people", "contact", "gallery", "publications",
+                "inc", "ltd", "corp", "corporation", "llc", "plc", "co", "fda", "nih", "usa", "pharmaceutical",
+                "pharmaceuticals", "biologics", "bioepis", "electronics", "chemical", "chemicals", "bank", "oil",
+                "hospital", "center", "centre", "clinic", "medical", "medicine", "investment", "holdings", "group"}
 
 
 # ------------------------------------------------------------------ parsing
@@ -199,6 +210,11 @@ def _name_in(line: str) -> tuple[str, str]:
         rest = line[m.end():]
         en = re.match(r"^\s*\(?\s*([A-Z][A-Za-z\-]+(?:[\s,]+[A-Z][A-Za-z\-]+){1,2})", rest)
         return m.group(1), normalize_english_name(en.group(1)) if en else ""
+    # 'SeaHyoung Lee (이세형)': an English name with the Hangul name in brackets.
+    both = re.match(r"^([A-Za-z][A-Za-z'\-]*(?:\s+[A-Za-z][A-Za-z'\-]*){1,3})\s*\(([가-힣]{2,4})\)", line)
+    if both and is_korean_person_name(both.group(2)) and not any(
+            w.casefold() in EN_NAME_STOP for w in re.split(r"[\s\-]+", both.group(1))):
+        return both.group(2), normalize_english_name(both.group(1))
     m = EN_NAME_RE.match(line)
     if m:
         words = [w for w in re.split(r"[\s,\-]+", m.group(1)) if w]
@@ -214,6 +230,9 @@ def _section_lines(soup: BeautifulSoup, whole_page: bool) -> list[str]:
         tag.decompose()
     lines = [_clean(x) for x in soup.get_text("\n").split("\n")]
     lines = [x for x in lines if x]
+    # Photo captions, phone and address lines carry no alumni information.
+    lines = [x for x in lines if not re.fullmatch(r"(멤버\s*)?사진|member\s*photo|photo|image|프로필\s*사진", x, re.I)
+             and not re.match(r"(tel|fax|phone|전화|팩스|주소|address)\b", x, re.I)]
     for i, line in enumerate(lines):
         if re.search(r"copyright|all rights reserved|©", line, flags=re.I):
             lines = lines[:i]
@@ -286,8 +305,8 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
             for _, pattern in DEGREES[:1] + DEGREES[2:]:
                 position = re.sub(pattern, " ", position, flags=re.I)
         position = re.sub(r"\S+@\S+|https?://\S+", " ", position)
+        career = career_of(position)          # before punctuation goes: '(주)' marks a company
         position = _clean(re.sub(r"[|()\[\]~\-–,:]+", " ", position))[:160]
-        career = career_of(position)
         if not stated and (career == "other" or (career == "postdoc" and degree == "postdoc")):
             career = ""     # leftover words of the entry / the lab role itself, not a stated position
         # A name alone is not an alumnus: nav links, captions, the PI's name.
@@ -642,6 +661,9 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
     started = datetime.now(timezone.utc)
     openalex_ok = True
     old_summary = _read(SUMMARY_PATH)
+    old_rels = _read(ALUMNI_REL_PATH, REL_COLUMNS)
+    index = ProfessorIndex(professors)
+    rel_rows: list[dict] = []
 
     def save() -> pd.DataFrame:
         """Write what this run has found so far (also mid-run: a timeout keeps the work)."""
@@ -662,6 +684,11 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
         if not summary.empty:
             summary = summary[~summary["professor_id"].isin(shared)]
         summary.to_csv(SUMMARY_PATH, index=False, encoding="utf-8-sig")
+        rels = pd.concat([old_rels[~old_rels["professor_a_id"].isin(done)], pd.DataFrame(rel_rows, columns=REL_COLUMNS)],
+                         ignore_index=True)
+        rels = rels[~rels["professor_a_id"].isin(shared)]
+        rels["relationship_id"] = [f"ALU{i:06d}" for i in range(1, len(rels) + 1)]
+        rels.to_csv(ALUMNI_REL_PATH, index=False, encoding="utf-8-sig")
         PEOPLE_DIR.mkdir(parents=True, exist_ok=True)
         pd.DataFrame(people_rows).to_csv(PEOPLE_DIR / f"lab_alumni_people_{today.isoformat()}.csv",
                                          index=False, encoding="utf-8-sig")
@@ -697,6 +724,7 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
                     print(f"[alumni sample] {pid} {who} {p['degree']} {p['start_year']}-{p['end_year']} "
                           f"{p['career']} | {p['position'][:40]}", flush=True)
             summaries.append(summarize(pid, lab_url, pages, people))
+            rel_rows.extend(alumni_relationships(pid, people, index, pages[0] if pages else lab_url))
             for p in people:
                 people_rows.append({"professor_id": pid, **{k: v for k, v in p.items()
                                                              if k not in ("fwci", "journals", "paper_ids")},
@@ -719,6 +747,54 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
           f"({sum(len(s['alumni_urls']) > 0 for s in summaries)} alumni pages), "
           f"{sum(s['status'] != 'no_lab_site' for s in site_rows)} lab sites; {fetch.count} pages fetched", flush=True)
     return summary
+
+
+def _uni_tokens(university: str) -> set[str]:
+    words = re.split(r"[\s,;()]+", university.casefold())
+    return {w for w in words if len(w) >= 3 and w not in UNI_NOISE}
+
+
+class ProfessorIndex:
+    """Find an alumnus among the map's professors: same Hangul name and a matching English
+    name or the professor's university in the alumnus' stated position; exactly one match."""
+
+    def __init__(self, professors: pd.DataFrame):
+        self.by_ko: dict[str, list[dict]] = {}
+        self.rows = [r.to_dict() for _, r in professors.iterrows()]
+        for r in self.rows:
+            if r.get("name_ko"):
+                self.by_ko.setdefault(r["name_ko"], []).append(r)
+
+    def find(self, alum: dict, exclude: str) -> str:
+        pos = alum.get("position", "").casefold()
+
+        def uni_ok(r):
+            return any(t in pos for t in _uni_tokens(str(r.get("university", ""))))
+
+        if alum.get("name_ko"):
+            cands = [r for r in self.by_ko.get(alum["name_ko"], []) if r["professor_id"] != exclude]
+            ok = [r for r in cands if (alum.get("name_en") and _same_person(r.get("name_en", ""), alum)) or uni_ok(r)]
+        elif alum.get("name_en"):
+            ok = [r for r in self.rows if r["professor_id"] != exclude and r.get("name_en")
+                  and _same_person(r["name_en"], alum) and uni_ok(r)]
+        else:
+            ok = []
+        return ok[0]["professor_id"] if len(ok) == 1 else ""
+
+
+def alumni_relationships(pid: str, people: list[dict], index: ProfessorIndex, page: str) -> list[dict]:
+    rows, seen = [], set()
+    for p in people:
+        sid = index.find(p, pid)
+        if not sid or sid in seen:
+            continue
+        seen.add(sid)
+        kind = "postdoc_mentor" if p["degree"] == "postdoc" else "advisor_student"
+        rows.append({"professor_a_id": pid, "professor_b_id": sid, "relationship_type": kind,
+                     "collaboration_paper_count": p.get("papers", ""), "evidence_url": page, "verified": "alumni_page",
+                     "notes": f"listed on the lab's alumni page ({p['degree']}"
+                              f"{', ' + str(p['end_year']) if p.get('end_year') else ''})"})
+    return rows
 
 
 def _lab_fields(r, prefix: str = "") -> dict:

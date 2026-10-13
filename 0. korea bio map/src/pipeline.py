@@ -685,6 +685,9 @@ def build_network(professors: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]
             manual["collaboration_paper_count"] = ""
 
     lineage = _read_csv(OUTPUT_DIR / "relationships_lineage.csv", REL_COLUMNS)
+    # Advisor links read from lab alumni pages (alumni who are professors in the map).
+    from_alumni = _read_csv(OUTPUT_DIR / "relationships_alumni.csv", REL_COLUMNS)
+    lineage = pd.concat([lineage, from_alumni], ignore_index=True, sort=False).fillna("")
     # Manual rows come before inferred ones so a hand-checked link wins.
     relationships = pd.concat([auto, manual, lineage], ignore_index=True, sort=False).fillna("")
     if not relationships.empty:

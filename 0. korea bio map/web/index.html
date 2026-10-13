@@ -450,6 +450,9 @@
       buildLabFilters();applyFilters();
       if(selected&&!card.hidden){const top=card.scrollTop;openCard(selected);card.scrollTop=top;}
     }
+    // Professors among the lab's alumni (all time, from its alumni page); many are not
+    // in the map yet, so the card shows the larger of this and the map's own links.
+    const facultyAlumni=n=>(((n.lab||{}).careers||{}).faculty)||0;
     function openCard(n){
       const view=labView(n.lab),lin=lineageOf(n),lab=labRows(view),recruiting=/^(예|yes|y|o|모집)/i.test(String((n.lab||{}).recruiting||""));
       const url=safeUrl(n.url);
@@ -461,7 +464,7 @@
         <div class="stats" style="margin-top:12px">
           <div class="stat"><b>${n.score}</b><span>점수</span></div>
           <div class="stat"><b>${n.collaborator_count}</b><span>공동연구</span></div>
-          <div class="stat"><b>${lin.students.length}</b><span>교수 된 제자</span></div>
+          <div class="stat" title="지도 속 제자 교수 ${lin.students.length}명 · 졸업생 페이지 기준 교수 ${facultyAlumni(n)}명"><b>${Math.max(lin.students.length,facultyAlumni(n))}</b><span>교수 된 제자</span></div>
           <div class="stat"><b>${lin.postdocs.length}</b><span>PI 된 포닥</span></div>
         </div>
         <h3>연구실 정보</h3>

@@ -233,7 +233,10 @@ def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
                        or (name_en and _name_similarity(name_en, shown) >= 0.85))
             # Same checks as imported faculty: run #26 gave 김원종 (POSTECH,
             # polymers) a marketing researcher's profile.
-            if match and name_ok and _bio_share(match) >= MIN_BIO_SHARE:
+            # Professors confirmed by hand (identity_status 'confirmed' in professor_overrides.csv)
+            # may work mainly outside biology (nanomaterials, chemistry): no bio-share check.
+            confirmed = item.get("identity_status", "") == "confirmed"
+            if match and name_ok and (confirmed or _bio_share(match) >= MIN_BIO_SHARE):
                 current_id = normalize_openalex_id(match.get("id", ""))
             else:
                 # Why a hand-entered professor has no paper profile: fix it with an

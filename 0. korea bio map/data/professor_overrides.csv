@@ -13,3 +13,4 @@ P0002,name_en,Sang Woo Seo,capitalisation
 P0002,university,Seoul National University,capitalisation
 P0002,department,School of Chemical and Biological Engineering,서울대 화학생물공학부 (was 공과대학)
 P0005,university,Kookmin University,capitalisation
+P0746,identity_status,confirmed,"현택환 (SNU/IBS, nanomaterials): OpenAlex profile was rejected as mainly non-bio; confirmed by user 10/13"

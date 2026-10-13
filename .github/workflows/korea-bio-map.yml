@@ -14,6 +14,7 @@ on:
         type: choice
         options:
           - galaxy-full
+          - daily
           - alumni
           - alumni-refresh
           - rebuild
@@ -43,7 +44,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 330   # GitHub-hosted max is 360; 2,500+ people take ~3 h
+    timeout-minutes: 350   # GitHub-hosted max is 360; daily = ~3 h map refresh + expansion until min 270
     env:
       PYTHONUNBUFFERED: "1"
       SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
@@ -57,10 +58,11 @@ jobs:
       SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
       SCOPUS_INSTTOKEN: ${{ secrets.SCOPUS_INSTTOKEN }}
       SCOPUS_REQUEST_LIMIT: "3000"
-      IDENTITY_BATCH_LIMIT: "400"
-      PROFILE_FETCH_LIMIT: "600"
-      DISCOVERY_UNIVERSITY_LIMIT: "20"
-      INSTITUTION_DISCOVERY_LIMIT: "20"
+      IDENTITY_BATCH_LIMIT: "1500"
+      PROFILE_FETCH_LIMIT: "1500"
+      DISCOVERY_UNIVERSITY_LIMIT: "60"
+      INSTITUTION_DISCOVERY_LIMIT: "100"
+      ORCID_NAME_LOOKUP_LIMIT: "1000"
       CRAWL_PAGE_LIMIT: "100"
       SCHOLAR_LOOKUP_LIMIT: "60"
 
@@ -104,7 +106,7 @@ jobs:
       - name: Upload alumni rows for checking
         # Per-person alumni rows stay out of the repository (private people);
         # kept briefly so the parser can be checked.
-        if: ${{ !cancelled() && (inputs.mode == 'alumni' || inputs.mode == 'alumni-refresh') }}
+        if: ${{ !cancelled() && (inputs.mode == 'alumni' || inputs.mode == 'alumni-refresh' || inputs.mode == 'daily') }}
         uses: actions/upload-artifact@v4
         with:
           name: lab-alumni-people
@@ -118,6 +120,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -f "0. korea bio map/output/"*.csv
+          # ~100 MB intermediate, rebuilt every run: kept in the run artifact only
+          # (GitHub refuses files over 100 MB).
+          git reset -q -- "0. korea bio map/output/collaborator_candidates_all.csv" || true
           git add "0. korea bio map/web/network-data.js"
           git add "0. korea bio map/data/professors_seed.csv"
           git add "0. korea bio map/data/faculty_sources.csv"
@@ -152,7 +157,7 @@ jobs:
           fi
 
       - name: Publish latest map to gh-pages
-        if: ${{ inputs.mode == 'galaxy-full' || inputs.mode == 'alumni' || inputs.mode == 'alumni-refresh' || inputs.mode == 'rebuild' || inputs.mode == 'all' || inputs.mode == 'promote-and-all' || inputs.mode == 'import-faculty-and-all' || inputs.mode == 'import-faculty-v2-and-all' }}
+        if: ${{ inputs.mode == 'galaxy-full' || inputs.mode == 'daily' || inputs.mode == 'alumni' || inputs.mode == 'alumni-refresh' || inputs.mode == 'rebuild' || inputs.mode == 'all' || inputs.mode == 'promote-and-all' || inputs.mode == 'import-faculty-and-all' || inputs.mode == 'import-faculty-v2-and-all' }}
         run: |
           rm -rf /tmp/korea-bio-map-pages
           mkdir -p /tmp/korea-bio-map-pages

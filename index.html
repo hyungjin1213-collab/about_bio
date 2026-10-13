@@ -397,7 +397,7 @@
     function labRows(lab){
       const L=lab||{},rows=[
         ["박사 평균 졸업기간",yrs(L,"phd")],["석박통합 평균",yrs(L,"integrated")],
-        ["석사 평균 졸업기간",yrs(L,"ms")],["학생당 평균 논문",L.papers_per_student&&`${L.papers_per_student}편`],
+        ["석사 평균 졸업기간",yrs(L,"ms")],["평균 재학기간 (학위 미표기)",yrs(L,"stay")],["학생당 평균 논문",L.papers_per_student&&`${L.papers_per_student}편`],
         ["학생당 1저자 논문",L.first_author_per_student&&`${L.first_author_per_student}편`],["박사 졸업생",L.phd_graduates&&`${L.phd_graduates}명`],
         ["현재 구성",[L.phd_students&&`박사 ${L.phd_students}`,L.ms_students&&`석사 ${L.ms_students}`,L.postdocs&&`포닥 ${L.postdocs}`].filter(Boolean).join(" · ")],
         // FWCI 1.0 = world average for the field and year.
@@ -408,7 +408,7 @@
     }
     // Where the lab's alumni went (from the lab's alumni page), as one bar.
     const CAREER_INFO=[["faculty","교수","#fbbf24"],["postdoc","포닥","#c084fc"],["industry","기업","#60a5fa"],
-      ["hospital","병원","#f472b6"],["institute","연구소","#34d399"],["other","기타","#94a3b8"]];
+      ["hospital","병원","#f472b6"],["institute","연구소·공공","#34d399"],["study","진학","#a3e635"],["other","기타","#94a3b8"]];
     function careerBlock(lab){
       const L=lab||{},c=L.careers;
       const total=c?CAREER_INFO.reduce((s,[k])=>s+(c[k]||0),0):0;
@@ -425,7 +425,7 @@
     // ---------- lab alumni: recent 5 years / all time ----------
     let labPeriod="recent";
     const LAB_AUTO_KEYS=["alumni","phd_graduates","ms_graduates","postdoc_alumni","phd_years","integrated_years","ms_years",
-      "phd_years_est","integrated_years_est","ms_years_est","students_with_papers","papers_per_student","first_author_per_student","fwci_median","top10_share","careers","top_journals"];
+      "phd_years_est","integrated_years_est","ms_years_est","stay_years","stay_years_est","students_with_papers","papers_per_student","first_author_per_student","fwci_median","top10_share","careers","top_journals"];
     // The lab's figures for one period; values typed into the master sheet apply to both.
     function labView(lab,period=labPeriod){
       if(!lab) return {};
@@ -450,6 +450,9 @@
       buildLabFilters();applyFilters();
       if(selected&&!card.hidden){const top=card.scrollTop;openCard(selected);card.scrollTop=top;}
     }
+    // Professors among the lab's alumni (all time, from its alumni page); many are not
+    // in the map yet, so the card shows the larger of this and the map's own links.
+    const facultyAlumni=n=>(((n.lab||{}).careers||{}).faculty)||0;
     function openCard(n){
       const view=labView(n.lab),lin=lineageOf(n),lab=labRows(view),recruiting=/^(예|yes|y|o|모집)/i.test(String((n.lab||{}).recruiting||""));
       const url=safeUrl(n.url);
@@ -461,7 +464,7 @@
         <div class="stats" style="margin-top:12px">
           <div class="stat"><b>${n.score}</b><span>점수</span></div>
           <div class="stat"><b>${n.collaborator_count}</b><span>공동연구</span></div>
-          <div class="stat"><b>${lin.students.length}</b><span>교수 된 제자</span></div>
+          <div class="stat" title="지도 속 제자 교수 ${lin.students.length}명 · 졸업생 페이지 기준 교수 ${facultyAlumni(n)}명"><b>${Math.max(lin.students.length,facultyAlumni(n))}</b><span>교수 된 제자</span></div>
           <div class="stat"><b>${lin.postdocs.length}</b><span>PI 된 포닥</span></div>
         </div>
         <h3>연구실 정보</h3>
@@ -473,7 +476,8 @@
         ${(n.techniques||[]).length?`<h3>주요 기술</h3><div class="tags">${n.techniques.slice(0,6).map(k=>`<span class="tag tech">${esc(k)}</span>`).join("")}</div>`:""}
         ${lin.advisors.length||lin.mentors.length?`<h3>지도교수 · 포닥 멘토</h3><div class="people">${people(lin.advisors,"")}${people(lin.mentors,"pd")}</div>`:""}
         ${lin.students.length||lin.postdocs.length?`<h3>교수가 된 제자 · 포닥</h3><div class="people">${people(lin.students,"")}${people(lin.postdocs,"pd")}</div>`:""}
-        <div class="links">${url?`<a href="${esc(url)}" target="_blank" rel="noopener">연구실·소속 페이지</a>`:""}
+        <div class="links">${safeUrl(n.lab_url)?`<a href="${esc(safeUrl(n.lab_url))}" target="_blank" rel="noopener">연구실 홈페이지</a>`:""}
+          ${url?`<a href="${esc(url)}" target="_blank" rel="noopener">${safeUrl(n.lab_url)?"소속 페이지":"연구실·소속 페이지"}</a>`:""}
           ${n.openalex_id?`<a href="https://openalex.org/${esc(n.openalex_id)}" target="_blank" rel="noopener">논문 (OpenAlex)</a>`:""}
           ${n.orcid?`<a href="https://orcid.org/${esc(n.orcid)}" target="_blank" rel="noopener">ORCID</a>`:""}</div>`;
       card.hidden=false;document.body.classList.add("card-open");

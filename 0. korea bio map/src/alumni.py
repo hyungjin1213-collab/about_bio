@@ -53,7 +53,7 @@ SUMMARY_PATH = OUTPUT_DIR / "lab_alumni_summary.csv"
 PEOPLE_DIR = OUTPUT_DIR / "alumni"
 SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at", "parser"]
 # Bump when the parser changes: labs read by an older parser are read again.
-PARSER_VERSION = "4"
+PARSER_VERSION = "5"
 MANUAL_COLUMNS = ["professor_id", "name", "lab_url", "alumni_url", "memo"]
 
 LAB_LINK_WORDS = ["연구실 홈페이지", "연구실홈페이지", "홈페이지", "연구실", "lab homepage", "lab website", "homepage",
@@ -72,7 +72,7 @@ STOP_WORDS = ["publication", "논문", "research", "연구분야", "연구 분�
               "gallery", "갤러리", "copyright", "©"]
 
 DEGREES = [  # (kind, pattern); order matters: integrated before PhD/MS.
-    ("integrated", r"석\s*박\s*사?\s*통합|통합\s*과정|integrated|combined\s+m\.?s\.?\s*[-/&]\s*ph\.?d"),
+    ("integrated", r"석\s*박\s*사?\s*통합|통합\s*과정|integrated|(?:combined\s+)?m\.?s\.?\s*[-/&]\s*ph\.?\s?d"),
     ("postdoc", r"post[-\s]?doc|박사\s*후|research\s+fellow|박사후연구원"),
     ("phd", r"ph\.?\s?d\.?|박사|doctor(?:al|ate)?"),
     ("ms", r"\bm\.?\s?s\.?\b|\bm\.?\s?sc\.?\b|석사|master"),
@@ -83,14 +83,17 @@ CAREERS = [  # (kind, pattern); first match wins.
     ("postdoc", r"post[-\s]?doc|박사\s*후|research\s+fellow|박사후"),
     ("faculty", r"professor|\bprof\b\.?|교수|lecturer|faculty|강사"),
     ("hospital", r"hospital|병원|medical\s+center|의료원|resident|레지던트|전공의|clinic|의원"),
+    # Public sector before companies ('Examiner ... Bio-Healthcare ... Ministry').
+    ("institute", r"ministry|examiner|심사관|식약처|mfds|질병관리|kdca|government|정부|공무원|특허청"),
     ("industry", r"\binc\b|\bco\.|\bltd\b|\bcorp|주식회사|\(주\)|제약|약품|samsung|삼성|\blg\b|"
                  r"\bsk\b|celltrion|셀트리온|유한|한미|녹십자|종근당|대웅|\bcj\b|amore|아모레|콜마|kolmar|genentech|novartis|"
                  r"pfizer|roche|merck|astrazeneca|startup|스타트업|회사|기업|화학|전자|헬스케어|바이오로직스|바이오사이언스|"
-                 r"특허|변리사|consult|컨설팅"),
+                 r"특허|변리사|consult|컨설팅|\bplc\b|investment|capital|holdings|medicines|healthcare|health\s+korea|"
+                 r"syneos|iqvia|icon\b|novotech|parexel|\bcro\b|venture|벤처|투자"),
     # Generic words count as industry only away from schools and institutes
     # ("Program in Department of Pharmaceutics" is not a company).
     ("industry_weak", r"pharm|biologics|bioscience|biotech|company|scientist|engineer|patent"),
-    ("institute", r"kist|kribb|생명공학연구원|ibs|기초과학연구원|institute|연구원|연구소|nih|nci|max\s+planck|"
+    ("institute", r"ministry|examiner|심사관|kist|kribb|생명공학연구원|ibs|기초과학연구원|institute|연구원|연구소|nih|nci|max\s+planck|"
                   r"식약처|mfds|질병관리|kdca|government|정부|공무원"),
 ]
 # Table headers and degree words that look like Korean names (박사 = 박 + 사).
@@ -214,8 +217,22 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
     entries: list[dict] = []
     current: dict | None = None
     group = ""      # degree of the heading the names sit under ("Ph.D. Alumni")
-    for line in lines:
+    def is_record(i: int) -> bool:
+        """A name starts an alumnus only if a degree or year follows within two lines
+        (otherwise it is a company or position line such as 'Hoffmann-La Roche Ltd')."""
+        if group:
+            return True
+        for j, x in enumerate(lines[i:i + 3]):
+            if j and any(_name_in(x)):
+                return False            # the next person starts first
+            if degree_of(x) not in ("", "postdoc") or YEAR_RE.search(x):
+                return True
+        return False
+
+    for i, line in enumerate(lines):
         ko, en = _name_in(line)
+        if (ko or en) and not is_record(i):
+            ko = en = ""
         low = line.casefold()
         if (not ko and not en and len(line) <= 40 and not YEAR_RE.search(line)
                 and degree_of(line) and any(w in low for w in GROUP_WORDS)):
@@ -232,10 +249,17 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
         marker = re.search(POSITION_MARKERS, text, flags=re.I)
         degree = degree_of(text[:marker.start()] if marker else text) or e["group"]
         start, end, duration = years_of(text, degree)
+        stated = bool(marker)
         if marker:
             position = text[marker.end():]
         else:
-            position = " | ".join(e["lines"][1:]) if len(e["lines"]) > 1 else text
+            # Lines after the name that carry no degree, years or study mode are the
+            # current position ('Researcher of Hanmi Pharm'); program lines are not.
+            rest = [x for x in e["lines"][1:] if not YEAR_RE.search(x)
+                    and degree_of(x) in ("", "postdoc") and not (degree == "postdoc" and degree_of(x) == "postdoc")
+                    and not re.search(r"full\s*time|part\s*time", x, re.I)]
+            stated = bool(rest)
+            position = " | ".join(rest) if rest else (" | ".join(e["lines"][1:]) if len(e["lines"]) > 1 else text)
             position = YEAR_RE.sub(" ", position)
             # Keep "postdoc" whole before degree words go ("박사후연구원" is not "후연구원").
             position = re.sub(dict(DEGREES)["postdoc"], " postdoc ", position, flags=re.I)
@@ -244,7 +268,7 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
         position = re.sub(r"\S+@\S+|https?://\S+", " ", position)
         position = _clean(re.sub(r"[|()\[\]~\-–,:]+", " ", position))[:160]
         career = career_of(position)
-        if not marker and (career == "other" or (career == "postdoc" and degree == "postdoc")):
+        if not stated and (career == "other" or (career == "postdoc" and degree == "postdoc")):
             career = ""     # leftover words of the entry / the lab role itself, not a stated position
         # A name alone is not an alumnus: nav links, captions, the PI's name.
         if not (degree or end or career):

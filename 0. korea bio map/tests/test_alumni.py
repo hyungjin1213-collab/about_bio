@@ -206,3 +206,26 @@ def test_refresh_rereads_known_pages_only_and_keeps_old_on_failure(tmp_path, mon
     assert fetched == ["http://a.kr/alumni", "http://b.kr/alumni"]          # no search, P3 untouched
     got = dict(zip(s["professor_id"], s["alumni"].astype(int)))
     assert got == {"P1": 3, "P2": 9}                                        # P2 keeps yesterday's figures
+
+
+# Record-per-block layout (name / program / semesters / position), names made up.
+BLOCK_PAGE = "<h1>Alumni</h1>" + "".join(f"<p>{x}</p>" for x in [
+    "Minho Seo", "MS/PhD Program in Department of Regulatory Science", "2021S~2025F (Full time)",
+    "Post-Doctoral Fellow in YIPS",
+    "Jiwoo Baek", "MS Program in Department of Industrial Pharmaceutical Science", "2022F~2024 (Part time)",
+    "Hoffmann-La Roche Ltd",
+    "Sora Kang", "MS Program in Department of Pharmacy", "2023S~2025 (Full time)",
+    "Taeho Yoon", "PhD Program in Department of Pharmacy", "2015S~2020 (Full time)",
+    "Assistant Professor in College of Pharmacy, Some National University",
+    "Yuna Moon", "MS/PhD Program in Department of Regulatory Science", "2013F~2020 (Full time)",
+    "Examiner, Bio-Healthcare Examination Division in Ministry of Intellectual Property",
+])
+
+
+def test_block_layout_positions_are_not_people():
+    people = parse_alumni(BLOCK_PAGE)
+    assert [(p["name_en"], p["degree"], p["career"]) for p in people] == [
+        ("Minho Seo", "integrated", "postdoc"), ("Jiwoo Baek", "ms", "industry"),
+        ("Sora Kang", "ms", "unknown"), ("Taeho Yoon", "phd", "faculty"),
+        ("Yuna Moon", "integrated", "institute")]
+    assert people[1]["years"] == 2.0 and not people[1]["years_exact"]

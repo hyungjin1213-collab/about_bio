@@ -408,7 +408,7 @@
     }
     // Where the lab's alumni went (from the lab's alumni page), as one bar.
     const CAREER_INFO=[["faculty","교수","#fbbf24"],["postdoc","포닥","#c084fc"],["industry","기업","#60a5fa"],
-      ["hospital","병원","#f472b6"],["institute","연구소","#34d399"],["other","기타","#94a3b8"]];
+      ["hospital","병원","#f472b6"],["institute","연구소·공공","#34d399"],["other","기타","#94a3b8"]];
     function careerBlock(lab){
       const L=lab||{},c=L.careers;
       const total=c?CAREER_INFO.reduce((s,[k])=>s+(c[k]||0),0):0;

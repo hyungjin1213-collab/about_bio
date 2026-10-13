@@ -292,3 +292,25 @@ def test_years_in_lab_without_degree():
         ("조세나", "unknown", 2.0, "study"), ("오네모", "unknown", 2.0, "industry")]
     s = summarize("P1", "", [], people, today=date(2026, 1, 1))
     assert s["stay_years"] == 2.0 and s["stay_years_est"] == 1 and s["career_study"] == 1
+
+
+def test_alumni_professors_at_korean_universities_are_added(tmp_path, monkeypatch):
+    monkeypatch.setattr(alumni, "DATA_DIR", tmp_path)
+    pd.DataFrame([{"university": "Inha University", "name_ko": "인하대학교", "org_type": "university"}]
+                 ).to_csv(tmp_path / "universities_seed.csv", index=False)
+    profs = pd.DataFrame([{"professor_id": "P0001", "name_ko": "정교수", "name_en": "Gyo Su Jeong",
+                           "university": "Seoul National University", "source_url": "", "identity_status": ""}])
+    profs.to_csv(tmp_path / "professors_seed.csv", index=False)
+    people = [
+        {"name_ko": "강하나", "name_en": "Hana Kang", "career": "faculty", "position": "Professor, Inha university"},
+        {"name_ko": "오두리", "name_en": "", "career": "faculty", "position": "Associate Professor, KENTECH"},
+        {"name_ko": "신세계", "name_en": "", "career": "faculty", "position": "Professor, University of Washington"},
+        {"name_ko": "조나래", "name_en": "", "career": "industry", "position": "LG Chem"},
+    ]
+    rows = alumni.new_faculty_rows("P0001", people, alumni.ProfessorIndex(profs), "http://lab/alumni",
+                                   alumni.korean_universities())
+    assert [(r["name_ko"], r["university"]) for r in rows] == [("강하나", "Inha University"), ("오두리", "KENTECH")]
+    assert alumni.add_professors(rows) == 2 and alumni.add_professors(rows) == 0       # once only
+    seed = pd.read_csv(tmp_path / "professors_seed.csv", dtype=str).fillna("")
+    assert list(seed["professor_id"]) == ["P0001", "P0002", "P0003"]
+    assert seed.iloc[1]["identity_status"] == "alumni_page"

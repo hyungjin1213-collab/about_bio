@@ -638,6 +638,28 @@ def ensure_manual_file() -> None:
         pd.DataFrame(columns=MANUAL_COLUMNS).to_csv(MANUAL_PATH, index=False, encoding="utf-8-sig")
 
 
+def add_professors(rows: list[dict]) -> int:
+    """Append alumni-page professors to professors_seed.csv (once; skipped if already there)."""
+    if not rows:
+        return 0
+    path = DATA_DIR / "professors_seed.csv"
+    seed = _read(path)
+    have = set(zip(seed["name_ko"], seed["university"]))
+    nums = [int(x[1:]) for x in seed["professor_id"] if re.fullmatch(r"P\d+", x)]
+    added = []
+    for r in rows:
+        if (r["name_ko"], r["university"]) in have:
+            continue
+        nums.append(max(nums or [0]) + 1)
+        added.append({c: "" for c in seed.columns} | r | {"professor_id": f"P{nums[-1]:04d}"})
+        have.add((r["name_ko"], r["university"]))
+    if added:
+        pd.concat([seed, pd.DataFrame(added)], ignore_index=True).to_csv(path, index=False, encoding="utf-8-sig")
+        print(f"[alumni] added {len(added)} professors from alumni pages: "
+              + ", ".join(f"{a['name_ko']} ({a['university']})" for a in added), flush=True)
+    return len(added)
+
+
 def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None = None,
                    limit: int = PROFESSOR_LIMIT, known_only: bool = False) -> pd.DataFrame:
     """known_only: the daily refresh. Re-read every lab whose alumni page was already found
@@ -679,6 +701,8 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
     old_rels = _read(ALUMNI_REL_PATH, REL_COLUMNS)
     index = ProfessorIndex(professors)
     rel_rows: list[dict] = []
+    new_profs: list[dict] = []
+    unis = korean_universities()
 
     def save() -> pd.DataFrame:
         """Write what this run has found so far (also mid-run: a timeout keeps the work)."""
@@ -699,6 +723,7 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
         if not summary.empty:
             summary = summary[~summary["professor_id"].isin(shared)]
         summary.to_csv(SUMMARY_PATH, index=False, encoding="utf-8-sig")
+        add_professors(new_profs)
         rels = pd.concat([old_rels[~old_rels["professor_a_id"].isin(done)], pd.DataFrame(rel_rows, columns=REL_COLUMNS)],
                          ignore_index=True)
         rels = rels[~rels["professor_a_id"].isin(shared)]
@@ -740,6 +765,9 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
                           f"{p['career']} | {p['position'][:40]}", flush=True)
             summaries.append(summarize(pid, lab_url, pages, people))
             rel_rows.extend(alumni_relationships(pid, people, index, pages[0] if pages else lab_url))
+            for row in new_faculty_rows(pid, people, index, pages[0] if pages else lab_url, unis):
+                if (row["name_ko"], row["university"]) not in {(r["name_ko"], r["university"]) for r in new_profs}:
+                    new_profs.append(row)
             for p in people:
                 people_rows.append({"professor_id": pid, **{k: v for k, v in p.items()
                                                              if k not in ("fwci", "journals", "paper_ids")},
@@ -795,6 +823,54 @@ class ProfessorIndex:
         else:
             ok = []
         return ok[0]["professor_id"] if len(ok) == 1 else ""
+
+
+# Korean universities not in universities_seed.csv that alumni pages name.
+EXTRA_KOREAN_UNIVERSITIES = {
+    "Pukyong National University": "부경대학교",
+    "KENTECH": "한국에너지공과대학교",
+    "Korea National University of Transportation": "한국교통대학교",
+}
+
+
+def korean_universities() -> dict[str, str]:
+    """{lower-case name or alias: canonical English name} for Korean universities."""
+    names = dict(EXTRA_KOREAN_UNIVERSITIES)
+    seed = _read(DATA_DIR / "universities_seed.csv")
+    if not seed.empty:
+        seed = seed[seed.get("org_type", "university") == "university"] if "org_type" in seed.columns else seed
+        names.update(dict(zip(seed["university"], seed.get("name_ko", ""))))
+    out = {}
+    for en, ko in names.items():
+        out[en.casefold()] = en
+        if ko:
+            out[ko] = en
+        out[en.casefold().replace("national", "nat'l")] = en
+    out["korea institute of energy technology"] = "KENTECH"
+    return out
+
+
+def korean_university_in(position: str, unis: dict[str, str]) -> str:
+    low = position.casefold()
+    hits = [en for key, en in unis.items() if key in low]
+    return max(hits, key=len) if hits else ""     # 'Catholic Kwandong University' over 'Kwandong'
+
+
+def new_faculty_rows(pid: str, people: list[dict], index: "ProfessorIndex", page: str,
+                     unis: dict[str, str]) -> list[dict]:
+    """Alumni who are now professors at a Korean university but not in the map yet:
+    new professor rows (OpenAlex profile found by the next resolve). Overseas
+    universities are left to the alumni statistics."""
+    rows = []
+    for p in people:
+        if p["career"] != "faculty" or not p.get("name_ko") or index.find(p, pid):
+            continue
+        uni = korean_university_in(p.get("position", ""), unis)
+        if not uni or any(r.get("name_ko") == p["name_ko"] and r.get("university") == uni for r in index.rows):
+            continue
+        rows.append({"name_ko": p["name_ko"], "name_en": p.get("name_en", ""), "university": uni,
+                     "source_url": page, "identity_status": "alumni_page"})
+    return rows
 
 
 def alumni_relationships(pid: str, people: list[dict], index: ProfessorIndex, page: str) -> list[dict]:

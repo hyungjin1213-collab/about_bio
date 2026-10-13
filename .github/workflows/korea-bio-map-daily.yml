@@ -22,7 +22,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # One refresh per UTC day is enough (a late schedule after a manual run is skipped).
+          # One collection per UTC day (a late schedule after a manual run is skipped).
           today=$(date -u +%F)
           count=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow korea-bio-map.yml \
             --branch about-bio-v0.1 --limit 20 --json createdAt,conclusion \
@@ -30,9 +30,9 @@ jobs:
           echo "Collector runs today: $count"
           echo "count=$count" >> "$GITHUB_OUTPUT"
 
-      - name: Refresh lab alumni data on about-bio-v0.1
-        # Daily: re-read the alumni pages already found (degree years, careers,
-        # papers). No new labs and no full galaxy collection; those run by hand.
+      - name: Daily collection on about-bio-v0.1
+        # Daily: lab alumni pages, then the whole map refreshed, then new
+        # faculty / institutes / Korean names with the OpenAlex budget left.
         if: github.event_name == 'workflow_dispatch' || steps.today.outputs.count == '0'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -41,4 +41,4 @@ jobs:
             --repo "$GITHUB_REPOSITORY" \
             --ref about-bio-v0.1 \
             -f target_branch=about-bio-v0.1 \
-            -f mode=alumni-refresh
+            -f mode=daily

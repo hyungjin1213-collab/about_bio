@@ -228,4 +228,12 @@ def test_block_layout_positions_are_not_people():
         ("Minho Seo", "integrated", "postdoc"), ("Jiwoo Baek", "ms", "industry"),
         ("Sora Kang", "ms", "unknown"), ("Taeho Yoon", "phd", "faculty"),
         ("Yuna Moon", "integrated", "institute")]
-    assert people[1]["years"] == 2.0 and not people[1]["years_exact"]
+    assert people[1]["years"] == 1.5 and people[1]["years_exact"]   # 2022F~2024: Sep 2022 - Feb 2024
+
+
+def test_semester_notation():
+    assert years_of("2023S~2025 (Full time)", "ms") == (2023, 2025, 2.0)     # Mar 2023 - Feb 2025
+    assert years_of("2021S~2025F (Full time)", "integrated") == (2021, 2025, 4.5)  # - Aug 2025
+    assert years_of("2022F~2024 (Part time)", "ms") == (2022, 2024, 1.5)     # Sep 2022 - Feb 2024
+    assert years_of("2013F~2021", "integrated") == (2013, 2021, 7.5)
+    assert alumni.exact_months("2023S~2025") and not alumni.exact_months("2023~2025")

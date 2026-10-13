@@ -53,7 +53,7 @@ SUMMARY_PATH = OUTPUT_DIR / "lab_alumni_summary.csv"
 PEOPLE_DIR = OUTPUT_DIR / "alumni"
 SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at", "parser"]
 # Bump when the parser changes: labs read by an older parser are read again.
-PARSER_VERSION = "5"
+PARSER_VERSION = "6"
 MANUAL_COLUMNS = ["professor_id", "name", "lab_url", "alumni_url", "memo"]
 
 LAB_LINK_WORDS = ["연구실 홈페이지", "연구실홈페이지", "홈페이지", "연구실", "lab homepage", "lab website", "homepage",
@@ -144,14 +144,34 @@ def career_of(position: str) -> str:
     return "other"
 
 
+# Semester notation: '2021S~2025F'. Entry S = spring (March), F = fall (September);
+# graduation F = fall graduation (August), no letter = the regular February graduation.
+SEMESTER_RE = re.compile(r"((?:19[89]|20[0-4])\d)\s*([SF])?\s*[~\-–]\s*((?:19[89]|20[0-4])\d)\s*([SF])?(?![A-Za-z])")
+
+
+def _semesters(text: str) -> tuple[int, int, int, int] | None:
+    """(start year, start month, end year, end month) from semester notation, if used."""
+    for m in SEMESTER_RE.finditer(text):
+        if m.group(2) or m.group(4):
+            return (int(m.group(1)), 9 if m.group(2) == "F" else 3,
+                    int(m.group(3)), 8 if m.group(4) == "F" else 2)
+    return None
+
+
 def exact_months(text: str) -> bool:
-    """True when both the entry and graduation month are written ('2015.03 - 2020.08')."""
-    return sum(1 for _, m in YEAR_RE.findall(text) if m and 1 <= int(m) <= 12) >= 2
+    """True when entry and graduation months are known ('2015.03 - 2020.08', '2021S~2025F')."""
+    return _semesters(text) is not None or sum(1 for _, m in YEAR_RE.findall(text) if m and 1 <= int(m) <= 12) >= 2
 
 
 def years_of(text: str, degree: str = "") -> tuple[int | None, int | None, float | None]:
     """(start, end, duration in years) from '2015.03 - 2020.08', '2015~2020', '2020' (graduation only).
     Without both months the duration is year minus year: an estimate (see exact_months)."""
+    sem = _semesters(text)
+    if sem:
+        y1, m1, y2, m2 = sem
+        months = (y2 * 12 + m2) - (y1 * 12 + m1) + 1      # Mar 2023 - Feb 2025 = 24 months
+        low, high = TYPICAL_YEARS.get(degree, (0.5, 10.0))
+        return y1, y2, round(months / 12, 1) if low <= months / 12 <= high else None
     found = [(int(y), int(m) if m and 1 <= int(m) <= 12 else None) for y, m in YEAR_RE.findall(text)]
     found = [(y, m) for y, m in found if 1980 <= y <= date.today().year + 1]
     if not found:

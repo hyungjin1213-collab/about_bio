@@ -737,6 +737,20 @@ def _lab_fields(r, prefix: str = "") -> dict:
     return info
 
 
+def lab_homepages() -> dict[str, str]:
+    """{professor_id: lab homepage}: a hand-entered lab_url first, else a found lab site
+    that is not just the professor's department profile page."""
+    out = {}
+    sites = _read(SITES_PATH, SITE_COLUMNS)
+    for _, r in sites.iterrows():
+        if r["lab_url"] and r["status"] in ("alumni", "lab_site"):   # a shared page is a department page
+            out[r["professor_id"]] = r["lab_url"]
+    for _, r in _read(MANUAL_PATH, MANUAL_COLUMNS).iterrows():
+        if r["professor_id"] and r["lab_url"]:
+            out[r["professor_id"]] = r["lab_url"]
+    return {k: v for k, v in out.items() if v.startswith(("http://", "https://"))}
+
+
 def alumni_lab_info() -> dict[str, dict]:
     """{professor_id: lab fields} from the alumni summary, in the master sheet's keys.
     "recent" holds the same fields for alumni of the last RECENT_YEARS years."""

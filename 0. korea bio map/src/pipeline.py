@@ -22,7 +22,7 @@ from classify import Classifier, position
 from keywords import KeywordCollector
 from lineage import Authorship, infer_lineage, lineage_relationships
 from name_extraction import name_compatible, normalize_english_name
-from alumni import alumni_lab_info
+from alumni import alumni_lab_info, lab_homepages
 from master_sheet import lab_info, master_relationships
 from sectors import ORG_TYPE_SECTOR, SectorCollector, SectorTable
 from openalex_client import OpenAlexClient, OpenAlexUnavailable, normalize_openalex_id
@@ -567,6 +567,7 @@ def export_web_data(nodes: pd.DataFrame, links: pd.DataFrame) -> None:
     # Lab facts: totals from lab alumni pages, overridden field by field by
     # what was typed into the master Excel file (연구실정보).
     labs = alumni_lab_info()
+    homepages = lab_homepages()
     for pid, info in lab_info(nodes).items():
         merged = {**labs.get(pid, {}), **info, "manual": sorted(info)}   # typed values apply to every period
         for d in ("phd", "integrated", "ms"):
@@ -611,6 +612,9 @@ def export_web_data(nodes: pd.DataFrame, links: pd.DataFrame) -> None:
                 "orcid": row.get("orcid", ""),
                 # lab / faculty page (or OpenAlex profile) for the professor card
                 "url": row.get("source_url", "") if str(row.get("source_url", "")).startswith(("http://", "https://")) else "",
+                # Lab homepage, shown apart from the official profile page (skipped when they are the same).
+                "lab_url": (lambda h, src: h if h and h.rstrip("/") != str(src).rstrip("/") else "")(
+                    homepages.get(row.get("professor_id", ""), ""), row.get("source_url", "")),
                 "openalex_id": (_openalex_ids(row.get("openalex_id", "")) or [""])[0],
                 "identity": row.get("identity_status", "") or "seed",
                 "score": _safe_int(row.get("network_score", 0)),

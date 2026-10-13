@@ -473,7 +473,8 @@
         ${(n.techniques||[]).length?`<h3>주요 기술</h3><div class="tags">${n.techniques.slice(0,6).map(k=>`<span class="tag tech">${esc(k)}</span>`).join("")}</div>`:""}
         ${lin.advisors.length||lin.mentors.length?`<h3>지도교수 · 포닥 멘토</h3><div class="people">${people(lin.advisors,"")}${people(lin.mentors,"pd")}</div>`:""}
         ${lin.students.length||lin.postdocs.length?`<h3>교수가 된 제자 · 포닥</h3><div class="people">${people(lin.students,"")}${people(lin.postdocs,"pd")}</div>`:""}
-        <div class="links">${url?`<a href="${esc(url)}" target="_blank" rel="noopener">연구실·소속 페이지</a>`:""}
+        <div class="links">${safeUrl(n.lab_url)?`<a href="${esc(safeUrl(n.lab_url))}" target="_blank" rel="noopener">연구실 홈페이지</a>`:""}
+          ${url?`<a href="${esc(url)}" target="_blank" rel="noopener">${safeUrl(n.lab_url)?"소속 페이지":"연구실·소속 페이지"}</a>`:""}
           ${n.openalex_id?`<a href="https://openalex.org/${esc(n.openalex_id)}" target="_blank" rel="noopener">논문 (OpenAlex)</a>`:""}
           ${n.orcid?`<a href="https://orcid.org/${esc(n.orcid)}" target="_blank" rel="noopener">ORCID</a>`:""}</div>`;
       card.hidden=false;document.body.classList.add("card-open");

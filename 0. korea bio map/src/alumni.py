@@ -59,7 +59,7 @@ UNI_NOISE = {"university", "national", "college", "of", "the", "and", "institute
 PEOPLE_DIR = OUTPUT_DIR / "alumni"
 SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at", "parser"]
 # Bump when the parser changes: labs read by an older parser are read again.
-PARSER_VERSION = "7"
+PARSER_VERSION = "8"
 MANUAL_COLUMNS = ["professor_id", "name", "lab_url", "alumni_url", "memo"]
 
 LAB_LINK_WORDS = ["연구실 홈페이지", "연구실홈페이지", "홈페이지", "연구실", "lab homepage", "lab website", "homepage",
@@ -95,7 +95,8 @@ CAREERS = [  # (kind, pattern); first match wins.
                  r"\bsk\b|celltrion|셀트리온|유한|한미|녹십자|종근당|대웅|\bcj\b|amore|아모레|콜마|kolmar|genentech|novartis|"
                  r"pfizer|roche|merck|astrazeneca|startup|스타트업|회사|기업|화학|전자|헬스케어|바이오로직스|바이오사이언스|"
                  r"특허|변리사|consult|컨설팅|\bplc\b|investment|capital|holdings|medicines|healthcare|health\s+korea|"
-                 r"syneos|iqvia|icon\b|novotech|parexel|\bcro\b|venture|벤처|투자"),
+                 r"syneos|iqvia|icon\b|novotech|parexel|\bcro\b|venture|벤처|투자|hyundai|현대|oil\s*bank|pacific|롯데|lotte|"
+                 r"hanwha|한화|gs\b|posco|포스코|bioepis|에피스"),
     # Generic words count as industry only away from schools and institutes
     # ("Program in Department of Pharmaceutics" is not a company).
     ("industry_weak", r"pharm|biologics|bioscience|biotech|company|scientist|engineer|patent"),
@@ -198,6 +199,9 @@ def years_of(text: str, degree: str = "") -> tuple[int | None, int | None, float
     return y1, y2, round(duration, 1) if low <= duration <= high else None
 
 
+BILINGUAL_RE = re.compile(r"^([A-Za-z][A-Za-z'\-]*(?:\s+[A-Za-z][A-Za-z'\-]*){1,3})\s*\(([가-힣]{2,4})\)")
+
+
 def _name_in(line: str) -> tuple[str, str]:
     """(korean, english) name at the start of a line ('', '' if none)."""
     line = line.strip(" -•·*|:")
@@ -211,7 +215,7 @@ def _name_in(line: str) -> tuple[str, str]:
         en = re.match(r"^\s*\(?\s*([A-Z][A-Za-z\-]+(?:[\s,]+[A-Z][A-Za-z\-]+){1,2})", rest)
         return m.group(1), normalize_english_name(en.group(1)) if en else ""
     # 'SeaHyoung Lee (이세형)': an English name with the Hangul name in brackets.
-    both = re.match(r"^([A-Za-z][A-Za-z'\-]*(?:\s+[A-Za-z][A-Za-z'\-]*){1,3})\s*\(([가-힣]{2,4})\)", line)
+    both = BILINGUAL_RE.match(line)
     if both and is_korean_person_name(both.group(2)) and not any(
             w.casefold() in EN_NAME_STOP for w in re.split(r"[\s\-]+", both.group(1))):
         return both.group(2), normalize_english_name(both.group(1))
@@ -268,8 +272,13 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
                 return True
         return False
 
+    # When the page writes names as 'English (한글)', only such lines are names: an
+    # employer like 'Amore Pacific' on its own line is a position, not a person.
+    bilingual = sum(1 for x in lines if BILINGUAL_RE.match(x.strip(" -•·*|:"))) >= 3
     for i, line in enumerate(lines):
         ko, en = _name_in(line)
+        if bilingual and not BILINGUAL_RE.match(line.strip(" -•·*|:")):
+            ko = en = ""
         if (ko or en) and not is_record(i):
             ko = en = ""
         low = line.casefold()

@@ -269,8 +269,8 @@ def test_alumni_who_are_professors_become_lineage_links():
 
 def test_bilingual_pages_take_only_bilingual_lines_as_names():
     html = "<h1>Alumni</h1>" + "".join(f"<p>{x}</p>" for x in [
-        "Gaon Ra (라가온)", "Amore Pacific", "M.S. 2013", "Doyun Ha (하도윤)", "Hyundai Oil Bank", "M.S. 2012",
+        "Gaon Jeong (정가온)", "Amore Pacific", "M.S. 2013", "Doyun Ha (하도윤)", "Hyundai Oil Bank", "M.S. 2012",
         "Siu Yeo (여시우)", "Professor, Some University", "Ph.D. 2014"])
     people = parse_alumni(html)
-    assert [(p["name_ko"], p["career"]) for p in people] == [("라가온", "industry"), ("하도윤", "industry"),
+    assert [(p["name_ko"], p["career"]) for p in people] == [("정가온", "industry"), ("하도윤", "industry"),
                                                              ("여시우", "faculty")]

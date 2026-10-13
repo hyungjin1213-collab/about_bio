@@ -260,21 +260,22 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
     entries: list[dict] = []
     current: dict | None = None
     group = ""      # degree of the heading the names sit under ("Ph.D. Alumni")
+    # When the page writes names as 'English (한글)', only such lines are names: an
+    # employer like 'Amore Pacific' on its own line is a position, not a person.
+    bilingual = sum(1 for x in lines if BILINGUAL_RE.match(x.strip(" -•·*|:"))) >= 3
+
     def is_record(i: int) -> bool:
         """A name starts an alumnus only if a degree or year follows within two lines
         (otherwise it is a company or position line such as 'Hoffmann-La Roche Ltd')."""
         if group:
             return True
         for j, x in enumerate(lines[i:i + 3]):
-            if j and any(_name_in(x)):
+            if j and (BILINGUAL_RE.match(x.strip(" -•·*|:")) if bilingual else any(_name_in(x))):
                 return False            # the next person starts first
             if degree_of(x) not in ("", "postdoc") or YEAR_RE.search(x):
                 return True
         return False
 
-    # When the page writes names as 'English (한글)', only such lines are names: an
-    # employer like 'Amore Pacific' on its own line is a position, not a person.
-    bilingual = sum(1 for x in lines if BILINGUAL_RE.match(x.strip(" -•·*|:"))) >= 3
     for i, line in enumerate(lines):
         ko, en = _name_in(line)
         if bilingual and not BILINGUAL_RE.match(line.strip(" -•·*|:")):

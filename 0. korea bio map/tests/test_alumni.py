@@ -314,3 +314,18 @@ def test_alumni_professors_at_korean_universities_are_added(tmp_path, monkeypatc
     seed = pd.read_csv(tmp_path / "professors_seed.csv", dtype=str).fillna("")
     assert list(seed["professor_id"]) == ["P0001", "P0002", "P0003"]
     assert seed.iloc[1]["identity_status"] == "alumni_page"
+
+
+def test_name_years_role_layout():
+    # Made-up names; layout: 'Name (years; role)' / current position.
+    html = "<h2>Alumni</h2>" + "".join(f"<p>{x}</p>" for x in [
+        "정하나 (2017-2024; 박사후연구원)", "가천대학교 생명과학과 조교수",
+        "김두리 (2015-2024;박사과정,박사후연구원)", "Some Institute 박사후연구원",
+        "손아현 (2015-2022;박사과정,박사후연구원)",
+        "투안 얀 구옌 (2012-2016 – 박사후연구원)", "홍콩과학기술대학교 (홍콩) 교수",
+        "이세나 (2007-2016 – administrative assistant)",
+        "장세나 (2009-2018 – 박사과정, 박사후연구원)", "서울대학교 생명과학부 조교수"])
+    got = [(p["name_ko"], p["degree"], p["years"], p["career"]) for p in parse_alumni(html)]
+    assert got == [("정하나", "postdoc", 7.0, "faculty"), ("김두리", "phd", None, "postdoc"),
+                   ("손아현", "phd", None, "unknown"), ("투안얀구옌", "postdoc", 4.0, "faculty"),
+                   ("장세나", "phd", None, "faculty")]

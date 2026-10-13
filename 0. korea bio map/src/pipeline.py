@@ -23,6 +23,7 @@ from keywords import KeywordCollector
 from lineage import Authorship, infer_lineage, lineage_relationships
 from name_extraction import name_compatible, normalize_english_name
 from alumni import alumni_lab_info, lab_homepages
+from scholar_client import ScholarClient
 from master_sheet import lab_info, master_relationships
 from sectors import ORG_TYPE_SECTOR, SectorCollector, SectorTable
 from openalex_client import OpenAlexClient, OpenAlexUnavailable, normalize_openalex_id
@@ -156,6 +157,25 @@ def apply_professor_overrides(professors: pd.DataFrame, overrides: pd.DataFrame)
     return out
 
 
+def openalex_from_scholar(client: OpenAlexClient, scholar, scholar_id: str, name_ko: str, name_en: str) -> str:
+    """The OpenAlex author behind a Google Scholar profile: look up its most cited
+    papers by title and take the author whose name fits, if at least two papers agree."""
+    votes: dict[str, int] = {}
+    for title in scholar.author_article_titles(scholar_id):
+        data = client._get("works", {"search": title[:200], "per-page": 2, "select": "id,title,authorships"})
+        for work in (data.get("results") or [])[:1]:
+            for a in work.get("authorships") or []:
+                author = a.get("author") or {}
+                shown = str(author.get("display_name", ""))
+                ok = (name_ko and name_compatible(shown, name_ko)) or \
+                     (not name_ko and name_en and normalize_english_name(name_en).casefold() == shown.casefold())
+                if ok and author.get("id"):
+                    oid = normalize_openalex_id(str(author["id"]))
+                    votes[oid] = votes.get(oid, 0) + 1
+    best = sorted(votes.items(), key=lambda kv: -kv[1])
+    return best[0][0] if best and best[0][1] >= 2 else ""
+
+
 def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
     seed = _read_csv(DATA_DIR / "professors_seed.csv", PROFESSOR_COLUMNS)
     professors = apply_professor_merges(seed, _read_csv(DATA_DIR / "professor_merges.csv"))
@@ -165,6 +185,9 @@ def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
         professors.to_csv(DATA_DIR / "professors_seed.csv", index=False, encoding="utf-8-sig")
     professors = professors.copy()
     resolved_rows: list[dict[str, str]] = []
+    scholar_rows = _read_csv(DATA_DIR / "scholar_profiles.csv")
+    scholar_ids = dict(zip(scholar_rows["professor_id"], scholar_rows["scholar_id"])) if not scholar_rows.empty else {}
+    scholar = ScholarClient()
 
     for _, row in professors.iterrows():
         item = row.to_dict()
@@ -180,6 +203,17 @@ def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
                 )
             except OpenAlexUnavailable:
                 pass
+
+        if not current_id and scholar_ids.get(item.get("professor_id", "")):
+            # A Google Scholar profile given by hand: its papers, found in OpenAlex,
+            # name the OpenAlex author (checked against the Korean name).
+            try:
+                current_id = openalex_from_scholar(client, scholar, scholar_ids[item["professor_id"]],
+                                                   item.get("name_ko", ""), item.get("name_en", ""))
+            except OpenAlexUnavailable:
+                current_id = ""
+            print(f"[resolve] {item.get('professor_id')} {item.get('name_ko')}: Google Scholar -> "
+                  f"{current_id or 'no matching OpenAlex author'}", flush=True)
 
         if not current_id and not item.get("orcid", ""):
             # Hand-entered rows: same matcher as imported faculty (romanization

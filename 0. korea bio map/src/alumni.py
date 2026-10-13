@@ -59,7 +59,7 @@ UNI_NOISE = {"university", "national", "college", "of", "the", "and", "institute
 PEOPLE_DIR = OUTPUT_DIR / "alumni"
 SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at", "parser"]
 # Bump when the parser changes: labs read by an older parser are read again.
-PARSER_VERSION = "9"
+PARSER_VERSION = "10"
 MANUAL_COLUMNS = ["professor_id", "name", "lab_url", "alumni_url", "memo"]
 
 LAB_LINK_WORDS = ["연구실 홈페이지", "연구실홈페이지", "홈페이지", "연구실", "lab homepage", "lab website", "homepage",
@@ -109,7 +109,7 @@ NOT_NAMES = {"이름", "성명", "학위", "기간", "현재", "현직", "박사
              "연구원", "교수", "진로", "근무처", "연도", "년도", "분야", "직위", "직책", "구분", "졸업생", "동문", "학위과정",
              "사이트맵", "홈페이지", "로그인", "연구실", "교수소개", "연구분야", "오시는길", "공지사항", "갤러리", "바로가기",
              "상세보기", "메일", "주소", "전화", "팩스", "소개", "자료실", "후기", "현황"}
-POSITION_MARKERS = r"(?:current(?:ly)?(?:\s+position)?|present(?:\s+position)?|now|현재|현직|현\s|→|->|=>|▶)\s*[:：]?\s*"
+POSITION_MARKERS = r"(?:current(?:ly)?(?:\s+position)?|present(?:\s+position)?|now|현재|현직|(?<![가-힣])현\s|→|->|=>|▶)\s*[:：]?\s*"
 YEAR_RE = re.compile(r"((?:19[89]|20[0-4])\d)(?:\s*[./]\s*(\d{1,2}))?")
 EN_NAME_RE = re.compile(r"^([A-Z][a-z]+(?:[-\s][A-Z]?[a-z]+)?(?:[\s,]+[A-Z][a-z]+(?:[-\s][A-Z]?[a-z]+)?){1,2})\b")
 EN_NAME_STOP = {"current", "alumni", "former", "present", "member", "members", "postdoc", "professor", "research",
@@ -200,12 +200,24 @@ def years_of(text: str, degree: str = "") -> tuple[int | None, int | None, float
     return y1, y2, round(duration, 1) if low <= duration <= high else None
 
 
+# '투안 얀 구옌 (2012-2016 – 박사후연구원)', 'Carolien Bastiaanssen (2018-2019 – 연구원)'.
+NAME_YEARS_RE = re.compile(r"^([가-힣A-Za-z][가-힣A-Za-z .'\-]{0,30}?)\s*\(\s*-?\s*(?:19[89]|20[0-4])\d")
+STAFF_RE = re.compile(r"administrative|행정|실험\s*기술\s*지원|technician|lab\s*manager|secretary|비서", re.I)
 BILINGUAL_RE = re.compile(r"^([A-Za-z][A-Za-z'\-]*(?:\s+[A-Za-z][A-Za-z'\-]*){1,3})\s*\(([가-힣]{2,4})\)")
 
 
 def _name_in(line: str) -> tuple[str, str]:
     """(korean, english) name at the start of a line ('', '' if none)."""
     line = line.strip(" -•·*|:")
+    ny = NAME_YEARS_RE.match(line)
+    if ny and not degree_of(ny.group(1)) and not any(w.casefold() in EN_NAME_STOP for w in ny.group(1).split()):
+        name = ny.group(1).strip()
+        if re.fullmatch(r"[가-힣]{2,4}", name):
+            return name, ""
+        if re.fullmatch(r"[가-힣 ]{2,12}", name):        # foreign name in Hangul: '투안 얀 구옌'
+            return name.replace(" ", ""), ""
+        if re.fullmatch(r"[A-Za-z .'\-]{3,40}", name) and len(name.split()) >= 2:
+            return "", normalize_english_name(name)
     # Sentences and menus are not name lines ("최근에 해외 유학 ...", "사이트맵").
     sentence = len(line) > 90 or re.search(r"(다|요|니다)[.!]?$", line)
     m = None if sentence else re.match(r"^([가-힣]{2,4})(?=$|[\s(,/·|:\-])", line)
@@ -306,10 +318,11 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
             # Lines after the name that carry no degree, years or study mode are the
             # current position ('Researcher of Hanmi Pharm'); program lines are not.
             rest = [x for x in e["lines"][1:] if not YEAR_RE.search(x)
-                    and degree_of(x) in ("", "postdoc") and not (degree == "postdoc" and degree_of(x) == "postdoc")
+                    and degree_of(x) in ("", "postdoc", "undergrad")   # '생명과학부' is not a degree line
+                    and not (degree == "postdoc" and degree_of(x) == "postdoc")
                     and not re.search(r"full\s*time|part\s*time", x, re.I)]
             stated = bool(rest)
-            position = " | ".join(rest) if rest else (" | ".join(e["lines"][1:]) if len(e["lines"]) > 1 else text)
+            position = " | ".join(rest) if rest else re.sub(r"\([^)]*\)", " ", e["lines"][0])
             position = YEAR_RE.sub(" ", position)
             # Keep "postdoc" whole before degree words go ("박사후연구원" is not "후연구원").
             position = re.sub(dict(DEGREES)["postdoc"], " postdoc ", position, flags=re.I)
@@ -321,6 +334,11 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
         if not stated and (career == "other" or (career == "postdoc" and degree == "postdoc")):
             career = ""     # leftover words of the entry / the lab role itself, not a stated position
         # A name alone is not an alumnus: nav links, captions, the PI's name.
+        head = text[:marker.start()] if marker else e["lines"][0]
+        if STAFF_RE.search(head) and not re.search(r"박사|석사|ph\.?\s?d|m\.?s\.?|postdoc|박사후", head, re.I):
+            continue        # administrative / technical staff, not trainees
+        if degree in ("phd", "ms", "integrated") and re.search(dict(DEGREES)["postdoc"], head, re.I):
+            duration = None   # '2015-2024; 박사과정, 박사후연구원': PhD and postdoc together, not degree time
         if not (degree or end or career):
             continue
         people.append({"name_ko": e["name_ko"], "name_en": e["name_en"], "degree": degree or "unknown",

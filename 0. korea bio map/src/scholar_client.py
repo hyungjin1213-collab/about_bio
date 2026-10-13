@@ -99,3 +99,21 @@ class ScholarClient:
         if name_sim < 0.82:
             return None
         return best
+
+    def author_article_titles(self, scholar_id: str, limit: int = 8) -> list[str]:
+        """Titles of a Google Scholar profile's most cited articles (SerpApi google_scholar_author)."""
+        if not self.enabled or not scholar_id:
+            return []
+        try:
+            response = self.session.get(
+                "https://serpapi.com/search.json",
+                params={"engine": "google_scholar_author", "author_id": scholar_id, "num": limit,
+                        "sort": "citedby", "api_key": self.api_key},
+                timeout=REQUEST_TIMEOUT,
+            )
+            data = response.json() if response.status_code == 200 else {}
+        except (requests.RequestException, ValueError):
+            return []
+        if data.get("error"):
+            return []
+        return [str(a.get("title", "")) for a in data.get("articles", []) or [] if a.get("title")][:limit]

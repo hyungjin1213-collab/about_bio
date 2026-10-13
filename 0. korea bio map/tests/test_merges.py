@@ -31,3 +31,22 @@ def test_overrides_set_columns_and_ignore_unknown():
                           {"professor_id": "P2", "column": "name_ko", "value": "없음"}])
     out = apply_professor_overrides(profs, fixes)
     assert out.iloc[0]["name_ko"] == "정교수" and list(out.columns) == ["professor_id", "name_ko", "department"]
+
+
+def test_openalex_from_scholar_needs_name_fit_and_two_papers():
+    from pipeline import openalex_from_scholar
+
+    class Scholar:
+        def author_article_titles(self, sid):
+            return ["Paper one", "Paper two", "Paper three"]
+
+    class Client:
+        def _get(self, path, params):
+            works = {"Paper one": ["Sangwoo Seo", "Other Person"], "Paper two": ["Sang Woo Seo"],
+                     "Paper three": ["Someone Else"]}[params["search"]]
+            ids = {"Sangwoo Seo": "A1", "Sang Woo Seo": "A1", "Other Person": "A2", "Someone Else": "A3"}
+            return {"results": [{"authorships": [{"author": {"id": f"https://openalex.org/{ids[n]}",
+                                                             "display_name": n}} for n in works]}]}
+
+    assert openalex_from_scholar(Client(), Scholar(), "X", "서상우", "") == "A1"
+    assert openalex_from_scholar(Client(), Scholar(), "X", "김원종", "") == ""      # nobody fits the name

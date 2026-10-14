@@ -59,7 +59,7 @@ UNI_NOISE = {"university", "national", "college", "of", "the", "and", "institute
 PEOPLE_DIR = OUTPUT_DIR / "alumni"
 SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at", "parser"]
 # Bump when the parser changes: labs read by an older parser are read again.
-PARSER_VERSION = "12"
+PARSER_VERSION = "13"
 MANUAL_COLUMNS = ["professor_id", "name", "lab_url", "alumni_url", "memo"]
 
 LAB_LINK_WORDS = ["연구실 홈페이지", "연구실홈페이지", "홈페이지", "연구실", "lab homepage", "lab website", "homepage",
@@ -78,11 +78,12 @@ STOP_WORDS = ["publication", "논문", "research", "연구분야", "연구 분�
               "gallery", "갤러리", "copyright", "©"]
 
 DEGREES = [  # (kind, pattern); order matters: integrated before PhD/MS.
-    ("integrated", r"석\s*박\s*사?\s*통합|통합\s*과정|integrated|(?:combined\s+)?m\.?s\.?\s*[-/&]\s*ph\.?\s?d"),
+    ("integrated", r"석\s*박\s*사?\s*통합|통합\s*과정|integrated|(?:combined\s+)?m\.?s\.?\s*[-/&]\s*ph\.?\s?d"
+                   r"|master'?s?\s+(?:and|&)\s+(?:ph\.?\s?d|doctor)"),
     ("postdoc", r"post[-\s.]?\s?doc|박사\s*후|research\s+fellow|박사후연구원"),
     ("phd", r"ph\.?\s?d\.?|박사|doctor(?:al|ate)?"),
     ("ms", r"\bm\.?\s?s\.?\b|\bm\.?\s?sc\.?\b|석사|master"),
-    ("undergrad", r"\bb\.?\s?sc?\.?\b|학부|undergrad|intern|인턴"),
+    ("undergrad", r"\bb\.?\s?sc?\.?\b|(?<![가-힣])학부|undergrad|intern|인턴"),
 ]
 TYPICAL_YEARS = {"phd": (2.0, 9.0), "integrated": (3.0, 10.0), "ms": (1.0, 4.0), "postdoc": (0.5, 8.0)}
 CAREERS = [  # (kind, pattern); first match wins.
@@ -195,7 +196,10 @@ def years_of(text: str, degree: str = "") -> tuple[int | None, int | None, float
     (y1, m1), (y2, m2) = min(found, key=key), max(found, key=key)
     if y1 == y2:
         return None, y2, None
-    duration = (y2 + ((m2 or 8) - 1) / 12) - (y1 + ((m1 or 3) - 1) / 12) if (m1 or m2) else float(y2 - y1)
+    if m1 and m2:
+        duration = ((y2 * 12 + m2) - (y1 * 12 + m1) + 1) / 12    # 2023.03 - 2025.02: both months count
+    else:
+        duration = (y2 + ((m2 or 8) - 1) / 12) - (y1 + ((m1 or 3) - 1) / 12) if (m1 or m2) else float(y2 - y1)
     low, high = TYPICAL_YEARS.get(degree, (0.5, 10.0))
     return y1, y2, round(duration, 1) if low <= duration <= high else None
 
@@ -209,6 +213,10 @@ BILINGUAL_RE = re.compile(r"^([A-Za-z][A-Za-z'\-]*(?:\s+[A-Za-z][A-Za-z'\-]*){1,
 def _name_in(line: str) -> tuple[str, str]:
     """(korean, english) name at the start of a line ('', '' if none)."""
     line = line.strip(" -•·*|:")
+    # 'JU GYEONG KIM': capitals only.
+    if (re.fullmatch(r"[A-Z][A-Z'\-]+(?: [A-Z][A-Z'\-]+){1,3}", line) and not degree_of(line)
+            and not any(w.casefold() in EN_NAME_STOP for w in line.split())):
+        line = line.title()
     ny = NAME_YEARS_RE.match(line)
     if ny and not degree_of(ny.group(1)) and not any(w.casefold() in EN_NAME_STOP for w in ny.group(1).split()):
         name = ny.group(1).strip()
@@ -280,7 +288,8 @@ def _section_lines(soup: BeautifulSoup, whole_page: bool, inline: bool = False) 
         if len(line) <= 40 and any(w in line.casefold() for w in ALUMNI_WORDS):
             out = []
             for nxt in lines[i + 1:]:
-                if len(nxt) <= 30 and any(w in nxt.casefold() for w in STOP_WORDS):
+                if (len(nxt) <= 30 and any(w in nxt.casefold() for w in STOP_WORDS)) \
+                        or re.fullmatch(r"\d{4}년\s*\d{1,2}월", nxt):
                     break
                 out.append(nxt)
             return out
@@ -339,10 +348,102 @@ def _card_lines(lines: list[str]) -> list[str]:
     return out
 
 
+ROLE_RE = re.compile(r"researcher|course|student|fellow|연구원|과정|졸업|대학원생", re.I)
+TIMELINE_RE = re.compile(r"((?:19|20)\d\d)(?:\s*\.\s*\d{1,2})?\s*[~\-–]\s*"
+                         r"(?:((?:19|20)\d\d)|present|현재|now|\))", re.I)
+PRESENT_RE = re.compile(r"present|현재|\bnow\b|[~\-–]\s*(?:\)|$)", re.I)
+EDUCATION = ("phd", "ms", "integrated", "undergrad")
+
+
+def _is_role(line: str) -> bool:
+    return (len(line) <= 60 and not any(_name_in(line))
+            and bool(degree_of(line) in CARD_ORDER or ROLE_RE.search(line)))
+
+
+def _role_first(lines: list[str]) -> list[str]:
+    """'Doctoral Course / 2019' above each name: put the role after the name."""
+    names = [i for i, x in enumerate(lines) if any(_name_in(x))]
+    if not names or names[0] == 0 or not _is_role(lines[names[0] - 1]):
+        return lines
+    before = sum(1 for i in names if i > 0 and _is_role(lines[i - 1]))
+    after = sum(1 for i in names if i + 1 < len(lines) and _is_role(lines[i + 1]))
+    # Strict alternation: the line above the role is the previous person's name.
+    paired = sum(1 for i in names if i > 1 and _is_role(lines[i - 1]) and any(_name_in(lines[i - 2])))
+    if before < 3 or before <= after or paired < 0.6 * before:
+        return lines
+    out, i = [], 0
+    while i < len(lines):
+        if i + 1 < len(lines) and _is_role(lines[i]) and any(_name_in(lines[i + 1])):
+            out += [lines[i + 1], lines[i]]
+            i += 2
+        else:
+            out.append(lines[i])
+            i += 1
+    return out
+
+
+def _profile_lines(lines: list[str]) -> list[str] | None:
+    """CV-style profiles ('2002.03 ~ 2010.02 : ..., Ph.D.', 'present : 강원대학교'), several
+    dated lines per person: rewrite each as 'name / degree line / 현재: position'."""
+    dated = sum(1 for x in lines if TIMELINE_RE.search(x))
+    names = sum(1 for x in lines if any(_name_in(x)))
+    if dated < 6 or dated < 1.6 * max(names, 1):
+        return None
+    blocks: list[dict] = []
+    for i, line in enumerate(lines):
+        ko, en = _name_in(line)
+        if (ko or en) and not TIMELINE_RE.search(line):
+            if blocks and not blocks[-1]["rest"]:
+                continue              # 'Kim Gildong' under '김길동': the same person
+            heading = lines[i - 1] if i and _is_role(lines[i - 1]) and not TIMELINE_RE.search(lines[i - 1]) else ""
+            blocks.append({"name": f"{ko} ({en})" if ko and en else (ko or en), "heading": heading, "rest": []})
+        elif blocks:
+            blocks[-1]["rest"].append(line)
+    out: list[str] = []
+    for b in blocks:
+        timeline = [x for x in b["rest"] if TIMELINE_RE.search(x) or re.match(r"present\b|현재", x, re.I)]
+        start = lambda x: int(TIMELINE_RE.search(x).group(1)) if TIMELINE_RE.search(x) else 9999
+        kind = degree_of(b["heading"]) if degree_of(b["heading"]) in CARD_ORDER else ""
+        roles = [x for x in timeline if degree_of(x) in CARD_ORDER]
+        if kind:
+            role = next((x for x in roles if degree_of(x) == kind), "")
+        else:
+            role = max(roles, key=start, default="")
+        later = [x for x in timeline if degree_of(x) not in EDUCATION and x != role
+                 and (not role or start(x) >= start(role))]
+        now = [x for x in later if PRESENT_RE.search(x)]
+        position = (now or sorted(later, key=start))[-1] if (now or later) else ""
+        position = re.sub(r"^[\d.\s~\-–]*(?:present)?\s*[:：]?\s*", "", position, flags=re.I)
+        out += [b["name"], role or b["heading"] or ""] + ([f"현재: {position}"] if position else [])
+    return [x for x in out if x]
+
+
+UI_LINE_RE = re.compile(r"(메일|e-?mail|홈페이지|↗?\s*homepage|상세보기|더보기|자세히|view\s*more|more)\s*[:：]?.*",
+                        re.I)
+
+
 def _parse_lines(lines: list[str]) -> list[dict]:
     cards = sum(1 for x in lines if x.casefold() == "work") >= 5
     if cards:
         lines = _card_lines(lines)       # one name line per card: every name starts a record
+    else:
+        swapped = _role_first(lines)
+        cards = swapped is not lines
+        lines = swapped
+        profiles = _profile_lines(lines)
+        if profiles is not None:
+            lines, cards = profiles, True
+    people = _records(lines, cards)
+    names = sum(1 for x in lines if any(_name_in(x)))
+    if not cards and names >= 5 and len(people) < 0.3 * names:
+        # 'Name / 고려대학교 / 교수' with no degree or year anywhere: every name is a person.
+        listed = _records(lines, True)
+        if _quality(listed) > _quality(people):
+            people = listed
+    return people
+
+
+def _records(lines: list[str], cards: bool) -> list[dict]:
     entries: list[dict] = []
     current: dict | None = None
     group = ""      # degree of the heading the names sit under ("Ph.D. Alumni")
@@ -358,7 +459,8 @@ def _parse_lines(lines: list[str]) -> list[dict]:
         for j, x in enumerate(lines[i:i + 3]):
             if j and (BILINGUAL_RE.match(x.strip(" -•·*|:")) if bilingual else any(_name_in(x))):
                 return False            # the next person starts first
-            if degree_of(x) not in ("", "postdoc") or YEAR_RE.search(x):
+            if (degree_of(x) not in ("", "postdoc") or YEAR_RE.search(x) or (j == 0 and degree_of(x))
+                    or re.match(r"(?:" + dict(DEGREES)["postdoc"] + r")[^,]*,\s*(?:현|present|now)", x, re.I)):
                 return True
         return False
 
@@ -370,6 +472,7 @@ def _parse_lines(lines: list[str]) -> list[dict]:
             ko = en = ""
         low = line.casefold()
         if (not ko and not en and len(line) <= 40 and not YEAR_RE.search(line)
+                and not (current and len(current["lines"]) == 1)      # '(박사 졸업생)' under a name
                 and degree_of(line) and any(w in low for w in GROUP_WORDS)):
             group, current = degree_of(line), None
             continue
@@ -383,7 +486,7 @@ def _parse_lines(lines: list[str]) -> list[dict]:
         text = " | ".join(e["lines"])
         marker = re.search(POSITION_MARKERS, text, flags=re.I)
         degree = degree_of(text[:marker.start()] if marker else text) or e["group"]
-        start, end, duration = years_of(text, degree)
+        start, end, duration = years_of(text[:marker.start()] if marker else text, degree)
         stated = bool(marker)
         if marker:
             position = text[marker.end():]
@@ -391,6 +494,7 @@ def _parse_lines(lines: list[str]) -> list[dict]:
             # Lines after the name that carry no degree, years or study mode are the
             # current position ('Researcher of Hanmi Pharm'); program lines are not.
             rest = [x for x in e["lines"][1:] if not YEAR_RE.search(x)
+                    and not UI_LINE_RE.fullmatch(x) and "@" not in x
                     and degree_of(x) in ("", "postdoc", "undergrad")   # '생명과학부' is not a degree line
                     and not (degree == "postdoc" and degree_of(x) == "postdoc")
                     and not re.search(r"full\s*time|part\s*time", x, re.I)]
@@ -414,6 +518,9 @@ def _parse_lines(lines: list[str]) -> list[dict]:
             duration = None   # '2015-2024; 박사과정, 박사후연구원': PhD and postdoc together, not degree time
         if not (degree or end or career):
             continue
+        if (not stated and re.search(r"student|대학원생|재학|candidate", text, re.I)
+                and not (start and end and start != end)):
+            continue        # a current student ('PhD Student (Fall 2023)'), not an alumnus
         people.append({"name_ko": e["name_ko"], "name_en": e["name_en"], "degree": degree or "unknown",
                        "start_year": start, "end_year": end, "years": duration,
                        "years_exact": duration is not None and exact_months(text),
@@ -522,6 +629,10 @@ def alumni_links(html: str, base: str) -> tuple[list[str], list[str]]:
         hay = f"{text} {urlparse(url).path}".casefold()
         if NOT_ALUMNI_URL.search(url) or NOT_ALUMNI_URL.search(text):
             continue
+        parts = [x for x in unquote(urlparse(url).path).casefold().split("/") if x]
+        if any(w in x for x in parts[:-1] for w in ("alumni", "former", "graduates")):
+            continue        # '/alumni/some-name': one alumnus's own page
+
         if any(w in hay for w in ALUMNI_WORDS):
             alumni.append(url)
         elif any(w in hay for w in MEMBER_WORDS):
@@ -564,6 +675,8 @@ def reread_alumni(fetch: Fetcher, lab_url: str, alumni_urls: str) -> tuple[str, 
 
 def find_alumni(fetch: Fetcher, profile_url: str, manual: dict, orcid: str = "") -> tuple[str, list[str], list[dict]]:
     """(lab url, alumni page urls, alumni) for one professor."""
+    if manual.get("alumni_url", "").strip().casefold() == "none":
+        return manual.get("lab_url", ""), [], []        # checked by hand: the lab lists no alumni
     if manual.get("alumni_url"):
         html = fetch.html(manual["alumni_url"])
         return manual.get("lab_url", ""), [manual["alumni_url"]], parse_alumni(html) if html else []
@@ -876,7 +989,8 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
                 people_rows.append({"professor_id": pid, **{k: v for k, v in p.items()
                                                              if k not in ("fwci", "journals", "paper_ids")},
                                     "fwci_mean": round(statistics.mean(p["fwci"]), 2) if p.get("fwci") else ""})
-        if known_only and not people:
+        no_alumni = str(manual.get(pid, {}).get("alumni_url", "")).strip().casefold() == "none"
+        if known_only and not people and not no_alumni:
             print(f"[alumni] {pid}: alumni page not readable today, earlier figures kept", flush=True)
             continue
         status = "alumni" if people else ("lab_site" if lab_url else "no_lab_site")

@@ -43,7 +43,7 @@ def test_degree_and_career():
 
 
 def test_years():
-    assert years_of("2014.03 - 2019.08", "phd") == (2014, 2019, 5.4)
+    assert years_of("2014.03 - 2019.08", "phd") == (2014, 2019, 5.5)
     assert years_of("2017-2019", "ms") == (2017, 2019, 2.0)
     assert years_of("graduated 2020", "ms") == (None, 2020, None)
     assert years_of("1999-2020", "ms")[2] is None      # not a plausible M.S.
@@ -53,7 +53,7 @@ def test_list_page():
     people = parse_alumni(LIST_PAGE)
     assert [p["name_ko"] for p in people] == ["김민수", "이지은", "박준형"]
     kim, lee, park = people
-    assert kim["name_en"] == "Min Su Kim" and kim["degree"] == "phd" and kim["years"] == 5.4
+    assert kim["name_en"] == "Min Su Kim" and kim["degree"] == "phd" and kim["years"] == 5.5
     assert kim["career"] == "industry"
     assert lee["degree"] == "ms" and lee["career"] == "postdoc"
     assert park["degree"] == "integrated" and park["career"] == "faculty"
@@ -113,7 +113,7 @@ def test_papers_and_summary():
     kim = people[0]
     assert (kim["papers"], kim["first_author"], kim["top10"]) == (2, 1, 1)
     s = summarize("P1", "http://lab", ["http://lab/alumni"], people, today=date(2024, 6, 1))
-    assert s["alumni"] == 3 and s["phd_graduates"] == 2 and s["phd_years"] == 5.4
+    assert s["alumni"] == 3 and s["phd_graduates"] == 2 and s["phd_years"] == 5.5
     assert s["career_industry"] == 1 and s["career_postdoc"] == 1 and s["career_faculty"] == 1
     assert s["fwci_median"] == 2.0 and s["top10_share"] == 0.5 and s["top_journals"] == "Nature"
     # Left in the last 5 years (2019+): 김민수 (2019) and 이지은 (2019), not 박준형 (2018).
@@ -411,3 +411,113 @@ def test_alumni_cards_with_work_and_previously():
     assert (people["최하늘"]["degree"], people["최하늘"]["end_year"], people["최하늘"]["career"]) == ("ms", 2000, "industry")
     assert people["정바다"]["career"] == "industry"
     assert people["한누리"]["career"] == "institute"
+
+
+def _page(lines):
+    return "<html><body>" + "".join(f"<p>{x}</p>" for x in lines) + "</body></html>"
+
+
+def test_cv_timeline_profiles():
+    html = _page(["Alumni", "Postdoctoral Researcher", "Doctor of Philosophy", "Master of Science",
+        "Postdoctoral Researcher", "김가람 Ph.D.", "Garam Kim",
+        "2012.03 ~ 2016.02 : College of Pharmacy, Korea University, Pharm.D.",
+        "2016.03 ~ 2022.08 : College of Pharmacy, Seoul National University, Ph.D. (Pharmaceutics)",
+        "2022.09 ~ 2023.01 : College of Pharmacy, Seoul National University, Post-doctoral fellow",
+        "2023.02 ~ 2025.08 : School of Pharmacy, University of Waterloo, Postdoctoral fellow",
+        "2025.07 ~ present : Alexion, AstraZeneca, Senior Manager",
+        "Doctor of Philosophy", "이나래 Ph.D.", "Narae Lee",
+        "1992.03 ~ 1996.02 : College of Pharmacy, Seoul National University, B.S.",
+        "1996.03 ~ 1998.02 : College of Pharmacy, Seoul National University, M.S. (Pharmaceutics)",
+        "1998.03 ~ 2004.02 : College of Pharmacy, Seoul National University, Ph.D. (Pharmaceutics)",
+        "2005.10 ~ 2009.04 : NCI/NIH (박사후연구원)",
+        "2015.03 ~ present : 강원대학교 약학대학 교수",
+        "Doctor of Philosophy", "박다솜 Ph.D.",
+        "1993.03 ~ 1997.02 : College of Pharmacy, Seoul National University, B.S.",
+        "1999.03 ~ 2003.02 : College of Pharmacy, Seoul National University, Ph.D. (Pharmaceutics)",
+        "Master of Science", "최라온 M.S.",
+        "2010.03 ~ 2012.02 : College of Pharmacy, Seoul National University, M.S. (Pharmaceutics)",
+        "2012.03 ~ present : 한미약품 연구원"])
+    got = {p["name_ko"]: (p["degree"], p["years"], p["career"]) for p in parse_alumni(html)}
+    assert got == {"김가람": ("postdoc", None, "industry"), "이나래": ("phd", 6.0, "faculty"),
+                   "박다솜": ("phd", 4.0, "unknown"), "최라온": ("ms", 2.0, "industry")}
+
+
+def test_profile_cards_with_education_lines():
+    html = _page(["Alumni",
+        "Abebe Bekele Tadesse", "Research Interest", "In vitro study", "Education",
+        "Animal Science, Haramaya University | B.S. (2001 ~ 2005)",
+        "Chinese Academy of Agricultural Sciences | Ph.D. (2018. 09 ~ 2021. 12)",
+        "Postdoctoral researcher (2024. 03 ~ 2025. 08)",
+        "Gaon Park", "E.mail: someone@example.com", "Research Interest", "Methane mitigation", "Education",
+        "Chung-Ang University | B.S. (2019. 03 ~ 2023. 02)", "Chung-Ang University | M.S. (2023. 03 ~ 2025. 02)",
+        "Researcher at Samsung Biologics (2025. 03 ~ )",
+        "Dain Lee", "E.mail: other@example.com", "Education",
+        "Chung-Ang University | B.S. (2018. 03 ~ 2024. 02)", "Chung-Ang University | M.S. (2024. 03 ~ 2026. 02)"])
+    got = {p["name_en"]: (p["degree"], p["years"], p["career"]) for p in parse_alumni(html)}
+    assert got["Abebe Bekele Tadesse"][0] == "postdoc"
+    assert got["Gaon Park"] == ("ms", 2.0, "industry")
+    assert got["Dain Lee"][:2] == ("ms", 2.0)
+
+
+def test_capital_letter_names_with_dated_degrees():
+    html = _page(["ALUMNI", "GARAM KIM", "garam@example.com", "Thesis : Functional food materials",
+        "2018-2020 MS, Food Toxicology, Kyungpook National University",
+        "2014-2018 BS, Applied Biology, Chonnam National University", "Publication",
+        "Kim G, Lee N. (2022) A paper title. Journal.",
+        "NARAE LEE", "narae@example.com", "2020-2022 MS, Food Toxicology, Kyungpook National University",
+        "2016-2020 BS, Food Science, Kyungpook National University", "Publication",
+        "DASOM PARK", "dasom@example.com", "2019-2024 PhD, Food Toxicology, Kyungpook National University",
+        "2017-2019 MS, Food Toxicology, Kyungpook National University",
+        "2024-present Researcher, Korea Food Research Institute"])
+    got = {p["name_en"]: (p["degree"], p["years"], p["career"]) for p in parse_alumni(html)}
+    assert got == {"Garam Kim": ("ms", 2.0, "unknown"), "Narae Lee": ("ms", 2.0, "unknown"),
+                   "Dasom Park": ("phd", 5.0, "institute")}
+
+
+def test_role_written_above_the_name():
+    html = _page(["Former Members", "Senior Researcher / 2016", "Garam Kim", "Doctoral Course / 2019", "Narae Lee",
+                  "Senior Researcher", "Dasom Park", "Doctoral Course / 2023", "Raon Choi",
+                  "Combined Masters and Doctoral course", "Maru Jung"])
+    got = {p["name_en"]: (p["degree"], p["end_year"], p["career"]) for p in parse_alumni(html)}
+    assert got["Narae Lee"] == ("phd", 2019, "unknown")
+    assert got["Raon Choi"] == ("phd", 2023, "unknown")
+    assert got["Maru Jung"][0] == "integrated"
+
+
+def test_mail_and_homepage_buttons_are_not_careers():
+    html = _page(["졸업생", "김가람", "(박사 졸업생)", "메일", "홈페이지", "상세보기",
+                  "이나래", "2019년 석사 졸업생", "메일", "홈페이지", "상세보기"])
+    people = parse_alumni(html)
+    assert [(p["name_ko"], p["degree"], p["career"]) for p in people] == [
+        ("김가람", "phd", "unknown"), ("이나래", "ms", "unknown")]
+
+
+def test_current_students_on_members_page_are_not_alumni():
+    html = _page(["Members", "Garam Kim", "PhD Student", "(Spring 2023)", "Narae Lee", "PhD Student", "(Fall 2023)",
+                  "Dasom Park", "MS/PhD Student", "(Spring 2024)", "Raon Choi", "MS Student", "(Spring 2025)",
+                  "김가람", "석박통합 대학원생", "메일", "이나래", "박사후연구원, 현 아주대학교 의과대학 교수", "메일"])
+    people = parse_alumni(html)
+    assert [p["name_ko"] for p in people] == ["이나래"] and people[0]["career"] == "faculty"
+
+
+def test_department_name_in_heading_is_not_a_degree():
+    html = _page(["Alumni | 서울대학교 첨단융합학부 연구실", "Garam Kim", "고려대학교", "교수",
+                  "Narae Lee", "삼성바이오로직스", "Dasom Park", "Postdoc at Fudan University",
+                  "Raon Choi", "칠곡경북대학교병원", "Maru Jung", "삼성전자", "Bada Han", "GC녹십자"])
+    got = {p["name_en"]: (p["degree"], p["career"]) for p in parse_alumni(html)}
+    assert got == {"Garam Kim": ("unknown", "faculty"), "Narae Lee": ("unknown", "industry"),
+                   "Dasom Park": ("postdoc", "unknown"), "Raon Choi": ("unknown", "hospital"),
+                   "Maru Jung": ("unknown", "industry"), "Bada Han": ("unknown", "industry")}
+
+
+def test_news_after_alumni_section_is_not_read():
+    html = _page(["Members", "Alumni", "김가람(석사) - Kim et al., Journal (2024)", "이나래(석사) - Lee et al., Journal (2023)",
+                  "2026년 6월", "박다솜 회식", "2025년 8월", "최라온 박사학위 수여"])
+    assert [p["name_ko"] for p in parse_alumni(html, whole_page=False)] == ["김가람", "이나래"]
+
+
+def test_one_alumnus_page_is_not_an_alumni_list():
+    html = ('<a href="/lab/alumni">Alumni</a><a href="/lab/alumni/garam-kim">Garam Kim</a>'
+            '<a href="/lab/members">Members</a>')
+    alumni, members = alumni_links(html, "https://lab.example.org/lab")
+    assert alumni == ["https://lab.example.org/lab/alumni"]

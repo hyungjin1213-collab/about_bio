@@ -130,7 +130,7 @@ jobs:
           if [ -f "0. korea bio map/data/discovery_log.csv" ]; then
             git add "0. korea bio map/data/discovery_log.csv"
           fi
-          for f in lab_sites.csv lab_sites_manual.csv; do
+          for f in lab_sites.csv lab_sites_manual.csv scholar_profiles.csv; do
             if [ -f "0. korea bio map/data/$f" ]; then
               git add "0. korea bio map/data/$f"
             fi

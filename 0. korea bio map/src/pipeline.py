@@ -210,6 +210,10 @@ def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
     resolved_rows: list[dict[str, str]] = []
     scholar_rows = _read_csv(DATA_DIR / "scholar_profiles.csv")
     scholar_ids = dict(zip(scholar_rows["professor_id"], scholar_rows["scholar_id"])) if not scholar_rows.empty else {}
+    # OpenAlex authors already found from those profiles: Scholar lookups cost paid searches.
+    scholar_found = (dict(zip(scholar_rows["professor_id"], scholar_rows["openalex_id"]))
+                     if "openalex_id" in scholar_rows.columns else {})
+    scholar_new: dict[str, str] = {}
     scholar = ScholarClient()
 
     for _, row in professors.iterrows():
@@ -227,7 +231,9 @@ def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
             except OpenAlexUnavailable:
                 pass
 
-        if not current_id and scholar_ids.get(item.get("professor_id", "")):
+        if not current_id and scholar_found.get(item.get("professor_id", "")):
+            current_id = scholar_found[item["professor_id"]]
+        elif not current_id and scholar_ids.get(item.get("professor_id", "")):
             # A Google Scholar profile given by hand: its papers, found in OpenAlex,
             # name the OpenAlex author (checked against the Korean name).
             try:
@@ -235,6 +241,8 @@ def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
                                                    item.get("name_ko", ""), item.get("name_en", ""))
             except OpenAlexUnavailable:
                 current_id = ""
+            if current_id:
+                scholar_new[item["professor_id"]] = current_id
             print(f"[resolve] {item.get('professor_id')} {item.get('name_ko')}: Google Scholar -> "
                   f"{current_id or 'no matching OpenAlex author'}", flush=True)
 
@@ -285,6 +293,12 @@ def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
                 item["primary_field"] = str((topics[0].get("subfield") or {}).get("display_name", ""))
         resolved_rows.append(item)
 
+    if scholar_new:
+        if "openalex_id" not in scholar_rows.columns:
+            scholar_rows["openalex_id"] = ""
+        for pid, oid in scholar_new.items():
+            scholar_rows.loc[scholar_rows["professor_id"] == pid, "openalex_id"] = oid
+        scholar_rows.to_csv(DATA_DIR / "scholar_profiles.csv", index=False, encoding="utf-8-sig")
     resolved = pd.DataFrame(resolved_rows, columns=PROFESSOR_COLUMNS)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     resolved.to_csv(OUTPUT_DIR / "professors_enriched.csv", index=False)

@@ -50,3 +50,23 @@ def test_openalex_from_scholar_needs_name_fit_and_two_papers():
 
     assert openalex_from_scholar(Client(), Scholar(), "X", "서상우", "") == "A1"
     assert openalex_from_scholar(Client(), Scholar(), "X", "김원종", "") == ""      # nobody fits the name
+
+
+def test_scholar_profile_result_is_kept(tmp_path, monkeypatch):
+    """A Google Scholar profile resolved once is not looked up again (paid searches)."""
+    import pandas as pd
+    import pipeline
+
+    monkeypatch.setattr(pipeline, "DATA_DIR", tmp_path)
+    pd.DataFrame([{"professor_id": "P0001", "name_ko": "김가람", "name_en": "Garam Kim",
+                   "university": "Test University", "primary_field": "생명"}], columns=pipeline.PROFESSOR_COLUMNS).fillna("").to_csv(
+        tmp_path / "professors_seed.csv", index=False)
+    pd.DataFrame([{"professor_id": "P0001", "scholar_id": "ABC", "memo": "", "openalex_id": "A123"}]).to_csv(
+        tmp_path / "scholar_profiles.csv", index=False)
+
+    def boom(*a, **k):
+        raise AssertionError("Scholar looked up again")
+
+    monkeypatch.setattr(pipeline, "openalex_from_scholar", boom)
+    out = pipeline.resolve_professors(object())
+    assert out.loc[0, "openalex_id"] == "A123"

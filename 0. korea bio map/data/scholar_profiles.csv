@@ -1,4 +1,4 @@
-professor_id,scholar_id,memo
-P0002,FhfSBkgAAAAJ,서상우 (서울대): 사용자 제공 Google Scholar (10/13)
-P0004,XBdpRfwAAAAJ,김원종 (POSTECH): 사용자 제공 Google Scholar (10/13)
-P0005,SQBIcTAAAAAJ,김성은 (국민대): 사용자 제공 Google Scholar (10/13)
+﻿professor_id,scholar_id,memo,openalex_id
+P0002,FhfSBkgAAAAJ,서상우 (서울대): 사용자 제공 Google Scholar (10/13),A5066692256
+P0004,XBdpRfwAAAAJ,김원종 (POSTECH): 사용자 제공 Google Scholar (10/13),
+P0005,SQBIcTAAAAAJ,김성은 (국민대): 사용자 제공 Google Scholar (10/13),

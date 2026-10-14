@@ -59,7 +59,7 @@ UNI_NOISE = {"university", "national", "college", "of", "the", "and", "institute
 PEOPLE_DIR = OUTPUT_DIR / "alumni"
 SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at", "parser"]
 # Bump when the parser changes: labs read by an older parser are read again.
-PARSER_VERSION = "13"
+PARSER_VERSION = "14"
 MANUAL_COLUMNS = ["professor_id", "name", "lab_url", "alumni_url", "memo"]
 
 LAB_LINK_WORDS = ["연구실 홈페이지", "연구실홈페이지", "홈페이지", "연구실", "lab homepage", "lab website", "homepage",
@@ -79,10 +79,10 @@ STOP_WORDS = ["publication", "논문", "research", "연구분야", "연구 분�
 
 DEGREES = [  # (kind, pattern); order matters: integrated before PhD/MS.
     ("integrated", r"석\s*박\s*사?\s*통합|통합\s*과정|integrated|(?:combined\s+)?m\.?s\.?\s*[-/&]\s*ph\.?\s?d"
-                   r"|master'?s?\s+(?:and|&)\s+(?:ph\.?\s?d|doctor)"),
+                   r"|master'?s?\s+(?:and|&)\s+(?:ph\.?\s?d|doctor)|\bma\s*/\s*ph\.?\s?d"),
     ("postdoc", r"post[-\s.]?\s?doc|박사\s*후|research\s+fellow|박사후연구원"),
     ("phd", r"ph\.?\s?d\.?|박사|doctor(?:al|ate)?"),
-    ("ms", r"\bm\.?\s?s\.?\b|\bm\.?\s?sc\.?\b|석사|master"),
+    ("ms", r"\bm\.?\s?s\.?\b|\bm\.?\s?sc\.?\b|\bm\.?a\.?\s+degree|석사|master"),
     ("undergrad", r"\bb\.?\s?sc?\.?\b|(?<![가-힣])학부|undergrad|intern|인턴"),
 ]
 TYPICAL_YEARS = {"phd": (2.0, 9.0), "integrated": (3.0, 10.0), "ms": (1.0, 4.0), "postdoc": (0.5, 8.0)}
@@ -110,10 +110,12 @@ NOT_NAMES = {"이름", "성명", "학위", "기간", "현재", "현직", "박사
              "연구원", "교수", "진로", "근무처", "연도", "년도", "분야", "직위", "직책", "구분", "졸업생", "동문", "학위과정",
              "사이트맵", "홈페이지", "로그인", "연구실", "교수소개", "연구분야", "오시는길", "공지사항", "갤러리", "바로가기",
              "상세보기", "메일", "주소", "전화", "팩스", "소개", "자료실", "후기", "현황"}
-POSITION_MARKERS = r"(?:current(?:ly)?(?:\s+position)?|present(?:\s+position)?|now|현재|현직|(?<![가-힣])현\s|→|->|=>|▶)\s*[:：]?\s*"
+POSITION_MARKERS = r"(?:position\s+at\s+leave|current(?:ly)?(?:\s+position)?|present(?:\s+position)?|now|현재|현직|(?<![가-힣])현\s|→|->|=>|▶)\s*[:：]?\s*"
 YEAR_RE = re.compile(r"((?:19[89]|20[0-4])\d)(?:\s*[./]\s*(\d{1,2}))?")
 EN_NAME_RE = re.compile(r"^([A-Z][a-z]+(?:[A-Z][a-z]+)?(?:[-\s][A-Z]?[a-z]+)?(?:[\s,]+[A-Z][a-z]+(?:[-\s][A-Z]?[a-z]+)?){1,2})\b")
-EN_NAME_STOP = {"current", "alumni", "former", "present", "member", "members", "postdoc", "professor", "research",
+EN_NAME_STOP = {"staff", "engineer", "software", "manager", "director", "technical", "leader", "lead", "team",
+                "head", "chief", "vice", "president", "analyst", "consultant", "specialist", "officer", "partner",
+                "current", "alumni", "former", "present", "member", "members", "postdoc", "professor", "research",
                 "samsung", "korea", "seoul", "university", "institute", "department", "school", "college", "lab",
                 "laboratory", "phd", "master", "graduate", "student", "students", "now", "position", "thesis",
                 "senior", "principal", "assistant", "associate", "scientist", "researcher", "the", "and", "at", "of",
@@ -126,7 +128,7 @@ EN_NAME_STOP = {"current", "alumni", "former", "present", "member", "members", "
 
 # ------------------------------------------------------------------ parsing
 def _clean(text: str) -> str:
-    return re.sub(r"\s+", " ", text or "").strip()
+    return re.sub(r"\s+", " ", re.sub(r"[\u200b-\u200d\u2060\ufeff]", "", text or "")).strip()
 
 
 def degree_of(text: str) -> str:
@@ -213,6 +215,9 @@ BILINGUAL_RE = re.compile(r"^([A-Za-z][A-Za-z'\-]*(?:\s+[A-Za-z][A-Za-z'\-]*){1,
 def _name_in(line: str) -> tuple[str, str]:
     """(korean, english) name at the start of a line ('', '' if none)."""
     line = line.strip(" -•·*|:")
+    line = re.sub(r"^(?:dr|prof)\.?\s+(?=[A-Z가-힣])", "", line, flags=re.I)
+    if re.fullmatch(r"[가-힣](?: [가-힣]){1,3}", line):          # '천 시 민'
+        line = line.replace(" ", "")
     # 'JU GYEONG KIM': capitals only.
     if (re.fullmatch(r"[A-Z][A-Z'\-]{0,8}(?: [A-Z][A-Z'\-]{0,8}){1,3}", line) and not degree_of(line)
             and not any(w.casefold() in EN_NAME_STOP for w in line.split())):
@@ -370,7 +375,8 @@ def _role_first(lines: list[str]) -> list[str]:
     before = sum(1 for i in names if i > 0 and _is_role(lines[i - 1]))
     after = sum(1 for i in names if i + 1 < len(lines) and _is_role(lines[i + 1]))
     # Strict alternation: the line above the role is the previous person's name.
-    paired = sum(1 for i in names if i > 1 and _is_role(lines[i - 1]) and any(_name_in(lines[i - 2])))
+    paired = sum(1 for i in names if i > 1 and _is_role(lines[i - 1])
+                 and (any(_name_in(lines[i - 2])) or not YEAR_RE.search(lines[i - 1])))
     if before < 3 or before <= after or paired < 0.6 * before:
         return lines
     out, i = [], 0
@@ -436,12 +442,13 @@ def _parse_lines(lines: list[str]) -> list[dict]:
     if cards:
         lines = _card_lines(lines)       # one name line per card: every name starts a record
     else:
-        swapped = _role_first(lines)
-        cards = swapped is not lines
-        lines = swapped
         profiles = _profile_lines(lines)
         if profiles is not None:
             lines, cards = profiles, True
+        else:
+            swapped = _role_first(lines)
+            cards = swapped is not lines
+            lines = swapped
     people = _records(lines, cards)
     names = sum(1 for x in lines if any(_name_in(x)))
     if not cards and names >= 5 and len(people) < 0.3 * names:
@@ -485,7 +492,14 @@ def _records(lines: list[str], cards: bool) -> list[dict]:
                 and degree_of(line) and any(w in low for w in GROUP_WORDS)):
             group, current = degree_of(line), None
             continue
-        if ko or en:
+        if (ko or en) and current is not None and len(current["lines"]) <= 2 \
+                and not any(YEAR_RE.search(x) for x in current["lines"]) \
+                and ((ko and not en and current["name_en"] and not current["name_ko"])
+                     or (en and not ko and current["name_ko"] and not current["name_en"])):
+            # 'Dr. Simin Chun' then '천시민': one person written in both scripts
+            current["name_ko"] = current["name_ko"] or ko
+            current["name_en"] = current["name_en"] or en
+        elif ko or en:
             current = {"name_ko": ko, "name_en": en, "lines": [line], "group": group}
             entries.append(current)
         elif current is not None and len(current["lines"]) < 5 and len(line) <= 200:
@@ -1162,6 +1176,20 @@ def alumni_lab_info() -> dict[str, dict]:
     return out
 
 
+def _mask_line(line: str) -> str:
+    """A page line for the probe log with names, e-mails and citations hidden."""
+    line = re.sub(r"\S+@\S+|\S+\s+at\s+\S+\.(?:com|net|kr|edu|org)\S*", "***@***", line)
+    if re.search(r"et al|\(\d{4}\)|\b[A-Z][a-z]+ [A-Z]{1,2}[,.]", line):
+        return "[citation]"
+    ko, en = _name_in(line)
+    for name in filter(None, (ko, en)):
+        pattern = r"\s*".join(map(re.escape, name.replace(" ", "")))
+        line = re.sub(pattern, name[:1] + "**", line, count=1, flags=re.I)
+    if re.fullmatch(r"[A-Za-z][A-Za-z.'\-]*(?:\s+[A-Za-z][A-Za-z.'\-]*){1,3}", line) and len(line) <= 40:
+        line = line[:1] + "**"          # a short line of capitalised words is likely a name
+    return line
+
+
 def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
     """Diagnose alumni pages for some labs: what each page returns and how it parses.
     Names at the start of lines are masked (김**) in the printout."""
@@ -1169,10 +1197,6 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
     sites = _read(SITES_PATH, SITE_COLUMNS).set_index("professor_id")
     manual = {r["professor_id"]: r.to_dict() for _, r in _read(MANUAL_PATH, MANUAL_COLUMNS).iterrows()}
 
-    def mask(line: str) -> str:
-        ko, en = _name_in(line)
-        name = ko or en
-        return line.replace(name, name[:1] + "**", 1) if name else line
 
     extra: dict[str, list[str]] = {}
     for item in filter(None, os.getenv("ALUMNI_PROBE_URLS", "").split(",")):
@@ -1223,4 +1247,4 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                           and any(w in x.casefold() for w in ALUMNI_WORDS)), 0)
             print(f"[probe]   {len(lines)} text lines (block breaks); from line {start}:", flush=True)
             for line in lines[start:start + 160]:
-                print(f"[probe]     | {mask(line)[:110]}", flush=True)
+                print(f"[probe]     | {_mask_line(line)[:110]}", flush=True)

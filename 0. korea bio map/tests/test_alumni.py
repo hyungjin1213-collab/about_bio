@@ -552,3 +552,51 @@ def test_camel_case_names_with_employer_only():
     html = _page(["Alumni"] + [x for n, w in [("EunHye Jeong", "서지넥스"), ("JiSu Kim", "삼성전자"),
         ("YunMi Seo", "삼성바이오에피스"), ("Garam Kim", "고려대학교 교수"), ("Narae Lee", "LG화학")] for x in (n, w)])
     assert len(parse_alumni(html)) == 5
+
+
+def test_job_titles_are_not_names():
+    pairs = [("김가람 (Garam Kim)", "Samsung Electronics", "Staff Engineer"),
+             ("이나래 (Narae Lee)", "SK Hynix Inc.", "Technical Leader"),
+             ("박다솜 (Dasom Park)", "Korea Institute of Science and Technology", "Senior Researcher"),
+             ("최라온 (Raon Choi)", "Ewha Womans University", "Associate Professor"),
+             ("정마루 (Maru Jung)", "Samsung Electronics", "Software Engineer")]
+    people = parse_alumni(_page(["Alumni"] + [x for p in pairs for x in p]))
+    assert len(people) == 5 and [p["career"] for p in people].count("industry") == 3
+
+
+def test_zero_width_spaces_and_position_at_leave():
+    html = _page(["Alumni​", "Garam Kim", "​", "2020.02. MA/PhD degree", "​",
+                  "Position at leave:", "Assistant Professor​", "Chung-Ang University",
+                  "Narae Lee", "​", "2024.02. MA degree", "​", "Position at leave:", "SK Bioscience",
+                  "Dasom Park", "​", "2025.02. MA degree​", "Position at leave:", "Samsung Electronics"])
+    got = {p["name_en"]: (p["degree"], p["end_year"], p["career"]) for p in parse_alumni(html)}
+    assert got == {"Garam Kim": ("integrated", 2020, "faculty"), "Narae Lee": ("ms", 2024, "industry"),
+                   "Dasom Park": ("ms", 2025, "industry")}
+
+
+def test_doctor_titles_and_names_in_both_scripts():
+    html = _page(["Ph. D. Alumni", "Dr. Garam Kim", "김 가 람", "2018 . 03 ~ 2024. 02",
+                  "Dr. Narae Lee", "이 나 래", "2019 . 09 ~ 2023. 08",
+                  "M. S. Alumni", "Dasom Park", "박 다 솜", "2018 . 03 ~ 2020. 02"])
+    got = {p["name_ko"]: (p["name_en"], p["degree"], p["years"]) for p in parse_alumni(html)}
+    assert got == {"김가람": ("Garam Kim", "phd", 6.0), "이나래": ("Narae Lee", "phd", 4.0),
+                   "박다솜": ("Dasom Park", "ms", 2.0)}
+
+
+def test_role_label_above_each_card():
+    html = _page(["Alumni"] + [x for name, ko, years, now in [
+        ("Dr. Garam Kim", "김가람", "Lab period : 2011/02 ~ 2012/06", "Current : 광운대 전자공학과 교수"),
+        ("Dr. Narae Lee", "이나래", "Lab period : 2012/02 ~ 2013/02", "Current : 한국세라믹기술원 책임연구원"),
+        ("Dr. Dasom Park", "박다솜", "Lab period : 2014/03 ~ 2017/03", "Current : 삼성전자")]
+        for x in ("Post Doc", name, ko, years, now, "더보기")])
+    got = {p["name_ko"]: (p["degree"], p["career"]) for p in parse_alumni(html)}
+    assert got == {"김가람": ("postdoc", "faculty"), "이나래": ("postdoc", "institute"), "박다솜": ("postdoc", "industry")}
+
+
+def test_probe_lines_hide_names_and_mail():
+    from alumni import _mask_line
+    assert "Gyeong" not in _mask_line("JU GYEONG KIM")
+    assert "naver" not in _mask_line("e-mail : someone1013@naver.com")
+    assert _mask_line("Kim G, Lee N. (2022) A paper title. Journal.") == "[citation]"
+    assert "가람" not in _mask_line("김가람 (Garam Kim)") and "Garam" not in _mask_line("김가람 (Garam Kim)")
+    assert "Hye" not in _mask_line("EunHye Jeong")

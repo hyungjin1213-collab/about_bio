@@ -621,3 +621,17 @@ def test_research_professor_line_does_not_end_the_section():
                   "Position at leave:", "Assistant Professor", "Narae Lee", "2022.02. MA/PhD degree",
                   "Position at leave:", "Voronoi Inc.", "Research", "Dasom Park", "2023.02. MA degree"])
     assert [p["name_en"] for p in parse_alumni(html, whole_page=False)] == ["Garam Kim", "Narae Lee"]
+
+
+def test_undergraduate_interns_are_not_alumni():
+    html = _page(["Former Members", "2025", "GARAM KIM (Undergraduate student, Kyung Hee University)",
+                  "NARAE LEE (Undergraduate student, Kyung Hee University)", "DASOM PARK (Research internship, Some University)",
+                  "Raon Choi", "MS", "MAR 2020 ~ FEB 2022", "BASGENBIO"])
+    assert [p["name_en"] for p in parse_alumni(html)] == ["Raon Choi"]
+
+
+def test_probe_hides_names_inside_lines():
+    from alumni import _mask_line
+    assert "CHOI" not in _mask_line("AREUM CHOI (Undergraduate student, Kyung Hee University)")
+    assert "Seok" not in _mask_line("Celebrating Seok June and Dae Yeol's publication")
+    assert "KIM" not in _mask_line("JiMin KIM, PhD (August, 2026)")

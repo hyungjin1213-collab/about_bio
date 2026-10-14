@@ -545,6 +545,8 @@ def _records(lines: list[str], cards: bool) -> list[dict]:
             duration = None   # '2015-2024; 박사과정, 박사후연구원': PhD and postdoc together, not degree time
         if not (degree or end or career):
             continue
+        if degree == "undergrad":
+            continue        # undergraduate interns: no degree from the lab
         if (not stated and re.search(r"student|대학원생|재학|candidate", text, re.I)
                 and not (start and end and start != end)):
             continue        # a current student ('PhD Student (Fall 2023)'), not an alumnus
@@ -1185,6 +1187,10 @@ def _mask_line(line: str) -> str:
     line = re.sub(r"\S+@\S+|\S+\s+at\s+\S+\.(?:com|net|kr|edu|org)\S*", "***@***", line)
     if re.search(r"et al|\(\d{4}\)|\b[A-Z][a-z]+ [A-Z]{1,2}[,.]", line):
         return "[citation]"
+    if re.search(r"[A-Z][a-z]+(?:'s|’s)\b|\b[A-Z][a-z]+ and [A-Z][a-z]+", line):
+        return "[caption]"
+    # Runs of capitalised words anywhere ('AREUM CHOI (Undergraduate ...)', 'JiMin KIM, PhD')
+    line = re.sub(r"\b[A-Z][A-Za-z'\-]+(?:\s+[A-Z][A-Za-z'\-]+){1,3}\b", lambda m: m.group(0)[:1] + "**", line)
     ko, en = _name_in(line)
     for name in filter(None, (ko, en)):
         pattern = r"\s*".join(map(re.escape, name.replace(" ", "")))

@@ -176,6 +176,29 @@ def openalex_from_scholar(client: OpenAlexClient, scholar, scholar_id: str, name
     return best[0][0] if best and best[0][1] >= 2 else ""
 
 
+def scholar_probe(client: OpenAlexClient, ids: list[str]) -> None:
+    """Show why a hand-given Google Scholar profile does or does not lead to an OpenAlex author."""
+    scholar = ScholarClient()
+    rows = _read_csv(DATA_DIR / "scholar_profiles.csv")
+    profs = _read_csv(DATA_DIR / "professors_seed.csv", PROFESSOR_COLUMNS).set_index("professor_id")
+    for _, r in rows[rows["professor_id"].isin(ids)].iterrows():
+        pid = r["professor_id"]
+        name_ko, name_en = (profs.at[pid, "name_ko"], profs.at[pid, "name_en"]) if pid in profs.index else ("", "")
+        titles = scholar.author_article_titles(r["scholar_id"])
+        print(f"[scholar-probe] {pid} {name_ko} / {name_en}: serpapi enabled={scholar.enabled} "
+              f"titles={len(titles)}", flush=True)
+        for title in titles:
+            data = client._get("works", {"search": title[:200], "per-page": 2, "select": "id,title,authorships"})
+            work = (data.get("results") or [{}])[0]
+            names = [((a.get("author") or {}).get("display_name", ""), (a.get("author") or {}).get("id", ""))
+                     for a in work.get("authorships") or []]
+            fit = [(n, normalize_openalex_id(str(i))) for n, i in names if name_ko and name_compatible(n, name_ko)]
+            print(f"[scholar-probe]   '{title[:60]}' -> '{str(work.get('title', ''))[:60]}' "
+                  f"{len(names)} authors; fitting {fit}", flush=True)
+        print(f"[scholar-probe]   result: {openalex_from_scholar(client, scholar, r['scholar_id'], name_ko, name_en) or 'none'}",
+              flush=True)
+
+
 def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
     seed = _read_csv(DATA_DIR / "professors_seed.csv", PROFESSOR_COLUMNS)
     professors = apply_professor_merges(seed, _read_csv(DATA_DIR / "professor_merges.csv"))

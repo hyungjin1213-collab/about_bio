@@ -59,7 +59,7 @@ UNI_NOISE = {"university", "national", "college", "of", "the", "and", "institute
 PEOPLE_DIR = OUTPUT_DIR / "alumni"
 SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at", "parser"]
 # Bump when the parser changes: labs read by an older parser are read again.
-PARSER_VERSION = "11"
+PARSER_VERSION = "12"
 MANUAL_COLUMNS = ["professor_id", "name", "lab_url", "alumni_url", "memo"]
 
 LAB_LINK_WORDS = ["연구실 홈페이지", "연구실홈페이지", "홈페이지", "연구실", "lab homepage", "lab website", "homepage",
@@ -79,15 +79,15 @@ STOP_WORDS = ["publication", "논문", "research", "연구분야", "연구 분�
 
 DEGREES = [  # (kind, pattern); order matters: integrated before PhD/MS.
     ("integrated", r"석\s*박\s*사?\s*통합|통합\s*과정|integrated|(?:combined\s+)?m\.?s\.?\s*[-/&]\s*ph\.?\s?d"),
-    ("postdoc", r"post[-\s]?doc|박사\s*후|research\s+fellow|박사후연구원"),
+    ("postdoc", r"post[-\s.]?\s?doc|박사\s*후|research\s+fellow|박사후연구원"),
     ("phd", r"ph\.?\s?d\.?|박사|doctor(?:al|ate)?"),
     ("ms", r"\bm\.?\s?s\.?\b|\bm\.?\s?sc\.?\b|석사|master"),
-    ("undergrad", r"\bb\.?\s?s\.?\b|학부|undergrad|intern|인턴"),
+    ("undergrad", r"\bb\.?\s?sc?\.?\b|학부|undergrad|intern|인턴"),
 ]
 TYPICAL_YEARS = {"phd": (2.0, 9.0), "integrated": (3.0, 10.0), "ms": (1.0, 4.0), "postdoc": (0.5, 8.0)}
 CAREERS = [  # (kind, pattern); first match wins.
     ("study", r"ph\.?\s?d\.?\s*(?:program|student|course|candidate)|박사\s*과정|대학원\s*진학|graduate\s+student"),
-    ("postdoc", r"post[-\s]?doc|박사\s*후|research\s+fellow|박사후"),
+    ("postdoc", r"post[-\s.]?\s?doc|박사\s*후|research\s+fellow|박사후"),
     ("faculty", r"pro\w{0,3}ss?or|\bprof\b\.?|교수|lecturer|faculty|강사"),
     ("hospital", r"hospital|병원|medical\s+center|의료원|resident|레지던트|전공의|clinic|의원"),
     # Public sector before companies ('Examiner ... Bio-Healthcare ... Ministry').
@@ -304,7 +304,45 @@ def _quality(people: list[dict]) -> tuple[int, int]:
     return known, len(people)
 
 
+CARD_LABELS = {"e-mail", "email", "work", "previously", "이메일", "현재", "이전"}
+CARD_ORDER = ("integrated", "phd", "ms", "postdoc")
+
+
+def _card_lines(lines: list[str]) -> list[str]:
+    """Rewrite 'name / E-Mail / addr / Work / position / Previously / history' cards as
+    'name / degree line / 현재: position' records the line parser reads."""
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        ko, en = _name_in(lines[i])
+        nxt = lines[i + 1].casefold() if i + 1 < len(lines) else ""
+        if not (ko or en) or nxt not in CARD_LABELS:
+            i += 1
+            continue
+        card: dict[str, list[str]] = {"name": [lines[i]]}
+        label = "name"
+        i += 1
+        while i < len(lines):
+            low = lines[i].casefold()
+            if low in CARD_LABELS:
+                label = {"이메일": "e-mail", "email": "e-mail", "현재": "work", "이전": "previously"}.get(low, low)
+                card.setdefault(label, [])
+            elif any(_name_in(lines[i])) and i + 1 < len(lines) and lines[i + 1].casefold() in CARD_LABELS:
+                break
+            elif label != "e-mail":
+                card.setdefault(label, []).append(lines[i])
+            i += 1
+        history = [x for x in card.get("previously", []) if degree_of(x) in CARD_ORDER]
+        history.sort(key=lambda x: CARD_ORDER.index(degree_of(x)))
+        work = " / ".join(card.get("work", []))
+        out += card["name"] + history[:1] + ([f"현재: {work}"] if work else [])
+    return out
+
+
 def _parse_lines(lines: list[str]) -> list[dict]:
+    cards = sum(1 for x in lines if x.casefold() == "work") >= 5
+    if cards:
+        lines = _card_lines(lines)       # one name line per card: every name starts a record
     entries: list[dict] = []
     current: dict | None = None
     group = ""      # degree of the heading the names sit under ("Ph.D. Alumni")
@@ -315,7 +353,7 @@ def _parse_lines(lines: list[str]) -> list[dict]:
     def is_record(i: int) -> bool:
         """A name starts an alumnus only if a degree or year follows within two lines
         (otherwise it is a company or position line such as 'Hoffmann-La Roche Ltd')."""
-        if group:
+        if group or cards:
             return True
         for j, x in enumerate(lines[i:i + 3]):
             if j and (BILINGUAL_RE.match(x.strip(" -•·*|:")) if bilingual else any(_name_in(x))):
@@ -400,7 +438,13 @@ class Fetcher:
         self.count += 1
         headers = {"User-Agent": USER_AGENT}
         try:
-            return self.session.get(url, timeout=TIMEOUT, headers=headers)
+            try:
+                return self.session.get(url, timeout=TIMEOUT, headers=headers)
+            except requests.exceptions.ConnectionError as exc:
+                if isinstance(exc, requests.exceptions.SSLError):
+                    raise
+                time.sleep(3)       # some lab servers drop a kept-alive connection: once more
+                return self.session.get(url, timeout=TIMEOUT, headers=headers)
         except requests.exceptions.SSLError:
             # Many Korean university sites serve an incomplete certificate chain;
             # these are public pages read without credentials.

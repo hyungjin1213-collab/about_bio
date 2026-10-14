@@ -387,3 +387,27 @@ def test_alumni_page_found_under_people_page():
     lab, used, people = find_alumni(Fetch(), "", {"lab_url": "http://lab.example.ac.kr/"})
     assert used == ["http://lab.example.ac.kr/index.php?hCode=members_01_03"]
     assert [p["career"] for p in people] == ["faculty", "industry"]
+
+
+def test_alumni_cards_with_work_and_previously():
+    cards = [
+        ("박가온 (Gaon Park)", "Samsung Electronics",
+         ["Ph.D. at Our Group (2017-2025)", "M.S. at Our Group (2015-2017)", "B.S. in Chemistry (2011-2015)"]),
+        ("이다인 (Dain Lee)", "Professor, Department of Chemistry, Sungkyunkwan University", ["Post Doc. (2003~2004)"]),
+        ("최하늘 (Haneul Choi)", "(주)효성 전략본부", ["Master Thesis (Feb. 2000.)", '"Synthesis of things"']),
+        ("정바다 (Bada Jung)", "LG화학", []),
+        ("한누리 (Nuri Han)", "Korea Institute of Science and Technology", ["PhD at Our Group [2020-2025]"]),
+    ]
+    body = "<p>Total 5건</p>"
+    for name, work, prev in cards:
+        body += f"<div><p>{name}</p><p>E-Mail</p><p>someone@example.com</p><p>Work</p><p>{work}</p>"
+        if prev:
+            body += "<p>Previously</p>" + "".join(f"<p>{x}</p>" for x in prev)
+        body += "</div>"
+    people = {p["name_ko"]: p for p in parse_alumni(f"<html><body>{body}</body></html>")}
+    assert len(people) == 5
+    assert (people["박가온"]["degree"], people["박가온"]["years"], people["박가온"]["career"]) == ("phd", 8.0, "industry")
+    assert (people["이다인"]["degree"], people["이다인"]["career"]) == ("postdoc", "faculty")
+    assert (people["최하늘"]["degree"], people["최하늘"]["end_year"], people["최하늘"]["career"]) == ("ms", 2000, "industry")
+    assert people["정바다"]["career"] == "industry"
+    assert people["한누리"]["career"] == "institute"

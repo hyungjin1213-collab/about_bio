@@ -293,7 +293,7 @@ def _section_lines(soup: BeautifulSoup, whole_page: bool, inline: bool = False) 
         if len(line) <= 40 and any(w in line.casefold() for w in ALUMNI_WORDS):
             out = []
             for nxt in lines[i + 1:]:
-                if (len(nxt) <= 30 and any(w in nxt.casefold() for w in STOP_WORDS)) \
+                if (len(nxt) <= 16 and any(nxt.casefold().startswith(w) for w in STOP_WORDS)) \
                         or re.fullmatch(r"\d{4}년\s*\d{1,2}월", nxt):
                     break
                 out.append(nxt)
@@ -316,8 +316,10 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
 def _quality(people: list[dict]) -> tuple[int, int]:
     """Records with a degree or a known career, less those with neither (citation or menu
     fragments read as names)."""
-    known = sum(1 for p in people if p["degree"] != "unknown" or p["career"] not in ("other", "unknown"))
-    return known - (len(people) - known), len(people)
+    filled = [(p["degree"] != "unknown") + (p["career"] not in ("other", "unknown")) + bool(p["end_year"])
+              for p in people]
+    loose = sum(1 for p in people if p["degree"] == "unknown" and p["career"] in ("other", "unknown"))
+    return sum(filled) - 2 * loose, len(people)
 
 
 CARD_LABELS = {"e-mail", "email", "work", "previously", "이메일", "현재", "이전"}
@@ -364,6 +366,7 @@ EDUCATION = ("phd", "ms", "integrated", "undergrad")
 
 def _is_role(line: str) -> bool:
     return (len(line) <= 60 and not any(_name_in(line))
+            and not re.search(r"alumni|graduates|former|졸업생|동문", line, re.I)    # a group heading
             and bool(degree_of(line) in CARD_ORDER or ROLE_RE.search(line)))
 
 
@@ -398,7 +401,8 @@ def _profile_lines(lines: list[str]) -> list[str] | None:
     for x in lines:
         if any(_name_in(x)) and not TIMELINE_RE.search(x):
             current = False
-        elif TIMELINE_RE.search(x) and not any(_name_in(x)):
+        elif TIMELINE_RE.search(x) and not any(_name_in(x)) \
+                and len(re.sub(r"[^A-Za-z가-힣]", "", TIMELINE_RE.sub("", x))) >= 6:   # a date alone is no CV line
             dated += 1
             names += not current
             current = True

@@ -600,3 +600,24 @@ def test_probe_lines_hide_names_and_mail():
     assert _mask_line("Kim G, Lee N. (2022) A paper title. Journal.") == "[citation]"
     assert "가람" not in _mask_line("김가람 (Garam Kim)") and "Garam" not in _mask_line("김가람 (Garam Kim)")
     assert "Hye" not in _mask_line("EunHye Jeong")
+
+
+def test_dates_in_a_grid_are_not_cv_profiles():
+    html = _page(["Alumni | Hong research group", "Ph. D. Alumni",
+                  "Dr. Garam Kim", "김 가 람​", "2018 . 03 ~ 2024. 02",
+                  "Dr. Narae Lee", "​이 나 래", "2020 . 03 ~ 2026. 02",
+                  "M. S. Alumni", "Dasom Park", "박 다 솜", "2018 . 03 ~ 2020. 02",
+                  "Raon Choi", "Maru Jung", "최 라 온", "정 마 루", "2018 . 09 ~ 2020. 08", "2019 . 03 ~ 2021. 02",
+                  "Bada Han", "Sora Kang", "Hana Yoon", "한 바 다", "강 소 라", "윤 하 나",
+                  "2019 . 03 ~ 2021. 02", "2019 . 09 ~ 2021. 08", "2019 . 09 ~ 2021. 08",
+                  "Post. Doc. Alumni", "Dr. Nuri Song", "2018 . 02 ~ 2024. 02"])
+    people = parse_alumni(html)
+    assert len(people) >= 8
+    assert sum(p["degree"] == "phd" for p in people) == 2
+
+
+def test_research_professor_line_does_not_end_the_section():
+    html = _page(["Members", "Alumni", "Garam Kim", "2020.02. MA/PhD degree", "2021.12. Post-Doc", "Research Professor",
+                  "Position at leave:", "Assistant Professor", "Narae Lee", "2022.02. MA/PhD degree",
+                  "Position at leave:", "Voronoi Inc.", "Research", "Dasom Park", "2023.02. MA degree"])
+    assert [p["name_en"] for p in parse_alumni(html, whole_page=False)] == ["Garam Kim", "Narae Lee"]

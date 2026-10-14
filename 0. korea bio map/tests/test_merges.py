@@ -58,6 +58,7 @@ def test_scholar_profile_result_is_kept(tmp_path, monkeypatch):
     import pipeline
 
     monkeypatch.setattr(pipeline, "DATA_DIR", tmp_path)
+    monkeypatch.setattr(pipeline, "OUTPUT_DIR", tmp_path)
     pd.DataFrame([{"professor_id": "P0001", "name_ko": "김가람", "name_en": "Garam Kim",
                    "university": "Test University", "primary_field": "생명"}], columns=pipeline.PROFESSOR_COLUMNS).fillna("").to_csv(
         tmp_path / "professors_seed.csv", index=False)

@@ -111,9 +111,11 @@ class ScholarClient:
                         "sort": "citedby", "api_key": self.api_key},
                 timeout=REQUEST_TIMEOUT,
             )
-            data = response.json() if response.status_code == 200 else {}
-        except (requests.RequestException, ValueError):
+            data = response.json() if response.status_code == 200 else {"error": f"HTTP {response.status_code}"}
+        except (requests.RequestException, ValueError) as exc:
+            print(f"[scholar] profile {scholar_id}: {type(exc).__name__}", flush=True)
             return []
         if data.get("error"):
+            print(f"[scholar] profile {scholar_id}: {str(data['error'])[:160]}", flush=True)
             return []
         return [str(a.get("title", "")) for a in data.get("articles", []) or [] if a.get("title")][:limit]

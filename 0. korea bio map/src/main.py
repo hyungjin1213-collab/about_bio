@@ -151,9 +151,7 @@ def main() -> None:
         from alumni import probe
         os.environ.setdefault("ALUMNI_PROBE_URLS", "P0752=https://narrykim.org/members/,"
                               "P0752=https://narrykim.org/ko/members/,P0752=https://narrykim.org/en/members/")
-        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "").split(",") if x])
-        from pipeline import scholar_probe
-        scholar_probe(client, ["P0004", "P0005"])
+        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "P0712,P0116,P0052,P0742,P0227,P0066,P0033,P0148,P0684,P0756,P0142,P0145").split(",") if x])
         return
 
     if args.command == "alumni-refresh":

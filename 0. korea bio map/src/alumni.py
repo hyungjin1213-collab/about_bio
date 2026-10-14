@@ -1064,7 +1064,7 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
         seen: set[str] = set()
         while urls:
             url = urls.pop(0)
-            if url in seen or len(seen) >= 8:
+            if url in seen or len(seen) >= 4:
                 continue
             seen.add(url)
             allowed = fetch.allowed(url)
@@ -1080,7 +1080,7 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                 continue
             al, mem = alumni_links(html, url)
             print(f"[probe]   alumni links={al} member links={mem}", flush=True)
-            urls += [u for u in al + mem if u not in seen]
+            urls += [u for u in (al or mem) if u not in seen]
             other = [(t[:30], u) for t, u in _links(html, url) if any(w in f"{t} {u}".casefold()
                      for w in ("alumni", "졸업", "graduate", "member", "people", "구성원", "former"))][:12]
             print(f"[probe]   candidate links={other}", flush=True)
@@ -1094,5 +1094,5 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
             start = next((i for i, x in enumerate(lines) if len(x) <= 40
                           and any(w in x.casefold() for w in ALUMNI_WORDS)), 0)
             print(f"[probe]   {len(lines)} text lines (block breaks); from line {start}:", flush=True)
-            for line in lines[start:start + 400]:
+            for line in lines[start:start + 160]:
                 print(f"[probe]     | {mask(line)[:110]}", flush=True)

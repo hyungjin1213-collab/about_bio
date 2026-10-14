@@ -1,0 +1,12 @@
+﻿relationship_id,professor_a_id,professor_b_id,relationship_type,collaboration_paper_count,evidence_url,verified,notes
+ALU000001,P0001,P1887,advisor_student,,https://bmie.snu.ac.kr/lab-members/,alumni_page,listed on the lab's alumni page (phd)
+ALU000002,P0001,P1403,advisor_student,,https://bmie.snu.ac.kr/lab-members/,alumni_page,listed on the lab's alumni page (phd)
+ALU000003,P0001,P1269,advisor_student,,https://bmie.snu.ac.kr/lab-members/,alumni_page,listed on the lab's alumni page (phd)
+ALU000004,P0001,P0009,advisor_student,,https://bmie.snu.ac.kr/lab-members/,alumni_page,listed on the lab's alumni page (phd)
+ALU000005,P0001,P0005,advisor_student,,https://bmie.snu.ac.kr/lab-members/,alumni_page,listed on the lab's alumni page (phd)
+ALU000006,P0022,P0958,advisor_student,21,https://nanotrio.postech.ac.kr/nanotrio/mem/alumni.do,alumni_page,"listed on the lab's alumni page (phd, 2014)"
+ALU000007,P0084,P1727,advisor_student,1,https://apel.snu.ac.kr/members/alumni,alumni_page,"listed on the lab's alumni page (ms, 2018)"
+ALU000008,P0245,P1459,advisor_student,24,https://sites.google.com/view/cau-smb/members/alumni,alumni_page,"listed on the lab's alumni page (phd, 2024)"
+ALU000009,P0713,P1679,advisor_student,8,https://immprove.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (integrated, 2023)"
+ALU000010,P0713,P1305,postdoc_mentor,10,https://immprove.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (postdoc, 2014)"
+ALU000011,P0752,P0938,postdoc_mentor,7,https://narrykim.org/en/members/,alumni_page,"listed on the lab's alumni page (postdoc, 2026)"

@@ -59,7 +59,7 @@ UNI_NOISE = {"university", "national", "college", "of", "the", "and", "institute
 PEOPLE_DIR = OUTPUT_DIR / "alumni"
 SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at", "parser"]
 # Bump when the parser changes: labs read by an older parser are read again.
-PARSER_VERSION = "10"
+PARSER_VERSION = "11"
 MANUAL_COLUMNS = ["professor_id", "name", "lab_url", "alumni_url", "memo"]
 
 LAB_LINK_WORDS = ["연구실 홈페이지", "연구실홈페이지", "홈페이지", "연구실", "lab homepage", "lab website", "homepage",
@@ -241,11 +241,31 @@ def _name_in(line: str) -> tuple[str, str]:
     return "", ""
 
 
-def _section_lines(soup: BeautifulSoup, whole_page: bool) -> list[str]:
-    """Lines of the alumni part of a page (the whole page for a dedicated alumni page)."""
-    for tag in soup(["script", "style", "noscript", "nav", "header", "footer", "form"]):
+BLOCK_TAGS = ["p", "div", "li", "ul", "ol", "dl", "dt", "dd", "tr", "td", "th", "table", "tbody", "thead",
+              "h1", "h2", "h3", "h4", "h5", "h6", "section", "article", "aside", "main", "blockquote", "pre",
+              "figure", "figcaption", "hr"]
+
+
+def _section_lines(soup: BeautifulSoup, whole_page: bool, inline: bool = False) -> list[str]:
+    """Lines of the alumni part of a page (the whole page for a dedicated alumni page).
+    inline: break lines only at block elements, as a browser does. Some site builders
+    split words over several spans ('H' + 'ojong Kim', '20' + '19F' + '~2025')."""
+    for tag in soup(["script", "style", "noscript", "nav", "header", "footer"]):
         tag.decompose()
-    lines = [_clean(x) for x in soup.get_text("\n").split("\n")]
+    # Search and login forms are noise, but some boards wrap the whole list in a form.
+    for tag in soup("form"):
+        if len(_clean(tag.get_text(" "))) < 120:
+            tag.decompose()
+    if inline:
+        for br in soup("br"):
+            br.replace_with("\n")
+        for tag in soup(BLOCK_TAGS):
+            tag.insert_before("\n")
+            tag.insert_after("\n")
+        text = soup.get_text("")
+    else:
+        text = soup.get_text("\n")
+    lines = [_clean(x) for x in text.split("\n")]
     lines = [x for x in lines if x]
     # Photo captions, phone and address lines carry no alumni information.
     lines = [x for x in lines if not re.fullmatch(r"(멤버\s*)?사진|member\s*photo|photo|image|프로필\s*사진", x, re.I)
@@ -268,8 +288,23 @@ def _section_lines(soup: BeautifulSoup, whole_page: bool) -> list[str]:
 
 
 def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
-    """One dict per alumnus found on an alumni page (or the alumni section of a members page)."""
-    lines = _section_lines(BeautifulSoup(html, "html.parser"), whole_page)
+    """One dict per alumnus found on an alumni page (or the alumni section of a members page).
+    The page is read with line breaks at every tag and at block elements only; the
+    reading that finds more complete records wins."""
+    best: list[dict] = []
+    for inline in (False, True):
+        people = _parse_lines(_section_lines(BeautifulSoup(html, "html.parser"), whole_page, inline))
+        if _quality(people) > _quality(best):
+            best = people
+    return best
+
+
+def _quality(people: list[dict]) -> tuple[int, int]:
+    known = sum(1 for p in people if p["career"] not in ("other", "unknown") or p["end_year"])
+    return known, len(people)
+
+
+def _parse_lines(lines: list[str]) -> list[dict]:
     entries: list[dict] = []
     current: dict | None = None
     group = ""      # degree of the heading the names sit under ("Ph.D. Alumni")
@@ -501,6 +536,13 @@ def find_alumni(fetch: Fetcher, profile_url: str, manual: dict, orcid: str = "")
         if not html:
             continue
         alumni_pages, member_pages = alumni_links(html, lab_url)
+        if not alumni_pages:
+            # The alumni page is often a sub-menu of the people page ('구성원' -> '졸업생').
+            for url in member_pages:
+                sub = fetch.html(url)
+                if sub:
+                    alumni_pages += [u for u in alumni_links(sub, url)[0] if u not in alumni_pages]
+            alumni_pages = alumni_pages[:3]
         people, used = [], []
         for url in alumni_pages:
             found = parse_alumni(fetch.html(url))
@@ -965,13 +1007,22 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
         name = ko or en
         return line.replace(name, name[:1] + "**", 1) if name else line
 
+    extra: dict[str, list[str]] = {}
+    for item in filter(None, os.getenv("ALUMNI_PROBE_URLS", "").split(",")):
+        pid, _, url = item.partition("=")
+        extra.setdefault(pid, []).append(url)
     for pid in ids:
         m = manual.get(pid, {})
-        urls = [u for u in [m.get("alumni_url", ""), m.get("lab_url", "")] if u]
+        urls = [u for u in [m.get("alumni_url", ""), m.get("lab_url", "")] + extra.get(pid, []) if u]
         if pid in sites.index:
             urls += [u for u in [sites.at[pid, "lab_url"], *str(sites.at[pid, "alumni_urls"]).split(";")] if u]
         print(f"\n[probe] ===== {pid} =====", flush=True)
-        for url in dict.fromkeys(urls):
+        seen: set[str] = set()
+        while urls:
+            url = urls.pop(0)
+            if url in seen or len(seen) >= 8:
+                continue
+            seen.add(url)
             allowed = fetch.allowed(url)
             try:
                 r = fetch._get(url)
@@ -985,14 +1036,19 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                 continue
             al, mem = alumni_links(html, url)
             print(f"[probe]   alumni links={al} member links={mem}", flush=True)
+            urls += [u for u in al + mem if u not in seen]
             other = [(t[:30], u) for t, u in _links(html, url) if any(w in f"{t} {u}".casefold()
                      for w in ("alumni", "졸업", "graduate", "member", "people", "구성원", "former"))][:12]
             print(f"[probe]   candidate links={other}", flush=True)
             for whole in (True, False):
                 people = parse_alumni(html, whole_page=whole)
                 print(f"[probe]   parse whole_page={whole}: {len(people)} people; careers "
-                      f"{dict(Counter(p['career'] for p in people))}", flush=True)
-            lines = _section_lines(BeautifulSoup(html, "html.parser"), True)
-            print(f"[probe]   {len(lines)} text lines; sample:", flush=True)
-            for line in lines[:60]:
+                      f"{dict(Counter(p['career'] for p in people))} degrees "
+                      f"{dict(Counter(p['degree'] for p in people))} "
+                      f"with end year {sum(1 for p in people if p['end_year'])}", flush=True)
+            lines = _section_lines(BeautifulSoup(html, "html.parser"), True, inline=True)
+            start = next((i for i, x in enumerate(lines) if len(x) <= 40
+                          and any(w in x.casefold() for w in ALUMNI_WORDS)), 0)
+            print(f"[probe]   {len(lines)} text lines (block breaks); from line {start}:", flush=True)
+            for line in lines[start:start + 400]:
                 print(f"[probe]     | {mask(line)[:110]}", flush=True)

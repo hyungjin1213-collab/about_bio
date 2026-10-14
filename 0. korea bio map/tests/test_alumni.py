@@ -329,3 +329,61 @@ def test_name_years_role_layout():
     assert got == [("정하나", "postdoc", 7.0, "faculty"), ("김두리", "phd", None, "postdoc"),
                    ("손아현", "phd", None, "unknown"), ("투안얀구옌", "postdoc", 4.0, "faculty"),
                    ("장세나", "phd", None, "faculty")]
+
+
+def test_words_split_over_spans_are_joined():
+    # Site builders that split words over spans: 'H' + 'ajun Park', '20' + '19F' + '~2025'.
+    html = """<html><body><h2>Alumni</h2><h3>Graduate Students</h3>
+    <div><p><span>Minsu Lee</span></p><p><span>MS/</span></p>
+      <p><span>PhD Program in Department of Pharmaceutical Medicine</span></p>
+      <p><span>2021S~2025F (Full time)</span></p><p><span>Post-Doctoral Fellow in YIPS</span></p></div>
+    <div><p><span>H</span><span>ajun Park</span></p><p><span>MS</span></p>
+      <p><span>Program in</span> <span>Department of</span> <span>Industrial Pharmaceutical Science</span></p>
+      <p><span>20</span><span>19F</span><span>~2025</span> <span>(Part time)</span></p>
+      <p><span>QUAD Investment Management</span></p></div>
+    <div><p><span>Jiwon Choi</span></p><p><span>MS</span></p>
+      <p><span>Program in</span> <span>Department of P</span><span>harmacy</span></p>
+      <p><span>20</span><span>23S</span><span>~2025 (Full time)</span></p>
+      <p><span>SyneosHealth Korea</span></p></div>
+    <div><p><span>Sora Kang</span></p><p><span>MS</span></p>
+      <p><span>Program in Department of Industrial Pharmaceutical Science</span></p>
+      <p><span>202</span><span>2F</span><span>~202</span><span>4</span> <span>(Full time)</span></p>
+      <p><span>Researcher of</span> <span>Hanmi Pharm</span></p></div>
+    </body></html>"""
+    people = parse_alumni(html)
+    got = {p["name_en"]: (p["end_year"], p["career"]) for p in people}
+    assert len(people) == 4
+    assert got["Hajun Park"] == (2025, "industry")
+    assert got["Sora Kang"][0] == 2024
+    assert got["Minsu Lee"][1] == "postdoc"
+
+
+def test_board_list_inside_form_is_read():
+    rows = "".join(f"<tr><td>{n}</td><td>Ph.D. 2015-2020</td><td>Assistant Professor, Korea University</td></tr>"
+                   for n in ["김가람", "이나래", "박다솜", "최라온", "정마루"])
+    html = (f"<html><body><form name='search'><input name='q'> 검색</form>"
+            f"<form name='fboardlist'><table>{rows}</table></form></body></html>")
+    people = parse_alumni(html)
+    assert len(people) == 5 and all(p["career"] == "faculty" for p in people)
+
+
+def test_alumni_page_found_under_people_page():
+    from alumni import find_alumni
+    pages = {
+        "http://lab.example.ac.kr/": '<a href="index.php?hCode=members_01_01">구성원 People</a>',
+        "http://lab.example.ac.kr/index.php?hCode=members_01_01":
+            '<a href="index.php?hCode=members_01_01">Professor</a><a href="index.php?hCode=members_01_03">Alumni</a>',
+        "http://lab.example.ac.kr/index.php?hCode=members_01_03":
+            "<ul><li>김가람 박사 2012-2017</li><li>현: 고려대학교 조교수</li>"
+            "<li>이나래 석사 2015-2017</li><li>현: 삼성전자</li></ul>",
+    }
+
+    class Fetch:
+        session = None
+
+        def html(self, url):
+            return pages.get(url, "")
+
+    lab, used, people = find_alumni(Fetch(), "", {"lab_url": "http://lab.example.ac.kr/"})
+    assert used == ["http://lab.example.ac.kr/index.php?hCode=members_01_03"]
+    assert [p["career"] for p in people] == ["faculty", "industry"]

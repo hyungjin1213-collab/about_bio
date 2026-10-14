@@ -521,3 +521,34 @@ def test_one_alumnus_page_is_not_an_alumni_list():
             '<a href="/lab/members">Members</a>')
     alumni, members = alumni_links(html, "https://lab.example.org/lab")
     assert alumni == ["https://lab.example.org/lab/alumni"]
+
+
+def test_citations_split_over_spans_are_not_people():
+    cite = ("<span>Kwon et al., </span><span>Cell Death Dis</span><span> (</span><span>2024</span><span>)</span>"
+            "<span>; Yu et al., </span><span>Biomol Ther</span><span> (2023)</span>")
+    html = (f"<html><body><p>Members</p><p>Alumni</p><p>김가람(석사) - {cite}</p><p>이나래(석사) - {cite}</p>"
+            "<p>2026년 6월</p><p>학회 참석</p></body></html>")
+    assert [(p["name_ko"], p["degree"]) for p in parse_alumni(html, whole_page=False)] == [("김가람", "ms"), ("이나래", "ms")]
+
+
+def test_google_sites_profiles_with_menu_noise():
+    html = _page(["CAU Lab - Alumni", "Search this site", "Embedded Files", "Skip to main content", "Alumni",
+        "Abebe Bekele Tadesse", "Research Interest", "In vitro study", "Education",
+        "Animal Science, Haramaya University | B.S. (2001 ~ 2005)",
+        "Animal Production, Haramaya University | M.S. (2010 ~ 2012)",
+        "Chinese Academy of Agricultural Sciences | Ph.D. (2018. 09 ~ 2021. 12)",
+        "Postdoctoral researcher (2024. 03 ~ 2025. 08)",
+        "Gaon Park", "E.mail: someone@example.com", "Research Interest", "Education",
+        "Chung-Ang University | B.S. (2019. 03 ~ 2023. 02)", "Chung-Ang University | M.S. (2023. 03 ~ 2025. 02)",
+        "Researcher (2025. 03 ~ 2025. 06)",
+        "Dain Lee", "E.mail: other@example.com", "Education",
+        "Chung-Ang University | B.S. (2018. 03 ~ 2024. 02)", "Chung-Ang University | M.S. (2024. 03 ~ 2026. 02)",
+        "Google Sites", "Report abuse", "Page details"])
+    got = {p["name_en"]: p["degree"] for p in parse_alumni(html)}
+    assert got == {"Abebe Bekele Tadesse": "postdoc", "Gaon Park": "ms", "Dain Lee": "ms"}
+
+
+def test_camel_case_names_with_employer_only():
+    html = _page(["Alumni"] + [x for n, w in [("EunHye Jeong", "서지넥스"), ("JiSu Kim", "삼성전자"),
+        ("YunMi Seo", "삼성바이오에피스"), ("Garam Kim", "고려대학교 교수"), ("Narae Lee", "LG화학")] for x in (n, w)])
+    assert len(parse_alumni(html)) == 5

@@ -112,7 +112,7 @@ NOT_NAMES = {"이름", "성명", "학위", "기간", "현재", "현직", "박사
              "상세보기", "메일", "주소", "전화", "팩스", "소개", "자료실", "후기", "현황"}
 POSITION_MARKERS = r"(?:current(?:ly)?(?:\s+position)?|present(?:\s+position)?|now|현재|현직|(?<![가-힣])현\s|→|->|=>|▶)\s*[:：]?\s*"
 YEAR_RE = re.compile(r"((?:19[89]|20[0-4])\d)(?:\s*[./]\s*(\d{1,2}))?")
-EN_NAME_RE = re.compile(r"^([A-Z][a-z]+(?:[-\s][A-Z]?[a-z]+)?(?:[\s,]+[A-Z][a-z]+(?:[-\s][A-Z]?[a-z]+)?){1,2})\b")
+EN_NAME_RE = re.compile(r"^([A-Z][a-z]+(?:[A-Z][a-z]+)?(?:[-\s][A-Z]?[a-z]+)?(?:[\s,]+[A-Z][a-z]+(?:[-\s][A-Z]?[a-z]+)?){1,2})\b")
 EN_NAME_STOP = {"current", "alumni", "former", "present", "member", "members", "postdoc", "professor", "research",
                 "samsung", "korea", "seoul", "university", "institute", "department", "school", "college", "lab",
                 "laboratory", "phd", "master", "graduate", "student", "students", "now", "position", "thesis",
@@ -214,7 +214,7 @@ def _name_in(line: str) -> tuple[str, str]:
     """(korean, english) name at the start of a line ('', '' if none)."""
     line = line.strip(" -•·*|:")
     # 'JU GYEONG KIM': capitals only.
-    if (re.fullmatch(r"[A-Z][A-Z'\-]+(?: [A-Z][A-Z'\-]+){1,3}", line) and not degree_of(line)
+    if (re.fullmatch(r"[A-Z][A-Z'\-]{0,8}(?: [A-Z][A-Z'\-]{0,8}){1,3}", line) and not degree_of(line)
             and not any(w.casefold() in EN_NAME_STOP for w in line.split())):
         line = line.title()
     ny = NAME_YEARS_RE.match(line)
@@ -309,8 +309,10 @@ def parse_alumni(html: str, whole_page: bool = True) -> list[dict]:
 
 
 def _quality(people: list[dict]) -> tuple[int, int]:
-    known = sum(1 for p in people if p["career"] not in ("other", "unknown") or p["end_year"])
-    return known, len(people)
+    """Records with a degree or a known career, less those with neither (citation or menu
+    fragments read as names)."""
+    known = sum(1 for p in people if p["degree"] != "unknown" or p["career"] not in ("other", "unknown"))
+    return known - (len(people) - known), len(people)
 
 
 CARD_LABELS = {"e-mail", "email", "work", "previously", "이메일", "현재", "이전"}
@@ -385,9 +387,16 @@ def _role_first(lines: list[str]) -> list[str]:
 def _profile_lines(lines: list[str]) -> list[str] | None:
     """CV-style profiles ('2002.03 ~ 2010.02 : ..., Ph.D.', 'present : 강원대학교'), several
     dated lines per person: rewrite each as 'name / degree line / 현재: position'."""
-    dated = sum(1 for x in lines if TIMELINE_RE.search(x))
-    names = sum(1 for x in lines if any(_name_in(x)))
-    if dated < 6 or dated < 1.6 * max(names, 1):
+    # Dated lines under the names, not on them ('김가람 (2015-2020; 박사과정)' is one line per person).
+    dated, names, current = 0, 0, False
+    for x in lines:
+        if any(_name_in(x)) and not TIMELINE_RE.search(x):
+            current = False
+        elif TIMELINE_RE.search(x) and not any(_name_in(x)):
+            dated += 1
+            names += not current
+            current = True
+    if dated < 6 or names < 2 or dated < 1.6 * names:
         return None
     blocks: list[dict] = []
     for i, line in enumerate(lines):
@@ -1208,7 +1217,7 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                     w in unquote(urlparse(url).path).casefold() for w in ALUMNI_WORDS)):
                 who = (p["name_ko"] or p["name_en"] or "?")[:1] + "**"
                 print(f"[probe]   > {who} {p['degree']} {p['start_year']}-{p['end_year']} {p['years']} "
-                      f"{p['career']} | {p['position'][:50]} || {mask(p['raw'])[:90]}", flush=True)
+                      f"{p['career']}", flush=True)
             lines = _section_lines(BeautifulSoup(html, "html.parser"), True, inline=True)
             start = next((i for i, x in enumerate(lines) if len(x) <= 40
                           and any(w in x.casefold() for w in ALUMNI_WORDS)), 0)

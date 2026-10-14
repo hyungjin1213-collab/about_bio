@@ -951,3 +951,48 @@ def alumni_lab_info() -> dict[str, dict]:
         info["as_of"] = r.get("checked_at", "")
         out[r["professor_id"]] = info
     return out
+
+
+def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
+    """Diagnose alumni pages for some labs: what each page returns and how it parses.
+    Names at the start of lines are masked (김**) in the printout."""
+    fetch = fetch or Fetcher()
+    sites = _read(SITES_PATH, SITE_COLUMNS).set_index("professor_id")
+    manual = {r["professor_id"]: r.to_dict() for _, r in _read(MANUAL_PATH, MANUAL_COLUMNS).iterrows()}
+
+    def mask(line: str) -> str:
+        ko, en = _name_in(line)
+        name = ko or en
+        return line.replace(name, name[:1] + "**", 1) if name else line
+
+    for pid in ids:
+        m = manual.get(pid, {})
+        urls = [u for u in [m.get("alumni_url", ""), m.get("lab_url", "")] if u]
+        if pid in sites.index:
+            urls += [u for u in [sites.at[pid, "lab_url"], *str(sites.at[pid, "alumni_urls"]).split(";")] if u]
+        print(f"\n[probe] ===== {pid} =====", flush=True)
+        for url in dict.fromkeys(urls):
+            allowed = fetch.allowed(url)
+            try:
+                r = fetch._get(url)
+                status, size = r.status_code, len(r.text)
+                r.encoding = r.apparent_encoding or r.encoding
+                html = r.text if r.status_code == 200 else ""
+            except requests.RequestException as exc:
+                status, size, html = type(exc).__name__, 0, ""
+            print(f"[probe] {url} robots_ok={allowed} status={status} bytes={size}", flush=True)
+            if not html:
+                continue
+            al, mem = alumni_links(html, url)
+            print(f"[probe]   alumni links={al} member links={mem}", flush=True)
+            other = [(t[:30], u) for t, u in _links(html, url) if any(w in f"{t} {u}".casefold()
+                     for w in ("alumni", "졸업", "graduate", "member", "people", "구성원", "former"))][:12]
+            print(f"[probe]   candidate links={other}", flush=True)
+            for whole in (True, False):
+                people = parse_alumni(html, whole_page=whole)
+                print(f"[probe]   parse whole_page={whole}: {len(people)} people; careers "
+                      f"{dict(Counter(p['career'] for p in people))}", flush=True)
+            lines = _section_lines(BeautifulSoup(html, "html.parser"), True)
+            print(f"[probe]   {len(lines)} text lines; sample:", flush=True)
+            for line in lines[:60]:
+                print(f"[probe]     | {mask(line)[:110]}", flush=True)

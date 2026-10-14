@@ -111,7 +111,7 @@ def main() -> None:
             "faculty-full", "faculty-full-v2",
             "import-faculty", "import-faculty-and-all",
             "import-faculty-v2", "import-faculty-v2-and-all",
-            "galaxy-full", "daily", "alumni", "alumni-refresh", "rebuild",
+            "galaxy-full", "daily", "alumni", "alumni-refresh", "alumni-probe", "rebuild",
         ],
         help="Pipeline step to run",
     )
@@ -145,6 +145,11 @@ def main() -> None:
 
     if args.command == "rebuild":
         rebuild()
+        return
+
+    if args.command == "alumni-probe":
+        from alumni import probe
+        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "P0007,P0746,P0752,P0095,P2532").split(",") if x])
         return
 
     if args.command == "alumni-refresh":

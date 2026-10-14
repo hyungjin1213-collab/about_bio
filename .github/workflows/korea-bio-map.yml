@@ -17,6 +17,7 @@ on:
           - daily
           - alumni
           - alumni-refresh
+          - alumni-probe
           - rebuild
           - all
           - promote-and-all

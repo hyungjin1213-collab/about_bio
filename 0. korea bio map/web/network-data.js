@@ -725,11 +725,11 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "College of Medicine / Hematology-Oncology",
       "lab": {
-        "alumni": 8.0,
+        "alumni": 2.0,
         "phd_graduates": 0.0,
         "ms_graduates": 1.0,
         "postdoc_alumni": 0.0,
-        "ms_years": 4.0,
+        "ms_years": 3.0,
         "phd_years_est": 0.0,
         "integrated_years_est": 0.0,
         "ms_years_est": 1.0,
@@ -748,11 +748,11 @@ window.KOREA_BIO_MAP = {
           "other": 1
         },
         "recent": {
-          "alumni": 8.0,
+          "alumni": 2.0,
           "phd_graduates": 0.0,
           "ms_graduates": 1.0,
           "postdoc_alumni": 0.0,
-          "ms_years": 4.0,
+          "ms_years": 3.0,
           "phd_years_est": 0.0,
           "integrated_years_est": 0.0,
           "ms_years_est": 1.0,
@@ -2352,7 +2352,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "College of Pharmacy",
       "lab": {
-        "alumni": 16.0,
+        "alumni": 13.0,
         "phd_graduates": 1.0,
         "ms_graduates": 12.0,
         "postdoc_alumni": 0.0,
@@ -2370,15 +2370,15 @@ window.KOREA_BIO_MAP = {
         "careers": {
           "faculty": 0,
           "postdoc": 0,
-          "industry": 7,
+          "industry": 6,
           "hospital": 0,
           "institute": 1,
           "study": 0,
-          "other": 8
+          "other": 6
         },
         "top_journals": "Carbohydrate Polymers; Journal of Controlled Release; Chemical Engineering Journal",
         "recent": {
-          "alumni": 12.0,
+          "alumni": 10.0,
           "phd_graduates": 1.0,
           "ms_graduates": 9.0,
           "postdoc_alumni": 0.0,
@@ -2396,11 +2396,11 @@ window.KOREA_BIO_MAP = {
           "careers": {
             "faculty": 0,
             "postdoc": 0,
-            "industry": 7,
+            "industry": 6,
             "hospital": 0,
             "institute": 1,
             "study": 0,
-            "other": 4
+            "other": 3
           },
           "top_journals": "Carbohydrate Polymers; Journal of Controlled Release; Chemical Engineering Journal"
         },
@@ -2947,7 +2947,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "Graduate School of Biomedical Sciences",
       "lab": {
-        "alumni": 3.0,
+        "alumni": 2.0,
         "phd_graduates": 1.0,
         "ms_graduates": 1.0,
         "postdoc_alumni": 0.0,
@@ -2963,7 +2963,7 @@ window.KOREA_BIO_MAP = {
           "hospital": 0,
           "institute": 0,
           "study": 0,
-          "other": 2
+          "other": 1
         },
         "alumni_url": "https://www.banglab.org/team-3",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -4008,7 +4008,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "College of Pharmacy",
       "lab": {
-        "alumni": 56.0,
+        "alumni": 16.0,
         "phd_graduates": 7.0,
         "ms_graduates": 6.0,
         "postdoc_alumni": 0.0,
@@ -4029,10 +4029,10 @@ window.KOREA_BIO_MAP = {
           "hospital": 0,
           "institute": 2,
           "study": 0,
-          "other": 45
+          "other": 8
         },
         "recent": {
-          "alumni": 18.0,
+          "alumni": 4.0,
           "phd_graduates": 3.0,
           "ms_graduates": 0.0,
           "postdoc_alumni": 0.0,
@@ -4051,7 +4051,7 @@ window.KOREA_BIO_MAP = {
             "hospital": 0,
             "institute": 0,
             "study": 0,
-            "other": 17
+            "other": 3
           }
         },
         "alumni_url": "http://chembio.yonsei.ac.kr/members/former-members",
@@ -4981,7 +4981,7 @@ window.KOREA_BIO_MAP = {
       "techniques": [],
       "department": "응용바이오공학과",
       "lab": {
-        "alumni": 7.0,
+        "alumni": 1.0,
         "phd_graduates": 0.0,
         "ms_graduates": 1.0,
         "postdoc_alumni": 0.0,
@@ -4998,10 +4998,10 @@ window.KOREA_BIO_MAP = {
           "hospital": 0,
           "institute": 0,
           "study": 0,
-          "other": 7
+          "other": 1
         },
         "recent": {
-          "alumni": 6.0,
+          "alumni": 1.0,
           "phd_graduates": 0.0,
           "ms_graduates": 1.0,
           "postdoc_alumni": 0.0,
@@ -5018,7 +5018,7 @@ window.KOREA_BIO_MAP = {
             "hospital": 0,
             "institute": 0,
             "study": 0,
-            "other": 6
+            "other": 1
           }
         },
         "alumni_url": "https://klab.snu.ac.kr/members/",
@@ -7421,53 +7421,53 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "생물학과",
       "lab": {
-        "alumni": 18.0,
+        "alumni": 3.0,
         "phd_graduates": 0.0,
-        "ms_graduates": 4.0,
+        "ms_graduates": 3.0,
         "postdoc_alumni": 0.0,
         "ms_years": 2.0,
         "phd_years_est": 0.0,
         "integrated_years_est": 0.0,
         "ms_years_est": 1.0,
         "stay_years_est": 0.0,
-        "students_with_papers": 2.0,
-        "papers_per_student": 1.5,
-        "first_author_per_student": 1.0,
+        "students_with_papers": 3.0,
+        "papers_per_student": 1.0,
+        "first_author_per_student": 0.7,
         "fwci_median": 0.3,
         "top10_share": 0.0,
         "careers": {
           "faculty": 0,
           "postdoc": 0,
-          "industry": 0,
-          "hospital": 1,
+          "industry": 1,
+          "hospital": 0,
           "institute": 0,
           "study": 0,
-          "other": 17
+          "other": 2
         },
         "top_journals": "Scientific Reports; Clinical and Translational Medicine",
         "recent": {
-          "alumni": 4.0,
+          "alumni": 3.0,
           "phd_graduates": 0.0,
-          "ms_graduates": 2.0,
+          "ms_graduates": 3.0,
           "postdoc_alumni": 0.0,
           "ms_years": 2.0,
           "phd_years_est": 0.0,
           "integrated_years_est": 0.0,
           "ms_years_est": 1.0,
           "stay_years_est": 0.0,
-          "students_with_papers": 2.0,
-          "papers_per_student": 1.5,
-          "first_author_per_student": 1.0,
+          "students_with_papers": 3.0,
+          "papers_per_student": 1.0,
+          "first_author_per_student": 0.7,
           "fwci_median": 0.3,
           "top10_share": 0.0,
           "careers": {
             "faculty": 0,
             "postdoc": 0,
-            "industry": 0,
+            "industry": 1,
             "hospital": 0,
             "institute": 0,
             "study": 0,
-            "other": 4
+            "other": 2
           },
           "top_journals": "Scientific Reports; Clinical and Translational Medicine"
         },
@@ -26432,7 +26432,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "화공생명공학과",
       "lab": {
-        "alumni": 21.0,
+        "alumni": 10.0,
         "phd_graduates": 10.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 0.0,
@@ -26452,11 +26452,11 @@ window.KOREA_BIO_MAP = {
           "hospital": 0,
           "institute": 0,
           "study": 5,
-          "other": 7
+          "other": 5
         },
         "top_journals": "Materials; ACS Applied Materials & Interfaces; Journal of Industrial and Engineering Chemistry",
         "recent": {
-          "alumni": 12.0,
+          "alumni": 7.0,
           "phd_graduates": 7.0,
           "ms_graduates": 0.0,
           "postdoc_alumni": 0.0,
@@ -26526,7 +26526,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "화공생명공학과",
       "lab": {
-        "alumni": 6.0,
+        "alumni": 3.0,
         "phd_graduates": 0.0,
         "ms_graduates": 3.0,
         "postdoc_alumni": 0.0,
@@ -26542,15 +26542,15 @@ window.KOREA_BIO_MAP = {
         "careers": {
           "faculty": 0,
           "postdoc": 0,
-          "industry": 1,
+          "industry": 0,
           "hospital": 0,
           "institute": 0,
           "study": 0,
-          "other": 5
+          "other": 3
         },
         "top_journals": "Advanced Science; Small; Small Structures",
         "recent": {
-          "alumni": 6.0,
+          "alumni": 3.0,
           "phd_graduates": 0.0,
           "ms_graduates": 3.0,
           "postdoc_alumni": 0.0,
@@ -26566,11 +26566,11 @@ window.KOREA_BIO_MAP = {
           "careers": {
             "faculty": 0,
             "postdoc": 0,
-            "industry": 1,
+            "industry": 0,
             "hospital": 0,
             "institute": 0,
             "study": 0,
-            "other": 5
+            "other": 3
           },
           "top_journals": "Advanced Science; Small; Small Structures"
         },
@@ -26873,7 +26873,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "바이오메디컬학과; 방사선의과학전공",
       "lab": {
-        "alumni": 21.0,
+        "alumni": 10.0,
         "phd_graduates": 7.0,
         "ms_graduates": 2.0,
         "postdoc_alumni": 1.0,
@@ -26895,11 +26895,11 @@ window.KOREA_BIO_MAP = {
           "hospital": 0,
           "institute": 0,
           "study": 0,
-          "other": 10
+          "other": 3
         },
         "top_journals": "Biomaterials Research; Materials Today Bio; International Journal of Pharmaceutics",
         "recent": {
-          "alumni": 19.0,
+          "alumni": 10.0,
           "phd_graduates": 7.0,
           "ms_graduates": 2.0,
           "postdoc_alumni": 1.0,
@@ -26921,7 +26921,7 @@ window.KOREA_BIO_MAP = {
             "hospital": 0,
             "institute": 0,
             "study": 0,
-            "other": 8
+            "other": 3
           },
           "top_journals": "Biomaterials Research; Materials Today Bio; International Journal of Pharmaceutics"
         },
@@ -31444,7 +31444,7 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "School of Biological Sciences",
       "lab": {
-        "alumni": 59.0,
+        "alumni": 57.0,
         "phd_graduates": 34.0,
         "ms_graduates": 0.0,
         "postdoc_alumni": 20.0,
@@ -31462,11 +31462,11 @@ window.KOREA_BIO_MAP = {
         "careers": {
           "faculty": 21,
           "postdoc": 14,
-          "industry": 7,
+          "industry": 6,
           "hospital": 0,
           "institute": 1,
           "study": 1,
-          "other": 9
+          "other": 8
         },
         "top_journals": "Zenodo (CERN European Organization for Nuclear Research); Molecular Cell; Cell",
         "recent": {
@@ -204151,15 +204151,6 @@ window.KOREA_BIO_MAP = {
       "target": "P1033",
       "type": "postdoc_mentor",
       "paper_count": 9,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0088",
-      "target": "P0880",
-      "type": "advisor_student",
-      "paper_count": 0,
       "verified": "alumni_page",
       "strength": 0.0,
       "last_year": 0

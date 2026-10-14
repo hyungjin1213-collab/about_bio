@@ -1204,6 +1204,11 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                       f"{dict(Counter(p['career'] for p in people))} degrees "
                       f"{dict(Counter(p['degree'] for p in people))} "
                       f"with end year {sum(1 for p in people if p['end_year'])}", flush=True)
+            for p in parse_alumni(html, whole_page=url != m.get("lab_url") and any(
+                    w in unquote(urlparse(url).path).casefold() for w in ALUMNI_WORDS)):
+                who = (p["name_ko"] or p["name_en"] or "?")[:1] + "**"
+                print(f"[probe]   > {who} {p['degree']} {p['start_year']}-{p['end_year']} {p['years']} "
+                      f"{p['career']} | {p['position'][:50]} || {mask(p['raw'])[:90]}", flush=True)
             lines = _section_lines(BeautifulSoup(html, "html.parser"), True, inline=True)
             start = next((i for i, x in enumerate(lines) if len(x) <= 40
                           and any(w in x.casefold() for w in ALUMNI_WORDS)), 0)

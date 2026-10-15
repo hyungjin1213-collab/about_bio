@@ -1324,6 +1324,8 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                 snippet = re.sub(r"\s+", " ", html[max(0, mt.start() - 200): mt.start() + 120])
                 if re.search(r"onclick|href|location|\.asp|\.php|\.html?", snippet, re.I):
                     print(f"[probe]   menu near alumni: {_mask_line(snippet)}", flush=True)
+            for mt in re.finditer(r"function\s+sub_menu\w*\s*\(", html):
+                print(f"[probe]   script: {re.sub(chr(92)+'s+', ' ', html[mt.start(): mt.start() + 700])}", flush=True)
             for key in ("member_tax", "var_page", "board_mode"):
                 for mt in re.finditer(key, html):
                     snippet = re.sub(r"\s+", " ", html[max(0, mt.start() - 150): mt.start() + 250])

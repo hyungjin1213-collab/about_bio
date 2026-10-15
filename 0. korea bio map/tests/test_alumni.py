@@ -734,3 +734,19 @@ def test_name_email_career_cards_under_degree_headings():
     got = {p["name_ko"]: (p["degree"], p["career"]) for p in parse_alumni(_page(rows))}
     assert got == {"김가람": ("phd", "industry"), "이나래": ("phd", "faculty"), "박다솜": ("phd", "institute"),
                    "최라온": ("ms", "industry"), "정마루": ("ms", "industry"), "한지민": ("ms", "unknown")}
+
+
+def test_stated_degree_time_and_foreign_names_in_hangul():
+    html = _page(["졸업생", "김가람 (Garam Kim)", "석사 2년", "이나래 (Narae Lee)", "석박사통합 6년",
+                  "카오 비엣 푸옹 (Cao Viet Phuong)", "석사2년", "박다솜 (Dasom Park)", "박사4년", "Career:", "LG화학"])
+    got = {p["name_ko"]: (p["degree"], p["years"], p["years_exact"]) for p in parse_alumni(html)}
+    assert got == {"김가람": ("ms", 2.0, True), "이나래": ("integrated", 6.0, True),
+                   "카오비엣푸옹": ("ms", 2.0, True), "박다솜": ("phd", 4.0, True)}
+
+
+def test_probe_hides_names_with_romanised_brackets():
+    from alumni import _mask_line
+    assert "비엣" not in _mask_line("카오 비엣 푸옹 (Cao Viet Phuong)")
+    assert "solji" not in _mask_line("박** (Park solji)")
+    assert "사바" not in _mask_line("사바리나탄")
+    assert _mask_line("LG 생활건강") == "LG 생활건강" or "생활건강" in _mask_line("LG 생활건강")

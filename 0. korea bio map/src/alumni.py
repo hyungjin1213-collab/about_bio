@@ -73,7 +73,7 @@ ALUMNI_WORDS = ["alumni", "alumnus", "alumnae", "former member", "past member", 
 NOT_ALUMNI_URL = re.compile(r"news|notice|board|bbs|articleNo|chair|dean|학과장|공지|게시판", re.I)
 # A short line naming a degree group: names under it share that degree.
 GROUP_WORDS = ["alumni", "alumnae", "graduates", "students", "former", "members", "졸업생", "동문", "졸업자"]
-MEMBER_WORDS = ["members", "member", "people", "구성원", "멤버", "연구원 소개", "lab members"]
+MEMBER_WORDS = ["members", "member", "people", "구성원", "멤버", "연구원 소개", "lab members", "team"]
 STOP_WORDS = ["publication", "논문", "research", "연구분야", "연구 분야", "contact", "오시는", "news", "소식",
               "gallery", "갤러리", "copyright", "©"]
 
@@ -240,6 +240,10 @@ def _name_in(line: str) -> tuple[str, str]:
         rest = line[m.end():]
         en = re.match(r"^\s*\(?\s*([A-Z][A-Za-z\-]+(?:[\s,]+[A-Z][A-Za-z\-]+){1,2})", rest)
         return m.group(1), normalize_english_name(en.group(1)) if en else ""
+    # '카오 비엣 푸옹 (Cao Viet Phuong)': a foreign name in Hangul, romanised in brackets.
+    fh = re.fullmatch(r"([가-힣]{1,6}(?:\s[가-힣]{1,6}){1,4})\s*\(([A-Za-z][A-Za-z .'\-]+)\)", line)
+    if fh and not degree_of(fh.group(1)):
+        return fh.group(1).replace(" ", ""), normalize_english_name(fh.group(2))
     # 'SeaHyoung Lee (이세형)': an English name with the Hangul name in brackets.
     both = BILINGUAL_RE.match(line)
     if both and is_korean_person_name(both.group(2)) and not any(
@@ -554,6 +558,13 @@ def _records(lines: list[str], cards: bool) -> list[dict]:
         marker = re.search(POSITION_MARKERS, text, flags=re.I)
         degree = degree_of(text[:marker.start()] if marker else text) or e["group"]
         start, end, duration = years_of(text[:marker.start()] if marker else text, degree)
+        stated_time = False
+        stated_years = re.search(r"(?:석사|박사|석박사\s*통합|통합)\s*(\d{1,2}(?:\.\d)?)\s*년", text)
+        if duration is None and stated_years and degree in TYPICAL_YEARS:
+            low, high = TYPICAL_YEARS[degree]
+            if low <= float(stated_years.group(1)) <= high:
+                duration = float(stated_years.group(1))      # '석사 2년': the lab states the time
+                stated_time = True
         stated = bool(marker)
         if marker:
             position = text[marker.end():]
@@ -592,7 +603,7 @@ def _records(lines: list[str], cards: bool) -> list[dict]:
             continue        # a current student ('PhD Student (Fall 2023)'), not an alumnus
         people.append({"name_ko": e["name_ko"], "name_en": e["name_en"], "degree": degree or "unknown",
                        "start_year": start, "end_year": end, "years": duration,
-                       "years_exact": duration is not None and exact_months(text),
+                       "years_exact": duration is not None and (stated_time or exact_months(text)),
                        "position": position, "career": career or "unknown", "raw": text[:300]})
     return people
 
@@ -1247,6 +1258,12 @@ def _mask_line(line: str) -> str:
         return "[citation]"
     if re.search(r"[A-Z][a-z]+(?:'s|’s)\b|\b[A-Z][a-z]+ and [A-Z][a-z]+", line):
         return "[caption]"
+    # 'Name (Romanised)' lines are names whatever the script ('카오 비엣 푸옹 (Cao ...)').
+    if re.fullmatch(r"[^()]{1,40}\(\s*[A-Za-z][A-Za-z .,'\-]{1,40}\)", line.strip()):
+        return line.strip()[:1] + "**"
+    if re.fullmatch(r"[가-힣]{1,8}(?:\s[가-힣]{1,8}){0,4}", line.strip()) and len(line.strip()) <= 16 \
+            and not degree_of(line) and not re.search(r"대학|연구|회사|병원|교수|과정|졸업|구성원|소개", line):
+        return line.strip()[:1] + "**"
     # Hangul person names anywhere ('박사라', '무집 라만'); a short all-Hangul line is taken as a name.
     if re.fullmatch(r"[가-힣]{1,4}(?:\s[가-힣]{1,4}){0,2}", line.strip()) and len(line.strip()) <= 10:
         return line.strip()[:1] + "**"
@@ -1418,7 +1435,7 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                     w in unquote(urlparse(url).path).casefold() for w in ALUMNI_WORDS)):
                 who = (p["name_ko"] or p["name_en"] or "?")[:1] + "**"
                 print(f"[probe]   > {who} {p['degree']} {p['start_year']}-{p['end_year']} {p['years']} "
-                      f"{p['career']} | {_mask_line(p['position'][:60])}", flush=True)
+                      f"{p['career']}", flush=True)
             lines = _section_lines(BeautifulSoup(html, "html.parser"), True, inline=True)
             start = next((i for i, x in enumerate(lines) if len(x) <= 40
                           and any(w in x.casefold() for w in ALUMNI_WORDS)), 0)

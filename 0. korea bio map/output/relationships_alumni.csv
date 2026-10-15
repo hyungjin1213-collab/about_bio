@@ -85,11 +85,13 @@ ALU000083,P0752,P2268,advisor_student,5,https://narrykim.org/members/,alumni_pag
 ALU000084,P0752,P0785,advisor_student,23,https://narrykim.org/members/,alumni_page,"listed on the lab's alumni page (phd, 2018)"
 ALU000085,P0752,P2723,advisor_student,7,https://narrykim.org/members/,alumni_page,"listed on the lab's alumni page (phd, 2017)"
 ALU000086,P0757,P1262,advisor_student,,https://cocila.net/people-2/alumni-2/,alumni_page,listed on the lab's alumni page (ms)
-ALU000087,P2532,P2733,advisor_student,3,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2008)"
-ALU000088,P2532,P0002,advisor_student,55,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2012)"
-ALU000089,P2532,P0008,advisor_student,26,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2015)"
-ALU000090,P2532,P0015,advisor_student,36,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2017)"
-ALU000091,P2532,P0010,advisor_student,40,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2017)"
-ALU000092,P2532,P2734,advisor_student,7,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2021)"
-ALU000093,P2532,P2735,advisor_student,11,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2023)"
-ALU000094,P2532,P2736,advisor_student,13,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2025)"
+ALU000087,P0897,P0155,advisor_student,,http://ncst.yonsei.ac.kr/members04.html,alumni_page,listed on the lab's alumni page (phd)
+ALU000088,P0897,P2639,advisor_student,,http://ncst.yonsei.ac.kr/members04.html,alumni_page,listed on the lab's alumni page (phd)
+ALU000089,P2532,P2733,advisor_student,3,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2008)"
+ALU000090,P2532,P0002,advisor_student,55,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2012)"
+ALU000091,P2532,P0008,advisor_student,26,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2015)"
+ALU000092,P2532,P0015,advisor_student,36,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2017)"
+ALU000093,P2532,P0010,advisor_student,40,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2017)"
+ALU000094,P2532,P2734,advisor_student,7,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2021)"
+ALU000095,P2532,P2735,advisor_student,11,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2023)"
+ALU000096,P2532,P2736,advisor_student,13,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2025)"

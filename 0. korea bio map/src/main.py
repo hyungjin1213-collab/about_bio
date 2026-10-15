@@ -153,8 +153,9 @@ def main() -> None:
         from alumni import probe
         os.environ.setdefault("ALUMNI_PROBE_ALL_LINKS", "1")
         os.environ.setdefault("ALUMNI_PROBE_FACULTY", "1")
+        os.environ.setdefault("ALUMNI_PROBE_URLS", "KUBME=https://bmeng.korea.ac.kr/faculty/lab.html,KUBME=https://bmeng.korea.ac.kr/faculty/faculty.html")
 
-        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "").split(",") if x])
+        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "KUBME").split(",") if x])
         # OpenAlex profiles that may belong to one professor (split profiles).
         for name in filter(None, os.getenv("OPENALEX_PROBE_NAMES", "").split(",")):
             data = client._get("authors", {"search": name, "per-page": 15,

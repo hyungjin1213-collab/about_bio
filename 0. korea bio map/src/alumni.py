@@ -1365,7 +1365,9 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                         print(f"[probe]   faculty link: {who[:1]} {_clean(a.get_text(' '))[:20]} -> {a['href'][:120]}", flush=True)
                 ids = re.findall(r"profId[^\w]{1,6}(\w{1,40})", html)
                 print(f"[probe]   profId values: {sorted(set(ids))[:60]}", flush=True)
-                for mt in list(re.finditer(r"profId", html))[:6]:
+                for mt in list(re.finditer(r"url\s*:|\$\.(?:ajax|post|get)|fetch\(", html))[:6]:
+                    print(f"[probe]   ajax: {re.sub(chr(92) + 's+', ' ', html[mt.start(): mt.start() + 400])}", flush=True)
+                for mt in list(re.finditer(r"profId", html))[:0]:
                     print(f"[probe]   around profId: {_mask_line(re.sub(chr(92) + 's+', ' ', html[max(0, mt.start() - 250): mt.start() + 150]))}", flush=True)
                 for mt in re.finditer(r"view\.do|detail\.do", html):
                     print(f"[probe]   around {mt.group(0)}: {_mask_line(re.sub(chr(92) + 's+', ' ', html[max(0, mt.start() - 200): mt.start() + 200]))}", flush=True)

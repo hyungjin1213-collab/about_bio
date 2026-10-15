@@ -635,3 +635,20 @@ def test_probe_hides_names_inside_lines():
     assert "CHOI" not in _mask_line("AREUM CHOI (Undergraduate student, Kyung Hee University)")
     assert "Seok" not in _mask_line("Celebrating Seok June and Dae Yeol's publication")
     assert "KIM" not in _mask_line("JiMin KIM, PhD (August, 2026)")
+
+
+def test_cv_current_university_department_is_faculty():
+    html = _page(["Alumni", "Doctor of Philosophy", "김가람 Ph.D.",
+        "1998.03 ~ 2004.02 : College of Pharmacy, Seoul National University, Ph.D. (Pharmaceutics)",
+        "2015.03 ~ present : 강원대학교 약학대학",
+        "Doctor of Philosophy", "이나래 Ph.D.",
+        "2007.03 ~ 2012.02 : College of Pharmacy, Seoul National University, Ph.D.",
+        "2013.09 ~ 2017.10 : 종근당", "present : 우석대학교 약학과",
+        "Doctor of Philosophy", "박다솜 Ph.D.",
+        "2004.03 ~ 2009.02 : College of Pharmacy, Seoul National University, Ph.D.",
+        "2009.03 ~ present : 연세대학교 생명시스템대학 행정팀 과장",
+        "Master of Science", "최라온 M.S.",
+        "2016.03 ~ 2018.02 : College of Pharmacy, Seoul National University, M.S.",
+        "2018.03 ~ present : College of Pharmacy, Korea University, Pharm.D."])
+    got = {p["name_ko"]: p["career"] for p in parse_alumni(html)}
+    assert got == {"김가람": "faculty", "이나래": "faculty", "박다솜": "other", "최라온": "unknown"}

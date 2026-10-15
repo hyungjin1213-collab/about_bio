@@ -428,15 +428,23 @@ def _profile_lines(lines: list[str]) -> list[str] | None:
             role = next((x for x in roles if degree_of(x) == kind), "")
         else:
             role = max(roles, key=start, default="")
-        later = [x for x in timeline if degree_of(x) not in EDUCATION and x != role
+        later = [x for x in timeline if degree_of(x) not in EDUCATION and x != role and not PHARMD_RE.search(x)
                  and (not role or start(x) >= start(role))]
         now = [x for x in later if PRESENT_RE.search(x)]
         position = (now or sorted(later, key=start))[-1] if (now or later) else ""
         position = re.sub(r"^[\d.\s~\-–]*(?:present)?\s*[:：]?\s*", "", position, flags=re.I)
+        if PHARMD_RE.search(position):
+            position = ""        # 'College of Pharmacy, ..., Pharm.D': more study, not a job
+        elif (re.search(r"대학교|대학|universit|college", position, re.I)
+                and re.search(r"대학(?!교)|학과|학부|대학원|college\s+of|department|school\s+of", position, re.I)
+                and not re.search(r"student|학생|과정|연구원|researcher|fellow|staff|행정|팀|manager|과장|"
+                                  r"post[-\s.]?\s?doc|박사\s*후|visiting|방문", position, re.I)):
+            position += " 교수"   # a CV's current job at a university department is a faculty post
         out += [b["name"], role or b["heading"] or ""] + ([f"현재: {position}"] if position else [])
     return [x for x in out if x]
 
 
+PHARMD_RE = re.compile(r"pharm\.?\s?d\b|약학\s*박사|학사|b\.?\s?s\.?\b", re.I)
 UI_LINE_RE = re.compile(r"(메일|e-?mail|홈페이지|↗?\s*homepage|상세보기|더보기|자세히|view\s*more|more)\s*[:：]?.*",
                         re.I)
 
@@ -1251,7 +1259,7 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                     w in unquote(urlparse(url).path).casefold() for w in ALUMNI_WORDS)):
                 who = (p["name_ko"] or p["name_en"] or "?")[:1] + "**"
                 print(f"[probe]   > {who} {p['degree']} {p['start_year']}-{p['end_year']} {p['years']} "
-                      f"{p['career']}", flush=True)
+                      f"{p['career']} | {_mask_line(p['position'][:60])}", flush=True)
             lines = _section_lines(BeautifulSoup(html, "html.parser"), True, inline=True)
             start = next((i for i, x in enumerate(lines) if len(x) <= 40
                           and any(w in x.casefold() for w in ALUMNI_WORDS)), 0)

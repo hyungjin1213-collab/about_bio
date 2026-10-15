@@ -673,7 +673,7 @@ def _links(html: str, base: str) -> list[tuple[str, str]]:
         if href.startswith(("mailto:", "tel:", "javascript:", "#")):
             continue
         text = _clean(a.get_text(" ") or a.get("title", "") or "")
-        out.append((text, urljoin(base, href).split("#")[0]))
+        out.append((text, _join(base, href).split("#")[0]))
     return out
 
 
@@ -697,6 +697,26 @@ def lab_links(html: str, base: str) -> list[str]:
             seen.add(url)
             out.append(url)
     return out[:3]
+
+
+def _join(base: str, href: str) -> str:
+    """urljoin that keeps archived addresses whole ('/web/2020.../http://lab/...')."""
+    m = re.match(r"(https?://web\.archive\.org/web/\w+/)(https?://.*)", base)
+    if m and not href.startswith(("http://", "https://", "/web/")):
+        return m.group(1) + urljoin(m.group(2), href)
+    return urljoin(base, href)
+
+
+def frame_urls(html: str, base: str) -> list[str]:
+    """Frames and meta refreshes of an old-style framed homepage."""
+    soup = BeautifulSoup(html, "html.parser")
+    urls = [_join(base, f["src"]) for f in soup.find_all(["frame", "iframe"], src=True)
+            if not re.search(r"youtube|google|facebook|map", f["src"], re.I)]
+    for m in soup.find_all("meta", attrs={"http-equiv": re.compile("refresh", re.I)}):
+        target = re.search(r"url\s*=\s*['\"]?([^'\";]+)", m.get("content", ""), re.I)
+        if target:
+            urls.append(_join(base, target.group(1)))
+    return list(dict.fromkeys(urls))
 
 
 def alumni_links(html: str, base: str) -> tuple[list[str], list[str]]:
@@ -785,6 +805,8 @@ def find_alumni(fetch: Fetcher, profile_url: str, manual: dict, orcid: str = "")
         html = profile_html if lab_url == profile_url else fetch.html(lab_url)
         if not html:
             continue
+        for frame in frame_urls(html, lab_url)[:3]:
+            html += fetch.html(frame)      # a framed homepage: its menu lives in a frame
         alumni_pages, member_pages = alumni_links(html, lab_url)
         if not alumni_pages:
             # The alumni page is often a sub-menu of the people page ('구성원' -> '졸업생').
@@ -1340,6 +1362,10 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                 continue
             if "wp-json" in html and os.getenv("ALUMNI_PROBE_ALL_LINKS"):
                 wp_terms(f"{urlparse(url).scheme}://{urlparse(url).netloc}")
+            frames = frame_urls(html, url)
+            if frames:
+                print(f"[probe]   frames: {frames}", flush=True)
+                urls += [u for u in frames if u not in seen]
             al, mem = alumni_links(html, url)
             print(f"[probe]   alumni links={al} member links={mem}", flush=True)
             urls += [u for u in (al or mem) if u not in seen]

@@ -750,3 +750,13 @@ def test_probe_hides_names_with_romanised_brackets():
     assert "solji" not in _mask_line("박** (Park solji)")
     assert "사바" not in _mask_line("사바리나탄")
     assert _mask_line("LG 생활건강") == "LG 생활건강" or "생활건강" in _mask_line("LG 생활건강")
+
+
+def test_frame_urls():
+    from alumni import frame_urls
+    html = ('<frameset><frame src="top.html"><frame src="/web/2020/http://lab.example.org/main.html"></frameset>'
+            '<meta http-equiv="refresh" content="0; url=home.php">')
+    assert frame_urls(html, "https://web.archive.org/web/2020/http://lab.example.org/") == [
+        "https://web.archive.org/web/2020/http://lab.example.org/top.html",
+        "https://web.archive.org/web/2020/http://lab.example.org/main.html",
+        "https://web.archive.org/web/2020/http://lab.example.org/home.php"]

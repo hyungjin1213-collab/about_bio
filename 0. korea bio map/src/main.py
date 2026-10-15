@@ -156,13 +156,25 @@ def main() -> None:
 
         probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "P0902").split(",") if x])
         # OpenAlex profiles that may belong to one professor (split profiles).
-        for name in filter(None, os.getenv("OPENALEX_PROBE_NAMES", "Junyoung Hong,Jun-Young Hong,Joonyoung Hong,Jun Young Hong").split(",")):
+        for name in filter(None, os.getenv("OPENALEX_PROBE_NAMES", "").split(",")):
             data = client._get("authors", {"search": name, "per-page": 15,
                                            "select": "id,display_name,works_count,cited_by_count,last_known_institutions,orcid"})
             for a in data.get("results") or []:
                 inst = "; ".join(i.get("display_name", "") for i in a.get("last_known_institutions") or [])
                 print(f"[openalex-probe] {name}: {a['id'].split('/')[-1]} {a['display_name']} works={a['works_count']} "
                       f"cited={a['cited_by_count']} orcid={a.get('orcid') or ''} inst={inst}", flush=True)
+        # What an OpenAlex profile is about: topics, institutions, a few recent titles.
+        for aid in filter(None, os.getenv("OPENALEX_PROBE_AUTHORS", "A5085581446,A5037484762,A5104074670").split(",")):
+            a = client._get(f"authors/{aid}", {"select": "id,display_name,works_count,topics,affiliations"})
+            topics = ", ".join(t.get("display_name", "") for t in (a.get("topics") or [])[:5])
+            insts = "; ".join(f"{x['institution']['display_name']} {min(x.get('years') or [0])}-{max(x.get('years') or [0])}"
+                              for x in (a.get("affiliations") or [])[:6])
+            print(f"[openalex-author] {aid} {a.get('display_name')} topics={topics} | {insts}", flush=True)
+            works = client._get("works", {"filter": f"author.id:{aid}", "sort": "publication_year:desc", "per-page": 4,
+                                          "select": "publication_year,title,primary_location"})
+            for w in works.get("results") or []:
+                src = ((w.get("primary_location") or {}).get("source") or {}).get("display_name", "")
+                print(f"[openalex-author]   {w.get('publication_year')} {str(w.get('title'))[:90]} ({src})", flush=True)
         return
 
     if args.command == "alumni-refresh":

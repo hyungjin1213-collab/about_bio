@@ -38,8 +38,9 @@ permissions:
   contents: write
 
 # The daily run and a manual run must not collect at the same time.
+# A probe only reads pages and commits nothing: it runs on its own.
 concurrency:
-  group: korea-bio-map
+  group: ${{ inputs.mode == 'alumni-probe' && format('korea-bio-map-probe-{0}', github.run_id) || 'korea-bio-map' }}
   cancel-in-progress: false
 
 jobs:

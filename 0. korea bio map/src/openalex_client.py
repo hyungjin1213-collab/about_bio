@@ -11,6 +11,9 @@ from config import OPENALEX_API_KEY, OPENALEX_BASE_URL, OPENALEX_EMAIL
 
 OPENALEX_TIMEOUT = 20
 MAX_RETRY_WAIT = 60.0
+# Server errors and dropped connections: OpenAlex restarts can take minutes, so wait them out
+# (about 12 minutes in all) before calling the service unavailable.
+OUTAGE_WAITS = (10, 30, 60, 120, 240, 300)
 
 
 class OpenAlexUnavailable(requests.RequestException):
@@ -67,14 +70,19 @@ class OpenAlexClient:
         kind = f"{path.split('/')[0]}:{'search' if 'search' in params else 'get' if '/' in path else 'list'}"
         self.request_counts[kind] = self.request_counts.get(kind, 0) + 1
 
-        for attempt in range(self.max_retries):
+        attempt, outages = 0, 0
+        while attempt < self.max_retries:
+            attempt += 1
             self._throttle()
             try:
                 response = self.session.get(url, params=params, timeout=OPENALEX_TIMEOUT)
             except requests.RequestException as exc:
                 self._last_request_at = time.monotonic()
                 last_error = f"{type(exc).__name__}"
-                time.sleep(2.0 * (attempt + 1))
+                if outages < len(OUTAGE_WAITS):
+                    time.sleep(OUTAGE_WAITS[outages])
+                    outages += 1
+                    attempt -= 1        # an outage does not use up the ordinary retries
                 continue
             self._last_request_at = time.monotonic()
 
@@ -98,7 +106,11 @@ class OpenAlexClient:
                 time.sleep(min(max(wait, 1.0), MAX_RETRY_WAIT))
                 continue
             if 500 <= response.status_code < 600:
-                time.sleep(min(3.0 * (attempt + 1), MAX_RETRY_WAIT))
+                if outages < len(OUTAGE_WAITS):
+                    print(f"[openalex] HTTP {response.status_code}; waiting {OUTAGE_WAITS[outages]}s", flush=True)
+                    time.sleep(OUTAGE_WAITS[outages])
+                    outages += 1
+                    attempt -= 1
                 continue
             if response.status_code in (401, 403):
                 break

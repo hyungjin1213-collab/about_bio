@@ -152,7 +152,8 @@ def main() -> None:
     if args.command == "alumni-probe":
         from alumni import probe
         os.environ.setdefault("ALUMNI_PROBE_ALL_LINKS", "1")
-        os.environ.setdefault("ALUMNI_PROBE_URLS", "DGU=https://life.dongguk.edu/professor/list?professor_haggwa_type=PROFH_030,DGU=https://life.dongguk.edu/page/489")
+        os.environ.setdefault("ALUMNI_PROBE_FACULTY", "1")
+        os.environ.setdefault("ALUMNI_PROBE_URLS", "DGU=https://life.dongguk.edu/professor/list?professor_haggwa_type=PROFH_030")
 
         probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "DGU").split(",") if x])
         # OpenAlex profiles that may belong to one professor (split profiles).

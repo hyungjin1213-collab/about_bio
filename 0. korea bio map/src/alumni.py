@@ -1507,5 +1507,11 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
             start = next((i for i, x in enumerate(lines) if len(x) <= 40
                           and any(w in x.casefold() for w in ALUMNI_WORDS)), 0)
             print(f"[probe]   {len(lines)} text lines (block breaks); from line {start}:", flush=True)
-            for line in lines[start:start + 160]:
-                print(f"[probe]     | {_mask_line(line)[:110]}", flush=True)
+            faculty_page = os.getenv("ALUMNI_PROBE_FACULTY") and re.search(r"professor|faculty|교수", url, re.I)
+            for line in (lines if faculty_page else lines[start:start + 160]):
+                # Faculty lists are public staff directories: shown as they are.
+                if faculty_page:
+                    if re.search(r"교수|professor|[가-힣]{2,4}\s*$", line, re.I) and len(line) <= 60:
+                        print(f"[probe]     F| {line[:110]}", flush=True)
+                else:
+                    print(f"[probe]     | {_mask_line(line)[:110]}", flush=True)

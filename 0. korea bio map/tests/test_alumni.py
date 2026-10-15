@@ -721,3 +721,16 @@ def test_manual_page_numbers_are_followed_until_nothing_new():
 
     _, used, people = find_alumni(Fetch(), "", {"alumni_url": "https://lab.example.org/grads?p={page}"})
     assert len(people) == 6 and used == ["https://lab.example.org/grads?p={page}"]
+
+
+def test_name_email_career_cards_under_degree_headings():
+    rows = ["Home > People > Alumni", "Ph.D."]
+    for name, career in [("김가람 (Garam Kim)", "CJ 제일제당"), ("이나래 (Narae Lee)", "한남대학교 교수"),
+                         ("박다솜 (Dasom Park)", "한국화학연구원")]:
+        rows += ["Name", name, "E-mail", "someone@example.com", "Career", career]
+    rows += ["M.S."]
+    for name, career in [("최라온 (Raon Choi)", "LG화학"), ("정마루 (Maru Jung)", "삼성바이오로직스"), ("한지민 (Jimin Han)", "")]:
+        rows += ["Name", name, "E-mail", "someone@example.com", "Career"] + ([career] if career else [])
+    got = {p["name_ko"]: (p["degree"], p["career"]) for p in parse_alumni(_page(rows))}
+    assert got == {"김가람": ("phd", "industry"), "이나래": ("phd", "faculty"), "박다솜": ("phd", "institute"),
+                   "최라온": ("ms", "industry"), "정마루": ("ms", "industry"), "한지민": ("ms", "unknown")}

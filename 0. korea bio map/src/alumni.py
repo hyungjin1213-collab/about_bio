@@ -92,7 +92,7 @@ CAREERS = [  # (kind, pattern); first match wins.
     ("faculty", r"pro\w{0,3}ss?or|\bprof\b\.?|교수|lecturer|faculty|강사"),
     ("hospital", r"hospital|병원|medical\s+center|의료원|resident|레지던트|전공의|clinic|의원"),
     # Public sector before companies ('Examiner ... Bio-Healthcare ... Ministry').
-    ("institute", r"research\s+foundation|연구재단|\bnrf\b|ministry|examiner|심사관|식약처|mfds|\bfda\b|질병관리|kdca|government|정부|공무원|특허청"),
+    ("institute", r"한국[가-힣]*(?:연구원|연구소)|국립[가-힣]*(?:연구원|연구소)|기초과학연구원|research\s+foundation|연구재단|\bnrf\b|ministry|examiner|심사관|식약처|mfds|\bfda\b|질병관리|kdca|government|정부|공무원|특허청"),
     ("industry", r"\binc\b|\bco\.|\bltd\b|\bcorp|주식회사|\(주\)|제약|약품|samsung|삼성|\blg\b|"
                  r"\bsk\b|celltrion|셀트리온|유한|한미|녹십자|종근당|대웅|\bcj\b|amore|아모레|콜마|kolmar|genentech|novartis|"
                  r"pfizer|roche|merck|astrazeneca|startup|스타트업|회사|기업|화학|전자|헬스케어|바이오로직스|바이오사이언스|"
@@ -322,7 +322,8 @@ def _quality(people: list[dict]) -> tuple[int, int]:
     return sum(filled) - 2 * loose, len(people)
 
 
-CARD_LABELS = {"e-mail", "email", "work", "previously", "이메일", "현재", "이전"}
+CARD_LABELS = {"e-mail", "email", "work", "previously", "이메일", "현재", "이전", "career", "진로"}
+WORK_LABELS = {"work", "career", "진로", "현재"}
 CARD_ORDER = ("integrated", "phd", "ms", "postdoc")
 
 
@@ -330,10 +331,16 @@ def _card_lines(lines: list[str]) -> list[str]:
     """Rewrite 'name / E-Mail / addr / Work / position / Previously / history' cards as
     'name / degree line / 현재: position' records the line parser reads."""
     out: list[str] = []
+    # 'Name' / '김가람 (Garam Kim)': the label above the name is dropped.
+    lines = [x for j, x in enumerate(lines) if not (x.casefold() in ("name", "이름", "성명")
+                                                     and j + 1 < len(lines) and any(_name_in(lines[j + 1])))]
+    group = ""
     i = 0
     while i < len(lines):
         ko, en = _name_in(lines[i])
         nxt = lines[i + 1].casefold() if i + 1 < len(lines) else ""
+        if not (ko or en) and len(lines[i]) <= 20 and degree_of(lines[i]) in CARD_ORDER:
+            group = lines[i]              # 'Ph.D.' / 'M.S.' heading over the cards
         if not (ko or en) or nxt not in CARD_LABELS:
             i += 1
             continue
@@ -343,17 +350,21 @@ def _card_lines(lines: list[str]) -> list[str]:
         while i < len(lines):
             low = lines[i].casefold()
             if low in CARD_LABELS:
-                label = {"이메일": "e-mail", "email": "e-mail", "현재": "work", "이전": "previously"}.get(low, low)
+                label = {"이메일": "e-mail", "email": "e-mail", "현재": "work", "이전": "previously",
+                         "career": "work", "진로": "work"}.get(low, low)
                 card.setdefault(label, [])
             elif any(_name_in(lines[i])) and i + 1 < len(lines) and lines[i + 1].casefold() in CARD_LABELS:
                 break
+            elif len(lines[i]) <= 20 and degree_of(lines[i]) in CARD_ORDER and not any(_name_in(lines[i])) \
+                    and label != "previously":
+                break                     # the next group heading
             elif label != "e-mail":
                 card.setdefault(label, []).append(lines[i])
             i += 1
         history = [x for x in card.get("previously", []) if degree_of(x) in CARD_ORDER]
         history.sort(key=lambda x: CARD_ORDER.index(degree_of(x)))
         work = " / ".join(card.get("work", []))
-        out += card["name"] + history[:1] + ([f"현재: {work}"] if work else [])
+        out += card["name"] + (history[:1] or [group] if (history or group) else []) + ([f"현재: {work}"] if work else [])
     return out
 
 
@@ -470,7 +481,7 @@ UI_LINE_RE = re.compile(r"(메일|e-?mail|홈페이지|↗?\s*homepage|상세보
 
 
 def _parse_lines(lines: list[str]) -> list[dict]:
-    cards = sum(1 for x in lines if x.casefold() == "work") >= 5
+    cards = sum(1 for x in lines if x.casefold() in WORK_LABELS - {"현재"}) >= 5
     if cards:
         lines = _card_lines(lines)       # one name line per card: every name starts a record
     else:

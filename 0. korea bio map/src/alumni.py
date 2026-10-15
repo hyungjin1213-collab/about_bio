@@ -1288,15 +1288,15 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
 
     for pid in ids:
         m = manual.get(pid, {})
-        urls = [u for u in extra.get(pid, []) + m.get("alumni_url", "").split(";") + [m.get("lab_url", "")]
-                if u and u != "none"]
+        urls = [u.replace("{page}", str(n)) for u in extra.get(pid, []) + m.get("alumni_url", "").split(";")
+                + [m.get("lab_url", "")] if u and u != "none" for n in ((1, 2, 3) if "{page}" in u else (1,))]
         if pid in sites.index:
             urls += [u for u in [sites.at[pid, "lab_url"], *str(sites.at[pid, "alumni_urls"]).split(";")] if u]
         print(f"\n[probe] ===== {pid} =====", flush=True)
         seen: set[str] = set()
         while urls:
             url = urls.pop(0)
-            if url in seen or len(seen) >= 8:
+            if url in seen or len(seen) >= 10:
                 continue
             seen.add(url)
             allowed = fetch.allowed(url)

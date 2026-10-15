@@ -17,3 +17,10 @@ P0746,identity_status,confirmed,"현택환 (SNU/IBS, nanomaterials): OpenAlex pr
 P0898,name_en,Hyobin Jeong,사용자 제보 (10/15): 연세대 시스템생물학과 정효빈 = Hyobin Jeong (sbblaboratory.com PI 약력: POSTECH 박사, EMBL 포닥)
 P0898,openalex_id,A5008742544,OpenAlex Hyobin Jeong (Yonsei University) 75편 · ORCID 일치
 P0898,orcid,0000-0002-1526-3343,OpenAlex 프로필의 ORCID
+P0902,name_en,Jun Young Hong,사용자 제보 (10/15): 연세대 시스템생물학과 홍준영 (honglab.wixsite.com/dipstudy)
+P0902,openalex_id,A5085581446,OpenAlex Jun Young Hong (Yonsei; Yale) · PI 약력 Yale HHMI/Immunobiology 포닥 2015-2021과 일치
+P0902,orcid,0000-0002-4963-7147,OpenAlex 프로필의 ORCID
+P0897,openalex_id,A5025236447;A5111719533,"정광철: OpenAlex Kwang Chul Chung (Yonsei; 파킨슨병·유비퀴틴, 134편) + 같은 이름 작은 프로필(4편). 연세대 동명이인 2명이라 자동 매칭 보류됐던 것"
+P0900,openalex_id,A5103032803,"조현수: OpenAlex Hyun-Soo Cho (Yonsei; 효소 구조생물학, 130편) — structure.yonsei.ac.kr 구조생물학 연구실과 일치. 동명이인(후성유전학, KRIBB)과 구분"
+P0886,openalex_id,A5032912881,"김응빈: OpenAlex Eungbin Kim (미생물학, 108편). 현 소속 미기재로 자동 매칭 보류됐던 것"
+P0887,openalex_id,A5029037764,"김지현: OpenAlex Jihyun F. Kim (Yonsei; 미생물 유전체, 168편). 연세대 동명이인 7명이라 자동 매칭 보류됐던 것"

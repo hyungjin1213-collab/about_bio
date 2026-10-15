@@ -154,7 +154,7 @@ def main() -> None:
         os.environ.setdefault("ALUMNI_PROBE_ALL_LINKS", "1")
         os.environ.setdefault("ALUMNI_PROBE_FACULTY", "1")
 
-        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "P0897,P0900").split(",") if x])
+        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "P0897").split(",") if x])
         # OpenAlex profiles that may belong to one professor (split profiles).
         for name in filter(None, os.getenv("OPENALEX_PROBE_NAMES", "").split(",")):
             data = client._get("authors", {"search": name, "per-page": 15,
@@ -164,7 +164,7 @@ def main() -> None:
                 print(f"[openalex-probe] {name}: {a['id'].split('/')[-1]} {a['display_name']} works={a['works_count']} "
                       f"cited={a['cited_by_count']} orcid={a.get('orcid') or ''} inst={inst}", flush=True)
         # Why hand-entered professors found no OpenAlex profile: the matcher's pick and the checks.
-        resolve_ids = [x for x in os.getenv("OPENALEX_RESOLVE_PROBE", "P0886,P0887,P0888,P0889,P0891,P0892,P0893,P0894,P0897,P0900,P0901").split(",") if x]
+        resolve_ids = [x for x in os.getenv("OPENALEX_RESOLVE_PROBE", "").split(",") if x]
         if resolve_ids:
             from faculty_identity_v2 import _best_openalex, _bio_share
             from pipeline import _read_csv, DATA_DIR as PDATA

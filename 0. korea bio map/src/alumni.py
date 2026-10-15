@@ -1335,6 +1335,8 @@ def _mask_line(line: str) -> str:
         return line.strip()[:1] + "**"
     line = re.sub(r"(?<![가-힣])[가-힣]{2,4}(?![가-힣])",
                   lambda m: m.group(0)[:1] + "**" if is_korean_person_name(m.group(0)) else m.group(0), line)
+    # A Hangul word before a romanised name is a name whatever its origin ('벨린다 Ong ...').
+    line = re.sub(r"(?<![가-힣])([가-힣])[가-힣]{1,4}(?=\s+[A-Z][a-z])", r"\1**", line)
     # Runs of capitalised words anywhere ('AREUM CHOI (Undergraduate ...)', 'JiMin KIM, PhD')
     line = re.sub(r"\b[A-Z][A-Za-z'\-]+(?:\s+[A-Z][A-Za-z'\-]+){1,3}\b", lambda m: m.group(0)[:1] + "**", line)
     ko, en = _name_in(line)

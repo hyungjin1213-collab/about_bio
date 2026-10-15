@@ -1076,9 +1076,14 @@ class ProfessorIndex:
         def uni_ok(r):
             return any(t in pos for t in _uni_tokens(str(r.get("university", ""))))
 
+        # Someone who left the lab within the last two years and lists no faculty post cannot be
+        # a professor yet: a same-name match is another person ('Master (2026 후기)').
+        fresh = (alum.get("career") != "faculty" and alum.get("end_year")
+                 and int(alum["end_year"]) >= date.today().year - 2)
         if alum.get("name_ko"):
             cands = [r for r in self.by_ko.get(alum["name_ko"], []) if r["professor_id"] != exclude]
-            ok = [r for r in cands if (alum.get("name_en") and _same_person(r.get("name_en", ""), alum)) or uni_ok(r)]
+            ok = [r for r in cands if uni_ok(r) or (not fresh and alum.get("name_en")
+                                                    and _same_person(r.get("name_en", ""), alum))]
         elif alum.get("name_en"):
             ok = [r for r in self.rows if r["professor_id"] != exclude and r.get("name_en")
                   and _same_person(r["name_en"], alum) and uni_ok(r)]
@@ -1263,6 +1268,12 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
             other = [(t[:30], u) for t, u in _links(html, url) if any(w in f"{t} {u}".casefold()
                      for w in ("alumni", "졸업", "graduate", "member", "people", "구성원", "former"))][:12]
             print(f"[probe]   candidate links={other}", flush=True)
+            hints = sorted(set(re.findall(r"(?:admin-ajax|ajaxurl|wp-json|pageid|paged|[?&]page=|data-page|"
+                                          r"mod=list|kboard|tab=|category=|cat=)[^\"'<>\s]{0,60}", html)))
+            print(f"[probe]   paging hints: {[h for h in hints if not re.search(r'[가-힣]', h)][:25]}", flush=True)
+            for frm in BeautifulSoup(html, "html.parser").find_all(["form", "select"]):
+                print(f"[probe]   {frm.name}: action={frm.get('action', '')} name={frm.get('name', '')} "
+                      f"fields={[i.get('name') for i in frm.find_all(['input', 'select', 'option'])][:15]}", flush=True)
             if os.getenv("ALUMNI_PROBE_ALL_LINKS"):
                 for t, u in dict.fromkeys(_links(html, url)):
                     if urlparse(u).netloc == urlparse(url).netloc:

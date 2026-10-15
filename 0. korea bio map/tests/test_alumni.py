@@ -679,3 +679,17 @@ def test_manual_entry_with_two_alumni_pages():
                                                   "alumni_url": "https://lab.example.org/alumni/;https://lab.example.org/grads/"})
     assert len(used) == 2
     assert sorted(p["degree"] for p in people) == ["ms", "ms", "ms", "phd", "postdoc"]
+
+
+def test_fresh_graduate_is_not_a_same_name_professor():
+    import pandas as pd
+    from alumni import ProfessorIndex
+    index = ProfessorIndex(pd.DataFrame([{"professor_id": "P9001", "name_ko": "김가람", "name_en": "Garam Kim",
+                                          "university": "Korea University"}]))
+    fresh = {"name_ko": "김가람", "name_en": "Garam Kim", "degree": "ms", "end_year": date.today().year,
+             "career": "unknown", "position": ""}
+    assert index.find(fresh, "P0001") == ""
+    old = dict(fresh, end_year=2012, degree="phd")
+    assert index.find(old, "P0001") == "P9001"
+    now_prof = dict(fresh, career="faculty", position="고려대학교 조교수")
+    assert index.find(now_prof, "P0001") == "P9001"

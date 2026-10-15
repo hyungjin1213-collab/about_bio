@@ -703,3 +703,21 @@ def test_years_written_above_each_name():
     got = {p["name_en"]: (p["degree"], p["start_year"], p["end_year"], p["career"]) for p in parse_alumni(html)}
     assert got == {"Garam Kim": ("phd", 2008, 2012, "faculty"), "Narae Lee": ("phd", 2007, 2013, "faculty"),
                    "Dasom Park": ("phd", 2012, 2018, "industry"), "Raon Choi": ("ms", 2016, 2018, "industry")}
+
+
+def test_manual_page_numbers_are_followed_until_nothing_new():
+    from alumni import find_alumni
+    def page(names):
+        return "".join(f"<p>Ph.D. (20{y} 후기)</p><p>{n}</p>" for y, n in names)
+    pages = {"https://lab.example.org/grads?p=1": page([(20, "김가람"), (21, "이나래"), (22, "박다솜")]),
+             "https://lab.example.org/grads?p=2": page([(18, "최라온"), (19, "정마루"), (17, "한지민")]),
+             "https://lab.example.org/grads?p=3": page([(18, "최라온"), (19, "정마루"), (17, "한지민")])}
+
+    class Fetch:
+        session = None
+
+        def html(self, url):
+            return pages.get(url, "")
+
+    _, used, people = find_alumni(Fetch(), "", {"alumni_url": "https://lab.example.org/grads?p={page}"})
+    assert len(people) == 6 and used == ["https://lab.example.org/grads?p={page}"]

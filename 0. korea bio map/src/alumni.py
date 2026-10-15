@@ -737,13 +737,19 @@ def find_alumni(fetch: Fetcher, profile_url: str, manual: dict, orcid: str = "")
         return manual.get("lab_url", ""), [], []        # checked by hand: the lab lists no alumni
     if manual.get("alumni_url"):
         # Several pages may be given, ';'-separated (postdocs on one page, graduates on another).
-        people, used = [], []
+        # A '{page}' in the address is a page number: read pages 1, 2, ... until one adds nobody new.
+        people, used, seen = [], [], set()
         for url in filter(None, (u.strip() for u in manual["alumni_url"].split(";"))):
-            html = fetch.html(url)
-            found = parse_alumni(html) if html else []
-            if found:
+            for n in range(1, 31 if "{page}" in url else 2):
+                html = fetch.html(url.replace("{page}", str(n)))
+                found = [p for p in (parse_alumni(html) if html else [])
+                         if (p["name_ko"], p["name_en"], p["degree"]) not in seen]
+                if not found:
+                    break
+                seen.update((p["name_ko"], p["name_en"], p["degree"]) for p in found)
                 people += found
-                used.append(url)
+                if url not in used:
+                    used.append(url)
         return manual.get("lab_url", ""), used, people
     candidates = [manual["lab_url"]] if manual.get("lab_url") else []
     profile_html = ""
@@ -1324,6 +1330,16 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                 snippet = re.sub(r"\s+", " ", html[max(0, mt.start() - 200): mt.start() + 120])
                 if re.search(r"onclick|href|location|\.asp|\.php|\.html?", snippet, re.I):
                     print(f"[probe]   menu near alumni: {_mask_line(snippet)}", flush=True)
+            if "javascript:" in html:
+                for sc in BeautifulSoup(html, "html.parser").find_all("script", src=True)[:12]:
+                    src = urljoin(url, sc["src"])
+                    try:
+                        js = fetch._get(src).text
+                    except requests.RequestException:
+                        continue
+                    for mt in re.finditer(r"function\s+sub_menu\w*\s*\(", js):
+                        print(f"[probe]   script {src[-40:]}: {re.sub(chr(92)+'s+', ' ', js[mt.start(): mt.start() + 900])}",
+                              flush=True)
             for mt in re.finditer(r"function\s+sub_menu\w*\s*\(", html):
                 print(f"[probe]   script: {re.sub(chr(92)+'s+', ' ', html[mt.start(): mt.start() + 700])}", flush=True)
             for key in ("member_tax", "var_page", "board_mode"):

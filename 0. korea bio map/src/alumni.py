@@ -1282,7 +1282,7 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
 
     for pid in ids:
         m = manual.get(pid, {})
-        urls = [u for u in m.get("alumni_url", "").split(";") + [m.get("lab_url", "")] + extra.get(pid, [])
+        urls = [u for u in extra.get(pid, []) + m.get("alumni_url", "").split(";") + [m.get("lab_url", "")]
                 if u and u != "none"]
         if pid in sites.index:
             urls += [u for u in [sites.at[pid, "lab_url"], *str(sites.at[pid, "alumni_urls"]).split(";")] if u]
@@ -1290,7 +1290,7 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
         seen: set[str] = set()
         while urls:
             url = urls.pop(0)
-            if url in seen or len(seen) >= 4:
+            if url in seen or len(seen) >= 8:
                 continue
             seen.add(url)
             allowed = fetch.allowed(url)

@@ -1356,7 +1356,14 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
             if os.getenv("ALUMNI_PROBE_EXTERNAL"):
                 calls = sorted(set(re.findall(r"(?:fn_\w+|go\w*|view\w*)\s*\(\s*['\"]?[\w\-]{1,40}['\"]?(?:\s*,\s*['\"]?[\w\-]{0,40}['\"]?)*\s*\)", html)))
                 print(f"[probe]   js calls: {calls[:40]}", flush=True)
-                for mt in re.finditer(r"view\.do|detail\.do|homepage|홈페이지", html):
+                # Faculty lists: each professor (public) with the links in that professor's block.
+                soup2 = BeautifulSoup(html, "html.parser")
+                for a in soup2.find_all("a", href=True):
+                    if re.search(r"홈페이지|homepage|lab|연구실", a.get_text(" ") + " " + a.get("title", ""), re.I):
+                        block = a.find_parent(["li", "tr", "div"])
+                        who = re.findall(r"[가-힣]{2,4}\s*교수", block.get_text(" ") if block else "")
+                        print(f"[probe]   faculty link: {who[:1]} {_clean(a.get_text(' '))[:20]} -> {a['href'][:120]}", flush=True)
+                for mt in re.finditer(r"view\.do|detail\.do", html):
                     print(f"[probe]   around {mt.group(0)}: {_mask_line(re.sub(chr(92) + 's+', ' ', html[max(0, mt.start() - 200): mt.start() + 200]))}", flush=True)
             for key in ("member_tax", "var_page", "board_mode"):
                 for mt in re.finditer(key, html):

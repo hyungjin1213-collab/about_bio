@@ -715,8 +715,15 @@ def find_alumni(fetch: Fetcher, profile_url: str, manual: dict, orcid: str = "")
     if manual.get("alumni_url", "").strip().casefold() == "none":
         return manual.get("lab_url", ""), [], []        # checked by hand: the lab lists no alumni
     if manual.get("alumni_url"):
-        html = fetch.html(manual["alumni_url"])
-        return manual.get("lab_url", ""), [manual["alumni_url"]], parse_alumni(html) if html else []
+        # Several pages may be given, ';'-separated (postdocs on one page, graduates on another).
+        people, used = [], []
+        for url in filter(None, (u.strip() for u in manual["alumni_url"].split(";"))):
+            html = fetch.html(url)
+            found = parse_alumni(html) if html else []
+            if found:
+                people += found
+                used.append(url)
+        return manual.get("lab_url", ""), used, people
     candidates = [manual["lab_url"]] if manual.get("lab_url") else []
     profile_html = ""
     if not candidates and profile_url.startswith("http") and "openalex.org" not in profile_url:

@@ -660,3 +660,22 @@ def test_probe_hides_hangul_names():
     assert "라만" not in _mask_line("무집 라만")
     assert "준석" not in _mask_line("Professor. 최준석")
     assert _mask_line("Master (2026 후기)") == "M** (2026 후기)" or "2026" in _mask_line("Master (2026 후기)")
+
+
+def test_manual_entry_with_two_alumni_pages():
+    from alumni import find_alumni
+    pages = {"https://lab.example.org/alumni/": "<ul><li>김가람 박사후연구원 2014-2017</li><li>현: 고려대학교 교수</li></ul>",
+             "https://lab.example.org/grads/": "".join(f"<p>{x}</p>" for x in [
+                 "Ph.D. (2026 후기)", "이나래", "Narae Lee", "Master (2026 후기)", "박다솜", "Dasom Park",
+                 "Master (2026 전기)", "최라온", "Raon Choi", "Master (2026 전기)", "정마루", "Maru Jung"])}
+
+    class Fetch:
+        session = None
+
+        def html(self, url):
+            return pages.get(url, "")
+
+    lab, used, people = find_alumni(Fetch(), "", {"lab_url": "https://lab.example.org/",
+                                                  "alumni_url": "https://lab.example.org/alumni/;https://lab.example.org/grads/"})
+    assert len(used) == 2
+    assert sorted(p["degree"] for p in people) == ["ms", "ms", "ms", "phd", "postdoc"]

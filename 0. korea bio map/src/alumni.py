@@ -49,6 +49,9 @@ USER_AGENT = "Mozilla/5.0 (compatible; AboutBioFacultyCollector/2.1)"
 
 SITES_PATH = DATA_DIR / "lab_sites.csv"
 MANUAL_PATH = DATA_DIR / "lab_sites_manual.csv"
+# Alumni lists given by hand (a lab whose page cannot be read): one row per alumnus, without
+# names except alumni who are professors now (public, and needed to link them on the map).
+RECORDS_DIR = DATA_DIR / "alumni_manual"
 SUMMARY_PATH = OUTPUT_DIR / "lab_alumni_summary.csv"
 # PI -> alumnus links for alumni who are professors in the map (both public faculty).
 ALUMNI_REL_PATH = OUTPUT_DIR / "relationships_alumni.csv"
@@ -776,6 +779,27 @@ def reread_alumni(fetch: Fetcher, lab_url: str, alumni_urls: str) -> tuple[str, 
     return lab_url, used, people
 
 
+def manual_records(pid: str) -> list[dict]:
+    """People from data/alumni_manual/<pid>.csv (degree, start, end 'YYYY.MM', months, career, position)."""
+    path = RECORDS_DIR / f"{pid}.csv"
+    if not path.exists():
+        return []
+    people = []
+    for _, r in _read(path).iterrows():
+        def ym(v):
+            m = re.match(r"((?:19|20)\d\d)", str(v))
+            return int(m.group(1)) if m else None
+        months = float(r["months"]) if str(r.get("months", "")).strip() else None
+        degree = r.get("degree") or "unknown"
+        low, high = TYPICAL_YEARS.get(degree, (0.5, 10.0))
+        years = round(months / 12, 1) if months and low <= months / 12 <= high else None
+        people.append({"name_ko": r.get("name_ko", ""), "name_en": "", "degree": degree,
+                       "start_year": ym(r.get("start")), "end_year": ym(r.get("end")), "years": years,
+                       "years_exact": years is not None, "position": r.get("position", ""),
+                       "career": r.get("career") or "unknown", "raw": ""})
+    return people
+
+
 def find_alumni(fetch: Fetcher, profile_url: str, manual: dict, orcid: str = "") -> tuple[str, list[str], list[dict]]:
     """(lab url, alumni page urls, alumni) for one professor."""
     if manual.get("alumni_url", "").strip().casefold() == "none":
@@ -1024,7 +1048,8 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
     if known_only:
         known = sites[(sites["status"] == "alumni") & (sites["alumni_urls"] != "")]
         site_of = {r["professor_id"]: r for _, r in known.iterrows()}
-        order = [p for p in professors["professor_id"] if p in site_of or p in manual]
+        hand_ids = {f.stem for f in RECORDS_DIR.glob("*.csv")} if RECORDS_DIR.exists() else set()
+        order = [p for p in professors["professor_id"] if p in site_of or p in manual or p in hand_ids]
     else:
         order = sorted(professors["professor_id"], key=due)
         order = [p for p in order if due(p)[0] < 9][:limit]
@@ -1072,7 +1097,10 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
     for n, pid in enumerate(order, 1):
         r = rows.loc[pid]
         try:
-            if known_only and pid not in manual:
+            hand = manual_records(pid)
+            if hand:
+                lab_url, pages, people = manual.get(pid, {}).get("lab_url", ""), [f"(given by hand: {pid})"], hand
+            elif known_only and pid not in manual:
                 lab_url, pages, people = reread_alumni(fetch, site_of[pid]["lab_url"], site_of[pid]["alumni_urls"])
             else:
                 lab_url, pages, people = find_alumni(fetch, str(r.get("source_url", "")), manual.get(pid, {}),
@@ -1271,6 +1299,9 @@ def alumni_lab_info() -> dict[str, dict]:
             info["recent"] = recent
         info["alumni_url"] = (r.get("alumni_urls", "") or "").split(";")[0]
         info["source"] = "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)"
+        if info["alumni_url"].startswith("(given by hand"):
+            info["alumni_url"] = ""
+            info["source"] = "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)"
         info["as_of"] = r.get("checked_at", "")
         out[r["professor_id"]] = info
     return out

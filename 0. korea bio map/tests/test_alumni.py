@@ -760,3 +760,20 @@ def test_frame_urls():
         "https://web.archive.org/web/2020/http://lab.example.org/top.html",
         "https://web.archive.org/web/2020/http://lab.example.org/main.html",
         "https://web.archive.org/web/2020/http://lab.example.org/home.php"]
+
+
+def test_alumni_given_by_hand(tmp_path, monkeypatch):
+    import alumni
+    monkeypatch.setattr(alumni, "RECORDS_DIR", tmp_path)
+    (tmp_path / "P0001.csv").write_text(
+        "degree,start,end,months,career,position,name_ko,note\n"
+        "integrated,2008.03,2013.02,59,industry,삼성SDI,,\n"
+        "phd,2008.09,2012.02,41,faculty,인하대학교 생명과학과 부교수,김가람,\n"
+        "postdoc,2008.08,2013.08,,unknown,,,\n"
+        "integrated,2022.02,2024.02,,industry,삼성전자,,학위기간 통계 제외\n", encoding="utf-8")
+    people = alumni.manual_records("P0001")
+    assert [(p["degree"], p["years"], p["career"]) for p in people] == [
+        ("integrated", 4.9, "industry"), ("phd", 3.4, "faculty"), ("postdoc", None, "unknown"),
+        ("integrated", None, "industry")]
+    assert people[1]["name_ko"] == "김가람" and people[0]["name_ko"] == ""
+    assert alumni.manual_records("P0002") == []

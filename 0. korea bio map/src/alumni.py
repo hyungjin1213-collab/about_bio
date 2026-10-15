@@ -1241,7 +1241,8 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
     index = ProfessorIndex(professors) if not professors.empty else None
     for pid in ids:
         m = manual.get(pid, {})
-        urls = [u for u in [m.get("alumni_url", ""), m.get("lab_url", "")] + extra.get(pid, []) if u]
+        urls = [u for u in m.get("alumni_url", "").split(";") + [m.get("lab_url", "")] + extra.get(pid, [])
+                if u and u != "none"]
         if pid in sites.index:
             urls += [u for u in [sites.at[pid, "lab_url"], *str(sites.at[pid, "alumni_urls"]).split(";")] if u]
         print(f"\n[probe] ===== {pid} =====", flush=True)
@@ -1271,6 +1272,11 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
             hints = sorted(set(re.findall(r"(?:admin-ajax|ajaxurl|wp-json|pageid|paged|[?&]page=|data-page|"
                                           r"mod=list|kboard|tab=|category=|cat=)[^\"'<>\s]{0,60}", html)))
             print(f"[probe]   paging hints: {[h for h in hints if not re.search(r'[가-힣]', h)][:25]}", flush=True)
+            for key in ("member_tax", "var_page", "board_mode"):
+                for mt in re.finditer(key, html):
+                    snippet = re.sub(r"\s+", " ", html[max(0, mt.start() - 150): mt.start() + 250])
+                    print(f"[probe]   around {key}: {_mask_line(snippet)}", flush=True)
+                    break
             for frm in BeautifulSoup(html, "html.parser").find_all(["form", "select"]):
                 print(f"[probe]   {frm.name}: action={frm.get('action', '')} name={frm.get('name', '')} "
                       f"fields={[i.get('name') for i in frm.find_all(['input', 'select', 'option'])][:15]}", flush=True)

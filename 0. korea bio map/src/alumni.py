@@ -1232,6 +1232,8 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
     for item in filter(None, os.getenv("ALUMNI_PROBE_URLS", "").split(",")):
         pid, _, url = item.partition("=")
         extra.setdefault(pid, []).append(url)
+    professors = _read(OUTPUT_DIR / "professors_enriched.csv")
+    index = ProfessorIndex(professors) if not professors.empty else None
     for pid in ids:
         m = manual.get(pid, {})
         urls = [u for u in [m.get("alumni_url", ""), m.get("lab_url", "")] + extra.get(pid, []) if u]
@@ -1271,6 +1273,16 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                       f"{dict(Counter(p['career'] for p in people))} degrees "
                       f"{dict(Counter(p['degree'] for p in people))} "
                       f"with end year {sum(1 for p in people if p['end_year'])}", flush=True)
+            if index is not None:
+                # Alumni who are professors on the map (public records): exact match, or same Hangul name.
+                for p in parse_alumni(html):
+                    sid = index.find(p, pid)
+                    same = [r for r in index.by_ko.get(p.get("name_ko", ""), []) if r["professor_id"] != pid]
+                    for r in ([next(x for x in index.rows if x["professor_id"] == sid)] if sid else same):
+                        print(f"[probe]   professor {'match' if sid else 'same-name candidate'}: "
+                              f"{r['professor_id']} {r.get('name_ko', '')} / {r.get('name_en', '')} / "
+                              f"{r.get('university', '')} / {r.get('department', '')} "
+                              f"(alumnus: {p['degree']} {p.get('end_year') or ''})", flush=True)
             for p in parse_alumni(html, whole_page=url != m.get("lab_url") and any(
                     w in unquote(urlparse(url).path).casefold() for w in ALUMNI_WORDS)):
                 who = (p["name_ko"] or p["name_en"] or "?")[:1] + "**"

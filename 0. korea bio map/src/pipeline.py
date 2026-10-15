@@ -4,6 +4,7 @@ import json
 import os
 import re
 from collections import defaultdict
+from datetime import date
 from itertools import combinations
 from pathlib import Path
 
@@ -678,6 +679,47 @@ def _titles_by_professor(nodes: pd.DataFrame) -> dict[str, str]:
     return out
 
 
+AUTHOR_STATS_PATH = OUTPUT_DIR / "author_stats.csv"
+AUTHOR_STATS_COLUMNS = ["professor_id", "papers", "citations", "h_index", "recent_papers", "recent_citations"]
+
+
+def collect_author_stats(client: OpenAlexClient, professors: pd.DataFrame) -> pd.DataFrame:
+    """Each professor's own publication record from OpenAlex: papers, citations, h-index and
+    the last five years (50 profiles per request; split profiles are added up)."""
+    owner: dict[str, str] = {}
+    for _, r in professors.iterrows():
+        for oid in _openalex_ids(r.get("openalex_id", "")):
+            owner[oid] = r["professor_id"]
+    since = date.today().year - 4
+    totals: dict[str, dict] = {}
+    ids = sorted(owner)
+    try:
+        for i in range(0, len(ids), 50):
+            data = client._get("authors", {"filter": "openalex_id:" + "|".join(ids[i:i + 50]), "per-page": 50,
+                                           "select": "id,works_count,cited_by_count,summary_stats,counts_by_year"})
+            for a in data.get("results") or []:
+                pid = owner.get(normalize_openalex_id(a.get("id", "")))
+                if not pid:
+                    continue
+                t = totals.setdefault(pid, {"professor_id": pid, "papers": 0, "citations": 0, "h_index": 0,
+                                            "recent_papers": 0, "recent_citations": 0})
+                t["papers"] += a.get("works_count") or 0
+                t["citations"] += a.get("cited_by_count") or 0
+                t["h_index"] = max(t["h_index"], (a.get("summary_stats") or {}).get("h_index") or 0)
+                for y in a.get("counts_by_year") or []:
+                    if (y.get("year") or 0) >= since:
+                        t["recent_papers"] += y.get("works_count") or 0
+                        t["recent_citations"] += y.get("cited_by_count") or 0
+    except OpenAlexUnavailable:
+        print("[stats] OpenAlex unavailable: earlier publication figures kept", flush=True)
+        return _read_csv(AUTHOR_STATS_PATH, AUTHOR_STATS_COLUMNS)
+    out = pd.DataFrame(list(totals.values()), columns=AUTHOR_STATS_COLUMNS)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    out.to_csv(AUTHOR_STATS_PATH, index=False, encoding="utf-8-sig")
+    print(f"[stats] publication records for {len(out)} professors", flush=True)
+    return out
+
+
 def export_web_data(nodes: pd.DataFrame, links: pd.DataFrame) -> None:
     WEB_DIR.mkdir(parents=True, exist_ok=True)
     classifier = Classifier(DATA_DIR)
@@ -695,6 +737,7 @@ def export_web_data(nodes: pd.DataFrame, links: pd.DataFrame) -> None:
             merged["source"] = f"{info['source']} · {labs[pid]['source']}"
         labs[pid] = merged
     titles = _titles_by_professor(nodes)
+    stats = {r["professor_id"]: r for _, r in _read_csv(AUTHOR_STATS_PATH, AUTHOR_STATS_COLUMNS).iterrows()}
     terms: dict[str, dict[str, list[str]]] = defaultdict(lambda: {"keyword": [], "technique": []})
     kw = _read_csv(OUTPUT_DIR / "professor_keywords.csv")
     if not kw.empty:
@@ -741,6 +784,9 @@ def export_web_data(nodes: pd.DataFrame, links: pd.DataFrame) -> None:
                 "postdoc_PI_count": _safe_int(row.get("postdoc_PI_count", 0)),
                 "advisor_count": _safe_int(row.get("advisor_count", 0)),
                 "postdoc_mentor_count": _safe_int(row.get("postdoc_mentor_count", 0)),
+                # The professor's own record in OpenAlex (all years / last five years).
+                "pubs": {k: _safe_int(stats[row["professor_id"]].get(k, 0), 0)
+                         for k in AUTHOR_STATS_COLUMNS[1:]} if row.get("professor_id") in stats else {},
             }
         )
 

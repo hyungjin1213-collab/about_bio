@@ -158,6 +158,9 @@
           <option value="score">종합 점수</option>
           <option value="collaborator_count">공동연구 교수 수</option>
           <option value="faculty_trainee_count">교수가 된 제자 수</option>
+          <option value="pub:citations">피인용 수</option>
+          <option value="pub:h_index">h-index</option>
+          <option value="pub:recent_papers">최근 5년 논문 수</option>
           <optgroup label="연구실 (졸업생 기준)">
             <option value="lab:phd_years">박사 졸업기간 짧은 순</option>
             <option value="lab:papers_per_student">학생당 논문 수</option>
@@ -453,6 +456,17 @@
     // Professors among the lab's alumni (all time, from its alumni page); many are not
     // in the map yet, so the card shows the larger of this and the map's own links.
     const facultyAlumni=n=>(((n.lab||{}).careers||{}).faculty)||0;
+    // The professor's own papers in OpenAlex: all years, and the last five years.
+    function pubBlock(n){
+      const P=n.pubs||{};
+      if(!P.papers) return "";
+      const f=x=>Number(x||0).toLocaleString("ko-KR");
+      return `<h3>논문 실적</h3><div class="lab">
+        <span>논문 수</span><span>${f(P.papers)}편 (최근 5년 ${f(P.recent_papers)}편)</span>
+        <span>피인용 수</span><span>${f(P.citations)}회 (최근 5년 ${f(P.recent_citations)}회)</span>
+        <span>h-index</span><span>${f(P.h_index)}</span></div>
+        <div class="muted" style="font-size:11px">출처: OpenAlex (자동 집계)</div>`;
+    }
     function openCard(n){
       const view=labView(n.lab),lin=lineageOf(n),lab=labRows(view),recruiting=/^(예|yes|y|o|모집)/i.test(String((n.lab||{}).recruiting||""));
       const url=safeUrl(n.url);
@@ -467,6 +481,7 @@
           <div class="stat" title="지도 속 제자 교수 ${lin.students.length}명 · 졸업생 페이지 기준 교수 ${facultyAlumni(n)}명"><b>${Math.max(lin.students.length,facultyAlumni(n))}</b><span>교수 된 제자</span></div>
           <div class="stat"><b>${lin.postdocs.length}</b><span>PI 된 포닥</span></div>
         </div>
+        ${pubBlock(n)}
         <h3>연구실 정보</h3>
         ${periodSeg(n.lab)}
         ${lab.length?`<div class="lab">${lab.map(r=>`<span>${esc(r[0])}</span><span>${esc(r[1])}</span>`).join("")}</div>`
@@ -743,7 +758,8 @@
         return;
       }
       // '교수가 된 제자': the same number as the card (map lineage or the alumni page, whichever is larger).
-      const val=n=>key==="faculty_trainee_count"?Math.max(n[key]||0,facultyAlumni(n)):(n[key]||0);
+      const val=n=>key==="faculty_trainee_count"?Math.max(n[key]||0,facultyAlumni(n))
+        :key.startsWith("pub:")?Number((n.pubs||{})[key.slice(4)]||0):(n[key]||0);
       const items=NODES.filter(n=>n._pass!==false&&(!uni||n._uni===uni))
         .sort((a,b)=>val(b)-val(a)||b.score-a.score);
       let rank=0,prev=null;

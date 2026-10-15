@@ -23,6 +23,7 @@ from openalex_client import OpenAlexClient, OpenAlexUnavailable
 from pipeline import (
     PROFESSOR_COLUMNS,
     build_network,
+    collect_author_stats,
     collect_collaborations,
     promote_approved_candidates,
     resolve_professors,
@@ -37,6 +38,7 @@ def run_all(client: OpenAlexClient) -> None:
     if added:
         print(f"Added {added} professors from the master Excel file", flush=True)
     professors = resolve_professors(client)
+    collect_author_stats(client, professors)
     scopus = ScopusClient()
     if scopus.enabled:
         professors = resolve_scopus_ids(scopus, professors)
@@ -153,7 +155,7 @@ def main() -> None:
 
         probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "").split(",") if x])
         # OpenAlex profiles that may belong to one professor (split profiles).
-        for name in filter(None, os.getenv("OPENALEX_PROBE_NAMES", "Kunyoo Shin").split(",")):
+        for name in filter(None, os.getenv("OPENALEX_PROBE_NAMES", "").split(",")):
             data = client._get("authors", {"search": name, "per-page": 15,
                                            "select": "id,display_name,works_count,cited_by_count,last_known_institutions,orcid"})
             for a in data.get("results") or []:

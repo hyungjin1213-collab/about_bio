@@ -111,3 +111,26 @@ def test_weak_coauthorships_are_not_drawn(tmp_path, monkeypatch):
     auto, _ = pipeline.collect_collaborations(Client(), professors)
     got = {(r.professor_a_id, r.professor_b_id): r.collaboration_paper_count for r in auto.itertuples()}
     assert got == {("A", "B"): 1, ("B", "C"): 3, ("C", "D"): 2}
+
+
+def test_author_stats_add_up_split_profiles(tmp_path, monkeypatch):
+    import pandas as pd
+    import pipeline
+
+    monkeypatch.setattr(pipeline, "OUTPUT_DIR", tmp_path)
+    monkeypatch.setattr(pipeline, "AUTHOR_STATS_PATH", tmp_path / "author_stats.csv")
+    year = pipeline.date.today().year
+
+    class Client:
+        def _get(self, path, params):
+            assert "A1|A2" in params["filter"]
+            return {"results": [
+                {"id": "https://openalex.org/A1", "works_count": 80, "cited_by_count": 3900,
+                 "summary_stats": {"h_index": 30}, "counts_by_year": [{"year": year, "works_count": 5, "cited_by_count": 400},
+                                                                      {"year": year - 9, "works_count": 9, "cited_by_count": 10}]},
+                {"id": "https://openalex.org/A2", "works_count": 5, "cited_by_count": 44,
+                 "summary_stats": {"h_index": 3}, "counts_by_year": [{"year": year - 1, "works_count": 2, "cited_by_count": 4}]}]}
+
+    out = pipeline.collect_author_stats(Client(), pd.DataFrame([{"professor_id": "P1", "openalex_id": "A1;A2"}]))
+    r = out.iloc[0]
+    assert (r["papers"], r["citations"], r["h_index"], r["recent_papers"], r["recent_citations"]) == (85, 3944, 30, 7, 404)

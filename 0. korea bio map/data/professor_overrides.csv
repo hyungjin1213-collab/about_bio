@@ -14,3 +14,6 @@ P0002,university,Seoul National University,capitalisation
 P0002,department,School of Chemical and Biological Engineering,서울대 화학생물공학부 (was 공과대학)
 P0005,university,Kookmin University,capitalisation
 P0746,identity_status,confirmed,"현택환 (SNU/IBS, nanomaterials): OpenAlex profile was rejected as mainly non-bio; confirmed by user 10/13"
+P0898,name_en,Hyobin Jeong,사용자 제보 (10/15): 연세대 시스템생물학과 정효빈 = Hyobin Jeong (sbblaboratory.com PI 약력: POSTECH 박사, EMBL 포닥)
+P0898,openalex_id,A5008742544,OpenAlex Hyobin Jeong (Yonsei University) 75편 · ORCID 일치
+P0898,orcid,0000-0002-1526-3343,OpenAlex 프로필의 ORCID

@@ -599,6 +599,7 @@ def test_probe_lines_hide_names_and_mail():
     assert "naver" not in _mask_line("e-mail : someone1013@naver.com")
     assert _mask_line("Kim G, Lee N. (2022) A paper title. Journal.") == "[citation]"
     assert "가람" not in _mask_line("김가람 (Garam Kim)") and "Garam" not in _mask_line("김가람 (Garam Kim)")
+    assert "Roh" not in _mask_line("Gildong, Roh") and _mask_line("Ph.D") == "Ph.D"
     assert "Hye" not in _mask_line("EunHye Jeong")
 
 

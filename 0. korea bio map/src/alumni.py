@@ -1321,6 +1321,9 @@ def _mask_line(line: str) -> str:
         return "[citation]"
     if re.search(r"[A-Z][a-z]+(?:'s|’s)\b|\b[A-Z][a-z]+ and [A-Z][a-z]+", line):
         return "[caption]"
+    # 'Given, Family' lines are names ('Gildong, Hong').
+    if re.fullmatch(r"[A-Z][a-z]+(?:[- ][A-Za-z]+)?,\s*[A-Z][a-z]+", line.strip()):
+        return line.strip()[:1] + "**"
     # 'Name (Romanised)' lines are names whatever the script ('카오 비엣 푸옹 (Cao ...)').
     if re.fullmatch(r"[^()]{1,40}\(\s*[A-Za-z][A-Za-z .,'\-]{1,40}\)", line.strip()):
         return line.strip()[:1] + "**"

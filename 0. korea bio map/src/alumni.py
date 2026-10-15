@@ -1387,7 +1387,7 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
         seen: set[str] = set()
         while urls:
             url = urls.pop(0)
-            if url in seen or len(seen) >= 10:
+            if url in seen or len(seen) >= 30:
                 continue
             seen.add(url)
             allowed = fetch.allowed(url)

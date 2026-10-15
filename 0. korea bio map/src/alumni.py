@@ -1365,7 +1365,22 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                         print(f"[probe]   faculty link: {who[:1]} {_clean(a.get_text(' '))[:20]} -> {a['href'][:120]}", flush=True)
                 ids = re.findall(r"profId[^\w]{1,6}(\w{1,40})", html)
                 print(f"[probe]   profId values: {sorted(set(ids))[:60]}", flush=True)
-                for mt in list(re.finditer(r"url\s*:|\$\.(?:ajax|post|get)|fetch\(", html))[:6]:
+                if "listScrollAjax.json" in html:
+                    for n in (1, 2, 3, 4):
+                        try:
+                            js = fetch._get(urljoin(url, f"./listScrollAjax.json?menuNo=300015&profCate=66&pageIndex={n}")).json()
+                        except (requests.RequestException, ValueError) as exc:
+                            print(f"[probe]   scroll json {n}: {type(exc).__name__}", flush=True)
+                            break
+                        rows = js.get("resultList") or []
+                        if n == 1 and rows:
+                            print(f"[probe]   scroll json keys: {sorted(rows[0].keys())}", flush=True)
+                        for r in rows:
+                            links = {k: v for k, v in r.items() if isinstance(v, str) and ("http" in v or "www" in v)}
+                            print(f"[probe]   faculty: {r.get('profName') or r.get('profNm')} {r.get('profId')} {links}", flush=True)
+                        if not rows or js.get("hasMore") is False:
+                            break
+                for mt in list(re.finditer(r"url\s*:|\$\.(?:ajax|post|get)|fetch\(", html))[:0]:
                     print(f"[probe]   ajax: {re.sub(chr(92) + 's+', ' ', html[mt.start(): mt.start() + 400])}", flush=True)
                 for mt in list(re.finditer(r"profId", html))[:0]:
                     print(f"[probe]   around profId: {_mask_line(re.sub(chr(92) + 's+', ' ', html[max(0, mt.start() - 250): mt.start() + 150]))}", flush=True)

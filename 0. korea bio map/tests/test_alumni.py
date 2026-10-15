@@ -652,3 +652,11 @@ def test_cv_current_university_department_is_faculty():
         "2018.03 ~ present : College of Pharmacy, Korea University, Pharm.D."])
     got = {p["name_ko"]: p["career"] for p in parse_alumni(html)}
     assert got == {"김가람": "faculty", "이나래": "faculty", "박다솜": "other", "최라온": "unknown"}
+
+
+def test_probe_hides_hangul_names():
+    from alumni import _mask_line
+    assert _mask_line("지아리나") == "지**"
+    assert "라만" not in _mask_line("무집 라만")
+    assert "준석" not in _mask_line("Professor. 최준석")
+    assert _mask_line("Master (2026 후기)") == "M** (2026 후기)" or "2026" in _mask_line("Master (2026 후기)")

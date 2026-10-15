@@ -151,7 +151,8 @@ def main() -> None:
         from alumni import probe
         os.environ.setdefault("ALUMNI_PROBE_URLS", "P0752=https://narrykim.org/members/,"
                               "P0752=https://narrykim.org/ko/members/,P0752=https://narrykim.org/en/members/")
-        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "P0040,P0712").split(",") if x])
+        os.environ.setdefault("ALUMNI_PROBE_ALL_LINKS", "1")
+        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "P0040").split(",") if x])
         return
 
     if args.command == "alumni-refresh":

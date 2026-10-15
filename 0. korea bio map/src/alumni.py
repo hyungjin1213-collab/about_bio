@@ -1197,6 +1197,11 @@ def _mask_line(line: str) -> str:
         return "[citation]"
     if re.search(r"[A-Z][a-z]+(?:'s|’s)\b|\b[A-Z][a-z]+ and [A-Z][a-z]+", line):
         return "[caption]"
+    # Hangul person names anywhere ('박사라', '무집 라만'); a short all-Hangul line is taken as a name.
+    if re.fullmatch(r"[가-힣]{1,4}(?:\s[가-힣]{1,4}){0,2}", line.strip()) and len(line.strip()) <= 10:
+        return line.strip()[:1] + "**"
+    line = re.sub(r"(?<![가-힣])[가-힣]{2,4}(?![가-힣])",
+                  lambda m: m.group(0)[:1] + "**" if is_korean_person_name(m.group(0)) else m.group(0), line)
     # Runs of capitalised words anywhere ('AREUM CHOI (Undergraduate ...)', 'JiMin KIM, PhD')
     line = re.sub(r"\b[A-Z][A-Za-z'\-]+(?:\s+[A-Z][A-Za-z'\-]+){1,3}\b", lambda m: m.group(0)[:1] + "**", line)
     ko, en = _name_in(line)
@@ -1249,6 +1254,10 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
             other = [(t[:30], u) for t, u in _links(html, url) if any(w in f"{t} {u}".casefold()
                      for w in ("alumni", "졸업", "graduate", "member", "people", "구성원", "former"))][:12]
             print(f"[probe]   candidate links={other}", flush=True)
+            if os.getenv("ALUMNI_PROBE_ALL_LINKS"):
+                for t, u in dict.fromkeys(_links(html, url)):
+                    if urlparse(u).netloc == urlparse(url).netloc:
+                        print(f"[probe]   link: {_mask_line(t[:30])} -> {unquote(u)[:120]}", flush=True)
             for whole in (True, False):
                 people = parse_alumni(html, whole_page=whole)
                 print(f"[probe]   parse whole_page={whole}: {len(people)} people; careers "

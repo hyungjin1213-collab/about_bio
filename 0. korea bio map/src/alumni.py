@@ -661,7 +661,10 @@ class Fetcher:
             return ""
         if r.status_code != 200 or "html" not in r.headers.get("content-type", "html"):
             return ""
-        r.encoding = r.apparent_encoding or r.encoding
+        declared = re.search(rb"<meta[^>]+charset\s*=\s*['\"]?([\w\-]+)", r.content[:4000], re.I)
+        r.encoding = (declared.group(1).decode() if declared else None) or r.apparent_encoding or r.encoding
+        if r.encoding and r.encoding.lower() in ("ks_c_5601-1987", "euc-kr", "ks_c_5601"):
+            r.encoding = "cp949"       # old Korean sites: EUC-KR as declared, read as its superset
         return r.text
 
 

@@ -742,11 +742,13 @@
         }),"아직 이 기준의 연구실 정보가 없어요");
         return;
       }
+      // '교수가 된 제자': the same number as the card (map lineage or the alumni page, whichever is larger).
+      const val=n=>key==="faculty_trainee_count"?Math.max(n[key]||0,facultyAlumni(n)):(n[key]||0);
       const items=NODES.filter(n=>n._pass!==false&&(!uni||n._uni===uni))
-        .sort((a,b)=>(b[key]||0)-(a[key]||0)||b.score-a.score);
+        .sort((a,b)=>val(b)-val(a)||b.score-a.score);
       let rank=0,prev=null;
       const rows=items.slice(0,100).map((n,i)=>{
-        const v=n[key]||0;
+        const v=val(n);
         if(v!==prev){rank=i+1;prev=v;}  // ties share a rank
         return row(n,{rank,value:v});
       });

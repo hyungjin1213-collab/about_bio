@@ -393,6 +393,26 @@ def _role_first(lines: list[str]) -> list[str]:
     return out
 
 
+DATE_ONLY_RE = re.compile(r"\(?\s*(?:19|20)\d\d(?:\s*[./]\s*\d{1,2})?\s*[~\-–]\s*(?:(?:19|20)\d\d(?:\s*[./]\s*\d{1,2})?|present|현재)?\s*\)?")
+
+
+def _dates_first(lines: list[str]) -> list[str]:
+    """'2008-2012' written above each name: move the years under the name."""
+    names = [i for i, x in enumerate(lines) if any(_name_in(x))]
+    above = [i for i in names if i > 0 and DATE_ONLY_RE.fullmatch(lines[i - 1])]
+    if len(above) < 3 or len(above) < 0.6 * len(names):
+        return lines
+    out, i = [], 0
+    while i < len(lines):
+        if i + 1 < len(lines) and DATE_ONLY_RE.fullmatch(lines[i]) and any(_name_in(lines[i + 1])):
+            out += [lines[i + 1], lines[i]]
+            i += 2
+        else:
+            out.append(lines[i])
+            i += 1
+    return out
+
+
 def _profile_lines(lines: list[str]) -> list[str] | None:
     """CV-style profiles ('2002.03 ~ 2010.02 : ..., Ph.D.', 'present : 강원대학교'), several
     dated lines per person: rewrite each as 'name / degree line / 현재: position'."""
@@ -454,6 +474,7 @@ def _parse_lines(lines: list[str]) -> list[dict]:
     if cards:
         lines = _card_lines(lines)       # one name line per card: every name starts a record
     else:
+        lines = _dates_first(lines)
         profiles = _profile_lines(lines)
         if profiles is not None:
             lines, cards = profiles, True
@@ -1239,6 +1260,26 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
         extra.setdefault(pid, []).append(url)
     professors = _read(OUTPUT_DIR / "professors_enriched.csv")
     index = ProfessorIndex(professors) if not professors.empty else None
+    def wp_terms(base: str) -> None:
+        """WordPress sites: member taxonomies with counts and how many member posts there are."""
+        for path in ("/wp-json/wp/v2/member_tax?per_page=100", "/wp-json/wp/v2/member?per_page=1"):
+            try:
+                r = fetch._get(base + path)
+            except requests.RequestException as exc:
+                print(f"[probe]   wp {path}: {type(exc).__name__}", flush=True)
+                continue
+            total = r.headers.get("X-WP-Total", "")
+            try:
+                data = r.json()
+            except ValueError:
+                data = None
+            if isinstance(data, list) and data and "count" in data[0]:
+                terms = [(t.get("id"), t.get("slug"), t.get("count"), t.get("parent")) for t in data]
+                print(f"[probe]   wp {path}: status={r.status_code} terms={terms}", flush=True)
+            else:
+                keys = sorted(data[0].keys()) if isinstance(data, list) and data else type(data).__name__
+                print(f"[probe]   wp {path}: status={r.status_code} total={total} keys={keys}", flush=True)
+
     for pid in ids:
         m = manual.get(pid, {})
         urls = [u for u in m.get("alumni_url", "").split(";") + [m.get("lab_url", "")] + extra.get(pid, [])
@@ -1263,6 +1304,8 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
             print(f"[probe] {url} robots_ok={allowed} status={status} bytes={size}", flush=True)
             if not html:
                 continue
+            if "wp-json" in html and os.getenv("ALUMNI_PROBE_ALL_LINKS"):
+                wp_terms(f"{urlparse(url).scheme}://{urlparse(url).netloc}")
             al, mem = alumni_links(html, url)
             print(f"[probe]   alumni links={al} member links={mem}", flush=True)
             urls += [u for u in (al or mem) if u not in seen]

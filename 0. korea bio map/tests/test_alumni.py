@@ -693,3 +693,13 @@ def test_fresh_graduate_is_not_a_same_name_professor():
     assert index.find(old, "P0001") == "P9001"
     now_prof = dict(fresh, career="faculty", position="고려대학교 조교수")
     assert index.find(now_prof, "P0001") == "P9001"
+
+
+def test_years_written_above_each_name():
+    html = _page(["ALUMNI", "2008-2012", "Garam Kim, PH.D", "(#1 Ph.D.)", "Professor, Korea University",
+                  "2007-2013", "Narae Lee, PH.D.", "(#2 Ph.D.)", "Research assistant professor, Hanyang University",
+                  "2012-2018", "Dasom Park, PH.D", "(#3 Ph.D.)", "Samsung Biologics",
+                  "2016-2018", "Raon Choi, M.S.", "(#1 M.S.)", "LG Chem"])
+    got = {p["name_en"]: (p["degree"], p["start_year"], p["end_year"], p["career"]) for p in parse_alumni(html)}
+    assert got == {"Garam Kim": ("phd", 2008, 2012, "faculty"), "Narae Lee": ("phd", 2007, 2013, "faculty"),
+                   "Dasom Park": ("phd", 2012, 2018, "industry"), "Raon Choi": ("ms", 2016, 2018, "industry")}

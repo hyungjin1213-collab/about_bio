@@ -66,7 +66,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0002",
@@ -168,7 +169,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0003",
@@ -263,7 +265,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0004",
@@ -282,10 +285,57 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "화학과",
-      "lab": {},
+      "lab": {
+        "alumni": 50.0,
+        "phd_graduates": 26.0,
+        "ms_graduates": 18.0,
+        "postdoc_alumni": 6.0,
+        "phd_years": 4.2,
+        "integrated_years": 6.0,
+        "ms_years": 2.0,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 0.0,
+        "stay_years_est": 0.0,
+        "students_with_papers": 0.0,
+        "careers": {
+          "faculty": 3,
+          "postdoc": 2,
+          "industry": 34,
+          "hospital": 0,
+          "institute": 2,
+          "study": 0,
+          "other": 0
+        },
+        "recent": {
+          "alumni": 22.0,
+          "phd_graduates": 13.0,
+          "ms_graduates": 8.0,
+          "postdoc_alumni": 1.0,
+          "integrated_years": 6.0,
+          "ms_years": 2.0,
+          "phd_years_est": 0.0,
+          "integrated_years_est": 0.0,
+          "ms_years_est": 0.0,
+          "stay_years_est": 0.0,
+          "students_with_papers": 0.0,
+          "careers": {
+            "faculty": 0,
+            "postdoc": 0,
+            "industry": 20,
+            "hospital": 0,
+            "institute": 0,
+            "study": 0,
+            "other": 0
+          }
+        },
+        "alumni_url": "",
+        "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
+        "as_of": "2026-10-15"
+      },
       "orcid": "",
       "url": "http://bmpl.postech.ac.kr/",
-      "lab_url": "",
+      "lab_url": "http://bmpl.postech.ac.kr/index.php",
       "openalex_id": "",
       "identity": "seed",
       "score": 0,
@@ -293,7 +343,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0005",
@@ -323,7 +374,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0006",
@@ -369,7 +421,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0007",
@@ -469,7 +522,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 4,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0008",
@@ -512,7 +566,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0009",
@@ -556,7 +611,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0010",
@@ -598,7 +654,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0011",
@@ -644,7 +701,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0012",
@@ -689,7 +747,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0013",
@@ -785,7 +844,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0014",
@@ -831,7 +891,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0015",
@@ -874,7 +935,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0016",
@@ -919,7 +981,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0018",
@@ -963,7 +1026,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0019",
@@ -993,7 +1057,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0020",
@@ -1039,7 +1104,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0021",
@@ -1085,7 +1151,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0022",
@@ -1182,7 +1249,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0023",
@@ -1227,7 +1295,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0024",
@@ -1267,7 +1336,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0025",
@@ -1297,7 +1367,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0026",
@@ -1342,7 +1413,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0027",
@@ -1384,7 +1456,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0028",
@@ -1452,7 +1525,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0029",
@@ -1491,7 +1565,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0030",
@@ -1537,7 +1612,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0031",
@@ -1583,7 +1659,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0032",
@@ -1629,7 +1706,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0033",
@@ -1718,7 +1796,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0034",
@@ -1763,7 +1842,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0035",
@@ -1805,7 +1885,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0036",
@@ -1850,7 +1931,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0038",
@@ -1895,7 +1977,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0040",
@@ -1930,39 +2013,44 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "College of Pharmacy",
       "lab": {
-        "alumni": 7.0,
-        "phd_graduates": 2.0,
-        "ms_graduates": 0.0,
+        "alumni": 109.0,
+        "phd_graduates": 21.0,
+        "ms_graduates": 82.0,
         "postdoc_alumni": 3.0,
         "phd_years_est": 0.0,
         "integrated_years_est": 0.0,
         "ms_years_est": 0.0,
         "stay_years": 3.5,
         "stay_years_est": 1.0,
-        "students_with_papers": 1.0,
-        "papers_per_student": 0.0,
-        "first_author_per_student": 0.0,
+        "students_with_papers": 102.0,
+        "papers_per_student": 1.6,
+        "first_author_per_student": 0.5,
+        "fwci_median": 0.8,
+        "top10_share": 0.16,
         "careers": {
-          "faculty": 1,
+          "faculty": 2,
           "postdoc": 0,
           "industry": 0,
           "hospital": 0,
           "institute": 0,
           "study": 0,
-          "other": 6
+          "other": 27
         },
+        "top_journals": "Cancer Research; Breast Cancer Research; Frontiers in Oncology",
         "recent": {
-          "alumni": 1.0,
-          "phd_graduates": 1.0,
-          "ms_graduates": 0.0,
+          "alumni": 67.0,
+          "phd_graduates": 8.0,
+          "ms_graduates": 59.0,
           "postdoc_alumni": 0.0,
           "phd_years_est": 0.0,
           "integrated_years_est": 0.0,
           "ms_years_est": 0.0,
           "stay_years_est": 0.0,
-          "students_with_papers": 1.0,
-          "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
+          "students_with_papers": 67.0,
+          "papers_per_student": 1.7,
+          "first_author_per_student": 0.5,
+          "fwci_median": 0.4,
+          "top10_share": 0.11,
           "careers": {
             "faculty": 0,
             "postdoc": 0,
@@ -1971,7 +2059,8 @@ window.KOREA_BIO_MAP = {
             "institute": 0,
             "study": 0,
             "other": 1
-          }
+          },
+          "top_journals": "Cancer Research; Breast Cancer Research; Regular and Young Investigator Award Abstracts"
         },
         "alumni_url": "https://molpathlab.snu.ac.kr/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
@@ -1987,7 +2076,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0041",
@@ -2033,7 +2123,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0042",
@@ -2078,7 +2169,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0043",
@@ -2123,7 +2215,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0044",
@@ -2168,7 +2261,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0045",
@@ -2207,7 +2301,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0047",
@@ -2246,7 +2341,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0048",
@@ -2287,7 +2383,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0049",
@@ -2317,7 +2414,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0050",
@@ -2418,7 +2516,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0052",
@@ -2483,7 +2582,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0053",
@@ -2528,7 +2628,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0054",
@@ -2568,7 +2669,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0055",
@@ -2613,7 +2715,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P0056",
@@ -2647,10 +2750,68 @@ window.KOREA_BIO_MAP = {
         "RNA-seq·전사체"
       ],
       "department": "College of Pharmacy",
-      "lab": {},
+      "lab": {
+        "alumni": 16.0,
+        "phd_graduates": 9.0,
+        "ms_graduates": 6.0,
+        "postdoc_alumni": 0.0,
+        "phd_years": 5.0,
+        "ms_years": 2.0,
+        "phd_years_est": 1.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 1.0,
+        "stay_years": 3.0,
+        "stay_years_est": 1.0,
+        "students_with_papers": 15.0,
+        "papers_per_student": 1.6,
+        "first_author_per_student": 0.1,
+        "fwci_median": 1.3,
+        "top10_share": 0.23,
+        "careers": {
+          "faculty": 3,
+          "postdoc": 4,
+          "industry": 3,
+          "hospital": 0,
+          "institute": 1,
+          "study": 0,
+          "other": 0
+        },
+        "top_journals": "Biomedicine & Pharmacotherapy; Molecules and Cells",
+        "recent": {
+          "alumni": 13.0,
+          "phd_graduates": 8.0,
+          "ms_graduates": 4.0,
+          "postdoc_alumni": 0.0,
+          "phd_years": 5.0,
+          "ms_years": 2.0,
+          "phd_years_est": 1.0,
+          "integrated_years_est": 0.0,
+          "ms_years_est": 1.0,
+          "stay_years": 3.0,
+          "stay_years_est": 1.0,
+          "students_with_papers": 12.0,
+          "papers_per_student": 2.0,
+          "first_author_per_student": 0.2,
+          "fwci_median": 1.3,
+          "top10_share": 0.23,
+          "careers": {
+            "faculty": 3,
+            "postdoc": 4,
+            "industry": 2,
+            "hospital": 0,
+            "institute": 0,
+            "study": 0,
+            "other": 0
+          },
+          "top_journals": "Biomedicine & Pharmacotherapy; Molecules and Cells"
+        },
+        "alumni_url": "https://chahj72.wixsite.com/snucsl/blank-2",
+        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
+        "as_of": "2026-10-15"
+      },
       "orcid": "0000-0001-9277-2662",
       "url": "https://chahj72.wixsite.com/snucsl",
-      "lab_url": "https://chahj72.wixsite.com/snucsl/professor",
+      "lab_url": "",
       "openalex_id": "A5020752812",
       "identity": "verified",
       "score": 26,
@@ -2658,7 +2819,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0057",
@@ -2703,7 +2865,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0058",
@@ -2746,7 +2909,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0060",
@@ -2791,7 +2955,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0062",
@@ -2821,7 +2986,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0063",
@@ -2866,7 +3032,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0064",
@@ -2913,7 +3080,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0065",
@@ -2978,7 +3146,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0066",
@@ -3083,7 +3252,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0067",
@@ -3128,7 +3298,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0068",
@@ -3173,7 +3344,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0069",
@@ -3219,7 +3391,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0071",
@@ -3283,7 +3456,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0074",
@@ -3327,7 +3501,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0075",
@@ -3373,7 +3548,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0076",
@@ -3440,7 +3616,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0077",
@@ -3485,7 +3662,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0078",
@@ -3585,7 +3763,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0079",
@@ -3631,7 +3810,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0080",
@@ -3670,7 +3850,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0081",
@@ -3700,7 +3881,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0083",
@@ -3745,7 +3927,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0084",
@@ -3842,7 +4025,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0085",
@@ -3887,7 +4071,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0086",
@@ -3932,7 +4117,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0087",
@@ -3974,7 +4160,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0088",
@@ -4067,7 +4254,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0090",
@@ -4112,7 +4300,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0091",
@@ -4157,7 +4346,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0092",
@@ -4196,7 +4386,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0093",
@@ -4235,7 +4426,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0095",
@@ -4334,7 +4526,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0096",
@@ -4379,7 +4572,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0097",
@@ -4424,7 +4618,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0098",
@@ -4467,7 +4662,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0099",
@@ -4509,7 +4705,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0100",
@@ -4607,7 +4804,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0102",
@@ -4652,7 +4850,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0103",
@@ -4691,7 +4890,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0104",
@@ -4736,7 +4936,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0105",
@@ -4778,7 +4979,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0107",
@@ -4823,7 +5025,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0108",
@@ -4869,7 +5072,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0109",
@@ -4921,7 +5125,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0110",
@@ -4960,7 +5165,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0111",
@@ -5034,7 +5240,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0112",
@@ -5079,7 +5286,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0113",
@@ -5156,7 +5364,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0114",
@@ -5202,7 +5411,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0115",
@@ -5248,7 +5458,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0116",
@@ -5324,7 +5535,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0119",
@@ -5364,7 +5576,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0120",
@@ -5403,7 +5616,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0121",
@@ -5445,7 +5659,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0122",
@@ -5475,7 +5690,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0123",
@@ -5522,7 +5738,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0124",
@@ -5561,7 +5778,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0126",
@@ -5591,7 +5809,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0127",
@@ -5632,7 +5851,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0128",
@@ -5669,7 +5889,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0129",
@@ -5710,7 +5931,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0130",
@@ -5750,7 +5972,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0131",
@@ -5843,7 +6066,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0132",
@@ -5940,7 +6164,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0133",
@@ -6034,7 +6259,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0134",
@@ -6080,7 +6306,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0135",
@@ -6125,7 +6352,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0136",
@@ -6212,7 +6440,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0137",
@@ -6257,7 +6486,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0138",
@@ -6298,7 +6528,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0139",
@@ -6337,7 +6568,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0140",
@@ -6381,7 +6613,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0141",
@@ -6423,7 +6656,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0142",
@@ -6492,7 +6726,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0143",
@@ -6538,7 +6773,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0144",
@@ -6578,7 +6814,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0145",
@@ -6667,7 +6904,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0146",
@@ -6705,7 +6943,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0147",
@@ -6757,7 +6996,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0148",
@@ -6845,7 +7085,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0149",
@@ -6890,7 +7131,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0151",
@@ -6920,7 +7162,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0152",
@@ -6959,7 +7202,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0153",
@@ -7005,7 +7249,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0154",
@@ -7047,7 +7292,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0155",
@@ -7093,7 +7339,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0156",
@@ -7140,7 +7387,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0157",
@@ -7185,7 +7433,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0158",
@@ -7229,7 +7478,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0159",
@@ -7270,7 +7520,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0160",
@@ -7300,7 +7551,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0161",
@@ -7341,7 +7593,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0162",
@@ -7385,7 +7638,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0163",
@@ -7484,7 +7738,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0164",
@@ -7577,7 +7832,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0165",
@@ -7620,7 +7876,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0166",
@@ -7661,7 +7918,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0168",
@@ -7706,7 +7964,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0169",
@@ -7736,7 +7995,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0170",
@@ -7775,7 +8035,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0171",
@@ -7805,7 +8066,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0173",
@@ -7850,7 +8112,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0174",
@@ -7893,7 +8156,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0175",
@@ -7938,7 +8202,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0176",
@@ -7983,7 +8248,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0177",
@@ -8025,7 +8291,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0178",
@@ -8069,7 +8336,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0179",
@@ -8111,7 +8379,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0180",
@@ -8153,7 +8422,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0181",
@@ -8198,7 +8468,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0182",
@@ -8243,7 +8514,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0183",
@@ -8273,7 +8545,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0184",
@@ -8316,7 +8589,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0185",
@@ -8358,7 +8632,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0187",
@@ -8452,7 +8727,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0188",
@@ -8498,7 +8774,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0189",
@@ -8538,7 +8815,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0190",
@@ -8577,7 +8855,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0191",
@@ -8607,7 +8886,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0192",
@@ -8653,7 +8933,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0193",
@@ -8692,7 +8973,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0194",
@@ -8737,7 +9019,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0195",
@@ -8782,7 +9065,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0196",
@@ -8826,7 +9110,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0198",
@@ -8869,7 +9154,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0199",
@@ -8915,7 +9201,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0200",
@@ -8961,7 +9248,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0201",
@@ -9007,7 +9295,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0203",
@@ -9046,7 +9335,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0204",
@@ -9091,7 +9381,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0205",
@@ -9137,7 +9428,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0207",
@@ -9176,7 +9468,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P0208",
@@ -9220,7 +9513,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0209",
@@ -9265,7 +9559,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0210",
@@ -9310,7 +9605,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0211",
@@ -9355,7 +9651,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0212",
@@ -9399,7 +9696,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0213",
@@ -9444,7 +9742,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0214",
@@ -9530,7 +9829,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0215",
@@ -9571,7 +9871,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0216",
@@ -9616,7 +9917,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0217",
@@ -9657,7 +9959,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0218",
@@ -9696,7 +9999,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0219",
@@ -9741,7 +10045,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0220",
@@ -9786,7 +10091,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0221",
@@ -9828,7 +10134,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0222",
@@ -9873,7 +10180,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0223",
@@ -9915,7 +10223,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0224",
@@ -9960,7 +10269,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0225",
@@ -10001,7 +10311,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0226",
@@ -10046,7 +10357,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0227",
@@ -10141,7 +10453,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0228",
@@ -10238,7 +10551,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0229",
@@ -10268,7 +10582,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0230",
@@ -10313,7 +10628,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0231",
@@ -10358,7 +10674,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0233",
@@ -10403,7 +10720,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0234",
@@ -10448,7 +10766,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0235",
@@ -10492,7 +10811,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0236",
@@ -10537,7 +10857,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0237",
@@ -10576,7 +10897,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0238",
@@ -10618,7 +10940,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0239",
@@ -10660,7 +10983,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0240",
@@ -10702,7 +11026,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0241",
@@ -10744,7 +11069,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0242",
@@ -10787,7 +11113,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0243",
@@ -10876,7 +11203,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0244",
@@ -10919,7 +11247,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0245",
@@ -11019,7 +11348,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0246",
@@ -11064,7 +11394,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0247",
@@ -11103,7 +11434,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0248",
@@ -11141,7 +11473,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0249",
@@ -11183,7 +11516,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0250",
@@ -11229,7 +11563,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0251",
@@ -11274,7 +11609,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0252",
@@ -11319,7 +11655,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0253",
@@ -11364,7 +11701,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0254",
@@ -11409,7 +11747,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0255",
@@ -11454,7 +11793,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0256",
@@ -11495,7 +11835,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0257",
@@ -11540,7 +11881,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0258",
@@ -11582,7 +11924,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0259",
@@ -11621,7 +11964,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0260",
@@ -11666,7 +12010,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0261",
@@ -11705,7 +12050,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0263",
@@ -11750,7 +12096,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0264",
@@ -11789,7 +12136,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0265",
@@ -11834,7 +12182,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0266",
@@ -11879,7 +12228,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0267",
@@ -11925,7 +12275,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0268",
@@ -11966,7 +12317,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0269",
@@ -12009,7 +12361,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0270",
@@ -12039,7 +12392,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0271",
@@ -12078,7 +12432,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0272",
@@ -12123,7 +12478,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0273",
@@ -12163,7 +12519,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0274",
@@ -12205,7 +12562,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0275",
@@ -12250,7 +12608,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0276",
@@ -12280,7 +12639,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0277",
@@ -12325,7 +12685,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0278",
@@ -12366,7 +12727,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0279",
@@ -12411,7 +12773,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0280",
@@ -12455,7 +12818,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0281",
@@ -12498,7 +12862,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0282",
@@ -12537,7 +12902,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0283",
@@ -12579,7 +12945,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0284",
@@ -12623,7 +12990,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0285",
@@ -12668,7 +13036,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0286",
@@ -12709,7 +13078,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0287",
@@ -12748,7 +13118,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0288",
@@ -12815,7 +13186,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0289",
@@ -12882,7 +13254,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0290",
@@ -12981,7 +13354,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0291",
@@ -13026,7 +13400,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0292",
@@ -13067,7 +13442,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0293",
@@ -13106,7 +13482,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0294",
@@ -13150,7 +13527,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0295",
@@ -13194,7 +13572,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0296",
@@ -13224,7 +13603,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0297",
@@ -13269,7 +13649,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0298",
@@ -13308,7 +13689,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0299",
@@ -13352,7 +13734,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0300",
@@ -13388,7 +13771,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0302",
@@ -13433,7 +13817,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0303",
@@ -13478,7 +13863,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0304",
@@ -13517,7 +13903,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0305",
@@ -13556,7 +13943,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0306",
@@ -13603,7 +13991,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0307",
@@ -13642,7 +14031,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0308",
@@ -13677,7 +14067,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0309",
@@ -13716,7 +14107,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0310",
@@ -13746,7 +14138,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0311",
@@ -13787,7 +14180,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0312",
@@ -13831,7 +14225,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0314",
@@ -13870,7 +14265,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0315",
@@ -13912,7 +14308,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0317",
@@ -13958,7 +14355,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0318",
@@ -14000,7 +14398,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0319",
@@ -14042,7 +14441,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0320",
@@ -14072,7 +14472,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0321",
@@ -14111,7 +14512,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0322",
@@ -14155,7 +14557,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0323",
@@ -14195,7 +14598,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0325",
@@ -14239,7 +14643,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0326",
@@ -14285,7 +14690,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0327",
@@ -14325,7 +14731,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0328",
@@ -14365,7 +14772,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0329",
@@ -14410,7 +14818,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0330",
@@ -14454,7 +14863,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0331",
@@ -14500,7 +14910,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0333",
@@ -14546,7 +14957,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0334",
@@ -14590,7 +15002,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0335",
@@ -14630,7 +15043,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0336",
@@ -14660,7 +15074,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0337",
@@ -14706,7 +15121,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0338",
@@ -14749,7 +15165,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0340",
@@ -14795,7 +15212,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0341",
@@ -14835,7 +15253,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0342",
@@ -14881,7 +15300,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0344",
@@ -14923,7 +15343,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0345",
@@ -14967,7 +15388,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0346",
@@ -15013,7 +15435,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0347",
@@ -15055,7 +15478,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0348",
@@ -15085,7 +15509,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0349",
@@ -15131,7 +15556,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0350",
@@ -15174,7 +15600,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0351",
@@ -15216,7 +15643,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0352",
@@ -15258,7 +15686,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0353",
@@ -15288,7 +15717,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0354",
@@ -15334,7 +15764,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0355",
@@ -15380,7 +15811,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0356",
@@ -15420,7 +15852,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0358",
@@ -15463,7 +15896,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0359",
@@ -15508,7 +15942,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0361",
@@ -15553,7 +15988,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0362",
@@ -15592,7 +16028,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0363",
@@ -15622,7 +16059,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0364",
@@ -15667,7 +16105,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0365",
@@ -15709,7 +16148,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0366",
@@ -15753,7 +16193,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0367",
@@ -15799,7 +16240,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0369",
@@ -15838,7 +16280,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0370",
@@ -15883,7 +16326,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0371",
@@ -15926,7 +16370,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0372",
@@ -15956,7 +16401,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0373",
@@ -15996,7 +16442,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0374",
@@ -16038,7 +16485,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0375",
@@ -16078,7 +16526,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0376",
@@ -16121,7 +16570,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0377",
@@ -16160,7 +16610,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0378",
@@ -16200,7 +16651,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0379",
@@ -16246,7 +16698,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0380",
@@ -16286,7 +16739,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0381",
@@ -16326,7 +16780,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0382",
@@ -16356,7 +16811,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0383",
@@ -16396,7 +16852,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0384",
@@ -16442,7 +16899,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0385",
@@ -16472,7 +16930,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0386",
@@ -16514,7 +16973,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0388",
@@ -16559,7 +17019,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0389",
@@ -16603,7 +17064,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0390",
@@ -16647,7 +17109,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0391",
@@ -16687,7 +17150,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0392",
@@ -16727,7 +17191,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0393",
@@ -16772,7 +17237,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0394",
@@ -16815,7 +17281,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0395",
@@ -16855,7 +17322,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0396",
@@ -16885,7 +17353,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0398",
@@ -16931,7 +17400,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0399",
@@ -16975,7 +17445,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0400",
@@ -17017,7 +17488,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0401",
@@ -17060,7 +17532,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0402",
@@ -17090,7 +17563,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0403",
@@ -17132,7 +17606,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0404",
@@ -17177,7 +17652,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0405",
@@ -17217,7 +17693,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0406",
@@ -17247,7 +17724,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0407",
@@ -17287,7 +17765,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0408",
@@ -17333,7 +17812,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0409",
@@ -17379,7 +17859,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0411",
@@ -17421,7 +17902,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0412",
@@ -17463,7 +17945,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0413",
@@ -17502,7 +17985,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0414",
@@ -17546,7 +18030,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0415",
@@ -17592,7 +18077,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0416",
@@ -17636,7 +18122,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0417",
@@ -17676,7 +18163,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0422",
@@ -17721,7 +18209,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0423",
@@ -17751,7 +18240,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0424",
@@ -17792,7 +18282,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0425",
@@ -17831,7 +18322,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0427",
@@ -17875,7 +18367,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0428",
@@ -17920,7 +18413,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0429",
@@ -17965,7 +18459,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0430",
@@ -18005,7 +18500,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0431",
@@ -18045,7 +18541,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0432",
@@ -18085,7 +18582,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0433",
@@ -18130,7 +18628,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0434",
@@ -18173,7 +18672,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0435",
@@ -18217,7 +18717,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0437",
@@ -18257,7 +18758,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0438",
@@ -18296,7 +18798,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0439",
@@ -18340,7 +18843,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0440",
@@ -18382,7 +18886,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0441",
@@ -18427,7 +18932,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0442",
@@ -18470,7 +18976,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0443",
@@ -18514,7 +19021,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0444",
@@ -18558,7 +19066,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0445",
@@ -18604,7 +19113,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0446",
@@ -18647,7 +19157,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0447",
@@ -18692,7 +19203,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0448",
@@ -18731,7 +19243,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0449",
@@ -18777,7 +19290,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0451",
@@ -18822,7 +19336,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0452",
@@ -18862,7 +19377,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0453",
@@ -18905,7 +19421,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0454",
@@ -18947,7 +19464,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0455",
@@ -18989,7 +19507,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0456",
@@ -19034,7 +19553,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0458",
@@ -19073,7 +19593,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0459",
@@ -19103,7 +19624,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0460",
@@ -19142,7 +19664,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0461",
@@ -19181,7 +19704,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0462",
@@ -19226,7 +19750,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0463",
@@ -19271,7 +19796,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0464",
@@ -19316,7 +19842,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0465",
@@ -19357,7 +19884,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0466",
@@ -19402,7 +19930,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0467",
@@ -19432,7 +19961,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0469",
@@ -19474,7 +20004,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0470",
@@ -19513,7 +20044,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0471",
@@ -19558,7 +20090,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0472",
@@ -19597,7 +20130,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0473",
@@ -19643,7 +20177,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0475",
@@ -19688,7 +20223,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0477",
@@ -19734,7 +20270,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0478",
@@ -19764,7 +20301,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0480",
@@ -19809,7 +20347,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0481",
@@ -19854,7 +20393,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0482",
@@ -19900,7 +20440,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0483",
@@ -19943,7 +20484,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0484",
@@ -19989,7 +20531,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0485",
@@ -20035,7 +20578,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0486",
@@ -20080,7 +20624,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0487",
@@ -20125,7 +20670,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0488",
@@ -20167,7 +20713,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0489",
@@ -20212,7 +20759,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0490",
@@ -20253,7 +20801,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0491",
@@ -20292,7 +20841,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0492",
@@ -20338,7 +20888,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0493",
@@ -20383,7 +20934,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0494",
@@ -20424,7 +20976,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0495",
@@ -20465,7 +21018,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0496",
@@ -20509,7 +21063,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0497",
@@ -20548,7 +21103,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0498",
@@ -20592,7 +21148,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0501",
@@ -20634,7 +21191,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0502",
@@ -20673,7 +21231,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0503",
@@ -20717,7 +21276,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0504",
@@ -20757,7 +21317,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0505",
@@ -20802,7 +21363,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0506",
@@ -20847,7 +21409,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0507",
@@ -20886,7 +21449,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0509",
@@ -20926,7 +21490,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0510",
@@ -20956,7 +21521,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0511",
@@ -20996,7 +21562,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0513",
@@ -21036,7 +21603,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0514",
@@ -21081,7 +21649,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0515",
@@ -21121,7 +21690,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0516",
@@ -21164,7 +21734,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0517",
@@ -21204,7 +21775,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0518",
@@ -21249,7 +21821,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0519",
@@ -21292,7 +21865,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0520",
@@ -21331,7 +21905,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0521",
@@ -21375,7 +21950,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0522",
@@ -21417,7 +21993,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0523",
@@ -21457,7 +22034,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0524",
@@ -21499,7 +22077,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0525",
@@ -21539,7 +22118,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0526",
@@ -21582,7 +22162,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0527",
@@ -21624,7 +22205,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0529",
@@ -21663,7 +22245,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0530",
@@ -21704,7 +22287,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0531",
@@ -21744,7 +22328,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0532",
@@ -21789,7 +22374,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0533",
@@ -21833,7 +22419,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0534",
@@ -21875,7 +22462,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0535",
@@ -21919,7 +22507,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0536",
@@ -21964,7 +22553,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0537",
@@ -22006,7 +22596,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0538",
@@ -22047,7 +22638,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0539",
@@ -22086,7 +22678,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0540",
@@ -22131,7 +22724,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0541",
@@ -22176,7 +22770,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0542",
@@ -22221,7 +22816,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0543",
@@ -22260,7 +22856,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0544",
@@ -22305,7 +22902,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0545",
@@ -22344,7 +22942,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0546",
@@ -22386,7 +22985,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0547",
@@ -22431,7 +23031,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0548",
@@ -22475,7 +23076,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0549",
@@ -22516,7 +23118,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0550",
@@ -22558,7 +23161,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0551",
@@ -22601,7 +23205,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0552",
@@ -22645,7 +23250,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0554",
@@ -22675,7 +23281,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0555",
@@ -22714,7 +23321,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0556",
@@ -22756,7 +23364,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0557",
@@ -22824,7 +23433,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0558",
@@ -22863,7 +23473,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0560",
@@ -22908,7 +23519,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0561",
@@ -22947,7 +23559,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0562",
@@ -22993,7 +23606,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0563",
@@ -23034,7 +23648,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0564",
@@ -23100,7 +23715,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0565",
@@ -23142,7 +23758,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0566",
@@ -23181,7 +23798,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0567",
@@ -23223,7 +23841,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0568",
@@ -23268,7 +23887,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0569",
@@ -23311,7 +23931,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0570",
@@ -23356,7 +23977,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0571",
@@ -23395,7 +24017,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0572",
@@ -23435,7 +24058,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0573",
@@ -23474,7 +24098,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0574",
@@ -23519,7 +24144,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0575",
@@ -23549,7 +24175,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0576",
@@ -23590,7 +24217,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0577",
@@ -23630,7 +24258,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0578",
@@ -23660,7 +24289,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0579",
@@ -23700,7 +24330,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0580",
@@ -23745,7 +24376,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0581",
@@ -23775,7 +24407,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0582",
@@ -23817,7 +24450,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0583",
@@ -23856,7 +24490,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0584",
@@ -23886,7 +24521,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0585",
@@ -23929,7 +24565,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0586",
@@ -23969,7 +24606,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0587",
@@ -24015,7 +24653,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0588",
@@ -24057,7 +24696,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0589",
@@ -24103,7 +24743,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0590",
@@ -24148,7 +24789,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0591",
@@ -24188,7 +24830,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0592",
@@ -24230,7 +24873,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0593",
@@ -24267,7 +24911,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0594",
@@ -24313,7 +24958,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0595",
@@ -24355,7 +25001,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0596",
@@ -24398,7 +25045,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0597",
@@ -24443,7 +25091,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0598",
@@ -24482,7 +25131,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0599",
@@ -24522,7 +25172,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0600",
@@ -24565,7 +25216,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0601",
@@ -24607,7 +25259,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0602",
@@ -24652,7 +25305,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0603",
@@ -24697,7 +25351,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0604",
@@ -24739,7 +25394,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0605",
@@ -24781,7 +25437,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0606",
@@ -24821,7 +25478,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0609",
@@ -24863,7 +25521,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0610",
@@ -24903,7 +25562,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0611",
@@ -24943,7 +25603,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0612",
@@ -24983,7 +25644,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0613",
@@ -25025,7 +25687,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0614",
@@ -25055,7 +25718,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0616",
@@ -25095,7 +25759,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0617",
@@ -25138,7 +25803,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0618",
@@ -25180,7 +25846,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0619",
@@ -25227,7 +25894,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0620",
@@ -25270,7 +25938,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0621",
@@ -25310,7 +25979,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0622",
@@ -25353,7 +26023,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0623",
@@ -25396,7 +26067,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0624",
@@ -25436,7 +26108,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0625",
@@ -25482,7 +26155,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0626",
@@ -25524,7 +26198,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0627",
@@ -25567,7 +26242,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0628",
@@ -25609,7 +26285,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0629",
@@ -25649,7 +26326,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0630",
@@ -25694,7 +26372,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0631",
@@ -25740,7 +26419,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0632",
@@ -25780,7 +26460,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0634",
@@ -25820,7 +26501,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0635",
@@ -25866,7 +26548,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0636",
@@ -25909,7 +26592,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P0637",
@@ -25949,7 +26633,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0638",
@@ -25991,7 +26676,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0639",
@@ -26031,7 +26717,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0640",
@@ -26071,7 +26758,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0641",
@@ -26113,7 +26801,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0642",
@@ -26155,7 +26844,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0643",
@@ -26195,7 +26885,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0644",
@@ -26235,7 +26926,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0645",
@@ -26280,7 +26972,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0646",
@@ -26319,7 +27012,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0647",
@@ -26365,7 +27059,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0648",
@@ -26462,7 +27157,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0649",
@@ -26556,7 +27252,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0650",
@@ -26595,7 +27292,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0651",
@@ -26637,7 +27335,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0652",
@@ -26679,7 +27378,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0654",
@@ -26720,7 +27420,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0655",
@@ -26763,7 +27464,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0656",
@@ -26806,7 +27508,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0657",
@@ -26907,7 +27610,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0658",
@@ -26947,7 +27651,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0659",
@@ -26990,7 +27695,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0660",
@@ -27029,7 +27735,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0662",
@@ -27071,7 +27778,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0663",
@@ -27101,7 +27809,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0664",
@@ -27141,7 +27850,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0665",
@@ -27186,7 +27896,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0666",
@@ -27227,7 +27938,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0667",
@@ -27266,7 +27978,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0668",
@@ -27307,7 +28020,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0669",
@@ -27352,7 +28066,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0670",
@@ -27398,7 +28113,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0671",
@@ -27439,7 +28155,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0672",
@@ -27469,7 +28186,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0673",
@@ -27514,7 +28232,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0674",
@@ -27610,7 +28329,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0675",
@@ -27640,7 +28360,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0676",
@@ -27682,7 +28403,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0677",
@@ -27727,7 +28449,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0678",
@@ -27822,7 +28545,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0679",
@@ -27864,7 +28588,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0680",
@@ -27907,7 +28632,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0681",
@@ -28008,7 +28734,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0682",
@@ -28052,7 +28779,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0683",
@@ -28093,7 +28821,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0684",
@@ -28195,7 +28924,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0685",
@@ -28240,7 +28970,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0686",
@@ -28284,7 +29015,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0687",
@@ -28326,7 +29058,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0688",
@@ -28369,7 +29102,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0689",
@@ -28414,7 +29148,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0690",
@@ -28444,7 +29179,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0691",
@@ -28489,7 +29225,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0692",
@@ -28519,7 +29256,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0693",
@@ -28621,7 +29359,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0694",
@@ -28666,7 +29405,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0695",
@@ -28711,7 +29451,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0696",
@@ -28756,7 +29497,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0697",
@@ -28786,7 +29528,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0698",
@@ -28820,7 +29563,37 @@ window.KOREA_BIO_MAP = {
         "질량분석"
       ],
       "department": "College of Pharmacy",
-      "lab": {},
+      "lab": {
+        "alumni": 25.0,
+        "phd_graduates": 6.0,
+        "ms_graduates": 16.0,
+        "postdoc_alumni": 0.0,
+        "phd_years": 4.0,
+        "integrated_years": 6.0,
+        "ms_years": 2.0,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 0.0,
+        "stay_years_est": 0.0,
+        "students_with_papers": 7.0,
+        "papers_per_student": 4.7,
+        "first_author_per_student": 2.6,
+        "fwci_median": 0.8,
+        "top10_share": 0.12,
+        "careers": {
+          "faculty": 1,
+          "postdoc": 0,
+          "industry": 6,
+          "hospital": 0,
+          "institute": 0,
+          "study": 0,
+          "other": 6
+        },
+        "top_journals": "한국분석과학회 학술대회; Analytical Chemistry; Nano Today",
+        "alumni_url": "https://jmsong.snu.ac.kr/pagegenerater.asp?catalogid=jmsong&language=ko&pagecode=sub02_02_02",
+        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
+        "as_of": "2026-10-15"
+      },
       "orcid": "0000-0002-9896-5892",
       "url": "https://jmsong.snu.ac.kr/",
       "lab_url": "",
@@ -28831,7 +29604,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0699",
@@ -28874,7 +29648,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0700",
@@ -28919,7 +29694,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0701",
@@ -28949,7 +29725,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0702",
@@ -28979,7 +29756,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0703",
@@ -29024,7 +29802,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0704",
@@ -29069,7 +29848,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0705",
@@ -29114,7 +29894,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0706",
@@ -29155,7 +29936,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0707",
@@ -29201,7 +29983,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0708",
@@ -29231,7 +30014,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0709",
@@ -29277,7 +30061,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0710",
@@ -29307,7 +30092,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0711",
@@ -29352,7 +30138,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0712",
@@ -29384,13 +30171,13 @@ window.KOREA_BIO_MAP = {
         "stay_years_est": 0.0,
         "students_with_papers": 0.0,
         "careers": {
-          "faculty": 3,
+          "faculty": 6,
           "postdoc": 0,
           "industry": 6,
           "hospital": 0,
           "institute": 1,
           "study": 0,
-          "other": 8
+          "other": 2
         },
         "recent": {
           "alumni": 12.0,
@@ -29427,7 +30214,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0713",
@@ -29527,7 +30315,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0714",
@@ -29571,7 +30360,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0715",
@@ -29601,7 +30391,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0716",
@@ -29700,7 +30491,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0717",
@@ -29741,7 +30533,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0718",
@@ -29787,7 +30580,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0719",
@@ -29834,9 +30628,9 @@ window.KOREA_BIO_MAP = {
         "careers": {
           "faculty": 4,
           "postdoc": 0,
-          "industry": 21,
+          "industry": 20,
           "hospital": 0,
-          "institute": 2,
+          "institute": 3,
           "study": 0,
           "other": 15
         },
@@ -29880,7 +30674,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0720",
@@ -29910,7 +30705,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0721",
@@ -29940,7 +30736,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0722",
@@ -29986,7 +30783,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0723",
@@ -30005,10 +30803,52 @@ window.KOREA_BIO_MAP = {
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
-      "lab": {},
+      "lab": {
+        "alumni": 11.0,
+        "phd_graduates": 5.0,
+        "ms_graduates": 6.0,
+        "postdoc_alumni": 0.0,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 0.0,
+        "stay_years_est": 0.0,
+        "students_with_papers": 0.0,
+        "careers": {
+          "faculty": 0,
+          "postdoc": 1,
+          "industry": 7,
+          "hospital": 0,
+          "institute": 1,
+          "study": 0,
+          "other": 2
+        },
+        "recent": {
+          "alumni": 7.0,
+          "phd_graduates": 4.0,
+          "ms_graduates": 3.0,
+          "postdoc_alumni": 0.0,
+          "phd_years_est": 0.0,
+          "integrated_years_est": 0.0,
+          "ms_years_est": 0.0,
+          "stay_years_est": 0.0,
+          "students_with_papers": 0.0,
+          "careers": {
+            "faculty": 0,
+            "postdoc": 1,
+            "industry": 4,
+            "hospital": 0,
+            "institute": 1,
+            "study": 0,
+            "other": 1
+          }
+        },
+        "alumni_url": "https://smel.snu.ac.kr/members",
+        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
+        "as_of": "2026-10-15"
+      },
       "orcid": "",
       "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/list.do?menuNo=300015&profCate=66",
-      "lab_url": "",
+      "lab_url": "https://smel.snu.ac.kr/",
       "openalex_id": "",
       "identity": "seed",
       "score": 0,
@@ -30016,7 +30856,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0724",
@@ -30044,10 +30885,56 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
-      "lab": {},
+      "lab": {
+        "alumni": 9.0,
+        "phd_graduates": 5.0,
+        "ms_graduates": 2.0,
+        "postdoc_alumni": 0.0,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 0.0,
+        "stay_years_est": 0.0,
+        "students_with_papers": 6.0,
+        "papers_per_student": 0.0,
+        "first_author_per_student": 0.0,
+        "careers": {
+          "faculty": 1,
+          "postdoc": 1,
+          "industry": 6,
+          "hospital": 0,
+          "institute": 0,
+          "study": 0,
+          "other": 0
+        },
+        "recent": {
+          "alumni": 8.0,
+          "phd_graduates": 4.0,
+          "ms_graduates": 2.0,
+          "postdoc_alumni": 0.0,
+          "phd_years_est": 0.0,
+          "integrated_years_est": 0.0,
+          "ms_years_est": 0.0,
+          "stay_years_est": 0.0,
+          "students_with_papers": 6.0,
+          "papers_per_student": 0.0,
+          "first_author_per_student": 0.0,
+          "careers": {
+            "faculty": 0,
+            "postdoc": 1,
+            "industry": 6,
+            "hospital": 0,
+            "institute": 0,
+            "study": 0,
+            "other": 0
+          }
+        },
+        "alumni_url": "https://sites.google.com/view/joonwonkim/our-team",
+        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
+        "as_of": "2026-10-15"
+      },
       "orcid": "0000-0001-9964-0777",
       "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/list.do?menuNo=300015&profCate=66",
-      "lab_url": "",
+      "lab_url": "https://sites.google.com/view/joonwonkim",
       "openalex_id": "A5103096536",
       "identity": "probable",
       "score": 1,
@@ -30055,7 +30942,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0725",
@@ -30085,7 +30973,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0726",
@@ -30177,7 +31066,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0727",
@@ -30207,7 +31097,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0728",
@@ -30237,7 +31128,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0729",
@@ -30268,7 +31160,7 @@ window.KOREA_BIO_MAP = {
       "lab": {},
       "orcid": "",
       "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/list.do?menuNo=300015&profCate=66",
-      "lab_url": "",
+      "lab_url": "http://apml.snu.ac.kr/",
       "openalex_id": "A5100848324",
       "identity": "seed",
       "score": 0,
@@ -30276,7 +31168,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0730",
@@ -30306,7 +31199,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0731",
@@ -30336,7 +31230,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0732",
@@ -30366,7 +31261,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0733",
@@ -30399,10 +31295,56 @@ window.KOREA_BIO_MAP = {
         "종양 이종이식 모델"
       ],
       "department": "Chemical and Biological Engineering",
-      "lab": {},
+      "lab": {
+        "alumni": 15.0,
+        "phd_graduates": 10.0,
+        "ms_graduates": 5.0,
+        "postdoc_alumni": 0.0,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 0.0,
+        "stay_years_est": 0.0,
+        "students_with_papers": 15.0,
+        "papers_per_student": 0.0,
+        "first_author_per_student": 0.0,
+        "careers": {
+          "faculty": 0,
+          "postdoc": 2,
+          "industry": 11,
+          "hospital": 0,
+          "institute": 0,
+          "study": 1,
+          "other": 1
+        },
+        "recent": {
+          "alumni": 15.0,
+          "phd_graduates": 10.0,
+          "ms_graduates": 5.0,
+          "postdoc_alumni": 0.0,
+          "phd_years_est": 0.0,
+          "integrated_years_est": 0.0,
+          "ms_years_est": 0.0,
+          "stay_years_est": 0.0,
+          "students_with_papers": 15.0,
+          "papers_per_student": 0.0,
+          "first_author_per_student": 0.0,
+          "careers": {
+            "faculty": 0,
+            "postdoc": 2,
+            "industry": 11,
+            "hospital": 0,
+            "institute": 0,
+            "study": 1,
+            "other": 1
+          }
+        },
+        "alumni_url": "",
+        "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
+        "as_of": "2026-10-15"
+      },
       "orcid": "",
       "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/list.do?menuNo=300015&profCate=66",
-      "lab_url": "",
+      "lab_url": "http://yoolab.snu.ac.kr/",
       "openalex_id": "A5018978707",
       "identity": "seed",
       "score": 3,
@@ -30410,7 +31352,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0734",
@@ -30453,7 +31396,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0735",
@@ -30497,7 +31441,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0736",
@@ -30527,7 +31472,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0737",
@@ -30570,7 +31516,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0738",
@@ -30637,7 +31584,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0739",
@@ -30667,7 +31615,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0740",
@@ -30712,7 +31661,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0741",
@@ -30752,7 +31702,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0742",
@@ -30796,7 +31747,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0743",
@@ -30861,7 +31813,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0744",
@@ -30914,9 +31867,9 @@ window.KOREA_BIO_MAP = {
         "careers": {
           "faculty": 11,
           "postdoc": 1,
-          "industry": 26,
+          "industry": 25,
           "hospital": 0,
-          "institute": 2,
+          "institute": 3,
           "study": 0,
           "other": 8
         },
@@ -30962,7 +31915,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0745",
@@ -30996,10 +31950,32 @@ window.KOREA_BIO_MAP = {
         "질량분석"
       ],
       "department": "Chemical and Biological Engineering",
-      "lab": {},
+      "lab": {
+        "alumni": 33.0,
+        "phd_graduates": 13.0,
+        "ms_graduates": 20.0,
+        "postdoc_alumni": 0.0,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 0.0,
+        "stay_years_est": 0.0,
+        "students_with_papers": 0.0,
+        "careers": {
+          "faculty": 0,
+          "postdoc": 0,
+          "industry": 17,
+          "hospital": 0,
+          "institute": 3,
+          "study": 0,
+          "other": 11
+        },
+        "alumni_url": "http://biomolecule.snu.ac.kr/pagegenerater.asp?catalogid=hahnlab&language=ko&pagecode=sub02_03",
+        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
+        "as_of": "2026-10-15"
+      },
       "orcid": "",
       "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/list.do?menuNo=300015&profCate=66",
-      "lab_url": "",
+      "lab_url": "http://biomolecule.snu.ac.kr/frontpage.asp?catalogid=hahnlab&language=ko",
       "openalex_id": "A5023801774",
       "identity": "seed",
       "score": 9,
@@ -31007,7 +31983,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0746",
@@ -31043,31 +32020,31 @@ window.KOREA_BIO_MAP = {
       ],
       "department": "Chemical and Biological Engineering",
       "lab": {
-        "alumni": 88.0,
-        "phd_graduates": 49.0,
+        "alumni": 106.0,
+        "phd_graduates": 84.0,
         "ms_graduates": 14.0,
-        "postdoc_alumni": 3.0,
+        "postdoc_alumni": 8.0,
         "phd_years": 5.0,
         "ms_years": 2.0,
         "phd_years_est": 1.0,
         "integrated_years_est": 0.0,
         "ms_years_est": 1.0,
         "stay_years_est": 0.0,
-        "students_with_papers": 41.0,
-        "papers_per_student": 15.8,
-        "first_author_per_student": 2.8,
+        "students_with_papers": 40.0,
+        "papers_per_student": 15.9,
+        "first_author_per_student": 2.7,
         "fwci_median": 3.9,
-        "top10_share": 1.11,
+        "top10_share": 1.1,
         "careers": {
           "faculty": 22,
-          "postdoc": 7,
-          "industry": 29,
+          "postdoc": 5,
+          "industry": 28,
           "hospital": 1,
-          "institute": 3,
-          "study": 2,
-          "other": 21
+          "institute": 4,
+          "study": 1,
+          "other": 22
         },
-        "top_journals": "Advanced Materials; Journal of the American Chemical Society; ACS Nano",
+        "top_journals": "Advanced Materials; Journal of the American Chemical Society; Nano Letters",
         "recent": {
           "alumni": 13.0,
           "phd_graduates": 12.0,
@@ -31109,7 +32086,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0747",
@@ -31151,7 +32129,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0748",
@@ -31197,7 +32176,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0749",
@@ -31291,7 +32271,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0750",
@@ -31330,7 +32311,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0751",
@@ -31375,7 +32357,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0752",
@@ -31476,7 +32459,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0753",
@@ -31521,7 +32505,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0754",
@@ -31567,7 +32552,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0755",
@@ -31669,7 +32655,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0756",
@@ -31732,7 +32719,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0757",
@@ -31804,7 +32792,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0758",
@@ -31871,7 +32860,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0759",
@@ -31923,7 +32913,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0760",
@@ -31967,7 +32958,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0761",
@@ -32012,7 +33004,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0762",
@@ -32042,7 +33035,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0763",
@@ -32083,7 +33077,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0764",
@@ -32128,7 +33123,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0765",
@@ -32173,7 +33169,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0766",
@@ -32218,7 +33215,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0767",
@@ -32259,7 +33257,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0768",
@@ -32300,7 +33299,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0769",
@@ -32345,7 +33345,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0770",
@@ -32387,7 +33388,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0771",
@@ -32417,7 +33419,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0772",
@@ -32447,7 +33450,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0773",
@@ -32492,7 +33496,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0774",
@@ -32538,7 +33543,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0775",
@@ -32568,7 +33574,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0776",
@@ -32613,7 +33620,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P0777",
@@ -32643,7 +33651,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0778",
@@ -32688,7 +33697,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0779",
@@ -32733,7 +33743,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0780",
@@ -32763,7 +33774,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0781",
@@ -32802,7 +33814,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0782",
@@ -32848,7 +33861,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0783",
@@ -32892,7 +33906,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0784",
@@ -32922,7 +33937,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0785",
@@ -32968,7 +33984,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0786",
@@ -33013,7 +34030,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0787",
@@ -33043,7 +34061,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0788",
@@ -33086,7 +34105,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0789",
@@ -33116,7 +34136,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0790",
@@ -33146,7 +34167,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0791",
@@ -33191,7 +34213,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0792",
@@ -33234,7 +34257,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0793",
@@ -33264,7 +34288,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0794",
@@ -33294,7 +34319,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0795",
@@ -33339,7 +34365,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0796",
@@ -33382,7 +34409,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0797",
@@ -33412,7 +34440,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0798",
@@ -33442,7 +34471,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0799",
@@ -33472,7 +34502,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0800",
@@ -33502,7 +34533,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0801",
@@ -33547,7 +34579,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0802",
@@ -33577,7 +34610,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0803",
@@ -33607,7 +34641,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0804",
@@ -33652,7 +34687,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0805",
@@ -33682,7 +34718,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0806",
@@ -33712,7 +34749,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0807",
@@ -33755,7 +34793,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0808",
@@ -33801,7 +34840,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0809",
@@ -33831,7 +34871,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0810",
@@ -33874,7 +34915,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0811",
@@ -33919,7 +34961,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0812",
@@ -33949,7 +34992,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0813",
@@ -33991,7 +35035,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0814",
@@ -34021,7 +35066,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0815",
@@ -34051,7 +35097,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0816",
@@ -34081,7 +35128,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0817",
@@ -34111,7 +35159,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0818",
@@ -34154,7 +35203,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0819",
@@ -34184,7 +35234,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0820",
@@ -34228,7 +35279,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0821",
@@ -34273,7 +35325,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0822",
@@ -34318,7 +35371,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0823",
@@ -34363,7 +35417,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0824",
@@ -34406,7 +35461,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0825",
@@ -34436,7 +35492,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0826",
@@ -34466,7 +35523,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0827",
@@ -34508,7 +35566,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0828",
@@ -34538,7 +35597,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0829",
@@ -34583,7 +35643,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0830",
@@ -34625,7 +35686,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0831",
@@ -34666,7 +35728,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0832",
@@ -34711,7 +35774,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0833",
@@ -34750,7 +35814,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0834",
@@ -34780,7 +35845,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0835",
@@ -34819,7 +35885,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0836",
@@ -34865,7 +35932,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0837",
@@ -34910,7 +35978,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0838",
@@ -34940,7 +36009,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0839",
@@ -34981,7 +36051,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0840",
@@ -35011,7 +36082,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0841",
@@ -35056,7 +36128,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0842",
@@ -35099,7 +36172,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0843",
@@ -35144,7 +36218,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0844",
@@ -35174,7 +36249,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0845",
@@ -35218,7 +36294,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0846",
@@ -35248,7 +36325,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0847",
@@ -35290,7 +36368,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0848",
@@ -35333,7 +36412,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0849",
@@ -35363,7 +36443,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0850",
@@ -35393,7 +36474,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0851",
@@ -35432,7 +36514,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0852",
@@ -35477,7 +36560,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0853",
@@ -35523,7 +36607,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0854",
@@ -35563,7 +36648,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0855",
@@ -35608,7 +36694,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0856",
@@ -35642,7 +36729,55 @@ window.KOREA_BIO_MAP = {
         "유전자변형 마우스"
       ],
       "department": "School of Life Sciences",
-      "lab": {},
+      "lab": {
+        "alumni": 22.0,
+        "phd_graduates": 2.0,
+        "ms_graduates": 12.0,
+        "postdoc_alumni": 7.0,
+        "ms_years": 2.1,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 0.0,
+        "stay_years_est": 0.0,
+        "students_with_papers": 14.0,
+        "papers_per_student": 0.0,
+        "first_author_per_student": 0.0,
+        "careers": {
+          "faculty": 0,
+          "postdoc": 1,
+          "industry": 13,
+          "hospital": 1,
+          "institute": 0,
+          "study": 5,
+          "other": 0
+        },
+        "recent": {
+          "alumni": 11.0,
+          "phd_graduates": 2.0,
+          "ms_graduates": 7.0,
+          "postdoc_alumni": 2.0,
+          "ms_years": 1.8,
+          "phd_years_est": 0.0,
+          "integrated_years_est": 0.0,
+          "ms_years_est": 0.0,
+          "stay_years_est": 0.0,
+          "students_with_papers": 9.0,
+          "papers_per_student": 0.0,
+          "first_author_per_student": 0.0,
+          "careers": {
+            "faculty": 0,
+            "postdoc": 0,
+            "industry": 6,
+            "hospital": 1,
+            "institute": 0,
+            "study": 2,
+            "other": 0
+          }
+        },
+        "alumni_url": "",
+        "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
+        "as_of": "2026-10-15"
+      },
       "orcid": "",
       "url": "http://ion.korea.ac.kr/mcgl/Home.html",
       "lab_url": "",
@@ -35653,7 +36788,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0857",
@@ -35683,7 +36819,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0858",
@@ -35725,7 +36862,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0859",
@@ -35767,7 +36905,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0860",
@@ -35797,7 +36936,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0861",
@@ -35827,7 +36967,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0862",
@@ -35857,7 +36998,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0863",
@@ -35887,7 +37029,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0864",
@@ -35917,7 +37060,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0865",
@@ -35947,7 +37091,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0866",
@@ -35986,7 +37131,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0867",
@@ -36016,7 +37162,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0868",
@@ -36061,7 +37208,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0869",
@@ -36091,7 +37239,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0870",
@@ -36121,7 +37270,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0871",
@@ -36151,7 +37301,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0872",
@@ -36196,7 +37347,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0873",
@@ -36226,7 +37378,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0874",
@@ -36256,7 +37409,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0875",
@@ -36286,7 +37440,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0876",
@@ -36316,7 +37471,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0877",
@@ -36361,7 +37517,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0878",
@@ -36406,7 +37563,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0879",
@@ -36436,7 +37594,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0880",
@@ -36466,7 +37625,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0881",
@@ -36512,7 +37672,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0882",
@@ -36542,7 +37703,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0883",
@@ -36586,7 +37748,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0884",
@@ -36629,7 +37792,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0885",
@@ -36672,7 +37836,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0886",
@@ -36702,7 +37867,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0887",
@@ -36732,7 +37898,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0888",
@@ -36762,7 +37929,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0889",
@@ -36792,7 +37960,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0890",
@@ -36837,7 +38006,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0891",
@@ -36867,7 +38037,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0892",
@@ -36897,7 +38068,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0893",
@@ -36927,7 +38099,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0894",
@@ -36957,7 +38130,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0895",
@@ -37000,7 +38174,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0896",
@@ -37040,7 +38215,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0897",
@@ -37070,7 +38246,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0898",
@@ -37100,7 +38277,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0899",
@@ -37141,7 +38319,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0900",
@@ -37171,7 +38350,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0901",
@@ -37201,7 +38381,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0902",
@@ -37231,7 +38412,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0903",
@@ -37277,7 +38459,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0904",
@@ -37307,7 +38490,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0905",
@@ -37352,7 +38536,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0906",
@@ -37382,7 +38567,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0907",
@@ -37428,7 +38614,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0908",
@@ -37458,7 +38645,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0909",
@@ -37501,7 +38689,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0910",
@@ -37531,7 +38720,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0911",
@@ -37561,7 +38751,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0912",
@@ -37606,7 +38797,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0913",
@@ -37636,7 +38828,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0914",
@@ -37681,7 +38874,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0915",
@@ -37725,7 +38919,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0916",
@@ -37755,7 +38950,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0917",
@@ -37785,7 +38981,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0918",
@@ -37815,7 +39012,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0919",
@@ -37860,7 +39058,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0920",
@@ -37906,7 +39105,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0921",
@@ -37936,7 +39136,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0922",
@@ -37966,7 +39167,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0923",
@@ -38010,7 +39212,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0924",
@@ -38040,7 +39243,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0925",
@@ -38086,7 +39290,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0926",
@@ -38132,7 +39337,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0927",
@@ -38177,7 +39383,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0928",
@@ -38220,7 +39427,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0929",
@@ -38250,7 +39458,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0930",
@@ -38289,7 +39498,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0931",
@@ -38319,7 +39529,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0932",
@@ -38362,7 +39573,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0933",
@@ -38392,7 +39604,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0934",
@@ -38422,7 +39635,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0935",
@@ -38467,7 +39681,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0936",
@@ -38511,7 +39726,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0937",
@@ -38555,7 +39771,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0938",
@@ -38585,7 +39802,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0939",
@@ -38615,7 +39833,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0940",
@@ -38656,7 +39875,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0942",
@@ -38686,7 +39906,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0943",
@@ -38716,7 +39937,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0944",
@@ -38755,7 +39977,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0945",
@@ -38785,7 +40008,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0946",
@@ -38815,7 +40039,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0947",
@@ -38845,7 +40070,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0948",
@@ -38875,7 +40101,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0949",
@@ -38905,7 +40132,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0950",
@@ -38935,7 +40163,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0951",
@@ -38965,7 +40194,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0952",
@@ -38995,7 +40225,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0953",
@@ -39025,7 +40256,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0954",
@@ -39055,7 +40287,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0955",
@@ -39085,7 +40318,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0956",
@@ -39115,7 +40349,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0957",
@@ -39156,7 +40391,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0958",
@@ -39202,7 +40438,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0959",
@@ -39245,7 +40482,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0960",
@@ -39275,7 +40513,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0961",
@@ -39320,7 +40559,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0962",
@@ -39364,7 +40604,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0963",
@@ -39404,7 +40645,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P0964",
@@ -39447,7 +40689,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0965",
@@ -39492,7 +40735,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0966",
@@ -39535,7 +40779,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0967",
@@ -39574,7 +40819,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0968",
@@ -39620,7 +40866,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0969",
@@ -39664,7 +40911,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0970",
@@ -39706,7 +40954,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0971",
@@ -39736,7 +40985,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0972",
@@ -39781,7 +41031,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0973",
@@ -39820,7 +41071,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0974",
@@ -39850,7 +41102,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0975",
@@ -39895,7 +41148,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0976",
@@ -39925,7 +41179,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0977",
@@ -39970,7 +41225,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0978",
@@ -40015,7 +41271,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0979",
@@ -40057,7 +41314,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0980",
@@ -40102,7 +41360,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0981",
@@ -40144,7 +41403,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0982",
@@ -40183,7 +41443,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0983",
@@ -40228,7 +41489,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0984",
@@ -40274,7 +41536,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0985",
@@ -40317,7 +41580,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0986",
@@ -40362,7 +41626,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0987",
@@ -40403,7 +41668,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0988",
@@ -40446,7 +41712,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0989",
@@ -40491,7 +41758,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0990",
@@ -40535,7 +41803,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0991",
@@ -40578,7 +41847,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0992",
@@ -40617,7 +41887,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0993",
@@ -40656,7 +41927,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0994",
@@ -40701,7 +41973,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0995",
@@ -40743,7 +42016,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0996",
@@ -40788,7 +42062,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0997",
@@ -40835,7 +42110,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0998",
@@ -40880,7 +42156,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P0999",
@@ -40925,7 +42202,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1000",
@@ -40970,7 +42248,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1001",
@@ -41011,7 +42290,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1002",
@@ -41057,7 +42337,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1003",
@@ -41103,7 +42384,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1004",
@@ -41142,7 +42424,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1005",
@@ -41188,7 +42471,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1006",
@@ -41234,7 +42518,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1007",
@@ -41264,7 +42549,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1008",
@@ -41309,7 +42595,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1009",
@@ -41351,7 +42638,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1010",
@@ -41396,7 +42684,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1011",
@@ -41442,7 +42731,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1012",
@@ -41485,7 +42775,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1013",
@@ -41530,7 +42821,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1014",
@@ -41576,7 +42868,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1015",
@@ -41622,7 +42915,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1016",
@@ -41661,7 +42955,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1017",
@@ -41707,7 +43002,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1018",
@@ -41751,7 +43047,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1019",
@@ -41794,7 +43091,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1020",
@@ -41839,7 +43137,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1021",
@@ -41880,7 +43179,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1022",
@@ -41926,7 +43226,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1023",
@@ -41971,7 +43272,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1024",
@@ -42015,7 +43317,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1025",
@@ -42045,7 +43348,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1026",
@@ -42084,7 +43388,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1027",
@@ -42130,7 +43435,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1028",
@@ -42175,7 +43481,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1029",
@@ -42221,7 +43528,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1030",
@@ -42265,7 +43573,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1031",
@@ -42306,7 +43615,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1032",
@@ -42345,7 +43655,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1033",
@@ -42388,7 +43699,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1034",
@@ -42428,7 +43740,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1035",
@@ -42474,7 +43787,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1036",
@@ -42519,7 +43833,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1037",
@@ -42560,7 +43875,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1038",
@@ -42605,7 +43921,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1039",
@@ -42650,7 +43967,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1040",
@@ -42691,7 +44009,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1041",
@@ -42733,7 +44052,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1042",
@@ -42776,7 +44096,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1043",
@@ -42822,7 +44143,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1044",
@@ -42864,7 +44186,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1045",
@@ -42894,7 +44217,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1046",
@@ -42937,7 +44261,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1047",
@@ -42978,7 +44303,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1048",
@@ -43008,7 +44334,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1049",
@@ -43047,7 +44374,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1050",
@@ -43077,7 +44405,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1051",
@@ -43119,7 +44448,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1052",
@@ -43149,7 +44479,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1053",
@@ -43191,7 +44522,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1054",
@@ -43234,7 +44566,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1055",
@@ -43274,7 +44607,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1056",
@@ -43313,7 +44647,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1057",
@@ -43355,7 +44690,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1058",
@@ -43400,7 +44736,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1059",
@@ -43443,7 +44780,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1060",
@@ -43489,7 +44827,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1061",
@@ -43530,7 +44869,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1062",
@@ -43575,7 +44915,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1063",
@@ -43614,7 +44955,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1064",
@@ -43656,7 +44998,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1065",
@@ -43701,7 +45044,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1066",
@@ -43740,7 +45084,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1067",
@@ -43785,7 +45130,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1068",
@@ -43824,7 +45170,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1069",
@@ -43869,7 +45216,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1070",
@@ -43908,7 +45256,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1071",
@@ -43938,7 +45287,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1072",
@@ -43983,7 +45333,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1073",
@@ -44024,7 +45375,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1074",
@@ -44066,7 +45418,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1075",
@@ -44106,7 +45459,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1076",
@@ -44146,7 +45500,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1077",
@@ -44186,7 +45541,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1078",
@@ -44227,7 +45583,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1079",
@@ -44257,7 +45614,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1080",
@@ -44301,7 +45659,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1081",
@@ -44344,7 +45703,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1082",
@@ -44390,7 +45750,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1083",
@@ -44436,7 +45797,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1084",
@@ -44478,7 +45840,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1085",
@@ -44520,7 +45883,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1086",
@@ -44550,7 +45914,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1087",
@@ -44592,7 +45957,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1088",
@@ -44631,7 +45997,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1089",
@@ -44673,7 +46040,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1090",
@@ -44716,7 +46084,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1091",
@@ -44756,7 +46125,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1092",
@@ -44799,7 +46169,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1093",
@@ -44845,7 +46216,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1094",
@@ -44887,7 +46259,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1095",
@@ -44932,7 +46305,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1096",
@@ -44971,7 +46345,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1097",
@@ -45014,7 +46389,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1098",
@@ -45060,7 +46436,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1099",
@@ -45103,7 +46480,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1100",
@@ -45142,7 +46520,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1101",
@@ -45185,7 +46564,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1102",
@@ -45227,7 +46607,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1103",
@@ -45267,7 +46648,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1104",
@@ -45309,7 +46691,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1105",
@@ -45348,7 +46731,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1106",
@@ -45378,7 +46762,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1107",
@@ -45418,7 +46803,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1108",
@@ -45458,7 +46844,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1109",
@@ -45497,7 +46884,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1110",
@@ -45543,7 +46931,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1111",
@@ -45587,7 +46976,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1112",
@@ -45629,7 +47019,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1113",
@@ -45675,7 +47066,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1114",
@@ -45721,7 +47113,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1115",
@@ -45767,7 +47160,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1116",
@@ -45813,7 +47207,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1117",
@@ -45858,7 +47253,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1118",
@@ -45904,7 +47300,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1119",
@@ -45951,7 +47348,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1120",
@@ -45986,10 +47384,32 @@ window.KOREA_BIO_MAP = {
         "종양 이종이식 모델"
       ],
       "department": "",
-      "lab": {},
+      "lab": {
+        "alumni": 41.0,
+        "phd_graduates": 9.0,
+        "ms_graduates": 23.0,
+        "postdoc_alumni": 9.0,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 0.0,
+        "stay_years_est": 0.0,
+        "students_with_papers": 0.0,
+        "careers": {
+          "faculty": 2,
+          "postdoc": 7,
+          "industry": 16,
+          "hospital": 0,
+          "institute": 5,
+          "study": 2,
+          "other": 1
+        },
+        "alumni_url": "",
+        "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
+        "as_of": "2026-10-15"
+      },
       "orcid": "0000-0002-8074-1006",
       "url": "https://openalex.org/A5090175489",
-      "lab_url": "",
+      "lab_url": "https://www.kist-bnl.com/",
       "openalex_id": "A5090175489",
       "identity": "openalex_institution",
       "score": 11,
@@ -45997,7 +47417,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1121",
@@ -46043,7 +47464,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1122",
@@ -46086,7 +47508,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1123",
@@ -46132,7 +47555,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1124",
@@ -46178,7 +47602,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1125",
@@ -46221,7 +47646,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1126",
@@ -46267,7 +47693,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1127",
@@ -46313,7 +47740,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1128",
@@ -46357,7 +47785,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1129",
@@ -46399,7 +47828,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1130",
@@ -46444,7 +47874,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1131",
@@ -46490,7 +47921,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1132",
@@ -46536,7 +47968,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1133",
@@ -46582,7 +48015,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1134",
@@ -46625,7 +48059,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1135",
@@ -46671,7 +48106,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1136",
@@ -46716,7 +48152,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1137",
@@ -46762,7 +48199,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1138",
@@ -46808,7 +48246,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1139",
@@ -46854,7 +48293,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1140",
@@ -46898,7 +48338,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1141",
@@ -46944,7 +48385,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1142",
@@ -46990,7 +48432,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1143",
@@ -47036,7 +48479,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1144",
@@ -47082,7 +48526,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1145",
@@ -47127,7 +48572,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1146",
@@ -47173,7 +48619,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1147",
@@ -47219,7 +48666,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1148",
@@ -47265,7 +48713,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1149",
@@ -47311,7 +48760,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1150",
@@ -47354,7 +48804,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1151",
@@ -47400,7 +48851,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1152",
@@ -47447,7 +48899,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1153",
@@ -47494,7 +48947,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1154",
@@ -47540,7 +48994,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1155",
@@ -47585,7 +49040,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 2,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1156",
@@ -47631,7 +49087,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1157",
@@ -47677,7 +49134,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1158",
@@ -47721,7 +49179,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1159",
@@ -47767,7 +49226,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1160",
@@ -47812,7 +49272,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1161",
@@ -47858,7 +49319,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1162",
@@ -47904,7 +49366,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1163",
@@ -47950,7 +49413,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1164",
@@ -47996,7 +49460,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1165",
@@ -48042,7 +49507,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1166",
@@ -48087,7 +49553,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1167",
@@ -48133,7 +49600,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1168",
@@ -48180,7 +49648,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1169",
@@ -48226,7 +49695,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1170",
@@ -48272,7 +49742,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1171",
@@ -48318,7 +49789,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1172",
@@ -48364,7 +49836,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1173",
@@ -48410,7 +49883,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1174",
@@ -48456,7 +49930,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1175",
@@ -48503,7 +49978,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1176",
@@ -48549,7 +50025,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1177",
@@ -48595,7 +50072,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1178",
@@ -48641,7 +50119,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1179",
@@ -48687,7 +50166,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1180",
@@ -48733,7 +50213,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1181",
@@ -48778,7 +50259,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1182",
@@ -48824,7 +50306,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1183",
@@ -48870,7 +50353,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1184",
@@ -48916,7 +50400,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1185",
@@ -48963,7 +50448,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1186",
@@ -49007,7 +50493,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1187",
@@ -49052,7 +50539,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1188",
@@ -49098,7 +50586,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1189",
@@ -49144,7 +50633,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1190",
@@ -49190,7 +50680,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1191",
@@ -49236,7 +50727,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1192",
@@ -49280,7 +50772,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1193",
@@ -49326,7 +50819,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1194",
@@ -49371,7 +50865,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1195",
@@ -49417,7 +50912,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1196",
@@ -49463,7 +50959,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1197",
@@ -49506,7 +51003,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1198",
@@ -49552,7 +51050,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1199",
@@ -49598,7 +51097,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1200",
@@ -49644,7 +51144,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1201",
@@ -49689,7 +51190,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1202",
@@ -49735,7 +51237,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1203",
@@ -49781,7 +51284,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1204",
@@ -49827,7 +51331,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1205",
@@ -49872,7 +51377,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1206",
@@ -49918,7 +51424,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1207",
@@ -49963,7 +51470,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1208",
@@ -50010,7 +51518,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1209",
@@ -50057,7 +51566,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1210",
@@ -50103,7 +51613,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1211",
@@ -50149,7 +51660,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1212",
@@ -50195,7 +51707,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1213",
@@ -50240,7 +51753,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1214",
@@ -50286,7 +51800,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1215",
@@ -50332,7 +51847,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1216",
@@ -50377,7 +51893,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1217",
@@ -50422,7 +51939,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1218",
@@ -50468,7 +51986,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1219",
@@ -50513,7 +52032,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1220",
@@ -50559,7 +52079,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1221",
@@ -50605,7 +52126,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1222",
@@ -50651,7 +52173,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1223",
@@ -50697,7 +52220,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1224",
@@ -50739,7 +52263,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1225",
@@ -50780,7 +52305,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1226",
@@ -50826,7 +52352,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1227",
@@ -50869,7 +52396,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1228",
@@ -50913,7 +52441,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1229",
@@ -50958,7 +52487,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1230",
@@ -51005,7 +52535,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1231",
@@ -51044,7 +52575,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1232",
@@ -51079,7 +52611,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1233",
@@ -51124,7 +52657,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1234",
@@ -51170,7 +52704,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1235",
@@ -51211,7 +52746,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1236",
@@ -51256,7 +52792,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1237",
@@ -51301,7 +52838,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1238",
@@ -51343,7 +52881,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1239",
@@ -51388,7 +52927,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1240",
@@ -51434,7 +52974,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1241",
@@ -51476,7 +53017,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1242",
@@ -51520,7 +53062,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1243",
@@ -51564,7 +53107,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1244",
@@ -51606,7 +53150,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1245",
@@ -51652,7 +53197,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1246",
@@ -51698,7 +53244,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1247",
@@ -51743,7 +53290,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1248",
@@ -51783,7 +53331,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1249",
@@ -51827,7 +53376,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1250",
@@ -51870,7 +53420,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1251",
@@ -51916,7 +53467,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1252",
@@ -51962,7 +53514,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1253",
@@ -52008,7 +53561,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1254",
@@ -52054,7 +53608,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1255",
@@ -52100,7 +53655,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1256",
@@ -52146,7 +53702,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1258",
@@ -52192,7 +53749,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1259",
@@ -52238,7 +53796,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1260",
@@ -52285,7 +53844,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1261",
@@ -52331,7 +53891,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1262",
@@ -52378,7 +53939,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1263",
@@ -52424,7 +53986,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1264",
@@ -52470,7 +54033,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1265",
@@ -52516,7 +54080,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1266",
@@ -52562,7 +54127,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1267",
@@ -52607,7 +54173,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1268",
@@ -52652,7 +54219,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1270",
@@ -52697,7 +54265,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1271",
@@ -52743,7 +54312,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1272",
@@ -52787,7 +54357,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1273",
@@ -52833,7 +54404,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1274",
@@ -52880,7 +54452,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1275",
@@ -52926,7 +54499,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1276",
@@ -52970,7 +54544,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1277",
@@ -53012,7 +54587,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1278",
@@ -53055,7 +54631,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1279",
@@ -53097,7 +54674,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1280",
@@ -53143,7 +54721,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1281",
@@ -53185,7 +54764,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1282",
@@ -53232,7 +54812,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1283",
@@ -53279,7 +54860,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1284",
@@ -53325,7 +54907,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1285",
@@ -53370,7 +54953,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1286",
@@ -53412,7 +54996,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1287",
@@ -53457,7 +55042,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1288",
@@ -53503,7 +55089,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1289",
@@ -53545,7 +55132,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1290",
@@ -53591,7 +55179,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1291",
@@ -53636,7 +55225,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1292",
@@ -53682,7 +55272,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1293",
@@ -53728,7 +55319,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1294",
@@ -53775,7 +55367,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1295",
@@ -53821,7 +55414,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1296",
@@ -53866,7 +55460,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1297",
@@ -53913,7 +55508,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1298",
@@ -53958,7 +55554,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1299",
@@ -54004,7 +55601,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1300",
@@ -54049,7 +55647,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1301",
@@ -54095,7 +55694,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1302",
@@ -54141,7 +55741,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1303",
@@ -54184,7 +55785,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1304",
@@ -54230,7 +55832,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1305",
@@ -54276,7 +55879,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1306",
@@ -54321,7 +55925,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1307",
@@ -54366,7 +55971,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1308",
@@ -54410,7 +56016,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1309",
@@ -54455,7 +56062,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1310",
@@ -54502,7 +56110,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1311",
@@ -54546,7 +56155,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1312",
@@ -54589,7 +56199,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1313",
@@ -54634,7 +56245,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1314",
@@ -54677,7 +56289,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1315",
@@ -54720,7 +56333,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1316",
@@ -54765,7 +56379,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1317",
@@ -54807,7 +56422,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1318",
@@ -54851,7 +56467,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1319",
@@ -54893,7 +56510,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1320",
@@ -54936,7 +56554,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1321",
@@ -54981,7 +56600,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1322",
@@ -55027,7 +56647,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 3,
       "postdoc_PI_count": 2,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1323",
@@ -55074,7 +56695,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1324",
@@ -55119,7 +56741,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1325",
@@ -55164,7 +56787,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1326",
@@ -55211,7 +56835,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1327",
@@ -55257,7 +56882,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1328",
@@ -55300,7 +56926,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1329",
@@ -55346,7 +56973,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1330",
@@ -55392,7 +57020,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1331",
@@ -55437,7 +57066,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1332",
@@ -55483,7 +57113,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1333",
@@ -55528,7 +57159,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1334",
@@ -55573,7 +57205,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1335",
@@ -55618,7 +57251,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1336",
@@ -55662,7 +57296,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1337",
@@ -55706,7 +57341,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1338",
@@ -55752,7 +57388,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1339",
@@ -55796,7 +57433,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1340",
@@ -55838,7 +57476,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1341",
@@ -55880,7 +57519,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1342",
@@ -55924,7 +57564,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1343",
@@ -55965,7 +57606,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1344",
@@ -56006,7 +57648,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1345",
@@ -56052,7 +57695,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1346",
@@ -56098,7 +57742,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1347",
@@ -56140,7 +57785,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1348",
@@ -56187,7 +57833,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1349",
@@ -56228,7 +57875,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1350",
@@ -56272,7 +57920,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1351",
@@ -56314,7 +57963,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1352",
@@ -56358,7 +58008,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1353",
@@ -56404,7 +58055,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1354",
@@ -56447,7 +58099,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1355",
@@ -56492,7 +58145,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1356",
@@ -56538,7 +58192,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1357",
@@ -56577,7 +58232,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1358",
@@ -56619,7 +58275,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1359",
@@ -56665,7 +58322,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1360",
@@ -56710,7 +58368,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1361",
@@ -56756,7 +58415,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1362",
@@ -56799,7 +58459,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1363",
@@ -56842,7 +58503,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1364",
@@ -56886,7 +58548,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1365",
@@ -56931,7 +58594,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1366",
@@ -56972,7 +58636,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1367",
@@ -57012,7 +58677,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1368",
@@ -57057,7 +58723,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1369",
@@ -57102,7 +58769,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1370",
@@ -57143,7 +58811,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1371",
@@ -57184,7 +58853,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1372",
@@ -57227,7 +58897,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1373",
@@ -57270,7 +58941,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1374",
@@ -57312,7 +58984,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1375",
@@ -57353,7 +59026,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1376",
@@ -57395,7 +59069,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1377",
@@ -57436,7 +59111,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1378",
@@ -57481,7 +59157,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1379",
@@ -57527,7 +59204,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1380",
@@ -57572,7 +59250,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1381",
@@ -57615,7 +59294,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1382",
@@ -57661,7 +59341,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1383",
@@ -57707,7 +59388,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1384",
@@ -57753,7 +59435,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1385",
@@ -57799,7 +59482,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1386",
@@ -57844,7 +59528,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1387",
@@ -57890,7 +59575,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1388",
@@ -57935,7 +59621,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1389",
@@ -57980,7 +59667,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1390",
@@ -58027,7 +59715,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1391",
@@ -58070,7 +59759,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1392",
@@ -58116,7 +59806,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1393",
@@ -58162,7 +59853,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1394",
@@ -58207,7 +59899,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1395",
@@ -58253,7 +59946,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1396",
@@ -58299,7 +59993,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1397",
@@ -58342,7 +60037,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1398",
@@ -58389,7 +60085,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1399",
@@ -58434,7 +60131,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1400",
@@ -58474,7 +60172,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1401",
@@ -58517,7 +60216,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1402",
@@ -58561,7 +60261,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1403",
@@ -58604,7 +60305,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1404",
@@ -58650,7 +60352,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1405",
@@ -58692,7 +60395,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1406",
@@ -58735,7 +60439,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1407",
@@ -58778,7 +60483,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1408",
@@ -58823,7 +60529,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1409",
@@ -58863,7 +60570,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1410",
@@ -58906,7 +60614,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1411",
@@ -58952,7 +60661,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1412",
@@ -58999,7 +60709,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1413",
@@ -59046,7 +60757,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1414",
@@ -59092,7 +60804,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1415",
@@ -59138,7 +60851,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1416",
@@ -59180,7 +60894,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1417",
@@ -59227,7 +60942,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1418",
@@ -59273,7 +60989,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1419",
@@ -59319,7 +61036,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1420",
@@ -59365,7 +61083,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1421",
@@ -59411,7 +61130,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1422",
@@ -59457,7 +61177,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1423",
@@ -59502,7 +61223,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1424",
@@ -59547,7 +61269,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1425",
@@ -59593,7 +61316,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1426",
@@ -59639,7 +61363,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1427",
@@ -59684,7 +61409,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1428",
@@ -59729,7 +61455,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1429",
@@ -59776,7 +61503,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1430",
@@ -59822,7 +61550,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1431",
@@ -59868,7 +61597,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1432",
@@ -59910,7 +61640,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1433",
@@ -59952,7 +61683,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1434",
@@ -59995,7 +61727,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1435",
@@ -60042,7 +61775,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1436",
@@ -60088,7 +61822,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1437",
@@ -60133,7 +61868,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1438",
@@ -60178,7 +61914,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1439",
@@ -60221,7 +61958,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1440",
@@ -60267,7 +62005,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1441",
@@ -60313,7 +62052,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1442",
@@ -60359,7 +62099,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1443",
@@ -60404,7 +62145,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1444",
@@ -60449,7 +62191,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1445",
@@ -60495,7 +62238,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1446",
@@ -60540,7 +62284,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1447",
@@ -60583,7 +62328,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1448",
@@ -60629,7 +62375,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1449",
@@ -60669,7 +62416,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1450",
@@ -60713,7 +62461,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1451",
@@ -60756,7 +62505,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1452",
@@ -60801,7 +62551,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1453",
@@ -60846,7 +62597,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1454",
@@ -60889,7 +62641,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1455",
@@ -60932,7 +62685,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1456",
@@ -60978,7 +62732,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1457",
@@ -61024,7 +62779,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1458",
@@ -61065,7 +62821,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1459",
@@ -61111,7 +62868,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1460",
@@ -61157,7 +62915,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1461",
@@ -61203,7 +62962,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1462",
@@ -61245,7 +63005,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1463",
@@ -61291,7 +63052,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1464",
@@ -61335,7 +63097,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1465",
@@ -61378,7 +63141,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1466",
@@ -61421,7 +63185,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1467",
@@ -61465,7 +63230,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1468",
@@ -61508,7 +63274,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1469",
@@ -61553,7 +63320,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1470",
@@ -61599,7 +63367,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1471",
@@ -61645,7 +63414,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1472",
@@ -61690,7 +63460,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1473",
@@ -61736,7 +63507,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1474",
@@ -61782,7 +63554,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1475",
@@ -61824,7 +63597,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1476",
@@ -61868,7 +63642,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1477",
@@ -61910,7 +63685,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1478",
@@ -61956,7 +63732,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1479",
@@ -61995,7 +63772,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1480",
@@ -62039,7 +63817,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1481",
@@ -62084,7 +63863,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1482",
@@ -62130,7 +63910,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1483",
@@ -62172,7 +63953,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1484",
@@ -62215,7 +63997,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1485",
@@ -62255,7 +64038,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1486",
@@ -62298,7 +64082,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1487",
@@ -62341,7 +64126,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1488",
@@ -62384,7 +64170,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1489",
@@ -62427,7 +64214,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1490",
@@ -62468,7 +64256,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1491",
@@ -62511,7 +64300,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1492",
@@ -62555,7 +64345,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1493",
@@ -62601,7 +64392,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1494",
@@ -62645,7 +64437,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1495",
@@ -62687,7 +64480,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1496",
@@ -62731,7 +64525,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1497",
@@ -62776,7 +64571,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1498",
@@ -62819,7 +64615,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1499",
@@ -62865,7 +64662,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1500",
@@ -62907,7 +64705,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1501",
@@ -62950,7 +64749,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1502",
@@ -62996,7 +64796,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1503",
@@ -63040,7 +64841,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1504",
@@ -63083,7 +64885,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1505",
@@ -63125,7 +64928,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1506",
@@ -63171,7 +64975,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1507",
@@ -63213,7 +65018,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1508",
@@ -63254,7 +65060,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1509",
@@ -63296,7 +65103,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1510",
@@ -63336,7 +65144,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1511",
@@ -63379,7 +65188,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1512",
@@ -63419,7 +65229,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1513",
@@ -63462,7 +65273,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1514",
@@ -63508,7 +65320,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1515",
@@ -63548,7 +65361,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1516",
@@ -63595,7 +65409,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1517",
@@ -63641,7 +65456,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1518",
@@ -63688,7 +65504,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1519",
@@ -63734,7 +65551,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1520",
@@ -63780,7 +65598,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1521",
@@ -63826,7 +65645,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1522",
@@ -63873,7 +65693,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1523",
@@ -63920,7 +65741,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1524",
@@ -63967,7 +65789,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1525",
@@ -64013,7 +65836,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1526",
@@ -64059,7 +65883,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1527",
@@ -64105,7 +65930,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1528",
@@ -64150,7 +65976,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1529",
@@ -64196,7 +66023,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1530",
@@ -64242,7 +66070,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1531",
@@ -64288,7 +66117,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1532",
@@ -64334,7 +66164,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1533",
@@ -64380,7 +66211,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1534",
@@ -64427,7 +66259,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1535",
@@ -64473,7 +66306,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1536",
@@ -64520,7 +66354,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1537",
@@ -64566,7 +66401,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1538",
@@ -64612,7 +66448,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1539",
@@ -64659,7 +66496,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1540",
@@ -64705,7 +66543,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1541",
@@ -64751,7 +66590,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1542",
@@ -64796,7 +66636,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1543",
@@ -64842,7 +66683,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1544",
@@ -64887,7 +66729,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1545",
@@ -64933,7 +66776,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1546",
@@ -64977,7 +66821,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1547",
@@ -65023,7 +66868,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1548",
@@ -65070,7 +66916,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1549",
@@ -65117,7 +66964,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1550",
@@ -65159,7 +67007,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1551",
@@ -65205,7 +67054,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1552",
@@ -65247,7 +67097,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1553",
@@ -65293,7 +67144,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1554",
@@ -65339,7 +67191,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1555",
@@ -65386,7 +67239,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1556",
@@ -65429,7 +67283,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1557",
@@ -65472,7 +67327,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1558",
@@ -65512,7 +67368,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1559",
@@ -65555,7 +67412,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1560",
@@ -65601,7 +67459,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1561",
@@ -65645,7 +67504,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1562",
@@ -65691,7 +67551,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1563",
@@ -65734,7 +67595,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1564",
@@ -65780,7 +67642,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1565",
@@ -65827,7 +67690,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1566",
@@ -65873,7 +67737,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1567",
@@ -65918,7 +67783,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1568",
@@ -65964,7 +67830,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1569",
@@ -66010,7 +67877,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1570",
@@ -66056,7 +67924,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1571",
@@ -66100,7 +67969,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1572",
@@ -66146,7 +68016,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1573",
@@ -66193,7 +68064,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1574",
@@ -66240,7 +68112,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1575",
@@ -66286,7 +68159,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1576",
@@ -66331,7 +68205,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1577",
@@ -66373,7 +68248,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1578",
@@ -66419,7 +68295,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1579",
@@ -66465,7 +68342,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1580",
@@ -66510,7 +68388,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1581",
@@ -66555,7 +68434,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1582",
@@ -66600,7 +68480,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1583",
@@ -66645,7 +68526,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1584",
@@ -66689,7 +68571,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1585",
@@ -66734,7 +68617,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1586",
@@ -66779,7 +68663,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1587",
@@ -66819,7 +68704,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1588",
@@ -66862,7 +68748,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1589",
@@ -66907,7 +68794,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1590",
@@ -66952,7 +68840,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1591",
@@ -66998,7 +68887,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1592",
@@ -67041,7 +68931,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1593",
@@ -67080,7 +68971,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1594",
@@ -67124,7 +69016,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1595",
@@ -67166,7 +69059,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1596",
@@ -67208,7 +69102,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1597",
@@ -67252,7 +69147,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1598",
@@ -67296,7 +69192,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1599",
@@ -67338,7 +69235,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1600",
@@ -67380,7 +69278,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1601",
@@ -67422,7 +69321,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1602",
@@ -67466,7 +69366,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1603",
@@ -67507,7 +69408,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1604",
@@ -67552,7 +69454,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1605",
@@ -67593,7 +69496,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1607",
@@ -67635,7 +69539,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1608",
@@ -67678,7 +69583,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1609",
@@ -67722,7 +69628,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1610",
@@ -67767,7 +69674,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1611",
@@ -67811,7 +69719,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1612",
@@ -67853,7 +69762,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1613",
@@ -67894,7 +69804,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1614",
@@ -67939,7 +69850,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1616",
@@ -67984,7 +69896,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1617",
@@ -68027,7 +69940,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1618",
@@ -68067,7 +69981,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1619",
@@ -68108,7 +70023,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1620",
@@ -68151,7 +70067,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1621",
@@ -68196,7 +70113,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1622",
@@ -68236,7 +70154,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1623",
@@ -68282,7 +70201,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1624",
@@ -68328,7 +70248,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1625",
@@ -68371,7 +70292,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1626",
@@ -68413,7 +70335,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1627",
@@ -68458,7 +70381,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1628",
@@ -68503,7 +70427,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1629",
@@ -68549,7 +70474,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1630",
@@ -68591,7 +70517,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1631",
@@ -68634,7 +70561,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1632",
@@ -68678,7 +70606,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1633",
@@ -68719,7 +70648,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1634",
@@ -68766,7 +70696,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1635",
@@ -68811,7 +70742,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1636",
@@ -68856,7 +70788,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1637",
@@ -68901,7 +70834,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1638",
@@ -68946,7 +70880,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1639",
@@ -68992,7 +70927,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1640",
@@ -69036,7 +70972,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1641",
@@ -69082,7 +71019,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1642",
@@ -69129,7 +71067,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1643",
@@ -69173,7 +71112,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1644",
@@ -69219,7 +71159,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1645",
@@ -69265,7 +71206,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1646",
@@ -69310,7 +71252,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1647",
@@ -69356,7 +71299,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1648",
@@ -69397,7 +71341,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1649",
@@ -69442,7 +71387,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1650",
@@ -69485,7 +71431,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1651",
@@ -69528,7 +71475,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1652",
@@ -69574,7 +71522,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1653",
@@ -69616,7 +71565,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1654",
@@ -69661,7 +71611,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1655",
@@ -69705,7 +71656,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1656",
@@ -69750,7 +71702,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1657",
@@ -69795,7 +71748,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1658",
@@ -69840,7 +71794,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1659",
@@ -69881,7 +71836,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1660",
@@ -69925,7 +71881,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1661",
@@ -69970,7 +71927,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1662",
@@ -70013,7 +71971,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1663",
@@ -70054,7 +72013,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1664",
@@ -70100,7 +72060,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1665",
@@ -70142,7 +72103,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1666",
@@ -70188,7 +72150,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1667",
@@ -70234,7 +72197,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1668",
@@ -70280,7 +72244,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1669",
@@ -70325,7 +72290,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1670",
@@ -70364,7 +72330,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1671",
@@ -70409,7 +72376,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1672",
@@ -70454,7 +72422,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1673",
@@ -70497,7 +72466,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1674",
@@ -70542,7 +72512,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1675",
@@ -70587,7 +72558,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1676",
@@ -70632,7 +72604,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1677",
@@ -70678,7 +72651,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1678",
@@ -70723,7 +72697,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1679",
@@ -70766,7 +72741,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1680",
@@ -70812,7 +72788,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1681",
@@ -70859,7 +72836,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1682",
@@ -70903,7 +72881,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1683",
@@ -70943,7 +72922,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1684",
@@ -70986,7 +72966,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1685",
@@ -71027,7 +73008,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1686",
@@ -71068,7 +73050,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1687",
@@ -71113,7 +73096,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1688",
@@ -71154,7 +73138,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1689",
@@ -71195,7 +73180,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1690",
@@ -71240,7 +73226,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1691",
@@ -71281,7 +73268,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1692",
@@ -71321,7 +73309,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1693",
@@ -71362,7 +73351,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1694",
@@ -71401,7 +73391,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1695",
@@ -71442,7 +73433,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1696",
@@ -71489,7 +73481,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1697",
@@ -71533,7 +73526,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1698",
@@ -71573,7 +73567,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1699",
@@ -71621,7 +73616,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1700",
@@ -71663,7 +73659,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1701",
@@ -71705,7 +73702,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1702",
@@ -71745,7 +73743,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1703",
@@ -71789,7 +73788,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1704",
@@ -71830,7 +73830,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1705",
@@ -71874,7 +73875,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1706",
@@ -71917,7 +73919,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1707",
@@ -71960,7 +73963,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1708",
@@ -72002,7 +74006,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1709",
@@ -72044,7 +74049,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1710",
@@ -72088,7 +74094,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1711",
@@ -72131,7 +74138,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1712",
@@ -72174,7 +74182,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1713",
@@ -72216,7 +74225,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1714",
@@ -72259,7 +74269,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1715",
@@ -72298,7 +74309,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1719",
@@ -72344,7 +74356,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1720",
@@ -72384,7 +74397,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1721",
@@ -72426,7 +74440,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1722",
@@ -72469,7 +74484,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1723",
@@ -72509,7 +74525,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1724",
@@ -72550,7 +74567,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1725",
@@ -72591,7 +74609,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1726",
@@ -72635,7 +74654,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1727",
@@ -72680,7 +74700,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1728",
@@ -72725,7 +74746,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1729",
@@ -72767,7 +74789,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1730",
@@ -72808,7 +74831,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1731",
@@ -72855,7 +74879,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1732",
@@ -72900,7 +74925,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1733",
@@ -72944,7 +74970,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1734",
@@ -72988,7 +75015,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1735",
@@ -73028,7 +75056,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1736",
@@ -73068,7 +75097,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1737",
@@ -73110,7 +75140,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1738",
@@ -73149,7 +75180,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1739",
@@ -73188,7 +75220,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1740",
@@ -73230,7 +75263,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1741",
@@ -73272,7 +75306,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1742",
@@ -73314,7 +75349,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1743",
@@ -73356,7 +75392,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1744",
@@ -73386,7 +75423,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1745",
@@ -73432,7 +75470,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1746",
@@ -73478,7 +75517,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1747",
@@ -73524,7 +75564,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1748",
@@ -73570,7 +75611,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1749",
@@ -73616,7 +75658,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1750",
@@ -73662,7 +75705,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1751",
@@ -73708,7 +75752,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1752",
@@ -73753,7 +75798,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1753",
@@ -73799,7 +75845,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1754",
@@ -73844,7 +75891,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1755",
@@ -73890,7 +75938,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1756",
@@ -73936,7 +75985,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1757",
@@ -73981,7 +76031,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1758",
@@ -74025,7 +76076,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1759",
@@ -74071,7 +76123,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1760",
@@ -74116,7 +76169,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1761",
@@ -74161,7 +76215,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1762",
@@ -74207,7 +76262,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1763",
@@ -74250,7 +76306,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1764",
@@ -74293,7 +76350,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1765",
@@ -74339,7 +76397,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1766",
@@ -74381,7 +76440,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1767",
@@ -74426,7 +76486,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1768",
@@ -74472,7 +76533,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1769",
@@ -74517,7 +76579,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1770",
@@ -74561,7 +76624,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1771",
@@ -74604,7 +76668,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1772",
@@ -74650,7 +76715,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1773",
@@ -74695,7 +76761,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1774",
@@ -74738,7 +76805,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1775",
@@ -74783,7 +76851,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1776",
@@ -74828,7 +76897,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1777",
@@ -74873,7 +76943,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1778",
@@ -74919,7 +76990,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1779",
@@ -74966,7 +77038,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1780",
@@ -75012,7 +77085,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1781",
@@ -75057,7 +77131,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1782",
@@ -75102,7 +77177,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1783",
@@ -75147,7 +77223,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1784",
@@ -75193,7 +77270,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1785",
@@ -75239,7 +77317,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1786",
@@ -75284,7 +77363,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1787",
@@ -75326,7 +77406,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1788",
@@ -75368,7 +77449,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1789",
@@ -75414,7 +77496,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1790",
@@ -75458,7 +77541,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1791",
@@ -75503,7 +77587,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1792",
@@ -75548,7 +77633,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1793",
@@ -75590,7 +77676,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1794",
@@ -75634,7 +77721,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1795",
@@ -75677,7 +77765,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1796",
@@ -75721,7 +77810,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1797",
@@ -75763,7 +77853,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1798",
@@ -75807,7 +77898,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1799",
@@ -75852,7 +77944,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1800",
@@ -75897,7 +77990,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1801",
@@ -75940,7 +78034,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1802",
@@ -75985,7 +78080,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1803",
@@ -76026,7 +78122,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1804",
@@ -76071,7 +78168,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1805",
@@ -76116,7 +78214,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1806",
@@ -76157,7 +78256,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1807",
@@ -76203,7 +78303,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1808",
@@ -76246,7 +78347,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1809",
@@ -76291,7 +78393,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1810",
@@ -76336,7 +78439,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1811",
@@ -76382,7 +78486,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1812",
@@ -76427,7 +78532,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1813",
@@ -76473,7 +78579,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1814",
@@ -76516,7 +78623,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1815",
@@ -76561,7 +78669,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1816",
@@ -76606,7 +78715,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1817",
@@ -76651,7 +78761,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1818",
@@ -76693,7 +78804,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1819",
@@ -76739,7 +78851,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1820",
@@ -76784,7 +78897,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1821",
@@ -76829,7 +78943,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1822",
@@ -76874,7 +78989,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1823",
@@ -76915,7 +79031,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1824",
@@ -76960,7 +79077,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1825",
@@ -77007,7 +79125,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1826",
@@ -77052,7 +79171,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1827",
@@ -77098,7 +79218,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1828",
@@ -77143,7 +79264,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1829",
@@ -77189,7 +79311,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1830",
@@ -77234,7 +79357,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1831",
@@ -77276,7 +79400,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1832",
@@ -77317,7 +79442,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1833",
@@ -77362,7 +79488,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1834",
@@ -77407,7 +79534,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1835",
@@ -77452,7 +79580,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1836",
@@ -77495,7 +79624,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1837",
@@ -77539,7 +79669,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1838",
@@ -77580,7 +79711,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1839",
@@ -77624,7 +79756,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1840",
@@ -77666,7 +79799,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1841",
@@ -77711,7 +79845,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1842",
@@ -77756,7 +79891,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1843",
@@ -77802,7 +79938,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1844",
@@ -77847,7 +79984,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1845",
@@ -77892,7 +80030,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1846",
@@ -77935,7 +80074,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1847",
@@ -77977,7 +80117,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1848",
@@ -78023,7 +80164,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1849",
@@ -78066,7 +80208,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1850",
@@ -78111,7 +80254,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1851",
@@ -78156,7 +80300,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1852",
@@ -78201,7 +80346,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1853",
@@ -78246,7 +80392,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1854",
@@ -78291,7 +80438,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1855",
@@ -78336,7 +80484,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1856",
@@ -78381,7 +80530,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1857",
@@ -78426,7 +80576,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1858",
@@ -78471,7 +80622,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1859",
@@ -78516,7 +80668,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1860",
@@ -78559,7 +80712,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1861",
@@ -78604,7 +80758,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1862",
@@ -78646,7 +80801,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1863",
@@ -78691,7 +80847,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1864",
@@ -78735,7 +80892,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1865",
@@ -78777,7 +80935,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1866",
@@ -78822,7 +80981,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1867",
@@ -78861,7 +81021,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1868",
@@ -78903,7 +81064,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1869",
@@ -78948,7 +81110,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1870",
@@ -78990,7 +81153,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1871",
@@ -79032,7 +81196,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1872",
@@ -79074,7 +81239,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1873",
@@ -79119,7 +81285,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1874",
@@ -79164,7 +81331,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1875",
@@ -79209,7 +81377,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1876",
@@ -79252,7 +81421,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1877",
@@ -79297,7 +81467,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1878",
@@ -79338,7 +81509,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1879",
@@ -79382,7 +81554,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1880",
@@ -79427,7 +81600,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1881",
@@ -79473,7 +81647,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1883",
@@ -79512,7 +81687,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1884",
@@ -79557,7 +81733,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1885",
@@ -79599,7 +81776,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1886",
@@ -79642,7 +81820,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1887",
@@ -79672,7 +81851,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1888",
@@ -79715,7 +81895,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1889",
@@ -79761,7 +81942,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1890",
@@ -79806,7 +81988,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1891",
@@ -79851,7 +82034,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1892",
@@ -79894,7 +82078,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1893",
@@ -79939,7 +82124,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1894",
@@ -79984,7 +82170,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1895",
@@ -80025,7 +82212,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1896",
@@ -80070,7 +82258,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1897",
@@ -80115,7 +82304,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1898",
@@ -80160,7 +82350,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1899",
@@ -80201,7 +82392,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1900",
@@ -80246,7 +82438,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1901",
@@ -80291,7 +82484,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1902",
@@ -80336,7 +82530,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1903",
@@ -80381,7 +82576,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1904",
@@ -80425,7 +82621,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1905",
@@ -80470,7 +82667,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1906",
@@ -80511,7 +82709,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1907",
@@ -80557,7 +82756,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1908",
@@ -80601,7 +82801,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1909",
@@ -80647,7 +82848,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1910",
@@ -80691,7 +82893,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1911",
@@ -80730,7 +82933,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1912",
@@ -80775,7 +82979,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1913",
@@ -80819,7 +83024,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1914",
@@ -80865,7 +83071,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1915",
@@ -80911,7 +83118,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1916",
@@ -80952,7 +83160,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1917",
@@ -80997,7 +83206,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1918",
@@ -81039,7 +83249,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1919",
@@ -81083,7 +83294,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1920",
@@ -81123,7 +83335,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1921",
@@ -81169,7 +83382,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1922",
@@ -81214,7 +83428,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1923",
@@ -81259,7 +83474,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1924",
@@ -81304,7 +83520,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1925",
@@ -81346,7 +83563,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1926",
@@ -81390,7 +83608,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1927",
@@ -81431,7 +83650,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1928",
@@ -81473,7 +83693,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1929",
@@ -81517,7 +83738,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1930",
@@ -81560,7 +83782,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1931",
@@ -81605,7 +83828,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1932",
@@ -81649,7 +83873,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1933",
@@ -81691,7 +83916,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1934",
@@ -81736,7 +83962,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1935",
@@ -81781,7 +84008,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1936",
@@ -81822,7 +84050,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1937",
@@ -81866,7 +84095,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1938",
@@ -81911,7 +84141,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1939",
@@ -81957,7 +84188,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1940",
@@ -82002,7 +84234,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1941",
@@ -82047,7 +84280,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1942",
@@ -82092,7 +84326,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1943",
@@ -82137,7 +84372,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1944",
@@ -82181,7 +84417,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1945",
@@ -82227,7 +84464,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1946",
@@ -82272,7 +84510,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1947",
@@ -82317,7 +84556,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1948",
@@ -82361,7 +84601,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1949",
@@ -82401,7 +84642,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1950",
@@ -82447,7 +84689,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1951",
@@ -82492,7 +84735,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1952",
@@ -82532,7 +84776,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1953",
@@ -82578,7 +84823,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1954",
@@ -82624,7 +84870,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1955",
@@ -82667,7 +84914,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1956",
@@ -82712,7 +84960,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1957",
@@ -82756,7 +85005,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1958",
@@ -82801,7 +85051,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1959",
@@ -82846,7 +85097,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1960",
@@ -82892,7 +85144,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1961",
@@ -82936,7 +85189,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1962",
@@ -82982,7 +85236,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1963",
@@ -83025,7 +85280,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1964",
@@ -83071,7 +85327,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1965",
@@ -83114,7 +85371,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1966",
@@ -83159,7 +85417,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1967",
@@ -83202,7 +85461,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1968",
@@ -83247,7 +85507,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1969",
@@ -83293,7 +85554,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1970",
@@ -83338,7 +85600,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P1971",
@@ -83383,7 +85646,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1972",
@@ -83425,7 +85689,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1973",
@@ -83471,7 +85736,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1974",
@@ -83514,7 +85780,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1976",
@@ -83559,7 +85826,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1977",
@@ -83605,7 +85873,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1978",
@@ -83650,7 +85919,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1979",
@@ -83695,7 +85965,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1980",
@@ -83738,7 +86009,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1981",
@@ -83784,7 +86056,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1982",
@@ -83829,7 +86102,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1983",
@@ -83871,7 +86145,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1984",
@@ -83916,7 +86191,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1985",
@@ -83961,7 +86237,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1986",
@@ -84003,7 +86280,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1987",
@@ -84048,7 +86326,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1988",
@@ -84088,7 +86367,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1989",
@@ -84131,7 +86411,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1990",
@@ -84174,7 +86455,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1991",
@@ -84218,7 +86500,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1992",
@@ -84261,7 +86544,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1993",
@@ -84306,7 +86590,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1994",
@@ -84351,7 +86636,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1995",
@@ -84390,7 +86676,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1996",
@@ -84430,7 +86717,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1997",
@@ -84471,7 +86759,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1998",
@@ -84515,7 +86804,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P1999",
@@ -84561,7 +86851,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2000",
@@ -84607,7 +86898,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2001",
@@ -84652,7 +86944,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2002",
@@ -84698,7 +86991,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2003",
@@ -84744,7 +87038,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2004",
@@ -84790,7 +87085,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2005",
@@ -84834,7 +87130,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2006",
@@ -84879,7 +87176,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2007",
@@ -84925,7 +87223,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2008",
@@ -84971,7 +87270,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2009",
@@ -85017,7 +87317,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2010",
@@ -85060,7 +87361,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2011",
@@ -85105,7 +87407,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2012",
@@ -85150,7 +87453,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2013",
@@ -85196,7 +87500,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2014",
@@ -85242,7 +87547,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2015",
@@ -85284,7 +87590,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2016",
@@ -85324,7 +87631,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2017",
@@ -85370,7 +87678,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2018",
@@ -85416,7 +87725,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2019",
@@ -85462,7 +87772,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2020",
@@ -85507,7 +87818,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2021",
@@ -85553,7 +87865,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2022",
@@ -85599,7 +87912,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2023",
@@ -85642,7 +87956,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2024",
@@ -85682,7 +87997,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2025",
@@ -85726,7 +88042,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2026",
@@ -85769,7 +88086,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2027",
@@ -85813,7 +88131,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2028",
@@ -85857,7 +88176,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2029",
@@ -85902,7 +88222,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2030",
@@ -85948,7 +88269,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2031",
@@ -85994,7 +88316,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2032",
@@ -86038,7 +88361,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2033",
@@ -86083,7 +88407,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2034",
@@ -86126,7 +88451,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2035",
@@ -86169,7 +88495,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2036",
@@ -86212,7 +88539,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2037",
@@ -86258,7 +88586,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2038",
@@ -86303,7 +88632,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2039",
@@ -86348,7 +88678,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2040",
@@ -86391,7 +88722,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2041",
@@ -86434,7 +88766,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2042",
@@ -86479,7 +88812,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2043",
@@ -86525,7 +88859,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2044",
@@ -86570,7 +88905,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2045",
@@ -86613,7 +88949,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2046",
@@ -86658,7 +88995,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2047",
@@ -86703,7 +89041,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2048",
@@ -86745,7 +89084,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2049",
@@ -86790,7 +89130,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2050",
@@ -86833,7 +89174,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2051",
@@ -86879,7 +89221,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2052",
@@ -86924,7 +89267,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2053",
@@ -86967,7 +89311,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2054",
@@ -87010,7 +89355,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2055",
@@ -87054,7 +89400,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2056",
@@ -87098,7 +89445,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2057",
@@ -87143,7 +89491,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2058",
@@ -87188,7 +89537,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2059",
@@ -87234,7 +89584,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2060",
@@ -87280,7 +89631,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2061",
@@ -87325,7 +89677,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2062",
@@ -87371,7 +89724,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2063",
@@ -87413,7 +89767,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2064",
@@ -87459,7 +89814,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2065",
@@ -87502,7 +89858,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2066",
@@ -87541,7 +89898,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2067",
@@ -87587,7 +89945,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2068",
@@ -87633,7 +89992,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2069",
@@ -87679,7 +90039,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2070",
@@ -87721,7 +90082,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2071",
@@ -87764,7 +90126,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2072",
@@ -87810,7 +90173,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2073",
@@ -87852,7 +90216,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2074",
@@ -87898,7 +90263,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2075",
@@ -87928,7 +90294,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2076",
@@ -87972,7 +90339,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2077",
@@ -88015,7 +90383,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2078",
@@ -88059,7 +90428,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2079",
@@ -88101,7 +90471,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2080",
@@ -88146,7 +90517,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2081",
@@ -88192,7 +90564,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2082",
@@ -88234,7 +90607,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2083",
@@ -88276,7 +90650,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2084",
@@ -88321,7 +90696,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2085",
@@ -88361,7 +90737,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2086",
@@ -88405,7 +90782,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2087",
@@ -88449,7 +90827,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2088",
@@ -88493,7 +90872,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2089",
@@ -88537,7 +90917,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2090",
@@ -88581,7 +90962,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2091",
@@ -88627,7 +91009,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2092",
@@ -88666,7 +91049,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2093",
@@ -88709,7 +91093,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2094",
@@ -88751,7 +91136,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2095",
@@ -88793,7 +91179,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2096",
@@ -88835,7 +91222,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2097",
@@ -88874,7 +91262,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2098",
@@ -88916,7 +91305,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2099",
@@ -88962,7 +91352,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2100",
@@ -89004,7 +91395,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2101",
@@ -89049,7 +91441,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2102",
@@ -89095,7 +91488,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2103",
@@ -89141,7 +91535,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2104",
@@ -89185,7 +91580,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2105",
@@ -89230,7 +91626,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2106",
@@ -89275,7 +91672,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2107",
@@ -89320,7 +91718,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2108",
@@ -89365,7 +91764,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2109",
@@ -89411,7 +91811,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2110",
@@ -89457,7 +91858,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2111",
@@ -89503,7 +91905,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2112",
@@ -89549,7 +91952,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2113",
@@ -89595,7 +91999,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2114",
@@ -89640,7 +92045,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2115",
@@ -89685,7 +92091,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2116",
@@ -89731,7 +92138,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2117",
@@ -89777,7 +92185,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2118",
@@ -89823,7 +92232,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2119",
@@ -89866,7 +92276,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2120",
@@ -89911,7 +92322,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2121",
@@ -89957,7 +92369,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2122",
@@ -90003,7 +92416,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2123",
@@ -90047,7 +92461,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2124",
@@ -90091,7 +92506,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2125",
@@ -90137,7 +92553,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2126",
@@ -90184,7 +92601,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2127",
@@ -90227,7 +92645,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2128",
@@ -90273,7 +92692,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2129",
@@ -90319,7 +92739,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2130",
@@ -90365,7 +92786,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2131",
@@ -90411,7 +92833,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2132",
@@ -90457,7 +92880,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2133",
@@ -90503,7 +92927,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2134",
@@ -90548,7 +92973,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2135",
@@ -90594,7 +93020,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2136",
@@ -90640,7 +93067,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2137",
@@ -90684,7 +93112,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2138",
@@ -90730,7 +93159,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2139",
@@ -90776,7 +93206,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2140",
@@ -90822,7 +93253,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2141",
@@ -90868,7 +93300,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2142",
@@ -90910,7 +93343,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2143",
@@ -90955,7 +93389,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2144",
@@ -91001,7 +93436,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2145",
@@ -91044,7 +93480,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2146",
@@ -91090,7 +93527,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2147",
@@ -91133,7 +93571,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2148",
@@ -91179,7 +93618,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2149",
@@ -91225,7 +93665,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2150",
@@ -91270,7 +93711,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2151",
@@ -91314,7 +93756,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2152",
@@ -91355,7 +93798,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2153",
@@ -91399,7 +93843,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2154",
@@ -91445,7 +93890,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2155",
@@ -91490,7 +93936,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2156",
@@ -91536,7 +93983,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2157",
@@ -91582,7 +94030,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2158",
@@ -91627,7 +94076,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2159",
@@ -91672,7 +94122,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2160",
@@ -91713,7 +94164,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2161",
@@ -91757,7 +94209,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2162",
@@ -91803,7 +94256,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2163",
@@ -91847,7 +94301,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2164",
@@ -91890,7 +94345,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2165",
@@ -91935,7 +94391,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2166",
@@ -91980,7 +94437,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2167",
@@ -92025,7 +94483,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2168",
@@ -92070,7 +94529,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2169",
@@ -92116,7 +94576,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2170",
@@ -92156,7 +94617,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2171",
@@ -92201,7 +94663,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2172",
@@ -92246,7 +94709,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2173",
@@ -92288,7 +94752,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2174",
@@ -92334,7 +94799,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2175",
@@ -92373,7 +94839,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2176",
@@ -92417,7 +94884,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2177",
@@ -92456,7 +94924,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2178",
@@ -92498,7 +94967,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2179",
@@ -92539,7 +95009,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2180",
@@ -92585,7 +95056,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2181",
@@ -92627,7 +95099,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2182",
@@ -92670,7 +95143,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2183",
@@ -92713,7 +95187,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2184",
@@ -92754,7 +95229,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2185",
@@ -92797,7 +95273,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2186",
@@ -92839,7 +95316,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2187",
@@ -92884,7 +95362,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2188",
@@ -92928,7 +95407,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2189",
@@ -92968,7 +95448,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2190",
@@ -93010,7 +95491,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2191",
@@ -93052,7 +95534,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2192",
@@ -93093,7 +95576,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2193",
@@ -93136,7 +95620,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2194",
@@ -93180,7 +95665,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2195",
@@ -93224,7 +95710,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2196",
@@ -93269,7 +95756,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2197",
@@ -93314,7 +95802,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2198",
@@ -93357,7 +95846,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2199",
@@ -93399,7 +95889,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2200",
@@ -93442,7 +95933,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2201",
@@ -93484,7 +95976,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2202",
@@ -93525,7 +96018,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2203",
@@ -93570,7 +96064,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2204",
@@ -93609,7 +96104,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2205",
@@ -93650,7 +96146,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2206",
@@ -93692,7 +96189,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2207",
@@ -93734,7 +96232,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2208",
@@ -93777,7 +96276,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2209",
@@ -93819,7 +96319,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2210",
@@ -93865,7 +96366,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2211",
@@ -93911,7 +96413,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2212",
@@ -93957,7 +96460,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2213",
@@ -94003,7 +96507,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2214",
@@ -94047,7 +96552,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2215",
@@ -94092,7 +96598,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2216",
@@ -94136,7 +96643,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2217",
@@ -94182,7 +96690,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2218",
@@ -94227,7 +96736,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2219",
@@ -94269,7 +96779,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2220",
@@ -94314,7 +96825,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2221",
@@ -94359,7 +96871,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2222",
@@ -94402,7 +96915,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2223",
@@ -94448,7 +96962,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2224",
@@ -94492,7 +97007,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2225",
@@ -94535,7 +97051,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2226",
@@ -94575,7 +97092,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2227",
@@ -94620,7 +97138,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2228",
@@ -94660,7 +97179,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2229",
@@ -94705,7 +97225,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2230",
@@ -94747,7 +97268,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2231",
@@ -94789,7 +97311,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2232",
@@ -94833,7 +97356,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2233",
@@ -94873,7 +97397,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2234",
@@ -94914,7 +97439,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2235",
@@ -94958,7 +97484,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2236",
@@ -94999,7 +97526,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2237",
@@ -95043,7 +97571,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2238",
@@ -95087,7 +97616,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2239",
@@ -95130,7 +97660,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2240",
@@ -95174,7 +97705,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2241",
@@ -95216,7 +97748,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2242",
@@ -95258,7 +97791,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2243",
@@ -95300,7 +97834,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2244",
@@ -95339,7 +97874,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2245",
@@ -95381,7 +97917,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2246",
@@ -95421,7 +97958,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2247",
@@ -95466,7 +98004,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2248",
@@ -95510,7 +98049,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2249",
@@ -95553,7 +98093,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2250",
@@ -95598,7 +98139,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2251",
@@ -95638,7 +98180,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2252",
@@ -95684,7 +98227,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2253",
@@ -95727,7 +98271,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2254",
@@ -95770,7 +98315,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2255",
@@ -95811,7 +98357,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2256",
@@ -95855,7 +98402,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2257",
@@ -95898,7 +98446,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2258",
@@ -95941,7 +98490,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2259",
@@ -95986,7 +98536,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2260",
@@ -96028,7 +98579,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2261",
@@ -96070,7 +98622,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2262",
@@ -96116,7 +98669,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2263",
@@ -96156,7 +98710,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2264",
@@ -96198,7 +98753,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2265",
@@ -96244,7 +98800,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2266",
@@ -96287,7 +98844,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2267",
@@ -96332,7 +98890,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2268",
@@ -96374,7 +98933,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2269",
@@ -96416,7 +98976,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2270",
@@ -96455,7 +99016,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2271",
@@ -96501,7 +99063,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2272",
@@ -96547,7 +99110,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2273",
@@ -96592,7 +99156,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2274",
@@ -96638,7 +99203,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2275",
@@ -96684,7 +99250,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2276",
@@ -96729,7 +99296,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2277",
@@ -96774,7 +99342,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2278",
@@ -96816,7 +99385,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2279",
@@ -96860,7 +99430,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2280",
@@ -96903,7 +99474,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2281",
@@ -96948,7 +99520,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2282",
@@ -96993,7 +99566,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2283",
@@ -97034,7 +99608,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2284",
@@ -97075,7 +99650,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2285",
@@ -97118,7 +99694,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2286",
@@ -97162,7 +99739,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2287",
@@ -97204,7 +99782,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2288",
@@ -97247,7 +99826,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2289",
@@ -97292,7 +99872,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2290",
@@ -97331,7 +99912,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2291",
@@ -97376,7 +99958,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2292",
@@ -97421,7 +100004,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2293",
@@ -97463,7 +100047,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2294",
@@ -97503,7 +100088,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2295",
@@ -97547,7 +100133,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2296",
@@ -97593,7 +100180,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2297",
@@ -97638,7 +100226,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2298",
@@ -97683,7 +100272,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2299",
@@ -97728,7 +100318,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2300",
@@ -97773,7 +100364,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2301",
@@ -97818,7 +100410,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2302",
@@ -97863,7 +100456,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2303",
@@ -97908,7 +100502,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2304",
@@ -97952,7 +100547,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2305",
@@ -97997,7 +100593,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2306",
@@ -98041,7 +100638,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2307",
@@ -98086,7 +100684,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2308",
@@ -98130,7 +100729,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2309",
@@ -98171,7 +100771,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2310",
@@ -98211,7 +100812,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2311",
@@ -98253,7 +100855,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2312",
@@ -98298,7 +100901,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2313",
@@ -98340,7 +100944,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2314",
@@ -98385,7 +100990,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2315",
@@ -98429,7 +101035,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2316",
@@ -98474,7 +101081,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2317",
@@ -98518,7 +101126,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2318",
@@ -98561,7 +101170,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2319",
@@ -98606,7 +101216,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2320",
@@ -98648,7 +101259,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2321",
@@ -98694,7 +101306,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2322",
@@ -98737,7 +101350,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2323",
@@ -98780,7 +101394,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2324",
@@ -98822,7 +101437,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2325",
@@ -98864,7 +101480,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2326",
@@ -98907,7 +101524,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2327",
@@ -98947,7 +101565,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2328",
@@ -98989,7 +101608,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2329",
@@ -99033,7 +101653,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2330",
@@ -99078,7 +101699,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2331",
@@ -99124,7 +101746,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2332",
@@ -99169,7 +101792,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2333",
@@ -99213,7 +101837,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2334",
@@ -99259,7 +101884,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2335",
@@ -99302,7 +101928,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2336",
@@ -99341,7 +101968,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2337",
@@ -99387,7 +102015,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2338",
@@ -99429,7 +102058,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2339",
@@ -99474,7 +102104,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2340",
@@ -99519,7 +102150,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2341",
@@ -99563,7 +102195,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2342",
@@ -99605,7 +102238,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2343",
@@ -99648,7 +102282,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2344",
@@ -99690,7 +102325,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2345",
@@ -99736,7 +102372,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2346",
@@ -99781,7 +102418,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2347",
@@ -99826,7 +102464,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2348",
@@ -99871,7 +102510,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2349",
@@ -99913,7 +102553,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2350",
@@ -99959,7 +102600,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 2,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2351",
@@ -100002,7 +102644,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2352",
@@ -100047,7 +102690,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2353",
@@ -100089,7 +102733,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2354",
@@ -100132,7 +102777,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2355",
@@ -100175,7 +102821,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2356",
@@ -100214,7 +102861,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2357",
@@ -100256,7 +102904,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2358",
@@ -100301,7 +102950,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2359",
@@ -100341,7 +102991,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2360",
@@ -100387,7 +103038,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2361",
@@ -100433,7 +103085,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2362",
@@ -100477,7 +103130,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2363",
@@ -100520,7 +103174,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2364",
@@ -100563,7 +103218,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2365",
@@ -100602,7 +103258,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2366",
@@ -100644,7 +103301,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2367",
@@ -100687,7 +103345,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2368",
@@ -100728,7 +103387,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2369",
@@ -100772,7 +103432,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2370",
@@ -100817,7 +103478,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2371",
@@ -100860,7 +103522,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2372",
@@ -100905,7 +103568,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2373",
@@ -100946,7 +103610,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2374",
@@ -100988,7 +103653,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2375",
@@ -101029,7 +103695,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2376",
@@ -101071,7 +103738,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2377",
@@ -101114,7 +103782,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2378",
@@ -101153,7 +103822,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2379",
@@ -101197,7 +103867,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2380",
@@ -101241,7 +103912,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2381",
@@ -101284,7 +103956,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2382",
@@ -101323,7 +103996,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2383",
@@ -101363,7 +104037,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2384",
@@ -101402,7 +104077,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2385",
@@ -101445,7 +104121,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2386",
@@ -101487,7 +104164,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2387",
@@ -101529,7 +104207,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2388",
@@ -101572,7 +104251,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2389",
@@ -101615,7 +104295,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2390",
@@ -101656,7 +104337,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2391",
@@ -101698,7 +104380,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2392",
@@ -101743,7 +104426,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2393",
@@ -101787,7 +104471,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2394",
@@ -101826,7 +104511,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2395",
@@ -101865,7 +104551,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2396",
@@ -101908,7 +104595,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2397",
@@ -101950,7 +104638,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2398",
@@ -101994,7 +104683,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2399",
@@ -102039,7 +104729,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2400",
@@ -102082,7 +104773,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2401",
@@ -102124,7 +104816,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2402",
@@ -102166,7 +104859,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2403",
@@ -102205,7 +104899,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2404",
@@ -102248,7 +104943,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2405",
@@ -102293,7 +104989,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2406",
@@ -102332,7 +105029,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2407",
@@ -102373,7 +105071,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2408",
@@ -102419,7 +105118,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2409",
@@ -102463,7 +105163,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2410",
@@ -102508,7 +105209,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2411",
@@ -102554,7 +105256,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2412",
@@ -102598,7 +105301,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2413",
@@ -102640,7 +105344,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2414",
@@ -102685,7 +105390,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2415",
@@ -102730,7 +105436,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2416",
@@ -102772,7 +105479,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2417",
@@ -102817,7 +105525,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2418",
@@ -102859,7 +105568,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2419",
@@ -102904,7 +105614,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2420",
@@ -102943,7 +105654,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2421",
@@ -102988,7 +105700,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2422",
@@ -103033,7 +105746,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2423",
@@ -103079,7 +105793,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2424",
@@ -103120,7 +105835,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2425",
@@ -103165,7 +105881,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2426",
@@ -103210,7 +105927,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2427",
@@ -103254,7 +105972,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2428",
@@ -103299,7 +106018,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2429",
@@ -103344,7 +106064,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2430",
@@ -103390,7 +106111,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2431",
@@ -103435,7 +106157,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2432",
@@ -103478,7 +106201,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2433",
@@ -103523,7 +106247,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2434",
@@ -103564,7 +106289,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2435",
@@ -103609,7 +106335,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2436",
@@ -103655,7 +106382,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2437",
@@ -103700,7 +106428,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2438",
@@ -103745,7 +106474,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2439",
@@ -103789,7 +106519,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2440",
@@ -103834,7 +106565,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2441",
@@ -103879,7 +106611,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2442",
@@ -103922,7 +106655,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2443",
@@ -103967,7 +106701,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2444",
@@ -104011,7 +106746,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2445",
@@ -104051,7 +106787,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2446",
@@ -104090,7 +106827,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2447",
@@ -104129,7 +106867,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2448",
@@ -104172,7 +106911,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2449",
@@ -104214,7 +106954,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2450",
@@ -104258,7 +106999,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2451",
@@ -104304,7 +107046,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2452",
@@ -104346,7 +107089,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2453",
@@ -104391,7 +107135,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2454",
@@ -104430,7 +107175,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2455",
@@ -104475,7 +107221,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2456",
@@ -104520,7 +107267,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2457",
@@ -104563,7 +107311,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2458",
@@ -104609,7 +107358,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2459",
@@ -104655,7 +107405,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2460",
@@ -104700,7 +107451,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2461",
@@ -104745,7 +107497,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2462",
@@ -104788,7 +107541,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2463",
@@ -104833,7 +107587,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2464",
@@ -104879,7 +107634,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2465",
@@ -104920,7 +107676,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2466",
@@ -104965,7 +107722,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2467",
@@ -105010,7 +107768,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2468",
@@ -105055,7 +107814,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2469",
@@ -105100,7 +107860,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2470",
@@ -105145,7 +107906,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2471",
@@ -105190,7 +107952,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2472",
@@ -105235,7 +107998,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2473",
@@ -105280,7 +108044,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2474",
@@ -105325,7 +108090,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2475",
@@ -105371,7 +108137,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2476",
@@ -105411,7 +108178,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2477",
@@ -105457,7 +108225,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2478",
@@ -105503,7 +108272,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2479",
@@ -105542,7 +108312,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2480",
@@ -105586,7 +108357,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2481",
@@ -105631,7 +108403,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2482",
@@ -105676,7 +108449,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2483",
@@ -105720,7 +108494,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2484",
@@ -105764,7 +108539,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2485",
@@ -105809,7 +108585,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2486",
@@ -105854,7 +108631,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2487",
@@ -105900,7 +108678,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2488",
@@ -105944,7 +108723,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2489",
@@ -105988,7 +108768,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2490",
@@ -106032,7 +108813,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2491",
@@ -106078,7 +108860,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2492",
@@ -106123,7 +108906,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2493",
@@ -106169,7 +108953,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2494",
@@ -106213,7 +108998,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2495",
@@ -106256,7 +109042,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2496",
@@ -106299,7 +109086,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2497",
@@ -106340,7 +109128,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2498",
@@ -106385,7 +109174,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2499",
@@ -106431,7 +109221,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2500",
@@ -106476,7 +109267,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2501",
@@ -106517,7 +109309,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2502",
@@ -106562,7 +109355,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2503",
@@ -106606,7 +109400,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2504",
@@ -106651,7 +109446,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2505",
@@ -106693,7 +109489,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2506",
@@ -106734,7 +109531,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2508",
@@ -106773,7 +109571,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2509",
@@ -106816,7 +109615,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2510",
@@ -106860,7 +109660,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2511",
@@ -106906,7 +109707,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2512",
@@ -106952,7 +109754,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2513",
@@ -106997,7 +109800,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2514",
@@ -107039,7 +109843,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2515",
@@ -107085,7 +109890,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2516",
@@ -107130,7 +109936,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2517",
@@ -107173,7 +109980,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2519",
@@ -107218,7 +110026,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2520",
@@ -107259,7 +110068,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2521",
@@ -107304,7 +110114,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2522",
@@ -107349,7 +110160,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2523",
@@ -107394,7 +110206,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2524",
@@ -107440,7 +110253,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2525",
@@ -107485,7 +110299,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2526",
@@ -107527,7 +110342,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2527",
@@ -107569,7 +110385,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2528",
@@ -107614,7 +110431,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2529",
@@ -107659,7 +110477,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2530",
@@ -107704,7 +110523,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2531",
@@ -107749,7 +110569,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2532",
@@ -107838,7 +110659,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 6,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2533",
@@ -107883,7 +110705,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2534",
@@ -107928,7 +110751,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2535",
@@ -107973,7 +110797,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2536",
@@ -108019,7 +110844,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2537",
@@ -108064,7 +110890,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2538",
@@ -108110,7 +110937,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2539",
@@ -108155,7 +110983,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2540",
@@ -108200,7 +111029,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2541",
@@ -108245,7 +111075,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2542",
@@ -108290,7 +111121,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2543",
@@ -108336,7 +111168,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2544",
@@ -108382,7 +111215,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2545",
@@ -108429,7 +111263,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2546",
@@ -108474,7 +111309,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2547",
@@ -108519,7 +111355,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2548",
@@ -108564,7 +111401,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2549",
@@ -108610,7 +111448,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2550",
@@ -108655,7 +111494,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2551",
@@ -108700,7 +111540,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2552",
@@ -108746,7 +111587,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2553",
@@ -108787,7 +111629,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2554",
@@ -108832,7 +111675,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2555",
@@ -108877,7 +111721,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2556",
@@ -108921,7 +111766,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2557",
@@ -108966,7 +111812,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2558",
@@ -109011,7 +111858,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2559",
@@ -109056,7 +111904,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2560",
@@ -109101,7 +111950,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2561",
@@ -109146,7 +111996,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2562",
@@ -109192,7 +112043,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2563",
@@ -109237,7 +112089,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2564",
@@ -109282,7 +112135,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2565",
@@ -109326,7 +112180,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2566",
@@ -109371,7 +112226,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2567",
@@ -109417,7 +112273,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2568",
@@ -109459,7 +112316,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2569",
@@ -109504,7 +112362,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2570",
@@ -109549,7 +112408,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2571",
@@ -109594,7 +112454,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2572",
@@ -109638,7 +112499,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2573",
@@ -109683,7 +112545,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2574",
@@ -109728,7 +112591,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2575",
@@ -109772,7 +112636,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2576",
@@ -109818,7 +112683,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2577",
@@ -109863,7 +112729,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2578",
@@ -109907,7 +112774,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2579",
@@ -109952,7 +112820,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2580",
@@ -109997,7 +112866,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2581",
@@ -110042,7 +112912,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2582",
@@ -110087,7 +112958,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2583",
@@ -110132,7 +113004,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2584",
@@ -110177,7 +113050,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2585",
@@ -110223,7 +113097,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2586",
@@ -110268,7 +113143,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2587",
@@ -110314,7 +113190,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2588",
@@ -110355,7 +113232,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2589",
@@ -110400,7 +113278,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2590",
@@ -110444,7 +113323,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2591",
@@ -110487,7 +113367,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2592",
@@ -110532,7 +113413,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2593",
@@ -110577,7 +113459,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2594",
@@ -110622,7 +113505,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2595",
@@ -110667,7 +113551,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2596",
@@ -110712,7 +113597,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2597",
@@ -110757,7 +113643,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2598",
@@ -110803,7 +113690,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2599",
@@ -110849,7 +113737,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2600",
@@ -110894,7 +113783,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2601",
@@ -110939,7 +113829,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2602",
@@ -110984,7 +113875,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2603",
@@ -111029,7 +113921,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2604",
@@ -111073,7 +113966,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2605",
@@ -111119,7 +114013,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2606",
@@ -111163,7 +114058,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2607",
@@ -111205,7 +114101,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2608",
@@ -111248,7 +114145,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2609",
@@ -111292,7 +114190,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2610",
@@ -111337,7 +114236,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2611",
@@ -111380,7 +114280,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2612",
@@ -111424,7 +114325,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2613",
@@ -111464,7 +114366,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2614",
@@ -111507,7 +114410,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2615",
@@ -111548,7 +114452,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2616",
@@ -111589,7 +114494,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2617",
@@ -111635,7 +114541,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2618",
@@ -111681,7 +114588,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2619",
@@ -111726,7 +114634,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2620",
@@ -111768,7 +114677,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2621",
@@ -111811,7 +114721,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2622",
@@ -111856,7 +114767,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2623",
@@ -111901,7 +114813,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2624",
@@ -111946,7 +114859,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2625",
@@ -111989,7 +114903,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2626",
@@ -112034,7 +114949,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2627",
@@ -112079,7 +114995,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2628",
@@ -112124,7 +115041,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2629",
@@ -112169,7 +115087,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2630",
@@ -112211,7 +115130,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2631",
@@ -112256,7 +115176,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2632",
@@ -112301,7 +115222,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2633",
@@ -112346,7 +115268,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2634",
@@ -112389,7 +115312,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2635",
@@ -112430,7 +115354,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2636",
@@ -112471,7 +115396,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2637",
@@ -112516,7 +115442,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2638",
@@ -112561,7 +115488,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2639",
@@ -112606,7 +115534,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2640",
@@ -112647,7 +115576,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2641",
@@ -112693,7 +115623,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2642",
@@ -112738,7 +115669,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2643",
@@ -112782,7 +115714,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2644",
@@ -112826,7 +115759,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2645",
@@ -112871,7 +115805,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2646",
@@ -112916,7 +115851,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2647",
@@ -112960,7 +115896,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2648",
@@ -113005,7 +115942,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2649",
@@ -113050,7 +115988,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2650",
@@ -113095,7 +116034,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2651",
@@ -113141,7 +116081,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2652",
@@ -113185,7 +116126,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2653",
@@ -113227,7 +116169,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2654",
@@ -113272,7 +116215,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2655",
@@ -113316,7 +116260,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2656",
@@ -113359,7 +116304,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2657",
@@ -113400,7 +116346,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2658",
@@ -113441,7 +116388,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2659",
@@ -113483,7 +116431,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2660",
@@ -113528,7 +116477,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2661",
@@ -113572,7 +116522,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2662",
@@ -113614,7 +116565,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2663",
@@ -113653,7 +116605,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2664",
@@ -113697,7 +116650,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2665",
@@ -113739,7 +116693,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2666",
@@ -113781,7 +116736,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2667",
@@ -113827,7 +116783,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2668",
@@ -113869,7 +116826,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2669",
@@ -113914,7 +116872,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2670",
@@ -113956,7 +116915,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2671",
@@ -113998,7 +116958,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2672",
@@ -114043,7 +117004,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2673",
@@ -114082,7 +117044,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2674",
@@ -114127,7 +117090,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2675",
@@ -114168,7 +117132,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2676",
@@ -114214,7 +117179,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2677",
@@ -114256,7 +117222,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2678",
@@ -114301,7 +117268,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2679",
@@ -114346,7 +117314,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2680",
@@ -114389,7 +117358,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2681",
@@ -114434,7 +117404,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2682",
@@ -114477,7 +117448,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2683",
@@ -114516,7 +117488,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2684",
@@ -114555,7 +117528,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2685",
@@ -114600,7 +117574,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2686",
@@ -114640,7 +117615,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2687",
@@ -114680,7 +117656,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2688",
@@ -114721,7 +117698,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2689",
@@ -114764,7 +117742,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2690",
@@ -114805,7 +117784,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2691",
@@ -114850,7 +117830,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2692",
@@ -114889,7 +117870,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2693",
@@ -114930,7 +117912,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2694",
@@ -114975,7 +117958,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2695",
@@ -115018,7 +118002,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2696",
@@ -115060,7 +118045,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2697",
@@ -115105,7 +118091,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2698",
@@ -115144,7 +118131,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2699",
@@ -115186,7 +118174,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2700",
@@ -115231,7 +118220,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2701",
@@ -115273,7 +118263,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2702",
@@ -115312,7 +118303,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2703",
@@ -115351,7 +118343,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2704",
@@ -115393,7 +118386,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2705",
@@ -115436,7 +118430,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2706",
@@ -115477,7 +118472,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2707",
@@ -115518,7 +118514,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2708",
@@ -115559,7 +118556,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2709",
@@ -115598,7 +118596,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2710",
@@ -115641,7 +118640,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2711",
@@ -115682,7 +118682,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2712",
@@ -115721,7 +118722,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2713",
@@ -115766,7 +118768,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2714",
@@ -115807,7 +118810,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2715",
@@ -115846,7 +118850,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2716",
@@ -115887,7 +118892,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2717",
@@ -115929,7 +118935,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2718",
@@ -115974,7 +118981,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2719",
@@ -116019,7 +119027,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2720",
@@ -116049,7 +119058,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2721",
@@ -116079,7 +119089,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2722",
@@ -116109,7 +119120,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2723",
@@ -116139,7 +119151,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2724",
@@ -116169,7 +119182,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2725",
@@ -116215,7 +119229,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2726",
@@ -116245,7 +119260,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2727",
@@ -116275,7 +119291,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2728",
@@ -116305,7 +119322,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2729",
@@ -116335,7 +119353,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2730",
@@ -116365,7 +119384,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2731",
@@ -116395,7 +119415,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2732",
@@ -116425,7 +119446,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2733",
@@ -116469,7 +119491,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 1
+      "postdoc_mentor_count": 1,
+      "pubs": {}
     },
     {
       "id": "P2734",
@@ -116499,7 +119522,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2735",
@@ -116529,7 +119553,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2736",
@@ -116568,7 +119593,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2737",
@@ -116611,7 +119637,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2738",
@@ -116650,7 +119677,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2739",
@@ -116695,7 +119723,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2740",
@@ -116739,7 +119768,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2741",
@@ -116781,7 +119811,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2742",
@@ -116821,7 +119852,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2743",
@@ -116863,7 +119895,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2744",
@@ -116903,7 +119936,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2745",
@@ -116948,7 +119982,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2746",
@@ -116990,7 +120025,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2747",
@@ -117031,7 +120067,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2748",
@@ -117072,7 +120109,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2749",
@@ -117116,7 +120154,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2750",
@@ -117159,7 +120198,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2751",
@@ -117201,7 +120241,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2752",
@@ -117247,7 +120288,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2753",
@@ -117288,7 +120330,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2754",
@@ -117333,7 +120376,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2755",
@@ -117379,7 +120423,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2756",
@@ -117421,7 +120466,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2757",
@@ -117466,7 +120512,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2758",
@@ -117496,7 +120543,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2759",
@@ -117526,7 +120574,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2760",
@@ -117556,7 +120605,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2761",
@@ -117602,7 +120652,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2762",
@@ -117632,7 +120683,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2763",
@@ -117662,7 +120714,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2764",
@@ -117692,7 +120745,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2765",
@@ -117722,7 +120776,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2766",
@@ -117768,7 +120823,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2767",
@@ -117814,7 +120870,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2768",
@@ -117844,7 +120901,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2769",
@@ -117886,7 +120944,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2770",
@@ -117916,7 +120975,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2771",
@@ -117946,7 +121006,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2772",
@@ -117976,7 +121037,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2773",
@@ -118006,7 +121068,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2774",
@@ -118050,7 +121113,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2775",
@@ -118080,7 +121144,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2776",
@@ -118110,7 +121175,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2777",
@@ -118140,7 +121206,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2778",
@@ -118170,7 +121237,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2779",
@@ -118200,7 +121268,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2780",
@@ -118230,7 +121299,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2781",
@@ -118275,7 +121345,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2782",
@@ -118316,7 +121387,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2783",
@@ -118346,7 +121418,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2784",
@@ -118376,7 +121449,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2785",
@@ -118420,7 +121494,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2786",
@@ -118450,7 +121525,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2787",
@@ -118495,7 +121571,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     },
     {
       "id": "P2788",
@@ -118525,7 +121602,8 @@ window.KOREA_BIO_MAP = {
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
-      "postdoc_mentor_count": 0
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [
@@ -205939,15 +209017,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0002",
-      "target": "P0018",
-      "type": "advisor_student",
-      "paper_count": 12,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0002",
       "target": "P0008",
       "type": "advisor_student",
       "paper_count": 41,
@@ -206109,6 +209178,69 @@ window.KOREA_BIO_MAP = {
       "last_year": 0
     },
     {
+      "source": "P0040",
+      "target": "P0913",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0040",
+      "target": "P0306",
+      "type": "advisor_student",
+      "paper_count": 1,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0040",
+      "target": "P0885",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0040",
+      "target": "P2748",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0056",
+      "target": "P0762",
+      "type": "advisor_student",
+      "paper_count": 7,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0066",
+      "target": "P2144",
+      "type": "advisor_student",
+      "paper_count": 8,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0066",
+      "target": "P2763",
+      "type": "postdoc_mentor",
+      "paper_count": 1,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
       "source": "P0066",
       "target": "P1033",
       "type": "postdoc_mentor",
@@ -206176,6 +209308,33 @@ window.KOREA_BIO_MAP = {
       "target": "P1152",
       "type": "advisor_student",
       "paper_count": 4,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0698",
+      "target": "P1043",
+      "type": "advisor_student",
+      "paper_count": 1,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0712",
+      "target": "P2781",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0712",
+      "target": "P2782",
+      "type": "advisor_student",
+      "paper_count": 0,
       "verified": "alumni_page",
       "strength": 0.0,
       "last_year": 0
@@ -206308,6 +209467,15 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0744",
+      "target": "P2730",
+      "type": "advisor_student",
+      "paper_count": 20,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0744",
       "target": "P2732",
       "type": "advisor_student",
       "paper_count": 20,
@@ -206316,10 +209484,19 @@ window.KOREA_BIO_MAP = {
       "last_year": 0
     },
     {
-      "source": "P0746",
-      "target": "P0374",
+      "source": "P0745",
+      "target": "P0650",
       "type": "advisor_student",
-      "paper_count": 18,
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0745",
+      "target": "P1011",
+      "type": "advisor_student",
+      "paper_count": 0,
       "verified": "alumni_page",
       "strength": 0.0,
       "last_year": 0
@@ -206453,7 +209630,7 @@ window.KOREA_BIO_MAP = {
     {
       "source": "P0746",
       "target": "P0408",
-      "type": "advisor_student",
+      "type": "postdoc_mentor",
       "paper_count": 0,
       "verified": "alumni_page",
       "strength": 0.0,
@@ -206473,15 +209650,6 @@ window.KOREA_BIO_MAP = {
       "target": "P0702",
       "type": "advisor_student",
       "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0746",
-      "target": "P0806",
-      "type": "advisor_student",
-      "paper_count": 23,
       "verified": "alumni_page",
       "strength": 0.0,
       "last_year": 0

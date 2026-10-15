@@ -1171,12 +1171,19 @@ class ProfessorIndex:
         for r in self.rows:
             if r.get("name_ko"):
                 self.by_ko.setdefault(r["name_ko"], []).append(r)
+        # Korean names of universities ('고려대학교' / '고려대') for positions written in Korean.
+        self.ko_names: dict[str, set[str]] = {}
+        for alias, en in korean_universities().items():
+            if re.search(r"[가-힣]", alias):
+                self.ko_names.setdefault(en, set()).update({alias, re.sub(r"학교$", "", alias)})
 
     def find(self, alum: dict, exclude: str) -> str:
         pos = alum.get("position", "").casefold()
 
         def uni_ok(r):
-            return any(t in pos for t in _uni_tokens(str(r.get("university", ""))))
+            uni = str(r.get("university", ""))
+            return (any(t in pos for t in _uni_tokens(uni))
+                    or any(k and k in pos for k in self.ko_names.get(uni, ())))
 
         # Someone who left the lab within the last two years and lists no faculty post cannot be
         # a professor yet: a same-name match is another person ('Master (2026 후기)').

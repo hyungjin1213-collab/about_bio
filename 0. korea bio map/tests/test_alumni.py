@@ -777,3 +777,15 @@ def test_alumni_given_by_hand(tmp_path, monkeypatch):
         ("integrated", None, "industry")]
     assert people[1]["name_ko"] == "김가람" and people[0]["name_ko"] == ""
     assert alumni.manual_records("P0002") == []
+
+
+def test_korean_university_in_position_links_alumnus(monkeypatch):
+    import pandas as pd
+    import alumni
+    monkeypatch.setattr(alumni, "korean_universities", lambda: {"korea university": "Korea University",
+                                                                  "고려대학교": "Korea University"})
+    index = alumni.ProfessorIndex(pd.DataFrame([{"professor_id": "P9001", "name_ko": "김가람", "name_en": "",
+                                                 "university": "Korea University"}]))
+    alum = {"name_ko": "김가람", "name_en": "", "degree": "phd", "end_year": 2012, "career": "faculty",
+            "position": "고려대 생명공학과 조교수"}
+    assert index.find(alum, "P0001") == "P9001"

@@ -2,6 +2,7 @@
 SNU_PHARM,Seoul National University,College of Pharmacy,https://snupharm.snu.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84/,generic_card,yes,official faculty page
 SNU_BIOMED,Seoul National University,Graduate School of Biomedical Sciences,http://biomed.snu.ac.kr/research-faculty/faculty,generic_card,yes,official faculty page
 SNU_BIOENG,Seoul National University,Bioengineering,https://bioeng.snu.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84-%EB%AA%A9%EB%A1%9D/,generic_card,yes,official faculty page
+SNU_CHEM,Seoul National University,화학부,https://chem.snu.ac.kr/research-faculty/faculty/fulltime,generic_card,yes,official faculty page; 사용자 요청 10/15 (바이오 연구 교수만 OpenAlex 기준으로 남음)
 YONSEI_PHARM,Yonsei University,College of Pharmacy,https://pharmacy.yonsei.ac.kr/pharmacy/intro/professor1.do,generic_card,yes,official faculty page
 YONSEI_MED,Yonsei University,College of Medicine,https://medicine.yonsei.ac.kr/medicine/about/professor/basic.do,generic_card,yes,official faculty page
 KU_PHARM,Korea University,College of Pharmacy,https://pharm.korea.ac.kr/faculty/8670/subview.do,generic_card,yes,official faculty page

@@ -150,9 +150,8 @@ def main() -> None:
     if args.command == "alumni-probe":
         from alumni import probe
         os.environ.setdefault("ALUMNI_PROBE_ALL_LINKS", "1")
-        os.environ.setdefault("ALUMNI_PROBE_URLS", "BIOENG=https://bioeng.snu.ac.kr/%EA%B5%90%EC%88%98%EC%A7%84-%EB%AA%A9%EB%A1%9D/,BIOENG=https://bioeng.snu.ac.kr/")
 
-        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "BIOENG").split(",") if x])
+        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "").split(",") if x])
         return
 
     if args.command == "alumni-refresh":

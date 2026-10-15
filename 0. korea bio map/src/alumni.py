@@ -1125,7 +1125,7 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
                 for p in people[:3]:
                     who = (p["name_ko"] or p["name_en"] or "?")[:1] + "**"
                     print(f"[alumni sample] {pid} {who} {p['degree']} {p['start_year']}-{p['end_year']} "
-                          f"{p['career']} | {p['position'][:40]}", flush=True)
+                          f"{p['career']} | {_mask_line(p['position'][:40])}", flush=True)
             summaries.append(summarize(pid, lab_url, pages, people))
             rel_rows.extend(alumni_relationships(pid, people, index, pages[0] if pages else lab_url))
             for row in new_faculty_rows(pid, people, index, pages[0] if pages else lab_url, unis):

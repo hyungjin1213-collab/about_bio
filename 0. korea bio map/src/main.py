@@ -150,8 +150,8 @@ def main() -> None:
     if args.command == "alumni-probe":
         from alumni import probe
         os.environ.setdefault("ALUMNI_PROBE_ALL_LINKS", "1")
-        os.environ.setdefault("ALUMNI_PROBE_EXTERNAL", "1")
-        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "P0717").split(",") if x])
+
+        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "P0698,P0745,P0724").split(",") if x])
         return
 
     if args.command == "alumni-refresh":

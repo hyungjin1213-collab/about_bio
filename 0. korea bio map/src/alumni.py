@@ -1315,6 +1315,15 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
             hints = sorted(set(re.findall(r"(?:admin-ajax|ajaxurl|wp-json|pageid|paged|[?&]page=|data-page|"
                                           r"mod=list|kboard|tab=|category=|cat=)[^\"'<>\s]{0,60}", html)))
             print(f"[probe]   paging hints: {[h for h in hints if not re.search(r'[가-힣]', h)][:25]}", flush=True)
+            soup = BeautifulSoup(html, "html.parser")
+            for inp in soup.select("input[name], [data-filter-id] input, [data-filter-id] option")[:40]:
+                label = inp.find_parent("label")
+                print(f"[probe]   input: name={inp.get('name')} value={inp.get('value')} "
+                      f"label={_mask_line(_clean(label.get_text(' ')) if label else '')[:30]}", flush=True)
+            for mt in re.finditer(r"alumni|졸업생", html, re.I):
+                snippet = re.sub(r"\s+", " ", html[max(0, mt.start() - 200): mt.start() + 120])
+                if re.search(r"onclick|href|location|\.asp|\.php|\.html?", snippet, re.I):
+                    print(f"[probe]   menu near alumni: {_mask_line(snippet)}", flush=True)
             for key in ("member_tax", "var_page", "board_mode"):
                 for mt in re.finditer(key, html):
                     snippet = re.sub(r"\s+", " ", html[max(0, mt.start() - 150): mt.start() + 250])

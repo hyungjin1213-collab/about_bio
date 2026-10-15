@@ -1363,7 +1363,7 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                       f"fields={[i.get('name') for i in frm.find_all(['input', 'select', 'option'])][:15]}", flush=True)
             if os.getenv("ALUMNI_PROBE_ALL_LINKS"):
                 for t, u in dict.fromkeys(_links(html, url)):
-                    if urlparse(u).netloc == urlparse(url).netloc:
+                    if urlparse(u).netloc == urlparse(url).netloc or os.getenv("ALUMNI_PROBE_EXTERNAL"):
                         print(f"[probe]   link: {_mask_line(t[:30])} -> {unquote(u)[:120]}", flush=True)
             for whole in (True, False):
                 people = parse_alumni(html, whole_page=whole)

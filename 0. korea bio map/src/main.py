@@ -154,7 +154,7 @@ def main() -> None:
         os.environ.setdefault("ALUMNI_PROBE_ALL_LINKS", "1")
         os.environ.setdefault("ALUMNI_PROBE_FACULTY", "1")
 
-        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "P0902").split(",") if x])
+        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "P0897,P0900").split(",") if x])
         # OpenAlex profiles that may belong to one professor (split profiles).
         for name in filter(None, os.getenv("OPENALEX_PROBE_NAMES", "").split(",")):
             data = client._get("authors", {"search": name, "per-page": 15,
@@ -163,8 +163,31 @@ def main() -> None:
                 inst = "; ".join(i.get("display_name", "") for i in a.get("last_known_institutions") or [])
                 print(f"[openalex-probe] {name}: {a['id'].split('/')[-1]} {a['display_name']} works={a['works_count']} "
                       f"cited={a['cited_by_count']} orcid={a.get('orcid') or ''} inst={inst}", flush=True)
+        # Why hand-entered professors found no OpenAlex profile: the matcher's pick and the checks.
+        resolve_ids = [x for x in os.getenv("OPENALEX_RESOLVE_PROBE", "P0886,P0887,P0888,P0889,P0891,P0892,P0893,P0894,P0897,P0900,P0901").split(",") if x]
+        if resolve_ids:
+            from faculty_identity_v2 import _best_openalex, _bio_share
+            from pipeline import _read_csv, DATA_DIR as PDATA
+            seed = _read_csv(PDATA / "professors_seed.csv")
+            for _, row in seed[seed["professor_id"].isin(resolve_ids)].iterrows():
+                match, why = _best_openalex(client, row["name_ko"], row["name_en"], row["university"], row["name_en"])
+                if match:
+                    inst = "; ".join(i.get("display_name", "") for i in match.get("last_known_institutions") or [])
+                    print(f"[resolve-probe] {row['professor_id']} {row['name_en']}: {match.get('id','').split('/')[-1]} "
+                          f"{match.get('display_name')} works={match.get('works_count')} inst={inst} "
+                          f"bio={_bio_share(match):.2f} why={why}", flush=True)
+                else:
+                    print(f"[resolve-probe] {row['professor_id']} {row['name_en']}: none - {why}", flush=True)
+                for name in {row["name_en"], row["name_en"].replace("-", "").title()}:
+                    data = client._get("authors", {"search": name, "per-page": 6,
+                                                   "select": "id,display_name,works_count,last_known_institutions,topics"})
+                    for a in data.get("results") or []:
+                        inst = "; ".join(i.get("display_name", "") for i in a.get("last_known_institutions") or [])
+                        top = ", ".join(t.get("display_name", "") for t in (a.get("topics") or [])[:2])
+                        print(f"[resolve-probe]   {name}: {a['id'].split('/')[-1]} {a['display_name']} "
+                              f"works={a['works_count']} inst={inst} topics={top}", flush=True)
         # What an OpenAlex profile is about: topics, institutions, a few recent titles.
-        for aid in filter(None, os.getenv("OPENALEX_PROBE_AUTHORS", "A5085581446,A5037484762,A5104074670").split(",")):
+        for aid in filter(None, os.getenv("OPENALEX_PROBE_AUTHORS", "").split(",")):
             a = client._get(f"authors/{aid}", {"select": "id,display_name,works_count,topics,affiliations"})
             topics = ", ".join(t.get("display_name", "") for t in (a.get("topics") or [])[:5])
             insts = "; ".join(f"{x['institution']['display_name']} {min(x.get('years') or [0])}-{max(x.get('years') or [0])}"

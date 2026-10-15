@@ -1353,6 +1353,11 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
                               flush=True)
             for mt in re.finditer(r"function\s+sub_menu\w*\s*\(", html):
                 print(f"[probe]   script: {re.sub(chr(92)+'s+', ' ', html[mt.start(): mt.start() + 700])}", flush=True)
+            if os.getenv("ALUMNI_PROBE_EXTERNAL"):
+                calls = sorted(set(re.findall(r"(?:fn_\w+|go\w*|view\w*)\s*\(\s*['\"]?[\w\-]{1,40}['\"]?(?:\s*,\s*['\"]?[\w\-]{0,40}['\"]?)*\s*\)", html)))
+                print(f"[probe]   js calls: {calls[:40]}", flush=True)
+                for mt in re.finditer(r"view\.do|detail\.do|homepage|홈페이지", html):
+                    print(f"[probe]   around {mt.group(0)}: {_mask_line(re.sub(chr(92) + 's+', ' ', html[max(0, mt.start() - 200): mt.start() + 200]))}", flush=True)
             for key in ("member_tax", "var_page", "board_mode"):
                 for mt in re.finditer(key, html):
                     snippet = re.sub(r"\s+", " ", html[max(0, mt.start() - 150): mt.start() + 250])

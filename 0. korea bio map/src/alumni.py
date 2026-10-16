@@ -1363,7 +1363,7 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
 
 
     extra: dict[str, list[str]] = {}
-    for item in filter(None, os.getenv("ALUMNI_PROBE_URLS", "").split(",")):
+    for item in filter(None, os.getenv("ALUMNI_PROBE_URLS", "SKKUP=https://professor.skku.edu/researcher/professorList.do?mode=list&jojikCode1=3146&categoryId=U").split(",")):
         pid, _, url = item.partition("=")
         extra.setdefault(pid, []).append(url)
     professors = _read(OUTPUT_DIR / "professors_enriched.csv")
@@ -1410,6 +1410,14 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
             except requests.RequestException as exc:
                 status, size, html = type(exc).__name__, 0, ""
             print(f"[probe] {url} robots_ok={allowed} status={status} bytes={size}", flush=True)
+            # Raw-HTML snippets for a pattern (department codes, select options): public page structure.
+            if os.getenv("ALUMNI_PROBE_GREP") and html:
+                shown = set()
+                for m in re.finditer(os.environ["ALUMNI_PROBE_GREP"], html):
+                    snip = re.sub(r"\s+", " ", html[max(0, m.start() - 60):m.end() + 80])
+                    if snip not in shown and len(shown) < 80:
+                        shown.add(snip)
+                        print(f"[probe]   grep: {snip}", flush=True)
             if not html:
                 continue
             if "wp-json" in html and os.getenv("ALUMNI_PROBE_ALL_LINKS"):

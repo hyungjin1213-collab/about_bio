@@ -152,7 +152,7 @@ def main() -> None:
     if args.command == "alumni-probe":
         from alumni import probe
         os.environ.setdefault("ALUMNI_PROBE_ALL_LINKS", "")
-        os.environ.setdefault("ALUMNI_PROBE_GREP", r"이연종|정성권")
+        os.environ.setdefault("ALUMNI_PROBE_GREP", "")
         os.environ.setdefault("ALUMNI_PROBE_FACULTY", "")
         os.environ.setdefault("ALUMNI_PROBE_FACULTY", "1")
 

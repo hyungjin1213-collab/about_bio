@@ -1410,6 +1410,12 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
             except requests.RequestException as exc:
                 status, size, html = type(exc).__name__, 0, ""
             print(f"[probe] {url} robots_ok={allowed} status={status} bytes={size}", flush=True)
+            # SKKU professor directory: one hidden record per professor (public staff directory).
+            if "professor.skku.edu" in url and html:
+                for rec in re.findall(r'value="\{perId=(.*?)\}"\s*/?>', html, re.S):
+                    f = dict(re.findall(r"(korName|engName|preJikgubNm|dtJojikNm|urlHome|labUrl|labNm)=([^,]*)", rec))
+                    print(f"[probe]   skku: {f.get('korName','')}|{f.get('engName','').strip()}|{f.get('preJikgubNm','')}|"
+                          f"{f.get('dtJojikNm','')}|{f.get('urlHome','')}|{f.get('labUrl','')}|{f.get('labNm','')}", flush=True)
             # Raw-HTML snippets for a pattern (department codes, select options): public page structure.
             if os.getenv("ALUMNI_PROBE_GREP") and html:
                 shown = set()

@@ -805,3 +805,26 @@ def test_name_only_match_needs_a_possible_faculty_career():
             "end_year": None}
     assert index.find(alum, exclude="P9") == ""
     assert index.find({**alum, "career": "faculty", "position": "Professor"}, exclude="P9") == "P1"
+
+
+def test_gap_order_skips_professors_without_homepage(monkeypatch, tmp_path):
+    import alumni
+    prof = pd.DataFrame([
+        {"professor_id": "P1", "name_ko": "가", "source_url": "https://lab.example/", "orcid": ""},
+        {"professor_id": "P2", "name_ko": "나", "source_url": "", "orcid": ""},
+    ])
+    seen = []
+    monkeypatch.setattr(alumni, "OUTPUT_DIR", tmp_path)
+    monkeypatch.setattr(alumni, "SITES_PATH", tmp_path / "lab_sites.csv")
+    monkeypatch.setattr(alumni, "SUMMARY_PATH", tmp_path / "summary.csv")
+    monkeypatch.setattr(alumni, "ALUMNI_REL_PATH", tmp_path / "rel.csv")
+    monkeypatch.setattr(alumni, "PEOPLE_DIR", tmp_path)
+    monkeypatch.setattr(alumni, "MANUAL_PATH", tmp_path / "manual.csv")
+    monkeypatch.setattr(alumni, "ensure_manual_file", lambda: None)
+    monkeypatch.setattr(alumni, "_read", lambda path, cols=None: prof if "professors" in str(path) or path == alumni.OUTPUT_DIR / "professors_enriched.csv" else pd.DataFrame(columns=cols or []))
+    monkeypatch.setattr(alumni, "find_alumni", lambda fetch, url, manual, orcid: (seen.append(url) or ("", [], [])))
+    monkeypatch.setattr(alumni, "ProfessorIndex", lambda p: None)
+    class Fetch:
+        count = 0
+    alumni.collect_alumni(client=object(), fetch=Fetch(), limit=10)
+    assert seen == ["https://lab.example/"]

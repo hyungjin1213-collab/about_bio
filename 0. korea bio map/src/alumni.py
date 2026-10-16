@@ -1055,7 +1055,9 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
         hand_ids = {f.stem for f in RECORDS_DIR.glob("*.csv")} if RECORDS_DIR.exists() else set()
         order = [p for p in professors["professor_id"] if p in site_of or p in manual or p in hand_ids]
     else:
-        order = sorted(professors["professor_id"], key=due)
+        # No homepage on record (and none entered by hand): nothing to search, skip it.
+        has_site = {r["professor_id"] for _, r in professors.iterrows() if str(r.get("source_url", "")).strip()}
+        order = sorted((p for p in professors["professor_id"] if p in has_site or p in manual), key=due)
         order = [p for p in order if due(p)[0] < 9][:limit]
     rows = professors.set_index("professor_id")
     summaries, site_rows, people_rows = [], [], []

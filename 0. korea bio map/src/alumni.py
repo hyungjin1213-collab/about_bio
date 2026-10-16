@@ -1363,7 +1363,7 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
 
 
     extra: dict[str, list[str]] = {}
-    for item in filter(None, os.getenv("ALUMNI_PROBE_URLS", "SKKUP=https://professor.skku.edu/researcher/professorList.do?mode=list&jojikCode1=3146&categoryId=U").split(",")):
+    for item in filter(None, os.getenv("ALUMNI_PROBE_URLS", "").split(",")):
         pid, _, url = item.partition("=")
         extra.setdefault(pid, []).append(url)
     professors = _read(OUTPUT_DIR / "professors_enriched.csv")

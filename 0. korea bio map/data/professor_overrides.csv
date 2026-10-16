@@ -24,3 +24,32 @@ P0897,openalex_id,A5025236447;A5111719533,"정광철: OpenAlex Kwang Chul Chung 
 P0900,openalex_id,A5103032803,"조현수: OpenAlex Hyun-Soo Cho (Yonsei; 효소 구조생물학, 130편) — structure.yonsei.ac.kr 구조생물학 연구실과 일치. 동명이인(후성유전학, KRIBB)과 구분"
 P0886,openalex_id,A5032912881,"김응빈: OpenAlex Eungbin Kim (미생물학, 108편). 현 소속 미기재로 자동 매칭 보류됐던 것"
 P0887,openalex_id,A5029037764,"김지현: OpenAlex Jihyun F. Kim (Yonsei; 미생물 유전체, 168편). 연세대 동명이인 7명이라 자동 매칭 보류됐던 것"
+P2795,openalex_id,A5051796736;A5113677364;A5101752529;A5108656398,전누리: Noo Li Jeon (SNU; 미세유체·3D 바이오프린팅) 본 프로필 + 같은 주제의 분할 프로필 3개 — 10/16 후보 대조로 확인
+P2798,openalex_id,A5053461530,이남기: Nam Ki Lee (SNU 화학; 단분자 형광·DNA). 동명이인 치과의사(분당서울대병원)와 구분 — 10/16 후보 대조로 확인
+P2799,openalex_id,A5057631043,김교범: Kyobum Kim (Dongguk; 약물전달·조직공학) — 10/16 후보 대조로 확인
+P2800,openalex_id,A5014715024,박천권: Chun Gwon Park (SKKU/KIST; 나노 약물전달) — 10/16 후보 대조로 확인
+P2801,openalex_id,A5078263456,임용택: Yong Taik Lim (SKKU; 면역치료 나노플랫폼) — 10/16 후보 대조로 확인
+P2802,openalex_id,A5082059052,강승균: Seung-Kyun Kang (SNU; 생분해 전자소자·신경공학) — 10/16 후보 대조로 확인
+P2805,openalex_id,A5006823975,고승환: Seung Hwan Ko (SNU 기계; 나노소재·센서) — 10/16 후보 대조로 확인
+P2808,openalex_id,A5043035019,김도년: Do-Nyun Kim (SNU 기계; DNA 나노기술) — 10/16 후보 대조로 확인
+P2810,openalex_id,A5100602545,김성완: Sungwan Kim (SNU 의공학; AI 진단·수술 시뮬레이션) — 10/16 후보 대조로 확인
+P2816,openalex_id,A5008207521,박지웅: Ji-Ung Park (SNU 성형외과; 창상치유) — 10/16 후보 대조로 확인
+P2819,openalex_id,A5018334271;A5110199308,서종모: Jong-Mo Seo (SNU; 인공망막·신경공학) + 분할 프로필 — 10/16 후보 대조로 확인
+P2820,openalex_id,A5031810296,신상도: Sang Do Shin (SNU 응급의학) — 10/16 후보 대조로 확인
+P2823,openalex_id,A5043881451,오세일: Seil Oh (SNU 순환기내과; 부정맥) — 10/16 후보 대조로 확인
+P2824,openalex_id,A5080473137,윤형진: Hyung-Jin Yoon (SNU 의료정보·의공학) — 10/16 후보 대조로 확인
+P2827,openalex_id,A5100436257,이동헌: Dongheon Lee (SNU 의공학; 의료 AI). 동명이인 피부과 교수와 구분 — 10/16 후보 대조로 확인
+P2834,openalex_id,A5101588373,이창한: Chang-Han Lee (SNU; 항체공학) — 10/16 후보 대조로 확인
+P2836,openalex_id,A5010059664,임재영: Jae-Young Lim (SNU 재활의학; 노화·근육) — 10/16 후보 대조로 확인
+P2837,openalex_id,A5010569234,정기영: Ki-Young Jung (SNU 신경과; 수면) — 10/16 후보 대조로 확인
+P2839,openalex_id,A5062631070,조규진: Kyu-Jin Cho (SNU 기계; 소프트 로보틱스) — 10/16 후보 대조로 확인
+P2840,openalex_id,A5067997284;A5112583183;A5112148531,최승홍: Seung Hong Choi (SNU 영상의학; 뇌종양 MRI) + 분할 프로필 — 10/16 후보 대조로 확인
+P2843,openalex_id,A5038980483,허찬영: Chan Yeong Heo (SNU 성형외과) — 10/16 후보 대조로 확인
+P2850,openalex_id,A5005529930,이수홍: Soo-Hong Lee (Dongguk 의생명공학; 줄기세포·골조직공학) — 10/16 후보 대조로 확인
+P2858,openalex_id,A5046604727;A5110480161,신한승: Han-Seung Shin (Dongguk 식품생명공학; 식품 안전·유해물질) + 분할 프로필 — 10/16 후보 대조로 확인
+P2859,openalex_id,A5048932823;A5110086639,강석성: Seok-Seong Kang (Dongguk 식품생명공학; 프로바이오틱스·면역) + 분할 프로필 — 10/16 후보 대조로 확인
+P2867,openalex_id,A5069225505;A5112424032;A5054951893,김법민: Beop-Min Kim (KU 바이오의공학; 광학 영상) + 분할 프로필 — 10/16 후보 대조로 확인
+P2869,openalex_id,A5087524905,염정열: Jung-Yeol Yeom (KU 바이오의공학; 방사선 검출·PET) — 10/16 후보 대조로 확인
+P2871,openalex_id,A5074254878,윤대성: Dae Sung Yoon (KU 바이오의공학; 바이오센서) — 10/16 후보 대조로 확인
+P2874,openalex_id,A5070167945,이기성: Kisung Lee (KU 바이오의공학; 의료영상·방사선 검출) — 10/16 후보 대조로 확인
+P2877,openalex_id,A5050665604,정호상: Ho Sang Jung (KU/KIMS; 나노입자 바이오센싱) — 10/16 후보 대조로 확인

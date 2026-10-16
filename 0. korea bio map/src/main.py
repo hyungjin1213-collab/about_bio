@@ -164,7 +164,7 @@ def main() -> None:
                 print(f"[openalex-probe] {name}: {a['id'].split('/')[-1]} {a['display_name']} works={a['works_count']} "
                       f"cited={a['cited_by_count']} orcid={a.get('orcid') or ''} inst={inst}", flush=True)
         # Why hand-entered professors found no OpenAlex profile: the matcher's pick and the checks.
-        resolve_ids = [x for x in os.getenv("OPENALEX_RESOLVE_PROBE", "P2795,P2796,P2798,P2799,P2800,P2801,P2802,P2803,P2804,P2805,P2806,P2808,P2809,P2810,P2811,P2815,P2816,P2818,P2819,P2820,P2821,P2822,P2823,P2824,P2826,P2827,P2828,P2829,P2832,P2834,P2836,P2837,P2838,P2839,P2840,P2841,P2842,P2843,P2846,P2849,P2850,P2853,P2856,P2857,P2858,P2859,P2860,P2862,P2863,P2865,P2866,P2867,P2869,P2871,P2872,P2874,P2875,P2876,P2877,P2878,P2880").split(",") if x]
+        resolve_ids = [x for x in os.getenv("OPENALEX_RESOLVE_PROBE", "").split(",") if x]
         if resolve_ids:
             # The matcher's candidates for professors it could not settle: name-compatible
             # OpenAlex authors with institution fit, size, bio share and main topics.

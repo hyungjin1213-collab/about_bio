@@ -1373,7 +1373,7 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
 
 
     extra: dict[str, list[str]] = {}
-    for item in filter(None, os.getenv("ALUMNI_PROBE_URLS", "SOGV8=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=8,SOGV9=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=9,SOGV11=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=11,SOGV12=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=12,SOGV13=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=13,SOGV15=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=15,SOGV16=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=16,SOGV18=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=18,SOGV19=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=19,SOGV26=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=26,SOGV31=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=31,SOGV41=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=41,SOGV42=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=42,SOGV43=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=43,SOGV44=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=44,SOGV46=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=46,SOGV52=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=52,SOGV54=https://chemeng.sogang.ac.kr/kor/sub/02_01_view.php?idx=54").split(",")):
+    for item in filter(None, os.getenv("ALUMNI_PROBE_URLS", "").split(",")):
         pid, _, url = item.partition("=")
         extra.setdefault(pid, []).append(url)
     professors = _read(OUTPUT_DIR / "professors_enriched.csv")

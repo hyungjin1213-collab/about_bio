@@ -1413,8 +1413,8 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
             # Raw-HTML snippets for a pattern (department codes, select options): public page structure.
             if os.getenv("ALUMNI_PROBE_GREP") and html:
                 shown = set()
-                for m in re.finditer(os.environ["ALUMNI_PROBE_GREP"], html):
-                    snip = re.sub(r"\s+", " ", html[max(0, m.start() - 60):m.end() + 80])
+                for hit in re.finditer(os.environ["ALUMNI_PROBE_GREP"], html):
+                    snip = re.sub(r"\s+", " ", html[max(0, hit.start() - 300):hit.end() + 500])
                     if snip not in shown and len(shown) < 80:
                         shown.add(snip)
                         print(f"[probe]   grep: {snip}", flush=True)

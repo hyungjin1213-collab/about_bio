@@ -292,6 +292,12 @@ def _best_openalex(
     if len(same_level) > 1:
         # Same name, same school: a bio professor vs. an engineer/chemist is
         # the most common case, so keep only mainly-bio authors.
+        # An ORCID iD is the strongest same-name signal: when exactly one of them has one, it is
+        # the professor's own profile (the others are other people or unlinked fragments).
+        with_orcid = [p for p in same_level if _orcid(p[3])]
+        if len(with_orcid) == 1:
+            current, ever, sim, best = with_orcid[0]
+            return best, f"name match {sim:.2f}; only same-name author with an ORCID iD at {university}"
         bio = [p for p in same_level if _bio_share(p[3]) >= MIN_BIO_SHARE]
         if len(bio) != 1:
             # One profile far larger than the rest: the others are mostly split-off fragments

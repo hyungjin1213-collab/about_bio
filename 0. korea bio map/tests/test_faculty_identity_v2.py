@@ -236,3 +236,12 @@ def test_same_name_same_school_dominant_profile_taken():
     ])
     best, reason = _best_openalex(client, "이남기", "Nam Ki Lee", "Seoul National University")
     assert best is None and reason.startswith("ambiguous")
+
+
+def test_same_name_only_author_with_orcid_taken():
+    client = FakeOpenAlex([
+        _author("A1", "Ji Hoon Lee", "Korea University", topics=ENG, works=40),
+        _author("A2", "Ji-Hoon Lee", "Korea University", topics=ENG, works=35, orcid="0000-0001-2345-6789"),
+    ])
+    best, reason = _best_openalex(client, "이지훈", "Ji Hoon Lee", "Korea University")
+    assert best["id"].endswith("A2") and "ORCID" in reason

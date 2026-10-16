@@ -134,3 +134,10 @@ def test_author_stats_add_up_split_profiles(tmp_path, monkeypatch):
     out = pipeline.collect_author_stats(Client(), pd.DataFrame([{"professor_id": "P1", "openalex_id": "A1;A2"}]))
     r = out.iloc[0]
     assert (r["papers"], r["citations"], r["h_index"], r["recent_papers"], r["recent_citations"]) == (85, 3944, 30, 7, 404)
+
+
+def test_removed_override_drops_professor():
+    from pipeline import apply_professor_overrides
+    profs = pd.DataFrame([{"professor_id": "P1", "name_ko": "가"}, {"professor_id": "P2", "name_ko": "나"}])
+    ov = pd.DataFrame([{"professor_id": "P1", "column": "removed", "value": "yes", "memo": "은퇴"}])
+    assert list(apply_professor_overrides(profs, ov)["professor_id"]) == ["P2"]

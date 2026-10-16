@@ -152,6 +152,11 @@ def apply_professor_overrides(professors: pd.DataFrame, overrides: pd.DataFrame)
     """Hand corrections (data/professor_overrides.csv: professor_id, column, value):
     re-applied every run so a collection never undoes them."""
     out = professors.copy()
+    # 'removed' rows take a professor off the map (retired, left academia) while the seed keeps
+    # the row, so collectors that skip known names do not add the person again.
+    removed = {o.get("professor_id") for _, o in overrides.iterrows()
+               if o.get("column") == "removed" and str(o.get("value", "")).strip().lower() in ("yes", "true", "1")}
+    out = out[~out["professor_id"].isin(removed)].copy()
     for _, o in overrides.iterrows():
         if o.get("column") in out.columns and o.get("column") != "professor_id":
             out.loc[out["professor_id"] == o.get("professor_id"), o["column"]] = o.get("value", "")

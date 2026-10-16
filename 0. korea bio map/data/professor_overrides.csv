@@ -53,3 +53,6 @@ P2869,openalex_id,A5087524905,염정열: Jung-Yeol Yeom (KU 바이오의공학; 
 P2871,openalex_id,A5074254878,윤대성: Dae Sung Yoon (KU 바이오의공학; 바이오센서) — 10/16 후보 대조로 확인
 P2874,openalex_id,A5070167945,이기성: Kisung Lee (KU 바이오의공학; 의료영상·방사선 검출) — 10/16 후보 대조로 확인
 P2877,openalex_id,A5050665604,정호상: Ho Sang Jung (KU/KIMS; 나노입자 바이오센싱) — 10/16 후보 대조로 확인
+P2875,name_en,Aram J. Chung,사용자 제보 (10/16): 정아람 = Aram Chung (aramchung.com)
+P2875,openalex_id,A5020717208,"OpenAlex Aram J. Chung (Korea University; 미세유체, 87편) — 이름 표기 Chung이라 자동 매칭 실패했던 것"
+P2875,orcid,0000-0003-4984-0222,OpenAlex 프로필의 ORCID

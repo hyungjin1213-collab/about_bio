@@ -1413,7 +1413,8 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
             # SKKU professor directory: one hidden record per professor (public staff directory).
             if "professor.skku.edu" in url and html:
                 for rec in re.findall(r'value="\{perId=(.*?)\}"\s*/?>', html, re.S):
-                    f = dict(re.findall(r"(korName|engName|preJikgubNm|dtJojikNm|urlHome|labUrl|labNm)=([^,]*)", rec))
+                    f = dict(re.findall(r"(korName|engName|preJikgubNm|dtJojikNm|urlHome|labUrl|labNm|preSapceNm|preCampusGb|preTelNo)=([^,]*)", rec))
+                    f["labNm"] = f"{f.get('labNm','')}|{f.get('preCampusGb','')}|{f.get('preSapceNm','')[:12]}|{f.get('preTelNo','')[:3]}"
                     print(f"[probe]   skku: {f.get('korName','')}|{f.get('engName','').strip()}|{f.get('preJikgubNm','')}|"
                           f"{f.get('dtJojikNm','')}|{f.get('urlHome','')}|{f.get('labUrl','')}|{f.get('labNm','')}", flush=True)
             # Raw-HTML snippets for a pattern (department codes, select options): public page structure.

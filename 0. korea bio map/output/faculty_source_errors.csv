@@ -1,4 +1,1 @@
 ﻿source_id,faculty_url,error
-AUTO_KS_0C91B0,http://kscms.ks.ac.kr/pharmacy/CMS/ProfessorMgr/list.do?mCode=MN023,"ConnectTimeout: HTTPConnectionPool(host='kscms.ks.ac.kr', port=80): Max retries exceeded with url: /pharmacy/CMS/ProfessorMgr/list.do?mCode=MN023 (Caused by ConnectTimeoutError(<HTTPConnection(host='kscms.ks.ac.kr', port=80) at 0x7fbffba095d0>, 'Connection to kscms.ks.ac.kr timed out. (connect timeout=12)'))"
-AUTO_CNU_4842EA,https://cals.cnu.ac.kr/cals/intro/professor/professor.do,"ReadTimeout: HTTPSConnectionPool(host='cals.cnu.ac.kr', port=443): Read timed out. (read timeout=12)"
-AUTO_JEJUNU_66F822,https://vetmed.jejunu.ac.kr/vetmedmain/professor.htm,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"

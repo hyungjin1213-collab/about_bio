@@ -151,9 +151,8 @@ def main() -> None:
 
     if args.command == "alumni-probe":
         from alumni import probe
-        os.environ.setdefault("ALUMNI_PROBE_ALL_LINKS", "")
+        os.environ.setdefault("ALUMNI_PROBE_ALL_LINKS", "1")
         os.environ.setdefault("ALUMNI_PROBE_GREP", "")
-        os.environ.setdefault("ALUMNI_PROBE_FACULTY", "")
         os.environ.setdefault("ALUMNI_PROBE_FACULTY", "1")
 
         probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "").split(",") if x])
@@ -198,7 +197,7 @@ def main() -> None:
                           flush=True)
         # What the 'recent works' of a profile are: counts by work type, last five years.
         from datetime import date as _date
-        for aid in filter(None, os.getenv("OPENALEX_STATS_PROBE", "A5003283147,A5086409096,A5101968025,A5010188705,A5091329617,A5023055777,A5073765158").split(",")):
+        for aid in filter(None, os.getenv("OPENALEX_STATS_PROBE", "").split(",")):
             since = _date.today().year - 4
             g = client._get("works", {"filter": f"authorships.author.id:{aid},publication_year:>{since - 1}",
                                       "group_by": "type"})

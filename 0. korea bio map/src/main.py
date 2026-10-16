@@ -196,6 +196,17 @@ def main() -> None:
                     print(f"[resolve-probe]   {a['id'].split('/')[-1]} {a['display_name']} works={works} "
                           f"{'CUR' if cur else ('PAST' if ever else '-')} bio={_bio_share(a):.2f} inst={inst} | {top}",
                           flush=True)
+        # What the 'recent works' of a profile are: counts by work type, last five years.
+        from datetime import date as _date
+        for aid in filter(None, os.getenv("OPENALEX_STATS_PROBE", "A5003283147,A5086409096,A5101968025,A5010188705,A5091329617,A5023055777,A5073765158").split(",")):
+            since = _date.today().year - 4
+            g = client._get("works", {"filter": f"authorships.author.id:{aid},publication_year:>{since - 1}",
+                                      "group_by": "type"})
+            types = ", ".join(f"{x.get('key_display_name')}={x.get('count')}" for x in g.get("group_by") or [])
+            a = client._get(f"authors/{aid}", {"select": "display_name,counts_by_year,last_known_institutions"})
+            cby = sum(y.get("works_count", 0) for y in a.get("counts_by_year") or [] if y.get("year", 0) >= since)
+            inst = "; ".join(i.get("display_name", "") for i in a.get("last_known_institutions") or [])[:60]
+            print(f"[stats-probe] {aid} {a.get('display_name')} ({inst}) counts_by_year={cby} | by type: {types}", flush=True)
         # What an OpenAlex profile is about: topics, institutions, a few recent titles.
         for aid in filter(None, os.getenv("OPENALEX_PROBE_AUTHORS", "").split(",")):
             a = client._get(f"authors/{aid}", {"select": "id,display_name,works_count,topics,affiliations"})

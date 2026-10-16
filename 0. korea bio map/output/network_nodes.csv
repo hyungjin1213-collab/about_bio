@@ -1,12 +1,12 @@
 professor_id,name_ko,name_en,university,department,primary_field,openalex_id,source_url,orcid,identity_status,scopus_id,collaborator_count,faculty_trainee_count,advisor_count,postdoc_PI_count,postdoc_mentor_count,network_score
 P0001,도준상,Junsang Doh,Seoul National University,Department of Materials Science and Engineering,면역항암,A5086462999,https://bmie.snu.ac.kr/,,,,24,2,0,0,0,44
-P0002,서상우,Sang Woo Seo,Seoul National University,School of Chemical and Biological Engineering,합성생물학,A5066692256,https://seolab.snu.ac.kr/,,,,11,0,1,0,0,12
+P0002,서상우,Sang Woo Seo,Seoul National University,School of Chemical and Biological Engineering,합성생물학,A5066692256,https://seolab.snu.ac.kr/,,,,11,1,1,1,0,25
 P0003,서형석,Hyungseok Seo,Seoul National University,College of Pharmacy,세포치료,A5102852128,https://cgt.snu.ac.kr/home,,,,5,0,0,0,0,5
 P0004,김원종,wonjong kim,postech,화학과,의료용 고분자,,http://bmpl.postech.ac.kr/,,,,0,0,0,0,0,0
 P0005,김성은,seongeun kim,Kookmin University,화학과,체외면역 평가,,https://cite.kookmin.ac.kr/cite/index.do,,,,0,0,0,0,0,0
 P0006,조덕,Duck Cho,Samsung Medical Center; Sungkyunkwan University,,Hematology,A5068463807,,,,,17,0,0,0,0,17
 P0007,김병수,Byung-Soo Kim,Seoul National University,Chemical and Biological Engineering,재생 바이오 의공학,A5100642851,https://cbe.snu.ac.kr/cbe/pgm/professorMng/list.do?menuNo=300015&profCate=66,,,,54,5,0,0,0,104
-P0008,양진아,Jina Yang,Jeju National University,,Molecular Biology,A5007222103,,,,,8,0,1,0,0,9
+P0008,양진아,Jina Yang,Jeju National University,,Molecular Biology,A5007222103,,,,,8,0,1,0,1,10
 P0009,박지훈,Jeehun Park,Kangwon National University,,Immunology,A5007880310,,,,,6,0,1,0,0,7
 P0010,임현규,Hyun Gyu Lim,Inha University,,Molecular Biology,A5014839787,,,,,8,0,1,0,0,9
 P0011,김태돈,Tae-Don Kim,Yonsei University,College of Pharmacy,Gene & Cell Therapy / Immunology,A5019115055,,,verified,,21,0,0,0,0,21
@@ -15,7 +15,7 @@ P0013,이제중,Je-Jung Lee,Chonnam National University,College of Medicine / He
 P0014,김형준,Hyeoung-Joon Kim,Chonnam National University,College of Medicine / Hematology-Oncology,Hematologic malignancy / Stem cell transplantation,A5064161026,https://www.cnuhh.com/sub.cs?m=311,,verified,,21,0,0,0,0,21
 P0015,장성호,Sungho Jang,Incheon National University,Division of Life Sciences / Biotechnology,Synthetic Biology / Directed Evolution / Microbiome,A5077539926,https://www.sjanglab.org,,verified,,8,0,0,0,0,8
 P0016,김상기,Sang-Ki Kim,Kongju National University,Department of Companion and Laboratory Animal Science,Immunology / Cancer Immunotherapy,A5063762312,https://vaxcell-bio.com/en/member.php,0000-0003-3326-067X,verified,,14,0,0,0,0,14
-P0018,한용희,Yong Hee Han,Chonnam National University,School of Biological Sciences and Technology,Molecular Biology / Biochemistry / Biotechnology,A5083853234,https://cloudweb.jnu.ac.kr/gssbst/22251/subview.do,,verified,,5,0,0,0,0,5
+P0018,한용희,Yong Hee Han,Chonnam National University,School of Biological Sciences and Technology,Molecular Biology / Biochemistry / Biotechnology,A5083853234,https://cloudweb.jnu.ac.kr/gssbst/22251/subview.do,,verified,,5,0,1,0,0,6
 P0019,안서연,Seo-Yeon Ahn,Chonnam National University,College of Medicine / Hematology-Oncology,Hematology,A5059129862,https://cnudh.co.kr/cnuhh/medical/info/dept.cs?act=view&deptCd=IMH&doctCd=HD00060&mode=doctor,,verified,,0,0,0,0,0,0
 P0020,정성훈,Sung-Hoon Jung,Chonnam National University,College of Medicine / Hematology-Oncology,Multiple Myeloma / Hematologic Malignancy,A5068416755,https://cnudh.co.kr/cnuhh/medical/info/dept.cs?act=view&deptCd=IMH&doctCd=HD00056&mode=doctor,,verified,,13,0,1,0,0,14
 P0021,한동근,Dong Keun Han,Korea Institute of Science and Technology,Center for Biomaterials,Biomaterials / Tissue Engineering,A5028790314,https://www.kist.re.kr/,,verified,,5,0,0,0,0,5

@@ -9643,6 +9643,9 @@ AUTO009641,P2757,P2761,collaboration,14,,auto,OpenAlex coauthorship between conf
 AUTO009642,P2766,P2767,collaboration,8,,auto,OpenAlex coauthorship between confirmed professors,0.422,2018,2021
 AUTO009643,P2847,P2851,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.18,2013,2014
 AUTO009644,P2848,P2852,collaboration,7,,auto,OpenAlex coauthorship between confirmed professors,1.17,2020,2026
+XLS0002,P2532,P0008,advisor_student,,,yes,사용자 제보 (10/16): 양진아 = 정규열 교수 박사,,,
+XLS0003,P0002,P0008,postdoc_mentor,,,yes,사용자 제보 (10/16): 양진아 = 서상우 교수 포닥,,,
+XLS0004,P0002,P0018,advisor_student,,,yes,"사용자 제보 (10/16): 한용희 = 서상우 교수 박사, 교수 배출",,,
 LIN000001,P2470,P2492,advisor_student,33,https://doi.org/10.1002/ptr.1692,auto,inferred from 33 first-author papers (2005-2010) with A as last author,,,
 LIN000002,P0212,P0207,postdoc_mentor,20,https://doi.org/10.1021/ol103104y,auto,inferred from 20 first-author papers (2011-2016) with A as last author,,,
 LIN000003,P0007,P1383,advisor_student,15,https://doi.org/10.1089/ten.2005.11.438,auto,inferred from 15 first-author papers (2005-2009) with A as last author,,,
@@ -9663,7 +9666,6 @@ LIN000017,P2008,P1520,advisor_student,11,https://doi.org/10.3349/ymj.2008.49.6.9
 LIN000018,P2008,P1537,postdoc_mentor,11,https://doi.org/10.1016/j.cancergencyto.2007.09.002,auto,inferred from 11 first-author papers (2007-2011) with A as last author,,,
 LIN000019,P0097,P0972,advisor_student,11,https://doi.org/10.1007/s12272-012-0912-2,auto,inferred from 11 first-author papers (2012-2017) with A as last author,,,
 LIN000020,P2333,P2330,postdoc_mentor,11,https://doi.org/10.1016/j.vph.2007.11.004,auto,inferred from 11 first-author papers (2007-2010) with A as last author,,,
-LIN000021,P2532,P0008,advisor_student,10,,auto,inferred from 10 first-author papers (2009-2014) with A as last author,,,
 LIN000022,P2468,P1468,advisor_student,10,,auto,inferred from 10 first-author papers (2010-2013) with A as last author,,,
 LIN000023,P1418,P1426,postdoc_mentor,10,https://doi.org/10.1371/journal.pone.0154233,auto,inferred from 10 first-author papers (2016-2021) with A as last author,,,
 LIN000024,P0194,P0181,advisor_student,10,https://doi.org/10.1007/s12374-016-0552-z,auto,inferred from 10 first-author papers (2017-2022) with A as last author,,,

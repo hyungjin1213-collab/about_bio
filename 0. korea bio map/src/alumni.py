@@ -62,7 +62,7 @@ UNI_NOISE = {"university", "national", "college", "of", "the", "and", "institute
 PEOPLE_DIR = OUTPUT_DIR / "alumni"
 SITE_COLUMNS = ["professor_id", "lab_url", "alumni_urls", "status", "alumni_found", "checked_at", "parser"]
 # Bump when the parser changes: labs read by an older parser are read again.
-PARSER_VERSION = "14"
+PARSER_VERSION = "15"
 MANUAL_COLUMNS = ["professor_id", "name", "lab_url", "alumni_url", "memo"]
 
 LAB_LINK_WORDS = ["연구실 홈페이지", "연구실홈페이지", "홈페이지", "연구실", "lab homepage", "lab website", "homepage",
@@ -1191,7 +1191,10 @@ class ProfessorIndex:
                  and int(alum["end_year"]) >= date.today().year - 2)
         if alum.get("name_ko"):
             cands = [r for r in self.by_ko.get(alum["name_ko"], []) if r["professor_id"] != exclude]
-            ok = [r for r in cands if uni_ok(r) or (not fresh and alum.get("name_en")
+            # A name-only match needs a career that could be a faculty post: someone whose stated
+            # job is a company or an institute is another person ('이인석' at a radiology lab).
+            name_only_ok = not fresh and alum.get("career") in ("faculty", "unknown", "")
+            ok = [r for r in cands if uni_ok(r) or (name_only_ok and alum.get("name_en")
                                                     and _same_person(r.get("name_en", ""), alum))]
         elif alum.get("name_en"):
             ok = [r for r in self.rows if r["professor_id"] != exclude and r.get("name_en")

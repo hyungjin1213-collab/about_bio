@@ -792,3 +792,14 @@ def test_korean_university_in_position_links_alumnus(monkeypatch):
     alum = {"name_ko": "김가람", "name_en": "", "degree": "phd", "end_year": 2012, "career": "faculty",
             "position": "고려대 생명공학과 조교수"}
     assert index.find(alum, "P0001") == "P9001"
+
+
+def test_name_only_match_needs_a_possible_faculty_career():
+    from alumni import ProfessorIndex
+    profs = pd.DataFrame([{"professor_id": "P1", "name_ko": "이인석", "name_en": "Insuk Lee",
+                           "university": "Yonsei University"}])
+    index = ProfessorIndex(profs)
+    alum = {"name_ko": "이인석", "name_en": "Insuk Lee", "career": "other", "position": "Ph.D Student",
+            "end_year": None}
+    assert index.find(alum, exclude="P9") == ""
+    assert index.find({**alum, "career": "faculty", "position": "Professor"}, exclude="P9") == "P1"

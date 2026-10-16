@@ -756,7 +756,7 @@ def collect_author_stats(client: OpenAlexClient, professors: pd.DataFrame) -> pd
                         t["recent_citations"] += y.get("cited_by_count") or 0
         # OpenAlex's works_count also counts conference abstracts, preprints, figures, datasets and errata
         # (박웅양: 381 "recent works" with 2,229 recent citations): count journal articles only,
-        # journal articles only, one grouped request per 20 profiles; split profiles are added up.
+        # one grouped request per 20 profiles; split profiles are added up.
         papers: dict[str, int] = {}
         recent: dict[str, int] = {}
         for i in range(0, len(ids), 20):

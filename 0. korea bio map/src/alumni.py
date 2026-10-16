@@ -1338,6 +1338,9 @@ def _mask_line(line: str) -> str:
         return line.strip()[:1] + "**"
     line = re.sub(r"(?<![가-힣])[가-힣]{2,4}(?![가-힣])",
                   lambda m: m.group(0)[:1] + "**" if is_korean_person_name(m.group(0)) else m.group(0), line)
+    # Romanised names in brackets ('(Kim, Ahreum)', '(Anushree seth)') and the Hangul word before them.
+    line = re.sub(r"(?<![가-힣])([가-힣])[가-힣]{1,4}(?=\s*\(\s*[A-Za-z])", r"\1**", line)
+    line = re.sub(r"\(\s*([A-Za-z])[A-Za-z'\-]*(?:,?\s+[A-Za-z][A-Za-z'\-]*){1,2}\s*\)", r"(\1**)", line)
     # A Hangul word before a romanised name is a name whatever its origin ('벨린다 Ong ...').
     line = re.sub(r"(?<![가-힣])([가-힣])[가-힣]{1,4}(?=\s+[A-Z][a-z])", r"\1**", line)
     # Runs of capitalised words anywhere ('AREUM CHOI (Undergraduate ...)', 'JiMin KIM, PhD')
@@ -1360,7 +1363,7 @@ def probe(ids: list[str], fetch: Fetcher | None = None) -> None:
 
 
     extra: dict[str, list[str]] = {}
-    for item in filter(None, os.getenv("ALUMNI_PROBE_URLS", "").split(",")):
+    for item in filter(None, os.getenv("ALUMNI_PROBE_URLS", "P2801=https://www.yhproteinlab.com/").split(",")):
         pid, _, url = item.partition("=")
         extra.setdefault(pid, []).append(url)
     professors = _read(OUTPUT_DIR / "professors_enriched.csv")

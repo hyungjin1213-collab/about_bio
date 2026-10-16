@@ -602,6 +602,8 @@ def test_probe_lines_hide_names_and_mail():
     assert "Roh" not in _mask_line("Gildong, Roh") and _mask_line("Ph.D") == "Ph.D"
     assert "린다" not in _mask_line("벨린다 Ong National University of Singapore 박사과정")
     assert "Hui" not in _mask_line("Wang Li Hui") and "준석" not in _mask_line("Park Sa Ra Professor. 최준석")
+    assert "Ahreum" not in _mask_line("2015 김아름 (Kim, Ahreum) 석사 코스맥스(cosmax)")
+    assert "누쉬" not in _mask_line("2016 아누쉬리 (Anushree seth) 박사 University of Washington") and "seth" not in _mask_line("2016 아누쉬리 (Anushree seth) 박사")
     assert "Hye" not in _mask_line("EunHye Jeong")
 
 

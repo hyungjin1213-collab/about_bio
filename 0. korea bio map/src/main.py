@@ -156,7 +156,7 @@ def main() -> None:
 
         probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "P2801").split(",") if x])
         # OpenAlex profiles that may belong to one professor (split profiles).
-        for name in filter(None, os.getenv("OPENALEX_PROBE_NAMES", "").split(",")):
+        for name in filter(None, os.getenv("OPENALEX_PROBE_NAMES", "Yong Ho Kim,Yongho Kim").split(",")):
             data = client._get("authors", {"search": name, "per-page": 15,
                                            "select": "id,display_name,works_count,cited_by_count,last_known_institutions,orcid"})
             for a in data.get("results") or []:

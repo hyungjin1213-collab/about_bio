@@ -233,6 +233,11 @@ def _search_queries(name_ko: str, name_en: str, name: str, surname_hint: str = "
     return queries[:2] or ([name] if name else [])
 
 
+# Same-name authors at one school: the largest profile wins when it is this much larger.
+DOMINANT_MIN_WORKS = 20
+DOMINANT_RATIO = 4
+
+
 def _best_openalex(
     client: OpenAlexClient, name_ko: str, name_en: str, university: str, fallback_name: str = "",
     surname_hint: str = "",
@@ -289,6 +294,15 @@ def _best_openalex(
         # the most common case, so keep only mainly-bio authors.
         bio = [p for p in same_level if _bio_share(p[3]) >= MIN_BIO_SHARE]
         if len(bio) != 1:
+            # One profile far larger than the rest: the others are mostly split-off fragments
+            # of the same person (전누리 236 / 39 / 30 papers, 신상도 589 / 12). Taken, and
+            # logged as "dominant" so the pick can be reviewed.
+            by_size = sorted(same_level, key=lambda p: int(p[3].get("works_count", 0) or 0), reverse=True)
+            top, second = (int(p[3].get("works_count", 0) or 0) for p in by_size[:2])
+            if top >= DOMINANT_MIN_WORKS and top >= DOMINANT_RATIO * max(second, 1):
+                current, ever, sim, best = by_size[0]
+                return best, (f"name match {sim:.2f}; dominant profile among {len(same_level)} "
+                              f"same-name authors at {university} ({top} vs {second} works)")
             return None, f"ambiguous: {len(same_level)} same-name authors at {university}"
         current, ever, sim, best = bio[0]
         where = "current" if current else "past"

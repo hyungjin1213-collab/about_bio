@@ -58,20 +58,70 @@ def run_all(client: OpenAlexClient) -> None:
 EXPANSION_DEADLINE_MIN = float(os.getenv("EXPANSION_DEADLINE_MIN", "270"))
 
 
+# Gaps of professors already on the map, filled each day before new people are searched.
+GAP_LAB_LIMIT = int(os.getenv("GAP_LAB_LIMIT", "300"))
+GAP_LAB_MINUTES = float(os.getenv("GAP_LAB_MINUTES", "60"))
+
+
+def write_gap_report() -> pd.DataFrame:
+    """output/gaps.csv: professors on the map with something still missing, and why."""
+    profs = pd.read_csv(OUTPUT_DIR / "professors_enriched.csv", dtype=str).fillna("")
+    sites = pd.read_csv(DATA_DIR / "lab_sites.csv", dtype=str).fillna("") if (DATA_DIR / "lab_sites.csv").exists() \
+        else pd.DataFrame(columns=["professor_id", "status"])
+    summary_path = OUTPUT_DIR / "lab_alumni_summary.csv"
+    with_alumni = set(pd.read_csv(summary_path, dtype=str, encoding="utf-8-sig")["professor_id"]) \
+        if summary_path.exists() else set()
+    status = dict(zip(sites["professor_id"], sites["status"]))
+    rows = []
+    for _, p in profs.iterrows():
+        pid, missing = p["professor_id"], []
+        if not p.get("openalex_id"):
+            missing.append("논문 프로필 없음")
+        st = status.get(pid, "")
+        if not st:
+            missing.append("연구실 페이지 미확인")
+        elif st == "no_lab_site":
+            missing.append("연구실 홈페이지 못 찾음")
+        elif pid not in with_alumni:
+            missing.append("졸업생 정보 없음")
+        if missing:
+            rows.append({"professor_id": pid, "name_ko": p.get("name_ko", ""), "name_en": p.get("name_en", ""),
+                         "university": p.get("university", ""), "department": p.get("department", ""),
+                         "missing": "; ".join(missing)})
+    out = pd.DataFrame(rows, columns=["professor_id", "name_ko", "name_en", "university", "department", "missing"])
+    out.to_csv(OUTPUT_DIR / "gaps.csv", index=False, encoding="utf-8-sig")
+    counts = {k: int(out["missing"].str.contains(k).sum()) for k in
+              ("논문 프로필 없음", "연구실 페이지 미확인", "연구실 홈페이지 못 찾음", "졸업생 정보 없음")}
+    print(f"[gaps] {len(out)} of {len(profs)} professors with gaps: {counts}", flush=True)
+    return out
+
+
 def daily(client: OpenAlexClient) -> None:
     """Every day, spending as much of the OpenAlex budget as the day allows:
     1. lab alumni pages read again (cheap);
     2. the whole map refreshed: professors, collaborations, Korean names in use (core);
-    3. with what is left of the budget and time: new departments, faculty, identities,
+    3. gaps of professors already on the map: lab and alumni pages never looked at come
+       first (GAP_LAB_LIMIT a day, GAP_LAB_MINUTES at most), then output/gaps.csv and a
+       redraw so today's finds show today;
+    4. with what is left of the budget and time: new departments, faculty, identities,
        institutes and companies, Korean names. Newly added people join the map on the
        next day's step 2. Each step stops by itself when the OpenAlex budget runs out.
-    Step 2 comes before 3 so a spent budget never costs the day's map update."""
+    Step 2 comes before 3 and 4 so a spent budget never costs the day's map update."""
     started = time.monotonic()
     try:
         collect_alumni(client, known_only=True)
     except Exception as exc:  # alumni pages must not stop the map update
         print(f"[daily] alumni refresh skipped: {exc}", flush=True)
     run_all(client)
+    try:
+        collect_alumni(client, limit=GAP_LAB_LIMIT, max_minutes=GAP_LAB_MINUTES)
+    except Exception as exc:  # the map is already up to date; gaps continue tomorrow
+        print(f"[daily] gap filling stopped: {exc}", flush=True)
+    try:
+        write_gap_report()
+        rebuild()
+    except Exception as exc:
+        print(f"[daily] gap report / redraw skipped: {exc}", flush=True)
     steps = [
         ("departments", discover_departments),
         ("faculty pages", scrape_faculty_v2),

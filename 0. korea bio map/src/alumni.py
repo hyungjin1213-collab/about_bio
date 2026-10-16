@@ -1020,10 +1020,12 @@ def add_professors(rows: list[dict]) -> int:
 
 
 def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None = None,
-                   limit: int = PROFESSOR_LIMIT, known_only: bool = False) -> pd.DataFrame:
+                   limit: int = PROFESSOR_LIMIT, known_only: bool = False,
+                   max_minutes: float | None = None) -> pd.DataFrame:
     """known_only: the daily refresh. Re-read every lab whose alumni page was already found
     (degree years, careers, papers); no new labs are searched, and a lab whose page cannot be
-    read today keeps its earlier figures."""
+    read today keeps its earlier figures. Otherwise professors never checked come first;
+    max_minutes stops the batch early (what was read is kept)."""
     client = client or OpenAlexClient()
     fetch = fetch or Fetcher()
     ensure_manual_file()
@@ -1041,9 +1043,11 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
         if pid in manual:
             return (0, "")                      # hand-entered pages first
         last = checked.get(pid, "")
-        if not last or parsed.get(pid, "") != PARSER_VERSION:
-            return (1, "")
-        return (2, last) if (today - date.fromisoformat(last)).days >= RECHECK_DAYS else (9, last)
+        if not last:
+            return (1, "")                      # never looked at: the gaps come first
+        if parsed.get(pid, "") != PARSER_VERSION:
+            return (2, last)
+        return (3, last) if (today - date.fromisoformat(last)).days >= RECHECK_DAYS else (9, last)
 
     if known_only:
         known = sites[(sites["status"] == "alumni") & (sites["alumni_urls"] != "")]
@@ -1095,6 +1099,10 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
         return summary
 
     for n, pid in enumerate(order, 1):
+        if max_minutes and (datetime.now(timezone.utc) - started).seconds / 60 > max_minutes:
+            print(f"[alumni] {max_minutes:.0f} min used: {n - 1} of {len(order)} labs checked today, "
+                  f"the rest continue tomorrow", flush=True)
+            break
         r = rows.loc[pid]
         try:
             hand = manual_records(pid)

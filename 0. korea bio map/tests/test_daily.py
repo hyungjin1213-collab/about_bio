@@ -15,7 +15,10 @@ def _patch(monkeypatch, calls, fail_at=""):
                 raise OpenAlexUnavailable("daily budget")
             return result if result is not None else []
         return run
-    monkeypatch.setattr(main, "collect_alumni", step("alumni"))
+    known, gaps = step("alumni"), step("gap labs")
+    monkeypatch.setattr(main, "collect_alumni", lambda *a, **k: (known if k.get("known_only") else gaps)(*a, **k))
+    monkeypatch.setattr(main, "write_gap_report", step("gap report"))
+    monkeypatch.setattr(main, "rebuild", step("redraw"))
     monkeypatch.setattr(main, "run_all", step("map"))
     monkeypatch.setattr(main, "discover_departments", step("departments"))
     monkeypatch.setattr(main, "scrape_faculty_v2", step("faculty"))
@@ -29,14 +32,14 @@ def test_map_is_refreshed_before_expansion(monkeypatch):
     calls = []
     _patch(monkeypatch, calls)
     main.daily(object())
-    assert calls == ["alumni", "map", "departments", "faculty", "identities", "import", "institutions", "names"]
+    assert calls == ["alumni", "map", "gap labs", "gap report", "redraw", "departments", "faculty", "identities", "import", "institutions", "names"]
 
 
 def test_spent_budget_stops_expansion_but_not_the_map(monkeypatch):
     calls = []
     _patch(monkeypatch, calls, fail_at="identities")
     main.daily(object())
-    assert calls == ["alumni", "map", "departments", "faculty", "identities"]
+    assert calls == ["alumni", "map", "gap labs", "gap report", "redraw", "departments", "faculty", "identities"]
 
 
 def test_alumni_failure_does_not_stop_the_map(monkeypatch):
@@ -51,4 +54,11 @@ def test_deadline_skips_remaining_expansion(monkeypatch):
     _patch(monkeypatch, calls)
     monkeypatch.setattr(main, "EXPANSION_DEADLINE_MIN", -1)
     main.daily(object())
-    assert calls == ["alumni", "map"]
+    assert calls == ["alumni", "map", "gap labs", "gap report", "redraw"]
+
+
+def test_gaps_of_known_professors_come_before_new_people(monkeypatch):
+    calls = []
+    _patch(monkeypatch, calls, fail_at="gap labs")
+    main.daily(object())
+    assert calls[:5] == ["alumni", "map", "gap labs", "gap report", "redraw"] and "departments" in calls

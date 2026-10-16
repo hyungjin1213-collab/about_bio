@@ -148,15 +148,21 @@ def apply_professor_merges(professors: pd.DataFrame, merges: pd.DataFrame) -> pd
     return out.reset_index(drop=True)
 
 
-def apply_professor_overrides(professors: pd.DataFrame, overrides: pd.DataFrame) -> pd.DataFrame:
+def removed_professors(overrides: pd.DataFrame) -> set[str]:
+    """Professors taken off the map by a 'removed' override (retired, left academia)."""
+    return {o.get("professor_id") for _, o in overrides.iterrows()
+            if o.get("column") == "removed" and str(o.get("value", "")).strip().lower() in ("yes", "true", "1")}
+
+
+def apply_professor_overrides(professors: pd.DataFrame, overrides: pd.DataFrame,
+                              drop_removed: bool = True) -> pd.DataFrame:
     """Hand corrections (data/professor_overrides.csv: professor_id, column, value):
     re-applied every run so a collection never undoes them."""
     out = professors.copy()
     # 'removed' rows take a professor off the map (retired, left academia) while the seed keeps
     # the row, so collectors that skip known names do not add the person again.
-    removed = {o.get("professor_id") for _, o in overrides.iterrows()
-               if o.get("column") == "removed" and str(o.get("value", "")).strip().lower() in ("yes", "true", "1")}
-    out = out[~out["professor_id"].isin(removed)].copy()
+    if drop_removed:
+        out = out[~out["professor_id"].isin(removed_professors(overrides))].copy()
     for _, o in overrides.iterrows():
         if o.get("column") in out.columns and o.get("column") != "professor_id":
             out.loc[out["professor_id"] == o.get("professor_id"), o["column"]] = o.get("value", "")
@@ -208,12 +214,15 @@ def scholar_probe(client: OpenAlexClient, ids: list[str]) -> None:
 def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
     seed = _read_csv(DATA_DIR / "professors_seed.csv", PROFESSOR_COLUMNS)
     professors = apply_professor_merges(seed, _read_csv(DATA_DIR / "professor_merges.csv"))
-    professors = apply_professor_overrides(professors, _read_csv(DATA_DIR / "professor_overrides.csv"))
+    overrides = _read_csv(DATA_DIR / "professor_overrides.csv")
+    # The seed keeps removed professors (so no collector adds them again); the map does not.
+    professors = apply_professor_overrides(professors, overrides, drop_removed=False)
     if not professors.equals(seed):
         print(f"[merge] {len(seed) - len(professors)} duplicates folded; hand corrections applied", flush=True)
         professors.to_csv(DATA_DIR / "professors_seed.csv", index=False, encoding="utf-8-sig")
-    professors = professors.copy()
+    professors = professors[~professors["professor_id"].isin(removed_professors(overrides))].copy()
     resolved_rows: list[dict[str, str]] = []
+    auto_picks: list[dict[str, str]] = []
     scholar_rows = _read_csv(DATA_DIR / "scholar_profiles.csv")
     scholar_ids = dict(zip(scholar_rows["professor_id"], scholar_rows["scholar_id"])) if not scholar_rows.empty else {}
     # OpenAlex authors already found from those profiles: Scholar lookups cost paid searches.
@@ -272,9 +281,15 @@ def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
             # polymers) a marketing researcher's profile.
             # Professors confirmed by hand (identity_status 'confirmed' in professor_overrides.csv)
             # may work mainly outside biology (nanomaterials, chemistry): no bio-share check.
-            confirmed = item.get("identity_status", "") == "confirmed"
+            # Professors the user asked for (master sheet: identity_status 'manual') count as confirmed.
+            confirmed = item.get("identity_status", "") in ("confirmed", "manual")
             if match and name_ok and (confirmed or _bio_share(match) >= MIN_BIO_SHARE):
                 current_id = normalize_openalex_id(match.get("id", ""))
+                if "dominant" in why:
+                    auto_picks.append({"professor_id": item.get("professor_id", ""), "name_ko": item.get("name_ko", ""),
+                                       "university": item.get("university", ""), "openalex_id": current_id,
+                                       "display_name": str(match.get("display_name", "")), "reason": why,
+                                       "date": date.today().isoformat()})
             else:
                 # Why a hand-entered professor has no paper profile: fix it with an
                 # openalex_id row in data/professor_overrides.csv.
@@ -308,6 +323,13 @@ def resolve_professors(client: OpenAlexClient) -> pd.DataFrame:
     resolved = pd.DataFrame(resolved_rows, columns=PROFESSOR_COLUMNS)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     resolved.to_csv(OUTPUT_DIR / "professors_enriched.csv", index=False)
+    # Same-name picks taken because one profile was far larger: for review (a wrong one is
+    # fixed with an openalex_id row in professor_overrides.csv).
+    pd.DataFrame(auto_picks, columns=["professor_id", "name_ko", "university", "openalex_id", "display_name",
+                                      "reason", "date"]).to_csv(OUTPUT_DIR / "auto_matches.csv", index=False, encoding="utf-8-sig")
+    if auto_picks:
+        print(f"[resolve] {len(auto_picks)} same-name professors matched to their largest profile "
+              "(listed in auto_matches.csv for review)", flush=True)
     return resolved
 
 

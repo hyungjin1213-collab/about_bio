@@ -219,3 +219,20 @@ def test_import_skips_hand_entered_professor_without_ids(tmp_path, monkeypatch):
                    "orcid": "0000-0003-2303-7415", "openalex_ids": "A5077018885", "identity_status": "probable"}]
                  ).to_csv(tmp_path / "out" / "faculty_identity_v2.csv", index=False)
     assert fi.import_verified_faculty_v2() == 0
+
+
+def test_same_name_same_school_dominant_profile_taken():
+    # Split profiles of one person: the largest is taken when it is clearly larger.
+    client = FakeOpenAlex([
+        _author("A1", "Noo Li Jeon", "Seoul National University", topics=ENG, works=236),
+        _author("A2", "Noo Li Jeon", "Seoul National University", topics=ENG, works=39),
+    ])
+    best, reason = _best_openalex(client, "전누리", "Noo Li Jeon", "Seoul National University")
+    assert best["id"].endswith("A1") and "dominant" in reason
+    # Two profiles of similar size stay for review.
+    client = FakeOpenAlex([
+        _author("A1", "Nam Ki Lee", "Seoul National University", topics=ENG, works=97),
+        _author("A2", "Nam-Ki Lee", "Seoul National University", topics=ENG, works=71),
+    ])
+    best, reason = _best_openalex(client, "이남기", "Nam Ki Lee", "Seoul National University")
+    assert best is None and reason.startswith("ambiguous")

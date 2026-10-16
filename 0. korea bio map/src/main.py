@@ -163,7 +163,7 @@ def main() -> None:
             "faculty-full", "faculty-full-v2",
             "import-faculty", "import-faculty-and-all",
             "import-faculty-v2", "import-faculty-v2-and-all",
-            "galaxy-full", "daily", "alumni", "alumni-refresh", "alumni-probe", "rebuild",
+            "galaxy-full", "daily", "alumni", "alumni-refresh", "alumni-probe", "rebuild", "author-stats",
         ],
         help="Pipeline step to run",
     )
@@ -199,6 +199,13 @@ def main() -> None:
         rebuild()
         return
 
+    if args.command == "author-stats":
+        # Publication counts again for everyone on the map (articles and reviews only), then a redraw.
+        professors = pd.read_csv(OUTPUT_DIR / "professors_enriched.csv", dtype=str).fillna("")
+        collect_author_stats(client, professors)
+        rebuild()
+        return
+
     if args.command == "alumni-probe":
         from alumni import probe
         os.environ.setdefault("ALUMNI_PROBE_ALL_LINKS", "1")
@@ -215,7 +222,7 @@ def main() -> None:
                 print(f"[openalex-probe] {name}: {a['id'].split('/')[-1]} {a['display_name']} works={a['works_count']} "
                       f"cited={a['cited_by_count']} orcid={a.get('orcid') or ''} inst={inst}", flush=True)
         # Why hand-entered professors found no OpenAlex profile: the matcher's pick and the checks.
-        resolve_ids = [x for x in os.getenv("OPENALEX_RESOLVE_PROBE", "P0056").split(",") if x]
+        resolve_ids = [x for x in os.getenv("OPENALEX_RESOLVE_PROBE", "").split(",") if x]
         if resolve_ids:
             # The matcher's candidates for professors it could not settle: name-compatible
             # OpenAlex authors with institution fit, size, bio share and main topics.
@@ -247,7 +254,7 @@ def main() -> None:
                           flush=True)
         # What the 'recent works' of a profile are: counts by work type, last five years.
         from datetime import date as _date
-        for aid in filter(None, os.getenv("OPENALEX_STATS_PROBE", "A5020752812").split(",")):
+        for aid in filter(None, os.getenv("OPENALEX_STATS_PROBE", "").split(",")):
             since = _date.today().year - 4
             g = client._get("works", {"filter": f"authorships.author.id:{aid},publication_year:>{since - 1}",
                                       "group_by": "type"})
@@ -257,7 +264,7 @@ def main() -> None:
             inst = "; ".join(i.get("display_name", "") for i in a.get("last_known_institutions") or [])[:60]
             print(f"[stats-probe] {aid} {a.get('display_name')} ({inst}) counts_by_year={cby} | by type: {types}", flush=True)
         # What an OpenAlex profile is about: topics, institutions, a few recent titles.
-        for aid in filter(None, os.getenv("OPENALEX_PROBE_AUTHORS", "A5020752812").split(",")):
+        for aid in filter(None, os.getenv("OPENALEX_PROBE_AUTHORS", "").split(",")):
             a = client._get(f"authors/{aid}", {"select": "id,display_name,works_count,topics,affiliations"})
             topics = ", ".join(t.get("display_name", "") for t in (a.get("topics") or [])[:5])
             insts = "; ".join(f"{x['institution']['display_name']} {min(x.get('years') or [0])}-{max(x.get('years') or [0])}"

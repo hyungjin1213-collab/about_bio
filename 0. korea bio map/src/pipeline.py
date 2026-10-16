@@ -711,9 +711,9 @@ AUTHOR_STATS_COLUMNS = ["professor_id", "papers", "citations", "h_index", "recen
 
 
 def _article_counts(client: OpenAlexClient, ids: list[str], extra_filter: str = "") -> dict[str, int]:
-    """Journal articles and reviews per OpenAlex author id (one grouped request; an author the
+    """Journal articles per OpenAlex author id (one grouped request; an author the
     group list leaves out is counted on its own)."""
-    flt = "authorships.author.id:" + "|".join(ids) + ",type:article|review" + extra_filter
+    flt = "authorships.author.id:" + "|".join(ids) + ",type:article" + extra_filter
     data = client._get("works", {"filter": flt, "group_by": "authorships.author.id", "per-page": 200})
     counts = {}
     for g in data.get("group_by") or []:
@@ -721,7 +721,7 @@ def _article_counts(client: OpenAlexClient, ids: list[str], extra_filter: str = 
         if oid in ids:
             counts[oid] = int(g.get("count") or 0)
     for oid in set(ids) - set(counts):
-        one = client._get("works", {"filter": f"authorships.author.id:{oid},type:article|review{extra_filter}",
+        one = client._get("works", {"filter": f"authorships.author.id:{oid},type:article{extra_filter}",
                                     "per-page": 1, "select": "id"})
         counts[oid] = int((one.get("meta") or {}).get("count") or 0)
     return counts
@@ -754,9 +754,9 @@ def collect_author_stats(client: OpenAlexClient, professors: pd.DataFrame) -> pd
                     if (y.get("year") or 0) >= since:
                         t["recent_papers"] += y.get("works_count") or 0
                         t["recent_citations"] += y.get("cited_by_count") or 0
-        # OpenAlex's works_count also counts conference abstracts, figures, datasets and errata
-        # (박웅양: 381 'recent works' with 2,229 recent citations): count journal articles and
-        # reviews only, with one grouped request per 20 profiles; split profiles are added up.
+        # OpenAlex's works_count also counts conference abstracts, preprints, figures, datasets and errata
+        # (박웅양: 381 "recent works" with 2,229 recent citations): count journal articles only, and
+        # journal articles only, one grouped request per 20 profiles; split profiles are added up.
         papers: dict[str, int] = {}
         recent: dict[str, int] = {}
         for i in range(0, len(ids), 20):

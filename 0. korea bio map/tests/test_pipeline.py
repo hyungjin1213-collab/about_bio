@@ -124,6 +124,11 @@ def test_author_stats_add_up_split_profiles(tmp_path, monkeypatch):
     class Client:
         def _get(self, path, params):
             assert "A1|A2" in params["filter"]
+            if path == "works":   # articles and reviews only, grouped by author
+                recent = "publication_year" in params["filter"]
+                return {"group_by": [{"key": "https://openalex.org/A1", "count": 4 if recent else 60},
+                                     {"key": "https://openalex.org/A2", "count": 1 if recent else 3},
+                                     {"key": "https://openalex.org/A9", "count": 99}]}
             return {"results": [
                 {"id": "https://openalex.org/A1", "works_count": 80, "cited_by_count": 3900,
                  "summary_stats": {"h_index": 30}, "counts_by_year": [{"year": year, "works_count": 5, "cited_by_count": 400},
@@ -133,7 +138,7 @@ def test_author_stats_add_up_split_profiles(tmp_path, monkeypatch):
 
     out = pipeline.collect_author_stats(Client(), pd.DataFrame([{"professor_id": "P1", "openalex_id": "A1;A2"}]))
     r = out.iloc[0]
-    assert (r["papers"], r["citations"], r["h_index"], r["recent_papers"], r["recent_citations"]) == (85, 3944, 30, 7, 404)
+    assert (r["papers"], r["citations"], r["h_index"], r["recent_papers"], r["recent_citations"]) == (63, 3944, 30, 5, 404)
 
 
 def test_removed_override_drops_professor():

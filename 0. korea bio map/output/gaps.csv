@@ -1,0 +1,2784 @@
+﻿professor_id,name_ko,name_en,university,department,missing
+P0004,김원종,wonjong kim,postech,화학과,논문 프로필 없음
+P0005,김성은,seongeun kim,Kookmin University,화학과,논문 프로필 없음; 졸업생 정보 없음
+P0006,조덕,Duck Cho,Samsung Medical Center; Sungkyunkwan University,,연구실 홈페이지 못 찾음
+P0008,양진아,Jina Yang,Jeju National University,,연구실 홈페이지 못 찾음
+P0009,박지훈,Jeehun Park,Kangwon National University,,연구실 홈페이지 못 찾음
+P0010,임현규,Hyun Gyu Lim,Inha University,,연구실 홈페이지 못 찾음
+P0011,김태돈,Tae-Don Kim,Yonsei University,College of Pharmacy,연구실 홈페이지 못 찾음
+P0012,김성철,Seong-Cheol Kim,Yeungnam University,,연구실 홈페이지 못 찾음
+P0014,김형준,Hyeoung-Joon Kim,Chonnam National University,College of Medicine / Hematology-Oncology,졸업생 정보 없음
+P0015,장성호,Sungho Jang,Incheon National University,Division of Life Sciences / Biotechnology,졸업생 정보 없음
+P0016,김상기,Sang-Ki Kim,Kongju National University,Department of Companion and Laboratory Animal Science,졸업생 정보 없음
+P0018,한용희,Yong Hee Han,Chonnam National University,School of Biological Sciences and Technology,졸업생 정보 없음
+P0019,안서연,Seo-Yeon Ahn,Chonnam National University,College of Medicine / Hematology-Oncology,졸업생 정보 없음
+P0020,정성훈,Sung-Hoon Jung,Chonnam National University,College of Medicine / Hematology-Oncology,졸업생 정보 없음
+P0021,한동근,Dong Keun Han,Korea Institute of Science and Technology,Center for Biomaterials,졸업생 정보 없음
+P0023,김상욱,Sanguk Kim,POSTECH,Department of Life Sciences,연구실 홈페이지 못 찾음
+P0024,한상빈,Sangbin Han,Sungkyunkwan University; Samsung Medical Center,School of Medicine / Anesthesiology and Pain Medicine,졸업생 정보 없음
+P0025,김병기,Byung-Gee Kim,Seoul National University,Chemical and Biological Engineering,연구실 홈페이지 못 찾음
+P0026,박우람,Wooram Park,Sungkyunkwan University,Department of Integrative Biotechnology,졸업생 정보 없음
+P0027,황일웅,Ilwoong Hwang,Soonchunhyang University,Gumi Hospital / Emergency Medicine,졸업생 정보 없음
+P0029,고영일,Youngil Koh,Seoul National University,College of Medicine / Hematology-Oncology,졸업생 정보 없음
+P0030,이승환,Seung Hwan Lee,Yonsei University,College of Medicine / Urology,졸업생 정보 없음
+P0031,임정은,Joung Eun Lim,Samsung Medical Center,Samsung Biomedical Research Institute,졸업생 정보 없음
+P0032,강윤표,Yunpyo Kang,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0034,권성원,Sung Won Kwon,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0035,권용석,Yongseok Kwon,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0036,노민수,Minsoo Noh,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0038,박형근,Hyeung‐geun Park,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0041,심상희,Sanghee Shim,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0042,오원근,Won Keun Oh,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0043,오정미,Jung Mi Oh,Seoul National University,College of Pharmacy,연구실 홈페이지 못 찾음
+P0044,윤여준,Yeojoon Yoon,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0045,이미옥,Mi Ok Lee,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0047,이승희,Seunghui Lee,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0048,이유정,Youjeong Lee,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0049,이인균,Ingyun Lee,Seoul National University,College of Pharmacy,논문 프로필 없음; 졸업생 정보 없음
+P0053,장재봉,Jaebong Jang,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0054,전상민,S Jeon,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0055,진영원,Young‐Won Chin,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0057,구자록,Ja-Lok Ku,Seoul National University,Graduate School of Biomedical Sciences,졸업생 정보 없음
+P0058,권오빈,Obin Kwon,Seoul National University,Graduate School of Biomedical Sciences,졸업생 정보 없음
+P0060,권용태,Yong Tae Kwon,Seoul National University,Graduate School of Biomedical Sciences,졸업생 정보 없음
+P0062,박상민,,Seoul National University,Graduate School of Biomedical Sciences,논문 프로필 없음; 졸업생 정보 없음
+P0063,박성준,Seongjun Park,Seoul National University,Graduate School of Biomedical Sciences; Bioengineering,졸업생 정보 없음
+P0064,박정환,Jeong Hwan Park,Seoul National University,Graduate School of Biomedical Sciences,졸업생 정보 없음
+P0067,석승혁,Seung Hyeok Seok,Seoul National University,Graduate School of Biomedical Sciences,졸업생 정보 없음
+P0068,성승용,Seung‐Yong Seong,Seoul National University,Graduate School of Biomedical Sciences,졸업생 정보 없음
+P0069,성지혜,Jihye Seong,Seoul National University,Graduate School of Biomedical Sciences,졸업생 정보 없음
+P0074,이원령,Wonryung Lee,Seoul National University,Graduate School of Biomedical Sciences,졸업생 정보 없음
+P0075,이원우,Won-Woo Lee,Seoul National University,Graduate School of Biomedical Sciences,졸업생 정보 없음
+P0077,전주홍,Ju‐Hong Jeon,Seoul National University,Graduate School of Biomedical Sciences,졸업생 정보 없음
+P0079,정두현,Doo Hyun Chung,Seoul National University,Graduate School of Biomedical Sciences,졸업생 정보 없음
+P0080,조남혁,Nam-Hyeok Cho,Seoul National University,Graduate School of Biomedical Sciences,졸업생 정보 없음
+P0081,조성엽,,Seoul National University,Graduate School of Biomedical Sciences,논문 프로필 없음; 졸업생 정보 없음
+P0083,최형진,Hyung Jin Choi,Seoul National University,Graduate School of Biomedical Sciences,졸업생 정보 없음
+P0085,한주리,Jooli Han,Seoul National University,Bioengineering,졸업생 정보 없음
+P0086,권소희,So Hee Kwon,Yonsei University,College of Pharmacy,졸업생 정보 없음
+P0087,김승현,Seung‐Hyeon Kim,Yonsei University,College of Pharmacy,졸업생 정보 없음
+P0090,민도식,Do Sik Min,Yonsei University,College of Pharmacy,졸업생 정보 없음
+P0091,박수준,Soojun Park,Yonsei University,College of Pharmacy,졸업생 정보 없음
+P0092,유윤미,Yunmi Yu,Yonsei University,College of Pharmacy,졸업생 정보 없음
+P0093,윤이나,Ina Yoon,Yonsei University,College of Pharmacy,졸업생 정보 없음
+P0096,전희정,Heejung Chun,Yonsei University,College of Pharmacy,졸업생 정보 없음
+P0097,정성훈,Seong Hoon Jeong,Yonsei University,College of Pharmacy,졸업생 정보 없음
+P0098,최준정,Junjeong Choi,Yonsei University,College of Pharmacy,졸업생 정보 없음
+P0099,한은아,Euna Han,Yonsei University,College of Pharmacy,졸업생 정보 없음
+P0102,전영호,Young Ho Jeon,Korea University,College of Pharmacy,졸업생 정보 없음
+P0103,최상은,Sang Eun Choi,Korea University,College of Pharmacy,연구실 홈페이지 못 찾음
+P0104,정용우,Yong Woo Jung,Korea University,College of Pharmacy,졸업생 정보 없음
+P0105,김경임,Kyungim Kim,Korea University,College of Pharmacy,졸업생 정보 없음
+P0107,오수환,Soohwan Oh,Korea University,College of Pharmacy,졸업생 정보 없음
+P0108,김한준,Han‐Jun Kim,Korea University,College of Pharmacy,졸업생 정보 없음
+P0109,김하룡,Haryong Kim,Korea University,College of Pharmacy,논문 프로필 없음
+P0110,신현무,Hyunmu Shin,Seoul National University,Graduate School of Biomedical Sciences,졸업생 정보 없음
+P0111,김정민,,Seoul National University,응용바이오공학과,논문 프로필 없음
+P0112,박원철,Woncheoul Park,Seoul National University,응용바이오공학과,졸업생 정보 없음
+P0114,이윤상,Yun‐Sang Lee,Seoul National University,응용바이오공학과; 분자의학및바이오제약학과,연구실 홈페이지 못 찾음
+P0115,이은봉,Eun Bong Lee,Seoul National University,응용바이오공학과; 분자의학및바이오제약학과,졸업생 정보 없음
+P0119,현재환,Jaehwan Hyun,Seoul National University,자유전공학부 바로가기,졸업생 정보 없음
+P0120,황지수,Jisoo Hwang,Seoul National University,자유전공학부 바로가기,졸업생 정보 없음
+P0121,강민석,Min-Seok Gang,Seoul National University,자유전공학부 바로가기,졸업생 정보 없음
+P0122,한경구,,Seoul National University,자유전공학부 바로가기,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0123,김상은,Sang Eun Kim,Seoul National University,자유전공학부 바로가기,졸업생 정보 없음
+P0124,김용대,Yongdae Kim,Seoul National University,자유전공학부 바로가기,연구실 홈페이지 못 찾음
+P0126,이상혁,,Seoul National University,자유전공학부 바로가기,논문 프로필 없음; 졸업생 정보 없음
+P0127,강규석,Kyu‐Suk Kang,Seoul National University,농업생명과학대학(8개),졸업생 정보 없음
+P0128,강동현,Dong Hyeon Kang,Seoul National University,농업생명과학대학(8개),졸업생 정보 없음
+P0129,강문성,Moon‐Seong Kang,Seoul National University,농업생명과학대학(8개),졸업생 정보 없음
+P0130,강준석,Jun-Seok Kang,Seoul National University,농업생명과학대학(8개),졸업생 정보 없음
+P0134,김홍숙,Hong Sook Kim,Sungkyunkwan University,Faculty 1 페이지,졸업생 정보 없음
+P0135,양시영,Siyoung Yang,Sungkyunkwan University,Faculty 1 페이지,졸업생 정보 없음
+P0137,이재성,Jae-Seong Lee,Sungkyunkwan University,Faculty 1 페이지,졸업생 정보 없음
+P0138,정수명,Su Myung Jung,Sungkyunkwan University,Faculty 1 페이지,졸업생 정보 없음
+P0139,조홍백,Hongbaek Cho,Sungkyunkwan University,Faculty 1 페이지,졸업생 정보 없음
+P0140,최동희,Donghui Choe,Sungkyunkwan University,Faculty 1 페이지,졸업생 정보 없음
+P0141,남태규,Tae‐gyu Nam,Hanyang University,약학대학,졸업생 정보 없음
+P0143,주재열,Jae‐Yeol Joo,Hanyang University,약학대학,졸업생 정보 없음
+P0144,금민정,Min Jung Geum,Hanyang University,약학대학,졸업생 정보 없음
+P0146,김영미,Yeong Mi Kim,Hanyang University,약학대학,졸업생 정보 없음
+P0147,김철영,,Hanyang University,약학대학,논문 프로필 없음
+P0149,최한곤,Han‐Gon Choi,Hanyang University,약학대학,졸업생 정보 없음
+P0151,김희진,,Hanyang University,신경과학교실,논문 프로필 없음; 졸업생 정보 없음
+P0152,이규용,Gyu Yong Lee,Hanyang University,신경과학교실,졸업생 정보 없음
+P0153,오기욱,Kiwook Oh,Hanyang University,신경과학교실,졸업생 정보 없음
+P0154,성원재,Wonjae Sung,Hanyang University,신경과학교실,졸업생 정보 없음
+P0155,오요한,Yohan Oh,Hanyang University,생화학·분자생물학교실,졸업생 정보 없음
+P0156,김원규,Won Kyu Kim,Hanyang University,해부·세포생물학교실,졸업생 정보 없음
+P0157,김계성,Kye-Seong Kim,Hanyang University,해부·세포생물학교실,졸업생 정보 없음
+P0158,김자연,Ja-Yeon Kim,Hanyang University,해부·세포생물학교실,졸업생 정보 없음
+P0159,유순지,Soon-Ji Yoo,Kyung Hee University,생물학과,졸업생 정보 없음
+P0160,박영석,Young-Seuk Park,Kyung Hee University,생물학과,졸업생 정보 없음
+P0161,이성재,Sung-Jae Lee,Kyung Hee University,생물학과,졸업생 정보 없음
+P0162,김광우,Kwangwoo Kim,Kyung Hee University,생물학과,졸업생 정보 없음
+P0165,이호석,Ho-Seok Lee,Kyung Hee University,생물학과,졸업생 정보 없음
+P0166,윤정호,Jungho Yun,Kyung Hee University,자유전공학부,졸업생 정보 없음
+P0168,홍정우,Joung‐Woo Hong,Kyung Hee University,동서의과학과,졸업생 정보 없음
+P0169,김영선,,Kyung Hee University,동서의과학과,논문 프로필 없음; 졸업생 정보 없음
+P0170,신혜리,Hyeri Shin,Kyung Hee University,동서의과학과,졸업생 정보 없음
+P0171,정덕영,Duk-Young Jung,Kyung Hee University,동서의과학과,졸업생 정보 없음
+P0173,이태후,Tae-Hoo Yi,Kyung Hee University,융합바이오·신소재공학과; 한방생명공학과,졸업생 정보 없음
+P0174,강동호,Tong Ho Kang,Kyung Hee University,융합바이오·신소재공학과; 한방생명공학과,졸업생 정보 없음
+P0175,김웅진,Ung-Jin Kim,Kyung Hee University,융합바이오·신소재공학과,졸업생 정보 없음
+P0176,고재흥,Jae-Heung Ko,Kyung Hee University,융합바이오·신소재공학과,졸업생 정보 없음
+P0177,김연주,Yeonju Kim,Kyung Hee University,융합바이오·신소재공학과; 한방생명공학과,졸업생 정보 없음
+P0178,배효철,Hyocheol Bae,Kyung Hee University,융합바이오·신소재공학과; 한방생명공학과,졸업생 정보 없음
+P0179,박영준,Young-Joon Park,Kyung Hee University,융합바이오·신소재공학과; 원예생명공학과; 식품생명공학과; 한방생명공학과; 생명과학대학; 유전생명공학과,졸업생 정보 없음
+P0180,엄석현,Seok-Hyun Eom,Kyung Hee University,융합바이오·신소재공학과; 원예생명공학과; 식품생명공학과; 한방생명공학과; 생명과학대학; 유전생명공학과,졸업생 정보 없음
+P0181,홍우종,Woo-Jong Hong,Kyung Hee University,융합바이오·신소재공학과; 원예생명공학과; 식품생명공학과; 한방생명공학과; 생명과학대학; 유전생명공학과,졸업생 정보 없음
+P0182,김대옥,Dae-Ok Kim,Kyung Hee University,식품생명공학과,졸업생 정보 없음
+P0183,김미주,Mi-Ju Kim,Kyung Hee University,식품생명공학과,논문 프로필 없음; 졸업생 정보 없음
+P0184,김현석,Hyun-Seok Kim,Kyung Hee University,식품생명공학과,졸업생 정보 없음
+P0185,백무열,Moo-Yeol Baik,Kyung Hee University,식품생명공학과,졸업생 정보 없음
+P0188,최재영,Jaeyoung Choi,Kyung Hee University,한방생명공학과,졸업생 정보 없음
+P0189,김기영,Ki-Young Kim,Kyung Hee University,유전생명공학과,졸업생 정보 없음
+P0190,김원경,Won Kyung Kim,Kyung Hee University,유전생명공학과,졸업생 정보 없음
+P0191,김현,Hyun Kim,Kyung Hee University,유전생명공학과,졸업생 정보 없음
+P0192,오승자,Seung Ja Oh,Kyung Hee University,유전생명공학과,졸업생 정보 없음
+P0193,이상원,Sang-Won Lee,Kyung Hee University,유전생명공학과,졸업생 정보 없음
+P0194,정기홍,Ki-Hong Jung,Kyung Hee University,유전생명공학과,졸업생 정보 없음
+P0195,김종호,Jongho Kim,Kyung Hee University,약학대학,졸업생 정보 없음
+P0196,오준택,Juntaek Oh,Kyung Hee University,약학대학,졸업생 정보 없음
+P0198,김지운,Jiwoon Kim,Kyung Hee University,약학대학,졸업생 정보 없음
+P0199,구태영,Taeyoung Koo,Kyung Hee University,약학대학,졸업생 정보 없음
+P0200,김보형,Bo‐Hyung Kim,Kyung Hee University,약학대학,졸업생 정보 없음
+P0201,이상열,Sang Youl Rhee,Kyung Hee University,약학대학,졸업생 정보 없음
+P0203,장동진,Dong Jin Jang,Kyung Hee University,약학대학,졸업생 정보 없음
+P0204,강원구,Wonku Kang,Chung-Ang University,약학대학; 규제약학과,졸업생 정보 없음
+P0205,김은영,Eun Young Kim,Chung-Ang University,약학대학; 규제약학과,졸업생 정보 없음
+P0207,김훈영,Hun Young Kim,Chung-Ang University,약학대학,졸업생 정보 없음
+P0208,나동희,Dong Hee Na,Chung-Ang University,약학대학; 규제약학과,졸업생 정보 없음
+P0209,박현호,Hyun Ho Park,Chung-Ang University,약학대학; 규제약학과,졸업생 정보 없음
+P0210,배지현,Jeehyeon Bae,Chung-Ang University,약학대학,졸업생 정보 없음
+P0211,서원희,Wonhee Suh,Chung-Ang University,약학대학; 규제약학과,졸업생 정보 없음
+P0212,오경수,Kyungsoo Oh,Chung-Ang University,약학대학,졸업생 정보 없음
+P0213,유지호,Jiho Yoo,Chung-Ang University,약학대학,졸업생 정보 없음
+P0215,이상길,Sangkil Lee,Chung-Ang University,약학대학; 규제약학과,졸업생 정보 없음
+P0216,이윤지,Yoonji Lee,Chung-Ang University,약학대학; 규제약학과,졸업생 정보 없음
+P0217,임채욱,Chaeuk Im,Chung-Ang University,약학대학,졸업생 정보 없음
+P0218,정경혜,Kyeong Hye Jeong,Chung-Ang University,약학대학,졸업생 정보 없음
+P0219,정선영,Sun‐Young Jung,Chung-Ang University,약학대학; 규제약학과,졸업생 정보 없음
+P0220,조사연,Sayeon Cho,Chung-Ang University,약학대학,졸업생 정보 없음
+P0221,조재범,Jaebeom Cho,Chung-Ang University,약학대학,졸업생 정보 없음
+P0222,허주영,Joo Young Huh,Chung-Ang University,약학대학,졸업생 정보 없음
+P0223,김근배,Geun‐Bae Kim,Chung-Ang University,생명공학대학; - 동물생명공학전공,졸업생 정보 없음
+P0224,홍영호,Yeong Ho Hong,Chung-Ang University,생명공학대학; - 동물생명공학전공,졸업생 정보 없음
+P0225,길동용,Dong Yong Kil,Chung-Ang University,생명공학대학; - 동물생명공학전공,졸업생 정보 없음
+P0226,허선진,Sun Jin Hur,Chung-Ang University,생명공학대학; - 동물생명공학전공,졸업생 정보 없음
+P0229,이찬,Chan Lee,Chung-Ang University,생명공학대학,논문 프로필 없음; 졸업생 정보 없음
+P0230,하상도,Sangdo Ha,Chung-Ang University,생명공학대학,졸업생 정보 없음
+P0231,전향숙,Hyang Sook Chun,Chung-Ang University,생명공학대학,졸업생 정보 없음
+P0233,이홍진,Hong Jin Lee,Chung-Ang University,생명공학대학,졸업생 정보 없음
+P0234,박종필,Jong Pil Park,Chung-Ang University,생명공학대학,졸업생 정보 없음
+P0235,육현균,Hyun‐Gyun Yuk,Chung-Ang University,생명공학대학,졸업생 정보 없음
+P0236,최창순,Changsun Choi,Chung-Ang University,생명공학대학,졸업생 정보 없음
+P0237,이선영,Seon Yeong Lee,Chung-Ang University,생명공학대학,졸업생 정보 없음
+P0238,손양주,Yangju Son,Chung-Ang University,생명공학대학,졸업생 정보 없음
+P0239,어혜윤,Hyeyoon Eo,Chung-Ang University,생명공학대학,졸업생 정보 없음
+P0240,이긍표,Gung Pyo Lee,Chung-Ang University,- 식물생명공학전공,졸업생 정보 없음
+P0241,한상욱,Sang‐Wook Han,Chung-Ang University,- 식물생명공학전공,졸업생 정보 없음
+P0242,이진욱,Jinwook Lee,Chung-Ang University,- 식물생명공학전공,졸업생 정보 없음
+P0244,이지선,Jisun H.J. Lee,Chung-Ang University,- 식물생명공학전공,졸업생 정보 없음
+P0246,윤정기,Jeong‐Kee Yoon,Chung-Ang University,시스템생명공학과,졸업생 정보 없음
+P0247,이규호,Gyu Ho Lee,Chung-Ang University,규제약학과,졸업생 정보 없음
+P0248,오일환,Il-Hwan Oh,The Catholic University of Korea,의과학과,졸업생 정보 없음
+P0249,손아름,Areum Sohn,University of Ulsan,의과학대학원,졸업생 정보 없음
+P0250,구하림,Harim Koo,University of Ulsan,의과학대학원,졸업생 정보 없음
+P0251,조경상,Kyoung Sang Cho,Konkuk University,생명과학대학; 생명과학특성학과,졸업생 정보 없음
+P0252,윤영대,Youngdae Yoon,Konkuk University,생명과학대학,졸업생 정보 없음
+P0253,이경우,Kyung-Woo Lee,Konkuk University,생명과학대학,졸업생 정보 없음
+P0254,김휘율,Hwi‐Yool Kim,Konkuk University,수의과대학,졸업생 정보 없음
+P0255,박승용,Seung‐Yong Park,Konkuk University,수의과대학,졸업생 정보 없음
+P0256,정순욱,Soon‐wuk Jeong,Konkuk University,수의과대학,졸업생 정보 없음
+P0257,송창선,Chang‐Seon Song,Konkuk University,수의과대학,졸업생 정보 없음
+P0258,박희명,Hee-Myung Park,Konkuk University,수의과대학,졸업생 정보 없음
+P0259,최농훈,Nonghoon Choe,Konkuk University,수의과대학,졸업생 정보 없음
+P0260,임현정,Hyunjung Lim,Konkuk University,수의과대학,졸업생 정보 없음
+P0261,최양규,Yang Kyu Choi,Konkuk University,수의과대학,졸업생 정보 없음
+P0263,강영선,Young-Sun Kang,Konkuk University,수의과대학,졸업생 정보 없음
+P0264,이정익,Jeong-Ik Lee,Konkuk University,수의과대학,졸업생 정보 없음
+P0265,김준영,Joon Young Kim,Konkuk University,수의과대학,졸업생 정보 없음
+P0266,고윤영,Yun Young Go,Konkuk University,수의과대학,졸업생 정보 없음
+P0267,김우석,Woosuk Kim,Konkuk University,수의과대학,졸업생 정보 없음
+P0268,현재은,Jaeeun Hyun,Konkuk University,수의과대학,졸업생 정보 없음
+P0269,남아령,Aryung Nam,Konkuk University,수의과대학,졸업생 정보 없음
+P0270,김무영,Mu Young Kim,Konkuk University,수의과대학,논문 프로필 없음; 졸업생 정보 없음
+P0271,이수형,Suhyung Lee,Konkuk University,수의과대학,졸업생 정보 없음
+P0272,강린우,Lin-Woo Kang,Konkuk University,생명과학특성학과,졸업생 정보 없음
+P0273,김동학,Donghak Kim,Konkuk University,생명과학특성학과,졸업생 정보 없음
+P0274,윤혜섭,Hye Sup Yun,Konkuk University,생명과학특성학과,졸업생 정보 없음
+P0275,이임순,Im Soon Lee,Konkuk University,생명과학특성학과,졸업생 정보 없음
+P0276,이재석,Jaeseok Lee,Konkuk University,생명과학특성학과,논문 프로필 없음; 졸업생 정보 없음
+P0277,한정수,Jung-Soo Han,Konkuk University,생명과학특성학과,졸업생 정보 없음
+P0278,배동호,Dong‐Ho Bae,Konkuk University,축산식품생명공학과,졸업생 정보 없음
+P0279,최미정,Mi-Jung Choi,Konkuk University,축산식품생명공학과,졸업생 정보 없음
+P0280,여주동,JuDong Yeo,Konkuk University,축산식품생명공학과,졸업생 정보 없음
+P0281,최윤상,Yun Sang Choi,Konkuk University,축산식품생명공학과,졸업생 정보 없음
+P0282,고은영,Eun Young Ko,Konkuk University,축산식품생명공학과,졸업생 정보 없음
+P0283,강규영,Kyu-Young Kang,Dongguk University,바이오시스템대학,졸업생 정보 없음
+P0284,최원준,Won Jun Choi,Dongguk University,약학과,졸업생 정보 없음
+P0285,최영희,Young Hee Choi,Dongguk University,약학과,졸업생 정보 없음
+P0286,최창익,Chang‐Ik Choi,Dongguk University,약학과,졸업생 정보 없음
+P0287,홍은진,Mary Hong,Dongguk University,약학과,졸업생 정보 없음
+P0291,이민호,Minho Lee,Dongguk University,생명과학과,졸업생 정보 없음
+P0292,김태종,Tae-Jong Kim,Kookmin University,임산생명공학과,졸업생 정보 없음
+P0293,이태주,Tai Ju Lee,Kookmin University,임산생명공학과,졸업생 정보 없음
+P0294,곽민진,Min-Jin Kwak,Kookmin University,임산생명공학과,졸업생 정보 없음
+P0295,엄수현,Soohyun Um,Kookmin University,임산생명공학과,졸업생 정보 없음
+P0296,오상택,Sangtaek Oh,Kookmin University,융합바이오공학과,졸업생 정보 없음
+P0297,이영석,Youngseok Lee,Kookmin University,융합바이오공학과,졸업생 정보 없음
+P0298,이인형,Inhyung Lee,Kookmin University,융합바이오공학과,졸업생 정보 없음
+P0299,곽수량,Suryang Kwak,Kookmin University,융합바이오공학과,졸업생 정보 없음
+P0300,서주현,Joo-Hyun Seo,Kookmin University,융합바이오공학과,졸업생 정보 없음
+P0302,박주환,Juhwan Park,Kookmin University,융합바이오공학과,졸업생 정보 없음
+P0303,손보람,Boram Son,Kookmin University,융합바이오공학과,졸업생 정보 없음
+P0304,이회석,Hoe-Suk Lee,Kookmin University,융합바이오공학과,졸업생 정보 없음
+P0305,이창배,Changbae LEE,Kookmin University,산림환경시스템학과,졸업생 정보 없음
+P0306,박지현,Jihyun Park,Kookmin University,산림환경시스템학과,졸업생 정보 없음
+P0307,윤태경,Tae Kyung Yoon,Kookmin University,산림환경시스템학과,졸업생 정보 없음
+P0308,강유진,Yoojin Kang,Kookmin University,산림환경시스템학과,졸업생 정보 없음
+P0309,임철희,Chul-Hee Lim,Kookmin University,산림환경시스템학과,졸업생 정보 없음
+P0310,김종성,Jongsung Kim,Kookmin University,정보보안암호수학과,논문 프로필 없음; 졸업생 정보 없음
+P0311,박원광,Won-Kwang Park,Kookmin University,정보보안암호수학과,졸업생 정보 없음
+P0312,오세욱,Se-Wook Oh,Kookmin University,식품영양학과,졸업생 정보 없음
+P0314,남혜경,Hye-Kyoung Nam,Kookmin University,식품영양학과,졸업생 정보 없음
+P0315,전수경,Doctor Sookyoung Jeon,Kookmin University,식품영양학과,졸업생 정보 없음
+P0317,강덕희,Duk‐Hee Kang,Ewha Womans University,의과대학,졸업생 정보 없음
+P0318,강서영,Seo Young Kang,Ewha Womans University,의과대학,졸업생 정보 없음
+P0319,강인숙,In Sook Kang,Ewha Womans University,의과대학,졸업생 정보 없음
+P0320,강제원,Kang Je-Won,Ewha Womans University,의과대학,졸업생 정보 없음
+P0321,공경애,Kyung Ae Kong,Ewha Womans University,의과대학,졸업생 정보 없음
+P0322,권형주,Hyungju Kwon,Ewha Womans University,의과대학,졸업생 정보 없음
+P0323,금지영,Jiyoung Keum,Ewha Womans University,의과대학,졸업생 정보 없음
+P0325,김건하,Geon Ha Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0326,김광현,Kwang Hyun Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0327,김남은,Nam Eun Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0328,김동연,Dong Yeon Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0329,김미경,Mi‐Kyung Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0330,김민석,Minsuk Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0331,김선종,Sun‐Jong Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0333,김수경,Soo‐Kyung Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0334,김수인,Soo In Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0335,김승정,Seung-Jung Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0336,김영구,,Ewha Womans University,의과대학,논문 프로필 없음; 졸업생 정보 없음
+P0337,김영주,Young Ju Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0338,김예미,Yemi Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0340,김원중,Wonjoong Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0341,김윤진,Youn Jin Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0342,김윤환,Yun Hwan Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0344,김지섭,Ji-Sup Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0345,김진실,Jin Sil Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0346,김진우,Jin‐Woo Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0347,김충종,Chung-Jong Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0348,김태헌,,Ewha Womans University,의과대학,논문 프로필 없음; 졸업생 정보 없음
+P0349,김한수,Han Su Kim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0350,남은미,Eun Mi Nam,Ewha Womans University,의과대학,졸업생 정보 없음
+P0351,노경태,Gyoung Tae Noh,Ewha Womans University,의과대학,졸업생 정보 없음
+P0352,노영학,Young Hak Roh,Ewha Womans University,의과대학,졸업생 정보 없음
+P0353,류연주,,Ewha Womans University,의과대학,논문 프로필 없음; 졸업생 정보 없음
+P0354,문병인,Byung-In Moon,Ewha Womans University,의과대학,졸업생 정보 없음
+P0355,문영철,Yeung‐Chul Mun,Ewha Womans University,의과대학,졸업생 정보 없음
+P0356,민석기,Seog Ki Min,Ewha Womans University,의과대학,졸업생 정보 없음
+P0358,박보영,Bo Young Park,Ewha Womans University,의과대학,졸업생 정보 없음
+P0359,박상희,Sanghui Park,Ewha Womans University,의과대학,졸업생 정보 없음
+P0361,박영미,Young Mi Park,Ewha Womans University,의과대학,졸업생 정보 없음
+P0362,박영훈,Young-Hun Park,Ewha Womans University,의과대학,졸업생 정보 없음
+P0363,박영희,,Ewha Womans University,의과대학,논문 프로필 없음; 졸업생 정보 없음
+P0364,박은미,Eun‐Mi Park,Ewha Womans University,의과대학,졸업생 정보 없음
+P0365,박은애,Eun Ae Park,Ewha Womans University,의과대학,졸업생 정보 없음
+P0366,박장원,Jang-Won Park,Ewha Womans University,의과대학,졸업생 정보 없음
+P0367,박정현,Jung Hyun Park,Ewha Womans University,의과대학,졸업생 정보 없음
+P0369,박준범,Jun-Bum Park,Ewha Womans University,의과대학,졸업생 정보 없음
+P0370,박현석,Hyun-Seok Park,Ewha Womans University,의과대학,졸업생 정보 없음
+P0371,배정호,Jung Ho Bae,Ewha Womans University,의과대학,졸업생 정보 없음
+P0372,배지윤,Ji Yun Bae,Ewha Womans University,의과대학,졸업생 정보 없음
+P0373,배하석,Hasuk Bae,Ewha Womans University,의과대학,졸업생 정보 없음
+P0374,백승민,Seung Min Baik,Ewha Womans University,의과대학,졸업생 정보 없음
+P0375,변성완,Sung Wan Byun,Ewha Womans University,의과대학,졸업생 정보 없음
+P0376,변지연,Ji Yeon Byun,Ewha Womans University,의과대학,졸업생 정보 없음
+P0377,송도경,Do Kyung Song,Ewha Womans University,의과대학,졸업생 정보 없음
+P0378,송승환,Seung Hwan Song,Ewha Womans University,의과대학,졸업생 정보 없음
+P0379,송태진,Tae‐Jin Song,Ewha Womans University,의과대학,졸업생 정보 없음
+P0380,신동우,Dong Woo Shin,Ewha Womans University,의과대학,졸업생 정보 없음
+P0381,신승호,Seung-Ho Shin,Ewha Womans University,의과대학,졸업생 정보 없음
+P0382,신정아,,Ewha Womans University,의과대학,논문 프로필 없음; 졸업생 정보 없음
+P0383,심경원,Kyung Won Shim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0384,심기남,Ki‐Nam Shim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0385,심성신,Sung Sin Sim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0386,심지수,Jisu Shim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0388,안영호,Young‐Ho Ahn,Ewha Womans University,의과대학,졸업생 정보 없음
+P0389,안현규,Hyun Kyu Ahn,Ewha Womans University,의과대학,졸업생 정보 없음
+P0390,양나래,Narae Yang,Ewha Womans University,의과대학,졸업생 정보 없음
+P0391,양현종,Hyeon Jong Yang,Ewha Womans University,의과대학,졸업생 정보 없음
+P0392,오혜원,Hyewon Oh,Ewha Womans University,의과대학,졸업생 정보 없음
+P0393,우소연,Soyoun Woo,Ewha Womans University,의과대학,졸업생 정보 없음
+P0394,우주현,Joohyun Woo,Ewha Womans University,의과대학,졸업생 정보 없음
+P0395,원태희,Tae Hee Won,Ewha Womans University,의과대학,졸업생 정보 없음
+P0396,유승희,Seung Hee Yoo,Ewha Womans University,의과대학,졸업생 정보 없음
+P0398,윤병호,Byung‐Ho Yoon,Ewha Womans University,의과대학,졸업생 정보 없음
+P0399,윤수정,Sujung J. Yoon,Ewha Womans University,의과대학,졸업생 정보 없음
+P0400,윤주천,Joo Chun Yoon,Ewha Womans University,의과대학,졸업생 정보 없음
+P0401,윤지영,Jiyoung Yoon,Ewha Womans University,의과대학,졸업생 정보 없음
+P0402,이선영,,Ewha Womans University,의과대학,논문 프로필 없음; 졸업생 정보 없음
+P0403,이선화,Sun Hwa Lee,Ewha Womans University,의과대학,졸업생 정보 없음
+P0404,이수영,Soo Young Lee,Ewha Womans University,의과대학,졸업생 정보 없음
+P0405,이윤택,Yoontaek Lee,Ewha Womans University,의과대학,졸업생 정보 없음
+P0406,이재희,Jaehee Lee,Ewha Womans University,의과대학,논문 프로필 없음; 졸업생 정보 없음
+P0407,이정원,Jung Won Lee,Ewha Womans University,의과대학,졸업생 정보 없음
+P0408,이지수,Jisoo Lee,Ewha Womans University,의과대학,졸업생 정보 없음
+P0409,이진화,Jinhwa Lee,Ewha Womans University,의과대학,졸업생 정보 없음
+P0411,이혜진,Hyejin Lee,Ewha Womans University,의과대학,졸업생 정보 없음
+P0412,이호윤,Ho Yun Lee,Ewha Womans University,의과대학,졸업생 정보 없음
+P0413,임수미,Soo-Mi Lim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0414,임우성,Woosung Lim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0415,임재향,Jae Hyang Lim,Ewha Womans University,의과대학,졸업생 정보 없음
+P0416,장윤경,Yoonkyung Chang,Ewha Womans University,의과대학,졸업생 정보 없음
+P0417,전상우,Sang-woo Jeon,Ewha Womans University,의과대학,졸업생 정보 없음
+P0422,정성철,Sung‐Chul Jung,Ewha Womans University,의과대학,졸업생 정보 없음
+P0423,정수연,,Ewha Womans University,의과대학,논문 프로필 없음; 졸업생 정보 없음
+P0424,정율원,Yoolwon Jeong,Ewha Womans University,의과대학,졸업생 정보 없음
+P0425,정지향,Ji Hyang Jeong,Ewha Womans University,의과대학,졸업생 정보 없음
+P0427,정태동,Tae‐Dong Jeong,Ewha Womans University,의과대학,졸업생 정보 없음
+P0428,정혜경,Hye‐Kyung Jung,Ewha Womans University,의과대학,졸업생 정보 없음
+P0429,정혜선,Hae‐Sun Chung,Ewha Womans University,의과대학,졸업생 정보 없음
+P0430,조도상,Dosang Cho,Ewha Womans University,의과대학,졸업생 정보 없음
+P0431,조수영,Sooyoung Cho,Ewha Womans University,의과대학,졸업생 정보 없음
+P0432,조수창,Soo Chang Cho,Ewha Womans University,의과대학,졸업생 정보 없음
+P0433,조아라,Ala Jo,Ewha Womans University,의과대학,졸업생 정보 없음
+P0434,조인정,In‐Jeong Cho,Ewha Womans University,의과대학,졸업생 정보 없음
+P0435,조정민,Jungmin Jo,Ewha Womans University,의과대학,졸업생 정보 없음
+P0437,채지선,Ji Seon Chae,Ewha Womans University,의과대학,졸업생 정보 없음
+P0438,최경희,Kyunghee Jung‐Choi,Ewha Womans University,의과대학,졸업생 정보 없음
+P0439,최선아,Sun Ah Choi,Ewha Womans University,의과대학,졸업생 정보 없음
+P0440,최유원,You Won Choi,Ewha Womans University,의과대학,졸업생 정보 없음
+P0441,최윤희,Younhee J. Choi,Ewha Womans University,의과대학,졸업생 정보 없음
+P0442,최은오,Euno Choi,Ewha Womans University,의과대학,졸업생 정보 없음
+P0443,최장환,Jang‐Hwan Choi,Ewha Womans University,의과대학,졸업생 정보 없음
+P0444,최희정,Hee Jung Choi,Ewha Womans University,의과대학,졸업생 정보 없음
+P0445,태정현,Chung Hyun Tae,Ewha Womans University,의과대학,졸업생 정보 없음
+P0446,편욱범,Wook Bum Pyun,Ewha Womans University,의과대학,졸업생 정보 없음
+P0447,한기환,Ki‐Hwan Han,Ewha Womans University,의과대학,졸업생 정보 없음
+P0448,한후재,Hoo Jae Han,Ewha Womans University,의과대학,졸업생 정보 없음
+P0449,허정원,Jungwon Huh,Ewha Womans University,의과대학,졸업생 정보 없음
+P0451,홍소희,So‐Hee Hong,Ewha Womans University,의과대학,졸업생 정보 없음
+P0452,홍승은,Seung Eun Hong,Ewha Womans University,의과대학,졸업생 정보 없음
+P0453,홍영선,Young Sun Hong,Ewha Womans University,의과대학,졸업생 정보 없음
+P0454,황성은,Sungeun Hwang,Ewha Womans University,의과대학,졸업생 정보 없음
+P0455,황역구,Yeok Gu Hwang,Ewha Womans University,의과대학,졸업생 정보 없음
+P0456,유경하,Kyung‐Ha Ryu,Ewha Womans University,의과대학,졸업생 정보 없음
+P0458,최영철,Yeongchull Choi,Ewha Womans University,의과대학,졸업생 정보 없음
+P0459,홍천표,Chun-Pyo Hong,Ewha Womans University,의과대학,졸업생 정보 없음
+P0460,이종현,Jong-Hyun Lee,Dongduk Women's University,약학대학,졸업생 정보 없음
+P0461,최민식,Min Sik Choi,Dongduk Women's University,약학대학,졸업생 정보 없음
+P0462,이향미,Hyang‐Mi Lee,Dongduk Women's University,약학대학,졸업생 정보 없음
+P0463,최지원,Jiwon Choi,Dongduk Women's University,약학대학,졸업생 정보 없음
+P0464,강수진,Su‐Jin Kang,Dongduk Women's University,약학대학,졸업생 정보 없음
+P0465,오원영,Won Young Oh,Dongduk Women's University,약학대학,졸업생 정보 없음
+P0466,원미애,Miae Won,Dongduk Women's University,약학대학,졸업생 정보 없음
+P0467,이유진,,Sahmyook University,약학대학,논문 프로필 없음; 졸업생 정보 없음
+P0469,고성호,Sungho Ko,CHA University,생명과학대학,졸업생 정보 없음
+P0470,문지숙,Ji Suk Moon,CHA University,생명과학대학,졸업생 정보 없음
+P0471,정지형,Ji Hyung Chung,CHA University,생명과학대학,졸업생 정보 없음
+P0472,이경혜,Kyung-Hye Lee,CHA University,생명과학대학,졸업생 정보 없음
+P0473,강은주,Eunju Kang,CHA University,생명과학대학,졸업생 정보 없음
+P0475,송행석,Haengseok Song,CHA University,생명과학대학,졸업생 정보 없음
+P0477,이상은,Sang‐Eun Lee,CHA University,생명과학대학,졸업생 정보 없음
+P0478,이재호,Jae Ho Lee,CHA University,생명과학대학,졸업생 정보 없음
+P0480,김재환,Jae‐Hwan Kim,CHA University,생명과학대학,졸업생 정보 없음
+P0481,백광현,Kwang‐Hyun Baek,CHA University,생명과학대학,졸업생 정보 없음
+P0482,심성한,Sung Han Shim,CHA University,생명과학대학,졸업생 정보 없음
+P0483,여미지,Miji Yeo,CHA University,생명과학대학,졸업생 정보 없음
+P0484,정제균,Je‐Gun Joung,CHA University,생명과학대학,졸업생 정보 없음
+P0485,황소현,So Hyun Hwang,CHA University,생명과학대학,졸업생 정보 없음
+P0486,김은희,Eun‐Hee Kim,CHA University,약학대학,졸업생 정보 없음
+P0487,김애리,Aeri Kim,CHA University,약학대학,졸업생 정보 없음
+P0488,나영화,Younghwa Na,CHA University,약학대학,졸업생 정보 없음
+P0489,조유희,You‐Hee Cho,CHA University,약학대학,졸업생 정보 없음
+P0490,구윤태,Yoon Tae Goo,CHA University,약학대학,졸업생 정보 없음
+P0491,손현순,Hyun Soon Sohn,CHA University,약학대학,졸업생 정보 없음
+P0492,안홍찬,Hongchan An,CHA University,약학대학,졸업생 정보 없음
+P0493,양영덕,Young Duk Yang,CHA University,약학대학,졸업생 정보 없음
+P0494,최보윤,Boyoon Choi,CHA University,약학대학,졸업생 정보 없음
+P0495,장세은,Se‐Eun Jang,Eulji University,전공안내,졸업생 정보 없음
+P0496,오윤신,Yoon Sin Oh,Eulji University,전공안내,졸업생 정보 없음
+P0497,곽민규,Min‐Kyu Kwak,Eulji University,전공안내,졸업생 정보 없음
+P0498,이창석,Chang Seok Lee,Eulji University,전공안내,졸업생 정보 없음
+P0501,하지현,Jihyeon Ha,Eulji University,학과안내,졸업생 정보 없음
+P0502,오영지,Yeong Ji Oh,Eulji University,식품생명공학전공,졸업생 정보 없음
+P0503,박미라,Mira Park,Eulji University,의과대학소개; 의예과,졸업생 정보 없음
+P0504,한승호,Seung Ho Han,Eulji University,의과대학소개; 의예과,졸업생 정보 없음
+P0505,우란숙,Ran‐Sook Woo,Eulji University,의과대학소개; 의학과,졸업생 정보 없음
+P0506,이기호,Kiho Lee,Eulji University,의과대학소개; 생화학-분자생물학교실,졸업생 정보 없음
+P0507,임춘화,Chun-Hwa Lim,Eulji University,의과대학소개,졸업생 정보 없음
+P0509,박영숙,Young Sook Park,Eulji University,의예과,졸업생 정보 없음
+P0510,박강서,Gang Seo Park,Eulji University,의예과,졸업생 정보 없음
+P0511,민경완,Kyung Wan Min,Eulji University,의예과,졸업생 정보 없음
+P0513,모은경,Eun-Kyung Mo,Eulji University,의예과,졸업생 정보 없음
+P0514,손창남,Chang‐Nam Son,Eulji University,의예과,졸업생 정보 없음
+P0515,오일환,Il Hwan Oh,Eulji University,의예과,졸업생 정보 없음
+P0516,진정연,Jung Yeon Chin,Eulji University,의예과,졸업생 정보 없음
+P0517,나백주,Baeg-Ju Na,Eulji University,의예과,졸업생 정보 없음
+P0518,송대용,Dae‐Yong Song,Eulji University,의학과,졸업생 정보 없음
+P0519,유홍일,Hong‐Il Yoo,Eulji University,의학과,졸업생 정보 없음
+P0520,이정호,Jung Ho Lee,Eulji University,의예과,졸업생 정보 없음
+P0521,신효정,Hyo Jung Shin,Eulji University,생화학-분자생물학교실,졸업생 정보 없음
+P0522,이호정,Hyo Jeong Lee,Eulji University,병리학 (병리학 및 분자의학교실),졸업생 정보 없음
+P0523,위영찬,Young Chan Wi,Eulji University,병리학 (병리학 및 분자의학교실),졸업생 정보 없음
+P0524,김도훈,Do-Hoon Kim,Eulji University,의생명정보학교실,졸업생 정보 없음
+P0525,최희정,Hee Jeong Choi,Eulji University,임상의학교실,졸업생 정보 없음
+P0526,강서영,Seo Young Kang,Eulji University,임상의학교실,졸업생 정보 없음
+P0527,이준혁,Jun‐Hyuk Lee,Eulji University,임상의학교실,졸업생 정보 없음
+P0529,박창훈,Changhoon Park,Eulji University,미생물학-면역학교실,졸업생 정보 없음
+P0530,강병근,Byeonggeun Kang,Eulji University,미생물학-면역학교실,졸업생 정보 없음
+P0531,강준혁,Jun-Hyeok Kang,Eulji University,의예과,졸업생 정보 없음
+P0532,이수주,Soo Joo Lee,Eulji University,신경과학교실,졸업생 정보 없음
+P0533,조수현,Soohyun Cho,Eulji University,신경과학교실,졸업생 정보 없음
+P0534,이정주,Jungju Lee,Eulji University,신경과학교실,졸업생 정보 없음
+P0535,김재국,Jae Guk Kim,Eulji University,신경과학교실,졸업생 정보 없음
+P0536,강근수,Keunsoo Kang,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0537,권지안,Chian Kwon,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0538,김성환,Seong Hwan Kim,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0539,김은주,Eun-Joo Kim,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0540,박헌용,Heonyong Park,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0541,변종회,Jonghoe Byun,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0542,한규동,Kyudong Han,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0543,오만환,Man-Hwan Oh,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0544,현정은,Jeongeun Hyun,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0545,차혜지,Hye Ji Cha,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0546,유영상,Youngsang You,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0547,문세영,Seyoung Mun,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0548,강대경,Dae‐Kyung Kang,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0549,강성택,Sung‐Taeg Kang,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0550,김인호,In Ho Kim,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0551,김현,Hoon Kim,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0552,김현범,Hyeun Bum Kim,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0554,신지훈,,Dankook University,바이오융합대학,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0555,이애경,Ae Kyung Lee,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0556,채원병,Won Byoung Chae,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0558,조성보,Sungbo Cho,Dankook University,바이오융합대학,연구실 홈페이지 못 찾음
+P0560,김규봉,Kyu‐Bong Kim,Dankook University,약학대학,연구실 홈페이지 못 찾음
+P0561,박소영,So-Young Park,Dankook University,약학대학,연구실 홈페이지 못 찾음
+P0562,서동완,Dong Wan Seo,Dankook University,약학대학,연구실 홈페이지 못 찾음
+P0563,이윤정,Yun Jeong Lee,Dankook University,약학대학,연구실 홈페이지 못 찾음
+P0565,호명진,Myoung Jin Ho,Dankook University,약학대학,연구실 홈페이지 못 찾음
+P0566,권호장,Ho Jang Kwon,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0567,박일용,Ilyong Park,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0568,박정수,Jeong Su Park,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0569,성연선,Yeon‐Sun Seong,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0570,오승훈,Seunghoon Oh,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0571,이승하,Seung Ha Lee,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0572,채유미,Yoomi Chae,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0573,하미나,Mi Na Ha,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0574,이용원,Yong Weon Yi,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0575,김동준,,Dankook University,의과대학,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0576,오태환,Taehwan Oh,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0577,이삭,Sak Lee,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0578,강동희,,Dankook University,의과대학,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0579,강봉진,Bong Jin Kang,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0580,강태수,Tae Soo Kang,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0581,김도희,,Dankook University,의과대학,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0582,김명화,Myung Hwa Kim,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0583,김윤섭,Younseop Kim,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0584,김희진,,Dankook University,의과대학,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0585,남궁환,Hwan Namgung,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0586,류경민,Kyoung Min Ryu,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0587,모지훈,Ji‐Hun Mo,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0588,민준원,Jun Won Min,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0589,박미현,Mihyun Park,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0590,박병철,Byung Cheol Park,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0591,박재석,Jae Seuk Park,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0592,박현우,Hyun-Woo Park,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0593,박희곤,Hee Kon Park,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0594,송상현,Sang‐Hyun Song,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0595,송영목,Young-Mok Song,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0596,송일한,Il Han Song,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0597,신정은,Jeong Eun Shin,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0598,신현덕,Hyun Duk Shin,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0599,이건송,Kun Song Lee,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0600,이명용,Myung‐Yong Lee,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0601,이미정,Mee Jeong Lee,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0602,이상구,Sang Koo Lee,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0603,이순일,Soon Il Lee,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0604,이정재,Jung Jae Lee,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0605,이지영,Ji-Young Rhee,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0606,장명철,Myung-Chul Chang,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0609,조성호,Sungho Jo,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0610,조준성,Chun-Sung Cho,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0611,최상규,Sang Gyu Choi,Dankook University,의과대학,졸업생 정보 없음
+P0612,최한주,Han Joo Choi,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0613,강봉희,Bong-Hui Kang,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0614,김경민,,Dankook University,의과대학,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0616,김동욱,Dong-Wook Kim,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0617,김상윤,Sang Yoon Kim,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0618,김소미,So Mi Kim,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0619,김형일,Hyung Il Kim,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0620,남광우,Kwangwoo Nam,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0621,마대성,Dae Sung Ma,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0622,박효정,Hyojung Park,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0623,유원상,Won Sang Yoo,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0624,윤정호,Jung-Ho Yun,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0625,이민영,Min Young Lee,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0626,이정배,Jeongbae Rhie,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0627,정재우,Jaewoo Chung,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0628,최민정,Min Jeong Choi,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0629,권혁찬,Hyeok Chan Kwon,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0630,김길환,Kil Hwan Kim,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0631,김성진,Sung Jin Kim,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0632,김용오,Yong Oh Kim,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0634,서유미,Yumi Seo,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0635,신혜림,Hye‐Rim Shin,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0636,유신혁,Shin Hyuk Yoo,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0637,이성철,Sungchul Lee,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0638,이용진,Yongjin Yi,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0639,장석빈,Sukbin Jang,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0640,전홍배,Hong Bae Jeon,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0641,정영학,Young Hak Chung,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0642,정인호,In‐Ho Jung,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0643,조정래,Jung Rae Cho,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0644,최미수,Mi Soo Choi,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0645,노인섭,Insup Noh,Seoul National University of Science and Technology,화공생명공학과,졸업생 정보 없음
+P0646,유계상,Kye Sang Yoo,Seoul National University of Science and Technology,화공생명공학과,졸업생 정보 없음
+P0647,박진원,Jin-won Park,Seoul National University of Science and Technology,화공생명공학과; 방사선의과학전공,졸업생 정보 없음
+P0650,박성희,Sung Hee Park,Seoul National University of Science and Technology,식품생명공학과,졸업생 정보 없음
+P0651,공민석,Minsuk Kong,Seoul National University of Science and Technology,식품생명공학과; 나노바이오융합공학과,졸업생 정보 없음
+P0652,서승오,Seung‐Oh Seo,Seoul National University of Science and Technology,식품생명공학과,졸업생 정보 없음
+P0654,유현종,Hyunjong Yu,Seoul National University of Science and Technology,식품생명공학과,졸업생 정보 없음
+P0655,노혜란,Hyeran Noh,Seoul National University of Science and Technology,바이오메디컬학과; 방사선의과학전공,졸업생 정보 없음
+P0656,최문성,Moonsung Choi,Seoul National University of Science and Technology,바이오메디컬학과,졸업생 정보 없음
+P0658,조현우,Hyun Woo Cho,Seoul National University of Science and Technology,방사선의과학전공,졸업생 정보 없음
+P0659,김승겸,Seung Kyum Kim,Seoul National University of Science and Technology,방사선의과학전공,졸업생 정보 없음
+P0660,정익재,Ik-jae Chung,Seoul National University of Science and Technology,방사선의과학전공,졸업생 정보 없음
+P0662,김관래,Kwanlae Kim,Seoul National University of Science and Technology,나노바이오융합공학과,졸업생 정보 없음
+P0663,김성권,,Seoul National University of Science and Technology,글로벌철도시스템학과(계약학과),논문 프로필 없음; 졸업생 정보 없음
+P0664,이동진,Dong‐Jin Lee,Seoul National University of Science and Technology,글로벌철도시스템학과(계약학과),졸업생 정보 없음
+P0665,이영균,Youngkyun Lee,Kyungpook National University,경조직-바이오치아재생연구소,졸업생 정보 없음
+P0666,하정홍,Jung‐Hong Ha,Kyungpook National University,경조직-바이오치아재생연구소,졸업생 정보 없음
+P0667,안창현,Chang Hyeon Ahn,Kyungpook National University,경조직-바이오치아재생연구소,졸업생 정보 없음
+P0668,권영은,Young-Eun Kwon,Kyungpook National University,경조직-바이오치아재생연구소,졸업생 정보 없음
+P0669,이원하,Won-Ha Lee,Kyungpook National University,생명공학부,졸업생 정보 없음
+P0670,이상규,Sang-Gyu Lee,Kyungpook National University,생명공학부,졸업생 정보 없음
+P0671,정선요,Sun-Yo Jung,Kyungpook National University,생명공학부,졸업생 정보 없음
+P0672,김상룡,Sang Ryong Kim,Kyungpook National University,생명공학부,논문 프로필 없음; 졸업생 정보 없음
+P0673,조동형,Dong-Hyung Cho,Kyungpook National University,생명공학부,졸업생 정보 없음
+P0675,염은별,Eunbyul Yeom,Kyungpook National University,생명공학부,졸업생 정보 없음
+P0676,김사현,Sa-Hyun Kim,Kyungpook National University,생명공학부,졸업생 정보 없음
+P0677,김기범,Kee-Beom Kim,Kyungpook National University,생명공학부,졸업생 정보 없음
+P0679,유지승,Ji-Seung Yoo,Kyungpook National University,생명공학부,졸업생 정보 없음
+P0680,강현주,Hyunju Kang,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,졸업생 정보 없음
+P0682,박희수,Hee-Soo Park,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,졸업생 정보 없음
+P0683,이새벽,Sae-Byuk Lee,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,졸업생 정보 없음
+P0685,정영훈,Young Hoon Jung,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,졸업생 정보 없음
+P0686,정우식,Woo Sik Jeong,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,졸업생 정보 없음
+P0687,조영제,Young-Je Cho,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,졸업생 정보 없음
+P0688,최덕영,Deok-Yeong Choe,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,졸업생 정보 없음
+P0689,강건욱,Keon Wook Kang,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0690,김대덕,Dae-Duk Kim,Seoul National University,College of Pharmacy,논문 프로필 없음; 졸업생 정보 없음
+P0691,김상희,Sanghee Kim,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0692,김은경,E. Euni Lee,Seoul National University,College of Pharmacy,논문 프로필 없음; 졸업생 정보 없음
+P0694,마크디더리치,Marc Diederich,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0695,박성규,Sung-Gyoo Park,Seoul National University,College of Pharmacy,연구실 홈페이지 못 찾음
+P0696,박성혁,Sunghyouk Park,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0697,백두산,Du-San Baek,Seoul National University,College of Pharmacy,논문 프로필 없음; 졸업생 정보 없음
+P0699,신민규,Min-Kyoo Shin,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0700,오동찬,Dong-Chan Oh,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0701,오유경,Yu-Kyoung Oh,Seoul National University,College of Pharmacy,연구실 홈페이지 못 찾음
+P0702,이병훈,Byung Hoon Lee,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0703,이상국,Sang Kook Lee,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0704,이우인,WooIn Lee,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0705,이윤희,Yun Hee Lee,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0706,이장익,Jangik Ike Lee,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0707,이정원,Jung Weon Lee,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0708,이주연,Lee Ju-Yeun,Seoul National University,College of Pharmacy,논문 프로필 없음; 졸업생 정보 없음
+P0709,이주용,Juyong Lee,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0710,이지연,Jeeyeon Lee,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0711,이호영,Ho Young Lee,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0714,창동신,Tong-Shin Chang,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0715,한병우,Byung Woo Han,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0717,강종헌,,Seoul National University,Chemical and Biological Engineering,졸업생 정보 없음
+P0718,김대형,,Seoul National University,Chemical and Biological Engineering,졸업생 정보 없음
+P0720,김소연,,Seoul National University,Chemical and Biological Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0721,김연상,,Seoul National University,Chemical and Biological Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0723,김정욱,,Seoul National University,Chemical and Biological Engineering,논문 프로필 없음
+P0725,김지현,,Seoul National University,Chemical and Biological Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0727,류재윤,,Seoul National University,Chemical and Biological Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0728,박정원,,Seoul National University,Chemical and Biological Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0729,백승렬,,Seoul National University,Chemical and Biological Engineering,졸업생 정보 없음
+P0730,성영은,,Seoul National University,Chemical and Biological Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0731,안경현,Kyung Hyun Ahn,Seoul National University,Chemical and Biological Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0732,오준학,,Seoul National University,Chemical and Biological Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0734,윤제용,,Seoul National University,Chemical and Biological Engineering,연구실 홈페이지 못 찾음
+P0735,윤태준,,Seoul National University,Chemical and Biological Engineering,졸업생 정보 없음
+P0736,이건희,,Seoul National University,Chemical and Biological Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0737,이규태,,Seoul National University,Chemical and Biological Engineering,졸업생 정보 없음
+P0739,이종민,,Seoul National University,Chemical and Biological Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0740,이종찬,,Seoul National University,Chemical and Biological Engineering,졸업생 정보 없음
+P0741,이창하,,Seoul National University,Chemical and Biological Engineering,졸업생 정보 없음
+P0742,정유성,Yousung Jung,Seoul National University,Chemical and Biological Engineering,졸업생 정보 없음
+P0747,홍무선,Moo Sun Hong,Seoul National University,Chemical and Biological Engineering,졸업생 정보 없음
+P0748,황석연,,Seoul National University,Chemical and Biological Engineering,연구실 홈페이지 못 찾음
+P0750,고준석,Junseock Koh,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0751,공영윤,Young-Yun Kong,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0753,김재범,Jae Bum Kim,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0754,김종서,Jong-Seo Kim,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0756,김현아,Joy Kim,Seoul National University,School of Biological Sciences,논문 프로필 없음
+P0757,김형,Hyoung Kim,Seoul National University,School of Biological Sciences,논문 프로필 없음
+P0760,라젠드라 카르키,Rajendra Karki,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0761,마틴 슈타이네거,Martin Steinegger,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0762,박상우,Sang Woo Park,Seoul National University,School of Biological Sciences,논문 프로필 없음; 졸업생 정보 없음
+P0763,박주홍,Joo-Hong Park,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0764,백대현,Daehyun Baek,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0765,백민경,Minkyung Baek,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0766,백성희,Sung Hee Baek,Seoul National University,School of Biological Sciences,논문 프로필 없음; 졸업생 정보 없음
+P0767,석영재,Yeong-Jae Seok,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0769,신근유,Kunyoo Shin,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0770,신승관,Seunggwan Shin,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0771,신혜영,Hyeyoung Shin,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0773,안광석,Kwangseog Ahn,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0774,윤태영,Tae-Young Yoon,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0775,이원재,Won-Jae Lee,Seoul National University,School of Biological Sciences,논문 프로필 없음
+P0776,이유리,Yuree Lee,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0777,이은주,Eun Ju Lee,Seoul National University,School of Biological Sciences,논문 프로필 없음; 졸업생 정보 없음
+P0778,이일하,Ilha Lee,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0779,이준호,Junho Lee,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0780,이지영,Ji-Young Lee,Seoul National University,School of Biological Sciences,논문 프로필 없음
+P0781,이현숙,Hyunsook Lee,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0783,임영운,Young Woon Lim,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0784,장원열,Wonyul Jang,Seoul National University,School of Biological Sciences,논문 프로필 없음; 졸업생 정보 없음
+P0786,정종경,Jongkyeong Chung,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0787,정충원,Choongwon Jeong,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0788,조형택,Hyung-Taeg Cho,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0791,최석우,Sukwoo Choi,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0792,최성화,Sunghwa Choe,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0793,최연희,Yeonhee Choi,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0794,최희정,Hee-Jung Choi,Seoul National University,School of Biological Sciences,논문 프로필 없음; 졸업생 정보 없음
+P0795,허원기,Won-Ki Huh,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0797,황대희,Daehee Hwang,Seoul National University,School of Biological Sciences,졸업생 정보 없음
+P0799,박성규,Song-kyu Park,Korea University,College of Pharmacy,졸업생 정보 없음
+P0800,이기호,Ki-Ho Lee,Korea University,College of Pharmacy,졸업생 정보 없음
+P0801,변영주,Young-Joo Byun,Korea University,College of Pharmacy,졸업생 정보 없음
+P0802,이은희,Eun-Hee Lee,Korea University,College of Pharmacy,논문 프로필 없음; 졸업생 정보 없음
+P0803,김정기,Jung Ki Kim,Korea University,College of Pharmacy,논문 프로필 없음; 졸업생 정보 없음
+P0805,최수안,Su A Choi,Korea University,College of Pharmacy,논문 프로필 없음; 졸업생 정보 없음
+P0806,이재우,Jae Woo Lee,Korea University,College of Pharmacy,논문 프로필 없음; 졸업생 정보 없음
+P0807,한상훈,Sang Hoon Han,Korea University,College of Pharmacy,졸업생 정보 없음
+P0808,안동준,Dong June Ahn,Korea University,Chemical and Biological Engineering,졸업생 정보 없음
+P0809,백세웅,Se-Woong Baek,Korea University,Chemical and Biological Engineering,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0810,방준하,Joona Bang,Korea University,Chemical and Biological Engineering,연구실 홈페이지 못 찾음
+P0812,조진한,Jinhan Cho,Korea University,Chemical and Biological Engineering,논문 프로필 없음
+P0813,최정규,Jungkyu Choi,Korea University,Chemical and Biological Engineering,연구실 홈페이지 못 찾음
+P0814,정윤장,Yoon Jang Chung,Korea University,Chemical and Biological Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0815,하정숙,Jeong Sook Ha,Korea University,Chemical and Biological Engineering,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0816,허준,June Huh,Korea University,Chemical and Biological Engineering,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0817,임상혁,Sang Hyuk Im,Korea University,Chemical and Biological Engineering,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0819,강정원,Jeong Won Kang,Korea University,Chemical and Biological Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0820,곽상규,Sang Kyu Kwak,Korea University,Chemical and Biological Engineering,졸업생 정보 없음
+P0821,김중배,Jungbae Kim,Korea University,Chemical and Biological Engineering,졸업생 정보 없음
+P0824,이기봉,Ki Bong Lee,Korea University,Chemical and Biological Engineering,졸업생 정보 없음
+P0825,문준혁,Jun Hyuk Moon,Korea University,Chemical and Biological Engineering,논문 프로필 없음
+P0826,오민규,Min-Kyu Oh,Korea University,Chemical and Biological Engineering,졸업생 정보 없음
+P0828,송광호,Kwang Ho Song,Korea University,Chemical and Biological Engineering,연구실 홈페이지 못 찾음
+P0829,심상준,Sang Jun Sim,Korea University,Chemical and Biological Engineering,졸업생 정보 없음
+P0830,원왕연,Wangyun Won,Korea University,Chemical and Biological Engineering,졸업생 정보 없음
+P0833,,Shuangjun Li,Korea University,Chemical and Biological Engineering,연구실 홈페이지 못 찾음
+P0834,고영규,Young-Gyu Ko,Korea University,School of Life Sciences,졸업생 정보 없음
+P0835,고제상,Je Sang Ko,Korea University,School of Life Sciences,졸업생 정보 없음
+P0836,구만복,Man Bock Gu,Korea University,School of Life Sciences,졸업생 정보 없음
+P0837,구승회,Seung-Hoi Koo,Korea University,School of Life Sciences,졸업생 정보 없음
+P0838,김기락,,Korea University,School of Life Sciences,논문 프로필 없음; 졸업생 정보 없음
+P0839,김옥매,Ohkmae Kim Park,Korea University,School of Life Sciences,연구실 홈페이지 못 찾음
+P0840,김충호,Chungho Kim,Korea University,School of Life Sciences,졸업생 정보 없음
+P0841,김태성,Tae Sung Kim,Korea University,School of Life Sciences,졸업생 정보 없음
+P0842,박세호,Seho Park,Korea University,School of Life Sciences,졸업생 정보 없음
+P0844,송현규,Hyun Kyu Song,Korea University,School of Life Sciences,졸업생 정보 없음
+P0845,오은규,Eunkyoo Oh,Korea University,School of Life Sciences,졸업생 정보 없음
+P0846,유은애,,Korea University,School of Life Sciences,논문 프로필 없음; 졸업생 정보 없음
+P0848,윤철원,Cheol-Won Yun,Korea University,School of Life Sciences,졸업생 정보 없음
+P0849,이은진,Eun-Jin Lee,Korea University,School of Life Sciences,논문 프로필 없음; 졸업생 정보 없음
+P0850,이창욱,,Korea University,School of Life Sciences,논문 프로필 없음
+P0851,이헌상,Hunsang Lee,Korea University,School of Life Sciences,연구실 홈페이지 못 찾음
+P0852,이효준,,Korea University,School of Life Sciences,졸업생 정보 없음
+P0855,지성길,Sung-Gil Chi,Korea University,School of Life Sciences,연구실 홈페이지 못 찾음
+P0858,최해웅,Hae Woong Choi,Korea University,School of Life Sciences,졸업생 정보 없음
+P0859,홍정호,Jeong-Ho Hong,Korea University,School of Life Sciences,졸업생 정보 없음
+P0860,황철상,,Korea University,School of Life Sciences,논문 프로필 없음
+P0861,,Daniel Park,Korea University,School of Life Sciences,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0862,강혜영,Hye-Young Kang,Yonsei University,College of Pharmacy,논문 프로필 없음; 연구실 페이지 미확인
+P0863,김국래,Kuk-Rae Kim,Yonsei University,College of Pharmacy,논문 프로필 없음; 연구실 페이지 미확인
+P0864,김동윤,Dongyoon Kim,Yonsei University,College of Pharmacy,논문 프로필 없음; 연구실 페이지 미확인
+P0865,김익연,Ik-Yon Kim,Yonsei University,College of Pharmacy,논문 프로필 없음; 연구실 페이지 미확인
+P0866,남궁완,Wan Namkung,Yonsei University,College of Pharmacy,연구실 페이지 미확인
+P0867,남호정,Hojung Nam,Yonsei University,College of Pharmacy,논문 프로필 없음; 연구실 페이지 미확인
+P0868,이진우,Jinu Lee,Yonsei University,College of Pharmacy,연구실 페이지 미확인
+P0869,강혜진,Hyejin Kang,Yonsei University,Department of Biotechnology,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0870,권호정,Ho Jeong Kwon,Yonsei University,Department of Biotechnology,졸업생 정보 없음
+P0871,노영훈,Young-Hoon Rho,Yonsei University,Department of Biotechnology,논문 프로필 없음; 졸업생 정보 없음
+P0872,반용선,Yong-Sun Bahn,Yonsei University,Department of Biotechnology,졸업생 정보 없음
+P0873,변상균,Sang-Gyun Byun,Yonsei University,Department of Biotechnology,논문 프로필 없음; 졸업생 정보 없음
+P0874,신용,Yong Shin,Yonsei University,Department of Biotechnology,논문 프로필 없음; 졸업생 정보 없음
+P0875,신종식,Jong-Sik Shin,Yonsei University,Department of Biotechnology,논문 프로필 없음
+P0876,오종원,Jong-Won Oh,Yonsei University,Department of Biotechnology,연구실 홈페이지 못 찾음
+P0879,정은지,Eun-Ji Chung,Yonsei University,Department of Biotechnology,논문 프로필 없음; 졸업생 정보 없음
+P0880,정형일,Hyungil Jung,Yonsei University,Department of Biotechnology,논문 프로필 없음; 졸업생 정보 없음
+P0881,조승우,Seung-Woo Cho,Yonsei University,Department of Biotechnology,졸업생 정보 없음
+P0882,한균희,Kyun Hee Han,Yonsei University,Department of Biotechnology,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0884,홍종광,Jong-Kwang Hong,Yonsei University,Department of Biotechnology,연구실 페이지 미확인
+P0885,김윤주,Yun Ju Kim,Yonsei University,Department of Systems Biology,연구실 페이지 미확인
+P0886,김응빈,Eung-Bin Kim,Yonsei University,Department of Systems Biology,연구실 페이지 미확인
+P0887,김지현,Jihyun Kim,Yonsei University,Department of Systems Biology,연구실 페이지 미확인
+P0888,박보연,Bo-Yeon Park,Yonsei University,Department of Systems Biology,논문 프로필 없음; 연구실 페이지 미확인
+P0889,박재홍,Jae-Hong Park,Yonsei University,Department of Systems Biology,논문 프로필 없음; 연구실 페이지 미확인
+P0890,서진수,Jin-Soo Seo,Yonsei University,Department of Systems Biology,연구실 페이지 미확인
+P0891,양성욱,Sung-Wook Yang,Yonsei University,Department of Systems Biology,논문 프로필 없음; 연구실 페이지 미확인
+P0892,양원호,Wonho Yang,Yonsei University,Department of Systems Biology,논문 프로필 없음; 연구실 페이지 미확인
+P0893,신동혁,Donghyuk Shin,Yonsei University,Department of Systems Biology,논문 프로필 없음; 연구실 페이지 미확인
+P0894,이명민,Myung-Min Lee,Yonsei University,Department of Systems Biology,논문 프로필 없음; 연구실 페이지 미확인
+P0895,이상화,Sang-Hwa Lee,Yonsei University,Department of Systems Biology,연구실 페이지 미확인
+P0896,장연규,Yeon-Gyu Jang,Yonsei University,Department of Systems Biology,연구실 페이지 미확인
+P0899,조면행,Myeon-Haeng Cho,Yonsei University,Department of Systems Biology,연구실 페이지 미확인
+P0901,최광민,Kwang-Min Choi,Yonsei University,Department of Systems Biology,논문 프로필 없음; 연구실 페이지 미확인
+P0904,강태건,Tae-Gun Kang,Yonsei University,Department of Biochemistry,논문 프로필 없음; 연구실 페이지 미확인
+P0905,고혁완,Hyuk-Wan Ko,Yonsei University,Department of Biochemistry,졸업생 정보 없음
+P0906,김대원,Dae-Won Kim,Yonsei University,Department of Biochemistry,논문 프로필 없음; 연구실 페이지 미확인
+P0907,박현우,Hyun Woo Park,Yonsei University,Department of Biochemistry,졸업생 정보 없음
+P0908,김영준,Young-Joon Kim,Yonsei University,Department of Biochemistry,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0909,송기원,Ki-Won Song,Yonsei University,Department of Biochemistry,졸업생 정보 없음
+P0910,송재환,Jae-Hwan Song,Yonsei University,Department of Biochemistry,논문 프로필 없음; 졸업생 정보 없음
+P0911,오현정,Hyun-Jung Oh,Yonsei University,Department of Biochemistry,졸업생 정보 없음
+P0912,이원동,Won-Dong Lee,Yonsei University,Department of Biochemistry,졸업생 정보 없음
+P0913,최현규,Hyun-Gyu Choi,Yonsei University,Department of Biochemistry,논문 프로필 없음
+P0916,김주영,Joo Young Kim,Yonsei University,College of Medicine / Pharmacology,논문 프로필 없음; 졸업생 정보 없음
+P0917,김철훈,Chul Hoon Kim,Yonsei University,College of Medicine / Pharmacology,논문 프로필 없음; 졸업생 정보 없음
+P0918,김형범,Hyongbum Kim,Yonsei University,College of Medicine / Pharmacology,논문 프로필 없음
+P0919,박경수,Kyungsoo Park,Yonsei University,College of Medicine / Pharmacology,졸업생 정보 없음
+P0920,이민구,Min-Goo Lee,Yonsei University,College of Medicine / Pharmacology,졸업생 정보 없음
+P0921,지헌영,Heon-Young Ji,Yonsei University,College of Medicine / Pharmacology,논문 프로필 없음; 졸업생 정보 없음
+P0922,채동우,Dong-Woo Chae,Yonsei University,College of Medicine / Pharmacology,졸업생 정보 없음
+P0923,배수한,Soo Han Bae,Yonsei University,College of Medicine / Biomedical Science,연구실 홈페이지 못 찾음
+P0924,남기택,Ki Taek Nam,Yonsei University,College of Medicine / Biomedical Science,연구실 홈페이지 못 찾음
+P0925,송재진,Jae Jin Song,Yonsei University,College of Medicine / Biomedical Science,연구실 홈페이지 못 찾음
+P0926,황병진,Byungjin Hwang,Yonsei University,College of Medicine / Biomedical Science,연구실 홈페이지 못 찾음
+P0927,서준영,Jun Young Seo,Yonsei University,College of Medicine / Biomedical Science,연구실 홈페이지 못 찾음
+P0929,김성룡,Seong-Ryong Kim,Sogang University,Department of Life Science,졸업생 정보 없음
+P0930,김정호,Jungho Kim,Sogang University,Department of Life Science,졸업생 정보 없음
+P0931,김종찬,Jongchan Kim,Sogang University,Department of Life Science,논문 프로필 없음; 연구실 페이지 미확인
+P0933,신형두,Hyung-Doo Shin,Sogang University,Department of Life Science,논문 프로필 없음; 연구실 페이지 미확인
+P0934,이갑열,Gap Ryol Lee,Sogang University,Department of Life Science,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0935,이규호,Kyu-Ho Lee,Sogang University,Department of Life Science,졸업생 정보 없음
+P0936,이병하,Byeong-ha Lee,Sogang University,Department of Life Science,졸업생 정보 없음
+P0937,정광환,Kwang-Hwan Jung,Sogang University,Department of Life Science,졸업생 정보 없음
+P0938,정수진,Soo-Jin Jung,Sogang University,Department of Life Science,졸업생 정보 없음
+P0939,주봉건,Bong-Gun Ju,Sogang University,Department of Life Science,연구실 페이지 미확인
+P0940,허진영,Jin-Young Huh,Sogang University,Department of Life Science,연구실 페이지 미확인
+P0942,강문성,Moon Sung Kang,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0943,강태욱,Taewook Kang,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음; 연구실 페이지 미확인
+P0944,김충익,Choongik Kim,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음; 연구실 페이지 미확인
+P0946,김형준,Hyeong Jun Kim,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음
+P0947,나정걸,Jeong Geol Na,Sogang University,Department of Chemical and Biomolecular Engineering,졸업생 정보 없음
+P0948,류재건,Jaegeon Ryu,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0949,박제영,Jeyoung Park,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음
+P0950,신희종,Heejong Shin,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음; 연구실 페이지 미확인
+P0951,오병근,Byung-Keun Oh,Sogang University,Department of Chemical and Biomolecular Engineering,졸업생 정보 없음
+P0952,오세용,Se-Young Oh,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0953,이종석,Jong Suk Lee,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0954,이진원,Jinwon Lee,Sogang University,Department of Chemical and Biomolecular Engineering,졸업생 정보 없음
+P0955,조현석,Hyun-Seok Cho,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음
+P0956,최진훈,Jinhoon Choi,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음; 연구실 페이지 미확인
+P0957,하경수,Kyoung-Su Ha,Sogang University,Department of Chemical and Biomolecular Engineering,연구실 페이지 미확인
+P0958,박주원,Joo‐Won Park,Dankook University,의과대학,연구실 홈페이지 못 찾음
+P0959,이민희,Minhee Lee,Kyung Hee University,동서의과학과,졸업생 정보 없음
+P0960,조현혜,,Ewha Womans University,의과대학,논문 프로필 없음; 졸업생 정보 없음
+P0961,손영진,Young–Jin Son,Sunchon National University,약학대학,졸업생 정보 없음
+P0962,이민아,Mina Lee,Sunchon National University,약학대학,졸업생 정보 없음
+P0963,이선민,Sunmin Lee,Sunchon National University,약학대학,졸업생 정보 없음
+P0964,장동조,Dong‐Jo Chang,Sunchon National University,약학대학,졸업생 정보 없음
+P0965,하형호,Hyung‐Ho Ha,Sunchon National University,약학대학,졸업생 정보 없음
+P0966,이은영,Eunyoung Yi,Mokpo National University,약학대학 Pharmacy,연구실 홈페이지 못 찾음
+P0967,김현정,Hyun‐Joong Kim,Mokpo National University,약학대학 Pharmacy,연구실 홈페이지 못 찾음
+P0968,심정현,Jung‐Hyun Shim,Mokpo National University,약학대학 Pharmacy,연구실 홈페이지 못 찾음
+P0969,박진우,Jin Woo Park,Mokpo National University,약학대학 Pharmacy,연구실 홈페이지 못 찾음
+P0970,백동재,Dong Jae Baek,Mokpo National University,약학대학 Pharmacy,연구실 홈페이지 못 찾음
+P0971,박은영,,Mokpo National University,약학대학 Pharmacy,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0972,김남아,Nam Ah Kim,Mokpo National University,약학대학 Pharmacy,연구실 홈페이지 못 찾음
+P0973,강소영,Soyoung Kang,Mokpo National University,약학대학 Pharmacy,연구실 홈페이지 못 찾음
+P0974,조정곤,,Jeonbuk National University,수의과대학,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0975,권중기,Jungkee Kwon,Jeonbuk National University,수의과대학,연구실 홈페이지 못 찾음
+P0976,김종훈,,Jeonbuk National University,수의과대학,논문 프로필 없음; 연구실 홈페이지 못 찾음
+P0977,김범석,Bumseok Kim,Jeonbuk National University,수의과대학,연구실 홈페이지 못 찾음
+P0978,김원일,Won‐Il Kim,Jeonbuk National University,수의과대학,연구실 홈페이지 못 찾음
+P0979,김상진,Shang‐Jin Kim,Jeonbuk National University,수의과대학,연구실 홈페이지 못 찾음
+P0980,설재원,Jae‐Won Seol,Jeonbuk National University,수의과대학,연구실 홈페이지 못 찾음
+P0981,허진,Jin Hur,Jeonbuk National University,수의과대학,연구실 홈페이지 못 찾음
+P0982,원가연,Gayeon Won,Jeonbuk National University,수의과대학,연구실 홈페이지 못 찾음
+P0983,오상익,Sang‐Ik Oh,Jeonbuk National University,수의과대학,연구실 홈페이지 못 찾음
+P0984,박준홍,Jun Hong Park,Jeonbuk National University,수의과대학,연구실 홈페이지 못 찾음
+P0985,배은주,Eun Ju Bae,Jeonbuk National University,약학대학,연구실 홈페이지 못 찾음
+P0986,박애경,Ae Kyung Park,Jeonbuk National University,약학대학,연구실 홈페이지 못 찾음
+P0987,심현주,Hyun Joo Shim,Jeonbuk National University,약학대학,연구실 홈페이지 못 찾음
+P0988,한창엽,Chang Yeob Han,Jeonbuk National University,약학대학,연구실 홈페이지 못 찾음
+P0989,민경현,Kyung Hyun Min,Jeonbuk National University,약학대학,연구실 홈페이지 못 찾음
+P0990,임창진,Changjin Lim,Jeonbuk National University,약학대학,연구실 홈페이지 못 찾음
+P0991,김재현,Jae Hyun Kim,Jeonbuk National University,약학대학,연구실 홈페이지 못 찾음
+P0992,전하림,Ha‐Lim Jeon,Jeonbuk National University,약학대학,졸업생 정보 없음
+P0993,강지현,Ji Hyeon Kang,Jeonbuk National University,약학대학,연구실 홈페이지 못 찾음
+P0994,이수미,Sumi Lee,Jeonbuk National University,약학대학,졸업생 정보 없음
+P0995,노윤석,Yoon-Seok Roh,Chungbuk National University,약학대학,졸업생 정보 없음
+P0996,손동주,Dong-Ju Son,Chungbuk National University,약학대학,졸업생 정보 없음
+P0998,이경은,Kyung-Eun Lee,Chungbuk National University,약학대학,졸업생 정보 없음
+P0999,이미경,Mi Kyeong Lee,Chungbuk National University,약학대학,졸업생 정보 없음
+P1000,한상배,Sang-Bae Han,Chungbuk National University,약학대학,졸업생 정보 없음
+P1002,김은준,Eunjoon Kim,KAIST,KAIST 생명과학과,졸업생 정보 없음
+P1003,김재훈,Jaehoon Kim,KAIST,KAIST 생명과학과,졸업생 정보 없음
+P1004,김현우,Hyeonwoo Kim,KAIST,KAIST 생명과학과,졸업생 정보 없음
+P1005,김호민,Ho Min Kim,KAIST,KAIST 생명과학과,졸업생 정보 없음
+P1006,이규리,Gyu Rie Lee,KAIST,KAIST 생명과학과,졸업생 정보 없음
+P1007,이승희,Seung-Hee Lee,KAIST,KAIST 생명과학과,논문 프로필 없음; 졸업생 정보 없음
+P1008,이흥규,Heung Kyu Lee,KAIST,KAIST 생명과학과,졸업생 정보 없음
+P1009,임정훈,Chunghun Lim,KAIST,KAIST 생명과학과,졸업생 정보 없음
+P1010,전상용,Sangyong Jon,KAIST,KAIST 생명과학과,졸업생 정보 없음
+P1011,정원석,Won-Suk Chung,KAIST,KAIST 생명과학과,졸업생 정보 없음
+P1012,조성익,Sung Ik,KAIST,KAIST 생명과학과,졸업생 정보 없음
+P1013,한진희,Jin-Hee Han,KAIST,KAIST 생명과학과,졸업생 정보 없음
+P1014,허원도,Won Do Heo,KAIST,KAIST 생명과학과,졸업생 정보 없음
+P1015,홍인기,Ingie Hong,KAIST,KAIST 생명과학과,졸업생 정보 없음
+P1018,박계명,Kyemyung Park,UNIST,바이오메디컬공학과,졸업생 정보 없음
+P1019,박종남,Jongnam Park,UNIST,바이오메디컬공학과,졸업생 정보 없음
+P1020,박찬영,Chan Young Park,UNIST,바이오메디컬공학과,졸업생 정보 없음
+P1021,임민혁,Min Hyuk Lim,UNIST,바이오메디컬공학과,졸업생 정보 없음
+P1023,김영삼,Yung Sam Kim,UNIST,BIO,졸업생 정보 없음
+P1024,민두영,Duyoung Min,UNIST,BIO,졸업생 정보 없음
+P1026,,Hosuk Sean Lee,Sogang University,생명과학,졸업생 정보 없음
+P1027,박현성,Hyunsung Park,University of Seoul,전임교수,졸업생 정보 없음
+P1028,유권열,Kwon‐Yul Ryu,University of Seoul,전임교수,졸업생 정보 없음
+P1030,황홍익,Hongik Hwang,University of Seoul,전임교수,졸업생 정보 없음
+P1031,박대균,Dae‐Kyoon Park,Soonchunhyang University,기초의학교실,졸업생 정보 없음
+P1032,김한규,Hankyu Kim,Soonchunhyang University,기초의학교실,졸업생 정보 없음
+P1033,송범종,Beomjong Song,Soonchunhyang University,기초의학교실,졸업생 정보 없음
+P1034,여인승,In‐Seung Yeo,Soonchunhyang University,기초의학교실,졸업생 정보 없음
+P1035,김현택,Hyuntaek Kim,Soonchunhyang University,기초의학교실,졸업생 정보 없음
+P1036,김용식,Yongsik Kim,Soonchunhyang University,미생물학 교실,졸업생 정보 없음
+P1037,이윤경,Youngkyoung Lee,Soonchunhyang University,미생물학 교실,졸업생 정보 없음
+P1038,이상한,Sang-Han Lee,Soonchunhyang University,생화학교실,졸업생 정보 없음
+P1039,이윤진,Yoon‐Jin Lee,Soonchunhyang University,생화학교실,졸업생 정보 없음
+P1040,최동식,Dong-Sik Choi,Soonchunhyang University,생화학교실,졸업생 정보 없음
+P1041,최완수,Wansu Choi,Inje University,교수진소개,졸업생 정보 없음
+P1042,임정연,Jung-Yeon Lim,Inje University,교수진소개,졸업생 정보 없음
+P1043,김선희,Seon-Hee Kim,Inje University,교수진소개,졸업생 정보 없음
+P1044,김한솔,Hansol Kim,Inje University,혁신신약ㆍ제약공학부,졸업생 정보 없음
+P1045,강동진,,Inje University,혁신신약ㆍ제약공학부,논문 프로필 없음; 졸업생 정보 없음
+P1046,김성태,Sung Tae Kim,Inje University,혁신신약ㆍ제약공학부,졸업생 정보 없음
+P1047,이사원,Sa-Won Lee,Inje University,혁신신약ㆍ제약공학부,졸업생 정보 없음
+P1048,김정애,,Inje University,혁신신약ㆍ제약공학부,논문 프로필 없음; 졸업생 정보 없음
+P1049,김만수,Man-Su Kim,Inje University,약학과,졸업생 정보 없음
+P1050,김성옥,,Inje University,약학과,논문 프로필 없음; 졸업생 정보 없음
+P1051,박유미,Yumi Park,Inje University,약학과,졸업생 정보 없음
+P1052,조관형,,Inje University,약학과,논문 프로필 없음; 졸업생 정보 없음
+P1053,천부순,Pusoon Chun,Inje University,약학과,졸업생 정보 없음
+P1054,이희영,Heeyoung Lee,Inje University,약학과,졸업생 정보 없음
+P1055,허준성,Joonseong Hur,Inje University,약학과,졸업생 정보 없음
+P1056,이백락,Baek Rak Lee,Inje University,의생명보건계열,졸업생 정보 없음
+P1057,한승진,Seung Jin Han,Inje University,의생명보건계열,졸업생 정보 없음
+P1058,박건택,Kun Taek Park,Inje University,의생명보건계열,졸업생 정보 없음
+P1059,윤상억,Sanguk Yun,Inje University,의생명보건계열,졸업생 정보 없음
+P1060,박광수,Kwang‐Su Park,Keimyung University,약학대학; 약학과,졸업생 정보 없음
+P1061,윤재우,Jaewoo Yoon,Keimyung University,약학대학; 약학과,졸업생 정보 없음
+P1062,천경수,Kyung‐Soo Chun,Keimyung University,약학대학; 약학과,졸업생 정보 없음
+P1063,박현진,Hyun Jin Park,Keimyung University,약학대학,졸업생 정보 없음
+P1064,배정우,Jung‐Woo Bae,Keimyung University,약학대학,졸업생 정보 없음
+P1065,서영호,Young Ho Seo,Keimyung University,약학대학; 제약학과,졸업생 정보 없음
+P1066,정철호,Chul-Ho Jung,Keimyung University,약학대학,졸업생 정보 없음
+P1067,황두형,Duhyeong Hwang,Keimyung University,제약학과,졸업생 정보 없음
+P1068,이영숙,Young Sook Lee,Keimyung University,약학과,졸업생 정보 없음
+P1069,김영수,Youngsoo Kim,Yeungnam University,의생명공학과,졸업생 정보 없음
+P1070,김근중,Geun Joong Kim,Chonnam National University,전임교수,졸업생 정보 없음
+P1071,성하철,Ha Cheol Sung,Chonnam National University,전임교수,졸업생 정보 없음
+P1072,김응삼,Eung-Sam Kim,Chonnam National University,전임교수,졸업생 정보 없음
+P1074,이지훈,Ji Hoon Lee,Chonnam National University,전임교수,졸업생 정보 없음
+P1075,윤정준,Jeong‐Jun Yoon,Chung-Ang University,시스템생명공학과,연구실 홈페이지 못 찾음
+P1076,윤혜선,Hye Sun Yoon,Eulji University,의예과,졸업생 정보 없음
+P1077,고현준,Hyunjun Ko,Kangwon National University,산림바이오소재공학과,졸업생 정보 없음
+P1078,박세영,Se‐Yeong Park,Kangwon National University,산림바이오소재공학과,졸업생 정보 없음
+P1079,정상용,,CHA University,생명과학대학,논문 프로필 없음; 졸업생 정보 없음
+P1080,이수진,Soojin Lee,Eulji University,의예과,연구실 페이지 미확인
+P1081,이동주,Dongjoo Lee,Ajou University,글로벌제약임상대학원,연구실 페이지 미확인
+P1082,정이숙,Yi‐Sook Jung,Ajou University,글로벌제약임상대학원,연구실 페이지 미확인
+P1083,윤태종,Tae‐Jong Yoon,Ajou University,글로벌제약임상대학원,연구실 페이지 미확인
+P1084,심규찬,Kyu-Chan Shim,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1085,김준엽,Joonyup Kim,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1086,김동필,,Chungnam National University,농업생명과학대학,논문 프로필 없음; 연구실 페이지 미확인
+P1087,박범진,Bum–Jin Park,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1088,박병배,Byung Bae Park,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1089,이동현,Donghyeon Lee,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1090,한정수,Jeongsu Han,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1091,용해인,Haein Yong,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1092,함지연,Jiyeon Ham,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1093,임다정,Dajeong Lim,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1094,정성훈,Sunghoon Jung,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1095,유준명,Jun Myoung Yu,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1096,위준,June Wee,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1097,이기범,Gibum Yi,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1098,이상민,Sang Min Lee,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1099,황정인,Jeong‐In Hwang,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1100,박종태,Jong-Tae Park,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1101,구옥경,Ok Kyung Koo,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1102,김희택,Hee Taek Kim,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1103,하태환,Taehwan Ha,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1104,송정헌,Jung Hun Song,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1105,이왕희,Wang-Hui Lee,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1106,이대현,Dae-Hyeon Lee,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1107,한석호,Suk-Ho Han,Chungnam National University,농업생명과학대학,연구실 페이지 미확인
+P1108,김준범,June‐Bum Kim,Eulji University,의예과,연구실 페이지 미확인
+P1109,최윤식,Yun-Sik Choi,Kyungsung University,약학대학,연구실 페이지 미확인
+P1110,이현지,Hyunji Lee,Kyungsung University,약학대학,연구실 페이지 미확인
+P1111,서지영,Ji Young Seo,Eulji University,의예과,연구실 페이지 미확인
+P1112,이은혜,Eun Hye Lee,Eulji University,의예과,연구실 페이지 미확인
+P1113,,Min‐Jung Kang,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1114,,Cheolmin Park,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1115,,Chang Soo Kim,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1116,,Seok Chung,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1117,,Youngsoon Um,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1118,,In‐San Kim,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1119,,Hoon Ryu,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1121,,Sun Hwa Kim,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1122,,Chansoo Kim,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1123,,Kwang Ho Kim,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1124,,Hong Nam Kim,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1125,,Jong Hyuk Park,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1126,,Ji Yoon Kang,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1127,,Ki Duk Park,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1128,,Jungyeob Ham,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1129,,Sang-Kuk Kim,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1130,,Hak Cheol Kwon,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1131,,Hyunah Choo,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1132,,Myungsuk Kim,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1133,,Hyun Seok Song,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1134,,Laehyun Kim,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1135,,Hyojin Lee,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1136,,Deukhee Lee,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1137,,Uhtaek Oh,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1138,,Chun Gwon Park,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1139,,Ki Jun Yu,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1140,,Soo Hyun Park,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1141,,Eun Mi Hwang,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1142,,Hyeon Jeong Kim,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1143,,Yun Kyung Kim,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1144,,Jee Hyun Choi,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1145,,Byung Hwa Jung,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1146,김진석,Jinseok Kim,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1147,,Inchan Youn,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1148,,Hojeong Jeon,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1149,,Dong‐Kwon Lim,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1150,,Suk‐Won Hwang,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1151,,Maesoon Im,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P1152,이대희,Dae‐Hee Lee,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1153,,Hyun Seung Kim,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1154,,Eun‐Woo Lee,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1155,,Sei‐Ryang Oh,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1156,,Jae‐Won Lee,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1157,,Younghoon Lee,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1158,,Jung‐Sook Lee,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1159,,Choong‐Min Ryu,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1160,,Jong Soon Kang,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1161,,Sang‐Soo Kwak,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1162,,Taeho Kim,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1163,,Jae‐Hyuk Jang,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1164,,Seung‐Goo Lee,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1165,,Suk‐Yoon Kwon,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1166,류형원,Hyung Won Ryu,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1167,,Taejoon Kang,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1168,,Ji Sun Park,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1169,,Kyung‐Sook Chung,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1170,,Seung‐Hwan Park,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1171,,Young‐Soo Hong,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1172,,Taeho Kwon,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1173,,Juyeon Jung,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1174,,Jae Wha Kim,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1175,,Sujin Park,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1176,,Hee Gu Lee,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1177,,Kwang‐Hee Bae,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1178,,Eun‐Kyung Lim,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1179,,Jae Sun Moon,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1180,,Jae‐Won Huh,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1181,,Su‐Yeon Lee,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1182,,Chang Yeol Lee,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1183,,Dae‐Soo Kim,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1184,,Sun‐Uk Kim,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1185,김보라,Bora Kim,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1186,,Doo‐Sang Park,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1187,,Kyung‐Seop Ahn,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1188,,Dae Gwin Jeong,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1189,,Su Hyun Park,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1190,,Seung Jun Kim,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1191,,Hyun‐Soon Kim,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1192,,Bong Hyun Sung,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1193,,Hyun‐Soo Cho,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1194,,Cha Young Kim,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1195,,Haeyoung Jeong,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1196,,Hye Sun Cho,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1197,,Se Won Kang,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1198,,Mi‐Young Son,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1199,,Suk Ran Yoon,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1200,,Eui‐Jeon Woo,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1201,,Seung Woong Lee,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1202,,Hyun Seung Ban,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1203,,Jong Hyun Choi,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1204,,Doo‐Byoung Oh,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1205,,Ki‐Hoan Nam,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1206,,Jung Joo Hong,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1207,,Suk Weon Kim,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1208,,Doo-Young Kim,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1209,,Jung Sun Park,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1210,,Namshin Kim,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1211,,Kweon Yu,Korea Research Institute of Bioscience and Biotechnology,,연구실 페이지 미확인
+P1212,,Gyung Ja Choi,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1213,,Sang Un Choi,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1214,,Ki Young Kim,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1215,,Myung Ae Bae,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1216,,Yu Jin Jung,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1217,김훈,Hun Kim,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1218,,Hong Gi Kim,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1219,박철민,Chul Min Park,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1220,,Seong Hwan Kim,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1221,,Joon Ho Lee,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1222,,Meehyein Kim,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1223,,Dohoon Lee,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1224,,Young‐Sik Jung,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1225,,Jung‐Sup Choi,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1226,,Seong Soon Kim,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1227,,Tae Yeong Kim,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1228,,Jong Yeon Hwang,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1229,,Yejin Jang,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1230,,Ji Hyun Choi,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1231,김영숙,Young-Sook Kim,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1232,,Hoyong Kim,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1233,,Chi Hoon Park,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1234,,Keun Bon Ku,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1235,,Sung Hwan Park,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1236,,Dae‐Seop Shin,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1237,,Bomin Kim,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1238,,Kyoung Hee Kang,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1239,,Won Hoon Jung,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1240,,Byumseok Koh,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1241,,June-Ho Choi,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1242,,Chonsaeng Kim,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1243,,Inseong Jo,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1244,,Jae Woo Han,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1245,,Da Yeon Lee,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1246,,Minsuk Choi,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1247,,Yonghyo Kim,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1248,,Myung Hyun Noh,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1249,,Jin Soo Shin,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1250,,Chunkyu Ko,Korea Research Institute of Chemical Technology,,연구실 페이지 미확인
+P1251,박현진,Hyunjin Park,Institute for Basic Science,,연구실 페이지 미확인
+P1252,,Gou Young Koh,Institute for Basic Science,,연구실 페이지 미확인
+P1253,,Changjoon Justin Lee,Institute for Basic Science,,연구실 페이지 미확인
+P1254,,Jong Won Yun,Institute for Basic Science,,연구실 페이지 미확인
+P1255,,Seung‐Hee Lee,Institute for Basic Science,,연구실 페이지 미확인
+P1256,,Euisik Yoon,Institute for Basic Science,,연구실 페이지 미확인
+P1258,,Young Ki Choi,Institute for Basic Science,,연구실 페이지 미확인
+P1259,,Wonshik Choi,Institute for Basic Science,,연구실 페이지 미확인
+P1260,,Seokjoong Kim,Institute for Basic Science,,연구실 페이지 미확인
+P1261,,Kyungjae Myung,Institute for Basic Science,,연구실 페이지 미확인
+P1262,,Jang‐Ung Park,Institute for Basic Science,,연구실 페이지 미확인
+P1263,,Jae Kyoung Kim,Institute for Basic Science,,연구실 페이지 미확인
+P1264,,Hee‐Sup Shin,Institute for Basic Science,,연구실 페이지 미확인
+P1265,,Min Whan Jung,Institute for Basic Science,,연구실 페이지 미확인
+P1266,,Bon‐Kyoung Koo,Institute for Basic Science,,연구실 페이지 미확인
+P1267,,Seok‐Jun Hong,Institute for Basic Science,,연구실 페이지 미확인
+P1268,,Bo‐yong Park,Institute for Basic Science,,연구실 페이지 미확인
+P1270,,Donghee Son,Institute for Basic Science,,연구실 페이지 미확인
+P1271,,Taejoon Kwon,Institute for Basic Science,,연구실 페이지 미확인
+P1272,,Choong‐Wan Woo,Institute for Basic Science,,연구실 페이지 미확인
+P1273,,Hyun-Ju Cho,Institute for Basic Science,,연구실 페이지 미확인
+P1274,,Jinmyoung Joo,Institute for Basic Science,,연구실 페이지 미확인
+P1275,,Donghwan Shim,Institute for Basic Science,,연구실 페이지 미확인
+P1276,,Mikyung Shin,Institute for Basic Science,,연구실 페이지 미확인
+P1277,,M. Justin Kim,Institute for Basic Science,,연구실 페이지 미확인
+P1278,,Seok‐Cheol Hong,Institute for Basic Science,,연구실 페이지 미확인
+P1279,,Won Mok Shim,Institute for Basic Science,,연구실 페이지 미확인
+P1280,,Jin Hee Hong,Institute for Basic Science,,연구실 페이지 미확인
+P1281,,Eun-Ha Kim,Institute for Basic Science,,연구실 페이지 미확인
+P1282,,Byung‐Gyu Kim,Institute for Basic Science,,연구실 페이지 미확인
+P1283,,Sang‐In Kim,Institute for Basic Science,,연구실 페이지 미확인
+P1284,,Suho Lee,Institute for Basic Science,,연구실 페이지 미확인
+P1285,,Yong‐Jun Choi,Institute for Basic Science,,연구실 페이지 미확인
+P1286,,Min-Suk Kang,Institute for Basic Science,,연구실 페이지 미확인
+P1287,홍성호,Sungho Hong,Institute for Basic Science,,연구실 페이지 미확인
+P1288,,Yoojin Shin,Institute for Basic Science,,연구실 페이지 미확인
+P1289,,Sungsam Kang,Institute for Basic Science,,연구실 페이지 미확인
+P1290,,Ji-Hye Yun,Institute for Basic Science,,연구실 페이지 미확인
+P1291,,Sukhyun Kang,Institute for Basic Science,,연구실 페이지 미확인
+P1292,,Boyoung Lee,Institute for Basic Science,,연구실 페이지 미확인
+P1293,,Pann‐Ghill Suh,Korea Brain Research Institute,,연구실 페이지 미확인
+P1294,,Juhyun Kim,Korea Brain Research Institute,,연구실 페이지 미확인
+P1295,,Ji Young Mun,Korea Brain Research Institute,,연구실 페이지 미확인
+P1296,,Youngshik Choe,Korea Brain Research Institute,,연구실 페이지 미확인
+P1297,,Jeongyeon Kim,Korea Brain Research Institute,,연구실 페이지 미확인
+P1298,,Hyungju Park,Korea Brain Research Institute,,연구실 페이지 미확인
+P1299,,Sehyun Chae,Korea Brain Research Institute,,연구실 페이지 미확인
+P1300,,Ja Wook Koo,Korea Brain Research Institute,,연구실 페이지 미확인
+P1301,,Kea Joo Lee,Korea Brain Research Institute,,연구실 페이지 미확인
+P1302,,Jaekwang Kim,Korea Brain Research Institute,,연구실 페이지 미확인
+P1303,,Jeong Ho Han,Korea Brain Research Institute,,연구실 페이지 미확인
+P1304,,KyeongJin Kang,Korea Brain Research Institute,,연구실 페이지 미확인
+P1305,,Hyun–Ho Lim,Korea Brain Research Institute,,연구실 페이지 미확인
+P1306,,Jong Hyuk Yoon,Korea Brain Research Institute,,연구실 페이지 미확인
+P1307,하창만,Chang Man Ha,Korea Brain Research Institute,,연구실 페이지 미확인
+P1308,,Joon Ho Choi,Korea Brain Research Institute,,연구실 페이지 미확인
+P1309,,Chany Lee,Korea Brain Research Institute,,연구실 페이지 미확인
+P1310,,Min Kyo Jung,Korea Brain Research Institute,,연구실 페이지 미확인
+P1311,,Mookyung Cheon,Korea Brain Research Institute,,연구실 페이지 미확인
+P1312,,Minyoung Jung,Korea Brain Research Institute,,연구실 페이지 미확인
+P1313,,Byoung‐Cheol Lee,Korea Brain Research Institute,,연구실 페이지 미확인
+P1314,,Dongha Lee,Korea Brain Research Institute,,연구실 페이지 미확인
+P1315,,Yong-Jin Kim,Korea Brain Research Institute,,연구실 페이지 미확인
+P1316,,Taekwon Son,Korea Brain Research Institute,,연구실 페이지 미확인
+P1317,,Won‐Jong Oh,Korea Brain Research Institute,,연구실 페이지 미확인
+P1318,,Young Rae Ji,Korea Brain Research Institute,,연구실 페이지 미확인
+P1319,,J. S. Kim,Korea Brain Research Institute,,연구실 페이지 미확인
+P1320,,Min‐Tae Jeon,Korea Brain Research Institute,,연구실 페이지 미확인
+P1321,,Seungeun Yeo,Korea Brain Research Institute,,연구실 페이지 미확인
+P1322,,Myeong Soo Lee,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1323,,Hye Won Lee,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1324,,Chang‐Seob Seo,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1325,,Hyeun‐Kyoo Shin,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1326,,Jae Young Jang,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1327,,Sun‐Mi Choi,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1328,,Boram Lee,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1329,,Yun Mi Lee,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1330,,Jun Hyung Lee,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1331,,Byeong Cheol Moon,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1332,,Young Sook Kim,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1333,,Sanghun Lee,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1334,,Bu‐Yeo Kim,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1335,,Mee-Young Lee,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1336,,Jun‐Hwan Lee,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1337,김영수,Young Soo Kim,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1338,,Soo‐Jin Jeong,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1339,,Yeonhee Ryu,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1340,김애란,Ae‐Ran Kim,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1341,,Hyekyung Ha,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1342,박지은,Ji‐Eun Park,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1343,,Dong-Seon Kim,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1344,,Changsop Yang,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1345,,Youn‐Hwan Hwang,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1346,,Bong‐Kyun Park,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1347,,Chang-Hyun Han,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1348,,Sungchul Kim,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1349,,Tae‐Young Choi,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1350,,Goya Choi,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1351,,Ojin Kwon,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1352,백영화,Younghwa Baek,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1353,,Yujin Choi,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1354,,Sungyu Yang,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1355,,Jeeyoun Jung,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1356,,Hee‐Jung Choi,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1357,,Kwang‐Ho Choi,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1358,,Won‐Kyung Cho,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1359,,Young-Hee Jin,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1360,,Hyunil Ha,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1361,,Chan‐Sik Kim,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1362,,Ik Soo Lee,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1363,,Anna Kim,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1364,,Youngmin Kang,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1365,,Jang‐Gi Choi,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1366,,So‐Young Jung,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1367,,Ki-Hyun Park,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1368,,Hwan‐Suck Chung,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1369,,Youngseop Lee,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1370,육흥주,Heung Joo Yuk,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1371,,Boncho Uk Ku,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1372,,Mi Mi Ko,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1373,,Jin Mi Chun,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1374,,Hyungjun Kim,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1375,,Ji Hee Jun,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1376,,A Yeong Lee,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1377,,Byoung-Kab Kang,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1378,,Aeyung Kim,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1379,,So Min Lee,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1380,,Eunjin Sohn,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1381,,Yun‐Soo Seo,Korea Institute of Oriental Medicine,,연구실 페이지 미확인
+P1382,김형민,Hyungmin Kim,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1383,,Sun‐Woong Kang,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1384,,Sung‐Hwan Kim,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1385,,Seung‐Jin Lee,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1386,,Jeong‐Doo Heo,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1387,,Jung‐Hwa Oh,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1388,,Yong‐Bum Kim,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1389,,Han‐Jin Park,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1390,,Ho Jeong Lee,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1391,,Yeong-Jin Kim,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1392,,Dong Ho Woo,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1393,,Kyoung‐Sik Moon,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1394,,Han Na Suh,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1395,,Yu Bin Lee,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1396,,Sung Hwan Kim,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1397,,Joung‐Wook Seo,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1398,함온주,Onju Ham,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1399,,Young Sang Kwon,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1400,,Eun Young Jang,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1401,,Mi‐Sun Choi,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1402,,Dong Im Kim,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1403,,Min Seong Jang,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1404,,Moonjung Hyun,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1405,,Myeongjin Choi,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1406,,Sung‐Ae Hyun,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1407,,Hang‐Suk Chun,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1408,,Sang Eun Ha,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1409,,Sang‐Jin Park,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1410,,Ha‐Na Oh,Korea Institute of Toxicology,,연구실 페이지 미확인
+P1411,,Geum‐Sook Hwang,Korea Basic Science Institute,,연구실 페이지 미확인
+P1412,,Kyung‐Bok Lee,Korea Basic Science Institute,,연구실 페이지 미확인
+P1413,,Hye Sun Park,Korea Basic Science Institute,,연구실 페이지 미확인
+P1414,,Young‐Ho Lee,Korea Basic Science Institute,,연구실 페이지 미확인
+P1415,김길남,Kil‐Nam Kim,Korea Basic Science Institute,,연구실 페이지 미확인
+P1416,,Hyun-Tae Kim,Korea Basic Science Institute,,연구실 페이지 미확인
+P1417,,Seong‐Jun Kim,Korea Basic Science Institute,,연구실 페이지 미확인
+P1418,,Seung Il Kim,Korea Basic Science Institute,,연구실 페이지 미확인
+P1419,,Young‐Ho Lee,Korea Basic Science Institute,,연구실 페이지 미확인
+P1420,,Kwan Soo Hong,Korea Basic Science Institute,,연구실 페이지 미확인
+P1421,,Eun Hee Han,Korea Basic Science Institute,,연구실 페이지 미확인
+P1422,,SeonJu Park,Korea Basic Science Institute,,연구실 페이지 미확인
+P1423,,Yang Hoon Huh,Korea Basic Science Institute,,연구실 페이지 미확인
+P1424,,Seung‐Hae Kwon,Korea Basic Science Institute,,연구실 페이지 미확인
+P1425,박진용,Jin-Yong Park,Korea Basic Science Institute,,연구실 페이지 미확인
+P1426,,Sang-Yeop Lee,Korea Basic Science Institute,,연구실 페이지 미확인
+P1427,,Kyoung‐Seok Ryu,Korea Basic Science Institute,,연구실 페이지 미확인
+P1428,,Mi Young Cho,Korea Basic Science Institute,,연구실 페이지 미확인
+P1429,,Min Sung Kim,Korea Basic Science Institute,,연구실 페이지 미확인
+P1430,,Jeong Kyu Bang,Korea Basic Science Institute,,연구실 페이지 미확인
+P1431,,Hea‐Jong Chung,Korea Basic Science Institute,,연구실 페이지 미확인
+P1432,,Eui Jeong Han,Korea Basic Science Institute,,연구실 페이지 미확인
+P1433,,Hae‐Kap Cheong,Korea Basic Science Institute,,연구실 페이지 미확인
+P1434,,Kye‐Sung Lee,Korea Basic Science Institute,,연구실 페이지 미확인
+P1435,,Kyung‐Ran Park,Korea Basic Science Institute,,연구실 페이지 미확인
+P1436,,Hyun-Seung Lee,Korea Basic Science Institute,,연구실 페이지 미확인
+P1437,,Jae-Il Park,Korea Basic Science Institute,,연구실 페이지 미확인
+P1438,,Youngae Jung,Korea Basic Science Institute,,연구실 페이지 미확인
+P1439,,Donghan Lee,Korea Basic Science Institute,,연구실 페이지 미확인
+P1440,,Gun‐Hwa Kim,Korea Basic Science Institute,,연구실 페이지 미확인
+P1441,,Sangmi Jun,Korea Basic Science Institute,,연구실 페이지 미확인
+P1442,,Myeong Seon Jeong,Korea Basic Science Institute,,연구실 페이지 미확인
+P1443,,Sung Ho Yun,Korea Basic Science Institute,,연구실 페이지 미확인
+P1444,,Heeyoun Hwang,Korea Basic Science Institute,,연구실 페이지 미확인
+P1445,,Cheol‐Jung Lee,Korea Basic Science Institute,,연구실 페이지 미확인
+P1446,,Myung Hee Nam,Korea Basic Science Institute,,연구실 페이지 미확인
+P1447,,Eunha Hwang,Korea Basic Science Institute,,연구실 페이지 미확인
+P1448,,Hye‐Mi Kim,Korea Basic Science Institute,,연구실 페이지 미확인
+P1449,,Ji‐Seon Ahn,Korea Basic Science Institute,,연구실 페이지 미확인
+P1450,,Hyeongseop Jeong,Korea Basic Science Institute,,연구실 페이지 미확인
+P1451,,Jong-Soon Choi,Korea Basic Science Institute,,연구실 페이지 미확인
+P1452,,Song‐Rae Kim,Korea Basic Science Institute,,연구실 페이지 미확인
+P1453,,Kyeong Eun Yang,Korea Basic Science Institute,,연구실 페이지 미확인
+P1454,,Su-Hyeon Cho,Korea Basic Science Institute,,연구실 페이지 미확인
+P1455,김혜란,Hyeran Kim,Korea Basic Science Institute,,연구실 페이지 미확인
+P1456,,Tae Youl Ha,Korea Food Research Institute,,연구실 페이지 미확인
+P1457,,Young‐Do Nam,Korea Food Research Institute,,연구실 페이지 미확인
+P1458,,Jong-Dae Park,Korea Food Research Institute,,연구실 페이지 미확인
+P1459,김현정,Hyun Jung Kim,Korea Food Research Institute,,연구실 페이지 미확인
+P1460,,Jiyun Ahn,Korea Food Research Institute,,연구실 페이지 미확인
+P1461,,Sang Keun Ha,Korea Food Research Institute,,연구실 페이지 미확인
+P1462,,Tae‐Kyung Kim,Korea Food Research Institute,,연구실 페이지 미확인
+P1463,,Hye Jeong Yang,Korea Food Research Institute,,연구실 페이지 미확인
+P1464,,Hee‐Do Hong,Korea Food Research Institute,,연구실 페이지 미확인
+P1465,,Heeyoung Lee,Korea Food Research Institute,,연구실 페이지 미확인
+P1466,,Ho‐Young Park,Korea Food Research Institute,,연구실 페이지 미확인
+P1467,,Sang Yoon Choi,Korea Food Research Institute,,연구실 페이지 미확인
+P1468,,Min‐Cheol Kang,Korea Food Research Institute,,연구실 페이지 미확인
+P1469,,Chang Hwa Jung,Korea Food Research Institute,,연구실 페이지 미확인
+P1470,,Juhee Park,Korea Food Research Institute,,연구실 페이지 미확인
+P1471,,Myung‐Sunny Kim,Korea Food Research Institute,,연구실 페이지 미확인
+P1472,이창호,Chang-Ho Lee,Korea Food Research Institute,,연구실 페이지 미확인
+P1473,,Jin‐Taek Hwang,Korea Food Research Institute,,연구실 페이지 미확인
+P1474,김범근,Bum‐Keun Kim,Korea Food Research Institute,,연구실 페이지 미확인
+P1475,,Chang‐Won Cho,Korea Food Research Institute,,연구실 페이지 미확인
+P1476,,Yoonsook Kim,Korea Food Research Institute,,연구실 페이지 미확인
+P1477,,Han Sub Kwak,Korea Food Research Institute,,연구실 페이지 미확인
+P1478,,Yiseul Kim,Korea Food Research Institute,,연구실 페이지 미확인
+P1479,,Jung-Min Sung,Korea Food Research Institute,,연구실 페이지 미확인
+P1480,,Donghwan Kim,Korea Food Research Institute,,연구실 페이지 미확인
+P1481,,Hyo‐Kyoung Choi,Korea Food Research Institute,,연구실 페이지 미확인
+P1482,,Mi Jeong Sung,Korea Food Research Institute,,연구실 페이지 미확인
+P1483,,Jae Woong Choi,Korea Food Research Institute,,연구실 페이지 미확인
+P1484,,Hee‐Don Choi,Korea Food Research Institute,,연구실 페이지 미확인
+P1485,,Hee Soon Shin,Korea Food Research Institute,,연구실 페이지 미확인
+P1486,,Sang‐Hoon Lee,Korea Food Research Institute,,연구실 페이지 미확인
+P1487,,Kee‐Jai Park,Korea Food Research Institute,,연구실 페이지 미확인
+P1488,,Min Young Um,Korea Food Research Institute,,연구실 페이지 미확인
+P1489,,Jaekwang Lee,Korea Food Research Institute,,연구실 페이지 미확인
+P1490,김상숙,Sang Sook Kim,Korea Food Research Institute,,연구실 페이지 미확인
+P1491,,In‐Wook Choi,Korea Food Research Institute,,연구실 페이지 미확인
+P1492,송지혜,Ji‐Hye Song,Korea Food Research Institute,,연구실 페이지 미확인
+P1493,박미리,Miri Park,Korea Food Research Institute,,연구실 페이지 미확인
+P1494,,Yun Tai Kim,Korea Food Research Institute,,연구실 페이지 미확인
+P1495,,Seong‐Il Lim,Korea Food Research Institute,,연구실 페이지 미확인
+P1496,허행전,Haeng Jeon Hur,Korea Food Research Institute,,연구실 페이지 미확인
+P1497,,Min Jung Kim,Korea Food Research Institute,,연구실 페이지 미확인
+P1498,,Jeong Hee Choi,Korea Food Research Institute,,연구실 페이지 미확인
+P1499,,Min‐Cheol Lim,Korea Food Research Institute,,연구실 페이지 미확인
+P1500,,Dan‐Bi Kim,Korea Food Research Institute,,연구실 페이지 미확인
+P1501,,Yu Geon Lee,Korea Food Research Institute,,연구실 페이지 미확인
+P1502,,Hyun‐Jun Jang,Korea Food Research Institute,,연구실 페이지 미확인
+P1503,,Guijae Yoo,Korea Food Research Institute,,연구실 페이지 미확인
+P1504,,Min Kyung Park,Korea Food Research Institute,,연구실 페이지 미확인
+P1505,,So‐Young Lee,Korea Food Research Institute,,연구실 페이지 미확인
+P1506,이장호,Jangho Lee,Korea Food Research Institute,,연구실 페이지 미확인
+P1507,,Minseok Yoon,Korea Food Research Institute,,연구실 페이지 미확인
+P1508,,Young Kyoung Rhee,Korea Food Research Institute,,연구실 페이지 미확인
+P1509,,Jiwoong Park,Korea Food Research Institute,,연구실 페이지 미확인
+P1510,,Ah‐Na Kim,Korea Food Research Institute,,연구실 페이지 미확인
+P1511,,Min Jung Kim,Korea Food Research Institute,,연구실 페이지 미확인
+P1512,,Yea‐Ji Kim,Korea Food Research Institute,,연구실 페이지 미확인
+P1513,,Eun‐Ji Song,Korea Food Research Institute,,연구실 페이지 미확인
+P1514,,Hyun‐Jun Jang,Korea Food Research Institute,,연구실 페이지 미확인
+P1515,,Jae Hoon Lee,Korea Food Research Institute,,연구실 페이지 미확인
+P1516,,Jong-Ho Lee,National Cancer Center,,연구실 페이지 미확인
+P1517,,Young‐Woo Kim,National Cancer Center,,연구실 페이지 미확인
+P1518,,Tae Hyun Kim,National Cancer Center,,연구실 페이지 미확인
+P1519,,Ji‐Youn Han,National Cancer Center,,연구실 페이지 미확인
+P1520,,Myong Cheol Lim,National Cancer Center,,연구실 페이지 미확인
+P1521,,Jeongseon Kim,National Cancer Center,,연구실 페이지 미확인
+P1522,,Kyu‐Chang Wang,National Cancer Center,,연구실 페이지 미확인
+P1523,,Eun Kyung Lee,National Cancer Center,,연구실 페이지 미확인
+P1524,,Young‐Il Kim,National Cancer Center,,연구실 페이지 미확인
+P1525,,Il Ju Choi,National Cancer Center,,연구실 페이지 미확인
+P1526,,Hyeon‐Seok Eom,National Cancer Center,,연구실 페이지 미확인
+P1527,,Sun‐Young Kong,National Cancer Center,,연구실 페이지 미확인
+P1528,,Keun Won Ryu,National Cancer Center,,연구실 페이지 미확인
+P1529,,Jae Hwan Oh,National Cancer Center,,연구실 페이지 미확인
+P1530,,Sung Hun Kim,National Cancer Center,,연구실 페이지 미확인
+P1531,,Keun Seok Lee,National Cancer Center,,연구실 페이지 미확인
+P1532,,Joong‐Won Park,National Cancer Center,,연구실 페이지 미확인
+P1533,,Sung‐Sik Han,National Cancer Center,,연구실 페이지 미확인
+P1534,,Young-Wook Kim,National Cancer Center,,연구실 페이지 미확인
+P1535,,Sang‐Jae Park,National Cancer Center,,연구실 페이지 미확인
+P1536,,Ji Hyun Kim,National Cancer Center,,연구실 페이지 미확인
+P1537,,Sokbom Kang,National Cancer Center,,연구실 페이지 미확인
+P1538,,Ho Jin Kim,National Cancer Center,,연구실 페이지 미확인
+P1539,,Seong Hoon Kim,National Cancer Center,,연구실 페이지 미확인
+P1540,,Dae Kyung Sohn,National Cancer Center,,연구실 페이지 미확인
+P1541,,Hee Jin Chang,National Cancer Center,,연구실 페이지 미확인
+P1542,,Sohyun Park,National Cancer Center,,연구실 페이지 미확인
+P1543,,Jae Young Joung,National Cancer Center,,연구실 페이지 미확인
+P1544,,Dae Yong Kim,National Cancer Center,,연구실 페이지 미확인
+P1545,,Byung‐Ho Nam,National Cancer Center,,연구실 페이지 미확인
+P1546,,Kui Son Choi,National Cancer Center,,연구실 페이지 미확인
+P1547,,Sang Myung Woo,National Cancer Center,,연구실 페이지 미확인
+P1548,,Ho Lee,National Cancer Center,,연구실 페이지 미확인
+P1549,,Ho Sup Lee,National Cancer Center,,연구실 페이지 미확인
+P1550,,Kyu‐Won Jung,National Cancer Center,,연구실 페이지 미확인
+P1551,,Myeong‐Cherl Kook,National Cancer Center,,연구실 페이지 미확인
+P1552,,Jin‐Kyoung Oh,National Cancer Center,,연구실 페이지 미확인
+P1553,,So‐Youn Jung,National Cancer Center,,연구실 페이지 미확인
+P1554,,Ho Kyung Seo,National Cancer Center,,연구실 페이지 미확인
+P1555,,Woo Jin Lee,National Cancer Center,,연구실 페이지 미확인
+P1556,,Jeonghee Lee,National Cancer Center,,연구실 페이지 미확인
+P1557,,Seong‐Sik Park,National Cancer Center,,연구실 페이지 미확인
+P1558,,Jae Kwan Jun,National Cancer Center,,연구실 페이지 미확인
+P1559,,Moran Ki,National Cancer Center,,연구실 페이지 미확인
+P1560,,Jinsoo Chung,National Cancer Center,,연구실 페이지 미확인
+P1561,,Chan Gyoo Kim,National Cancer Center,,연구실 페이지 미확인
+P1562,,Geon Kook Lee,National Cancer Center,,연구실 페이지 미확인
+P1563,,Bang Wool Eom,National Cancer Center,,연구실 페이지 미확인
+P1564,,Mee Joo Kang,National Cancer Center,,연구실 페이지 미확인
+P1565,,Sun‐Young Kim,National Cancer Center,,연구실 페이지 미확인
+P1566,,Su‐Hyun Kim,National Cancer Center,,연구실 페이지 미확인
+P1567,,Young Ae Kim,National Cancer Center,,연구실 페이지 미확인
+P1568,,Weon Seo Park,National Cancer Center,,연구실 페이지 미확인
+P1569,,Sang‐Soo Seo,National Cancer Center,,연구실 페이지 미확인
+P1570,,Moon Ki Choi,National Cancer Center,,연구실 페이지 미확인
+P1571,,Hong Man Yoon,National Cancer Center,,연구실 페이지 미확인
+P1572,,Soo‐Youl Kim,National Cancer Center,,연구실 페이지 미확인
+P1573,,Hyung Ho Lee,National Cancer Center,,연구실 페이지 미확인
+P1574,,Yong Sun Lee,National Cancer Center,,연구실 페이지 미확인
+P1575,,Hyeon Jin Park,National Cancer Center,,연구실 페이지 미확인
+P1576,,Young Jin Kim,Korea National Institute of Health,,연구실 페이지 미확인
+P1577,,Kyoungho Lee,Korea National Institute of Health,,연구실 페이지 미확인
+P1578,,Hee‐Chang Jang,Korea National Institute of Health,,연구실 페이지 미확인
+P1579,,Seung Hyun Kim,Korea National Institute of Health,,연구실 페이지 미확인
+P1580,,Bong-Jo Kim,Korea National Institute of Health,,연구실 페이지 미확인
+P1581,,Kyung-Chang Kim,Korea National Institute of Health,,연구실 페이지 미확인
+P1582,,Gi‐eun Rhie,Korea National Institute of Health,,연구실 페이지 미확인
+P1583,,Joo-Yeon Lee,Korea National Institute of Health,,연구실 페이지 미확인
+P1584,김수지,Suji Kim,Korea National Institute of Health,,연구실 페이지 미확인
+P1585,,Young Ho Koh,Korea National Institute of Health,,연구실 페이지 미확인
+P1586,,Jeong‐Sun Yang,Korea National Institute of Health,,연구실 페이지 미확인
+P1587,,Jae Ho Park,Korea National Institute of Health,,연구실 페이지 미확인
+P1588,,Min Jin Go,Korea National Institute of Health,,연구실 페이지 미확인
+P1589,,Jung Wook Kim,Korea National Institute of Health,,연구실 페이지 미확인
+P1590,,Eun-Jeong Yoon,Korea National Institute of Health,,연구실 페이지 미확인
+P1591,,Jung Yeon Hong,Korea National Institute of Health,,연구실 페이지 미확인
+P1592,,Dae Sub Song,Korea National Institute of Health,,연구실 페이지 미확인
+P1593,이준우,June-Woo Lee,Korea National Institute of Health,,연구실 페이지 미확인
+P1594,,Sanghoon Moon,Korea National Institute of Health,,연구실 페이지 미확인
+P1595,,Hae Dong Woo,Korea National Institute of Health,,연구실 페이지 미확인
+P1596,,Han Byul Jang,Korea National Institute of Health,,연구실 페이지 미확인
+P1597,,Young Jae Lee,Korea National Institute of Health,,연구실 페이지 미확인
+P1598,,Jae‐Pil Jeon,Korea National Institute of Health,,연구실 페이지 미확인
+P1599,,Sehee Park,Korea National Institute of Health,,연구실 페이지 미확인
+P1600,,Hae Ji Kang,Korea National Institute of Health,,연구실 페이지 미확인
+P1601,,Jung Sik Yoo,Korea National Institute of Health,,연구실 페이지 미확인
+P1602,,Sihan Song,Korea National Institute of Health,,연구실 페이지 미확인
+P1603,,Hye-Mi Jang,Korea National Institute of Health,,연구실 페이지 미확인
+P1604,,Ju‐Yeon Choi,Korea National Institute of Health,,연구실 페이지 미확인
+P1605,,Kyungheon Yoon,Korea National Institute of Health,,연구실 페이지 미확인
+P1607,,Kwang Jun Lee,Korea National Institute of Health,,연구실 페이지 미확인
+P1608,,Songmee Bae,Korea National Institute of Health,,연구실 페이지 미확인
+P1609,,Chulman Jo,Korea National Institute of Health,,연구실 페이지 미확인
+P1610,,Cheol‐Hee Yoon,Korea National Institute of Health,,연구실 페이지 미확인
+P1611,,Byoung Kwon Park,Korea National Institute of Health,,연구실 페이지 미확인
+P1612,,Dankyu Yoon,Korea National Institute of Health,,연구실 페이지 미확인
+P1613,,Byoungguk Kim,Korea National Institute of Health,,연구실 페이지 미확인
+P1614,,Taeyoung Lee,Korea National Institute of Health,,연구실 페이지 미확인
+P1616,,Yong‐Ou Kim,Korea National Institute of Health,,연구실 페이지 미확인
+P1617,,Hyun‐Joo Kim,Korea National Institute of Health,,연구실 페이지 미확인
+P1618,,Hee-Soo Han,Korea National Institute of Health,,연구실 페이지 미확인
+P1619,,Young-Eui Kim,Korea National Institute of Health,,연구실 페이지 미확인
+P1620,,Joo Hyun Lim,Korea National Institute of Health,,연구실 페이지 미확인
+P1621,,Joong Won Lee,Korea National Institute of Health,,연구실 페이지 미확인
+P1622,,Ji-Young Choi,Korea National Institute of Health,,연구실 페이지 미확인
+P1623,,Seungtaek Kim,Institut Pasteur Korea,,연구실 페이지 미확인
+P1624,,Soojin Jang,Institut Pasteur Korea,,연구실 페이지 미확인
+P1625,,Kyunghwa Baek,Institut Pasteur Korea,,연구실 페이지 미확인
+P1626,,Joo Hwan No,Institut Pasteur Korea,,연구실 페이지 미확인
+P1627,,Eui Ho Kim,Institut Pasteur Korea,,연구실 페이지 미확인
+P1628,,Sun Min Lee,Institut Pasteur Korea,,연구실 페이지 미확인
+P1629,,Junghwa Lee,Institut Pasteur Korea,,연구실 페이지 미확인
+P1630,양시연,Siyeon Yang,Institut Pasteur Korea,,연구실 페이지 미확인
+P1631,,Sangeun Jeon,Institut Pasteur Korea,,연구실 페이지 미확인
+P1632,,Haeng Ran Seo,Institut Pasteur Korea,,연구실 페이지 미확인
+P1633,,Yeonhwa Song,Institut Pasteur Korea,,연구실 페이지 미확인
+P1634,,Hyun‐Ah Kim,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1635,이승숙,Seung‐Sook Lee,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1636,,In‐Chul Park,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1637,,Hye Jin Kang,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1638,,Sang‐Gu Hwang,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1639,,Jae‐Sung Kim,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1640,,Jae Yong Choi,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1641,,Myung Jin Park,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1642,,Dong Hyun Kim,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1643,,Jong Kuk Park,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1644,,Hyunjin Shin,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1645,,Eun Ju Kim,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1646,,Jiyeon Ahn,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1647,,Hee Jung Jung,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1648,,Hyeon‐Ok Jin,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1649,,Jie‐Young Song,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1650,,Min-Ki Seong,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1651,,Chan Sub Park,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1652,,Kangsan Kim,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1653,,Jin-Hee Seo,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1654,,Jang Woo Park,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1655,,Jinhee Kwon,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1656,,Jun Shik Choi,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1657,,Hae‐Yun Jung,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1658,,Kwang Seok Kim,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1659,,Jungmin Ahn,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1660,,Jae Yeon Choi,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1661,,Junhye Kwon,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1662,,In Hwa Bae,Korea Institute of Radiological and Medical Sciences,,연구실 페이지 미확인
+P1663,,Chan‐Won Park,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1664,,Sang‐Won Lee,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1665,,Byungjoo Kim,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1666,,Ji Youn Lee,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1667,,Seil Kim,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1668,,Hee Min Yoo,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1669,,Il Doh,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1670,,Ji Hun Lee,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1671,,Hyunung Yu,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1672,,Kihwan Choi,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1673,,Ji‐Seon Jeong,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1674,,Hee‐Kyung Na,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1675,,Sang-Ryoul Park,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1676,,Inchul Yang,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1677,,Young‐Kyung Bae,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1678,,Sae Rom Hong,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1679,,J. Eugene Lee,Korea Research Institute of Standards and Science,,연구실 페이지 미확인
+P1680,,Dong‐Hyeon Kim,Celltrion,,연구실 페이지 미확인
+P1681,,Joon Ho Lee,Celltrion,,연구실 페이지 미확인
+P1682,양고은,Go Eun Yang,Celltrion,,연구실 페이지 미확인
+P1683,,Eunkyung Lee,Celltrion,,연구실 페이지 미확인
+P1684,,Ae Lee Jeong,Celltrion,,연구실 페이지 미확인
+P1685,,SungHyun Kim,Celltrion,,연구실 페이지 미확인
+P1686,,Yunju Bae,Celltrion,,연구실 페이지 미확인
+P1687,,Nahyun Kim,Celltrion,,연구실 페이지 미확인
+P1688,,Keum Young Ahn,Celltrion,,연구실 페이지 미확인
+P1689,,Taek Sang Kwon,Celltrion,,연구실 페이지 미확인
+P1690,,Myeong Joo Kim,Celltrion,,연구실 페이지 미확인
+P1691,,Minyoung Jang,Celltrion,,연구실 페이지 미확인
+P1692,,Eric Hyungseok Baek,Celltrion,,연구실 페이지 미확인
+P1693,,JeeHye Suh,Celltrion,,연구실 페이지 미확인
+P1694,,S J Lee,Celltrion,,연구실 페이지 미확인
+P1695,,DaBee Jeon,Celltrion,,연구실 페이지 미확인
+P1696,김대진,Daejin Kim,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1697,,Jiyeon Yoon,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1698,,Sun‐Young Lim,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1699,,Sung Hee Hong,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1700,,Young‐Gil Ahn,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1701,,Yu-Yon Kim,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1702,,Yoon‐Jong Bae,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1703,,Yujin Lee,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1704,,Seung Hyun Jung,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1705,,Gunwoo Lee,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1706,임세미,Semi Lim,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1707,,Hocheol Shin,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1708,,Taek Kwan Kwon,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1709,,Young Su Noh,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1710,,Ho Yeon Nam,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1711,,Sol‐Bi Shin,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1712,,Haemin Chon,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1713,,Jisook Kim,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1714,,Aran Park,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1715,,Eunhye Baek,Hanmi Pharmaceutical,,연구실 페이지 미확인
+P1719,,Hye Young Ji,Daewoong Pharmaceutical,,연구실 페이지 미확인
+P1720,,Hyun‐Woo Lim,Daewoong Pharmaceutical,,연구실 페이지 미확인
+P1721,,Gwanyoung Kim,Daewoong Pharmaceutical,,연구실 페이지 미확인
+P1722,,Seung Jae Jeong,Daewoong Pharmaceutical,,연구실 페이지 미확인
+P1723,,Ahreum Kwon,Daewoong Pharmaceutical,,연구실 페이지 미확인
+P1724,,Byeongyong Kim,Daewoong Pharmaceutical,,연구실 페이지 미확인
+P1725,,Soon Jae Park,Alteogen,,연구실 페이지 미확인
+P1726,,Weon‐Kyoo You,ABL Bio,,연구실 페이지 미확인
+P1727,,Jinwon Jung,ABL Bio,,연구실 페이지 미확인
+P1728,,Hakju Kwon,ABL Bio,,연구실 페이지 미확인
+P1729,,Jin-Hyung Ahn,ABL Bio,,연구실 페이지 미확인
+P1730,,Sungwon An,ABL Bio,,연구실 페이지 미확인
+P1731,,Jeong‐Sun Seo,Macrogen,,연구실 페이지 미확인
+P1732,,Nak‐Jung Kwon,Macrogen,,연구실 페이지 미확인
+P1733,,Changhoon Kim,Macrogen,,연구실 페이지 미확인
+P1734,,Seung‐been Lee,Macrogen,,연구실 페이지 미확인
+P1735,,Yanghoon Peter Jung,CJ CheilJedang,,연구실 페이지 미확인
+P1736,,Hyeonho Yun,CJ CheilJedang,,연구실 페이지 미확인
+P1737,,Sera Choi,CJ CheilJedang,,연구실 페이지 미확인
+P1738,,Yong Uk Shin,CJ CheilJedang,,연구실 페이지 미확인
+P1739,,Jeung‐yil Park,CJ CheilJedang,,연구실 페이지 미확인
+P1740,,Jun-Ok Moon,CJ CheilJedang,,연구실 페이지 미확인
+P1741,,Joo Hyun Park,CJ CheilJedang,,연구실 페이지 미확인
+P1742,,Mina Baek,CJ CheilJedang,,연구실 페이지 미확인
+P1743,,Seok‐Joo Kim,LG Chem,,연구실 페이지 미확인
+P1744,송의숙,,Eulji University,의예과,논문 프로필 없음; 연구실 페이지 미확인
+P1745,,Hyuk‐Joon Kwon,Genexine,,연구실 페이지 미확인
+P1746,,Jin Soo Lee,Inha University,,연구실 페이지 미확인
+P1747,,Suyeon Park,Inha University,,연구실 페이지 미확인
+P1748,최성혜,Seong Hye Choi,Inha University,,연구실 페이지 미확인
+P1749,,Jiyoung Kim,Inha University,,연구실 페이지 미확인
+P1750,,Seok Won Jeong,Inha University,,연구실 페이지 미확인
+P1751,김동현,Dong Hyun Kim,Inha University,,연구실 페이지 미확인
+P1752,,Sun Min Kim,Inha University,,연구실 페이지 미확인
+P1753,김재욱,Jae Wook Kim,Inha University,,연구실 페이지 미확인
+P1754,,Jung Soo Kim,Inha University,,연구실 페이지 미확인
+P1755,,Jacob Lee,Inha University,,연구실 페이지 미확인
+P1756,,Don Haeng Lee,Inha University,,연구실 페이지 미확인
+P1757,,Jun‐Il Yoo,Inha University,,연구실 페이지 미확인
+P1758,,Eung‐Soo Kim,Inha University,,연구실 페이지 미확인
+P1759,,Jeong‐Seon Ryu,Inha University,,연구실 페이지 미확인
+P1760,,Ju‐Hee Kang,Inha University,,연구실 페이지 미확인
+P1761,,Kyungsook Han,Inha University,,연구실 페이지 미확인
+P1762,,Ji Eun Lee,Inha University,,연구실 페이지 미확인
+P1763,,Jeong Hee Kim,Inha University,,연구실 페이지 미확인
+P1764,,Gwang Seong Choi,Inha University,,연구실 페이지 미확인
+P1765,,Ji‐Kan Ryu,Inha University,,연구실 페이지 미확인
+P1766,,Insook Cho,Inha University,,연구실 페이지 미확인
+P1767,,Hyun Jin Kim,Inha University,,연구실 페이지 미확인
+P1768,,Jae‐Seon Lee,Inha University,,연구실 페이지 미확인
+P1769,,Tae‐Joon Jeon,Inha University,,연구실 페이지 미확인
+P1770,,Jeonghyun Shin,Inha University,,연구실 페이지 미확인
+P1771,,Dong‐Ho Park,Inha University,,연구실 페이지 미확인
+P1772,,Lucia Kim,Inha University,,연구실 페이지 미확인
+P1773,,Sung‐Hee Shin,Inha University,,연구실 페이지 미확인
+P1774,,Sang‐Don Park,Inha University,,연구실 페이지 미확인
+P1775,,Young Ju Suh,Inha University,,연구실 페이지 미확인
+P1776,,Soon‐Sun Hong,Inha University,,연구실 페이지 미확인
+P1777,,Kyung Hee Jung,Inha University,,연구실 페이지 미확인
+P1778,,Joon Mee Kim,Inha University,,연구실 페이지 미확인
+P1779,,Sang Eun Kim,Inha University,,연구실 페이지 미확인
+P1780,,Soo-Hyun Park,Inha University,,연구실 페이지 미확인
+P1781,,Hyo‐Bum Kwak,Inha University,,연구실 페이지 미확인
+P1782,,Chul Hee Lee,Inha University,,연구실 페이지 미확인
+P1783,,Byung Hyune Choi,Inha University,,연구실 페이지 미확인
+P1784,,Sang Hun Lee,Inha University,,연구실 페이지 미확인
+P1785,,Kyu‐Sung Kim,Inha University,,연구실 페이지 미확인
+P1786,,Heon Joo Park,Inha University,,연구실 페이지 미확인
+P1787,,Soon Ki Kim,Inha University,,연구실 페이지 미확인
+P1788,,Min Kyung Lim,Inha University,,연구실 페이지 미확인
+P1789,,Su Jin Kim,Inha University,,연구실 페이지 미확인
+P1790,,Ji Hyeon Baek,Inha University,,연구실 페이지 미확인
+P1791,,Cheol-Woo Kim,Inha University,,연구실 페이지 미확인
+P1792,,Jun‐Hyeog Jang,Inha University,,연구실 페이지 미확인
+P1793,,So Hun Kim,Inha University,,연구실 페이지 미확인
+P1794,김혜영,Hye-Young Kim,Inha University,,연구실 페이지 미확인
+P1795,,Sang-Chul Lee,Inha University,,연구실 페이지 미확인
+P1796,,Suk Jin Choi,Inha University,,연구실 페이지 미확인
+P1797,,Sang‐Hee Yoon,Inha University,,연구실 페이지 미확인
+P1798,,Dae Hyun Lim,Inha University,,연구실 페이지 미확인
+P1799,,Seong Hee Ahn,Inha University,,연구실 페이지 미확인
+P1800,,Jae Nam Bae,Inha University,,연구실 페이지 미확인
+P1801,,Dae-Young Kim,Inha University,,연구실 페이지 미확인
+P1802,,Inn‐Oc Han,Inha University,,연구실 페이지 미확인
+P1803,,Youngju Choi,Inha University,,연구실 페이지 미확인
+P1804,,Min Ji Choi,Inha University,,연구실 페이지 미확인
+P1805,,Jihun Lee,Inha University,,연구실 페이지 미확인
+P1806,,Joon‐Ho Lee,Sejong University,,연구실 페이지 미확인
+P1807,,Hyung Wook Kim,Sejong University,,연구실 페이지 미확인
+P1808,,Suyong Lee,Sejong University,,연구실 페이지 미확인
+P1809,,Yeong‐Min Park,Sejong University,,연구실 페이지 미확인
+P1810,,Sang‐Ho Yoo,Sejong University,,연구실 페이지 미확인
+P1811,,Yang Hee Kim,Sejong University,,연구실 페이지 미확인
+P1812,,Young‐Joo Lee,Sejong University,,연구실 페이지 미확인
+P1813,,Dong‐Ho Seo,Sejong University,,연구실 페이지 미확인
+P1814,,Dohyung Lim,Sejong University,,연구실 페이지 미확인
+P1815,,Eun‐Young Yun,Sejong University,,연구실 페이지 미확인
+P1816,,Sungkwon Park,Sejong University,,연구실 페이지 미확인
+P1817,,Hyun Uk Kim,Sejong University,,연구실 페이지 미확인
+P1818,,Joong Hyoun Chin,Sejong University,,연구실 페이지 미확인
+P1819,,Tae‐Gyu Lim,Sejong University,,연구실 페이지 미확인
+P1820,,Soon‐Mi Shim,Sejong University,,연구실 페이지 미확인
+P1821,,Kyung Do Kim,Sejong University,,연구실 페이지 미확인
+P1822,박황서,Hwangseo Park,Sejong University,,연구실 페이지 미확인
+P1823,,Jin Hee Lim,Sejong University,,연구실 페이지 미확인
+P1824,,Eun‐Yi Moon,Sejong University,,연구실 페이지 미확인
+P1825,김지영,Jiyoung Kim,Sejong University,,연구실 페이지 미확인
+P1826,,Soo‐Jong Um,Sejong University,,연구실 페이지 미확인
+P1827,,Hyun Ok Yang,Sejong University,,연구실 페이지 미확인
+P1828,,Seungyeoun Lee,Sejong University,,연구실 페이지 미확인
+P1829,,Chang-Sik Park,Sejong University,,연구실 페이지 미확인
+P1830,,Chun Jeih Ryu,Sejong University,,연구실 페이지 미확인
+P1831,,Geun-Pyo Hong,Sejong University,,연구실 페이지 미확인
+P1832,,Seung‐Joo Lee,Sejong University,,연구실 페이지 미확인
+P1833,,Sanghyeob Lee,Sejong University,,연구실 페이지 미확인
+P1834,,HyeSook Youn,Sejong University,,연구실 페이지 미확인
+P1835,,Seokmann Hong,Sejong University,,연구실 페이지 미확인
+P1836,,Soo‐Jeong Lim,Sejong University,,연구실 페이지 미확인
+P1837,,Jae Sik Yu,Sejong University,,연구실 페이지 미확인
+P1838,,Byung‐Hoo Lee,Sejong University,,연구실 페이지 미확인
+P1839,,Young Hyun Kim,Sejong University,,연구실 페이지 미확인
+P1840,,Hyun-Seung Park,Sejong University,,연구실 페이지 미확인
+P1841,,Jae Kwang Kim,Incheon National University,,연구실 페이지 미확인
+P1842,,Bo-Kyeong Kim,Incheon National University,,연구실 페이지 미확인
+P1843,,Yoo Jin Lee,Incheon National University,,연구실 페이지 미확인
+P1844,,Hyung Wook Kwon,Incheon National University,,연구실 페이지 미확인
+P1845,,Eunjung Kim,Incheon National University,,연구실 페이지 미확인
+P1846,,Dong‐Il Kim,Incheon National University,,연구실 페이지 미확인
+P1847,,Myung‐Ji Seo,Incheon National University,,연구실 페이지 미확인
+P1848,,Michael Lee,Incheon National University,,연구실 페이지 미확인
+P1849,,Kiwon Park,Incheon National University,,연구실 페이지 미확인
+P1850,,Won Jong Rhee,Incheon National University,,연구실 페이지 미확인
+P1851,,Jung‐Wan Kim,Incheon National University,,연구실 페이지 미확인
+P1852,,Kyung Min Park,Incheon National University,,연구실 페이지 미확인
+P1853,,Byeong Hee Hwang,Incheon National University,,연구실 페이지 미확인
+P1854,,Min Suk Shim,Incheon National University,,연구실 페이지 미확인
+P1855,,Joon Tae Park,Incheon National University,,연구실 페이지 미확인
+P1856,,Byung‐Seok Kim,Incheon National University,,연구실 페이지 미확인
+P1857,,Misu Lee,Incheon National University,,연구실 페이지 미확인
+P1858,,Sunggu Yang,Incheon National University,,연구실 페이지 미확인
+P1859,,Su Jin Kang,Incheon National University,,연구실 페이지 미확인
+P1860,,Soo Bong Choi,Incheon National University,,연구실 페이지 미확인
+P1861,,Kisuk Yang,Incheon National University,,연구실 페이지 미확인
+P1862,,Jeong‐Hyeon Lee,Incheon National University,,연구실 페이지 미확인
+P1863,,Jaegyoon Ahn,Incheon National University,,연구실 페이지 미확인
+P1864,,Jun‐Seob Kim,Incheon National University,,연구실 페이지 미확인
+P1865,,Jaehyuk Choi,Incheon National University,,연구실 페이지 미확인
+P1866,이승용,Seungyong Lee,Incheon National University,,연구실 페이지 미확인
+P1867,,Moon‐Hyon Hwang,Incheon National University,,연구실 페이지 미확인
+P1868,,Kiyoon Kang,Incheon National University,,연구실 페이지 미확인
+P1869,,Jae Geun Kim,Incheon National University,,연구실 페이지 미확인
+P1870,,Nyeonju Kang,Incheon National University,,연구실 페이지 미확인
+P1871,,Yeongjin Kim,Incheon National University,,연구실 페이지 미확인
+P1872,,Sewon Lee,Incheon National University,,연구실 페이지 미확인
+P1873,,Mi-Ryung Han,Incheon National University,,연구실 페이지 미확인
+P1874,,Byoung Choul Kim,Incheon National University,,연구실 페이지 미확인
+P1875,,Dong‐Ku Kang,Incheon National University,,연구실 페이지 미확인
+P1876,,Sungchil Yang,Incheon National University,,연구실 페이지 미확인
+P1877,,Hara Kang,Incheon National University,,연구실 페이지 미확인
+P1878,,Kyeongho Byun,Incheon National University,,연구실 페이지 미확인
+P1879,,Hwan-ho Cho,Incheon National University,,연구실 페이지 미확인
+P1880,,Ji-Hong Bong,Incheon National University,,연구실 페이지 미확인
+P1881,,Jae Min Cha,Incheon National University,,연구실 페이지 미확인
+P1883,,Jupil Ko,Incheon National University,,연구실 페이지 미확인
+P1884,,Sangwon Byun,Incheon National University,,연구실 페이지 미확인
+P1885,,Jae‐Sung Kwon,Incheon National University,,연구실 페이지 미확인
+P1886,,In‐Cheol Yeo,Incheon National University,,연구실 페이지 미확인
+P1887,,Kwang Hoon Song,Incheon National University,,연구실 페이지 미확인
+P1888,,Byong Seo Park,Incheon National University,,연구실 페이지 미확인
+P1889,,Hyun Jung Kim,Sookmyung Women's University,,연구실 페이지 미확인
+P1890,,Jong Hoon Park,Sookmyung Women's University,,연구실 페이지 미확인
+P1891,,Yohan Yoon,Sookmyung Women's University,,연구실 페이지 미확인
+P1892,,Jane Lee,Sookmyung Women's University,,연구실 페이지 미확인
+P1893,,Mi‐Kyung Sung,Sookmyung Women's University,,연구실 페이지 미확인
+P1894,,Jong‐Seok Lim,Sookmyung Women's University,,연구실 페이지 미확인
+P1895,,Nami Joo,Sookmyung Women's University,,연구실 페이지 미확인
+P1896,,Kyo Bin Kang,Sookmyung Women's University,,연구실 페이지 미확인
+P1897,,Keun Il Kim,Sookmyung Women's University,,연구실 페이지 미확인
+P1898,,Yonghwan Kim,Sookmyung Women's University,,연구실 페이지 미확인
+P1899,,Byung Hee Kim,Sookmyung Women's University,,연구실 페이지 미확인
+P1900,,Gyu‐Un Bae,Sookmyung Women's University,,연구실 페이지 미확인
+P1901,,Soochul Park,Sookmyung Women's University,,연구실 페이지 미확인
+P1902,,Jin‐Ah Lee,Sookmyung Women's University,,연구실 페이지 미확인
+P1903,,Dong‐Sik Shin,Sookmyung Women's University,,연구실 페이지 미확인
+P1904,,Raok Jeon,Sookmyung Women's University,,연구실 페이지 미확인
+P1905,,Kyung Hyun Yoo,Sookmyung Women's University,,연구실 페이지 미확인
+P1906,,Hyemin Oh,Sookmyung Women's University,,연구실 페이지 미확인
+P1907,,Jung Bok Lee,Sookmyung Women's University,,연구실 페이지 미확인
+P1908,,Sung‐Eun Kim,Sookmyung Women's University,,연구실 페이지 미확인
+P1909,,Joo Yong Sim,Sookmyung Women's University,,연구실 페이지 미확인
+P1910,,Yong Kee Kim,Sookmyung Women's University,,연구실 페이지 미확인
+P1911,김현숙,Hyun‐Sook Kim,Sookmyung Women's University,,연구실 페이지 미확인
+P1912,,Byung‐Chul Lee,Sookmyung Women's University,,연구실 페이지 미확인
+P1913,,Je Yeong Ko,Sookmyung Women's University,,연구실 페이지 미확인
+P1914,,Myung-Jin Kim,Sookmyung Women's University,,연구실 페이지 미확인
+P1915,,Se Hwan Mun,Sookmyung Women's University,,연구실 페이지 미확인
+P1916,,Suh-Yeon Dong,Sookmyung Women's University,,연구실 페이지 미확인
+P1917,,Heejoon Chae,Sookmyung Women's University,,연구실 페이지 미확인
+P1918,,Youngjin Na,Sookmyung Women's University,,연구실 페이지 미확인
+P1919,,Chang‐Young Jang,Sookmyung Women's University,,연구실 페이지 미확인
+P1920,,Se Hee Lee,Sookmyung Women's University,,연구실 페이지 미확인
+P1921,,Byung‐Chul Lee,Sookmyung Women's University,,연구실 페이지 미확인
+P1922,,Euna Jeong,Sookmyung Women's University,,연구실 페이지 미확인
+P1923,,Sora Han,Sookmyung Women's University,,연구실 페이지 미확인
+P1924,,Kwang‐il Lim,Sookmyung Women's University,,연구실 페이지 미확인
+P1925,,Jinsil Kim,Sookmyung Women's University,,연구실 페이지 미확인
+P1926,,Min Jung Kim,Sookmyung Women's University,,연구실 페이지 미확인
+P1927,,Joohyun Kang,Sookmyung Women's University,,연구실 페이지 미확인
+P1928,,Hyungsup Kim,Sookmyung Women's University,,연구실 페이지 미확인
+P1929,,Hye In Ka,Sookmyung Women's University,,연구실 페이지 미확인
+P1930,,Minji Kang,Duksung Women's University,,연구실 페이지 미확인
+P1931,,Jae Yong Ryu,Duksung Women's University,,연구실 페이지 미확인
+P1932,,Hyosun Cho,Duksung Women's University,,연구실 페이지 미확인
+P1933,,Jin Woo Lee,Duksung Women's University,,연구실 페이지 미확인
+P1934,,Joohee Jung,Duksung Women's University,,연구실 페이지 미확인
+P1935,,Young Mi Kim,Duksung Women's University,,연구실 페이지 미확인
+P1936,,Eunyoung Han,Duksung Women's University,,연구실 페이지 미확인
+P1937,,Kyu‐Tae Kang,Duksung Women's University,,연구실 페이지 미확인
+P1938,,Kyoung Song,Duksung Women's University,,연구실 페이지 미확인
+P1939,,Kwang Gi Kim,Gachon University,,연구실 페이지 미확인
+P1940,,Sun Yeou Kim,Gachon University,,연구실 페이지 미확인
+P1941,,Young‐Chul Lee,Gachon University,,연구실 페이지 미확인
+P1942,,Ki Sung Kang,Gachon University,,연구실 페이지 미확인
+P1943,,Seong Soo A. An,Gachon University,,연구실 페이지 미확인
+P1944,,Woong Chol Kang,Gachon University,,연구실 페이지 미확인
+P1945,,Jong‐Hoon Kim,Gachon University,,연구실 페이지 미확인
+P1946,,Hae‐Jeung Lee,Gachon University,,연구실 페이지 미확인
+P1947,,Jong Hun Lee,Gachon University,,연구실 페이지 미확인
+P1948,,Young‐Seo Park,Gachon University,,연구실 페이지 미확인
+P1949,,Mi‐Seung Shin,Gachon University,,연구실 페이지 미확인
+P1950,,Ji Hyung Kim,Gachon University,,연구실 페이지 미확인
+P1951,,Jiyun Kim,Gachon University,,연구실 페이지 미확인
+P1952,,In Cheol Hwang,Gachon University,,연구실 페이지 미확인
+P1953,,Sihoon Lee,Gachon University,,연구실 페이지 미확인
+P1954,,So Hyun Park,Gachon University,,연구실 페이지 미확인
+P1955,,Wook‐Jin Chung,Gachon University,,연구실 페이지 미확인
+P1956,,Nae Yoon Lee,Gachon University,,연구실 페이지 미확인
+P1957,,Kee Hyung Park,Gachon University,,연구실 페이지 미확인
+P1958,,Bong‐Hee Lee,Gachon University,,연구실 페이지 미확인
+P1959,,Jae‐Young Kim,Gachon University,,연구실 페이지 미확인
+P1960,,Sung‐Min Ahn,Gachon University,,연구실 페이지 미확인
+P1961,,Jun‐Won Chung,Gachon University,,연구실 페이지 미확인
+P1962,,Jeong‐Heum Baek,Gachon University,,연구실 페이지 미확인
+P1963,,Young Noh,Gachon University,,연구실 페이지 미확인
+P1964,,Kyoung Oh Kim,Gachon University,,연구실 페이지 미확인
+P1965,,Youngjin Lee,Gachon University,,연구실 페이지 미확인
+P1966,,Sungbo Cho,Gachon University,,연구실 페이지 미확인
+P1967,,Song‐Yi Kim,Gachon University,,연구실 페이지 미확인
+P1968,,Jeong Yeal Ahn,Gachon University,,연구실 페이지 미확인
+P1969,,Kuk Hui Son,Gachon University,,연구실 페이지 미확인
+P1970,,Kyunghee Byun,Gachon University,,연구실 페이지 미확인
+P1971,,Joo‐Hwan Kim,Gachon University,,연구실 페이지 미확인
+P1972,,Seong‐Kyu Kang,Gachon University,,연구실 페이지 미확인
+P1973,,Hee Joo Kim,Gachon University,,연구실 페이지 미확인
+P1974,,Yunmi Kim,Gachon University,,연구실 페이지 미확인
+P1976,,Pyung Chun Oh,Gachon University,,연구실 페이지 미확인
+P1977,,Hye‐Kyung Cho,Gachon University,,연구실 페이지 미확인
+P1978,김상효,Sanghyo Kim,Gachon University,,연구실 페이지 미확인
+P1979,,Tae‐Sik Park,Gachon University,,연구실 페이지 미확인
+P1980,,Ji Yong Jung,Gachon University,,연구실 페이지 미확인
+P1981,,Seungyoon Nam,Gachon University,,연구실 페이지 미확인
+P1982,,Byung‐Chul Oh,Gachon University,,연구실 페이지 미확인
+P1983,,Jeonggeun Moon,Gachon University,,연구실 페이지 미확인
+P1984,,Hui‐Young Lee,Gachon University,,연구실 페이지 미확인
+P1985,,Han‐Joo Maeng,Gachon University,,연구실 페이지 미확인
+P1986,,Eui Joo Kim,Gachon University,,연구실 페이지 미확인
+P1987,,In‐Sun Hong,Gachon University,,연구실 페이지 미확인
+P1988,,Kyoung Kon Kim,Gachon University,,연구실 페이지 미확인
+P1989,,Yeong‐Bae Lee,Gachon University,,연구실 페이지 미확인
+P1990,이동훈,Donghun Lee,Gachon University,,연구실 페이지 미확인
+P1991,이하늘,Haneul Lee,Gachon University,,연구실 페이지 미확인
+P1992,,Young‐Don Son,Gachon University,,연구실 페이지 미확인
+P1993,,Sang Pyo Lee,Gachon University,,연구실 페이지 미확인
+P1994,,Hyun Jong Lee,Gachon University,,연구실 페이지 미확인
+P1995,,Hwi-young Cho,Gachon University,,연구실 페이지 미확인
+P1996,,Hyun Jeong Kwak,Gachon University,,연구실 페이지 미확인
+P1997,,Wi Hoon Jung,Gachon University,,연구실 페이지 미확인
+P1998,,Hee‐Eun Kim,Gachon University,,연구실 페이지 미확인
+P1999,,Dong Joon Kim,Hallym University,,연구실 페이지 미확인
+P2000,,Jae‐Seok Kim,Hallym University,,연구실 페이지 미확인
+P2001,,Sohyun Park,Hallym University,,연구실 페이지 미확인
+P2002,,Chul Woo Kim,Hallym University,,연구실 페이지 미확인
+P2003,,Sang‐Soo Lee,Hallym University,,연구실 페이지 미확인
+P2004,,Ki Tae Suk,Hallym University,,연구실 페이지 미확인
+P2005,,Kyung‐Ho Yu,Hallym University,,연구실 페이지 미확인
+P2006,,Tae‐Cheon Kang,Hallym University,,연구실 페이지 미확인
+P2007,,Won‐Keun Kim,Hallym University,,연구실 페이지 미확인
+P2008,,Sang‐Yoon Park,Hallym University,,연구실 페이지 미확인
+P2009,,Gwang Ho Baik,Hallym University,,연구실 페이지 미확인
+P2010,,Yong Bum Park,Hallym University,,연구실 페이지 미확인
+P2011,,Soo Young Kim,Hallym University,,연구실 페이지 미확인
+P2012,강영희,Young‐Hee Kang,Hallym University,,연구실 페이지 미확인
+P2013,,MinJae Lee,Hallym University,,연구실 페이지 미확인
+P2014,,You Sun Kim,Hallym University,,연구실 페이지 미확인
+P2015,강일준,Il‐Jun Kang,Hallym University,,연구실 페이지 미확인
+P2016,,Joo‐Hee Kim,Hallym University,,연구실 페이지 미확인
+P2017,,Jae Jun Lee,Hallym University,,연구실 페이지 미확인
+P2018,,Yun Joong Kim,Hallym University,,연구실 페이지 미확인
+P2019,,Chi Kyung Kim,Hallym University,,연구실 페이지 미확인
+P2020,,Soo‐Jin Cho,Hallym University,,연구실 페이지 미확인
+P2021,,Mi Jung Kwon,Hallym University,,연구실 페이지 미확인
+P2022,,Hye One Kim,Hallym University,,연구실 페이지 미확인
+P2023,이효정,Hyo‐Jeong Lee,Hallym University,,연구실 페이지 미확인
+P2024,,Young‐Ki Lee,Hallym University,,연구실 페이지 미확인
+P2025,,Ji Hee Kim,Hallym University,,연구실 페이지 미확인
+P2026,김진숙,Jinsook Kim,Hallym University,,연구실 페이지 미확인
+P2027,,Chulho Kim,Hallym University,,연구실 페이지 미확인
+P2028,,Chun Wook Park,Hallym University,,연구실 페이지 미확인
+P2029,,Jaeho Cho,Hallym University,,연구실 페이지 미확인
+P2030,,Yeon‐Hee Lee,Hallym University,,연구실 페이지 미확인
+P2031,김예림,Yerim Kim,Hallym University,,연구실 페이지 미확인
+P2032,,Sang‐Hwa Lee,Hallym University,,연구실 페이지 미확인
+P2033,,Ji‐Eun Kim,Hallym University,,연구실 페이지 미확인
+P2034,김영동,Young‐Dong Kim,Hallym University,,연구실 페이지 미확인
+P2035,,Sung Eun Kim,Hallym University,,연구실 페이지 미확인
+P2036,,Jong Seok Bae,Hallym University,,연구실 페이지 미확인
+P2037,,Hee Jung Kang,Hallym University,,연구실 페이지 미확인
+P2038,,Wonkeun Song,Hallym University,,연구실 페이지 미확인
+P2039,,Jun Goo Kang,Hallym University,,연구실 페이지 미확인
+P2040,,Eun Jeong Gong,Hallym University,,연구실 페이지 미확인
+P2041,,Yu-Seop Kim,Hallym University,,연구실 페이지 미확인
+P2042,,Sang Won Suh,Hallym University,,연구실 페이지 미확인
+P2043,,Jin Pyeong Jeon,Hallym University,,연구실 페이지 미확인
+P2044,,Soon Sung Lim,Hallym University,,연구실 페이지 미확인
+P2045,,Woon Geon Shin,Hallym University,,연구실 페이지 미확인
+P2046,,Su Hee Kim,Hallym University,,연구실 페이지 미확인
+P2047,,Hyung‐Joo Kwon,Hallym University,,연구실 페이지 미확인
+P2048,,Young Min Choe,Hallym University,,연구실 페이지 미확인
+P2049,,Yong‐Sun Kim,Hallym University,,연구실 페이지 미확인
+P2050,,Yeo Jin Kim,Hallym University,,연구실 페이지 미확인
+P2051,,Hyun Joo Jang,Hallym University,,연구실 페이지 미확인
+P2052,,Hyun‐Jung Kim,Hallym University,,연구실 페이지 미확인
+P2053,,Dae Yul Yang,Hallym University,,연구실 페이지 미확인
+P2054,,Hayne Cho Park,Hallym University,,연구실 페이지 미확인
+P2055,,Hye‐Eun Lee,Hallym University,,연구실 페이지 미확인
+P2056,,Jung Rae Cho,Hallym University,,연구실 페이지 미확인
+P2057,,Jong‐Hee Sohn,Hallym University,,연구실 페이지 미확인
+P2058,,Min Park,Hallym University,,연구실 페이지 미확인
+P2059,,Sang Woo Kim,Catholic Kwandong University,,연구실 페이지 미확인
+P2060,이혜란,Hyeran Lee,Catholic Kwandong University,,연구실 페이지 미확인
+P2061,,Su Kang Kim,Catholic Kwandong University,,연구실 페이지 미확인
+P2062,,Gi‐Ho Sung,Catholic Kwandong University,,연구실 페이지 미확인
+P2063,,Jae Young Byun,Catholic Kwandong University,,연구실 페이지 미확인
+P2064,,Soyeon Lim,Catholic Kwandong University,,연구실 페이지 미확인
+P2065,,Hyung‐Bok Park,Catholic Kwandong University,,연구실 페이지 미확인
+P2066,,Sang‐Wook Yi,Catholic Kwandong University,,연구실 페이지 미확인
+P2067,,Jung‐Won Choi,Catholic Kwandong University,,연구실 페이지 미확인
+P2068,,Hyeyoung Lee,Catholic Kwandong University,,연구실 페이지 미확인
+P2069,,Jong Ha Hwang,Catholic Kwandong University,,연구실 페이지 미확인
+P2070,,Sun‐Hyun Kim,Catholic Kwandong University,,연구실 페이지 미확인
+P2071,,Yong Won Lee,Catholic Kwandong University,,연구실 페이지 미확인
+P2072,,Byeong‐Wook Song,Catholic Kwandong University,,연구실 페이지 미확인
+P2073,,Daniel Duck-Jin Hwang,Catholic Kwandong University,,연구실 페이지 미확인
+P2074,,Hyun Kyung Chang,Catholic Kwandong University,,연구실 페이지 미확인
+P2075,,Seahyoung Lee,Catholic Kwandong University,,연구실 페이지 미확인
+P2076,,Soo‐Bin Lee,Catholic Kwandong University,,연구실 페이지 미확인
+P2077,,Sung Jin Moon,Catholic Kwandong University,,연구실 페이지 미확인
+P2078,,Hee Byung Koh,Catholic Kwandong University,,연구실 페이지 미확인
+P2079,,Jae Seok Song,Catholic Kwandong University,,연구실 페이지 미확인
+P2080,,Wooyoung Jeong,Catholic Kwandong University,,연구실 페이지 미확인
+P2081,,Sung‐Whan Kim,Catholic Kwandong University,,연구실 페이지 미확인
+P2082,,Min Joo Choi,Catholic Kwandong University,,연구실 페이지 미확인
+P2083,,Bon D. Ku,Catholic Kwandong University,,연구실 페이지 미확인
+P2084,,Sang Joon An,Catholic Kwandong University,,연구실 페이지 미확인
+P2085,,Jae Ho Chung,Catholic Kwandong University,,연구실 페이지 미확인
+P2086,,Shin Ae Kang,Catholic Kwandong University,,연구실 페이지 미확인
+P2087,,Daeho Kwon,Catholic Kwandong University,,연구실 페이지 미확인
+P2088,,Han-Soo Kim,Catholic Kwandong University,,연구실 페이지 미확인
+P2089,,Ju Yeon Pyo,Catholic Kwandong University,,연구실 페이지 미확인
+P2090,,Soyoon Park,Catholic Kwandong University,,연구실 페이지 미확인
+P2091,,Sekyung Oh,Catholic Kwandong University,,연구실 페이지 미확인
+P2092,,Jee‐Jeon Yi,Catholic Kwandong University,,연구실 페이지 미확인
+P2093,,Junsang Oh,Catholic Kwandong University,,연구실 페이지 미확인
+P2094,,Sheu‐Ran Choi,Catholic Kwandong University,,연구실 페이지 미확인
+P2095,,Ki Jun Han,Catholic Kwandong University,,연구실 페이지 미확인
+P2096,,Sangheun Lee,Catholic Kwandong University,,연구실 페이지 미확인
+P2097,,Areum Han,Catholic Kwandong University,,연구실 페이지 미확인
+P2098,,Seung Jun Kim,Catholic Kwandong University,,연구실 페이지 미확인
+P2099,,Jae Ho Kim,Pusan National University,,연구실 페이지 미확인
+P2100,홍금식,Keum‐Shik Hong,Pusan National University,,연구실 페이지 미확인
+P2101,,Hae Young Chung,Pusan National University,,연구실 페이지 미확인
+P2102,,Gwang Ha Kim,Pusan National University,,연구실 페이지 미확인
+P2103,,Yong‐Il Kim,Pusan National University,,연구실 페이지 미확인
+P2104,,Byung‐Soo Kim,Pusan National University,,연구실 페이지 미확인
+P2105,이재원,Jaewon Lee,Pusan National University,,연구실 페이지 미확인
+P2106,김승호,Seung‐Ho Kim,Pusan National University,,연구실 페이지 미확인
+P2107,,Dae Youn Hwang,Pusan National University,,연구실 페이지 미확인
+P2108,,Heui‐Soo Kim,Pusan National University,,연구실 페이지 미확인
+P2109,,Hyun‐Chang Ko,Pusan National University,,연구실 페이지 미확인
+P2110,,Ho‐Jin Shin,Pusan National University,,연구실 페이지 미확인
+P2111,,Sang Soo Kim,Pusan National University,,연구실 페이지 미확인
+P2112,,Byung‐Joo Lee,Pusan National University,,연구실 페이지 미확인
+P2113,,Jeong Heo,Pusan National University,,연구실 페이지 미확인
+P2114,,Sun Tae Kim,Pusan National University,,연구실 페이지 미확인
+P2115,,Yu‐Jin Kim,Pusan National University,,연구실 페이지 미확인
+P2116,,Hyun Jun Park,Pusan National University,,연구실 페이지 미확인
+P2117,,Bo Hyun Kim,Pusan National University,,연구실 페이지 미확인
+P2118,,Hyeon‐Cheol Kim,Pusan National University,,연구실 페이지 미확인
+P2119,,Eun Ju Cho,Pusan National University,,연구실 페이지 미확인
+P2120,,Hyung Ryong Moon,Pusan National University,,연구실 페이지 미확인
+P2121,,Sun Hee Lee,Pusan National University,,연구실 페이지 미확인
+P2122,,Hyung Joon Kim,Pusan National University,,연구실 페이지 미확인
+P2123,,Kwang Soo Cha,Pusan National University,,연구실 페이지 미확인
+P2124,,Cheol Woong Choi,Pusan National University,,연구실 페이지 미확인
+P2125,,Seong‐Jang Kim,Pusan National University,,연구실 페이지 미확인
+P2126,,Il‐Woo Lee,Pusan National University,,연구실 페이지 미확인
+P2127,조우현,Woo Hyun Cho,Pusan National University,,연구실 페이지 미확인
+P2128,,Yong‐Il Shin,Pusan National University,,연구실 페이지 미확인
+P2129,,Kyung-Hoon Kim,Pusan National University,,연구실 페이지 미확인
+P2130,,Hyun‐Woo Kim,Pusan National University,,연구실 페이지 미확인
+P2131,,Dong Uk Kim,Pusan National University,,연구실 페이지 미확인
+P2132,,In‐Suk Kim,Pusan National University,,연구실 페이지 미확인
+P2133,,Hyunji Lee,Pusan National University,,연구실 페이지 미확인
+P2134,최정현,Jung Hyun Choi,Pusan National University,,연구실 페이지 미확인
+P2135,,Su Jin Kim,Pusan National University,,연구실 페이지 미확인
+P2136,,Ji Yoon Lee,Pusan National University,,연구실 페이지 미확인
+P2137,,Kyoungjune Pak,Pusan National University,,연구실 페이지 미확인
+P2138,,Yun Hak Kim,Pusan National University,,연구실 페이지 미확인
+P2139,,Sang Heon Song,Pusan National University,,연구실 페이지 미확인
+P2140,,Han‐Jin Cho,Pusan National University,,연구실 페이지 미확인
+P2141,,Byung‐Cheul Shin,Pusan National University,,연구실 페이지 미확인
+P2142,,Hyun-Yoon Ko,Pusan National University,,연구실 페이지 미확인
+P2143,,Sun Young Park,Pusan National University,,연구실 페이지 미확인
+P2144,,Jong‐Hwan Park,Pusan National University,,연구실 페이지 미확인
+P2145,,Hye Won Lee,Pusan National University,,연구실 페이지 미확인
+P2146,,Jung Sub Lee,Pusan National University,,연구실 페이지 미확인
+P2147,,Hoon‐Soo Kim,Pusan National University,,연구실 페이지 미확인
+P2148,,Tae‐Jin Kim,Pusan National University,,연구실 페이지 미확인
+P2149,,Young Mi Hong,Pusan National University,,연구실 페이지 미확인
+P2150,,Jung‐Hoon Kim,Pusan National University,,연구실 페이지 미확인
+P2151,,Moon‐Bum Kim,Pusan National University,,연구실 페이지 미확인
+P2152,,Donghyun Kim,Pusan National University,,연구실 페이지 미확인
+P2153,,Su Bum Park,Pusan National University,,연구실 페이지 미확인
+P2154,,Chulhun Ludgerus Chang,Pusan National University,,연구실 페이지 미확인
+P2155,,Suck Won Hong,Pusan National University,,연구실 페이지 미확인
+P2156,,Dongjun Lee,Pusan National University,,연구실 페이지 미확인
+P2157,,Jin‐Hong Shin,Pusan National University,,연구실 페이지 미확인
+P2158,,Jin‐Woo Oh,Pusan National University,,연구실 페이지 미확인
+P2159,,Seun Ja Park,Kosin University,,연구실 페이지 미확인
+P2160,,Moo In Park,Kosin University,,연구실 페이지 미확인
+P2161,,Sung Il Im,Kosin University,,연구실 페이지 미확인
+P2162,이상준,Sang Joon Lee,Kosin University,,연구실 페이지 미확인
+P2163,,Won Moon,Kosin University,,연구실 페이지 미확인
+P2164,,Sung Eun Kim,Kosin University,,연구실 페이지 미확인
+P2165,,Hee‐Jae Cha,Kosin University,,연구실 페이지 미확인
+P2166,,Eun‐Kee Park,Kosin University,,연구실 페이지 미확인
+P2167,,Jung Ho Heo,Kosin University,,연구실 페이지 미확인
+P2168,,Kang Dae Lee,Kosin University,,연구실 페이지 미확인
+P2169,,Hee Kyung Chang,Kosin University,,연구실 페이지 미확인
+P2170,,Kyoungwon Jung,Kosin University,,연구실 페이지 미확인
+P2171,,Seung Uk Lee,Kosin University,,연구실 페이지 미확인
+P2172,,Ho Sik Shin,Kosin University,,연구실 페이지 미확인
+P2173,,Taeyun Kim,Kosin University,,연구실 페이지 미확인
+P2174,,Jin‐Hyuk Choi,Kosin University,,연구실 페이지 미확인
+P2175,,Jin-Hyung Park,Kosin University,,연구실 페이지 미확인
+P2176,,Seong Hoon Shin,Kosin University,,연구실 페이지 미확인
+P2177,,Hyoung Shin Lee,Kosin University,,연구실 페이지 미확인
+P2178,,Gil‐Soon Choi,Kosin University,,연구실 페이지 미확인
+P2179,,Kee Suck Suh,Kosin University,,연구실 페이지 미확인
+P2180,,Seong Hwan Park,Kosin University,,연구실 페이지 미확인
+P2181,,Kyung Won Seo,Kosin University,,연구실 페이지 미확인
+P2182,,Ki-Hoon Park,Kosin University,,연구실 페이지 미확인
+P2183,,Bu Kyung Kim,Kosin University,,연구실 페이지 미확인
+P2184,,Min Soo Jang,Kosin University,,연구실 페이지 미확인
+P2185,,Heeyoung Kim,Kosin University,,연구실 페이지 미확인
+P2186,,Taeyun Kim,Kosin University,,연구실 페이지 미확인
+P2187,,Jee‐Yeong Jeong,Kosin University,,연구실 페이지 미확인
+P2188,,Kyoung Seob Song,Kosin University,,연구실 페이지 미확인
+P2189,,Minyoung Jung,Kosin University,,연구실 페이지 미확인
+P2190,김봉준,Bong‐Joon Kim,Kosin University,,연구실 페이지 미확인
+P2191,,Yunkyung Kim,Kosin University,,연구실 페이지 미확인
+P2192,,Jong Bin Park,Kosin University,,연구실 페이지 미확인
+P2193,,So Yoon Choi,Kosin University,,연구실 페이지 미확인
+P2194,,Su In Lee,Kosin University,,연구실 페이지 미확인
+P2195,,Jaewon Shim,Kosin University,,연구실 페이지 미확인
+P2196,,Jeonghoon Heo,Kosin University,,연구실 페이지 미확인
+P2197,,Hyung Seok Kim,Kosin University,,연구실 페이지 미확인
+P2198,,Jooyeon Kim,Kosin University,,연구실 페이지 미확인
+P2199,,So‐Young Huh,Kosin University,,연구실 페이지 미확인
+P2200,,Ki Young Yoon,Kosin University,,연구실 페이지 미확인
+P2201,,Hee-Kyoo Kim,Kosin University,,연구실 페이지 미확인
+P2202,,Jin Hyung Park,Kosin University,,연구실 페이지 미확인
+P2203,,Sung‐Jin Bae,Kosin University,,연구실 페이지 미확인
+P2204,,Hun Ha Cho,Kosin University,,연구실 페이지 미확인
+P2205,,Jiyeun Kate Kim,Kosin University,,연구실 페이지 미확인
+P2206,임은진,Eun Jin Lim,Kosin University,,연구실 페이지 미확인
+P2207,,Ji Hyun Oh,Kosin University,,연구실 페이지 미확인
+P2208,,Young Il Choi,Kosin University,,연구실 페이지 미확인
+P2209,,Tae Sik Sung,Kosin University,,연구실 페이지 미확인
+P2210,,Jong‐Young Lee,Daegu Catholic University,,연구실 페이지 미확인
+P2211,,Eun Young Kim,Daegu Catholic University,,연구실 페이지 미확인
+P2212,,Jung‐Yoon Choe,Daegu Catholic University,,연구실 페이지 미확인
+P2213,,Eun Soo Kim,Daegu Catholic University,,연구실 페이지 미확인
+P2214,한지민,Jimin Han,Daegu Catholic University,,연구실 페이지 미확인
+P2215,,Yoon Seok Choi,Daegu Catholic University,,연구실 페이지 미확인
+P2216,이영수,Young Soo Lee,Daegu Catholic University,,연구실 페이지 미확인
+P2217,,Seong‐Kyu Kim,Daegu Catholic University,,연구실 페이지 미확인
+P2218,,Sung Hwa Bae,Daegu Catholic University,,연구실 페이지 미확인
+P2219,,Jae Ho Yoo,Daegu Catholic University,,연구실 페이지 미확인
+P2220,,Young‐Chae Chang,Daegu Catholic University,,연구실 페이지 미확인
+P2221,,Sang Gyu Kwak,Daegu Catholic University,,연구실 페이지 미확인
+P2222,,Seong Hee Choi,Daegu Catholic University,,연구실 페이지 미확인
+P2223,,Eun Ho Kim,Daegu Catholic University,,연구실 페이지 미확인
+P2224,,Joong Goo Kwon,Daegu Catholic University,,연구실 페이지 미확인
+P2225,,Seung‐Heon Shin,Daegu Catholic University,,연구실 페이지 미확인
+P2226,,Kee‐Sik Kim,Daegu Catholic University,,연구실 페이지 미확인
+P2227,,Jung‐Yeon Kim,Daegu Catholic University,,연구실 페이지 미확인
+P2228,,Eun Jin Kim,Daegu Catholic University,,연구실 페이지 미확인
+P2229,,Kwon‐Ho Song,Daegu Catholic University,,연구실 페이지 미확인
+P2230,,Young Seok Han,Daegu Catholic University,,연구실 페이지 미확인
+P2231,,Dong Lak Choi,Daegu Catholic University,,연구실 페이지 미확인
+P2232,,Dong Rak Kwon,Daegu Catholic University,,연구실 페이지 미확인
+P2233,,Jin Bae Lee,Daegu Catholic University,,연구실 페이지 미확인
+P2234,,Chul-Hee Choi,Daegu Catholic University,,연구실 페이지 미확인
+P2235,,Eunjung Kim,Daegu Catholic University,,연구실 페이지 미확인
+P2236,,Byoung Sun Chu,Daegu Catholic University,,연구실 페이지 미확인
+P2237,,Yong Heo,Daegu Catholic University,,연구실 페이지 미확인
+P2238,,Gi-Young Park,Daegu Catholic University,,연구실 페이지 미확인
+P2239,,Yun Kim,Daegu Catholic University,,연구실 페이지 미확인
+P2240,오훈규,Hoon Kyu Oh,Daegu Catholic University,,연구실 페이지 미확인
+P2241,,Uicheul Yoon,Daegu Catholic University,,연구실 페이지 미확인
+P2242,,Mi‐Kyung Ye,Daegu Catholic University,,연구실 페이지 미확인
+P2243,,Chang-Hyuk Choi,Daegu Catholic University,,연구실 페이지 미확인
+P2244,,Mi‐Sun Hur,Daegu Catholic University,,연구실 페이지 미확인
+P2245,,Jun Won Kim,Daegu Catholic University,,연구실 페이지 미확인
+P2246,,Kyung Chan Kim,Daegu Catholic University,,연구실 페이지 미확인
+P2247,,Chang‐Ho Jeon,Daegu Catholic University,,연구실 페이지 미확인
+P2248,,Jin Young Bae,Daegu Catholic University,,연구실 페이지 미확인
+P2249,,Chul Ho Lee,Daegu Catholic University,,연구실 페이지 미확인
+P2250,,Jin‐Kyung Kim,Daegu Catholic University,,연구실 페이지 미확인
+P2251,,Dong‐Seok Sohn,Daegu Catholic University,,연구실 페이지 미확인
+P2252,,Hwajeong Lee,Daegu Catholic University,,연구실 페이지 미확인
+P2253,,Jung Im Seok,Daegu Catholic University,,연구실 페이지 미확인
+P2254,,Sun-Jae Lee,Daegu Catholic University,,연구실 페이지 미확인
+P2255,,Im Hee Shin,Daegu Catholic University,,연구실 페이지 미확인
+P2256,,Youn Seok Choi,Daegu Catholic University,,연구실 페이지 미확인
+P2257,,Yeon Soo Lee,Daegu Catholic University,,연구실 페이지 미확인
+P2258,,Hyun Dong Je,Daegu Catholic University,,연구실 페이지 미확인
+P2259,,Sang Hoon Joo,Daegu Catholic University,,연구실 페이지 미확인
+P2260,,Won-Kee Choi,Daegu Catholic University,,연구실 페이지 미확인
+P2261,,Chi Young Jung,Daegu Catholic University,,연구실 페이지 미확인
+P2262,,Jaewoo Hong,Daegu Catholic University,,연구실 페이지 미확인
+P2263,,Yoon Jeong Cho,Daegu Catholic University,,연구실 페이지 미확인
+P2264,,Young‐A Lee,Daegu Catholic University,,연구실 페이지 미확인
+P2265,,Jeong Won Lee,Daegu Catholic University,,연구실 페이지 미확인
+P2266,,Yong Suk Moon,Daegu Catholic University,,연구실 페이지 미확인
+P2267,,Sujeong Yang,Daegu Catholic University,,연구실 페이지 미확인
+P2268,,You‐Jin Choi,Daegu Catholic University,,연구실 페이지 미확인
+P2269,,Duk Yoon Kim,Daegu Catholic University,,연구실 페이지 미확인
+P2270,,Hyo‐Soo Kim,Chosun University,,연구실 페이지 미확인
+P2271,,Dong‐Min Kim,Chosun University,,연구실 페이지 미확인
+P2272,,Keun Ho Park,Chosun University,,연구실 페이지 미확인
+P2273,,Yoonkyung Park,Chosun University,,연구실 페이지 미확인
+P2274,,Sung‐Chul Lim,Chosun University,,연구실 페이지 미확인
+P2275,,Kun Ho Lee,Chosun University,,연구실 페이지 미확인
+P2276,,Joong‐Ki Kook,Chosun University,,연구실 페이지 미확인
+P2277,,Dong‐Sung Lee,Chosun University,,연구실 페이지 미확인
+P2278,소연류,So Yeon Ryu,Chosun University,,연구실 페이지 미확인
+P2279,,Hyun Kuk Kim,Chosun University,,연구실 페이지 미확인
+P2280,최성우,Seong-Woo Choi,Chosun University,,연구실 페이지 미확인
+P2281,이숙영,Sook‐Young Lee,Chosun University,,연구실 페이지 미확인
+P2282,,Song Yub Shin,Chosun University,,연구실 페이지 미확인
+P2283,,Jae‐Joon Lee,Chosun University,,연구실 페이지 미확인
+P2284,,Mi Ah Han,Chosun University,,연구실 페이지 미확인
+P2285,,Jin Cheol Yoo,Chosun University,,연구실 페이지 미확인
+P2286,김상훈,Sang Hun Kim,Chosun University,,연구실 페이지 미확인
+P2287,,Il Han Choo,Chosun University,,연구실 페이지 미확인
+P2288,,Goo‐Rak Kwon,Chosun University,,연구실 페이지 미확인
+P2289,,Sung Soo Kim,Chosun University,,연구실 페이지 미확인
+P2290,박종,Jong Park,Chosun University,,연구실 페이지 미확인
+P2291,,Choon‐Mee Kim,Chosun University,,연구실 페이지 미확인
+P2292,,Min Sung Kim,Chosun University,,연구실 페이지 미확인
+P2293,,Eun Hyun Seo,Chosun University,,연구실 페이지 미확인
+P2294,,Shin‐Young Lee,Chosun University,,연구실 페이지 미확인
+P2295,,Hyun‐Jae Shin,Chosun University,,연구실 페이지 미확인
+P2296,,Jun Lee,Chosun University,,연구실 페이지 미확인
+P2297,김도경,Do Kyung Kim,Chosun University,,연구실 페이지 미확인
+P2298,,Sung Hwan Ki,Chosun University,,연구실 페이지 미확인
+P2299,,Hyun‐Jeong Park,Chosun University,,연구실 페이지 미확인
+P2300,,Sang‐Gun Ahn,Chosun University,,연구실 페이지 미확인
+P2301,,Seok Choi,Chosun University,,연구실 페이지 미확인
+P2302,,Seong Hwan Ahn,Chosun University,,연구실 페이지 미확인
+P2303,,Jun Sik Lee,Chosun University,,연구실 페이지 미확인
+P2304,,Na Ra Yun,Chosun University,,연구실 페이지 미확인
+P2305,,Hong Sung Chun,Chosun University,,연구실 페이지 미확인
+P2306,,Ju‐Yeon Cho,Chosun University,,연구실 페이지 미확인
+P2307,,Ho Jin You,Chosun University,,연구실 페이지 미확인
+P2308,,Chun Sung Kim,Chosun University,,연구실 페이지 미확인
+P2309,최두복,DuBok Choi,Chosun University,,연구실 페이지 미확인
+P2310,,Jinhee Kim,Chosun University,,연구실 페이지 미확인
+P2311,,Seong‐Yong Moon,Chosun University,,연구실 페이지 미확인
+P2312,,In Youb Chang,Chosun University,,연구실 페이지 미확인
+P2313,,Jin Hwa Kim,Chosun University,,연구실 페이지 미확인
+P2314,,Jae‐Sung Kim,Chosun University,,연구실 페이지 미확인
+P2315,,Jung Sup Lee,Chosun University,,연구실 페이지 미확인
+P2316,,Kyu Yeong Choi,Chosun University,,연구실 페이지 미확인
+P2317,,Jae Yeoul Jun,Chosun University,,연구실 페이지 미확인
+P2318,,Geon Park,Chosun University,,연구실 페이지 미확인
+P2319,,Hong Seok Choi,Chosun University,,연구실 페이지 미확인
+P2320,,Bong Seok Shin,Chosun University,,연구실 페이지 미확인
+P2321,,Jin-Soo Kim,Chosun University,,연구실 페이지 미확인
+P2322,,Heesang Song,Chosun University,,연구실 페이지 미확인
+P2323,,Sang Yong Kim,Chosun University,,연구실 페이지 미확인
+P2324,,Ki Tae Jung,Chosun University,,연구실 페이지 미확인
+P2325,,Chang Il Ju,Chosun University,,연구실 페이지 미확인
+P2326,,Seong‐Jung Kim,Chosun University,,연구실 페이지 미확인
+P2327,,Dong‐Hyun Choi,Chosun University,,연구실 페이지 미확인
+P2328,,Chan Ho Na,Chosun University,,연구실 페이지 미확인
+P2329,,Yong Jin Cho,Chosun University,,연구실 페이지 미확인
+P2330,,Yun Jung Lee,Wonkwang University,,연구실 페이지 미확인
+P2331,,Hyuntae Park,Wonkwang University,,연구실 페이지 미확인
+P2332,,Hyuncheol Oh,Wonkwang University,,연구실 페이지 미확인
+P2333,,Ho Sub Lee,Wonkwang University,,연구실 페이지 미확인
+P2334,,Suck Chei Choi,Wonkwang University,,연구실 페이지 미확인
+P2335,,Bong-Chul Kim,Wonkwang University,,연구실 페이지 미확인
+P2336,,Hyesook Kim,Wonkwang University,,연구실 페이지 미확인
+P2337,,Kyung‐Min Park,Wonkwang University,,연구실 페이지 미확인
+P2338,,Kyeong Ho Yun,Wonkwang University,,연구실 페이지 미확인
+P2339,,Yong Sung Kim,Wonkwang University,,연구실 페이지 미확인
+P2340,,Moon Young Lee,Wonkwang University,,연구실 페이지 미확인
+P2341,,Sung‐Joo Park,Wonkwang University,,연구실 페이지 미확인
+P2342,,Seok Kyu Oh,Wonkwang University,,연구실 페이지 미확인
+P2343,,Hyung-Won Kang,Wonkwang University,,연구실 페이지 미확인
+P2344,,Sang-Yeol Lee,Wonkwang University,,연구실 페이지 미확인
+P2345,,Geom Seog Seo,Wonkwang University,,연구실 페이지 미확인
+P2346,,Kwang Ho Cho,Wonkwang University,,연구실 페이지 미확인
+P2347,,Hyun‐Ju Jung,Wonkwang University,,연구실 페이지 미확인
+P2348,,Seunghan Oh,Wonkwang University,,연구실 페이지 미확인
+P2349,,Min Cheol Joo,Wonkwang University,,연구실 페이지 미확인
+P2350,,Hyunseung Lee,Wonkwang University,,연구실 페이지 미확인
+P2351,,Chang‐Won Jeong,Wonkwang University,,연구실 페이지 미확인
+P2352,,Eun‐Jung Jin,Wonkwang University,,연구실 페이지 미확인
+P2353,,Kang‐Beom Kwon,Wonkwang University,,연구실 페이지 미확인
+P2354,,Chang Joo Lee,Wonkwang University,,연구실 페이지 미확인
+P2355,,Jung‐Han Lee,Wonkwang University,,연구실 페이지 미확인
+P2356,,Jiyoung Park,Wonkwang University,,연구실 페이지 미확인
+P2357,,Jum Suk Ko,Wonkwang University,,연구실 페이지 미확인
+P2358,,Young‐Kug Choo,Wonkwang University,,연구실 페이지 미확인
+P2359,,Gyung‐Jae Oh,Wonkwang University,,연구실 페이지 미확인
+P2360,,Myeung Su Lee,Wonkwang University,,연구실 페이지 미확인
+P2361,,Young‐Sam Cho,Wonkwang University,,연구실 페이지 미확인
+P2362,,Dae Won Kim,Wonkwang University,,연구실 페이지 미확인
+P2363,,Yeon‐Tae Kim,Wonkwang University,,연구실 페이지 미확인
+P2364,,Chan-Mo Yang,Wonkwang University,,연구실 페이지 미확인
+P2365,,Jong‐Moon Chae,Wonkwang University,,연구실 페이지 미확인
+P2366,,Jae Young Cho,Wonkwang University,,연구실 페이지 미확인
+P2367,,Yun-Kyung Kim,Wonkwang University,,연구실 페이지 미확인
+P2368,,Hye Yoom Kim,Wonkwang University,,연구실 페이지 미확인
+P2369,,Dong‐Wook Kim,Wonkwang University,,연구실 페이지 미확인
+P2370,,Seong‐Kyu Choe,Wonkwang University,,연구실 페이지 미확인
+P2371,,Soo‐Cheon Chae,Wonkwang University,,연구실 페이지 미확인
+P2372,,Yong‐Ouk You,Wonkwang University,,연구실 페이지 미확인
+P2373,,Kyoung‐Hee Choi,Wonkwang University,,연구실 페이지 미확인
+P2374,,Kun Park,Wonkwang University,,연구실 페이지 미확인
+P2375,,Ho-Sub Lee,Wonkwang University,,연구실 페이지 미확인
+P2376,,Soo‐Bin Kim,Wonkwang University,,연구실 페이지 미확인
+P2377,,Byung Do Lee,Wonkwang University,,연구실 페이지 미확인
+P2378,,Hoikyung Kim,Wonkwang University,,연구실 페이지 미확인
+P2379,,Ki‐Eun Hwang,Wonkwang University,,연구실 페이지 미확인
+P2380,,Jae Ho Seo,Wonkwang University,,연구실 페이지 미확인
+P2381,,Gi‐Sang Bae,Wonkwang University,,연구실 페이지 미확인
+P2382,,Hee‐Soon Woo,Wonkwang University,,연구실 페이지 미확인
+P2383,,Cheol Lee,Wonkwang University,,연구실 페이지 미확인
+P2384,,Cheongmin Sohn,Wonkwang University,,연구실 페이지 미확인
+P2385,,Keum Ha Choi,Wonkwang University,,연구실 페이지 미확인
+P2386,,Jeong Woo Kim,Wonkwang University,,연구실 페이지 미확인
+P2387,,Jung‐Mi Kim,Wonkwang University,,연구실 페이지 미확인
+P2388,,Sei‐Hoon Yang,Wonkwang University,,연구실 페이지 미확인
+P2389,,Shin‐Hyo Lee,Wonkwang University,,연구실 페이지 미확인
+P2390,,Mi Hye Kim,Woosuk University,,연구실 페이지 미확인
+P2391,,Kyeong Han Kim,Woosuk University,,연구실 페이지 미확인
+P2392,,Gabsik Yang,Woosuk University,,연구실 페이지 미확인
+P2393,,Kap‐Hoon Han,Woosuk University,,연구실 페이지 미확인
+P2394,,Tae Han Yook,Woosuk University,,연구실 페이지 미확인
+P2395,,Jong Uk Kim,Woosuk University,,연구실 페이지 미확인
+P2396,,Ga Young Park,Woosuk University,,연구실 페이지 미확인
+P2397,,Yong‐Deok Jeon,Woosuk University,,연구실 페이지 미확인
+P2398,,Yoon‐Jee Chae,Woosuk University,,연구실 페이지 미확인
+P2399,,Ji‐Hye Ahn,Woosuk University,,연구실 페이지 미확인
+P2400,,Wonwoong Lee,Woosuk University,,연구실 페이지 미확인
+P2401,,Suk‐Heung Oh,Woosuk University,,연구실 페이지 미확인
+P2402,,In Hyun Hwang,Woosuk University,,연구실 페이지 미확인
+P2403,,Purum Kang,Woosuk University,,연구실 페이지 미확인
+P2404,,Hyo Jung Kim,Woosuk University,,연구실 페이지 미확인
+P2405,,Myung‐Ho Kim,Woosuk University,,연구실 페이지 미확인
+P2406,,Jinhee Shin,Woosuk University,,연구실 페이지 미확인
+P2407,,Dong Seok,Woosuk University,,연구실 페이지 미확인
+P2408,,Hyun‐Jin Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2409,,Byoung Ryong Jeong,Gyeongsang National University,,연구실 페이지 미확인
+P2410,,Hye Jung Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2411,,Sun‐Joo Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2412,,Yong‐Bok Lee,Gyeongsang National University,,연구실 페이지 미확인
+P2413,,Pil Joo Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2414,,Jin‐Yong Hwang,Gyeongsang National University,,연구실 페이지 미확인
+P2415,,Sang‐Kyu Lee,Gyeongsang National University,,연구실 페이지 미확인
+P2416,,Kye Man Cho,Gyeongsang National University,,연구실 페이지 미확인
+P2417,,Sang Yeol Lee,Gyeongsang National University,,연구실 페이지 미확인
+P2418,,Hyeon Tae Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2419,,Suk Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2420,,Jae‐Suk Choi,Gyeongsang National University,,연구실 페이지 미확인
+P2421,,Chan‐Il Park,Gyeongsang National University,,연구실 페이지 미확인
+P2422,,Hee‐Chun Lee,Gyeongsang National University,,연구실 페이지 미확인
+P2423,,Jung Hun Kang,Gyeongsang National University,,연구실 페이지 미확인
+P2424,,Ho Jin Heo,Gyeongsang National University,,연구실 페이지 미확인
+P2425,,Gyeong‐Won Lee,Gyeongsang National University,,연구실 페이지 미확인
+P2426,,Byoung‐Kuk Na,Gyeongsang National University,,연구실 페이지 미확인
+P2427,,Dong‐In Jung,Gyeongsang National University,,연구실 페이지 미확인
+P2428,,Sang Soo Kang,Gyeongsang National University,,연구실 페이지 미확인
+P2429,,Myeong Ok Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2430,,Ji‐Hyun Seo,Gyeongsang National University,,연구실 페이지 미확인
+P2431,,Jin‐Hyo Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2432,,Seung Yun Cho,Gyeongsang National University,,연구실 페이지 미확인
+P2433,,Gon Sup Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2434,진상근,Sang-Keun Jin,Gyeongsang National University,,연구실 페이지 미확인
+P2435,,Il‐Keun Kong,Gyeongsang National University,,연구실 페이지 미확인
+P2436,,Ah Young Lee,Gyeongsang National University,,연구실 페이지 미확인
+P2437,,Hyun‐Wook Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2438,,Phil‐Ok Koh,Gyeongsang National University,,연구실 페이지 미확인
+P2439,,Seon-Tea Joo,Gyeongsang National University,,연구실 페이지 미확인
+P2440,,Joon‐Hee Lee,Gyeongsang National University,,연구실 페이지 미확인
+P2441,,Youn‐Sig Kwak,Gyeongsang National University,,연구실 페이지 미확인
+P2442,,Jinwoo Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2443,,Do‐Hyeon Yu,Gyeongsang National University,,연구실 페이지 미확인
+P2444,현영김,Hyun Young Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2445,,Ju‐Tae Sohn,Gyeongsang National University,,연구실 페이지 미확인
+P2446,,Seung Jae Hwang,Gyeongsang National University,,연구실 페이지 미확인
+P2447,,Myong Gi Chung,Gyeongsang National University,,연구실 페이지 미확인
+P2448,,Eui‐Cheol Shin,Gyeongsang National University,,연구실 페이지 미확인
+P2449,,Sung Sill Lee,Gyeongsang National University,,연구실 페이지 미확인
+P2450,,Ki‐Soo Park,Gyeongsang National University,,연구실 페이지 미확인
+P2451,,Seong-Jae Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2452,,Yongwhi Park,Gyeongsang National University,,연구실 페이지 미확인
+P2453,,Dawon Kang,Gyeongsang National University,,연구실 페이지 미확인
+P2454,,Dong‐Cheol Seo,Gyeongsang National University,,연구실 페이지 미확인
+P2455,지현김,Ji Hyun Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2456,,Gu Seob Roh,Gyeongsang National University,,연구실 페이지 미확인
+P2457,,Jin‐Sin Koh,Gyeongsang National University,,연구실 페이지 미확인
+P2458,,Chi‐Young Jeong,Gyeongsang National University,,연구실 페이지 미확인
+P2459,,In Young Chung,Gyeongsang National University,,연구실 페이지 미확인
+P2460,,Jae‐Yean Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2461,,Yu‐Sin Jang,Gyeongsang National University,,연구실 페이지 미확인
+P2462,,Han‐Sul Yang,Gyeongsang National University,,연구실 페이지 미확인
+P2463,,Ye Jin Yang,Gyeongsang National University,,연구실 페이지 미확인
+P2464,,Woo Hyun Kim,Gyeongsang National University,,연구실 페이지 미확인
+P2465,,Jae–Kyung Yang,Gyeongsang National University,,연구실 페이지 미확인
+P2466,,Sang Gyu Park,Gyeongsang National University,,연구실 페이지 미확인
+P2467,,Tae Sung Jung,Gyeongsang National University,,연구실 페이지 미확인
+P2468,전유진,You‐Jin Jeon,Jeju National University,,연구실 페이지 미확인
+P2469,,Gi‐Young Kim,Jeju National University,,연구실 페이지 미확인
+P2470,,Jin Won Hyun,Jeju National University,,연구실 페이지 미확인
+P2471,,Joon‐Tae Kim,Jeju National University,,연구실 페이지 미확인
+P2472,,Jehee Lee,Jeju National University,,연구실 페이지 미확인
+P2473,,Taekyun Shin,Jeju National University,,연구실 페이지 미확인
+P2474,,Jay Chol Choi,Jeju National University,,연구실 페이지 미확인
+P2475,,Soo Hoon Lee,Jeju National University,,연구실 페이지 미확인
+P2476,,Jun‐Hwan Kim,Jeju National University,,연구실 페이지 미확인
+P2477,,Mi‐Yeon Kim,Jeju National University,,연구실 페이지 미확인
+P2478,,Mi-Sun Kim,Jeju National University,,연구실 페이지 미확인
+P2479,,Kyeong‐Jun Lee,Jeju National University,,연구실 페이지 미확인
+P2480,,Joon Hyuk Park,Jeju National University,,연구실 페이지 미확인
+P2481,,Yong Suk Chung,Jeju National University,,연구실 페이지 미확인
+P2482,,Chang‐Gu Hyun,Jeju National University,,연구실 페이지 미확인
+P2483,,Nam Ho Lee,Jeju National University,,연구실 페이지 미확인
+P2484,이동선,Dong‐Sun Lee,Jeju National University,,연구실 페이지 미확인
+P2485,김정식,Jeongsik Kim,Jeju National University,,연구실 페이지 미확인
+P2486,,Young‐Ok Son,Jeju National University,,연구실 페이지 미확인
+P2487,,Ho-Kyung Chun,Jeju National University,,연구실 페이지 미확인
+P2488,,Moon-Doo Kim,Jeju National University,,연구실 페이지 미확인
+P2489,,Hyun Joo Song,Jeju National University,,연구실 페이지 미확인
+P2490,,Ji‐Hoon Kang,Jeju National University,,연구실 페이지 미확인
+P2491,한나영,Nayoung Han,Jeju National University,,연구실 페이지 미확인
+P2492,,Kyoung Ah Kang,Jeju National University,,연구실 페이지 미확인
+P2493,,Jong‐Eun Park,Jeju National University,,연구실 페이지 미확인
+P2494,,Chan Young Kim,Jeju National University,,연구실 페이지 미확인
+P2495,,Ju‐Sung Kim,Jeju National University,,연구실 페이지 미확인
+P2496,,Young-Kyu Kim,Jeju National University,,연구실 페이지 미확인
+P2497,,Jong‐Myon Bae,Jeju National University,,연구실 페이지 미확인
+P2498,,Sang Taek Heo,Jeju National University,,연구실 페이지 미확인
+P2499,,Ji Hyang Kim,Jeju National University,,연구실 페이지 미확인
+P2500,,Sang Pil Yoon,Jeju National University,,연구실 페이지 미확인
+P2501,,Dong‐Soon Kim,Jeju National University,,연구실 페이지 미확인
+P2502,,Young Ah Kim,Jeju National University,,연구실 페이지 미확인
+P2503,,Jung‐Sik Huh,Jeju National University,,연구실 페이지 미확인
+P2504,김진우,Jinu Kim,Jeju National University,,연구실 페이지 미확인
+P2505,,Young‐Eun Jung,Jeju National University,,연구실 페이지 미확인
+P2506,,Ji‐Yeon Chun,Jeju National University,,연구실 페이지 미확인
+P2508,,Young‐Don Lee,Jeju National University,,연구실 페이지 미확인
+P2509,,Seung‐Jae Joo,Jeju National University,,연구실 페이지 미확인
+P2510,김재훈,Jae-Hoon Kim,Jeju National University,,연구실 페이지 미확인
+P2511,,Hyo Jin Kim,Jeju National University,,연구실 페이지 미확인
+P2512,,Young Ree Kim,Jeju National University,,연구실 페이지 미확인
+P2513,,Song‐Yi Kim,Jeju National University,,연구실 페이지 미확인
+P2514,,Hee‐Kyoung Kang,Jeju National University,,연구실 페이지 미확인
+P2515,,Chang Lim Hyun,Jeju National University,,연구실 페이지 미확인
+P2516,,Yunkyoung Lee,Jeju National University,,연구실 페이지 미확인
+P2517,,Hyomin Lee,Jeju National University,,연구실 페이지 미확인
+P2519,,Moonjae Cho,Jeju National University,,연구실 페이지 미확인
+P2520,,Eun-Sook Yoo,Jeju National University,,연구실 페이지 미확인
+P2521,,Somi Kim Cho,Jeju National University,,연구실 페이지 미확인
+P2522,,Jun Yup Kim,Jeju National University,,연구실 페이지 미확인
+P2523,,Ahnul Ha,Jeju National University,,연구실 페이지 미확인
+P2524,,Jaeseong Oh,Jeju National University,,연구실 페이지 미확인
+P2525,,Myung‐Chul Kim,Jeju National University,,연구실 페이지 미확인
+P2526,,Heung Up Kim,Jeju National University,,연구실 페이지 미확인
+P2527,,Sa‐Yoon Kang,Jeju National University,,연구실 페이지 미확인
+P2528,,Sung‐Min Park,POSTECH,,연구실 페이지 미확인
+P2529,류성호,Sung Ho Ryu,POSTECH,,연구실 페이지 미확인
+P2530,,Chulhong Kim,POSTECH,,연구실 페이지 미확인
+P2531,,Dong‐Woo Cho,POSTECH,,연구실 페이지 미확인
+P2533,,Kyong‐Tai Kim,POSTECH,,연구실 페이지 미확인
+P2534,,Unyong Jeong,POSTECH,,연구실 페이지 미확인
+P2535,,Dong Sung Kim,POSTECH,,연구실 페이지 미확인
+P2536,김수정,Sujeong Kim,POSTECH,,연구실 페이지 미확인
+P2537,,Dong‐Pyo Kim,POSTECH,,연구실 페이지 미확인
+P2538,,Sangwoo Kim,POSTECH,,연구실 페이지 미확인
+P2539,김종경,Jong Kyoung Kim,POSTECH,,연구실 페이지 미확인
+P2540,임근배,Geunbae Lim,POSTECH,,연구실 페이지 미확인
+P2541,황인환,Inhwan Hwang,POSTECH,,연구실 페이지 미확인
+P2542,,Jinah Jang,POSTECH,,연구실 페이지 미확인
+P2543,,Dong Soo Lee,POSTECH,,연구실 페이지 미확인
+P2544,,Young Chul Sung,POSTECH,,연구실 페이지 미확인
+P2545,임신혁,Sin‐Hyeog Im,POSTECH,,연구실 페이지 미확인
+P2546,,Ki Hean Kim,POSTECH,,연구실 페이지 미확인
+P2547,,Ju Young Park,POSTECH,,연구실 페이지 미확인
+P2548,김종민,Jongmin Kim,POSTECH,,연구실 페이지 미확인
+P2549,김태경,Tae-Kyung Kim,POSTECH,,연구실 페이지 미확인
+P2550,,Steve Park,POSTECH,,연구실 페이지 미확인
+P2551,,Jeong Wook Lee,POSTECH,,연구실 페이지 미확인
+P2552,,Junmin Lee,POSTECH,,연구실 페이지 미확인
+P2553,,Jeehoon Han,POSTECH,,연구실 페이지 미확인
+P2554,,Sung Key Jang,POSTECH,,연구실 페이지 미확인
+P2555,,Hyung Ham Kim,POSTECH,,연구실 페이지 미확인
+P2556,,Sehan Park,POSTECH,,연구실 페이지 미확인
+P2557,,Keehoon Kim,POSTECH,,연구실 페이지 미확인
+P2558,,Jie‐Oh Lee,POSTECH,,연구실 페이지 미확인
+P2559,,Hae‐Won Lee,POSTECH,,연구실 페이지 미확인
+P2560,이승우,Seung‐Woo Lee,POSTECH,,연구실 페이지 미확인
+P2561,박상기,Sang Ki Park,POSTECH,,연구실 페이지 미확인
+P2562,,Kyoung Eun Lee,POSTECH,,연구실 페이지 미확인
+P2563,,Hyunju Lee,GIST,,연구실 페이지 미확인
+P2564,,Min‐Gon Kim,GIST,,연구실 페이지 미확인
+P2565,,Jungwon Yoon,GIST,,연구실 페이지 미확인
+P2566,,Young‐Joon Kim,GIST,,연구실 페이지 미확인
+P2567,,Jae Young Lee,GIST,,연구실 페이지 미확인
+P2568,,Sung Chan Jun,GIST,,연구실 페이지 미확인
+P2569,,Jeong‐Seok Nam,GIST,,연구실 페이지 미확인
+P2570,,Yong‐Chul Kim,GIST,,연구실 페이지 미확인
+P2571,,Jae Gwan Kim,GIST,,연구실 페이지 미확인
+P2572,,Jung‐Hyun Kim,GIST,,연구실 페이지 미확인
+P2573,,Jin Hee Ahn,GIST,,연구실 페이지 미확인
+P2574,,Jihwan Park,GIST,,연구실 페이지 미확인
+P2575,,Sung Hoon Yang,GIST,,연구실 페이지 미확인
+P2576,,Jae Il Kim,GIST,,연구실 페이지 미확인
+P2577,,Dongryeol Ryu,GIST,,연구실 페이지 미확인
+P2578,,Jongho Lee,GIST,,연구실 페이지 미확인
+P2579,,Chang‐Duk Jun,GIST,,연구실 페이지 미확인
+P2580,,Euiheon Chung,GIST,,연구실 페이지 미확인
+P2581,,Zee‐Yong Park,GIST,,연구실 페이지 미확인
+P2582,,Chul‐Seung Park,GIST,,연구실 페이지 미확인
+P2583,,Woo Jin Park,GIST,,연구실 페이지 미확인
+P2584,,Jae‐Il Kim,GIST,,연구실 페이지 미확인
+P2585,,Sunjae Lee,GIST,,연구실 페이지 미확인
+P2586,,Yunju Jo,GIST,,연구실 페이지 미확인
+P2587,,Hansoo Park,GIST,,연구실 페이지 미확인
+P2588,,Jiyeon Kang,GIST,,연구실 페이지 미확인
+P2589,,Chunghee Cho,GIST,,연구실 페이지 미확인
+P2590,,Jiwon Seo,GIST,,연구실 페이지 미확인
+P2591,,Boreom Lee,GIST,,연구실 페이지 미확인
+P2592,,Chang‐Myung Oh,GIST,,연구실 페이지 미확인
+P2593,,Tae Kim,GIST,,연구실 페이지 미확인
+P2594,,Da‐Woon Jung,GIST,,연구실 페이지 미확인
+P2595,,Mi‐Ryoung Song,GIST,,연구실 페이지 미확인
+P2596,,Inchan Kwon,GIST,,연구실 페이지 미확인
+P2597,,Raekil Park,GIST,,연구실 페이지 미확인
+P2598,,Hyoung-Ihl Kim,GIST,,연구실 페이지 미확인
+P2599,이수진,Sujin Lee,GIST,,연구실 페이지 미확인
+P2600,김태영,Tae‐Young Kim,GIST,,연구실 페이지 미확인
+P2601,,Mansu Kim,GIST,,연구실 페이지 미확인
+P2602,,Channy Park,GIST,,연구실 페이지 미확인
+P2603,,Suk‐Won Jin,GIST,,연구실 페이지 미확인
+P2604,,Yeon Sun Lee,GIST,,연구실 페이지 미확인
+P2605,,Steve K. Cho,GIST,,연구실 페이지 미확인
+P2606,,Hyun Min Kim,GIST,,연구실 페이지 미확인
+P2607,,Jeong-Su Park,GIST,,연구실 페이지 미확인
+P2608,,Chin‐Ju Park,GIST,,연구실 페이지 미확인
+P2609,,Jeongmin Oh,GIST,,연구실 페이지 미확인
+P2610,,Soyeon Shin,GIST,,연구실 페이지 미확인
+P2611,,Youngsoo Jun,GIST,,연구실 페이지 미확인
+P2612,,Yeon Ji Lee,GIST,,연구실 페이지 미확인
+P2613,,Min Ji Kim,GIST,,연구실 페이지 미확인
+P2614,,Soyeon Lee,GIST,,연구실 페이지 미확인
+P2615,,Se‐Woong Oh,Yuhan,,연구실 페이지 미확인
+P2616,,Su Kyung Kim,Yuhan,,연구실 페이지 미확인
+P2617,,Seoyoung C. Kim,DGIST,,연구실 페이지 미확인
+P2618,,Sohee Kim,DGIST,,연구실 페이지 미확인
+P2619,,Sang‐Yeol Kim,DGIST,,연구실 페이지 미확인
+P2620,,Jinung An,DGIST,,연구실 페이지 미확인
+P2621,,Jae Eun Jang,DGIST,,연구실 페이지 미확인
+P2622,,Cheil Moon,DGIST,,연구실 페이지 미확인
+P2623,,Byung‐Hoon Lee,DGIST,,연구실 페이지 미확인
+P2624,,Sung Bae Lee,DGIST,,연구실 페이지 미확인
+P2625,,Sang‐im Lee,DGIST,,연구실 페이지 미확인
+P2626,,Eunjoo Kim,DGIST,,연구실 페이지 미확인
+P2627,,Chan Chung,DGIST,,연구실 페이지 미확인
+P2628,,Chang‐Hun Lee,DGIST,,연구실 페이지 미확인
+P2629,,Jaewon Ko,DGIST,,연구실 페이지 미확인
+P2630,,Jaesung Hong,DGIST,,연구실 페이지 미확인
+P2631,,Minseok S. Kim,DGIST,,연구실 페이지 미확인
+P2632,,Kyung‐In Jang,DGIST,,연구실 페이지 미확인
+P2633,,Byung‐Chang Suh,DGIST,,연구실 페이지 미확인
+P2634,,Young‐Sam Lee,DGIST,,연구실 페이지 미확인
+P2635,,Ju‐Hyuck Lee,DGIST,,연구실 페이지 미확인
+P2636,,Bong Ho Lee,DGIST,,연구실 페이지 미확인
+P2637,,Kidong Park,DGIST,,연구실 페이지 미확인
+P2638,,Cheol Ock Song,DGIST,,연구실 페이지 미확인
+P2639,,Ji Won Um,DGIST,,연구실 페이지 미확인
+P2640,,Dongwon Yun,DGIST,,연구실 페이지 미확인
+P2641,,June Myoung Kwak,DGIST,,연구실 페이지 미확인
+P2642,,Seong‐Kyoon Choi,DGIST,,연구실 페이지 미확인
+P2643,,Sanghoon Lee,DGIST,,연구실 페이지 미확인
+P2644,,Seungjoon Kim,DGIST,,연구실 페이지 미확인
+P2645,,Kwang Lee,DGIST,,연구실 페이지 미확인
+P2646,,Han Kyoung Choe,DGIST,,연구실 페이지 미확인
+P2647,,Eun‐Kyoung Kim,DGIST,,연구실 페이지 미확인
+P2648,,Yong‐Seok Oh,DGIST,,연구실 페이지 미확인
+P2649,,Kyuhyung Kim,DGIST,,연구실 페이지 미확인
+P2650,,Wookyung Yu,DGIST,,연구실 페이지 미확인
+P2651,,Youngtae Jeong,DGIST,,연구실 페이지 미확인
+P2652,,Jaesok Yu,DGIST,,연구실 페이지 미확인
+P2653,,Byeongmoon Lee,DGIST,,연구실 페이지 미확인
+P2654,,Bokyung Kim,DGIST,,연구실 페이지 미확인
+P2655,,Pyung Ok Lim,DGIST,,연구실 페이지 미확인
+P2656,,Yoori Kim,DGIST,,연구실 페이지 미확인
+P2657,,Minho Hwang,DGIST,,연구실 페이지 미확인
+P2658,,Junghyup Lee,DGIST,,연구실 페이지 미확인
+P2659,,Kyungseo Park,DGIST,,연구실 페이지 미확인
+P2660,,Il‐Kyu Choi,DGIST,,연구실 페이지 미확인
+P2661,,Hye Ryun Woo,DGIST,,연구실 페이지 미확인
+P2662,,Seong‐Woon Yu,DGIST,,연구실 페이지 미확인
+P2663,,Won-Cheol Kim,DGIST,,연구실 페이지 미확인
+P2664,,Jin‐Mo Kim,DGIST,,연구실 페이지 미확인
+P2665,,Yongcheol Cho,DGIST,,연구실 페이지 미확인
+P2666,,Kyeong‐Min Lee,DGIST,,연구실 페이지 미확인
+P2667,,Tae Wan Kim,DGIST,,연구실 페이지 미확인
+P2668,,Sewoong Kim,DGIST,,연구실 페이지 미확인
+P2669,,JaeHyung Koo,DGIST,,연구실 페이지 미확인
+P2670,,Kyeong Nam Kim,DGIST,,연구실 페이지 미확인
+P2671,,Moon Hwan Lee,DGIST,,연구실 페이지 미확인
+P2672,,Yong‐Jin Park,Kongju National University,,연구실 페이지 미확인
+P2673,최미경,Mi‐Kyeong Choi,Kongju National University,,연구실 페이지 미확인
+P2674,,Dong Sub Kim,Kongju National University,,연구실 페이지 미확인
+P2675,,Hack-Youn Kim,Kongju National University,,연구실 페이지 미확인
+P2676,,Si‐Yong Kang,Kongju National University,,연구실 페이지 미확인
+P2677,,Bong‐Joo Lee,Kongju National University,,연구실 페이지 미확인
+P2678,,Song Ja Kim,Kongju National University,,연구실 페이지 미확인
+P2679,,Ki Wha Chung,Kongju National University,,연구실 페이지 미확인
+P2680,,Hyun Kyoung Kim,Kongju National University,,연구실 페이지 미확인
+P2681,,Eunju Kim,Kongju National University,,연구실 페이지 미확인
+P2682,,Min-Ju Kim,Kongju National University,,연구실 페이지 미확인
+P2683,,Ok‐Hee Cho,Kongju National University,,연구실 페이지 미확인
+P2684,,Young‐Han You,Kongju National University,,연구실 페이지 미확인
+P2685,,Bong-Ki Kim,Kongju National University,,연구실 페이지 미확인
+P2686,,Eui‐Hong Byun,Kongju National University,,연구실 페이지 미확인
+P2687,,Dong‐Sook Kim,Kongju National University,,연구실 페이지 미확인
+P2688,,Je‐Hyuk Lee,Kongju National University,,연구실 페이지 미확인
+P2689,,Min Sun Kim,Kongju National University,,연구실 페이지 미확인
+P2690,,Sea Cheon Oh,Kongju National University,,연구실 페이지 미확인
+P2691,,Jae Yoon Kim,Kongju National University,,연구실 페이지 미확인
+P2692,,Hyo Gil Choi,Kongju National University,,연구실 페이지 미확인
+P2693,,Seok-Kyu Jung,Kongju National University,,연구실 페이지 미확인
+P2694,,Hee-Bok Park,Kongju National University,,연구실 페이지 미확인
+P2695,,Kyu‐Sang Lim,Kongju National University,,연구실 페이지 미확인
+P2696,,Byeong-Soo Kim,Kongju National University,,연구실 페이지 미확인
+P2697,,Jong Seob Choi,Kongju National University,,연구실 페이지 미확인
+P2698,,Gi‐Hyung Ryu,Kongju National University,,연구실 페이지 미확인
+P2699,,Dae Yeon Kim,Kongju National University,,연구실 페이지 미확인
+P2700,,Sang‐Ho Chu,Kongju National University,,연구실 페이지 미확인
+P2701,,Inmyung Song,Kongju National University,,연구실 페이지 미확인
+P2702,,Hae-Yeon Choi,Kongju National University,,연구실 페이지 미확인
+P2703,,Jihyun Oh,Kongju National University,,연구실 페이지 미확인
+P2704,,Hyuck Jin Lee,Kongju National University,,연구실 페이지 미확인
+P2705,,Seog Woo Rhee,Kongju National University,,연구실 페이지 미확인
+P2706,,Daniel Kim,Kongju National University,,연구실 페이지 미확인
+P2707,,Sang-Hyun Park,Kongju National University,,연구실 페이지 미확인
+P2708,,Soo Hyung Eo,Kongju National University,,연구실 페이지 미확인
+P2709,,Bon‐Jae Gu,Kongju National University,,연구실 페이지 미확인
+P2710,,Sang Phil Shin,Kongju National University,,연구실 페이지 미확인
+P2711,,Rack-woo Kim,Kongju National University,,연구실 페이지 미확인
+P2712,,Jung Il Seo,Kongju National University,,연구실 페이지 미확인
+P2713,,Myeon‐Sik Yang,Kongju National University,,연구실 페이지 미확인
+P2714,,Soo-Hwan Kim,Kongju National University,,연구실 페이지 미확인
+P2715,,Myung‐Hwa Jung,Kongju National University,,연구실 페이지 미확인
+P2716,박종관,Jonggwan Park,Kongju National University,,연구실 페이지 미확인
+P2717,,Da Eun Nam,Kongju National University,,연구실 페이지 미확인
+P2718,김유식,Yoosik Kim,KAIST,KAIST 생명과학과,연구실 페이지 미확인
+P2719,정상화,Sanghwa Jeong,Pusan National University,,연구실 페이지 미확인
+P2720,진호,Ho Jin,UNIST,,논문 프로필 없음; 연구실 페이지 미확인
+P2721,방지원,Jiwon Bang,Incheon National University,,논문 프로필 없음; 연구실 페이지 미확인
+P2722,남주택,Jutaek Nam,Chonnam National University,,연구실 페이지 미확인
+P2723,임종우,Jongwoo Lim,Seoul National University,,논문 프로필 없음; 연구실 페이지 미확인
+P2724,이황호,Hwangho Lee,Seoul National University of Science and Technology,,논문 프로필 없음; 연구실 페이지 미확인
+P2725,김용우,Yong Woo Kim,Gachon University,,연구실 페이지 미확인
+P2726,송인학,Inhak Song,Korea University,,논문 프로필 없음; 연구실 페이지 미확인
+P2727,이재하,Jaeha Lee,Kyungpook National University,,연구실 페이지 미확인
+P2728,김상륜,,GIST,,논문 프로필 없음; 연구실 페이지 미확인
+P2729,남관우,,Ewha Womans University,,논문 프로필 없음; 연구실 페이지 미확인
+P2730,김병곤,,Kyung Hee University,,논문 프로필 없음; 연구실 페이지 미확인
+P2731,이지훈,,Kyungpook National University,,논문 프로필 없음; 연구실 페이지 미확인
+P2732,이현정,,UNIST,,논문 프로필 없음; 연구실 페이지 미확인
+P2733,임성인,,Pukyong National University,,연구실 페이지 미확인
+P2734,황현규,,Jeonbuk National University,,논문 프로필 없음; 연구실 페이지 미확인
+P2735,우성화,,KENTECH,,논문 프로필 없음; 연구실 페이지 미확인
+P2736,예대열,,Gachon University,,연구실 페이지 미확인
+P2737,김현주,Hyeon Ju Kim,Jeju National University,교수진소개,연구실 페이지 미확인
+P2738,박영준,Y. Park,Jeju National University,교수진소개,연구실 페이지 미확인
+P2739,박철훈,Chulhun Park,Jeju National University,교수진소개,연구실 페이지 미확인
+P2740,배지영,Ji‐Yeong Bae,Jeju National University,교수진소개,연구실 페이지 미확인
+P2741,석승현,Seung‐Hyeon Seok,Jeju National University,교수진소개,연구실 페이지 미확인
+P2742,이상호,Sangho Lee,Jeju National University,교수진소개,연구실 페이지 미확인
+P2743,유준상,Jun Sang Yu,Jeju National University,교수진소개,연구실 페이지 미확인
+P2744,전수민,Soo Min Jeon,Jeju National University,교수진소개,연구실 페이지 미확인
+P2745,최연자,Yeon Ja Choi,Jeju National University,교수진소개,연구실 페이지 미확인
+P2746,하민우,Minu Ha,Jeju National University,교수진소개,연구실 페이지 미확인
+P2747,이영재,Young Jae Lee,Jeju National University,수의과대학,연구실 페이지 미확인
+P2748,강태영,Tae‐Young Kang,Jeju National University,수의과대학,연구실 페이지 미확인
+P2749,윤영민,Young‐Min Yun,Jeju National University,수의과대학,연구실 페이지 미확인
+P2750,김재훈,Jhoon Kim,Jeju National University,수의과대학,연구실 페이지 미확인
+P2751,황규계,Kyu-Kye Hwang,Jeju National University,수의과대학,연구실 페이지 미확인
+P2752,고은주,Eun‐Ju Ko,Jeju National University,수의과대학,연구실 페이지 미확인
+P2753,정효훈,Hyohoon Jeong,Jeju National University,수의과대학,연구실 페이지 미확인
+P2754,안창환,Changhwan Ahn,Jeju National University,수의과대학,연구실 페이지 미확인
+P2755,이해준,Hae‐June Lee,Jeju National University,수의과대학,연구실 페이지 미확인
+P2756,정재하,Jae‐Ha Jung,Jeju National University,수의과대학,연구실 페이지 미확인
+P2757,김일권,Il-Kwon Kim,Catholic Kwandong University,,연구실 페이지 미확인
+P2758,곽소정,Sojung Gwak,Wonkwang University,,논문 프로필 없음; 연구실 페이지 미확인
+P2759,방석호,Suk Ho Bhang,Sungkyunkwan University,,연구실 페이지 미확인
+P2760,양희석,Hee Seok Yang,Dankook University,,논문 프로필 없음; 연구실 페이지 미확인
+P2761,이세형,SeaHyoung Lee,Catholic Kwandong University,,연구실 페이지 미확인
+P2762,이태진,Tae-Jin Lee,Kangwon National University,,연구실 페이지 미확인
+P2763,장현기,HyeonKi Jang,Kangwon National University,,논문 프로필 없음; 연구실 페이지 미확인
+P2764,정근재,Geunjae Jeong,Korea National University of Transportation,,논문 프로필 없음; 연구실 페이지 미확인
+P2765,김한영,Hanyoung Kim,The Catholic University of Korea,,논문 프로필 없음; 연구실 페이지 미확인
+P2766,이주로,Ju-Ro Lee,Dankook University,,연구실 페이지 미확인
+P2767,강미경,Mikyung Kang,Korea University,,연구실 페이지 미확인
+P2768,홍지혜,Jihye Hong,Dankook University,,논문 프로필 없음; 연구실 페이지 미확인
+P2769,손성욱,Seung Uk Son,Sungkyunkwan University,,연구실 페이지 미확인
+P2770,김상욱,Sang-Wook Kim,Ajou University,,논문 프로필 없음; 연구실 페이지 미확인
+P2771,주진,Jin Joo,Kyungpook National University,,논문 프로필 없음; 연구실 페이지 미확인
+P2772,이인수,Insu Lee,POSTECH,,논문 프로필 없음; 연구실 페이지 미확인
+P2773,김재윤,Jaeyun Kim,Sungkyunkwan University,,논문 프로필 없음; 연구실 페이지 미확인
+P2774,안광진,Kwangjin An,UNIST,,연구실 페이지 미확인
+P2775,손재성,Jae Sung Son,POSTECH,,논문 프로필 없음; 연구실 페이지 미확인
+P2776,박용일,Yong Il Park,Chonnam National University,,논문 프로필 없음; 연구실 페이지 미확인
+P2777,이지은,Ji Eun Lee,Chonnam National University,,논문 프로필 없음; 연구실 페이지 미확인
+P2778,이노현,Nohyun Lee,Kookmin University,,논문 프로필 없음; 연구실 페이지 미확인
+P2779,양지웅,Jiwoong Yang,DGIST,,논문 프로필 없음; 연구실 페이지 미확인
+P2780,김도균,Dokyoon Kim,Hanyang University,,논문 프로필 없음; 연구실 페이지 미확인
+P2781,구태성,,Chungnam National University,,연구실 페이지 미확인
+P2782,성종혁,,Yonsei University,,연구실 페이지 미확인
+P2783,나종걸,Jonggeol Na,Ewha Womans University,,논문 프로필 없음; 연구실 페이지 미확인
+P2784,하민영,Min Young Ha,Kyung Hee University,,논문 프로필 없음; 연구실 페이지 미확인
+P2785,서범준,Bumjoon Seo,Seoul National University of Science and Technology,,연구실 페이지 미확인
+P2786,유지웅,Ji Woong Yu,Ajou University,,논문 프로필 없음; 연구실 페이지 미확인
+P2787,송광훈,Kwang Hoon Song,Incheon National University,,연구실 페이지 미확인
+P2788,양지영,,Kyungpook National University,,논문 프로필 없음; 연구실 페이지 미확인
+P2789,이수나,Su Na Lee,Eulji University,의예과,연구실 페이지 미확인
+P2790,손세진,,Inha University,,논문 프로필 없음; 연구실 페이지 미확인
+P2791,김지훈,,Chung-Ang University,,논문 프로필 없음; 연구실 페이지 미확인
+P2792,채윤지,,Woosuk University,,논문 프로필 없음; 연구실 페이지 미확인
+P2793,안성훈,,Kangwon National University,,논문 프로필 없음; 연구실 페이지 미확인
+P2794,신소영,,Wonkwang University,,논문 프로필 없음; 연구실 페이지 미확인
+P2796,안지완,,Seoul National University,치의학대학원,논문 프로필 없음; 연구실 페이지 미확인
+P2797,이연,Yan Lee,Seoul National University,화학부,연구실 페이지 미확인
+P2798,이남기,Nam Ki Lee,Seoul National University,화학부,연구실 페이지 미확인
+P2799,김교범,Kyobum Kim,Dongguk University,,연구실 페이지 미확인
+P2800,박천권,Chun Gwon Park,Sungkyunkwan University,바이오메디컬공학과,연구실 페이지 미확인
+P2802,강승균,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2803,강준호,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2804,강홍기,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2805,고승환,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2806,권성훈,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2807,김경수,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2808,김도년,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2809,김영수,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2810,김성완,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2811,김영은,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2812,남기태,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2813,문민환,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2814,박종민,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2815,박주혁,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2816,박지웅,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2817,박창민,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2818,백남종,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2819,서종모,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2820,신상도,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2821,신용대,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2822,안철희,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2823,오세일,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2824,윤형진,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2825,이경호,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2826,이규언,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2827,이동헌,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2828,이상훈,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2829,이시욱,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2830,최진욱,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2831,이재성,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2832,이정렬,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2833,이정찬,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2834,이창한,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2835,이태우,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2836,임재영,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2837,정기영,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2838,정현훈,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2839,조규진,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2840,최승홍,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2841,최영빈,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2842,한경원,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
+P2843,허찬영,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2844,류주희,Ju Hee Ryu,Korea Institute of Science and Technology,,연구실 페이지 미확인
+P2845,정석,Seok Chung,Korea University,기계공학부,연구실 페이지 미확인
+P2846,방석영,,Dongguk University,의생명공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2847,김성민,,Dongguk University,의생명공학과,연구실 페이지 미확인
+P2848,권영은,,Dongguk University,의생명공학과,연구실 페이지 미확인
+P2849,정종섭,,Dongguk University,의생명공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2850,이수홍,,Dongguk University,의생명공학과,연구실 페이지 미확인
+P2851,서영권,,Dongguk University,의생명공학과,연구실 페이지 미확인
+P2852,김진식,,Dongguk University,의생명공학과,연구실 페이지 미확인
+P2853,양승훈,,Dongguk University,의생명공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2854,이승훈,,Dongguk University,의생명공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2855,홍영택,,Dongguk University,의생명공학과,연구실 페이지 미확인
+P2856,유병승,,Dongguk University,식품생명공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2857,이광근,,Dongguk University,식품생명공학과,연구실 페이지 미확인
+P2858,신한승,,Dongguk University,식품생명공학과,연구실 페이지 미확인
+P2859,강석성,,Dongguk University,식품생명공학과,연구실 페이지 미확인
+P2860,금나나,,Dongguk University,식품생명공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2861,강준원,,Dongguk University,식품생명공학과,연구실 페이지 미확인
+P2862,박유헌,,Dongguk University,식품생명공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2863,이석희,,Dongguk University,식품생명공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2864,김도영,,Dongguk University,식품생명공학과,연구실 페이지 미확인
+P2865,고영학,,Korea University,바이오의공학부,논문 프로필 없음; 연구실 페이지 미확인
+P2866,구자현,,Korea University,바이오의공학부,논문 프로필 없음; 연구실 페이지 미확인
+P2867,김법민,,Korea University,바이오의공학부,연구실 페이지 미확인
+P2868,성준경,,Korea University,바이오의공학부,연구실 페이지 미확인
+P2869,염정열,,Korea University,바이오의공학부,연구실 페이지 미확인
+P2870,유용상,,Korea University,바이오의공학부,연구실 페이지 미확인
+P2871,윤대성,,Korea University,바이오의공학부,연구실 페이지 미확인
+P2872,윤명근,,Korea University,바이오의공학부,논문 프로필 없음; 연구실 페이지 미확인
+P2873,이규백,,Korea University,바이오의공학부,연구실 페이지 미확인
+P2876,정하욱,,Korea University,바이오의공학부,논문 프로필 없음; 연구실 페이지 미확인
+P2877,정호상,,Korea University,바이오의공학부,연구실 페이지 미확인
+P2878,천홍구,,Korea University,바이오의공학부,논문 프로필 없음; 연구실 페이지 미확인
+P2879,최연호,,Korea University,바이오의공학부,연구실 페이지 미확인
+P2880,최영운,,Korea University,바이오의공학부,논문 프로필 없음; 연구실 페이지 미확인
+P2881,김상민,Sangmin Kim,Seoul National University,화학부,연구실 페이지 미확인
+P2882,김석희,Seokhee Kim,Seoul National University,화학부,연구실 페이지 미확인
+P2883,김예진,Ye-Jin Kim,Seoul National University,화학부,연구실 페이지 미확인
+P2884,박승범,Seung Bum Park,Seoul National University,화학부,연구실 페이지 미확인
+P2885,서필준,Pil Joon Seo,Seoul National University,화학부,연구실 페이지 미확인
+P2886,석차옥,Chaok Seok,Seoul National University,화학부,연구실 페이지 미확인
+P2887,손병혁,Byeong-Hyeok Sohn,Seoul National University,화학부,연구실 페이지 미확인
+P2888,송윤주,Woon Ju Song,Seoul National University,화학부,연구실 페이지 미확인
+P2889,신석민,Seokmin Shin,Seoul National University,화학부,연구실 페이지 미확인
+P2890,이동환,Dong Hwan Lee,Seoul National University,화학부,연구실 페이지 미확인
+P2891,이은성,Eunsung Lee,Seoul National University,화학부,연구실 페이지 미확인
+P2892,이현우,Hyun-Woo Rhee,Seoul National University,화학부,연구실 페이지 미확인
+P2893,이홍근,Hong Geun Lee,Seoul National University,화학부,연구실 페이지 미확인
+P2894,정택동,Taek Dong Chung,Seoul National University,화학부,연구실 페이지 미확인
+P2895,주상훈,Sang Hoon Joo,Seoul National University,화학부,연구실 페이지 미확인
+P2896,홍병희,Byung Hee Hong,Seoul National University,화학부,연구실 페이지 미확인
+P2897,홍승윤,Seung Youn Hong,Seoul National University,화학부,연구실 페이지 미확인
+P2898,김민성,Min‐Sung Kim,POSTECH,학사논문 지도교수,연구실 페이지 미확인
+P2899,장지원,Jiwon Jang,POSTECH,학사논문 지도교수,연구실 페이지 미확인
+P2900,신우정,Woo Jung Shin,KAIST,,연구실 페이지 미확인
+P2901,김용호,Yong Ho Kim,Sungkyunkwan University,나노공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2902,이석찬,,Sungkyunkwan University,융합생명공학과,연구실 페이지 미확인
+P2903,권대혁,,Sungkyunkwan University,융합생명공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2904,윤기정,,Sungkyunkwan University,융합생명공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2905,조재열,,Sungkyunkwan University,융합생명공학과,연구실 페이지 미확인
+P2906,오정수,,Sungkyunkwan University,융합생명공학과,연구실 페이지 미확인
+P2907,정우재,,Sungkyunkwan University,융합생명공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2908,이종성,,Sungkyunkwan University,융합생명공학과,연구실 페이지 미확인
+P2909,송민경,,Sungkyunkwan University,융합생명공학과,연구실 페이지 미확인
+P2910,전영준,,Sungkyunkwan University,융합생명공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2911,김희권,,Sungkyunkwan University,융합생명공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2912,발라찬드란마나발란,Balachandran Manavalan,Sungkyunkwan University,융합생명공학과,연구실 페이지 미확인
+P2913,백가현,,Sungkyunkwan University,융합생명공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2914,양유수,,Sungkyunkwan University,융합생명공학과,연구실 페이지 미확인
+P2915,김병철,,Sungkyunkwan University,글로벌바이오메디컬공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2916,김재현,,Sungkyunkwan University,글로벌바이오메디컬공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2917,김태형,,Sungkyunkwan University,글로벌바이오메디컬공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2918,김형구,,Sungkyunkwan University,글로벌바이오메디컬공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2919,박장연,,Sungkyunkwan University,글로벌바이오메디컬공학과,연구실 페이지 미확인
+P2920,박재석,,Sungkyunkwan University,글로벌바이오메디컬공학과,연구실 페이지 미확인
+P2921,박진형,,Sungkyunkwan University,글로벌바이오메디컬공학과,연구실 페이지 미확인
+P2922,박한규,,Sungkyunkwan University,글로벌바이오메디컬공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2923,서민아,,Sungkyunkwan University,글로벌바이오메디컬공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2924,손한샘,,Sungkyunkwan University,글로벌바이오메디컬공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2925,신미경,,Sungkyunkwan University,글로벌바이오메디컬공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2926,심원목,,Sungkyunkwan University,글로벌바이오메디컬공학과,연구실 페이지 미확인
+P2927,아우렐리오코르테제,Aurelio Cortese,Sungkyunkwan University,글로벌바이오메디컬공학과,연구실 페이지 미확인
+P2928,우충완,,Sungkyunkwan University,글로벌바이오메디컬공학과,논문 프로필 없음; 연구실 페이지 미확인
+P2929,유승범,,Sungkyunkwan University,글로벌바이오메디컬공학과,연구실 페이지 미확인
+P2930,이정승,,Sungkyunkwan University,글로벌바이오메디컬공학과,연구실 페이지 미확인
+P2931,이준열,,Sungkyunkwan University,글로벌바이오메디컬공학과,연구실 페이지 미확인
+P2932,학완라우,Hakwan Lau,Sungkyunkwan University,글로벌바이오메디컬공학과,연구실 페이지 미확인
+P2933,홍석준,,Sungkyunkwan University,글로벌바이오메디컬공학과,연구실 페이지 미확인
+P2934,김근형,Geun Hyung Kim,Sungkyunkwan University,,연구실 페이지 미확인
+P2935,강동묵,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2936,강종순,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2937,고관수,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2938,권일민,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2939,김경규,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2940,김균환,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2941,김기주,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2942,김문영,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2943,김성태,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2944,김재준,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2945,김태진,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2946,김현진,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2947,남주현,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2948,류희주,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2949,문성지,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2950,밀롯미르디타,Milot Mirdita,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2951,박명규,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2952,박성진,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2953,박재현,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2954,배창대,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2955,백관혁,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2956,신동우,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2957,신명희,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2958,신주호,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2959,안지인,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2960,안진현,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2961,엄성희,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2962,오창석,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2963,원태형,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2964,이경훈,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2965,이성균,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2966,이승원,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2967,이연종,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2968,이윤송,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2969,이주상,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2970,이창우,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2971,임세진,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2972,전용현,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2973,정지욱,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2974,정지헌,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2975,정호창,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2976,조영석,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2977,조하나,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2978,주경민,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
+P2979,최정윤,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인

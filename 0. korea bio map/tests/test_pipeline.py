@@ -161,3 +161,15 @@ def test_typed_author_stats_replace_openalex_figures(tmp_path, monkeypatch):
     merged = _with_manual_stats(out).set_index("professor_id")
     assert list(merged.loc["P1"]) == [260, 16887, 76, 69, 7883]
     assert merged.loc["P2", "papers"] == 6
+
+
+def test_blank_manual_figure_keeps_openalex_value(tmp_path, monkeypatch):
+    import pandas as pd
+    from pipeline import AUTHOR_STATS_COLUMNS, _with_manual_stats
+    manual = tmp_path / "author_stats_manual.csv"
+    manual.write_text("professor_id,papers,citations,h_index,recent_papers,recent_citations\nP1,,32084,97,,13862\n", encoding="utf-8")
+    monkeypatch.setattr(pipeline, "AUTHOR_STATS_MANUAL_PATH", manual)
+    out = pd.DataFrame([{"professor_id": "P1", "papers": 7, "citations": 1, "h_index": 2,
+                         "recent_papers": 4, "recent_citations": 5}], columns=AUTHOR_STATS_COLUMNS)
+    row = _with_manual_stats(out).set_index("professor_id").loc["P1"]
+    assert (row["papers"], row["citations"], row["h_index"], row["recent_papers"], row["recent_citations"]) == (7, 32084, 97, 4, 13862)

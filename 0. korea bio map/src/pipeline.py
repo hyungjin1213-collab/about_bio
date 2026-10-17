@@ -712,15 +712,22 @@ AUTHOR_STATS_MANUAL_PATH = DATA_DIR / "author_stats_manual.csv"   # figures type
 
 
 def _with_manual_stats(out: pd.DataFrame) -> pd.DataFrame:
-    """Typed figures replace the OpenAlex ones for the professors they name (the daily run keeps them)."""
+    """Typed figures replace the OpenAlex ones for the professors they name (the daily run keeps them).
+    A blank cell keeps the OpenAlex figure (or 0 when there is none)."""
     manual = _read_csv(AUTHOR_STATS_MANUAL_PATH, AUTHOR_STATS_COLUMNS)
     if manual.empty:
         return out
-    manual = manual[AUTHOR_STATS_COLUMNS].copy()
-    for col in AUTHOR_STATS_COLUMNS[1:]:
-        manual[col] = pd.to_numeric(manual[col], errors="coerce").fillna(0).astype(int)
+    figures = AUTHOR_STATS_COLUMNS[1:]
+    by_pid = out.set_index("professor_id") if not out.empty else pd.DataFrame(columns=AUTHOR_STATS_COLUMNS).set_index("professor_id")
+    rows = []
+    for _, m in manual.iterrows():
+        base = {c: int(float(by_pid.at[m["professor_id"], c])) if m["professor_id"] in by_pid.index and str(by_pid.at[m["professor_id"], c]) not in ("", "nan") else 0 for c in figures}
+        for c in figures:
+            if str(m[c]).strip():
+                base[c] = int(float(m[c]))
+        rows.append({"professor_id": m["professor_id"], **base})
     out = out[~out["professor_id"].isin(manual["professor_id"])]
-    return pd.concat([out, manual], ignore_index=True)
+    return pd.concat([out, pd.DataFrame(rows, columns=AUTHOR_STATS_COLUMNS)], ignore_index=True)
 
 
 def _article_counts(client: OpenAlexClient, ids: list[str], extra_filter: str = "") -> dict[str, int]:

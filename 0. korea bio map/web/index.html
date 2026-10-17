@@ -118,7 +118,7 @@
     <p>교수 = 별 · score = 별 크기 · 색 = 분야</p>
     <div class="lines">
       <div><span class="line" style="background:#fbbf24;height:3px"></span>지도교수 → 제자 (PI 10점 · 제자 1점)</div>
-      <div><span class="line" style="background:#c084fc;height:2px"></span>포닥 멘토 → 포닥 (PI 3점 · 포닥 1점)</div>
+      <div><span class="line" style="background:#c084fc;height:2px;opacity:.35"></span>포닥 멘토 → 포닥 (일단 숨김)</div>
       <div><span class="line" style="background:rgba(147,197,253,.45);height:1px"></span>공동연구 (별을 누르면 표시 · 전체는 아래 체크)</div>
     </div>
     <div class="legend" id="legend"></div>
@@ -189,7 +189,7 @@
     <label><input type="checkbox" id="view-collab">공동연구 선 보기</label>
   </div>
   <aside class="card" id="card" hidden aria-live="polite"></aside>
-  <a class="community" href="./community.html">💬 커뮤니티</a>
+  <a class="community" href="./community.html" style="display:none">💬 커뮤니티</a>
 
   <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
   <script src="https://unpkg.com/3d-force-graph@1.76.1/dist/3d-force-graph.min.js"></script>
@@ -278,7 +278,8 @@
     // collaboration lines are opt-in ("공동연구 선 보기"), and a selected
     // professor's own collaborations are drawn as a light overlay.
     const ALL_LINKS=window.KOREA_BIO_MAP.links||[];
-    const LINEAGE_LINKS=ALL_LINKS.filter(isLineage);
+    // 일단은 지도교수 → 제자 선만 표시 (포닥 멘토 선은 숨김, 공동연구 선은 옵션)
+    const LINEAGE_LINKS=ALL_LINKS.filter(l=>l.type==="advisor_student");
     const COLLAB_BY_NODE=new Map();
     ALL_LINKS.forEach(l=>{
       if(isLineage(l)) return;
@@ -307,9 +308,9 @@
       .graphData({nodes:window.KOREA_BIO_MAP.nodes,links:LINEAGE_LINKS})
       // One glowing sprite per star (2,500+ stars: spheres were too heavy).
       .nodeThreeObject(node=>{
-        const r=2.8+Math.sqrt(Number(node.score||0)+1)*1.6;
+        const r=5+Math.sqrt(Number(node.score||0)+1)*2.2;   // bigger stars so each professor is visible
         const s=new THREE.Sprite(starMaterial(starColor(node)));
-        s.scale.set(r*3.4,r*3.4,1);
+        s.scale.set(r*4,r*4,1);
         return s;
       })
       .nodeLabel(n=>`<div style="padding:6px 8px"><b>${esc(n.name)}</b>${n.name_en&&n.name_en!==n.name?` (${esc(n.name_en)})`:""}<br>${esc(n.university_ko||n.university)}${n.department?` · ${esc(n.department)}`:""}<br><span style="color:#9aa7c7">${esc(n.category||"")}${(n.keywords||[]).length?` · ${n.keywords.slice(0,3).map(esc).join(", ")}`:""}</span></div>`)
@@ -375,7 +376,7 @@
     }
     document.getElementById("view-collab").addEventListener("change",e=>{
       showCollab=e.target.checked;
-      Graph.graphData({nodes:window.KOREA_BIO_MAP.nodes,links:showCollab?ALL_LINKS:LINEAGE_LINKS});
+      Graph.graphData({nodes:window.KOREA_BIO_MAP.nodes,links:showCollab?ALL_LINKS.filter(l=>l.type!=="postdoc_mentor"):LINEAGE_LINKS});
       refreshVisibility();drawOverlay();
     });
 

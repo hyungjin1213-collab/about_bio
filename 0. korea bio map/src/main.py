@@ -212,7 +212,7 @@ def main() -> None:
         os.environ.setdefault("ALUMNI_PROBE_GREP", "")
         os.environ.setdefault("ALUMNI_PROBE_FACULTY", "1")
 
-        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "P0714").split(",") if x])
+        probe([x for x in os.getenv("ALUMNI_PROBE_IDS", "").split(",") if x])
         # OpenAlex profiles that may belong to one professor (split profiles).
         for name in filter(None, os.getenv("OPENALEX_PROBE_NAMES", "").split(",")):
             data = client._get("authors", {"search": name, "per-page": 15,

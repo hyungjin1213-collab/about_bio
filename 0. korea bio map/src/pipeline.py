@@ -708,6 +708,19 @@ def _titles_by_professor(nodes: pd.DataFrame) -> dict[str, str]:
 
 AUTHOR_STATS_PATH = OUTPUT_DIR / "author_stats.csv"
 AUTHOR_STATS_COLUMNS = ["professor_id", "papers", "citations", "h_index", "recent_papers", "recent_citations"]
+AUTHOR_STATS_MANUAL_PATH = DATA_DIR / "author_stats_manual.csv"   # figures typed from a Google Scholar page
+
+
+def _with_manual_stats(out: pd.DataFrame) -> pd.DataFrame:
+    """Typed figures replace the OpenAlex ones for the professors they name (the daily run keeps them)."""
+    manual = _read_csv(AUTHOR_STATS_MANUAL_PATH, AUTHOR_STATS_COLUMNS)
+    if manual.empty:
+        return out
+    manual = manual[AUTHOR_STATS_COLUMNS].copy()
+    for col in AUTHOR_STATS_COLUMNS[1:]:
+        manual[col] = pd.to_numeric(manual[col], errors="coerce").fillna(0).astype(int)
+    out = out[~out["professor_id"].isin(manual["professor_id"])]
+    return pd.concat([out, manual], ignore_index=True)
 
 
 def _article_counts(client: OpenAlexClient, ids: list[str], extra_filter: str = "") -> dict[str, int]:
@@ -770,6 +783,7 @@ def collect_author_stats(client: OpenAlexClient, professors: pd.DataFrame) -> pd
         print("[stats] OpenAlex unavailable: earlier publication figures kept", flush=True)
         return _read_csv(AUTHOR_STATS_PATH, AUTHOR_STATS_COLUMNS)
     out = pd.DataFrame(list(totals.values()), columns=AUTHOR_STATS_COLUMNS)
+    out = _with_manual_stats(out)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     out.to_csv(AUTHOR_STATS_PATH, index=False, encoding="utf-8-sig")
     print(f"[stats] publication records for {len(out)} professors", flush=True)

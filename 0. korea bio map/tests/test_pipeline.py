@@ -146,3 +146,18 @@ def test_removed_override_drops_professor():
     profs = pd.DataFrame([{"professor_id": "P1", "name_ko": "가"}, {"professor_id": "P2", "name_ko": "나"}])
     ov = pd.DataFrame([{"professor_id": "P1", "column": "removed", "value": "yes", "memo": "은퇴"}])
     assert list(apply_professor_overrides(profs, ov)["professor_id"]) == ["P2"]
+
+
+def test_typed_author_stats_replace_openalex_figures(tmp_path, monkeypatch):
+    import pandas as pd
+    from pipeline import AUTHOR_STATS_COLUMNS, _with_manual_stats
+    manual = tmp_path / "author_stats_manual.csv"
+    manual.write_text("professor_id,papers,citations,h_index,recent_papers,recent_citations\nP1,260,16887,76,69,7883\n", encoding="utf-8")
+    monkeypatch.setattr(pipeline, "AUTHOR_STATS_MANUAL_PATH", manual)
+    out = pd.DataFrame([{"professor_id": "P1", "papers": 1, "citations": 2, "h_index": 3,
+                         "recent_papers": 4, "recent_citations": 5},
+                        {"professor_id": "P2", "papers": 6, "citations": 7, "h_index": 8,
+                         "recent_papers": 9, "recent_citations": 10}], columns=AUTHOR_STATS_COLUMNS)
+    merged = _with_manual_stats(out).set_index("professor_id")
+    assert list(merged.loc["P1"]) == [260, 16887, 76, 69, 7883]
+    assert merged.loc["P2", "papers"] == 6

@@ -1,1 +1,4 @@
 ﻿sheet,row,problem,values
+관계추가,2,교수를 찾지 못함 (이름+소속 확인),정규열 / POSTECH / 양진아 / Jeju National University / 지도교수-제자
+관계추가,3,교수를 찾지 못함 (이름+소속 확인),서상우 / Seoul National University / 양진아 / Jeju National University / 포닥멘토-포닥
+관계추가,4,교수를 찾지 못함 (이름+소속 확인),서상우 / Seoul National University / 한용희 / Chonnam National University / 지도교수-제자

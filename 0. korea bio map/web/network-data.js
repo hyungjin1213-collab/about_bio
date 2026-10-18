@@ -143018,7 +143018,8 @@ window.KOREA_BIO_MAP = {
       "region": "서울",
       "home_sector": "학",
       "sectors": [
-        "학"
+        "학",
+        "산"
       ],
       "university_ko": "서울대학교",
       "position": "",
@@ -143808,7 +143809,8 @@ window.KOREA_BIO_MAP = {
       "region": "서울",
       "home_sector": "학",
       "sectors": [
-        "학"
+        "학",
+        "산"
       ],
       "university_ko": "서울대학교",
       "position": "",

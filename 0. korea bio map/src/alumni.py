@@ -1030,8 +1030,13 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
     fetch = fetch or Fetcher()
     ensure_manual_file()
     professors = _read(OUTPUT_DIR / "professors_enriched.csv")
+    seed = _read(DATA_DIR / "professors_seed.csv")
     if professors.empty:
-        professors = _read(DATA_DIR / "professors_seed.csv")
+        professors = seed
+    else:
+        # Professors added from alumni pages earlier (seed only) must be linkable in this run too.
+        missing = seed[~seed["professor_id"].isin(professors["professor_id"])]
+        professors = pd.concat([professors, missing], ignore_index=True)
     sites = _read(SITES_PATH, SITE_COLUMNS)
     manual = {r["professor_id"]: r.to_dict() for _, r in _read(MANUAL_PATH, MANUAL_COLUMNS).iterrows()
               if r["professor_id"]}

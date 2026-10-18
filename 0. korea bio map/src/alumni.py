@@ -49,8 +49,8 @@ USER_AGENT = "Mozilla/5.0 (compatible; AboutBioFacultyCollector/2.1)"
 
 SITES_PATH = DATA_DIR / "lab_sites.csv"
 MANUAL_PATH = DATA_DIR / "lab_sites_manual.csv"
-# Alumni lists given by hand (a lab whose page cannot be read): one row per alumnus, without
-# names except alumni who are professors now (public, and needed to link them on the map).
+# Alumni lists given by hand (a lab whose page cannot be read): one row per alumnus; names are
+# kept when the list gives them (name_ko, name_en), so professors among them can be linked on the map.
 RECORDS_DIR = DATA_DIR / "alumni_manual"
 SUMMARY_PATH = OUTPUT_DIR / "lab_alumni_summary.csv"
 # PI -> alumnus links for alumni who are professors in the map (both public faculty).
@@ -793,7 +793,7 @@ def manual_records(pid: str) -> list[dict]:
         degree = r.get("degree") or "unknown"
         low, high = TYPICAL_YEARS.get(degree, (0.5, 10.0))
         years = round(months / 12, 1) if months and low <= months / 12 <= high else None
-        people.append({"name_ko": r.get("name_ko", ""), "name_en": "", "degree": degree,
+        people.append({"name_ko": r.get("name_ko", "") or "", "name_en": r.get("name_en", "") or "", "degree": degree,
                        "start_year": ym(r.get("start")), "end_year": ym(r.get("end")), "years": years,
                        "years_exact": years is not None, "position": r.get("position", ""),
                        "career": r.get("career") or "unknown", "raw": ""})

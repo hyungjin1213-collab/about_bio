@@ -5,7 +5,7 @@ LIN000003,P0007,P1383,advisor_student,15,https://doi.org/10.1089/ten.2005.11.438
 LIN000004,P2179,P2184,advisor_student,15,https://doi.org/10.1111/j.1346-8138.2011.01429.x,auto,inferred from 15 first-author papers (2011-2016) with A as last author
 LIN000005,P0007,P2759,advisor_student,15,https://doi.org/10.1163/156856207779116711,auto,inferred from 15 first-author papers (2006-2011) with A as last author
 LIN000006,P1538,P1566,postdoc_mentor,15,https://doi.org/10.1177/1352458512441271,auto,inferred from 15 first-author papers (2012-2017) with A as last author
-LIN000007,P2845,P1288,advisor_student,14,,auto,inferred from 14 first-author papers (2010-2015) with A as last author
+LIN000007,P1116,P1288,advisor_student,14,,auto,inferred from 14 first-author papers (2010-2015) with A as last author
 LIN000008,P0007,P0881,advisor_student,14,https://doi.org/10.1016/j.biomaterials.2003.09.068,auto,inferred from 14 first-author papers (2003-2008) with A as last author
 LIN000009,P0013,P0020,advisor_student,14,https://doi.org/10.1159/000337022,auto,inferred from 14 first-author papers (2012-2015) with A as last author
 LIN000010,P2532,P0002,advisor_student,13,,auto,inferred from 13 first-author papers (2007-2012) with A as last author

@@ -35118,8 +35118,10 @@ window.KOREA_BIO_MAP = {
         "ms_years_est": 0.0,
         "stay_years_est": 0.0,
         "students_with_papers": 55.0,
-        "papers_per_student": 0.0,
-        "first_author_per_student": 0.0,
+        "papers_per_student": 6.9,
+        "first_author_per_student": 2.7,
+        "fwci_median": 1.7,
+        "top10_share": 0.74,
         "careers": {
           "faculty": 12,
           "postdoc": 6,
@@ -35129,6 +35131,7 @@ window.KOREA_BIO_MAP = {
           "study": 4,
           "other": 6
         },
+        "top_journals": "Water Research; Desalination; Chemosphere",
         "recent": {
           "alumni": 8.0,
           "phd_graduates": 6.0,
@@ -35139,8 +35142,10 @@ window.KOREA_BIO_MAP = {
           "ms_years_est": 0.0,
           "stay_years_est": 0.0,
           "students_with_papers": 8.0,
-          "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
+          "papers_per_student": 8.0,
+          "first_author_per_student": 3.6,
+          "fwci_median": 1.1,
+          "top10_share": 0.27,
           "careers": {
             "faculty": 0,
             "postdoc": 3,
@@ -35149,7 +35154,8 @@ window.KOREA_BIO_MAP = {
             "institute": 0,
             "study": 0,
             "other": 1
-          }
+          },
+          "top_journals": "Chemical Engineering Journal; Advanced Functional Materials; ACS Applied Materials & Interfaces"
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
@@ -36016,8 +36022,10 @@ window.KOREA_BIO_MAP = {
         "ms_years_est": 0.0,
         "stay_years_est": 0.0,
         "students_with_papers": 4.0,
-        "papers_per_student": 0.0,
-        "first_author_per_student": 0.0,
+        "papers_per_student": 11.5,
+        "first_author_per_student": 3.0,
+        "fwci_median": 2.3,
+        "top10_share": 0.54,
         "careers": {
           "faculty": 4,
           "postdoc": 2,
@@ -36027,6 +36035,7 @@ window.KOREA_BIO_MAP = {
           "study": 0,
           "other": 0
         },
+        "top_journals": "Advanced Healthcare Materials; Biomaterials; ACS Applied Materials & Interfaces",
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
         "as_of": "2026-10-18"
@@ -37668,8 +37677,10 @@ window.KOREA_BIO_MAP = {
         "ms_years_est": 0.0,
         "stay_years_est": 0.0,
         "students_with_papers": 23.0,
-        "papers_per_student": 0.0,
-        "first_author_per_student": 0.0,
+        "papers_per_student": 5.5,
+        "first_author_per_student": 1.8,
+        "fwci_median": 0.3,
+        "top10_share": 0.24,
         "careers": {
           "faculty": 7,
           "postdoc": 5,
@@ -37679,6 +37690,7 @@ window.KOREA_BIO_MAP = {
           "study": 0,
           "other": 3
         },
+        "top_journals": "Biophysical Journal; bioRxiv (Cold Spring Harbor Laboratory); Nature Communications",
         "recent": {
           "alumni": 13.0,
           "phd_graduates": 9.0,
@@ -37689,8 +37701,10 @@ window.KOREA_BIO_MAP = {
           "ms_years_est": 0.0,
           "stay_years_est": 0.0,
           "students_with_papers": 10.0,
-          "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
+          "papers_per_student": 4.0,
+          "first_author_per_student": 1.1,
+          "fwci_median": 0.9,
+          "top10_share": 0.15,
           "careers": {
             "faculty": 1,
             "postdoc": 2,
@@ -37699,7 +37713,8 @@ window.KOREA_BIO_MAP = {
             "institute": 0,
             "study": 0,
             "other": 1
-          }
+          },
+          "top_journals": "bioRxiv (Cold Spring Harbor Laboratory); Annual Review of Biophysics; Proceedings of the National Academy of Sciences"
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
@@ -43632,8 +43647,10 @@ window.KOREA_BIO_MAP = {
         "ms_years_est": 0.0,
         "stay_years_est": 0.0,
         "students_with_papers": 24.0,
-        "papers_per_student": 0.0,
-        "first_author_per_student": 0.0,
+        "papers_per_student": 16.7,
+        "first_author_per_student": 4.1,
+        "fwci_median": 1.9,
+        "top10_share": 0.93,
         "careers": {
           "faculty": 7,
           "postdoc": 4,
@@ -43643,6 +43660,7 @@ window.KOREA_BIO_MAP = {
           "study": 0,
           "other": 2
         },
+        "top_journals": "Advanced Functional Materials; Biomaterials; Advanced Healthcare Materials",
         "recent": {
           "alumni": 13.0,
           "phd_graduates": 11.0,
@@ -43653,8 +43671,10 @@ window.KOREA_BIO_MAP = {
           "ms_years_est": 0.0,
           "stay_years_est": 0.0,
           "students_with_papers": 13.0,
-          "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
+          "papers_per_student": 18.2,
+          "first_author_per_student": 4.2,
+          "fwci_median": 2.0,
+          "top10_share": 0.87,
           "careers": {
             "faculty": 1,
             "postdoc": 2,
@@ -43663,7 +43683,8 @@ window.KOREA_BIO_MAP = {
             "institute": 0,
             "study": 0,
             "other": 2
-          }
+          },
+          "top_journals": "Advanced Functional Materials; Advanced Healthcare Materials; Applied Materials Today"
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
@@ -140316,8 +140337,10 @@ window.KOREA_BIO_MAP = {
         "ms_years_est": 0.0,
         "stay_years_est": 0.0,
         "students_with_papers": 55.0,
-        "papers_per_student": 0.0,
-        "first_author_per_student": 0.0,
+        "papers_per_student": 7.9,
+        "first_author_per_student": 1.7,
+        "fwci_median": 1.5,
+        "top10_share": 0.77,
         "careers": {
           "faculty": 6,
           "postdoc": 5,
@@ -140327,6 +140350,7 @@ window.KOREA_BIO_MAP = {
           "study": 7,
           "other": 0
         },
+        "top_journals": "Lab on a Chip; Advanced Healthcare Materials; Biotechnology and Bioengineering",
         "recent": {
           "alumni": 21.0,
           "phd_graduates": 9.0,
@@ -140337,8 +140361,10 @@ window.KOREA_BIO_MAP = {
           "ms_years_est": 0.0,
           "stay_years_est": 0.0,
           "students_with_papers": 21.0,
-          "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
+          "papers_per_student": 9.2,
+          "first_author_per_student": 1.9,
+          "fwci_median": 1.7,
+          "top10_share": 0.54,
           "careers": {
             "faculty": 2,
             "postdoc": 1,
@@ -140347,7 +140373,8 @@ window.KOREA_BIO_MAP = {
             "institute": 3,
             "study": 0,
             "other": 0
-          }
+          },
+          "top_journals": "Lab on a Chip; Biotechnology and Bioengineering; Advanced Healthcare Materials"
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
@@ -140445,8 +140472,10 @@ window.KOREA_BIO_MAP = {
         "ms_years_est": 0.0,
         "stay_years_est": 0.0,
         "students_with_papers": 42.0,
-        "papers_per_student": 0.0,
-        "first_author_per_student": 0.0,
+        "papers_per_student": 7.5,
+        "first_author_per_student": 1.6,
+        "fwci_median": 0.6,
+        "top10_share": 0.44,
         "careers": {
           "faculty": 2,
           "postdoc": 7,
@@ -140456,6 +140485,7 @@ window.KOREA_BIO_MAP = {
           "study": 6,
           "other": 1
         },
+        "top_journals": "Advanced Healthcare Materials; Chemical Communications; Acta Biomaterialia",
         "recent": {
           "alumni": 22.0,
           "phd_graduates": 16.0,
@@ -140466,8 +140496,10 @@ window.KOREA_BIO_MAP = {
           "ms_years_est": 0.0,
           "stay_years_est": 0.0,
           "students_with_papers": 22.0,
-          "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
+          "papers_per_student": 6.9,
+          "first_author_per_student": 1.6,
+          "fwci_median": 0.4,
+          "top10_share": 0.28,
           "careers": {
             "faculty": 1,
             "postdoc": 6,
@@ -140476,7 +140508,8 @@ window.KOREA_BIO_MAP = {
             "institute": 0,
             "study": 3,
             "other": 0
-          }
+          },
+          "top_journals": "Advanced Healthcare Materials; The Cambridge Structural Database; Chemical Engineering Journal"
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
@@ -140805,8 +140838,10 @@ window.KOREA_BIO_MAP = {
         "stay_years": 0.9,
         "stay_years_est": 0.0,
         "students_with_papers": 19.0,
-        "papers_per_student": 0.0,
-        "first_author_per_student": 0.0,
+        "papers_per_student": 5.0,
+        "first_author_per_student": 1.2,
+        "fwci_median": 1.4,
+        "top10_share": 0.7,
         "careers": {
           "faculty": 0,
           "postdoc": 1,
@@ -140816,6 +140851,7 @@ window.KOREA_BIO_MAP = {
           "study": 0,
           "other": 7
         },
+        "top_journals": "Advanced Science; Science Advances; Advanced Functional Materials",
         "recent": {
           "alumni": 23.0,
           "phd_graduates": 13.0,
@@ -140828,8 +140864,10 @@ window.KOREA_BIO_MAP = {
           "stay_years": 0.9,
           "stay_years_est": 0.0,
           "students_with_papers": 19.0,
-          "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
+          "papers_per_student": 5.0,
+          "first_author_per_student": 1.2,
+          "fwci_median": 1.4,
+          "top10_share": 0.7,
           "careers": {
             "faculty": 0,
             "postdoc": 1,
@@ -140838,7 +140876,8 @@ window.KOREA_BIO_MAP = {
             "institute": 2,
             "study": 0,
             "other": 7
-          }
+          },
+          "top_journals": "Advanced Science; Science Advances; Advanced Functional Materials"
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
@@ -141165,8 +141204,10 @@ window.KOREA_BIO_MAP = {
         "stay_years": 2.5,
         "stay_years_est": 0.0,
         "students_with_papers": 47.0,
-        "papers_per_student": 0.0,
-        "first_author_per_student": 0.0,
+        "papers_per_student": 3.5,
+        "first_author_per_student": 1.4,
+        "fwci_median": 0.9,
+        "top10_share": 0.4,
         "careers": {
           "faculty": 7,
           "postdoc": 4,
@@ -141176,6 +141217,7 @@ window.KOREA_BIO_MAP = {
           "study": 3,
           "other": 3
         },
+        "top_journals": "Computer Methods in Applied Mechanics and Engineering; IEEE Transactions on Semiconductor Manufacturing; ACS Nano",
         "recent": {
           "alumni": 47.0,
           "phd_graduates": 25.0,
@@ -141189,8 +141231,10 @@ window.KOREA_BIO_MAP = {
           "stay_years": 2.5,
           "stay_years_est": 0.0,
           "students_with_papers": 37.0,
-          "papers_per_student": 0.0,
-          "first_author_per_student": 0.0,
+          "papers_per_student": 3.2,
+          "first_author_per_student": 1.2,
+          "fwci_median": 0.9,
+          "top10_share": 0.35,
           "careers": {
             "faculty": 4,
             "postdoc": 4,
@@ -141199,7 +141243,8 @@ window.KOREA_BIO_MAP = {
             "institute": 1,
             "study": 1,
             "other": 3
-          }
+          },
+          "top_journals": "IEEE Transactions on Semiconductor Manufacturing; Computer Methods in Applied Mechanics and Engineering; Engineering Applications of Artificial Intelligence"
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
@@ -245513,6 +245558,114 @@ window.KOREA_BIO_MAP = {
       "last_year": 0
     },
     {
+      "source": "P0004",
+      "target": "P2790",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0004",
+      "target": "P2791",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0007",
+      "target": "P2757",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0007",
+      "target": "P2758",
+      "type": "advisor_student",
+      "paper_count": 16,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0007",
+      "target": "P2760",
+      "type": "advisor_student",
+      "paper_count": 39,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0007",
+      "target": "P2761",
+      "type": "postdoc_mentor",
+      "paper_count": 20,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0007",
+      "target": "P2762",
+      "type": "advisor_student",
+      "paper_count": 1,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0007",
+      "target": "P2763",
+      "type": "advisor_student",
+      "paper_count": 18,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0007",
+      "target": "P2764",
+      "type": "advisor_student",
+      "paper_count": 21,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0007",
+      "target": "P2765",
+      "type": "advisor_student",
+      "paper_count": 25,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0007",
+      "target": "P2767",
+      "type": "advisor_student",
+      "paper_count": 21,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0007",
+      "target": "P2768",
+      "type": "advisor_student",
+      "paper_count": 19,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
       "source": "P0022",
       "target": "P2719",
       "type": "advisor_student",
@@ -245549,6 +245702,51 @@ window.KOREA_BIO_MAP = {
       "last_year": 0
     },
     {
+      "source": "P0040",
+      "target": "P0913",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0040",
+      "target": "P0306",
+      "type": "advisor_student",
+      "paper_count": 1,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0040",
+      "target": "P0885",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0040",
+      "target": "P2748",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0056",
+      "target": "P0762",
+      "type": "advisor_student",
+      "paper_count": 7,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
       "source": "P0066",
       "target": "P2144",
       "type": "advisor_student",
@@ -245571,6 +245769,24 @@ window.KOREA_BIO_MAP = {
       "target": "P1033",
       "type": "postdoc_mentor",
       "paper_count": 9,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0095",
+      "target": "P1586",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0095",
+      "target": "P0963",
+      "type": "advisor_student",
+      "paper_count": 3,
       "verified": "alumni_page",
       "strength": 0.0,
       "last_year": 0
@@ -245729,6 +245945,24 @@ window.KOREA_BIO_MAP = {
       "last_year": 0
     },
     {
+      "source": "P0734",
+      "target": "P2600",
+      "type": "advisor_student",
+      "paper_count": 13,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0734",
+      "target": "P0741",
+      "type": "advisor_student",
+      "paper_count": 17,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
       "source": "P0738",
       "target": "P2783",
       "type": "advisor_student",
@@ -245796,222 +246030,6 @@ window.KOREA_BIO_MAP = {
       "target": "P2732",
       "type": "advisor_student",
       "paper_count": 20,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0757",
-      "target": "P1262",
-      "type": "advisor_student",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0775",
-      "target": "P0768",
-      "type": "advisor_student",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0775",
-      "target": "P0778",
-      "type": "advisor_student",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0928",
-      "target": "P1475",
-      "type": "advisor_student",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P1017",
-      "target": "P1556",
-      "type": "advisor_student",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0004",
-      "target": "P2790",
-      "type": "advisor_student",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0004",
-      "target": "P2791",
-      "type": "advisor_student",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0007",
-      "target": "P2757",
-      "type": "advisor_student",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0007",
-      "target": "P2758",
-      "type": "advisor_student",
-      "paper_count": 16,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0007",
-      "target": "P2760",
-      "type": "advisor_student",
-      "paper_count": 39,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0007",
-      "target": "P2761",
-      "type": "postdoc_mentor",
-      "paper_count": 20,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0007",
-      "target": "P2762",
-      "type": "advisor_student",
-      "paper_count": 1,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0007",
-      "target": "P2763",
-      "type": "advisor_student",
-      "paper_count": 18,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0007",
-      "target": "P2764",
-      "type": "advisor_student",
-      "paper_count": 21,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0007",
-      "target": "P2765",
-      "type": "advisor_student",
-      "paper_count": 25,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0007",
-      "target": "P2767",
-      "type": "advisor_student",
-      "paper_count": 21,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0007",
-      "target": "P2768",
-      "type": "advisor_student",
-      "paper_count": 19,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0040",
-      "target": "P0913",
-      "type": "advisor_student",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0040",
-      "target": "P0306",
-      "type": "advisor_student",
-      "paper_count": 1,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0040",
-      "target": "P0885",
-      "type": "advisor_student",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0040",
-      "target": "P2748",
-      "type": "advisor_student",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0056",
-      "target": "P0762",
-      "type": "advisor_student",
-      "paper_count": 7,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0095",
-      "target": "P1586",
-      "type": "advisor_student",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0095",
-      "target": "P0963",
-      "type": "advisor_student",
-      "paper_count": 3,
       "verified": "alumni_page",
       "strength": 0.0,
       "last_year": 0
@@ -246143,6 +246161,51 @@ window.KOREA_BIO_MAP = {
       "last_year": 0
     },
     {
+      "source": "P0748",
+      "target": "P0657",
+      "type": "advisor_student",
+      "paper_count": 29,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0748",
+      "target": "P0486",
+      "type": "advisor_student",
+      "paper_count": 3,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0748",
+      "target": "P0128",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0748",
+      "target": "P1089",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0748",
+      "target": "P0586",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
       "source": "P0752",
       "target": "P0938",
       "type": "postdoc_mentor",
@@ -246179,6 +246242,159 @@ window.KOREA_BIO_MAP = {
       "last_year": 0
     },
     {
+      "source": "P0757",
+      "target": "P1262",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0774",
+      "target": "P1242",
+      "type": "advisor_student",
+      "paper_count": 3,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0774",
+      "target": "P1309",
+      "type": "advisor_student",
+      "paper_count": 6,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0774",
+      "target": "P1220",
+      "type": "postdoc_mentor",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0775",
+      "target": "P2980",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0775",
+      "target": "P2981",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0775",
+      "target": "P0768",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0775",
+      "target": "P2982",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0775",
+      "target": "P0778",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0775",
+      "target": "P2983",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0881",
+      "target": "P1309",
+      "type": "advisor_student",
+      "paper_count": 3,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0881",
+      "target": "P1703",
+      "type": "advisor_student",
+      "paper_count": 1,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0928",
+      "target": "P1475",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P0949",
+      "target": "P2984",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P1017",
+      "target": "P1556",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P1312",
+      "target": "P0666",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P1312",
+      "target": "P2723",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
       "source": "P2532",
       "target": "P0015",
       "type": "advisor_student",
@@ -246206,6 +246422,42 @@ window.KOREA_BIO_MAP = {
       "last_year": 0
     },
     {
+      "source": "P2795",
+      "target": "P0187",
+      "type": "advisor_student",
+      "paper_count": 35,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P2795",
+      "target": "P1186",
+      "type": "advisor_student",
+      "paper_count": 13,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P2795",
+      "target": "P0756",
+      "type": "advisor_student",
+      "paper_count": 7,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P2797",
+      "target": "P1092",
+      "type": "advisor_student",
+      "paper_count": 2,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
       "source": "P2801",
       "target": "P2900",
       "type": "advisor_student",
@@ -246226,6 +246478,24 @@ window.KOREA_BIO_MAP = {
     {
       "source": "P2804",
       "target": "P1268",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P2839",
+      "target": "P0179",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P2841",
+      "target": "P2800",
       "type": "advisor_student",
       "paper_count": 0,
       "verified": "alumni_page",
@@ -246264,24 +246534,6 @@ window.KOREA_BIO_MAP = {
       "target": "P1225",
       "type": "advisor_student",
       "paper_count": 3,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P1312",
-      "target": "P0666",
-      "type": "advisor_student",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P1312",
-      "target": "P2723",
-      "type": "advisor_student",
-      "paper_count": 0,
       "verified": "alumni_page",
       "strength": 0.0,
       "last_year": 0

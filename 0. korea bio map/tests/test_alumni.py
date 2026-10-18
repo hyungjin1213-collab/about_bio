@@ -784,6 +784,15 @@ def test_alumni_given_by_hand(tmp_path, monkeypatch):
     assert alumni.manual_records("P0002") == []
 
 
+def test_md_doctor_counts_as_study_and_hospital():
+    import alumni
+    people = [{"degree": "unknown", "career": "study+hospital", "years": None},
+              {"degree": "phd", "career": "industry", "years": None}]
+    stats = alumni._stats(people)
+    assert (stats["career_study"], stats["career_hospital"], stats["career_industry"]) == (1, 1, 1)
+    assert stats["alumni"] == 2
+
+
 def test_korean_university_in_position_links_alumnus(monkeypatch):
     import pandas as pd
     import alumni

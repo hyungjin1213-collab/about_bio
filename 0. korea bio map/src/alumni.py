@@ -936,7 +936,8 @@ def _stats(people: list[dict]) -> dict:
         return round(statistics.median(values), 1) if values else ""
 
     grads = [p for p in people if p["degree"] in ("phd", "integrated", "ms")]
-    careers = Counter(p["career"] for p in people if p["career"] not in ("unknown", ""))
+    # 'study+hospital' counts once in each (an MD who is also a doctor: 학 + 병)
+    careers = Counter(k for p in people if p["career"] not in ("unknown", "") for k in p["career"].split("+"))
     with_papers = [p for p in grads if "papers" in p]
     fwci = {}
     for p in with_papers:

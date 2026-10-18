@@ -1033,7 +1033,7 @@ def collect_alumni(client: OpenAlexClient | None = None, fetch: Fetcher | None =
     seed = _read(DATA_DIR / "professors_seed.csv")
     if professors.empty:
         professors = seed
-    else:
+    elif not seed.empty:
         # Professors added from alumni pages earlier (seed only) must be linkable in this run too.
         missing = seed[~seed["professor_id"].isin(professors["professor_id"])]
         professors = pd.concat([professors, missing], ignore_index=True)

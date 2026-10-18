@@ -152461,38 +152461,6 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
-    },
-    {
-      "id": "P0722",
-      "name": "김재정",
-      "name_en": "",
-      "university": "Seoul National University",
-      "field": "",
-      "category": "분자·세포생물",
-      "region": "서울",
-      "home_sector": "학",
-      "sectors": [
-        "학"
-      ],
-      "university_ko": "서울대학교",
-      "position": "",
-      "keywords": [],
-      "techniques": [],
-      "department": "Chemical and Biological Engineering",
-      "lab": {},
-      "orcid": "",
-      "retired": true,
-      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/list.do?menuNo=300015&profCate=66",
-      "lab_url": "",
-      "openalex_id": "",
-      "identity": "seed",
-      "score": 0,
-      "collaborator_count": 0,
-      "faculty_trainee_count": 0,
-      "postdoc_PI_count": 0,
-      "advisor_count": 0,
-      "postdoc_mentor_count": 0,
-      "pubs": {}
     }
   ],
   "links": [

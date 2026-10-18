@@ -326,12 +326,12 @@
       return starMats.get(key)||starMats.set(key,new THREE.SpriteMaterial(
         {map:STAR_TEX,color,transparent:true,opacity,depthWrite:false,blending:THREE.AdditiveBlending})).get(key);
     };
-    // Brightness = 종합점수 (log scale, so a few top scores do not wash out the rest);
+    // Brightness = 종합점수 (log scale, 75–100%, so a few top scores do not wash out the rest);
     // size = 교수가 된 제자 수. Retired professors are dimmed further.
     const MAX_SCORE=Math.max(1,...(window.KOREA_BIO_MAP.nodes||[]).map(n=>Number(n.score)||0));
     const starBrightness=node=>{
       const t=Math.log1p(Number(node.score)||0)/Math.log1p(MAX_SCORE);
-      return Math.round((.5+.5*t)*20)/20*(node.retired?.28:1);   // steps of .05 keep the material cache small
+      return Math.round((.75+.25*t)*20)/20*(node.retired?.28:1);   // steps of .05 keep the material cache small
     };
 
     const el=document.getElementById("graph");

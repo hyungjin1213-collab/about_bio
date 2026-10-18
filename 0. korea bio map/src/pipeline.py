@@ -154,6 +154,12 @@ def removed_professors(overrides: pd.DataFrame) -> set[str]:
             if o.get("column") == "removed" and str(o.get("value", "")).strip().lower() in ("yes", "true", "1")}
 
 
+def retired_professors(overrides: pd.DataFrame) -> set[str]:
+    """Professors shown on the map with a retired mark (status 'retired' override): the lineage stays."""
+    return {o.get("professor_id") for _, o in overrides.iterrows()
+            if o.get("column") == "status" and str(o.get("value", "")).strip().lower() == "retired"}
+
+
 def apply_professor_overrides(professors: pd.DataFrame, overrides: pd.DataFrame,
                               drop_removed: bool = True) -> pd.DataFrame:
     """Hand corrections (data/professor_overrides.csv: professor_id, column, value):
@@ -822,6 +828,7 @@ def export_web_data(nodes: pd.DataFrame, links: pd.DataFrame) -> None:
         for _, r in kw.sort_values(["professor_id", "kind", "rank_n"]).iterrows():
             terms[r["professor_id"]][r["kind"]].append(r["term"])
 
+    retired = retired_professors(_read_csv(DATA_DIR / "professor_overrides.csv"))
     node_records = []
     for _, row in nodes.iterrows():
         node_records.append(
@@ -848,6 +855,8 @@ def export_web_data(nodes: pd.DataFrame, links: pd.DataFrame) -> None:
                 # 연구실정보 tab of the master Excel file (graduation time, papers per student ...)
                 "lab": labs.get(row.get("professor_id", ""), {}),
                 "orcid": row.get("orcid", ""),
+                # Retired professors stay on the map (dimmed star) so their lineage still shows.
+                "retired": row.get("professor_id", "") in retired,
                 # lab / faculty page (or OpenAlex profile) for the professor card
                 "url": row.get("source_url", "") if str(row.get("source_url", "")).startswith(("http://", "https://")) else "",
                 # Lab homepage, shown apart from the official profile page (skipped when they are the same).

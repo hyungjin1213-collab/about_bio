@@ -148,6 +148,15 @@ def test_removed_override_drops_professor():
     assert list(apply_professor_overrides(profs, ov)["professor_id"]) == ["P2"]
 
 
+def test_retired_status_keeps_professor_on_map():
+    from pipeline import apply_professor_overrides, removed_professors, retired_professors
+    profs = pd.DataFrame([{"professor_id": "P1", "name_ko": "가"}, {"professor_id": "P2", "name_ko": "나"}])
+    ov = pd.DataFrame([{"professor_id": "P1", "column": "status", "value": "retired", "memo": "은퇴"}])
+    assert retired_professors(ov) == {"P1"}
+    assert removed_professors(ov) == set()
+    assert list(apply_professor_overrides(profs, ov)["professor_id"]) == ["P1", "P2"]
+
+
 def test_typed_author_stats_replace_openalex_figures(tmp_path, monkeypatch):
     import pandas as pd
     from pipeline import AUTHOR_STATS_COLUMNS, _with_manual_stats

@@ -535,7 +535,9 @@
     }
     function closeCard(){card.hidden=true;document.body.classList.remove("card-open");}
 
-    Graph.d3Force("charge").strength(-14).distanceMax(90);   // the galaxy force does the spreading
+    // Stars are placed this far apart from their neighbours (1.0 = the old, crowded layout).
+    const SPREAD=1.4;
+    Graph.d3Force("charge").strength(-14*SPREAD).distanceMax(90*SPREAD);   // the galaxy force does the spreading
     // Lineage pulls PI and trainees close; collaboration only loosely.
     Graph.d3Force("link")
       .distance(l=>isLineage(l)?14:70)
@@ -556,7 +558,7 @@
     });
     const TWIST=1.15, R0=60, R_GAL=1150;
     // Whole galaxy in view; a portrait phone needs to stand further back.
-    const galaxyView=()=>{const k=innerWidth<innerHeight?1.9:1;return {x:0,y:R_GAL*1.6*k,z:R_GAL*2.6*k};};
+    const galaxyView=()=>{const k=(innerWidth<innerHeight?1.9:1)*SPREAD;return {x:0,y:R_GAL*1.6*k,z:R_GAL*2.6*k};};
     const armAngle=(base,r)=>base+TWIST*Math.log(Math.max(r,R0)/R0);
     // Every star gets a fixed home on its field's arm (seeded by its id, so the
     // galaxy looks the same on every visit). Trainees live next to their PI.
@@ -575,14 +577,14 @@
         const a=armAngle(ARM_SHIFT[n.category]??ARM_SHIFT["기타"],r)+gauss(rnd)*(.07+2.6/Math.sqrt(r));
         x=r*Math.cos(a);z=r*Math.sin(a);y=gauss(rnd)*(4+r*.012);
       }
-      HOME.set(n.id,{x,y,z});
+      HOME.set(n.id,{x:x*SPREAD,y:y*SPREAD,z:z*SPREAD});
     });
     const idOf=v=>typeof v==="object"?v.id:v;
     for(let pass=0;pass<3;pass++) (window.KOREA_BIO_MAP.links||[]).filter(isLineage).forEach(l=>{
       const pi=HOME.get(idOf(l.source)),st=HOME.get(idOf(l.target));
       if(!pi||!st) return;
       const rnd=seeded(idOf(l.target)+"t");
-      st.x=pi.x+gauss(rnd)*9;st.y=pi.y+gauss(rnd)*4;st.z=pi.z+gauss(rnd)*9;
+      st.x=pi.x+gauss(rnd)*9*SPREAD;st.y=pi.y+gauss(rnd)*4*SPREAD;st.z=pi.z+gauss(rnd)*9*SPREAD;
     });
     function galaxyForce(){
       let nodes=[];

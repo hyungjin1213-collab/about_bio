@@ -81,6 +81,18 @@
     .career-legend{display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:6px;font-size:11.5px;color:#d7def0}
     .career-legend b{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
     .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+    .cmp-add{margin-top:12px;width:100%;background:none;color:#fbbf24;border:1px solid rgba(251,191,36,.5);border-radius:8px;padding:7px;font:600 12px Arial,sans-serif;cursor:pointer}
+    .cmp-add:disabled{color:#7f8aa8;border-color:rgba(127,138,168,.35);cursor:default}
+    .cmp-chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+    .cmp-chip{display:inline-flex;align-items:center;gap:4px;border:1px solid rgba(147,197,253,.35);border-radius:999px;padding:3px 4px 3px 9px;font-size:12px;color:#e5e7eb}
+    .cmp-chip button{background:none;border:0;color:#9aa7c7;cursor:pointer;font-size:14px;line-height:1}
+    .cmp-table{width:100%;border-collapse:collapse;font-size:12px}
+    .cmp-table th,.cmp-table td{padding:6px 4px;border-bottom:1px solid rgba(255,255,255,.08);text-align:center;vertical-align:top}
+    .cmp-table th:first-child,.cmp-table td:first-child{text-align:left;color:#9aa7c7;font-weight:400;width:34%}
+    .cmp-table th button{background:none;border:0;color:#e5e7eb;font:600 12px Arial,sans-serif;cursor:pointer;padding:0}
+    .cmp-table .best{color:#fbbf24;font-weight:600}
+    .cmp-table .none{color:#5b6684}
+    .cmp-note{font-size:11px;color:#7f8aa8;margin-top:8px}
     .links a{font-size:12px;color:#93c5fd;text-decoration:none;border:1px solid rgba(147,197,253,.3);border-radius:8px;padding:5px 9px}
     .recruit{display:inline-block;margin-left:6px;font-size:11px;padding:2px 7px;border-radius:999px;background:#fbbf24;color:#111;vertical-align:middle}
     /* community button */
@@ -129,6 +141,7 @@
       <button class="on" data-tab="search" role="tab">검색</button>
       <button data-tab="rank" role="tab">순위</button>
       <button data-tab="filter" role="tab">필터<span class="badge" id="filter-badge" hidden></span></button>
+      <button data-tab="compare" role="tab">비교<span class="badge" id="cmp-badge" hidden></span></button>
       <button class="fold" id="fold" aria-label="접기">×</button>
     </div>
     <div class="pane" id="pane-search">
@@ -151,6 +164,12 @@
           <div class="chips" id="f-lab"></div></div>
         <div class="fgroup"><h4>기타</h4><div class="chips" id="f-extra"></div></div>
       </div>
+    </div>
+    <div class="pane" id="pane-compare" hidden>
+      <div class="cmp-chips" id="cmp-chips"></div>
+      <div class="seg period" role="radiogroup" aria-label="기간"><button data-cmp-period="recent" class="on">최근 5년</button><button data-cmp-period="all">전체</button></div>
+      <div class="list" id="cmp-body"></div>
+      <div class="cmp-note">별을 누르고 "비교에 담기"를 누르면 최대 3곳까지 담깁니다. 같은 조합은 주소(#compare=…)로 공유됩니다.</div>
     </div>
     <div class="pane" id="pane-rank" hidden>
       <div class="filters">
@@ -457,6 +476,7 @@
       document.querySelectorAll("[data-period]").forEach(b=>b.classList.toggle("on",b.dataset.period===p));
       buildLabFilters();applyFilters();
       if(selected&&!card.hidden){const top=card.scrollTop;openCard(selected);card.scrollTop=top;}
+      renderCompare();
     }
     // Professors among the lab's alumni (all time, from its alumni page); many are not
     // in the map yet, so the card shows the larger of this and the map's own links.
@@ -496,6 +516,7 @@
         ${(n.techniques||[]).length?`<h3>주요 기술</h3><div class="tags">${n.techniques.slice(0,6).map(k=>`<span class="tag tech">${esc(k)}</span>`).join("")}</div>`:""}
         ${lin.advisors.length||lin.mentors.length?`<h3>지도교수 · 포닥 멘토</h3><div class="people">${people(lin.advisors,"")}${people(lin.mentors,"pd")}</div>`:""}
         ${lin.students.length||lin.postdocs.length?`<h3>교수가 된 제자 · 포닥</h3><div class="people">${people(lin.students,"")}${people(lin.postdocs,"pd")}</div>`:""}
+        <button class="cmp-add">${cmpButtonText(n.id)}</button>
         <div class="links">${safeUrl(n.lab_url)?`<a href="${esc(safeUrl(n.lab_url))}" target="_blank" rel="noopener">연구실 홈페이지</a>`:""}
           ${url?`<a href="${esc(url)}" target="_blank" rel="noopener">${safeUrl(n.lab_url)?"소속 페이지":"연구실·소속 페이지"}</a>`:""}
           ${n.openalex_id?`<a href="https://openalex.org/${esc(n.openalex_id)}" target="_blank" rel="noopener">논문 (OpenAlex)</a>`:""}
@@ -505,6 +526,7 @@
       card.querySelectorAll(".period [data-period]").forEach(b=>b.addEventListener("click",()=>setLabPeriod(b.dataset.period)));
       card.querySelector(".close").addEventListener("click",()=>{selected=null;setFocus(null);markActive(null);closeCard();drawOverlay();});
       card.querySelectorAll(".people button").forEach(b=>b.addEventListener("click",()=>{const p=NODE_BY_ID.get(b.dataset.id);if(p) flyTo(p);}));
+      card.querySelector(".cmp-add").addEventListener("click",e=>{toggleCompare(n.id);e.currentTarget.textContent=cmpButtonText(n.id);});
     }
     function closeCard(){card.hidden=true;document.body.classList.remove("card-open");}
 
@@ -872,11 +894,102 @@
       applyFilters();
     });
 
+    // ---------- compare: up to three professors side by side (ids kept in the URL hash) ----------
+    const CMP_MAX=3;
+    const compareIds=[];
+    const cmpBody=document.getElementById("cmp-body");
+    const cmpCount=()=>compareIds.length;
+    function cmpButtonText(id){
+      if(compareIds.includes(id)) return "비교에서 빼기";
+      return compareIds.length>=CMP_MAX?`비교 가득 참 (최대 ${CMP_MAX}곳)`:"비교에 담기";
+    }
+    function saveCompare(){
+      const h=compareIds.length?`#compare=${compareIds.join(",")}`:"";
+      history.replaceState(null,"",location.pathname+location.search+h);
+    }
+    function toggleCompare(id){
+      const i=compareIds.indexOf(id);
+      if(i>=0) compareIds.splice(i,1);
+      else if(compareIds.length<CMP_MAX) compareIds.push(id);
+      saveCompare();renderCompare();
+    }
+    // Lower is better for graduation years; higher for everything else.
+    const CMP_ROWS=[
+      ["박사 평균 졸업기간",L=>yrs(L,"phd"),L=>L.phd_years,"low"],
+      ["석박통합 평균",L=>yrs(L,"integrated"),L=>L.integrated_years,"low"],
+      ["석사 평균 졸업기간",L=>yrs(L,"ms"),L=>L.ms_years,"low"],
+      ["졸업생 수",(L)=>L.alumni?`${L.alumni}명`:"",L=>L.alumni,"high"],
+      ["교수가 된 졸업생",(L)=>((L.careers||{}).faculty)?`${L.careers.faculty}명`:"",L=>(L.careers||{}).faculty,"high"],
+      ["기업 진출 졸업생",(L)=>((L.careers||{}).industry)?`${L.careers.industry}명`:"",L=>(L.careers||{}).industry,"high"],
+      ["학생당 논문",L=>L.papers_per_student?`${L.papers_per_student}편`:"",L=>L.papers_per_student,"high"],
+      ["학생당 1저자 논문",L=>L.first_author_per_student?`${L.first_author_per_student}편`:"",L=>L.first_author_per_student,"high"],
+      ["논문 영향력 (FWCI 중앙값)",L=>L.fwci_median!=null&&L.fwci_median!==""?`${L.fwci_median}`:"",L=>L.fwci_median,"high"]
+    ];
+    function renderCompare(){
+      document.getElementById("cmp-badge").hidden=!cmpCount();
+      document.getElementById("cmp-badge").textContent=cmpCount();
+      document.querySelectorAll("[data-cmp-period]").forEach(b=>b.classList.toggle("on",b.dataset.cmpPeriod===labPeriod));
+      document.getElementById("cmp-chips").innerHTML=compareIds.length
+        ?compareIds.map(id=>`<span class="cmp-chip">${esc(NODE_BY_ID.get(id)?.name||id)}<button data-cmp-remove="${esc(id)}" aria-label="빼기">×</button></span>`).join("")
+        :`<span class="muted">비교할 교수를 담아 주세요.</span>`;
+      if(!compareIds.length){cmpBody.innerHTML="";return;}
+      const nodes=compareIds.map(id=>NODE_BY_ID.get(id)).filter(Boolean);
+      const views=nodes.map(n=>labView(n.lab));
+      const head=nodes.map(n=>`<th><button data-cmp-name="${esc(n.id)}">${esc(n.name)}</button><br><span class="muted" style="font-weight:400">${esc(n.university_ko||n._uni||n.university)}</span></th>`).join("");
+      const extra=[
+        ["지도 속 교수 된 제자",nodes.map(n=>n.faculty_trainee_count||0),"high",x=>x?`${x}명`:""],
+        ["최근 5년 논문",nodes.map(n=>(n.pubs||{}).recent_papers),"high",x=>x?`${x}편`:""],
+        ["h-index",nodes.map(n=>(n.pubs||{}).h_index),"high",x=>x?`${x}`:""]
+      ];
+      const body=CMP_ROWS.map(([label,fmt,val,dir])=>{
+        // A missing figure (null, empty, undefined) is not a 0 and never wins.
+        const nums=views.map(v=>{const x=val(v);return x==null||x===""?NaN:Number(x);});
+        const valid=nums.filter(x=>!Number.isNaN(x));
+        const best=valid.length>=2?(dir==="low"?Math.min(...valid):Math.max(...valid)):null;
+        const cells=views.map((v,i)=>{
+          const text=fmt(v);
+          if(!text) return `<td class="none">정보 없음</td>`;
+          return `<td class="${best!==null&&nums[i]===best?"best":""}">${esc(text)}</td>`;
+        }).join("");
+        return `<tr><td>${esc(label)}</td>${cells}</tr>`;
+      }).join("");
+      const extraRows=extra.map(([label,vals,dir,fmt])=>{
+        const valid=vals.filter(x=>x!=null&&x!=="");
+        const best=valid.length>=2?Math.max(...valid.map(Number)):null;
+        return `<tr><td>${esc(label)}</td>${vals.map(x=>{
+          const t=fmt(Number(x)||0);
+          if(!t) return `<td class="none">정보 없음</td>`;
+          return `<td class="${best!==null&&Number(x)===best?"best":""}">${esc(t)}</td>`;
+        }).join("")}</tr>`;
+      }).join("");
+      cmpBody.innerHTML=`<table class="cmp-table"><thead><tr><th></th>${head}</tr></thead>
+        <tbody><tr><td>학과</td>${nodes.map(n=>`<td>${esc(n.department||"")}</td>`).join("")}</tr>${body}${extraRows}</tbody></table>
+        <div class="cmp-note">${labPeriod==="recent"?"연구실 졸업생 기준: 최근 5년":"연구실 졸업생 기준: 전체 기간"} · 노란색은 비교 대상 중 가장 좋은 값입니다.</div>`;
+    }
+    cmpBody.addEventListener("click",e=>{
+      const name=e.target.closest("[data-cmp-name]");
+      if(name){const p=NODE_BY_ID.get(name.dataset.cmpName);if(p) flyTo(p);}
+    });
+    document.getElementById("cmp-chips").addEventListener("click",e=>{
+      const b=e.target.closest("[data-cmp-remove]");
+      if(b) toggleCompare(b.dataset.cmpRemove);
+    });
+    document.querySelectorAll("[data-cmp-period]").forEach(b=>b.addEventListener("click",()=>setLabPeriod(b.dataset.cmpPeriod)));
+    // A shared link like #compare=P0001,P0002 restores the list.
+    (function loadCompare(){
+      const m=location.hash.match(/compare=([^&]*)/);
+      if(!m) return;
+      m[1].split(",").filter(id=>NODE_BY_ID.has(id)).slice(0,CMP_MAX).forEach(id=>{if(!compareIds.includes(id)) compareIds.push(id);});
+    })();
+    renderCompare();
+
     document.querySelectorAll(".tabs [data-tab]").forEach(btn=>btn.addEventListener("click",()=>{
       document.querySelectorAll(".tabs [data-tab]").forEach(b=>b.classList.toggle("on",b===btn));
       document.getElementById("pane-search").hidden=btn.dataset.tab!=="search";
       document.getElementById("pane-rank").hidden=btn.dataset.tab!=="rank";
       document.getElementById("pane-filter").hidden=btn.dataset.tab!=="filter";
+      document.getElementById("pane-compare").hidden=btn.dataset.tab!=="compare";
+      if(btn.dataset.tab==="compare") renderCompare();
     }));
     function setSide(open){side.hidden=!open;openBtn.hidden=open;if(open&&!document.getElementById("pane-search").hidden)q.focus({preventScroll:true});}
     document.getElementById("fold").addEventListener("click",()=>setSide(false));

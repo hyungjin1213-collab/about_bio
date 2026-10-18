@@ -16,6 +16,7 @@
     .hint{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:20;font-size:11px;color:#7f8aa8;background:rgba(3,7,18,.55);padding:6px 9px;border-radius:999px;pointer-events:none;white-space:nowrap}
     .side{position:fixed;top:14px;right:14px;z-index:21;width:300px;max-height:calc(100vh - 80px);display:flex;flex-direction:column;background:rgba(3,7,18,.78);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.10);border-radius:14px;overflow:hidden}
     .side[hidden]{display:none}
+    .side.cmp-wide{width:520px}
     .tabs{display:flex;gap:4px;padding:8px 8px 0}
     .tabs button{flex:1;background:none;border:0;border-bottom:2px solid transparent;color:#9aa7c7;font:600 13px Arial,sans-serif;padding:7px 4px;cursor:pointer}
     .tabs button.on{color:#fff;border-bottom-color:#fbbf24}
@@ -115,6 +116,7 @@
       .panel .lines,.panel .legend,.panel p{display:none}
       .panel h1{font-size:15px;margin:0}
       .side{top:auto;bottom:52px;left:10px;right:10px;width:auto;max-height:52vh}
+      .side.cmp-wide{width:auto}
       .list{max-height:calc(52vh - 110px)}
       .hint{display:none}
       .viewbar{left:10px;bottom:10px;flex-direction:column;align-items:flex-start;border-radius:14px}
@@ -129,7 +131,7 @@
     <h1>Korea Bio Map · 3D</h1>
     <p>교수 = 별 · score = 별 크기 · 색 = 분야</p>
     <div class="lines">
-      <div><span class="line" style="background:#fbbf24;height:3px"></span>지도교수 → 제자 (PI 10점 · 제자 1점)</div>
+      <div><span class="line" style="background:#bfdbfe;height:2px"></span>지도교수 → 제자 (별을 누르면 그 교수의 선만 표시)</div>
       <div><span class="line" style="background:#c084fc;height:2px;opacity:.35"></span>포닥 멘토 → 포닥 (일단 숨김)</div>
       <div><span class="line" style="background:rgba(147,197,253,.45);height:1px"></span>공동연구 (별을 누르면 표시 · 전체는 아래 체크)</div>
     </div>
@@ -169,7 +171,7 @@
       <div class="cmp-chips" id="cmp-chips"></div>
       <div class="seg period" role="radiogroup" aria-label="기간"><button data-cmp-period="recent" class="on">최근 5년</button><button data-cmp-period="all">전체</button></div>
       <div class="list" id="cmp-body"></div>
-      <div class="cmp-note">별을 누르고 "비교에 담기"를 누르면 최대 3곳까지 담깁니다. 같은 조합은 주소(#compare=…)로 공유됩니다.</div>
+      <div class="cmp-note">별을 누르고 "비교에 담기"를 누르면 최대 4곳까지 담깁니다. 같은 조합은 주소(#compare=…)로 공유됩니다.</div>
     </div>
     <div class="pane" id="pane-rank" hidden>
       <div class="filters">
@@ -208,7 +210,7 @@
     <label><input type="checkbox" id="view-collab">공동연구 선 보기</label>
   </div>
   <aside class="card" id="card" hidden aria-live="polite"></aside>
-  <a class="community" href="./community.html" style="display:none">💬 커뮤니티</a>
+  <a class="community" href="./community.html">💬 커뮤니티</a>
 
   <script src="./vendor/three.min.js"></script>
   <script src="./vendor/3d-force-graph.min.js"></script>
@@ -274,23 +276,26 @@
     // Collaboration strength (weighted by team size, seniority and recency;
     // see collaboration_weight in pipeline.py): 0.5 is the drawing threshold.
     const strengthLevel=l=>Math.min((Number(l.strength)||0.5)/3,1);   // 0..1
+    // Lineage lines are drawn only for the selected professor, in the same light blue as the focus overlay.
     function linkColor(l){
-      const st=LINK_STYLE[l.type]||LINK_STYLE.collaboration;
-      if(isLineage(l)) return st.color;
+      if(isLineage(l)) return touchesFocus(l)?"rgba(191,219,254,0.95)":"rgba(0,0,0,0)";
       const k=strengthLevel(l);
       return touchesFocus(l)
         ? `rgba(191,219,254,${(0.45+0.5*k).toFixed(2)})`
         : `rgba(147,197,253,${(0.05+0.17*k).toFixed(2)})`;
     }
     function linkWidth(l){
-      const st=LINK_STYLE[l.type]||LINK_STYLE.collaboration;
-      if(isLineage(l)) return st.width;
+      if(isLineage(l)) return touchesFocus(l)?1.6:0;
       return touchesFocus(l)?0.25+0.8*strengthLevel(l):0;
     }
+    function arrowLength(l){return isLineage(l)&&touchesFocus(l)?4.5:0;}
+    function particleCount(l){return isLineage(l)&&touchesFocus(l)?(LINK_STYLE[l.type]?.particles||0):0;}
+    function particleWidth(l){return isLineage(l)&&touchesFocus(l)?2.2:0;}
     function setFocus(node){
       if((node&&node.id)===(focus&&focus.id)) return;
       focus=node||null;
-      Graph.linkColor(linkColor).linkWidth(linkWidth);  // re-evaluate accessors
+      Graph.linkColor(linkColor).linkWidth(linkWidth)                 // re-evaluate accessors
+        .linkDirectionalArrowLength(arrowLength).linkDirectionalParticles(particleCount).linkDirectionalParticleWidth(particleWidth);
     }
 
     // Only PI -> student / postdoc lines are drawn by default; the 9,000+
@@ -343,11 +348,11 @@
       .linkColor(linkColor)
       .linkWidth(linkWidth)
       .linkOpacity(1)
-      .linkDirectionalArrowLength(l=>isLineage(l)?4.5:0)
+      .linkDirectionalArrowLength(arrowLength)
       .linkDirectionalArrowRelPos(.92)
-      .linkDirectionalArrowColor(l=>LINK_STYLE[l.type]?.color||"#fff")
-      .linkDirectionalParticles(l=>LINK_STYLE[l.type]?.particles||0)
-      .linkDirectionalParticleWidth(l=>isLineage(l)?2.2:0)
+      .linkDirectionalArrowColor(()=>"#bfdbfe")
+      .linkDirectionalParticles(particleCount)
+      .linkDirectionalParticleWidth(particleWidth)
       .linkDirectionalParticleSpeed(.004)
       .linkDirectionalParticleColor(l=>LINK_STYLE[l.type]?.particleColor||"#fff")
       .onNodeHover(node=>{
@@ -895,7 +900,7 @@
     });
 
     // ---------- compare: up to three professors side by side (ids kept in the URL hash) ----------
-    const CMP_MAX=3;
+    const CMP_MAX=4;
     const compareIds=[];
     const cmpBody=document.getElementById("cmp-body");
     const cmpCount=()=>compareIds.length;
@@ -989,6 +994,7 @@
       document.getElementById("pane-rank").hidden=btn.dataset.tab!=="rank";
       document.getElementById("pane-filter").hidden=btn.dataset.tab!=="filter";
       document.getElementById("pane-compare").hidden=btn.dataset.tab!=="compare";
+      side.classList.toggle("cmp-wide",btn.dataset.tab==="compare");
       if(btn.dataset.tab==="compare") renderCompare();
     }));
     function setSide(open){side.hidden=!open;openBtn.hidden=open;if(open&&!document.getElementById("pane-search").hidden)q.focus({preventScroll:true});}

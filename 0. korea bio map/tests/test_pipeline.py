@@ -141,6 +141,17 @@ def test_author_stats_add_up_split_profiles(tmp_path, monkeypatch):
     assert (r["papers"], r["citations"], r["h_index"], r["recent_papers"], r["recent_citations"]) == (63, 3944, 30, 5, 404)
 
 
+def test_rejected_lineage_link_is_dropped_only_for_its_type():
+    from pipeline import apply_lineage_rejections
+    rels = pd.DataFrame([
+        {"professor_a_id": "P1", "professor_b_id": "P2", "relationship_type": "advisor_student"},
+        {"professor_a_id": "P1", "professor_b_id": "P2", "relationship_type": "collaboration"},
+    ])
+    dec = pd.DataFrame([{"professor_a_id": "P1", "professor_b_id": "P2", "relationship_type": "advisor_student", "decision": "no"}])
+    out = apply_lineage_rejections(rels, dec)
+    assert list(out["relationship_type"]) == ["collaboration"]
+
+
 def test_removed_override_drops_professor():
     from pipeline import apply_professor_overrides
     profs = pd.DataFrame([{"professor_id": "P1", "name_ko": "가"}, {"professor_id": "P2", "name_ko": "나"}])

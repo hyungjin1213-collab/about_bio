@@ -148,6 +148,20 @@ def apply_professor_merges(professors: pd.DataFrame, merges: pd.DataFrame) -> pd
     return out.reset_index(drop=True)
 
 
+def apply_lineage_rejections(relationships: pd.DataFrame, decisions: pd.DataFrame) -> pd.DataFrame:
+    """Drop links a person checked and rejected (data/lineage_decisions.csv, decision = no).
+    Applies to alumni-page and inferred links alike, so a wrong name match stays out after re-runs."""
+    if relationships.empty or decisions.empty or "decision" not in decisions.columns:
+        return relationships
+    no = decisions[decisions["decision"].str.strip().str.lower() == "no"]
+    rejected = set(zip(no["professor_a_id"], no["professor_b_id"], no["relationship_type"]))
+    if not rejected:
+        return relationships
+    keep = [key not in rejected for key in zip(relationships["professor_a_id"], relationships["professor_b_id"],
+                                              relationships["relationship_type"])]
+    return relationships[keep].copy()
+
+
 def removed_professors(overrides: pd.DataFrame) -> set[str]:
     """Professors taken off the map by a 'removed' override (retired, left academia)."""
     return {o.get("professor_id") for _, o in overrides.iterrows()
@@ -950,6 +964,7 @@ def build_network(professors: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]
             relationships["professor_a_id"].isin(valid_professor_ids)
             & relationships["professor_b_id"].isin(valid_professor_ids)
         ].copy()
+    relationships = apply_lineage_rejections(relationships, _read_csv(DATA_DIR / "lineage_decisions.csv"))
 
     pi_weight, trainee_weight = _score_weights()
 

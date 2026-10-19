@@ -252903,15 +252903,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0746",
-      "target": "P0868",
-      "type": "advisor_student",
-      "paper_count": 16,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0746",
       "target": "P2771",
       "type": "advisor_student",
       "paper_count": 1,

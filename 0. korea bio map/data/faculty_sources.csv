@@ -214,3 +214,5 @@ AUTO_POSTECH_51F915,POSTECH,학사논문 지도교수,https://life.postech.ac.kr
 AUTO_POSTECH_131919,POSTECH,전임교수,https://life.postech.ac.kr/html/professor/professor01.php,photo_anchor,yes,auto-crawl: 전임교수 | 포항공과대학교 생명과학과 (28 faculty)
 SKKU_GENE,Sungkyunkwan University,융합생명공학과,https://skb.skku.edu/gene/faculty/faculty.do,generic_card,yes,성균관대 융합생명공학과 교수진; 사용자 요청 10/16
 SKKU_GBME,Sungkyunkwan University,글로벌바이오메디컬공학과,https://skb.skku.edu/gbme/faculty/faculty.do,generic_card,yes,성균관대 글로벌바이오메디컬공학과 교수진; 사용자 요청 10/16
+AUTO_DUKSUNG_8C01FD,Duksung Women's University,약학대학,https://pharm.duksung.ac.kr/sub/sub01_06.php,photo_anchor,yes,auto-crawl: 덕성여대 약학대학 (22 faculty)
+AUTO_DUKSUNG_A0B9EB,Duksung Women's University,약학대학,https://pharm.duksung.ac.kr/sub/sub04_04.php,photo_anchor,yes,auto-crawl: 덕성여대 약학대학 (19 faculty)

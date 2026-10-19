@@ -154759,6 +154759,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3054",
+      "name": "박제균",
+      "name_en": "Je-Kyun Park",
+      "university": "KAIST",
+      "field": "",
+      "category": "신경과학",
+      "region": "대전·충청",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "한국과학기술원",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "바이오및뇌공학과",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://bioeng.kaist.ac.kr/",
+      "lab_url": "https://nanobio.kaist.ac.kr/",
+      "openalex_id": "A5033157171",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

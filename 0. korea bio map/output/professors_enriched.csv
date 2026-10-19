@@ -1,4 +1,4 @@
-professor_id,name_ko,name_en,university,department,primary_field,openalex_id,source_url,orcid,identity_status,scopus_id
+﻿professor_id,name_ko,name_en,university,department,primary_field,openalex_id,source_url,orcid,identity_status,scopus_id
 P0001,도준상,Junsang Doh,Seoul National University,Department of Materials Science and Engineering,면역항암,A5086462999,https://bmie.snu.ac.kr/,,,
 P0002,서상우,Sang Woo Seo,Seoul National University,School of Chemical and Biological Engineering,합성생물학,A5066692256,https://seolab.snu.ac.kr/,,,
 P0003,서형석,Hyungseok Seo,Seoul National University,College of Pharmacy,세포치료,A5102852128,https://cgt.snu.ac.kr/home,,,
@@ -2965,3 +2965,4 @@ P3042,이주영,,KAIST,공학생물대학원,Artificial Intelligence,A5100401535
 P3043,임성순,,KAIST,공학생물대학원,,,https://yimlabkaist.github.io/,,manual,
 P3044,조병관,,KAIST,공학생물대학원,,,http://cholab.or.kr/,,manual,
 P3045,최영재,,KAIST,공학생물대학원,Molecular Biology,A5018314836,https://choi.science/,,manual,
+P3046,강형률,,KAIST,바이오및뇌공학과,,A5064292961,https://bioeng.kaist.ac.kr/,,manual,

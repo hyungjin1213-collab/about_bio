@@ -155207,6 +155207,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3068",
+      "name": "하경호",
+      "name_en": "Kyoung-Ho Ha",
+      "university": "KAIST",
+      "field": "",
+      "category": "신경과학",
+      "region": "대전·충청",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "한국과학기술원",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "바이오및뇌공학과",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://bioeng.kaist.ac.kr/",
+      "lab_url": "https://sites.google.com/view/haresearchgroup",
+      "openalex_id": "A5113681986",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

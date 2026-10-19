@@ -155303,6 +155303,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3071",
+      "name": "김현욱",
+      "name_en": "",
+      "university": "KAIST",
+      "field": "",
+      "category": "분자·세포생물",
+      "region": "대전·충청",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "한국과학기술원",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "생명화학공학과",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://cbe.kaist.ac.kr/",
+      "lab_url": "https://sbml.kaist.ac.kr/",
+      "openalex_id": "A5048072583",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

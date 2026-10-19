@@ -300,7 +300,8 @@ window.KOREA_BIO_MAP = {
       "region": "대구·경북",
       "home_sector": "학",
       "sectors": [
-        "학"
+        "학",
+        "산"
       ],
       "university_ko": "포항공과대학교",
       "position": "",
@@ -1499,7 +1500,8 @@ window.KOREA_BIO_MAP = {
       "region": "서울",
       "home_sector": "학",
       "sectors": [
-        "학"
+        "학",
+        "산"
       ],
       "university_ko": "서울대학교",
       "position": "",
@@ -1678,7 +1680,7 @@ window.KOREA_BIO_MAP = {
       "home_sector": "학",
       "sectors": [
         "학",
-        "병"
+        "산"
       ],
       "university_ko": "성균관대학교",
       "position": "",
@@ -2262,7 +2264,8 @@ window.KOREA_BIO_MAP = {
       "region": "서울",
       "home_sector": "학",
       "sectors": [
-        "학"
+        "학",
+        "산"
       ],
       "university_ko": "서울대학교",
       "position": "교수",
@@ -6623,7 +6626,8 @@ window.KOREA_BIO_MAP = {
       "region": "서울",
       "home_sector": "학",
       "sectors": [
-        "학"
+        "학",
+        "산"
       ],
       "university_ko": "서울대학교",
       "position": "교수",
@@ -38347,7 +38351,7 @@ window.KOREA_BIO_MAP = {
       "home_sector": "학",
       "sectors": [
         "학",
-        "연"
+        "산"
       ],
       "university_ko": "서울대학교",
       "position": "",
@@ -39604,7 +39608,8 @@ window.KOREA_BIO_MAP = {
       "region": "서울",
       "home_sector": "학",
       "sectors": [
-        "학"
+        "학",
+        "산"
       ],
       "university_ko": "서울대학교",
       "position": "",
@@ -44391,7 +44396,8 @@ window.KOREA_BIO_MAP = {
       "region": "서울",
       "home_sector": "학",
       "sectors": [
-        "학"
+        "학",
+        "산"
       ],
       "university_ko": "연세대학교",
       "position": "",
@@ -99260,7 +99266,7 @@ window.KOREA_BIO_MAP = {
         "학"
       ],
       "university_ko": "덕성여자대학교",
-      "position": "",
+      "position": "조교수",
       "keywords": [
         "structure elucidation",
         "Trichoderma",
@@ -99310,7 +99316,7 @@ window.KOREA_BIO_MAP = {
         "학"
       ],
       "university_ko": "덕성여자대학교",
-      "position": "",
+      "position": "교수",
       "keywords": [
         "G protein-coupled estrogen receptor",
         "liver cancer metastasis",
@@ -99363,7 +99369,7 @@ window.KOREA_BIO_MAP = {
         "학"
       ],
       "university_ko": "덕성여자대학교",
-      "position": "",
+      "position": "교수",
       "keywords": [
         "mast cell degranulation",
         "LAT",
@@ -99416,7 +99422,7 @@ window.KOREA_BIO_MAP = {
         "학"
       ],
       "university_ko": "덕성여자대학교",
-      "position": "",
+      "position": "교수",
       "keywords": [
         "Substance Abuse Detection",
         "Illicit Drugs",
@@ -99465,7 +99471,7 @@ window.KOREA_BIO_MAP = {
         "학"
       ],
       "university_ko": "덕성여자대학교",
-      "position": "",
+      "position": "교수",
       "keywords": [
         "endothelial colony-forming cells",
         "type I collagen matrix",
@@ -147444,7 +147450,8 @@ window.KOREA_BIO_MAP = {
       "region": "서울",
       "home_sector": "학",
       "sectors": [
-        "학"
+        "학",
+        "산"
       ],
       "university_ko": "서울대학교",
       "position": "교수",
@@ -151800,7 +151807,8 @@ window.KOREA_BIO_MAP = {
       "region": "서울",
       "home_sector": "학",
       "sectors": [
-        "학"
+        "학",
+        "산"
       ],
       "university_ko": "서울대학교",
       "position": "",

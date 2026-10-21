@@ -167,11 +167,14 @@ jobs:
           # Every page of the site (map, community ...) plus the map data.
           cp "0. korea bio map/web/"*.html /tmp/korea-bio-map-pages/
           cp "0. korea bio map/web/network-data.js" /tmp/korea-bio-map-pages/network-data.js
+          # Scripts the pages need at runtime: 3D libraries (vendor/) and the login code.
+          cp "0. korea bio map/web/auth.js" "0. korea bio map/web/supabase-config.js" /tmp/korea-bio-map-pages/
+          cp -r "0. korea bio map/web/vendor" /tmp/korea-bio-map-pages/vendor
 
           git fetch origin gh-pages
           git switch gh-pages
-          cp /tmp/korea-bio-map-pages/* ./
-          git add ./*.html network-data.js
+          cp -r /tmp/korea-bio-map-pages/* ./
+          git add ./*.html network-data.js auth.js supabase-config.js vendor
 
           if git diff --cached --quiet; then
             echo "Pages already up to date."

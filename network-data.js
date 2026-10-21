@@ -54,7 +54,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://bmie.snu.ac.kr/lab-members/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -165,7 +165,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://seolab.snu.ac.kr/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -268,7 +268,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://cgt.snu.ac.kr/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -354,7 +354,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -509,7 +509,7 @@ window.KOREA_BIO_MAP = {
         "papers_per_student": 12.4,
         "first_author_per_student": 2.8,
         "fwci_median": 2.1,
-        "top10_share": 1.05,
+        "top10_share": 1.06,
         "careers": {
           "faculty": 16,
           "postdoc": 4,
@@ -548,7 +548,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -563,7 +563,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 1051,
+        "papers": 1050,
         "citations": 37528,
         "h_index": 100,
         "recent_papers": 61,
@@ -824,7 +824,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 489,
-        "citations": 8705,
+        "citations": 8706,
         "h_index": 45,
         "recent_papers": 298,
         "recent_citations": 6226
@@ -912,7 +912,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://sites.google.com/view/immunoinformatics-lab/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -928,7 +928,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 477,
-        "citations": 9808,
+        "citations": 9809,
         "h_index": 44,
         "recent_papers": 60,
         "recent_citations": 492
@@ -1033,7 +1033,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 62,
-        "citations": 1652,
+        "citations": 1653,
         "h_index": 20,
         "recent_papers": 12,
         "recent_citations": 173
@@ -1086,10 +1086,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 96,
-        "citations": 1582,
+        "citations": 1583,
         "h_index": 23,
         "recent_papers": 18,
-        "recent_citations": 182
+        "recent_citations": 183
       }
     },
     {
@@ -1224,7 +1224,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 225,
-        "citations": 2521,
+        "citations": 2522,
         "h_index": 29,
         "recent_papers": 60,
         "recent_citations": 284
@@ -1278,7 +1278,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 315,
-        "citations": 11273,
+        "citations": 11274,
         "h_index": 58,
         "recent_papers": 45,
         "recent_citations": 813
@@ -1367,7 +1367,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://nanotrio.postech.ac.kr/nanotrio/mem/alumni.do",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -1383,7 +1383,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 172,
-        "citations": 15160,
+        "citations": 15163,
         "h_index": 58,
         "recent_papers": 32,
         "recent_citations": 385
@@ -1597,7 +1597,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/abdlab/members/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -1613,10 +1613,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 171,
-        "citations": 7924,
+        "citations": 7925,
         "h_index": 52,
         "recent_papers": 56,
-        "recent_citations": 1126
+        "recent_citations": 1127
       }
     },
     {
@@ -1698,8 +1698,8 @@ window.KOREA_BIO_MAP = {
         "단일세포 분석",
         "차세대 시퀀싱(NGS)",
         "RNA-seq·전사체",
-        "종양 이종이식 모델",
-        "GWAS·유전역학"
+        "GWAS·유전역학",
+        "종양 이종이식 모델"
       ],
       "department": "School of Medicine / Cancer Biology",
       "lab": {
@@ -1739,10 +1739,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 473,
-        "citations": 27064,
+        "citations": 27066,
         "h_index": 69,
         "recent_papers": 95,
-        "recent_citations": 2242
+        "recent_citations": 2244
       }
     },
     {
@@ -1834,7 +1834,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 457,
-        "citations": 11745,
+        "citations": 11746,
         "h_index": 55,
         "recent_papers": 96,
         "recent_citations": 849
@@ -2339,7 +2339,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://molpathlab.snu.ac.kr/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-0896-718X",
       "retired": false,
@@ -2355,10 +2355,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 226,
-        "citations": 9926,
+        "citations": 9927,
         "h_index": 54,
         "recent_papers": 41,
-        "recent_citations": 1084
+        "recent_citations": 1085
       }
     },
     {
@@ -2462,7 +2462,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 331,
-        "citations": 9938,
+        "citations": 9940,
         "h_index": 51,
         "recent_papers": 52,
         "recent_citations": 334
@@ -2836,7 +2836,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://bedds.snu.ac.kr/alumni.html",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-8093-043X",
       "retired": false,
@@ -2978,7 +2978,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 68,
-        "citations": 3266,
+        "citations": 3267,
         "h_index": 23,
         "recent_papers": 14,
         "recent_citations": 378
@@ -3079,7 +3079,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 1,
       "pubs": {
         "papers": 294,
-        "citations": 8306,
+        "citations": 8307,
         "h_index": 45,
         "recent_papers": 39,
         "recent_citations": 147
@@ -3174,7 +3174,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://chahj72.wixsite.com/snucsl/blank-2",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-9277-2662",
       "retired": false,
@@ -3347,10 +3347,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 151,
-        "citations": 20739,
+        "citations": 20740,
         "h_index": 55,
         "recent_papers": 31,
-        "recent_citations": 1116
+        "recent_citations": 1117
       }
     },
     {
@@ -3438,7 +3438,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-1981-9628",
       "retired": false,
@@ -3509,10 +3509,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 182,
-        "citations": 3541,
+        "citations": 3542,
         "h_index": 30,
         "recent_papers": 55,
-        "recent_citations": 765
+        "recent_citations": 766
       }
     },
     {
@@ -3566,7 +3566,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.banglab.org/team-3",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-4009-0824",
       "retired": false,
@@ -3608,8 +3608,8 @@ window.KOREA_BIO_MAP = {
         "RNA, Guide, Kinetoplastida",
         "RFdiffusion",
         "off-target editing",
-        "DNA",
         "web-based design tool",
+        "DNA",
         "Leber congenital amaurosis"
       ],
       "techniques": [
@@ -3679,7 +3679,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/baelab/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-3615-8566",
       "retired": false,
@@ -3695,7 +3695,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 134,
-        "citations": 11106,
+        "citations": 11108,
         "h_index": 41,
         "recent_papers": 51,
         "recent_citations": 688
@@ -3854,10 +3854,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 65,
+        "papers": 66,
         "citations": 2042,
         "h_index": 22,
-        "recent_papers": 18,
+        "recent_papers": 19,
         "recent_citations": 119
       }
     },
@@ -3911,7 +3911,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.yeomlab.com/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-5332-2658",
       "retired": false,
@@ -4014,8 +4014,8 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상",
         "제브라피시",
         "유세포분석",
-        "RNA-seq·전사체",
-        "종양 이종이식 모델"
+        "종양 이종이식 모델",
+        "RNA-seq·전사체"
       ],
       "department": "Graduate School of Biomedical Sciences",
       "lab": {},
@@ -4033,7 +4033,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 263,
-        "citations": 9210,
+        "citations": 9211,
         "h_index": 50,
         "recent_papers": 39,
         "recent_citations": 369
@@ -4092,7 +4092,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://nfi0829snu.wixsite.com/nfisnu/blank-4",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-3446-7288",
       "retired": false,
@@ -4108,10 +4108,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 111,
-        "citations": 4673,
+        "citations": 4675,
         "h_index": 37,
         "recent_papers": 24,
-        "recent_citations": 444
+        "recent_citations": 446
       }
     },
     {
@@ -4253,7 +4253,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.junglab.snu.ac.kr/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-2199-5292",
       "retired": false,
@@ -4269,7 +4269,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 53,
-        "citations": 4701,
+        "citations": 4704,
         "h_index": 27,
         "recent_papers": 17,
         "recent_citations": 480
@@ -4323,7 +4323,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 265,
-        "citations": 13869,
+        "citations": 13871,
         "h_index": 66,
         "recent_papers": 27,
         "recent_citations": 491
@@ -4544,7 +4544,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://apel.snu.ac.kr/members/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-7217-979X",
       "retired": false,
@@ -4801,7 +4801,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://chembio.yonsei.ac.kr/members/former-members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0009-0006-9699-5832",
       "retired": false,
@@ -5110,7 +5110,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://clarity.yonsei.ac.kr/people/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-8408-5907",
       "retired": false,
@@ -5333,7 +5333,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 199,
-        "citations": 3855,
+        "citations": 3856,
         "h_index": 31,
         "recent_papers": 49,
         "recent_citations": 230
@@ -5492,7 +5492,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 115,
-        "citations": 3937,
+        "citations": 3938,
         "h_index": 32,
         "recent_papers": 11,
         "recent_citations": 54
@@ -5748,11 +5748,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 307,
-        "citations": 9414,
+        "papers": 309,
+        "citations": 9415,
         "h_index": 52,
-        "recent_papers": 114,
-        "recent_citations": 2417
+        "recent_papers": 116,
+        "recent_citations": 2418
       }
     },
     {
@@ -5793,7 +5793,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/envitox-ku/member/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0009-0003-5060-7126",
       "retired": false,
@@ -5916,7 +5916,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://klab.snu.ac.kr/members/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0009-0008-7314-3105",
       "retired": false,
@@ -6048,7 +6048,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://drl.snu.ac.kr/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -6165,7 +6165,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 385,
+        "papers": 384,
         "citations": 11372,
         "h_index": 48,
         "recent_papers": 61,
@@ -6234,7 +6234,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://ux.snu.ac.kr/people.html",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -6705,10 +6705,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 86,
-        "citations": 1111,
+        "citations": 1112,
         "h_index": 20,
         "recent_papers": 11,
-        "recent_citations": 138
+        "recent_citations": 139
       }
     },
     {
@@ -6838,7 +6838,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://kanglab.weebly.com/people.html",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-3707-4989",
       "retired": false,
@@ -6943,7 +6943,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/neurogenetics-skku/people/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-5275-5662",
       "retired": false,
@@ -7045,7 +7045,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/haeun-skku/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-0559-6782",
       "retired": false,
@@ -7316,10 +7316,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 730,
-        "citations": 26103,
+        "citations": 26105,
         "h_index": 71,
         "recent_papers": 159,
-        "recent_citations": 3046
+        "recent_citations": 3047
       }
     },
     {
@@ -7464,7 +7464,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 44,
-        "citations": 1242,
+        "citations": 1243,
         "h_index": 19,
         "recent_papers": 15,
         "recent_citations": 194
@@ -7575,7 +7575,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://onbae.hanyang.ac.kr/front/laboratory/Alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-0583-2116",
       "retired": false,
@@ -7774,7 +7774,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://pmm.hanyang.ac.kr/front/laboratory/Alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-3908-8698",
       "retired": false,
@@ -7970,7 +7970,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://hyim.hanyang.ac.kr/front/laboratory/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-7945-3472",
       "retired": false,
@@ -8276,10 +8276,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 36,
-        "citations": 1397,
+        "citations": 1398,
         "h_index": 20,
         "recent_papers": 12,
-        "recent_citations": 149
+        "recent_citations": 150
       }
     },
     {
@@ -8709,7 +8709,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://www.sysbioinfo.com/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-4221-3421",
       "retired": false,
@@ -8810,7 +8810,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://hanlab.squarespace.com/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-9261-4031",
       "retired": false,
@@ -8926,10 +8926,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 114,
-        "citations": 9619,
+        "citations": 9621,
         "h_index": 45,
         "recent_papers": 22,
-        "recent_citations": 477
+        "recent_citations": 479
       }
     },
     {
@@ -9143,7 +9143,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 249,
-        "citations": 5818,
+        "citations": 5819,
         "h_index": 38,
         "recent_papers": 45,
         "recent_citations": 266
@@ -9193,10 +9193,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 1,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 108,
-        "citations": 2353,
+        "papers": 109,
+        "citations": 2354,
         "h_index": 25,
-        "recent_papers": 19,
+        "recent_papers": 20,
         "recent_citations": 107
       }
     },
@@ -9300,7 +9300,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 94,
-        "citations": 4710,
+        "citations": 4711,
         "h_index": 38,
         "recent_papers": 26,
         "recent_citations": 292
@@ -9554,10 +9554,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 1,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 65,
+        "papers": 66,
         "citations": 1220,
         "h_index": 20,
-        "recent_papers": 30,
+        "recent_papers": 31,
         "recent_citations": 219
       }
     },
@@ -9827,7 +9827,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.khunp.com/team-3-1",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-4657-5104",
       "retired": false,
@@ -10801,7 +10801,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 244,
+        "papers": 243,
         "citations": 5539,
         "h_index": 35,
         "recent_papers": 63,
@@ -11328,8 +11328,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Lupus Erythematosus, Systemic",
         "systemic lupus erythematosus",
-        "hydroxychloroquine",
         "Pregnancy Outcome",
+        "hydroxychloroquine",
         "Antirheumatic Agents",
         "older adults",
         "chronic pain",
@@ -11358,10 +11358,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 266,
-        "citations": 3146,
+        "citations": 3147,
         "h_index": 28,
         "recent_papers": 92,
-        "recent_citations": 519
+        "recent_citations": 520
       }
     },
     {
@@ -11514,7 +11514,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 68,
-        "citations": 5123,
+        "citations": 5124,
         "h_index": 28,
         "recent_papers": 28,
         "recent_citations": 355
@@ -11665,7 +11665,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 139,
+        "papers": 140,
         "citations": 3267,
         "h_index": 32,
         "recent_papers": 38,
@@ -11806,7 +11806,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/cau-rnp/lab-members/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-4480-4524",
       "retired": false,
@@ -11911,7 +11911,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://cauacelab.modoo.link/xj072ezl",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-1858-0261",
       "retired": false,
@@ -12012,10 +12012,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 384,
-        "citations": 9736,
+        "citations": 9737,
         "h_index": 50,
         "recent_papers": 81,
-        "recent_citations": 1125
+        "recent_citations": 1126
       }
     },
     {
@@ -12170,11 +12170,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 185,
-        "citations": 4346,
+        "papers": 186,
+        "citations": 4347,
         "h_index": 38,
-        "recent_papers": 82,
-        "recent_citations": 2006
+        "recent_papers": 83,
+        "recent_citations": 2007
       }
     },
     {
@@ -12276,10 +12276,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 308,
-        "citations": 7627,
+        "citations": 7628,
         "h_index": 48,
         "recent_papers": 50,
-        "recent_citations": 280
+        "recent_citations": 281
       }
     },
     {
@@ -12655,7 +12655,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/pmblcau/home/lab-members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-3348-4948",
       "retired": false,
@@ -12670,10 +12670,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 178,
+        "papers": 179,
         "citations": 4541,
         "h_index": 25,
-        "recent_papers": 36,
+        "recent_papers": 37,
         "recent_citations": 200
       }
     },
@@ -12814,7 +12814,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/cau-smb/members/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-2803-753X",
       "retired": false,
@@ -13026,10 +13026,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 10,
-        "citations": 222,
+        "citations": 223,
         "h_index": 7,
         "recent_papers": 1,
-        "recent_citations": 49
+        "recent_citations": 50
       }
     },
     {
@@ -13133,10 +13133,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 96,
-        "citations": 3035,
+        "citations": 3037,
         "h_index": 31,
         "recent_papers": 13,
-        "recent_citations": 73
+        "recent_citations": 74
       }
     },
     {
@@ -13291,10 +13291,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 220,
+        "papers": 221,
         "citations": 1583,
         "h_index": 18,
-        "recent_papers": 65,
+        "recent_papers": 66,
         "recent_citations": 49
       }
     },
@@ -13446,7 +13446,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 336,
+        "papers": 337,
         "citations": 6849,
         "h_index": 44,
         "recent_papers": 66,
@@ -14234,7 +14234,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 53,
-        "citations": 1746,
+        "citations": 1747,
         "h_index": 20,
         "recent_papers": 12,
         "recent_citations": 61
@@ -14287,7 +14287,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 122,
-        "citations": 2532,
+        "citations": 2533,
         "h_index": 27,
         "recent_papers": 7,
         "recent_citations": 33
@@ -14474,10 +14474,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 336,
-        "citations": 5462,
+        "citations": 5465,
         "h_index": 38,
         "recent_papers": 71,
-        "recent_citations": 858
+        "recent_citations": 860
       }
     },
     {
@@ -14577,10 +14577,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 421,
-        "citations": 10624,
+        "citations": 10626,
         "h_index": 50,
         "recent_papers": 158,
-        "recent_citations": 2027
+        "recent_citations": 2028
       }
     },
     {
@@ -14950,7 +14950,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 81,
-        "citations": 2151,
+        "citations": 2152,
         "h_index": 28,
         "recent_papers": 6,
         "recent_citations": 71
@@ -15009,7 +15009,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/dgu-janglab/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-2470-8137",
       "retired": false,
@@ -15025,7 +15025,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 100,
-        "citations": 40595,
+        "citations": 40597,
         "h_index": 30,
         "recent_papers": 19,
         "recent_citations": 304
@@ -15470,10 +15470,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 183,
-        "citations": 7459,
+        "citations": 7460,
         "h_index": 38,
         "recent_papers": 47,
-        "recent_citations": 794
+        "recent_citations": 795
       }
     },
     {
@@ -16289,10 +16289,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 195,
-        "citations": 24466,
+        "citations": 24467,
         "h_index": 62,
         "recent_papers": 24,
-        "recent_citations": 171
+        "recent_citations": 172
       }
     },
     {
@@ -16875,7 +16875,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 41,
-        "citations": 1609,
+        "citations": 1610,
         "h_index": 20,
         "recent_papers": 9,
         "recent_citations": 98
@@ -16983,10 +16983,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 219,
-        "citations": 3157,
+        "citations": 3158,
         "h_index": 30,
         "recent_papers": 58,
-        "recent_citations": 414
+        "recent_citations": 415
       }
     },
     {
@@ -17168,10 +17168,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 1004,
-        "citations": 17637,
+        "papers": 1005,
+        "citations": 17638,
         "h_index": 51,
-        "recent_papers": 104,
+        "recent_papers": 105,
         "recent_citations": 856
       }
     },
@@ -17273,7 +17273,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 178,
+        "papers": 177,
         "citations": 3568,
         "h_index": 26,
         "recent_papers": 41,
@@ -17532,10 +17532,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 333,
-        "citations": 6248,
+        "citations": 6249,
         "h_index": 39,
         "recent_papers": 95,
-        "recent_citations": 801
+        "recent_citations": 802
       }
     },
     {
@@ -17582,7 +17582,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 85,
-        "citations": 2006,
+        "citations": 2007,
         "h_index": 26,
         "recent_papers": 25,
         "recent_citations": 253
@@ -17905,7 +17905,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 78,
-        "citations": 1486,
+        "citations": 1487,
         "h_index": 24,
         "recent_papers": 5,
         "recent_citations": 51
@@ -17959,7 +17959,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 284,
-        "citations": 3626,
+        "citations": 3627,
         "h_index": 32,
         "recent_papers": 37,
         "recent_citations": 254
@@ -18277,8 +18277,8 @@ window.KOREA_BIO_MAP = {
         "웨스턴블롯",
         "줄기세포·iPSC",
         "나노입자·약물전달",
-        "유전자변형 마우스",
-        "qPCR"
+        "qPCR",
+        "유전자변형 마우스"
       ],
       "department": "의과대학",
       "lab": {},
@@ -18296,7 +18296,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 234,
-        "citations": 7548,
+        "citations": 7549,
         "h_index": 50,
         "recent_papers": 8,
         "recent_citations": 33
@@ -18981,10 +18981,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 355,
-        "citations": 6694,
+        "citations": 6695,
         "h_index": 44,
         "recent_papers": 183,
-        "recent_citations": 1571
+        "recent_citations": 1572
       }
     },
     {
@@ -19211,10 +19211,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 286,
-        "citations": 4480,
+        "citations": 4481,
         "h_index": 38,
         "recent_papers": 33,
-        "recent_citations": 296
+        "recent_citations": 297
       }
     },
     {
@@ -19599,7 +19599,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 157,
-        "citations": 3653,
+        "citations": 3654,
         "h_index": 32,
         "recent_papers": 20,
         "recent_citations": 116
@@ -19650,7 +19650,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 44,
-        "citations": 462,
+        "citations": 463,
         "h_index": 13,
         "recent_papers": 11,
         "recent_citations": 32
@@ -19836,10 +19836,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 159,
-        "citations": 5853,
+        "citations": 5854,
         "h_index": 39,
         "recent_papers": 40,
-        "recent_citations": 161
+        "recent_citations": 162
       }
     },
     {
@@ -20253,10 +20253,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 233,
+        "papers": 234,
         "citations": 3635,
         "h_index": 31,
-        "recent_papers": 59,
+        "recent_papers": 60,
         "recent_citations": 398
       }
     },
@@ -20289,8 +20289,8 @@ window.KOREA_BIO_MAP = {
         "GWAS·유전역학",
         "MRI·PET 영상",
         "엑소좀·세포외소포",
-        "유전자변형 마우스",
-        "머신러닝·AI"
+        "머신러닝·AI",
+        "유전자변형 마우스"
       ],
       "department": "의과대학",
       "lab": {},
@@ -20358,7 +20358,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 4,
-        "citations": 265,
+        "citations": 266,
         "h_index": 4,
         "recent_papers": 1,
         "recent_citations": 0
@@ -20507,7 +20507,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 88,
-        "citations": 1812,
+        "citations": 1813,
         "h_index": 26,
         "recent_papers": 22,
         "recent_citations": 293
@@ -20561,7 +20561,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 83,
-        "citations": 3362,
+        "citations": 3363,
         "h_index": 34,
         "recent_papers": 7,
         "recent_citations": 19
@@ -20587,9 +20587,9 @@ window.KOREA_BIO_MAP = {
         "thrombectomy",
         "oral health",
         "toothbrushing",
-        "Stroke",
         "tooth loss",
         "Endovascular Procedures",
+        "Stroke",
         "mechanical thrombectomy"
       ],
       "techniques": [
@@ -21025,11 +21025,11 @@ window.KOREA_BIO_MAP = {
         "hemifacial spasm",
         "psychiatric outpatient visits",
         "trigeminal neuralgia",
+        "Terminology as Topic",
         "Multi-Institutional Systems",
         "SNOMED CT",
         "angular deformity",
-        "psychiatric comorbidity",
-        "Terminology as Topic"
+        "psychiatric comorbidity"
       ],
       "techniques": [],
       "department": "의과대학",
@@ -21071,13 +21071,13 @@ window.KOREA_BIO_MAP = {
       "position": "부교수",
       "keywords": [
         "post-anesthesia care unit",
+        "open radical cystectomy",
+        "Hypotension Prediction Index",
         "postoperative hypoxia",
         "Ropivacaine",
         "arterial oxygen saturation",
         "postoperative pain",
-        "Anesthetics, Local",
-        "Anesthesia, General",
-        "ultrasound-guided regional anesthesia"
+        "Anesthetics, Local"
       ],
       "techniques": [],
       "department": "의과대학",
@@ -21197,10 +21197,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 38,
-        "citations": 1427,
+        "citations": 1428,
         "h_index": 19,
         "recent_papers": 8,
-        "recent_citations": 128
+        "recent_citations": 129
       }
     },
     {
@@ -21705,7 +21705,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 203,
-        "citations": 3113,
+        "citations": 3114,
         "h_index": 32,
         "recent_papers": 41,
         "recent_citations": 430
@@ -21759,10 +21759,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 108,
-        "citations": 1809,
+        "citations": 1810,
         "h_index": 22,
         "recent_papers": 42,
-        "recent_citations": 673
+        "recent_citations": 674
       }
     },
     {
@@ -21810,7 +21810,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 164,
-        "citations": 6407,
+        "citations": 6408,
         "h_index": 28,
         "recent_papers": 36,
         "recent_citations": 270
@@ -21863,10 +21863,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 88,
-        "citations": 2313,
+        "citations": 2314,
         "h_index": 31,
         "recent_papers": 9,
-        "recent_citations": 36
+        "recent_citations": 37
       }
     },
     {
@@ -23599,10 +23599,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 105,
+        "papers": 106,
         "citations": 2848,
         "h_index": 30,
-        "recent_papers": 18,
+        "recent_papers": 19,
         "recent_citations": 133
       }
     },
@@ -23652,7 +23652,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 102,
+        "papers": 101,
         "citations": 2670,
         "h_index": 29,
         "recent_papers": 20,
@@ -23954,7 +23954,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 73,
-        "citations": 3105,
+        "citations": 3106,
         "h_index": 32,
         "recent_papers": 8,
         "recent_citations": 33
@@ -24006,10 +24006,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 80,
-        "citations": 2555,
+        "citations": 2557,
         "h_index": 28,
         "recent_papers": 23,
-        "recent_citations": 201
+        "recent_citations": 202
       }
     },
     {
@@ -24052,7 +24052,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 30,
+        "papers": 29,
         "citations": 548,
         "h_index": 13,
         "recent_papers": 5,
@@ -24105,7 +24105,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 73,
-        "citations": 1130,
+        "citations": 1131,
         "h_index": 21,
         "recent_papers": 18,
         "recent_citations": 84
@@ -24883,7 +24883,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 62,
+        "papers": 63,
         "citations": 910,
         "h_index": 17,
         "recent_papers": 11,
@@ -25034,10 +25034,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 54,
-        "citations": 1245,
+        "citations": 1248,
         "h_index": 22,
         "recent_papers": 19,
-        "recent_citations": 428
+        "recent_citations": 431
       }
     },
     {
@@ -25280,7 +25280,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 113,
+        "papers": 112,
         "citations": 1918,
         "h_index": 23,
         "recent_papers": 41,
@@ -25331,7 +25331,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 120,
-        "citations": 2273,
+        "citations": 2274,
         "h_index": 26,
         "recent_papers": 62,
         "recent_citations": 865
@@ -25503,8 +25503,8 @@ window.KOREA_BIO_MAP = {
         "stroke recurrence",
         "modified Rankin Scale",
         "intravenous thrombolysis",
-        "functional outcome",
-        "Registries"
+        "Registries",
+        "functional outcome"
       ],
       "techniques": [
         "MRI·PET 영상",
@@ -25527,10 +25527,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 250,
-        "citations": 5492,
+        "papers": 251,
+        "citations": 5493,
         "h_index": 41,
-        "recent_papers": 82,
+        "recent_papers": 83,
         "recent_citations": 720
       }
     },
@@ -25656,10 +25656,10 @@ window.KOREA_BIO_MAP = {
         "acute ischemic stroke",
         "Stroke",
         "stroke recurrence",
-        "modified Rankin Scale",
         "Registries",
+        "modified Rankin Scale",
         "mechanical thrombectomy",
-        "Endovascular Procedures"
+        "functional outcome"
       ],
       "techniques": [
         "머신러닝·AI",
@@ -25682,7 +25682,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 125,
-        "citations": 2254,
+        "citations": 2255,
         "h_index": 24,
         "recent_papers": 73,
         "recent_citations": 577
@@ -26040,10 +26040,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 250,
-        "citations": 7034,
+        "citations": 7035,
         "h_index": 38,
         "recent_papers": 101,
-        "recent_citations": 727
+        "recent_citations": 728
       }
     },
     {
@@ -26236,7 +26236,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 35,
+        "papers": 36,
         "citations": 844,
         "h_index": 17,
         "recent_papers": 14,
@@ -26342,10 +26342,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 123,
-        "citations": 2791,
+        "citations": 2792,
         "h_index": 28,
         "recent_papers": 44,
-        "recent_citations": 621
+        "recent_citations": 622
       }
     },
     {
@@ -26441,10 +26441,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 1077,
-        "citations": 19048,
+        "citations": 19051,
         "h_index": 65,
         "recent_papers": 233,
-        "recent_citations": 1853
+        "recent_citations": 1854
       }
     },
     {
@@ -26733,7 +26733,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.dkucblab.kr/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-3420-8446",
       "retired": false,
@@ -26849,7 +26849,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 171,
-        "citations": 4307,
+        "citations": 4309,
         "h_index": 35,
         "recent_papers": 37,
         "recent_citations": 148
@@ -27701,10 +27701,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 9,
-        "citations": 108,
+        "citations": 109,
         "h_index": 2,
         "recent_papers": 8,
-        "recent_citations": 105
+        "recent_citations": 106
       }
     },
     {
@@ -27834,10 +27834,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 91,
-        "citations": 3056,
+        "citations": 3057,
         "h_index": 23,
         "recent_papers": 27,
-        "recent_citations": 361
+        "recent_citations": 362
       }
     },
     {
@@ -28045,7 +28045,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 46,
+        "papers": 45,
         "citations": 344,
         "h_index": 10,
         "recent_papers": 6,
@@ -28656,7 +28656,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 146,
-        "citations": 3381,
+        "citations": 3382,
         "h_index": 32,
         "recent_papers": 25,
         "recent_citations": 215
@@ -28802,10 +28802,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 56,
-        "citations": 632,
-        "h_index": 9,
+        "citations": 633,
+        "h_index": 10,
         "recent_papers": 10,
-        "recent_citations": 73
+        "recent_citations": 74
       }
     },
     {
@@ -29586,7 +29586,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 104,
-        "citations": 930,
+        "citations": 931,
         "h_index": 18,
         "recent_papers": 19,
         "recent_citations": 96
@@ -29787,10 +29787,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 87,
-        "citations": 904,
+        "citations": 905,
         "h_index": 16,
         "recent_papers": 21,
-        "recent_citations": 123
+        "recent_citations": 124
       }
     },
     {
@@ -29863,8 +29863,8 @@ window.KOREA_BIO_MAP = {
         "sensorineural hearing loss",
         "video head impulse test",
         "Hair Cells, Auditory",
-        "poetry therapy",
-        "Cochlea"
+        "cochlear implantation",
+        "poetry therapy"
       ],
       "techniques": [
         "오가노이드",
@@ -29889,10 +29889,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 237,
-        "citations": 3336,
+        "citations": 3337,
         "h_index": 29,
         "recent_papers": 57,
-        "recent_citations": 318
+        "recent_citations": 319
       }
     },
     {
@@ -30838,8 +30838,8 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 139,
-        "citations": 6396,
+        "papers": 138,
+        "citations": 6398,
         "h_index": 44,
         "recent_papers": 22,
         "recent_citations": 481
@@ -31029,7 +31029,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/kooslaborotory/members/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-6804-741X",
       "retired": false,
@@ -31131,7 +31131,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/fsdlab/member/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-8564-6999",
       "retired": false,
@@ -31193,10 +31193,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 20,
+        "papers": 21,
         "citations": 270,
         "h_index": 11,
-        "recent_papers": 10,
+        "recent_papers": 11,
         "recent_citations": 94
       }
     },
@@ -31538,7 +31538,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/drewkimlab/members/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-7656-9920",
       "retired": false,
@@ -32081,7 +32081,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 142,
-        "citations": 6568,
+        "citations": 6572,
         "h_index": 45,
         "recent_papers": 23,
         "recent_citations": 308
@@ -32357,7 +32357,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/knu-lme/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-3367-9887",
       "retired": false,
@@ -32595,7 +32595,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/knu-leb/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-4342-1863",
       "retired": false,
@@ -32805,7 +32805,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/site/kimlabknu/website-builder/events",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-5855-643X",
       "retired": false,
@@ -32821,10 +32821,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 127,
-        "citations": 4408,
+        "citations": 4409,
         "h_index": 37,
         "recent_papers": 36,
-        "recent_citations": 344
+        "recent_citations": 345
       }
     },
     {
@@ -33016,7 +33016,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://skjung05.wixsite.com/knu-lab/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-0956-7367",
       "retired": false,
@@ -33085,7 +33085,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 327,
-        "citations": 6548,
+        "citations": 6549,
         "h_index": 44,
         "recent_papers": 106,
         "recent_citations": 1017
@@ -33502,7 +33502,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://klit.snu.ac.kr/members/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -33776,7 +33776,7 @@ window.KOREA_BIO_MAP = {
         "top_journals": "한국분석과학회 학술대회; Analytical Chemistry; Nano Today",
         "alumni_url": "https://jmsong.snu.ac.kr/pagegenerater.asp?catalogid=jmsong&language=ko&pagecode=sub02_02_02",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-9896-5892",
       "retired": false,
@@ -33948,7 +33948,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 301,
+        "papers": 300,
         "citations": 15879,
         "h_index": 69,
         "recent_papers": 36,
@@ -34547,7 +34547,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sukjae.snu.ac.kr/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -34655,7 +34655,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://immprove.snu.ac.kr/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -34671,7 +34671,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 132,
-        "citations": 15530,
+        "citations": 15531,
         "h_index": 49,
         "recent_papers": 24,
         "recent_citations": 680
@@ -34763,7 +34763,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://molcelltoxicology.creatorlink.net/%EB%8F%99%EB%A3%8C%EB%93%A4",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-4472-5436",
       "retired": false,
@@ -34923,7 +34923,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.schong17.com/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -35042,10 +35042,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 269,
-        "citations": 55573,
+        "citations": 55578,
         "h_index": 105,
         "recent_papers": 102,
-        "recent_citations": 5754
+        "recent_citations": 5758
       }
     },
     {
@@ -35127,7 +35127,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://eecat.snu.ac.kr/members/alumni/index.jsp",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-3870-1606",
       "retired": false,
@@ -35142,11 +35142,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 270,
-        "citations": 10973,
+        "papers": 269,
+        "citations": 10976,
         "h_index": 51,
         "recent_papers": 75,
-        "recent_citations": 1179
+        "recent_citations": 1180
       }
     },
     {
@@ -35271,7 +35271,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://smel.snu.ac.kr/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -35444,7 +35444,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://fluid.snu.ac.kr/people/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-6821-461X",
       "retired": false,
@@ -35749,7 +35749,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -35852,7 +35852,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-4455-3670",
       "retired": false,
@@ -35920,7 +35920,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 47,
-        "citations": 963,
+        "citations": 964,
         "h_index": 18,
         "recent_papers": 18,
         "recent_citations": 147
@@ -36062,7 +36062,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://tcsm.snu.ac.kr/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-7801-083X",
       "retired": false,
@@ -36077,11 +36077,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 662,
-        "citations": 20364,
+        "papers": 663,
+        "citations": 20367,
         "h_index": 58,
-        "recent_papers": 177,
-        "recent_citations": 2111
+        "recent_papers": 178,
+        "recent_citations": 2113
       }
     },
     {
@@ -36163,7 +36163,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 1336,
-        "citations": 11443,
+        "citations": 11444,
         "h_index": 60,
         "recent_papers": 55,
         "recent_citations": 646
@@ -36263,7 +36263,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 300,
-        "citations": 32375,
+        "citations": 32376,
         "h_index": 84,
         "recent_papers": 69,
         "recent_citations": 1565
@@ -36320,7 +36320,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://inchung.snu.ac.kr/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-6274-3369",
       "retired": false,
@@ -36388,8 +36388,8 @@ window.KOREA_BIO_MAP = {
         "students_with_papers": 38.0,
         "papers_per_student": 12.2,
         "first_author_per_student": 3.3,
-        "fwci_median": 3.1,
-        "top10_share": 1.01,
+        "fwci_median": 3.2,
+        "top10_share": 1.02,
         "careers": {
           "faculty": 11,
           "postdoc": 1,
@@ -36414,7 +36414,7 @@ window.KOREA_BIO_MAP = {
           "students_with_papers": 15.0,
           "papers_per_student": 15.8,
           "first_author_per_student": 3.7,
-          "fwci_median": 2.9,
+          "fwci_median": 3.0,
           "top10_share": 1.09,
           "careers": {
             "faculty": 3,
@@ -36429,7 +36429,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://mest.snu.ac.kr/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-8783-0901",
       "retired": false,
@@ -36444,11 +36444,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 371,
-        "citations": 53661,
+        "papers": 370,
+        "citations": 53674,
         "h_index": 113,
         "recent_papers": 106,
-        "recent_citations": 4988
+        "recent_citations": 4997
       }
     },
     {
@@ -36504,7 +36504,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://biomolecule.snu.ac.kr/pagegenerater.asp?catalogid=hahnlab&language=ko&pagecode=sub02_03",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -36614,7 +36614,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-5959-6257",
       "retired": false,
@@ -36630,10 +36630,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 645,
-        "citations": 114907,
+        "citations": 114914,
         "h_index": 175,
         "recent_papers": 129,
-        "recent_citations": 6508
+        "recent_citations": 6513
       }
     },
     {
@@ -36680,7 +36680,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 30,
-        "citations": 752,
+        "citations": 753,
         "h_index": 13,
         "recent_papers": 19,
         "recent_citations": 190
@@ -36745,7 +36745,7 @@ window.KOREA_BIO_MAP = {
         "top_journals": "Advanced Healthcare Materials; Biomaterials; ACS Applied Materials & Interfaces",
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-3735-7727",
       "retired": false,
@@ -36761,10 +36761,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 223,
-        "citations": 12028,
+        "citations": 12029,
         "h_index": 59,
         "recent_papers": 64,
-        "recent_citations": 1147
+        "recent_citations": 1148
       }
     },
     {
@@ -36847,7 +36847,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://biosci.snu.ac.kr/kanglab/people/former",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-4350-5706",
       "retired": false,
@@ -37035,7 +37035,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-3213-4965",
       "retired": false,
@@ -37098,7 +37098,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 209,
-        "citations": 27096,
+        "citations": 27098,
         "h_index": 88,
         "recent_papers": 27,
         "recent_citations": 1046
@@ -37152,7 +37152,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 122,
-        "citations": 3211,
+        "citations": 3212,
         "h_index": 29,
         "recent_papers": 33,
         "recent_citations": 350
@@ -37246,7 +37246,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.mrmlab.org/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-6480-1929",
       "retired": false,
@@ -37317,7 +37317,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://biosci.snu.ac.kr/joykim/en/people/former",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -37391,7 +37391,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://cocila.net/people-2/alumni-2/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -37460,7 +37460,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://snucryoem.creatorlink.net/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-3851-7200",
       "retired": false,
@@ -37476,7 +37476,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 56,
-        "citations": 2222,
+        "citations": 2223,
         "h_index": 24,
         "recent_papers": 28,
         "recent_citations": 432
@@ -37533,7 +37533,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://biosci.snu.ac.kr/ysnoh/people/former",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -37601,7 +37601,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 96,
-        "citations": 16705,
+        "citations": 16707,
         "h_index": 51,
         "recent_papers": 22,
         "recent_citations": 1585
@@ -37654,10 +37654,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 73,
-        "citations": 75090,
+        "citations": 75097,
         "h_index": 41,
         "recent_papers": 49,
-        "recent_citations": 17431
+        "recent_citations": 17433
       }
     },
     {
@@ -37816,7 +37816,7 @@ window.KOREA_BIO_MAP = {
         "Protein Conformation",
         "Software",
         "pLDDT",
-        "Boltz-2"
+        "Protein Interaction Mapping"
       ],
       "techniques": [
         "생물정보·계산생물",
@@ -37840,11 +37840,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 1,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 51,
-        "citations": 13363,
+        "papers": 52,
+        "citations": 13366,
         "h_index": 32,
         "recent_papers": 27,
-        "recent_citations": 5970
+        "recent_citations": 5973
       }
     },
     {
@@ -37922,7 +37922,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 143,
-        "citations": 4341,
+        "citations": 4342,
         "h_index": 37,
         "recent_papers": 19,
         "recent_citations": 184
@@ -38007,7 +38007,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://biosci.snu.ac.kr/jhseol/people/former",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -38126,10 +38126,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 80,
-        "citations": 2231,
+        "citations": 2233,
         "h_index": 19,
         "recent_papers": 40,
-        "recent_citations": 117
+        "recent_citations": 118
       }
     },
     {
@@ -38265,7 +38265,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://shim.snu.ac.kr/team/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -38281,10 +38281,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 32,
-        "citations": 2298,
+        "citations": 2299,
         "h_index": 19,
         "recent_papers": 10,
-        "recent_citations": 991
+        "recent_citations": 992
       }
     },
     {
@@ -38424,7 +38424,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -38484,7 +38484,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://biosci.snu.ac.kr/about/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -38735,7 +38735,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://biosci.snu.ac.kr/jiyounglee/en/people/former",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -38852,7 +38852,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.nimlabsnu.com/team-1",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -39048,7 +39048,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://qbio.io/team/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-9812-8015",
       "retired": false,
@@ -39221,7 +39221,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 66,
-        "citations": 7517,
+        "citations": 7518,
         "h_index": 38,
         "recent_papers": 6,
         "recent_citations": 34
@@ -39312,7 +39312,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://jooandlee-eco.weebly.com/people.html",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -39405,7 +39405,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 67,
-        "citations": 2819,
+        "citations": 2822,
         "h_index": 24,
         "recent_papers": 20,
         "recent_citations": 249
@@ -39703,7 +39703,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://biosci.snu.ac.kr/hyunlab/people/former",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-9421-7061",
       "retired": false,
@@ -39772,10 +39772,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 289,
+        "papers": 290,
         "citations": 19993,
         "h_index": 71,
-        "recent_papers": 52,
+        "recent_papers": 53,
         "recent_citations": 933
       }
     },
@@ -39831,7 +39831,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/ymib/lab-member",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -40130,7 +40130,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://phytolab.korea.ac.kr/phytolab/7054/subview.do",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-6191-4485",
       "retired": false,
@@ -40146,7 +40146,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 332,
-        "citations": 6363,
+        "citations": 6364,
         "h_index": 42,
         "recent_papers": 36,
         "recent_citations": 410
@@ -40260,10 +40260,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 129,
+        "papers": 130,
         "citations": 4502,
         "h_index": 38,
-        "recent_papers": 13,
+        "recent_papers": 14,
         "recent_citations": 210
       }
     },
@@ -40315,7 +40315,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 191,
-        "citations": 5809,
+        "citations": 5810,
         "h_index": 37,
         "recent_papers": 44,
         "recent_citations": 546
@@ -40398,7 +40398,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 227,
-        "citations": 7965,
+        "citations": 7967,
         "h_index": 45,
         "recent_papers": 42,
         "recent_citations": 443
@@ -40487,7 +40487,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.bongresearchgroup.kr/member/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-5026-0757",
       "retired": false,
@@ -40567,7 +40567,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://uflab.korea.ac.kr/?page_id=321",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -40627,7 +40627,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 166,
-        "citations": 5813,
+        "citations": 5814,
         "h_index": 37,
         "recent_papers": 60,
         "recent_citations": 640
@@ -40843,7 +40843,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://cfel.korea.ac.kr/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-8395-2573",
       "retired": false,
@@ -40859,10 +40859,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 229,
-        "citations": 3515,
+        "citations": 3516,
         "h_index": 31,
         "recent_papers": 75,
-        "recent_citations": 561
+        "recent_citations": 562
       }
     },
     {
@@ -40943,10 +40943,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 423,
-        "citations": 21648,
+        "citations": 21653,
         "h_index": 74,
         "recent_papers": 139,
-        "recent_citations": 3137
+        "recent_citations": 3138
       }
     },
     {
@@ -41060,7 +41060,7 @@ window.KOREA_BIO_MAP = {
         "top_journals": "Advanced Materials; Cancer Research; Advanced Functional Materials",
         "alumni_url": "https://bmel.korea.ac.kr/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-7712-3373",
       "retired": false,
@@ -41076,7 +41076,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 145,
-        "citations": 4883,
+        "citations": 4884,
         "h_index": 38,
         "recent_papers": 25,
         "recent_citations": 291
@@ -41167,7 +41167,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://seml.korea.ac.kr/member/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-9662-1703",
       "retired": false,
@@ -41183,10 +41183,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 535,
-        "citations": 17048,
+        "citations": 17055,
         "h_index": 68,
         "recent_papers": 137,
-        "recent_citations": 1841
+        "recent_citations": 1843
       }
     },
     {
@@ -41234,7 +41234,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 386,
-        "citations": 14089,
+        "citations": 14092,
         "h_index": 64,
         "recent_papers": 57,
         "recent_citations": 727
@@ -41298,7 +41298,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://moonlab.korea.ac.kr/member/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -41361,7 +41361,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 218,
-        "citations": 5533,
+        "citations": 5534,
         "h_index": 43,
         "recent_papers": 32,
         "recent_citations": 324
@@ -41447,7 +41447,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://catalyst.korea.ac.kr/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -41614,11 +41614,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 157,
-        "citations": 4555,
+        "papers": 158,
+        "citations": 4556,
         "h_index": 36,
-        "recent_papers": 98,
-        "recent_citations": 1864
+        "recent_papers": 99,
+        "recent_citations": 1865
       }
     },
     {
@@ -41704,7 +41704,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://yanglaboratory.com/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-0299-3128",
       "retired": false,
@@ -41720,10 +41720,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 65,
-        "citations": 2781,
+        "citations": 2782,
         "h_index": 23,
         "recent_papers": 15,
-        "recent_citations": 781
+        "recent_citations": 782
       }
     },
     {
@@ -41799,7 +41799,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://abruna.chem.cornell.edu/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-4833-3181",
       "retired": false,
@@ -41815,10 +41815,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 258,
-        "citations": 11602,
+        "citations": 11604,
         "h_index": 61,
         "recent_papers": 121,
-        "recent_citations": 2708
+        "recent_citations": 2710
       }
     },
     {
@@ -42255,8 +42255,8 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 368,
-        "citations": 11054,
+        "papers": 369,
+        "citations": 11055,
         "h_index": 57,
         "recent_papers": 22,
         "recent_citations": 395
@@ -42366,7 +42366,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://faculty.korea.ac.kr/kufaculty/Molecular-Neurobiology/index.do",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -42404,8 +42404,8 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "TRIM72",
-        "Models, Molecular",
         "N-degron",
+        "Models, Molecular",
         "RING E3 ubiquitin ligase",
         "N-recognin",
         "Ubiquitin-Protein Ligases",
@@ -42435,7 +42435,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 190,
-        "citations": 16961,
+        "citations": 16962,
         "h_index": 51,
         "recent_papers": 27,
         "recent_citations": 580
@@ -42578,7 +42578,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://faculty.korea.ac.kr/kufaculty/neurosci/index.do",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -42741,7 +42741,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/site/changwooklab/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -42943,7 +42943,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/kt-lab-lung-development/our-team",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -42959,10 +42959,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 19,
-        "citations": 1285,
+        "citations": 1286,
         "h_index": 11,
         "recent_papers": 11,
-        "recent_citations": 513
+        "recent_citations": 514
       }
     },
     {
@@ -43037,7 +43037,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://jolab.korea.ac.kr/team",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -43191,7 +43191,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -43207,10 +43207,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 34,
-        "citations": 6846,
+        "citations": 6847,
         "h_index": 18,
         "recent_papers": 11,
-        "recent_citations": 439
+        "recent_citations": 440
       }
     },
     {
@@ -43289,7 +43289,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/tsclab/group-members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -43355,10 +43355,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 48,
-        "citations": 1349,
+        "citations": 1351,
         "h_index": 21,
         "recent_papers": 22,
-        "recent_citations": 291
+        "recent_citations": 292
       }
     },
     {
@@ -43474,7 +43474,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://cshwanglab.wixsite.com/homepage/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -43860,7 +43860,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 255,
+        "papers": 254,
         "citations": 12043,
         "h_index": 49,
         "recent_papers": 25,
@@ -43946,7 +43946,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 177,
-        "citations": 7829,
+        "citations": 7830,
         "h_index": 48,
         "recent_papers": 43,
         "recent_citations": 511
@@ -44078,7 +44078,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://jsshinlab.yonsei.ac.kr/lab-members/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -44192,7 +44192,7 @@ window.KOREA_BIO_MAP = {
         "students_with_papers": 6.0,
         "papers_per_student": 0.3,
         "first_author_per_student": 0.0,
-        "fwci_median": 12.7,
+        "fwci_median": 12.8,
         "top10_share": 0.5,
         "careers": {
           "faculty": 0,
@@ -44216,7 +44216,7 @@ window.KOREA_BIO_MAP = {
           "students_with_papers": 5.0,
           "papers_per_student": 0.4,
           "first_author_per_student": 0.0,
-          "fwci_median": 12.7,
+          "fwci_median": 12.8,
           "top10_share": 0.5,
           "careers": {
             "faculty": 0,
@@ -44230,7 +44230,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.leehicam.com/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -44332,7 +44332,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://netbiolab.org/w/People",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-3146-6180",
       "retired": false,
@@ -44348,10 +44348,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 212,
-        "citations": 12141,
+        "citations": 12143,
         "h_index": 45,
         "recent_papers": 46,
-        "recent_citations": 903
+        "recent_citations": 904
       }
     },
     {
@@ -44503,7 +44503,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-8058-332X",
       "retired": false,
@@ -44633,7 +44633,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/yonsei.ac.kr/honglab/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -44649,7 +44649,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 36,
-        "citations": 1841,
+        "citations": 1842,
         "h_index": 17,
         "recent_papers": 6,
         "recent_citations": 115
@@ -44972,7 +44972,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 73,
-        "citations": 8708,
+        "citations": 8709,
         "h_index": 34,
         "recent_papers": 21,
         "recent_citations": 347
@@ -45151,10 +45151,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 107,
-        "citations": 2097,
+        "citations": 2098,
         "h_index": 23,
         "recent_papers": 21,
-        "recent_citations": 394
+        "recent_citations": 395
       }
     },
     {
@@ -45258,7 +45258,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://ncst.yonsei.ac.kr/members04.html",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -45342,7 +45342,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-1526-3343",
       "retired": false,
@@ -45466,7 +45466,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -45482,10 +45482,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 95,
-        "citations": 4159,
+        "citations": 4160,
         "h_index": 31,
         "recent_papers": 22,
-        "recent_citations": 202
+        "recent_citations": 203
       }
     },
     {
@@ -45593,7 +45593,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-4963-7147",
       "retired": false,
@@ -45703,7 +45703,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/roelab-yonsei/team",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-9994-3062",
       "retired": false,
@@ -45719,7 +45719,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 56,
-        "citations": 4488,
+        "citations": 4489,
         "h_index": 29,
         "recent_papers": 18,
         "recent_citations": 253
@@ -46174,7 +46174,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://choilab.yonsei.ac.kr/team",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -46278,7 +46278,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://labsi.yonsei.ac.kr/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -46352,7 +46352,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://imil.yshonglab.com/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -46763,10 +46763,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 202,
-        "citations": 7012,
+        "citations": 7014,
         "h_index": 47,
         "recent_papers": 65,
-        "recent_citations": 1111
+        "recent_citations": 1112
       }
     },
     {
@@ -46850,9 +46850,9 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [
         "단일세포 분석",
+        "RNA-seq·전사체",
         "차세대 시퀀싱(NGS)",
         "CRISPR 유전자편집",
-        "RNA-seq·전사체",
         "생물정보·계산생물"
       ],
       "department": "College of Medicine / Biomedical Science",
@@ -47005,7 +47005,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/mfmt/members/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -47216,7 +47216,7 @@ window.KOREA_BIO_MAP = {
         "top_journals": "Plant and Cell Physiology; The Plant Journal; Plant Cell Reports",
         "alumni_url": "http://mcsuh.sogang.ac.kr/members/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -47702,7 +47702,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/twkanggroup/people/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -47833,7 +47833,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://ddssogang.wixsite.com/biomaterials/blank-2",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -47913,7 +47913,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://www.hjunkim-lab.com/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -48074,7 +48074,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/jyp-plastic-research/team/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -48350,7 +48350,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.electrochemengrnd.com/team",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -48861,9 +48861,9 @@ window.KOREA_BIO_MAP = {
         "Cochlea",
         "cochlear aging",
         "NKCC1",
-        "Hair Cells, Auditory, Inner",
         "auditory pathway development",
-        "spiral ganglion neurons"
+        "spiral ganglion neurons",
+        "Kv7.2"
       ],
       "techniques": [
         "전기생리",
@@ -49089,7 +49089,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 69,
-        "citations": 1436,
+        "citations": 1437,
         "h_index": 19,
         "recent_papers": 16,
         "recent_citations": 96
@@ -49575,7 +49575,7 @@ window.KOREA_BIO_MAP = {
         "Salmonella Vaccines",
         "Antibodies, Bacterial",
         "stx2e",
-        "Bacterial Vaccines"
+        "swine diseases"
       ],
       "techniques": [
         "ELISA",
@@ -49644,7 +49644,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 44,
-        "citations": 716,
+        "citations": 717,
         "h_index": 14,
         "recent_papers": 8,
         "recent_citations": 157
@@ -49731,9 +49731,9 @@ window.KOREA_BIO_MAP = {
       "techniques": [
         "나노입자·약물전달",
         "RNA-seq·전사체",
+        "줄기세포·iPSC",
         "조직공학·바이오프린팅",
-        "유전자변형 마우스",
-        "줄기세포·iPSC"
+        "유전자변형 마우스"
       ],
       "department": "수의과대학",
       "lab": {},
@@ -49751,10 +49751,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 246,
-        "citations": 2381,
+        "citations": 2382,
         "h_index": 27,
         "recent_papers": 58,
-        "recent_citations": 389
+        "recent_citations": 390
       }
     },
     {
@@ -49776,8 +49776,8 @@ window.KOREA_BIO_MAP = {
         "SIRT6",
         "Sirtuins",
         "p21-Activated Kinases",
-        "Insulin Resistance",
         "cannabidiol",
+        "Insulin Resistance",
         "Physical Endurance",
         "Physical Conditioning, Animal"
       ],
@@ -49802,10 +49802,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 85,
-        "citations": 5734,
+        "citations": 5735,
         "h_index": 30,
         "recent_papers": 23,
-        "recent_citations": 344
+        "recent_citations": 345
       }
     },
     {
@@ -49825,12 +49825,12 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "DNA methylation sequencing",
         "Group 4 medulloblastoma",
+        "Epigenome",
         "Exome",
         "medulloblastoma",
         "Cerebellar Neoplasms",
         "pediatric brain tumors",
-        "somatic single nucleotide variants",
-        "low-input DNA sequencing"
+        "DNA, Single-Stranded"
       ],
       "techniques": [
         "차세대 시퀀싱(NGS)",
@@ -49955,10 +49955,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 44,
-        "citations": 1527,
+        "citations": 1528,
         "h_index": 23,
         "recent_papers": 10,
-        "recent_citations": 188
+        "recent_citations": 189
       }
     },
     {
@@ -50034,8 +50034,8 @@ window.KOREA_BIO_MAP = {
         "clinically node-negative breast cancer",
         "quinone methides",
         "axillary recurrence",
-        "Cathepsin D",
         "cannabidiol",
+        "Cathepsin D",
         "Prodrugs"
       ],
       "techniques": [
@@ -50308,10 +50308,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 61,
-        "citations": 2261,
+        "citations": 2262,
         "h_index": 23,
         "recent_papers": 22,
-        "recent_citations": 128
+        "recent_citations": 129
       }
     },
     {
@@ -50454,7 +50454,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/nsong-lab/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-9182-1060",
       "retired": false,
@@ -50575,8 +50575,8 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 405,
-        "citations": 9158,
+        "papers": 406,
+        "citations": 9159,
         "h_index": 38,
         "recent_papers": 97,
         "recent_citations": 751
@@ -50607,8 +50607,8 @@ window.KOREA_BIO_MAP = {
         "Mice, Inbred MRL lpr"
       ],
       "techniques": [
-        "유전자변형 마우스",
         "줄기세포·iPSC",
+        "유전자변형 마우스",
         "분자도킹·시뮬레이션",
         "CAR-T·입양세포치료",
         "종양 이종이식 모델"
@@ -50629,10 +50629,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 521,
-        "citations": 17912,
+        "citations": 17914,
         "h_index": 64,
         "recent_papers": 66,
-        "recent_citations": 666
+        "recent_citations": 667
       }
     },
     {
@@ -50706,7 +50706,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.jhhanlab.com/team/lab-member",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-3638-0581",
       "retired": false,
@@ -50776,10 +50776,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 269,
-        "citations": 26265,
+        "citations": 26268,
         "h_index": 78,
         "recent_papers": 49,
-        "recent_citations": 3748
+        "recent_citations": 3750
       }
     },
     {
@@ -50931,10 +50931,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 110,
-        "citations": 10855,
+        "citations": 10856,
         "h_index": 38,
         "recent_papers": 26,
-        "recent_citations": 1169
+        "recent_citations": 1170
       }
     },
     {
@@ -50985,10 +50985,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 37,
-        "citations": 9044,
+        "citations": 9045,
         "h_index": 24,
         "recent_papers": 17,
-        "recent_citations": 2574
+        "recent_citations": 2575
       }
     },
     {
@@ -51148,7 +51148,7 @@ window.KOREA_BIO_MAP = {
         "Tumor Microenvironment",
         "targeted cancer therapy",
         "photothermal therapy",
-        "reactive oxygen species"
+        "Glycocalyx"
       ],
       "techniques": [
         "나노입자·약물전달",
@@ -51227,10 +51227,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 59,
-        "citations": 14599,
+        "citations": 14600,
         "h_index": 32,
         "recent_papers": 25,
-        "recent_citations": 701
+        "recent_citations": 702
       }
     },
     {
@@ -51385,10 +51385,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 140,
-        "citations": 11053,
+        "citations": 11055,
         "h_index": 52,
         "recent_papers": 33,
-        "recent_citations": 431
+        "recent_citations": 432
       }
     },
     {
@@ -51495,7 +51495,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://bme.unist.ac.kr/interview/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -51606,7 +51606,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://single.unist.ac.kr/ourmembers/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-9311-0484",
       "retired": false,
@@ -51923,7 +51923,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.fruits-unist.com/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-6423-1834",
       "retired": false,
@@ -51939,10 +51939,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 226,
-        "citations": 9855,
+        "citations": 9856,
         "h_index": 52,
         "recent_papers": 37,
-        "recent_citations": 550
+        "recent_citations": 551
       }
     },
     {
@@ -52044,10 +52044,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 32,
-        "citations": 924,
+        "citations": 925,
         "h_index": 13,
         "recent_papers": 15,
-        "recent_citations": 189
+        "recent_citations": 190
       }
     },
     {
@@ -52114,7 +52114,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/gslee2017/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -52225,7 +52225,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 106,
-        "citations": 4549,
+        "citations": 4550,
         "h_index": 34,
         "recent_papers": 8,
         "recent_citations": 99
@@ -52248,9 +52248,9 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Polyubiquitin",
         "Ubiquitin",
-        "Lipocalin-2",
         "neutrophil gelatinase-associated lipocalin",
         "UBB",
+        "Lipocalin-2",
         "UBC",
         "polyubiquitin gene",
         "Protein Sorting Signals"
@@ -52362,7 +52362,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://lifesci.uos.ac.kr/jhlab_vil/people/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-1913-0027",
       "retired": false,
@@ -53037,7 +53037,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 28,
-        "citations": 635,
+        "citations": 636,
         "h_index": 16,
         "recent_papers": 7,
         "recent_citations": 41
@@ -53273,10 +53273,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 7,
-        "citations": 127,
+        "citations": 128,
         "h_index": 4,
         "recent_papers": 5,
-        "recent_citations": 18
+        "recent_citations": 19
       }
     },
     {
@@ -53869,10 +53869,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 94,
+        "papers": 92,
         "citations": 3301,
         "h_index": 28,
-        "recent_papers": 21,
+        "recent_papers": 19,
         "recent_citations": 830
       }
     },
@@ -54018,10 +54018,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 3,
+        "papers": 2,
         "citations": 94,
         "h_index": 3,
-        "recent_papers": 2,
+        "recent_papers": 1,
         "recent_citations": 89
       }
     },
@@ -54221,10 +54221,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 36,
+        "papers": 35,
         "citations": 1542,
         "h_index": 17,
-        "recent_papers": 18,
+        "recent_papers": 17,
         "recent_citations": 289
       }
     },
@@ -54533,7 +54533,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://plantstresslab.com/people.html",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-5173-0500",
       "retired": false,
@@ -55019,7 +55019,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/ajoupathophysiology/members/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-7078-2077",
       "retired": false,
@@ -55467,7 +55467,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 1,
       "pubs": {
         "papers": 146,
-        "citations": 5846,
+        "citations": 5847,
         "h_index": 42,
         "recent_papers": 35,
         "recent_citations": 518
@@ -55802,7 +55802,7 @@ window.KOREA_BIO_MAP = {
         "intralymphatic immunotherapy",
         "Asthma",
         "olive mill waste",
-        "Spatial Analysis"
+        "Health Services Needs and Demand"
       ],
       "techniques": [
         "머신러닝·AI",
@@ -56026,10 +56026,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 97,
-        "citations": 3310,
+        "citations": 3312,
         "h_index": 34,
         "recent_papers": 39,
-        "recent_citations": 375
+        "recent_citations": 376
       }
     },
     {
@@ -56399,10 +56399,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 30,
+        "papers": 29,
         "citations": 569,
         "h_index": 13,
-        "recent_papers": 17,
+        "recent_papers": 16,
         "recent_citations": 317
       }
     },
@@ -56555,11 +56555,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 581,
-        "citations": 11831,
+        "papers": 582,
+        "citations": 11832,
         "h_index": 55,
-        "recent_papers": 117,
-        "recent_citations": 1300
+        "recent_papers": 118,
+        "recent_citations": 1301
       }
     },
     {
@@ -56609,10 +56609,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 364,
+        "papers": 365,
         "citations": 25389,
         "h_index": 82,
-        "recent_papers": 85,
+        "recent_papers": 86,
         "recent_citations": 2347
       }
     },
@@ -56717,11 +56717,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 305,
-        "citations": 11009,
+        "papers": 306,
+        "citations": 11010,
         "h_index": 51,
         "recent_papers": 92,
-        "recent_citations": 968
+        "recent_citations": 969
       }
     },
     {
@@ -56825,7 +56825,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 187,
-        "citations": 9570,
+        "citations": 9571,
         "h_index": 55,
         "recent_papers": 26,
         "recent_citations": 659
@@ -56940,7 +56940,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-8074-1006",
       "retired": false,
@@ -56956,7 +56956,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 175,
-        "citations": 6429,
+        "citations": 6430,
         "h_index": 43,
         "recent_papers": 48,
         "recent_citations": 867
@@ -57115,10 +57115,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 161,
-        "citations": 4376,
+        "citations": 4378,
         "h_index": 34,
         "recent_papers": 59,
-        "recent_citations": 972
+        "recent_citations": 973
       }
     },
     {
@@ -57609,7 +57609,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/myungsukkimlab/the-architects/gallery/alumni-friends",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-5618-3040",
       "retired": false,
@@ -57624,7 +57624,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 142,
+        "papers": 141,
         "citations": 3488,
         "h_index": 36,
         "recent_papers": 21,
@@ -57755,11 +57755,11 @@ window.KOREA_BIO_MAP = {
         "biopharmaceutical delivery",
         "non-apoptotic cell death",
         "viral gene therapy",
+        "Gene Therapy Agents",
         "Necroptosis",
         "Genetic Therapy",
         "ribonucleoprotein delivery",
-        "Norrie disease",
-        "Cryoprotective Agents"
+        "Norrie disease"
       ],
       "techniques": [
         "나노입자·약물전달",
@@ -57977,10 +57977,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 116,
-        "citations": 17126,
+        "citations": 17128,
         "h_index": 53,
         "recent_papers": 55,
-        "recent_citations": 1722
+        "recent_citations": 1723
       }
     },
     {
@@ -58165,8 +58165,8 @@ window.KOREA_BIO_MAP = {
         "Alzheimer's disease",
         "Protein Aggregation, Pathological",
         "levosimendan",
-        "Alzheimer Disease",
-        "Terahertz Imaging"
+        "Terahertz Imaging",
+        "Alzheimer Disease"
       ],
       "techniques": [
         "형광·공초점 이미징",
@@ -58191,10 +58191,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 107,
-        "citations": 3505,
+        "citations": 3507,
         "h_index": 35,
         "recent_papers": 34,
-        "recent_citations": 636
+        "recent_citations": 638
       }
     },
     {
@@ -58245,10 +58245,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 77,
-        "citations": 2998,
+        "citations": 2999,
         "h_index": 27,
         "recent_papers": 12,
-        "recent_citations": 91
+        "recent_citations": 92
       }
     },
     {
@@ -58351,10 +58351,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 71,
+        "papers": 72,
         "citations": 2215,
         "h_index": 22,
-        "recent_papers": 20,
+        "recent_papers": 21,
         "recent_citations": 180
       }
     },
@@ -58486,8 +58486,8 @@ window.KOREA_BIO_MAP = {
         "Spectrum Analysis, Raman",
         "visible light photocatalysis",
         "Ice",
-        "Gold",
         "Haber-Bosch alternative",
+        "Gold",
         "ice recrystallization inhibition",
         "gold nanorods"
       ],
@@ -58571,7 +58571,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://hwang.korea.ac.kr/page/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-6883-201X",
       "retired": false,
@@ -58696,10 +58696,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 359,
-        "citations": 8128,
+        "citations": 8132,
         "h_index": 47,
         "recent_papers": 57,
-        "recent_citations": 470
+        "recent_citations": 471
       }
     },
     {
@@ -59018,7 +59018,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 311,
-        "citations": 6126,
+        "citations": 6127,
         "h_index": 39,
         "recent_papers": 46,
         "recent_citations": 578
@@ -59072,7 +59072,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 254,
-        "citations": 22930,
+        "citations": 22931,
         "h_index": 74,
         "recent_papers": 62,
         "recent_citations": 735
@@ -59125,7 +59125,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 235,
-        "citations": 6250,
+        "citations": 6251,
         "h_index": 43,
         "recent_papers": 44,
         "recent_citations": 257
@@ -59286,7 +59286,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 191,
+        "papers": 190,
         "citations": 3655,
         "h_index": 35,
         "recent_papers": 24,
@@ -59341,10 +59341,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 207,
-        "citations": 4273,
+        "citations": 4275,
         "h_index": 35,
         "recent_papers": 30,
-        "recent_citations": 295
+        "recent_citations": 296
       }
     },
     {
@@ -59557,7 +59557,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 180,
-        "citations": 5759,
+        "citations": 5760,
         "h_index": 39,
         "recent_papers": 34,
         "recent_citations": 161
@@ -59611,7 +59611,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 193,
-        "citations": 4865,
+        "citations": 4866,
         "h_index": 37,
         "recent_papers": 49,
         "recent_citations": 328
@@ -59665,7 +59665,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 181,
-        "citations": 4461,
+        "citations": 4463,
         "h_index": 33,
         "recent_papers": 33,
         "recent_citations": 300
@@ -59718,7 +59718,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 183,
+        "papers": 182,
         "citations": 4395,
         "h_index": 40,
         "recent_papers": 23,
@@ -59936,10 +59936,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 167,
-        "citations": 4065,
+        "citations": 4066,
         "h_index": 36,
         "recent_papers": 40,
-        "recent_citations": 615
+        "recent_citations": 616
       }
     },
     {
@@ -60098,10 +60098,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 161,
-        "citations": 7510,
+        "citations": 7512,
         "h_index": 41,
         "recent_papers": 65,
-        "recent_citations": 1209
+        "recent_citations": 1211
       }
     },
     {
@@ -60849,10 +60849,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 132,
-        "citations": 4397,
+        "citations": 4399,
         "h_index": 38,
         "recent_papers": 43,
-        "recent_citations": 506
+        "recent_citations": 507
       }
     },
     {
@@ -60956,7 +60956,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 133,
-        "citations": 4608,
+        "citations": 4609,
         "h_index": 39,
         "recent_papers": 42,
         "recent_citations": 379
@@ -61330,10 +61330,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 112,
-        "citations": 2533,
+        "citations": 2534,
         "h_index": 29,
         "recent_papers": 18,
-        "recent_citations": 353
+        "recent_citations": 354
       }
     },
     {
@@ -62030,7 +62030,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 127,
+        "papers": 128,
         "citations": 1583,
         "h_index": 20,
         "recent_papers": 13,
@@ -62138,10 +62138,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 129,
-        "citations": 1911,
+        "citations": 1913,
         "h_index": 26,
         "recent_papers": 48,
-        "recent_citations": 551
+        "recent_citations": 553
       }
     },
     {
@@ -62440,7 +62440,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/pxslab/members/former-members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0009-0007-0906-1888",
       "retired": false,
@@ -62456,7 +62456,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 106,
-        "citations": 4350,
+        "citations": 4351,
         "h_index": 32,
         "recent_papers": 8,
         "recent_citations": 22
@@ -62768,7 +62768,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 71,
-        "citations": 1684,
+        "citations": 1685,
         "h_index": 18,
         "recent_papers": 33,
         "recent_citations": 360
@@ -62819,10 +62819,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 89,
-        "citations": 1469,
+        "papers": 90,
+        "citations": 1470,
         "h_index": 20,
-        "recent_papers": 13,
+        "recent_papers": 14,
         "recent_citations": 71
       }
     },
@@ -62848,8 +62848,8 @@ window.KOREA_BIO_MAP = {
         "Influenza A virus",
         "SARS-CoV-2",
         "antiviral activity",
-        "Bacteria",
-        "Virus Internalization"
+        "Virus Internalization",
+        "environmental impact of GM crops"
       ],
       "techniques": [
         "애기장대·식물 모델",
@@ -62907,8 +62907,8 @@ window.KOREA_BIO_MAP = {
       ],
       "techniques": [
         "머신러닝·AI",
-        "ELISA",
         "유전자변형 마우스",
+        "ELISA",
         "나노입자·약물전달",
         "면역조직화학"
       ],
@@ -63071,10 +63071,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 64,
-        "citations": 1784,
+        "citations": 1786,
         "h_index": 21,
         "recent_papers": 15,
-        "recent_citations": 133
+        "recent_citations": 134
       }
     },
     {
@@ -63174,10 +63174,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 63,
-        "citations": 430,
+        "citations": 431,
         "h_index": 12,
         "recent_papers": 13,
-        "recent_citations": 61
+        "recent_citations": 62
       }
     },
     {
@@ -63330,10 +63330,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 62,
-        "citations": 1080,
+        "citations": 1081,
         "h_index": 21,
         "recent_papers": 7,
-        "recent_citations": 109
+        "recent_citations": 110
       }
     },
     {
@@ -63487,10 +63487,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 49,
-        "citations": 725,
+        "citations": 728,
         "h_index": 16,
         "recent_papers": 25,
-        "recent_citations": 212
+        "recent_citations": 214
       }
     },
     {
@@ -63695,10 +63695,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 48,
-        "citations": 1568,
+        "citations": 1569,
         "h_index": 21,
         "recent_papers": 11,
-        "recent_citations": 163
+        "recent_citations": 164
       }
     },
     {
@@ -64061,7 +64061,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 352,
-        "citations": 40736,
+        "citations": 40738,
         "h_index": 98,
         "recent_papers": 24,
         "recent_citations": 1088
@@ -64223,10 +64223,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 242,
-        "citations": 8212,
+        "citations": 8215,
         "h_index": 45,
         "recent_papers": 37,
-        "recent_citations": 415
+        "recent_citations": 418
       }
     },
     {
@@ -64276,11 +64276,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 159,
-        "citations": 9759,
+        "papers": 158,
+        "citations": 9762,
         "h_index": 50,
         "recent_papers": 6,
-        "recent_citations": 102
+        "recent_citations": 104
       }
     },
     {
@@ -64385,7 +64385,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 152,
-        "citations": 12874,
+        "citations": 12883,
         "h_index": 53,
         "recent_papers": 35,
         "recent_citations": 670
@@ -64440,7 +64440,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 165,
-        "citations": 12657,
+        "citations": 12659,
         "h_index": 60,
         "recent_papers": 33,
         "recent_citations": 830
@@ -64522,9 +64522,9 @@ window.KOREA_BIO_MAP = {
         "smart contact lens",
         "Contact Lenses",
         "smart contact lenses",
-        "Metals",
+        "Electrodes",
         "wearable electronics",
-        "Electrodes"
+        "Metals"
       ],
       "techniques": [
         "오가노이드",
@@ -64549,7 +64549,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 170,
-        "citations": 20263,
+        "citations": 20265,
         "h_index": 73,
         "recent_papers": 65,
         "recent_citations": 2161
@@ -64657,7 +64657,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 248,
-        "citations": 17635,
+        "citations": 17636,
         "h_index": 73,
         "recent_papers": 12,
         "recent_citations": 122
@@ -64711,7 +64711,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 126,
-        "citations": 7933,
+        "citations": 7934,
         "h_index": 44,
         "recent_papers": 15,
         "recent_citations": 139
@@ -64765,10 +64765,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 116,
-        "citations": 18947,
+        "citations": 18948,
         "h_index": 54,
         "recent_papers": 36,
-        "recent_citations": 797
+        "recent_citations": 798
       }
     },
     {
@@ -64850,10 +64850,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 102,
-        "citations": 3792,
+        "citations": 3794,
         "h_index": 35,
         "recent_papers": 54,
-        "recent_citations": 1304
+        "recent_citations": 1305
       }
     },
     {
@@ -64902,10 +64902,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 1,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 138,
+        "papers": 139,
         "citations": 13784,
         "h_index": 43,
-        "recent_papers": 79,
+        "recent_papers": 80,
         "recent_citations": 1861
       }
     },
@@ -65045,7 +65045,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://cocoanlab.github.io/people/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-7423-5422",
       "retired": false,
@@ -65332,7 +65332,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.affectiveneurosciencelab.com/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-5886-8545",
       "retired": false,
@@ -65347,7 +65347,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 76,
+        "papers": 75,
         "citations": 4829,
         "h_index": 28,
         "recent_papers": 35,
@@ -65399,7 +65399,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 83,
-        "citations": 2329,
+        "citations": 2330,
         "h_index": 21,
         "recent_papers": 9,
         "recent_citations": 94
@@ -65959,7 +65959,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 1,
       "pubs": {
         "papers": 35,
-        "citations": 1477,
+        "citations": 1478,
         "h_index": 15,
         "recent_papers": 15,
         "recent_citations": 185
@@ -66255,7 +66255,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/psyphylab/member",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-3098-5010",
       "retired": false,
@@ -66271,7 +66271,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 136,
-        "citations": 4668,
+        "citations": 4669,
         "h_index": 33,
         "recent_papers": 24,
         "recent_citations": 423
@@ -66647,7 +66647,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 67,
-        "citations": 1531,
+        "citations": 1532,
         "h_index": 22,
         "recent_papers": 17,
         "recent_citations": 79
@@ -66729,8 +66729,8 @@ window.KOREA_BIO_MAP = {
         "Brain-Derived Neurotrophic Factor",
         "Astrocytes",
         "Akinetic Mutism",
-        "Tetraspanin 30",
-        "CD63"
+        "CD63",
+        "Endocytosis"
       ],
       "techniques": [
         "엑소좀·세포외소포",
@@ -66913,10 +66913,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 61,
-        "citations": 2498,
+        "citations": 2499,
         "h_index": 23,
         "recent_papers": 23,
-        "recent_citations": 814
+        "recent_citations": 815
       }
     },
     {
@@ -67269,7 +67269,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://minyoungjung.com/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-9188-0549",
       "retired": false,
@@ -67389,10 +67389,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 32,
-        "citations": 475,
+        "citations": 476,
         "h_index": 13,
         "recent_papers": 15,
-        "recent_citations": 150
+        "recent_citations": 151
       }
     },
     {
@@ -67803,7 +67803,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 558,
-        "citations": 22152,
+        "citations": 22154,
         "h_index": 75,
         "recent_papers": 100,
         "recent_citations": 1450
@@ -68019,7 +68019,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 284,
-        "citations": 6084,
+        "citations": 6085,
         "h_index": 40,
         "recent_papers": 66,
         "recent_citations": 722
@@ -68124,10 +68124,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 171,
-        "citations": 2339,
+        "citations": 2340,
         "h_index": 26,
         "recent_papers": 62,
-        "recent_citations": 628
+        "recent_citations": 629
       }
     },
     {
@@ -68231,10 +68231,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 210,
+        "papers": 211,
         "citations": 5525,
         "h_index": 37,
-        "recent_papers": 22,
+        "recent_papers": 23,
         "recent_citations": 285
       }
     },
@@ -69013,10 +69013,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 141,
-        "citations": 2134,
+        "citations": 2135,
         "h_index": 26,
         "recent_papers": 45,
-        "recent_citations": 296
+        "recent_citations": 297
       }
     },
     {
@@ -69066,7 +69066,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 129,
+        "papers": 130,
         "citations": 4588,
         "h_index": 37,
         "recent_papers": 6,
@@ -69587,7 +69587,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 78,
-        "citations": 13324,
+        "citations": 13325,
         "h_index": 31,
         "recent_papers": 27,
         "recent_citations": 443
@@ -69662,7 +69662,7 @@ window.KOREA_BIO_MAP = {
         "Antiviral Agents",
         "cytopathic effect",
         "H3N2",
-        "Influenza A Virus, H1N1 Subtype"
+        "hemagglutinin inhibition"
       ],
       "techniques": [
         "분자도킹·시뮬레이션",
@@ -70255,10 +70255,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 70,
-        "citations": 1207,
+        "citations": 1209,
         "h_index": 21,
         "recent_papers": 14,
-        "recent_citations": 110
+        "recent_citations": 112
       }
     },
     {
@@ -71080,7 +71080,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 124,
-        "citations": 2678,
+        "citations": 2679,
         "h_index": 29,
         "recent_papers": 33,
         "recent_citations": 274
@@ -71292,7 +71292,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 98,
+        "papers": 99,
         "citations": 1285,
         "h_index": 21,
         "recent_papers": 22,
@@ -71977,7 +71977,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 33,
+        "papers": 32,
         "citations": 741,
         "h_index": 15,
         "recent_papers": 13,
@@ -72184,10 +72184,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 38,
-        "citations": 627,
+        "citations": 628,
         "h_index": 15,
         "recent_papers": 22,
-        "recent_citations": 235
+        "recent_citations": 236
       }
     },
     {
@@ -72605,10 +72605,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 151,
-        "citations": 7535,
+        "citations": 7536,
         "h_index": 35,
         "recent_papers": 34,
-        "recent_citations": 818
+        "recent_citations": 819
       }
     },
     {
@@ -72872,7 +72872,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 140,
-        "citations": 5742,
+        "citations": 5743,
         "h_index": 38,
         "recent_papers": 4,
         "recent_citations": 59
@@ -73033,11 +73033,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 1,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 144,
-        "citations": 2364,
+        "papers": 143,
+        "citations": 2365,
         "h_index": 28,
         "recent_papers": 55,
-        "recent_citations": 801
+        "recent_citations": 802
       }
     },
     {
@@ -73409,7 +73409,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 92,
-        "citations": 1753,
+        "citations": 1754,
         "h_index": 22,
         "recent_papers": 13,
         "recent_citations": 87
@@ -73567,7 +73567,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 85,
-        "citations": 1671,
+        "citations": 1672,
         "h_index": 23,
         "recent_papers": 23,
         "recent_citations": 299
@@ -73668,7 +73668,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 59,
-        "citations": 1291,
+        "citations": 1292,
         "h_index": 16,
         "recent_papers": 13,
         "recent_citations": 54
@@ -73933,7 +73933,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 93,
+        "papers": 94,
         "citations": 2567,
         "h_index": 29,
         "recent_papers": 13,
@@ -74041,10 +74041,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 63,
+        "papers": 64,
         "citations": 3259,
         "h_index": 22,
-        "recent_papers": 14,
+        "recent_papers": 15,
         "recent_citations": 139
       }
     },
@@ -74309,10 +74309,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 56,
-        "citations": 2885,
+        "citations": 2887,
         "h_index": 29,
         "recent_papers": 16,
-        "recent_citations": 341
+        "recent_citations": 343
       }
     },
     {
@@ -74880,8 +74880,8 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 1,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 244,
-        "citations": 9011,
+        "papers": 245,
+        "citations": 9012,
         "h_index": 45,
         "recent_papers": 41,
         "recent_citations": 482
@@ -75142,10 +75142,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 179,
-        "citations": 4146,
+        "citations": 4148,
         "h_index": 36,
         "recent_papers": 62,
-        "recent_citations": 673
+        "recent_citations": 674
       }
     },
     {
@@ -75299,7 +75299,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 1,
       "pubs": {
         "papers": 157,
-        "citations": 2191,
+        "citations": 2192,
         "h_index": 21,
         "recent_papers": 24,
         "recent_citations": 95
@@ -75981,10 +75981,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 113,
-        "citations": 2034,
+        "citations": 2035,
         "h_index": 26,
         "recent_papers": 28,
-        "recent_citations": 70
+        "recent_citations": 71
       }
     },
     {
@@ -76027,10 +76027,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 115,
+        "papers": 116,
         "citations": 1485,
         "h_index": 20,
-        "recent_papers": 18,
+        "recent_papers": 19,
         "recent_citations": 129
       }
     },
@@ -76080,10 +76080,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 87,
-        "citations": 2536,
+        "citations": 2537,
         "h_index": 26,
         "recent_papers": 34,
-        "recent_citations": 633
+        "recent_citations": 634
       }
     },
     {
@@ -76133,7 +76133,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 100,
-        "citations": 1998,
+        "citations": 1999,
         "h_index": 25,
         "recent_papers": 37,
         "recent_citations": 421
@@ -76187,10 +76187,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 108,
-        "citations": 3120,
+        "citations": 3121,
         "h_index": 31,
         "recent_papers": 24,
-        "recent_citations": 68
+        "recent_citations": 69
       }
     },
     {
@@ -76335,7 +76335,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 103,
+        "papers": 104,
         "citations": 2513,
         "h_index": 28,
         "recent_papers": 36,
@@ -76362,10 +76362,10 @@ window.KOREA_BIO_MAP = {
         "methylglyoxal",
         "antiglycation activity",
         "Receptor for Advanced Glycation End Products",
-        "Glycation End Products, Advanced",
-        "Pyruvaldehyde",
         "phlorotannins",
-        "diabetic nephropathy"
+        "Glycation End Products, Advanced",
+        "diabetic nephropathy",
+        "Pyruvaldehyde"
       ],
       "techniques": [
         "제브라피시",
@@ -76386,10 +76386,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 98,
+        "papers": 97,
         "citations": 3522,
         "h_index": 32,
-        "recent_papers": 18,
+        "recent_papers": 17,
         "recent_citations": 154
       }
     },
@@ -76849,7 +76849,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 89,
-        "citations": 1691,
+        "citations": 1692,
         "h_index": 22,
         "recent_papers": 5,
         "recent_citations": 22
@@ -77109,7 +77109,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 75,
+        "papers": 74,
         "citations": 946,
         "h_index": 19,
         "recent_papers": 8,
@@ -77160,7 +77160,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 51,
+        "papers": 50,
         "citations": 895,
         "h_index": 18,
         "recent_papers": 18,
@@ -77214,7 +77214,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 1,
       "pubs": {
-        "papers": 73,
+        "papers": 74,
         "citations": 1943,
         "h_index": 20,
         "recent_papers": 14,
@@ -77368,7 +77368,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 68,
-        "citations": 1514,
+        "citations": 1515,
         "h_index": 23,
         "recent_papers": 22,
         "recent_citations": 239
@@ -77718,10 +77718,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 61,
-        "citations": 680,
+        "citations": 681,
         "h_index": 18,
         "recent_papers": 54,
-        "recent_citations": 588
+        "recent_citations": 589
       }
     },
     {
@@ -77925,11 +77925,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 776,
-        "citations": 17604,
+        "papers": 777,
+        "citations": 17605,
         "h_index": 65,
         "recent_papers": 52,
-        "recent_citations": 611
+        "recent_citations": 612
       }
     },
     {
@@ -78035,10 +78035,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 568,
-        "citations": 14771,
+        "citations": 14772,
         "h_index": 63,
         "recent_papers": 103,
-        "recent_citations": 731
+        "recent_citations": 732
       }
     },
     {
@@ -78089,10 +78089,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 1,
       "pubs": {
         "papers": 264,
-        "citations": 25818,
+        "citations": 25834,
         "h_index": 70,
         "recent_papers": 71,
-        "recent_citations": 2408
+        "recent_citations": 2415
       }
     },
     {
@@ -78142,11 +78142,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 1,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 376,
-        "citations": 6660,
+        "papers": 375,
+        "citations": 6661,
         "h_index": 42,
-        "recent_papers": 145,
-        "recent_citations": 1263
+        "recent_papers": 144,
+        "recent_citations": 1264
       }
     },
     {
@@ -78197,10 +78197,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 328,
-        "citations": 25800,
+        "citations": 25803,
         "h_index": 60,
         "recent_papers": 102,
-        "recent_citations": 3729
+        "recent_citations": 3731
       }
     },
     {
@@ -78306,11 +78306,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 344,
-        "citations": 7010,
+        "papers": 343,
+        "citations": 7011,
         "h_index": 44,
-        "recent_papers": 90,
-        "recent_citations": 723
+        "recent_papers": 89,
+        "recent_citations": 724
       }
     },
     {
@@ -78362,7 +78362,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 360,
-        "citations": 6971,
+        "citations": 6972,
         "h_index": 43,
         "recent_papers": 59,
         "recent_citations": 568
@@ -78416,10 +78416,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 317,
-        "citations": 13537,
+        "citations": 13538,
         "h_index": 64,
         "recent_papers": 40,
-        "recent_citations": 407
+        "recent_citations": 408
       }
     },
     {
@@ -78523,10 +78523,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 270,
-        "citations": 5633,
+        "papers": 271,
+        "citations": 5634,
         "h_index": 40,
-        "recent_papers": 80,
+        "recent_papers": 81,
         "recent_citations": 701
       }
     },
@@ -78738,8 +78738,8 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 202,
-        "citations": 16973,
+        "papers": 203,
+        "citations": 16974,
         "h_index": 51,
         "recent_papers": 47,
         "recent_citations": 4076
@@ -78793,10 +78793,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 244,
-        "citations": 61421,
+        "citations": 61425,
         "h_index": 88,
         "recent_papers": 28,
-        "recent_citations": 2185
+        "recent_citations": 2186
       }
     },
     {
@@ -79011,10 +79011,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 250,
-        "citations": 5528,
+        "citations": 5529,
         "h_index": 36,
         "recent_papers": 36,
-        "recent_citations": 299
+        "recent_citations": 300
       }
     },
     {
@@ -79389,10 +79389,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 213,
-        "citations": 4765,
+        "citations": 4768,
         "h_index": 30,
         "recent_papers": 74,
-        "recent_citations": 2790
+        "recent_citations": 2793
       }
     },
     {
@@ -79496,10 +79496,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 300,
-        "citations": 20805,
+        "citations": 20808,
         "h_index": 76,
         "recent_papers": 19,
-        "recent_citations": 820
+        "recent_citations": 821
       }
     },
     {
@@ -79548,7 +79548,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 227,
-        "citations": 7292,
+        "citations": 7293,
         "h_index": 43,
         "recent_papers": 56,
         "recent_citations": 797
@@ -79973,7 +79973,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 199,
+        "papers": 200,
         "citations": 3445,
         "h_index": 27,
         "recent_papers": 54,
@@ -80029,10 +80029,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 180,
-        "citations": 5667,
+        "citations": 5668,
         "h_index": 39,
         "recent_papers": 39,
-        "recent_citations": 1078
+        "recent_citations": 1079
       }
     },
     {
@@ -80080,10 +80080,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 193,
-        "citations": 20378,
+        "citations": 20381,
         "h_index": 38,
         "recent_papers": 56,
-        "recent_citations": 2761
+        "recent_citations": 2763
       }
     },
     {
@@ -80230,10 +80230,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 198,
-        "citations": 5395,
+        "citations": 5396,
         "h_index": 37,
         "recent_papers": 22,
-        "recent_citations": 135
+        "recent_citations": 136
       }
     },
     {
@@ -80284,10 +80284,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 193,
-        "citations": 3174,
+        "citations": 3175,
         "h_index": 29,
         "recent_papers": 31,
-        "recent_citations": 622
+        "recent_citations": 623
       }
     },
     {
@@ -80390,7 +80390,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 121,
-        "citations": 4073,
+        "citations": 4074,
         "h_index": 36,
         "recent_papers": 16,
         "recent_citations": 119
@@ -80657,7 +80657,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 141,
-        "citations": 3579,
+        "citations": 3580,
         "h_index": 34,
         "recent_papers": 29,
         "recent_citations": 98
@@ -81142,10 +81142,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 180,
-        "citations": 36154,
+        "citations": 36156,
         "h_index": 56,
         "recent_papers": 34,
-        "recent_citations": 5273
+        "recent_citations": 5274
       }
     },
     {
@@ -81246,7 +81246,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 145,
-        "citations": 3990,
+        "citations": 3991,
         "h_index": 33,
         "recent_papers": 16,
         "recent_citations": 290
@@ -81353,10 +81353,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 147,
-        "citations": 28877,
+        "citations": 28879,
         "h_index": 33,
         "recent_papers": 37,
-        "recent_citations": 5259
+        "recent_citations": 5260
       }
     },
     {
@@ -81650,8 +81650,8 @@ window.KOREA_BIO_MAP = {
       "techniques": [
         "항체 개발",
         "ELISA",
-        "RNA-seq·전사체",
         "유전자변형 마우스",
+        "RNA-seq·전사체",
         "단일세포 분석"
       ],
       "department": "",
@@ -81669,7 +81669,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 75,
+        "papers": 76,
         "citations": 3532,
         "h_index": 19,
         "recent_papers": 26,
@@ -81874,7 +81874,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 75,
+        "papers": 74,
         "citations": 3114,
         "h_index": 30,
         "recent_papers": 12,
@@ -82003,9 +82003,9 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Antibodies, Viral",
         "COVID-19",
+        "seroprevalence",
         "Mumps Vaccine",
         "Mumps",
-        "seroprevalence",
         "SARS-CoV-2",
         "Seroepidemiologic Studies",
         "Hand, Foot and Mouth Disease"
@@ -82636,10 +82636,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 19,
-        "citations": 4279,
+        "citations": 4280,
         "h_index": 15,
         "recent_papers": 14,
-        "recent_citations": 2297
+        "recent_citations": 2298
       }
     },
     {
@@ -83046,7 +83046,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 34,
-        "citations": 9247,
+        "citations": 9248,
         "h_index": 18,
         "recent_papers": 7,
         "recent_citations": 91
@@ -83507,10 +83507,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 78,
-        "citations": 2771,
+        "citations": 2772,
         "h_index": 26,
         "recent_papers": 35,
-        "recent_citations": 576
+        "recent_citations": 577
       }
     },
     {
@@ -83696,6 +83696,7 @@ window.KOREA_BIO_MAP = {
       "techniques": [
         "qPCR",
         "MRI·PET 영상",
+        "ELISA",
         "면역조직화학"
       ],
       "department": "",
@@ -84025,7 +84026,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 249,
-        "citations": 4348,
+        "citations": 4350,
         "h_index": 32,
         "recent_papers": 29,
         "recent_citations": 340
@@ -84104,8 +84105,8 @@ window.KOREA_BIO_MAP = {
         "PLK1",
         "cysteine deprivation",
         "Carcinoma, Non-Small-Cell Lung",
-        "ATF4",
         "Lung Neoplasms",
+        "ATF4",
         "Activating Transcription Factor 4"
       ],
       "techniques": [
@@ -84130,8 +84131,8 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 141,
-        "citations": 4883,
+        "papers": 142,
+        "citations": 4885,
         "h_index": 41,
         "recent_papers": 19,
         "recent_citations": 179
@@ -84397,7 +84398,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 110,
-        "citations": 3467,
+        "citations": 3468,
         "h_index": 36,
         "recent_papers": 8,
         "recent_citations": 169
@@ -84767,7 +84768,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 1,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 63,
+        "papers": 64,
         "citations": 1827,
         "h_index": 29,
         "recent_papers": 14,
@@ -84820,10 +84821,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 65,
+        "papers": 66,
         "citations": 2143,
         "h_index": 27,
-        "recent_papers": 4,
+        "recent_papers": 5,
         "recent_citations": 1
       }
     },
@@ -84872,7 +84873,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 50,
-        "citations": 617,
+        "citations": 618,
         "h_index": 15,
         "recent_papers": 14,
         "recent_citations": 73
@@ -84977,7 +84978,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 43,
-        "citations": 1429,
+        "citations": 1430,
         "h_index": 20,
         "recent_papers": 22,
         "recent_citations": 349
@@ -85445,7 +85446,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 32,
-        "citations": 1074,
+        "citations": 1076,
         "h_index": 19,
         "recent_papers": 5,
         "recent_citations": 52
@@ -85599,10 +85600,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 125,
-        "citations": 1844,
+        "citations": 1846,
         "h_index": 24,
         "recent_papers": 17,
-        "recent_citations": 109
+        "recent_citations": 110
       }
     },
     {
@@ -85648,7 +85649,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 140,
+        "papers": 139,
         "citations": 1952,
         "h_index": 28,
         "recent_papers": 23,
@@ -85703,7 +85704,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 88,
-        "citations": 2374,
+        "citations": 2376,
         "h_index": 28,
         "recent_papers": 22,
         "recent_citations": 148
@@ -85864,10 +85865,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 75,
-        "citations": 1416,
+        "citations": 1418,
         "h_index": 18,
         "recent_papers": 20,
-        "recent_citations": 420
+        "recent_citations": 422
       }
     },
     {
@@ -86121,10 +86122,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 56,
-        "citations": 2694,
+        "citations": 2697,
         "h_index": 24,
         "recent_papers": 21,
-        "recent_citations": 257
+        "recent_citations": 260
       }
     },
     {
@@ -86439,10 +86440,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 189,
-        "citations": 3511,
+        "citations": 3513,
         "h_index": 34,
         "recent_papers": 34,
-        "recent_citations": 382
+        "recent_citations": 383
       }
     },
     {
@@ -87600,7 +87601,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 29,
-        "citations": 501,
+        "citations": 502,
         "h_index": 12,
         "recent_papers": 11,
         "recent_citations": 149
@@ -88865,7 +88866,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 174,
+        "papers": 175,
         "citations": 12654,
         "h_index": 50,
         "recent_papers": 6,
@@ -89603,10 +89604,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 443,
-        "citations": 14297,
+        "citations": 14300,
         "h_index": 62,
         "recent_papers": 57,
-        "recent_citations": 814
+        "recent_citations": 815
       }
     },
     {
@@ -89657,10 +89658,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 364,
-        "citations": 7946,
+        "citations": 7948,
         "h_index": 35,
         "recent_papers": 106,
-        "recent_citations": 3496
+        "recent_citations": 3498
       }
     },
     {
@@ -89873,10 +89874,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 261,
-        "citations": 4538,
+        "citations": 4539,
         "h_index": 29,
         "recent_papers": 66,
-        "recent_citations": 357
+        "recent_citations": 358
       }
     },
     {
@@ -89979,7 +89980,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 265,
+        "papers": 264,
         "citations": 3777,
         "h_index": 35,
         "recent_papers": 5,
@@ -90032,10 +90033,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 245,
+        "papers": 246,
         "citations": 3122,
         "h_index": 30,
-        "recent_papers": 28,
+        "recent_papers": 29,
         "recent_citations": 186
       }
     },
@@ -90087,10 +90088,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 225,
-        "citations": 4258,
+        "citations": 4260,
         "h_index": 34,
         "recent_papers": 79,
-        "recent_citations": 857
+        "recent_citations": 858
       }
     },
     {
@@ -90666,7 +90667,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 155,
-        "citations": 2070,
+        "citations": 2071,
         "h_index": 23,
         "recent_papers": 16,
         "recent_citations": 186
@@ -91884,14 +91885,14 @@ window.KOREA_BIO_MAP = {
       "university_ko": "인하대학교",
       "position": "",
       "keywords": [
+        "Infectious Disease Transmission, Patient-to-Professional",
         "Malaria, Vivax",
         "Plasmodium vivax",
         "COVID-19",
-        "Health Personnel",
         "healthcare workers",
         "Patient Isolators",
-        "Infectious Disease Transmission, Patient-to-Professional",
-        "Splenic Infarction"
+        "Splenic Infarction",
+        "Scrub Typhus"
       ],
       "techniques": [
         "MRI·PET 영상",
@@ -91914,10 +91915,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 120,
-        "citations": 2339,
+        "citations": 2340,
         "h_index": 27,
         "recent_papers": 16,
-        "recent_citations": 81
+        "recent_citations": 82
       }
     },
     {
@@ -91966,7 +91967,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 129,
+        "papers": 130,
         "citations": 1445,
         "h_index": 23,
         "recent_papers": 17,
@@ -92019,7 +92020,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 129,
+        "papers": 130,
         "citations": 5011,
         "h_index": 37,
         "recent_papers": 8,
@@ -92122,7 +92123,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 119,
-        "citations": 2333,
+        "citations": 2335,
         "h_index": 21,
         "recent_papers": 21,
         "recent_citations": 56
@@ -92162,7 +92163,7 @@ window.KOREA_BIO_MAP = {
       "orcid": "0009-0003-7209-1036",
       "retired": false,
       "url": "https://openalex.org/A5100676178",
-      "lab_url": "",
+      "lab_url": "https://ds.dgist.ac.kr/",
       "openalex_id": "A5100676178",
       "identity": "openalex_institution",
       "score": 5,
@@ -92740,8 +92741,8 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 349,
-        "citations": 3485,
+        "papers": 348,
+        "citations": 3487,
         "h_index": 30,
         "recent_papers": 22,
         "recent_citations": 33
@@ -92794,7 +92795,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 254,
+        "papers": 252,
         "citations": 4367,
         "h_index": 33,
         "recent_papers": 32,
@@ -92845,7 +92846,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 206,
+        "papers": 205,
         "citations": 7167,
         "h_index": 48,
         "recent_papers": 36,
@@ -92952,10 +92953,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 190,
-        "citations": 7002,
+        "citations": 7004,
         "h_index": 46,
         "recent_papers": 41,
-        "recent_citations": 214
+        "recent_citations": 216
       }
     },
     {
@@ -93112,7 +93113,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 167,
+        "papers": 168,
         "citations": 3325,
         "h_index": 34,
         "recent_papers": 39,
@@ -93217,10 +93218,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 162,
-        "citations": 2122,
+        "citations": 2124,
         "h_index": 27,
         "recent_papers": 12,
-        "recent_citations": 73
+        "recent_citations": 74
       }
     },
     {
@@ -93259,7 +93260,7 @@ window.KOREA_BIO_MAP = {
       "orcid": "0000-0002-7684-9719",
       "retired": false,
       "url": "https://openalex.org/A5046341900",
-      "lab_url": "",
+      "lab_url": "http://home.sejong.ac.kr/~sungkwonpark/",
       "openalex_id": "A5046341900",
       "identity": "openalex_institution",
       "score": 6,
@@ -93688,10 +93689,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 119,
-        "citations": 3940,
+        "citations": 3941,
         "h_index": 36,
         "recent_papers": 17,
-        "recent_citations": 183
+        "recent_citations": 184
       }
     },
     {
@@ -93796,7 +93797,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 111,
-        "citations": 4382,
+        "citations": 4383,
         "h_index": 36,
         "recent_papers": 18,
         "recent_citations": 122
@@ -94009,7 +94010,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 99,
+        "papers": 100,
         "citations": 2347,
         "h_index": 29,
         "recent_papers": 8,
@@ -94215,10 +94216,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 85,
-        "citations": 3887,
+        "citations": 3888,
         "h_index": 38,
         "recent_papers": 21,
-        "recent_citations": 472
+        "recent_citations": 473
       }
     },
     {
@@ -94267,10 +94268,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 86,
+        "papers": 87,
         "citations": 5055,
         "h_index": 26,
-        "recent_papers": 15,
+        "recent_papers": 16,
         "recent_citations": 84
       }
     },
@@ -94420,10 +94421,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 73,
-        "citations": 1737,
+        "citations": 1738,
         "h_index": 24,
         "recent_papers": 26,
-        "recent_citations": 92
+        "recent_citations": 93
       }
     },
     {
@@ -94575,10 +94576,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 439,
-        "citations": 9730,
+        "citations": 9732,
         "h_index": 50,
         "recent_papers": 85,
-        "recent_citations": 668
+        "recent_citations": 670
       }
     },
     {
@@ -94734,10 +94735,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 192,
-        "citations": 4564,
+        "papers": 193,
+        "citations": 4565,
         "h_index": 31,
-        "recent_papers": 101,
+        "recent_papers": 102,
         "recent_citations": 899
       }
     },
@@ -94773,11 +94774,33 @@ window.KOREA_BIO_MAP = {
         "RNA 치료제·siRNA"
       ],
       "department": "",
-      "lab": {},
+      "lab": {
+        "alumni": 2.0,
+        "phd_graduates": 0.0,
+        "ms_graduates": 2.0,
+        "postdoc_alumni": 0.0,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 0.0,
+        "stay_years_est": 0.0,
+        "students_with_papers": 0.0,
+        "careers": {
+          "faculty": 0,
+          "postdoc": 0,
+          "industry": 0,
+          "hospital": 0,
+          "institute": 1,
+          "study": 0,
+          "other": 1
+        },
+        "alumni_url": "https://www.funnanolab.org/current-member",
+        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
+        "as_of": "2026-10-21"
+      },
       "orcid": "0000-0001-9579-9414",
       "retired": false,
       "url": "https://openalex.org/A5100462669",
-      "lab_url": "",
+      "lab_url": "https://www.funnanolab.org/",
       "openalex_id": "A5100462669",
       "identity": "openalex_institution",
       "score": 15,
@@ -94889,7 +94912,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 1,
       "pubs": {
         "papers": 140,
-        "citations": 1987,
+        "citations": 1988,
         "h_index": 27,
         "recent_papers": 39,
         "recent_citations": 334
@@ -94970,8 +94993,8 @@ window.KOREA_BIO_MAP = {
         "Gait",
         "largest Lyapunov exponent",
         "Parkinson's disease",
-        "ionic polymer-metal composite",
-        "gait analysis"
+        "gait analysis",
+        "ionic polymer-metal composite"
       ],
       "techniques": [
         "임상시험",
@@ -95285,9 +95308,9 @@ window.KOREA_BIO_MAP = {
         "mitochondrial function",
         "fish cell lines",
         "Cyprinus carpio",
-        "Mitochondria",
         "senescent fibroblasts",
-        "climbazole"
+        "climbazole",
+        "Mitochondria"
       ],
       "techniques": [
         "제브라피시",
@@ -95471,7 +95494,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 76,
-        "citations": 2209,
+        "citations": 2210,
         "h_index": 23,
         "recent_papers": 28,
         "recent_citations": 400
@@ -95575,7 +95598,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 64,
-        "citations": 1382,
+        "citations": 1383,
         "h_index": 21,
         "recent_papers": 4,
         "recent_citations": 21
@@ -95628,10 +95651,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 75,
-        "citations": 4732,
+        "citations": 4733,
         "h_index": 33,
         "recent_papers": 20,
-        "recent_citations": 319
+        "recent_citations": 320
       }
     },
     {
@@ -96385,7 +96408,7 @@ window.KOREA_BIO_MAP = {
       "orcid": "0000-0003-3408-2019",
       "retired": false,
       "url": "https://openalex.org/A5012622147",
-      "lab_url": "",
+      "lab_url": "https://www.cityu.edu.hk/neuro/profile/sungchilyang.htm",
       "openalex_id": "A5012622147",
       "identity": "openalex_institution",
       "score": 4,
@@ -96657,10 +96680,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 53,
-        "citations": 3337,
-        "h_index": 28,
+        "citations": 3338,
+        "h_index": 29,
         "recent_papers": 9,
-        "recent_citations": 174
+        "recent_citations": 175
       }
     },
     {
@@ -97152,7 +97175,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 75,
-        "citations": 2273,
+        "citations": 2274,
         "h_index": 23,
         "recent_papers": 26,
         "recent_citations": 329
@@ -97345,11 +97368,65 @@ window.KOREA_BIO_MAP = {
         "생물정보·계산생물"
       ],
       "department": "",
-      "lab": {},
+      "lab": {
+        "alumni": 42.0,
+        "phd_graduates": 7.0,
+        "ms_graduates": 6.0,
+        "postdoc_alumni": 0.0,
+        "ms_years": 2.0,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 1.0,
+        "stay_years": 1.5,
+        "stay_years_est": 1.0,
+        "students_with_papers": 13.0,
+        "papers_per_student": 0.3,
+        "first_author_per_student": 0.0,
+        "fwci_median": 0.2,
+        "top10_share": 0.0,
+        "careers": {
+          "faculty": 1,
+          "postdoc": 0,
+          "industry": 4,
+          "hospital": 0,
+          "institute": 2,
+          "study": 1,
+          "other": 5
+        },
+        "recent": {
+          "alumni": 30.0,
+          "phd_graduates": 6.0,
+          "ms_graduates": 6.0,
+          "postdoc_alumni": 0.0,
+          "ms_years": 2.0,
+          "phd_years_est": 0.0,
+          "integrated_years_est": 0.0,
+          "ms_years_est": 1.0,
+          "stay_years": 1.5,
+          "stay_years_est": 1.0,
+          "students_with_papers": 12.0,
+          "papers_per_student": 0.3,
+          "first_author_per_student": 0.0,
+          "fwci_median": 0.2,
+          "top10_share": 0.0,
+          "careers": {
+            "faculty": 1,
+            "postdoc": 0,
+            "industry": 4,
+            "hospital": 0,
+            "institute": 2,
+            "study": 1,
+            "other": 3
+          }
+        },
+        "alumni_url": "https://www.kyobinkanglab.org/alumni",
+        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
+        "as_of": "2026-10-21"
+      },
       "orcid": "0000-0003-3290-1017",
       "retired": false,
       "url": "https://openalex.org/A5024849145",
-      "lab_url": "",
+      "lab_url": "https://www.kyobinkanglab.org",
       "openalex_id": "A5024849145",
       "identity": "openalex_institution",
       "score": 9,
@@ -97360,10 +97437,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 89,
-        "citations": 32301,
+        "citations": 32305,
         "h_index": 31,
         "recent_papers": 39,
-        "recent_citations": 1323
+        "recent_citations": 1324
       }
     },
     {
@@ -97466,10 +97543,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 106,
-        "citations": 2666,
+        "citations": 2667,
         "h_index": 25,
         "recent_papers": 14,
-        "recent_citations": 468
+        "recent_citations": 469
       }
     },
     {
@@ -98030,7 +98107,7 @@ window.KOREA_BIO_MAP = {
       "orcid": "0000-0003-3779-7589",
       "retired": false,
       "url": "https://openalex.org/A5008309794",
-      "lab_url": "",
+      "lab_url": "http://Sim-research.org",
       "openalex_id": "A5008309794",
       "identity": "openalex_institution",
       "score": 4,
@@ -98041,7 +98118,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 64,
-        "citations": 3516,
+        "citations": 3517,
         "h_index": 27,
         "recent_papers": 20,
         "recent_citations": 270
@@ -98353,7 +98430,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 55,
-        "citations": 2209,
+        "citations": 2210,
         "h_index": 23,
         "recent_papers": 9,
         "recent_citations": 36
@@ -98605,7 +98682,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 38,
-        "citations": 855,
+        "citations": 856,
         "h_index": 14,
         "recent_papers": 10,
         "recent_citations": 108
@@ -99122,7 +99199,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 123,
-        "citations": 1160,
+        "citations": 1161,
         "h_index": 17,
         "recent_papers": 59,
         "recent_citations": 365
@@ -99227,7 +99304,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 84,
-        "citations": 1812,
+        "citations": 1813,
         "h_index": 22,
         "recent_papers": 15,
         "recent_citations": 136
@@ -99330,7 +99407,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 69,
-        "citations": 1530,
+        "citations": 1531,
         "h_index": 25,
         "recent_papers": 17,
         "recent_citations": 174
@@ -99591,10 +99668,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 486,
-        "citations": 8800,
+        "citations": 8804,
         "h_index": 48,
         "recent_papers": 160,
-        "recent_citations": 1289
+        "recent_citations": 1293
       }
     },
     {
@@ -99697,7 +99774,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 410,
-        "citations": 13610,
+        "citations": 13613,
         "h_index": 56,
         "recent_papers": 39,
         "recent_citations": 1744
@@ -99749,7 +99826,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 402,
+        "papers": 401,
         "citations": 10204,
         "h_index": 51,
         "recent_papers": 95,
@@ -99802,10 +99879,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 358,
+        "papers": 359,
         "citations": 8029,
         "h_index": 49,
-        "recent_papers": 81,
+        "recent_papers": 82,
         "recent_citations": 1004
       }
     },
@@ -99962,10 +100039,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 274,
-        "citations": 6058,
+        "citations": 6059,
         "h_index": 42,
         "recent_papers": 135,
-        "recent_citations": 2480
+        "recent_citations": 2481
       }
     },
     {
@@ -100015,10 +100092,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 222,
-        "citations": 5880,
+        "citations": 5882,
         "h_index": 40,
         "recent_papers": 35,
-        "recent_citations": 847
+        "recent_citations": 849
       }
     },
     {
@@ -100418,7 +100495,7 @@ window.KOREA_BIO_MAP = {
       "orcid": "0000-0002-9767-7098",
       "retired": false,
       "url": "https://openalex.org/A5016982830",
-      "lab_url": "",
+      "lab_url": "https://www.gilhospital.com/web/www/doctor?p_p_id=52600",
       "openalex_id": "A5016982830",
       "identity": "openalex_institution",
       "score": 14,
@@ -100429,10 +100506,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 184,
-        "citations": 2888,
+        "citations": 2890,
         "h_index": 27,
         "recent_papers": 44,
-        "recent_citations": 481
+        "recent_citations": 483
       }
     },
     {
@@ -100533,10 +100610,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 190,
+        "papers": 191,
         "citations": 2183,
         "h_index": 25,
-        "recent_papers": 59,
+        "recent_papers": 60,
         "recent_citations": 330
       }
     },
@@ -100800,10 +100877,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 141,
-        "citations": 2734,
+        "citations": 2735,
         "h_index": 30,
         "recent_papers": 28,
-        "recent_citations": 122
+        "recent_citations": 123
       }
     },
     {
@@ -100851,10 +100928,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 163,
-        "citations": 3711,
+        "citations": 3712,
         "h_index": 36,
         "recent_papers": 33,
-        "recent_citations": 314
+        "recent_citations": 315
       }
     },
     {
@@ -101059,7 +101136,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 159,
+        "papers": 158,
         "citations": 2445,
         "h_index": 28,
         "recent_papers": 28,
@@ -101167,10 +101244,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 164,
-        "citations": 2617,
+        "citations": 2618,
         "h_index": 28,
         "recent_papers": 59,
-        "recent_citations": 652
+        "recent_citations": 653
       }
     },
     {
@@ -101220,10 +101297,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 1,
       "pubs": {
         "papers": 137,
-        "citations": 4108,
+        "citations": 4110,
         "h_index": 35,
         "recent_papers": 45,
-        "recent_citations": 794
+        "recent_citations": 796
       }
     },
     {
@@ -101427,7 +101504,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 143,
+        "papers": 144,
         "citations": 1924,
         "h_index": 22,
         "recent_papers": 21,
@@ -101799,7 +101876,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 122,
-        "citations": 6142,
+        "citations": 6143,
         "h_index": 41,
         "recent_papers": 30,
         "recent_citations": 538
@@ -101955,10 +102032,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 137,
-        "citations": 3452,
+        "citations": 3453,
         "h_index": 28,
         "recent_papers": 42,
-        "recent_citations": 870
+        "recent_citations": 871
       }
     },
     {
@@ -102058,10 +102135,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 97,
-        "citations": 4862,
+        "citations": 4863,
         "h_index": 32,
         "recent_papers": 34,
-        "recent_citations": 499
+        "recent_citations": 500
       }
     },
     {
@@ -102612,7 +102689,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 112,
+        "papers": 111,
         "citations": 1264,
         "h_index": 17,
         "recent_papers": 38,
@@ -102667,10 +102744,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 339,
-        "citations": 13696,
+        "citations": 13697,
         "h_index": 52,
         "recent_papers": 85,
-        "recent_citations": 1413
+        "recent_citations": 1414
       }
     },
     {
@@ -102882,10 +102959,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 357,
-        "citations": 10301,
+        "citations": 10303,
         "h_index": 53,
         "recent_papers": 92,
-        "recent_citations": 2105
+        "recent_citations": 2106
       }
     },
     {
@@ -102936,10 +103013,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 1,
       "pubs": {
         "papers": 298,
-        "citations": 8896,
+        "citations": 8897,
         "h_index": 51,
         "recent_papers": 100,
-        "recent_citations": 1557
+        "recent_citations": 1558
       }
     },
     {
@@ -102988,7 +103065,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 303,
-        "citations": 7938,
+        "citations": 7939,
         "h_index": 49,
         "recent_papers": 104,
         "recent_citations": 1116
@@ -103360,7 +103437,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 293,
-        "citations": 6340,
+        "citations": 6341,
         "h_index": 48,
         "recent_papers": 19,
         "recent_citations": 67
@@ -103781,7 +103858,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 235,
-        "citations": 3955,
+        "citations": 3956,
         "h_index": 37,
         "recent_papers": 70,
         "recent_citations": 723
@@ -103813,8 +103890,8 @@ window.KOREA_BIO_MAP = {
         "tonsillar squamous cell carcinoma"
       ],
       "techniques": [
-        "면역조직화학",
         "머신러닝·AI",
+        "면역조직화학",
         "MRI·PET 영상",
         "RNA-seq·전사체",
         "qPCR"
@@ -103834,10 +103911,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 233,
+        "papers": 234,
         "citations": 2619,
         "h_index": 26,
-        "recent_papers": 128,
+        "recent_papers": 129,
         "recent_citations": 819
       }
     },
@@ -104039,10 +104116,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 223,
+        "papers": 222,
         "citations": 2604,
         "h_index": 27,
-        "recent_papers": 106,
+        "recent_papers": 105,
         "recent_citations": 802
       }
     },
@@ -104302,10 +104379,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 172,
-        "citations": 2799,
+        "citations": 2800,
         "h_index": 27,
         "recent_papers": 75,
-        "recent_citations": 858
+        "recent_citations": 859
       }
     },
     {
@@ -104748,9 +104825,9 @@ window.KOREA_BIO_MAP = {
         "Diabetes Mellitus, Type 2",
         "cutaneous lupus erythematosus",
         "end-stage renal disease",
-        "SGLT2 inhibitors",
-        "incident diabetes risk",
-        "Alcoholism"
+        "Kidney Failure, Chronic",
+        "Alcoholism",
+        "SGLT2 inhibitors"
       ],
       "techniques": [
         "하이드로젤·스캐폴드",
@@ -105217,8 +105294,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Apolipoprotein E4",
         "mild cognitive impairment",
-        "Cognition",
         "Alzheimer's disease",
+        "Cognition",
         "APOE ε4",
         "Memory, Episodic",
         "episodic memory",
@@ -105874,7 +105951,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 233,
-        "citations": 9082,
+        "citations": 9084,
         "h_index": 37,
         "recent_papers": 22,
         "recent_citations": 218
@@ -105926,7 +106003,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 192,
+        "papers": 193,
         "citations": 2295,
         "h_index": 22,
         "recent_papers": 18,
@@ -106112,8 +106189,8 @@ window.KOREA_BIO_MAP = {
         "Computed Tomography Angiography",
         "Coronary Angiography",
         "Plaque, Atherosclerotic",
-        "CREDENCE trial",
         "Fractional Flow Reserve, Myocardial",
+        "CREDENCE trial",
         "myocardial ischemia"
       ],
       "techniques": [
@@ -106136,10 +106213,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 101,
-        "citations": 4159,
+        "citations": 4160,
         "h_index": 29,
         "recent_papers": 33,
-        "recent_citations": 508
+        "recent_citations": 509
       }
     },
     {
@@ -106550,7 +106627,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 95,
-        "citations": 1130,
+        "citations": 1131,
         "h_index": 19,
         "recent_papers": 44,
         "recent_citations": 324
@@ -106998,7 +107075,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 66,
-        "citations": 753,
+        "citations": 754,
         "h_index": 17,
         "recent_papers": 30,
         "recent_citations": 107
@@ -107149,7 +107226,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 64,
-        "citations": 1093,
+        "citations": 1094,
         "h_index": 18,
         "recent_papers": 15,
         "recent_citations": 69
@@ -107462,7 +107539,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 35,
+        "papers": 34,
         "citations": 1319,
         "h_index": 17,
         "recent_papers": 12,
@@ -107862,7 +107939,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 707,
-        "citations": 27258,
+        "citations": 27259,
         "h_index": 86,
         "recent_papers": 90,
         "recent_citations": 936
@@ -108019,10 +108096,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 463,
-        "citations": 8792,
+        "citations": 8794,
         "h_index": 49,
         "recent_papers": 100,
-        "recent_citations": 536
+        "recent_citations": 538
       }
     },
     {
@@ -108337,10 +108414,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 385,
-        "citations": 5838,
+        "citations": 5839,
         "h_index": 39,
         "recent_papers": 35,
-        "recent_citations": 357
+        "recent_citations": 358
       }
     },
     {
@@ -108445,10 +108522,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 360,
-        "citations": 5997,
+        "citations": 5999,
         "h_index": 35,
         "recent_papers": 75,
-        "recent_citations": 652
+        "recent_citations": 653
       }
     },
     {
@@ -108553,7 +108630,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 353,
-        "citations": 3801,
+        "citations": 3802,
         "h_index": 33,
         "recent_papers": 52,
         "recent_citations": 306
@@ -108767,7 +108844,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 304,
-        "citations": 4541,
+        "citations": 4542,
         "h_index": 36,
         "recent_papers": 66,
         "recent_citations": 969
@@ -108821,10 +108898,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 295,
-        "citations": 5034,
+        "citations": 5035,
         "h_index": 35,
         "recent_papers": 52,
-        "recent_citations": 526
+        "recent_citations": 527
       }
     },
     {
@@ -108845,8 +108922,8 @@ window.KOREA_BIO_MAP = {
       "keywords": [
         "Root Canal Preparation",
         "root canal instrumentation",
-        "Dental Instruments",
         "Dental Alloys",
+        "Dental Instruments",
         "cyclic fatigue resistance",
         "Dental Pulp Cavity",
         "Nickel",
@@ -109087,7 +109164,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 282,
-        "citations": 7360,
+        "citations": 7362,
         "h_index": 44,
         "recent_papers": 40,
         "recent_citations": 281
@@ -109190,7 +109267,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 241,
+        "papers": 239,
         "citations": 2648,
         "h_index": 30,
         "recent_papers": 50,
@@ -109351,10 +109428,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 274,
-        "citations": 2480,
+        "citations": 2481,
         "h_index": 26,
         "recent_papers": 84,
-        "recent_citations": 773
+        "recent_citations": 774
       }
     },
     {
@@ -109404,10 +109481,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 265,
+        "papers": 264,
         "citations": 6911,
         "h_index": 43,
-        "recent_papers": 70,
+        "recent_papers": 69,
         "recent_citations": 1473
       }
     },
@@ -109675,10 +109752,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 236,
-        "citations": 2656,
+        "citations": 2657,
         "h_index": 24,
         "recent_papers": 83,
-        "recent_citations": 342
+        "recent_citations": 343
       }
     },
     {
@@ -109781,7 +109858,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 1,
       "pubs": {
-        "papers": 227,
+        "papers": 225,
         "citations": 2125,
         "h_index": 26,
         "recent_papers": 59,
@@ -109835,10 +109912,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 197,
+        "papers": 198,
         "citations": 3791,
         "h_index": 31,
-        "recent_papers": 50,
+        "recent_papers": 51,
         "recent_citations": 294
       }
     },
@@ -109862,10 +109939,10 @@ window.KOREA_BIO_MAP = {
         "Fluorodeoxyglucose F18",
         "caudate nucleus",
         "dopamine transporter",
-        "putamen",
         "Dopamine Plasma Membrane Transport Proteins",
-        "Radiopharmaceuticals",
-        "Tomography, Emission-Computed, Single-Photon"
+        "putamen",
+        "Tomography, Emission-Computed, Single-Photon",
+        "Radiopharmaceuticals"
       ],
       "techniques": [
         "MRI·PET 영상",
@@ -110471,7 +110548,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 180,
-        "citations": 4286,
+        "citations": 4287,
         "h_index": 36,
         "recent_papers": 47,
         "recent_citations": 568
@@ -110730,7 +110807,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 186,
+        "papers": 184,
         "citations": 2234,
         "h_index": 29,
         "recent_papers": 51,
@@ -110838,7 +110915,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 210,
-        "citations": 7043,
+        "citations": 7044,
         "h_index": 46,
         "recent_papers": 67,
         "recent_citations": 1445
@@ -111101,7 +111178,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 278,
-        "citations": 4267,
+        "citations": 4268,
         "h_index": 28,
         "recent_papers": 42,
         "recent_citations": 304
@@ -111363,10 +111440,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 194,
-        "citations": 4255,
+        "citations": 4257,
         "h_index": 35,
         "recent_papers": 37,
-        "recent_citations": 251
+        "recent_citations": 253
       }
     },
     {
@@ -111416,10 +111493,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 213,
-        "citations": 147662,
+        "citations": 147668,
         "h_index": 59,
         "recent_papers": 32,
-        "recent_citations": 7791
+        "recent_citations": 7793
       }
     },
     {
@@ -111469,10 +111546,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 153,
-        "citations": 3049,
+        "citations": 3050,
         "h_index": 28,
         "recent_papers": 66,
-        "recent_citations": 809
+        "recent_citations": 810
       }
     },
     {
@@ -111933,10 +112010,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 99,
-        "citations": 2273,
+        "citations": 2274,
         "h_index": 26,
         "recent_papers": 33,
-        "recent_citations": 343
+        "recent_citations": 344
       }
     },
     {
@@ -112540,10 +112617,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 66,
-        "citations": 1455,
+        "citations": 1456,
         "h_index": 21,
         "recent_papers": 15,
-        "recent_citations": 191
+        "recent_citations": 192
       }
     },
     {
@@ -113249,7 +113326,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 48,
-        "citations": 626,
+        "citations": 627,
         "h_index": 14,
         "recent_papers": 7,
         "recent_citations": 25
@@ -113815,10 +113892,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 215,
-        "citations": 4803,
+        "citations": 4804,
         "h_index": 36,
         "recent_papers": 48,
-        "recent_citations": 1181
+        "recent_citations": 1182
       }
     },
     {
@@ -114026,10 +114103,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 185,
-        "citations": 3824,
+        "citations": 3825,
         "h_index": 35,
         "recent_papers": 25,
-        "recent_citations": 302
+        "recent_citations": 303
       }
     },
     {
@@ -114694,10 +114771,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 107,
+        "papers": 108,
         "citations": 1058,
         "h_index": 16,
-        "recent_papers": 25,
+        "recent_papers": 26,
         "recent_citations": 47
       }
     },
@@ -114845,10 +114922,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 76,
-        "citations": 5663,
+        "citations": 5664,
         "h_index": 19,
         "recent_papers": 29,
-        "recent_citations": 415
+        "recent_citations": 416
       }
     },
     {
@@ -115497,10 +115574,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 77,
-        "citations": 1611,
+        "citations": 1612,
         "h_index": 20,
         "recent_papers": 19,
-        "recent_citations": 430
+        "recent_citations": 431
       }
     },
     {
@@ -115653,7 +115730,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 82,
-        "citations": 1166,
+        "citations": 1167,
         "h_index": 19,
         "recent_papers": 15,
         "recent_citations": 34
@@ -116906,14 +116983,14 @@ window.KOREA_BIO_MAP = {
       "university_ko": "조선대학교",
       "position": "",
       "keywords": [
-        "Bone Cysts, Aneurysmal",
         "MDC1",
-        "Neck Injuries",
         "sphenoid sinusitis",
         "Neurofibrosarcoma",
         "Malassezia",
         "gastroduodenal artery aneurysm",
-        "invasive fungal infections"
+        "Voriconazole",
+        "gallbladder squamous cell carcinoma",
+        "Bone Cysts, Aneurysmal"
       ],
       "techniques": [
         "면역조직화학",
@@ -117199,7 +117276,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 193,
+        "papers": 194,
         "citations": 3820,
         "h_index": 30,
         "recent_papers": 81,
@@ -117711,7 +117788,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 171,
+        "papers": 172,
         "citations": 1209,
         "h_index": 19,
         "recent_papers": 39,
@@ -117963,7 +118040,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 149,
-        "citations": 937,
+        "citations": 938,
         "h_index": 15,
         "recent_papers": 23,
         "recent_citations": 52
@@ -118014,8 +118091,8 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 152,
-        "citations": 3368,
+        "papers": 151,
+        "citations": 3369,
         "h_index": 32,
         "recent_papers": 19,
         "recent_citations": 300
@@ -118624,8 +118701,8 @@ window.KOREA_BIO_MAP = {
         "miR-22",
         "microRNA-22",
         "DNA double-strand break repair",
-        "53BP1",
-        "Guanine Nucleotide Exchange Factors"
+        "Guanine Nucleotide Exchange Factors",
+        "53BP1"
       ],
       "techniques": [
         "웨스턴블롯",
@@ -118750,7 +118827,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 117,
+        "papers": 116,
         "citations": 1265,
         "h_index": 19,
         "recent_papers": 18,
@@ -119472,10 +119549,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 85,
-        "citations": 2232,
+        "citations": 2234,
         "h_index": 21,
         "recent_papers": 27,
-        "recent_citations": 218
+        "recent_citations": 219
       }
     },
     {
@@ -119772,7 +119849,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 84,
+        "papers": 83,
         "citations": 979,
         "h_index": 15,
         "recent_papers": 18,
@@ -119826,7 +119903,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 1,
       "pubs": {
         "papers": 333,
-        "citations": 5000,
+        "citations": 5001,
         "h_index": 37,
         "recent_papers": 19,
         "recent_citations": 174
@@ -120039,7 +120116,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 207,
-        "citations": 6375,
+        "citations": 6376,
         "h_index": 36,
         "recent_papers": 30,
         "recent_citations": 310
@@ -120241,10 +120318,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 175,
-        "citations": 5023,
+        "citations": 5025,
         "h_index": 28,
         "recent_papers": 88,
-        "recent_citations": 1943
+        "recent_citations": 1944
       }
     },
     {
@@ -120449,7 +120526,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 157,
-        "citations": 2898,
+        "citations": 2899,
         "h_index": 26,
         "recent_papers": 36,
         "recent_citations": 219
@@ -121481,10 +121558,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 83,
-        "citations": 2355,
+        "citations": 2356,
         "h_index": 21,
         "recent_papers": 17,
-        "recent_citations": 121
+        "recent_citations": 122
       }
     },
     {
@@ -121630,7 +121707,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 96,
-        "citations": 1279,
+        "citations": 1280,
         "h_index": 21,
         "recent_papers": 31,
         "recent_citations": 126
@@ -121885,7 +121962,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 86,
-        "citations": 5546,
+        "citations": 5547,
         "h_index": 30,
         "recent_papers": 19,
         "recent_citations": 214
@@ -122038,7 +122115,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 88,
-        "citations": 5791,
+        "citations": 5792,
         "h_index": 27,
         "recent_papers": 5,
         "recent_citations": 25
@@ -122238,10 +122315,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 80,
-        "citations": 780,
+        "citations": 781,
         "h_index": 16,
         "recent_papers": 28,
-        "recent_citations": 277
+        "recent_citations": 278
       }
     },
     {
@@ -122337,7 +122414,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 72,
-        "citations": 878,
+        "citations": 879,
         "h_index": 17,
         "recent_papers": 9,
         "recent_citations": 15
@@ -122389,10 +122466,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 37,
-        "citations": 3062,
+        "citations": 3063,
         "h_index": 27,
         "recent_papers": 7,
-        "recent_citations": 135
+        "recent_citations": 136
       }
     },
     {
@@ -122809,8 +122886,8 @@ window.KOREA_BIO_MAP = {
         "Cadaver",
         "cadaveric dissection",
         "tectorial membrane",
-        "Facial Nerve",
         "Anatomic Landmarks",
+        "Facial Nerve",
         "lateral canthus",
         "Fascia",
         "posterior longitudinal ligament"
@@ -122933,10 +123010,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 78,
+        "papers": 79,
         "citations": 666,
         "h_index": 13,
-        "recent_papers": 36,
+        "recent_papers": 37,
         "recent_citations": 148
       }
     },
@@ -122987,10 +123064,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 85,
-        "citations": 2511,
+        "citations": 2512,
         "h_index": 28,
         "recent_papers": 37,
-        "recent_citations": 211
+        "recent_citations": 212
       }
     },
     {
@@ -123847,9 +123924,9 @@ window.KOREA_BIO_MAP = {
         "radiotherapy resistance",
         "Depsides",
         "MDA-MB-231 cells",
+        "Cinnamates",
         "Radiation Tolerance",
-        "ATP Binding Cassette Transporter, Subfamily G, Member 8",
-        "Cinnamates"
+        "oxidized LDL"
       ],
       "techniques": [
         "종양 이종이식 모델",
@@ -124030,7 +124107,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 299,
-        "citations": 8612,
+        "citations": 8614,
         "h_index": 51,
         "recent_papers": 46,
         "recent_citations": 647
@@ -124186,7 +124263,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 284,
-        "citations": 4553,
+        "citations": 4554,
         "h_index": 36,
         "recent_papers": 61,
         "recent_citations": 400
@@ -124211,10 +124288,10 @@ window.KOREA_BIO_MAP = {
         "Molecular Chaperones",
         "universal stress protein",
         "disulfide reductase",
-        "Circadian Clocks",
-        "Thioredoxin-Disulfide Reductase",
         "Oxidation-Reduction",
-        "Plants, Genetically Modified"
+        "Circadian Clocks",
+        "Plants, Genetically Modified",
+        "thiol-disulfide exchange"
       ],
       "techniques": [
         "애기장대·식물 모델",
@@ -124548,7 +124625,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 198,
+        "papers": 199,
         "citations": 6243,
         "h_index": 39,
         "recent_papers": 33,
@@ -124651,10 +124728,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 226,
-        "citations": 8727,
+        "citations": 8732,
         "h_index": 40,
         "recent_papers": 47,
-        "recent_citations": 549
+        "recent_citations": 551
       }
     },
     {
@@ -124834,8 +124911,8 @@ window.KOREA_BIO_MAP = {
         "neuroprotection",
         "synaptic dysfunction",
         "Alzheimer's disease",
-        "neurodegeneration",
         "Neuroprotective Agents",
+        "neurodegeneration",
         "memory impairment",
         "oxidative stress"
       ],
@@ -124862,7 +124939,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 216,
-        "citations": 13054,
+        "citations": 13056,
         "h_index": 67,
         "recent_papers": 33,
         "recent_citations": 870
@@ -124885,9 +124962,9 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "Students, Medical",
+        "Clinical Clerkship",
         "Education, Medical, Undergraduate",
         "medical students",
-        "Clinical Clerkship",
         "Educational Measurement",
         "Clinical Competence",
         "urease test",
@@ -125122,7 +125199,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 1,
       "pubs": {
         "papers": 237,
-        "citations": 2766,
+        "citations": 2767,
         "h_index": 29,
         "recent_papers": 14,
         "recent_citations": 85
@@ -125282,7 +125359,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 211,
-        "citations": 5050,
+        "citations": 5051,
         "h_index": 35,
         "recent_papers": 56,
         "recent_citations": 580
@@ -125387,7 +125464,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 198,
-        "citations": 8620,
+        "citations": 8621,
         "h_index": 49,
         "recent_papers": 61,
         "recent_citations": 1561
@@ -125970,8 +126047,8 @@ window.KOREA_BIO_MAP = {
         "corneal endotheliitis",
         "lens epithelial cells",
         "Visual Acuity",
-        "Lenses, Intraocular",
         "Eye Infections, Viral",
+        "Lenses, Intraocular",
         "Cataract",
         "aqueous humor"
       ],
@@ -126228,8 +126305,8 @@ window.KOREA_BIO_MAP = {
         "Kainic Acid",
         "ob/ob mice",
         "high-fat diet",
-        "galectin-3",
-        "hippocampal neuronal death"
+        "Diet, High-Fat",
+        "galectin-3"
       ],
       "techniques": [
         "유전자변형 마우스",
@@ -126254,7 +126331,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 176,
-        "citations": 5360,
+        "citations": 5361,
         "h_index": 42,
         "recent_papers": 32,
         "recent_citations": 430
@@ -126466,10 +126543,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 140,
-        "citations": 11787,
+        "citations": 11788,
         "h_index": 58,
         "recent_papers": 30,
-        "recent_citations": 1322
+        "recent_citations": 1323
       }
     },
     {
@@ -126519,7 +126596,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 168,
-        "citations": 5136,
+        "citations": 5137,
         "h_index": 30,
         "recent_papers": 15,
         "recent_citations": 460
@@ -126570,7 +126647,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 167,
-        "citations": 3201,
+        "citations": 3202,
         "h_index": 32,
         "recent_papers": 28,
         "recent_citations": 203
@@ -126938,10 +127015,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 613,
-        "citations": 19561,
+        "citations": 19563,
         "h_index": 74,
         "recent_papers": 87,
-        "recent_citations": 722
+        "recent_citations": 724
       }
     },
     {
@@ -126991,10 +127068,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 429,
-        "citations": 14978,
+        "citations": 14979,
         "h_index": 60,
         "recent_papers": 68,
-        "recent_citations": 599
+        "recent_citations": 600
       }
     },
     {
@@ -127043,11 +127120,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 395,
-        "citations": 9438,
+        "papers": 396,
+        "citations": 9440,
         "h_index": 43,
-        "recent_papers": 138,
-        "recent_citations": 1450
+        "recent_papers": 139,
+        "recent_citations": 1451
       }
     },
     {
@@ -127150,7 +127227,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 367,
-        "citations": 7230,
+        "citations": 7232,
         "h_index": 44,
         "recent_papers": 31,
         "recent_citations": 173
@@ -127202,10 +127279,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 1,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 284,
-        "citations": 4784,
+        "papers": 285,
+        "citations": 4785,
         "h_index": 35,
-        "recent_papers": 112,
+        "recent_papers": 113,
         "recent_citations": 713
       }
     },
@@ -127257,10 +127334,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 210,
-        "citations": 3412,
+        "citations": 3413,
         "h_index": 32,
         "recent_papers": 55,
-        "recent_citations": 466
+        "recent_citations": 467
       }
     },
     {
@@ -127304,10 +127381,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 244,
+        "papers": 245,
         "citations": 5594,
         "h_index": 40,
-        "recent_papers": 56,
+        "recent_papers": 57,
         "recent_citations": 1372
       }
     },
@@ -127359,10 +127436,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 247,
-        "citations": 3958,
+        "citations": 3959,
         "h_index": 31,
         "recent_papers": 50,
-        "recent_citations": 387
+        "recent_citations": 388
       }
     },
     {
@@ -127565,10 +127642,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 215,
-        "citations": 6481,
+        "citations": 6483,
         "h_index": 37,
         "recent_papers": 81,
-        "recent_citations": 2679
+        "recent_citations": 2681
       }
     },
     {
@@ -127828,10 +127905,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 171,
-        "citations": 7093,
+        "citations": 7094,
         "h_index": 49,
         "recent_papers": 51,
-        "recent_citations": 905
+        "recent_citations": 906
       }
     },
     {
@@ -127986,10 +128063,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 181,
-        "citations": 1657,
+        "citations": 1658,
         "h_index": 24,
         "recent_papers": 27,
-        "recent_citations": 98
+        "recent_citations": 99
       }
     },
     {
@@ -128092,10 +128169,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 176,
-        "citations": 2526,
+        "citations": 2527,
         "h_index": 30,
         "recent_papers": 42,
-        "recent_citations": 390
+        "recent_citations": 391
       }
     },
     {
@@ -128145,10 +128222,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 196,
-        "citations": 7915,
+        "citations": 7916,
         "h_index": 50,
         "recent_papers": 43,
-        "recent_citations": 372
+        "recent_citations": 373
       }
     },
     {
@@ -128251,7 +128328,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 156,
-        "citations": 3994,
+        "citations": 3995,
         "h_index": 31,
         "recent_papers": 41,
         "recent_citations": 511
@@ -128509,10 +128586,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 171,
-        "citations": 2454,
+        "citations": 2455,
         "h_index": 27,
         "recent_papers": 49,
-        "recent_citations": 347
+        "recent_citations": 348
       }
     },
     {
@@ -129179,10 +129256,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 124,
-        "citations": 2703,
+        "citations": 2704,
         "h_index": 23,
         "recent_papers": 35,
-        "recent_citations": 443
+        "recent_citations": 444
       }
     },
     {
@@ -129907,11 +129984,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 660,
-        "citations": 10174,
+        "papers": 661,
+        "citations": 10176,
         "h_index": 50,
         "recent_papers": 136,
-        "recent_citations": 1609
+        "recent_citations": 1610
       }
     },
     {
@@ -129934,9 +130011,9 @@ window.KOREA_BIO_MAP = {
         "insulin receptor",
         "phospholipase D1",
         "Receptor, Insulin",
+        "ErbB Receptors",
         "Signal Transduction",
-        "phosphatidic acid",
-        "epidermal growth factor receptor"
+        "phosphatidic acid"
       ],
       "techniques": [
         "형광·공초점 이미징",
@@ -129961,7 +130038,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 485,
-        "citations": 24354,
+        "citations": 24355,
         "h_index": 78,
         "recent_papers": 12,
         "recent_citations": 265
@@ -130014,10 +130091,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 332,
-        "citations": 24646,
+        "citations": 24807,
         "h_index": 86,
         "recent_papers": 130,
-        "recent_citations": 4635
+        "recent_citations": 4757
       }
     },
     {
@@ -130066,11 +130143,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 400,
-        "citations": 25320,
+        "papers": 401,
+        "citations": 25321,
         "h_index": 80,
         "recent_papers": 54,
-        "recent_citations": 1279
+        "recent_citations": 1280
       }
     },
     {
@@ -130148,7 +130225,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-9742-3207",
       "retired": false,
@@ -130164,7 +130241,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 325,
-        "citations": 6204,
+        "citations": 6205,
         "h_index": 42,
         "recent_papers": 44,
         "recent_citations": 430
@@ -130270,10 +130347,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 289,
-        "citations": 19980,
+        "citations": 19983,
         "h_index": 68,
         "recent_papers": 64,
-        "recent_citations": 2763
+        "recent_citations": 2764
       }
     },
     {
@@ -130357,9 +130434,9 @@ window.KOREA_BIO_MAP = {
       "techniques": [
         "오가노이드",
         "항체 개발",
-        "조직공학·바이오프린팅",
         "RNA 치료제·siRNA",
-        "머신러닝·AI"
+        "머신러닝·AI",
+        "나노입자·약물전달"
       ],
       "department": "",
       "lab": {},
@@ -130430,10 +130507,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 266,
-        "citations": 7157,
+        "citations": 7158,
         "h_index": 43,
         "recent_papers": 37,
-        "recent_citations": 498
+        "recent_citations": 499
       }
     },
     {
@@ -130537,7 +130614,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 152,
-        "citations": 12081,
+        "citations": 12082,
         "h_index": 51,
         "recent_papers": 43,
         "recent_citations": 1050
@@ -130590,7 +130667,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 212,
-        "citations": 6155,
+        "citations": 6157,
         "h_index": 40,
         "recent_papers": 23,
         "recent_citations": 145
@@ -130643,7 +130720,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 236,
-        "citations": 17083,
+        "citations": 17085,
         "h_index": 70,
         "recent_papers": 38,
         "recent_citations": 487
@@ -130695,11 +130772,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 1,
       "pubs": {
-        "papers": 178,
-        "citations": 13801,
+        "papers": 177,
+        "citations": 13807,
         "h_index": 54,
-        "recent_papers": 68,
-        "recent_citations": 1364
+        "recent_papers": 67,
+        "recent_citations": 1369
       }
     },
     {
@@ -130859,7 +130936,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 174,
-        "citations": 10291,
+        "citations": 10292,
         "h_index": 54,
         "recent_papers": 34,
         "recent_citations": 1152
@@ -130912,10 +130989,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 153,
-        "citations": 5951,
+        "citations": 5959,
         "h_index": 41,
         "recent_papers": 30,
-        "recent_citations": 236
+        "recent_citations": 238
       }
     },
     {
@@ -130964,7 +131041,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 158,
+        "papers": 159,
         "citations": 7633,
         "h_index": 42,
         "recent_papers": 21,
@@ -131072,10 +131149,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 59,
-        "citations": 15922,
+        "citations": 15924,
         "h_index": 37,
         "recent_papers": 16,
-        "recent_citations": 223
+        "recent_citations": 225
       }
     },
     {
@@ -131125,10 +131202,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 139,
-        "citations": 11047,
+        "citations": 11048,
         "h_index": 48,
         "recent_papers": 65,
-        "recent_citations": 2371
+        "recent_citations": 2372
       }
     },
     {
@@ -131178,10 +131255,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 129,
-        "citations": 9967,
+        "citations": 9972,
         "h_index": 34,
         "recent_papers": 30,
-        "recent_citations": 288
+        "recent_citations": 289
       }
     },
     {
@@ -131281,10 +131358,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 126,
-        "citations": 4507,
+        "citations": 4508,
         "h_index": 36,
         "recent_papers": 45,
-        "recent_citations": 934
+        "recent_citations": 935
       }
     },
     {
@@ -131387,10 +131464,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 80,
-        "citations": 2854,
-        "h_index": 32,
+        "citations": 2881,
+        "h_index": 33,
         "recent_papers": 25,
-        "recent_citations": 630
+        "recent_citations": 654
       }
     },
     {
@@ -131682,8 +131759,8 @@ window.KOREA_BIO_MAP = {
         "RAI14"
       ],
       "techniques": [
-        "유전자변형 마우스",
         "칼슘 이미징",
+        "유전자변형 마우스",
         "예쁜꼬마선충",
         "단백체",
         "면역조직화학"
@@ -131811,7 +131888,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 301,
-        "citations": 5216,
+        "citations": 5217,
         "h_index": 37,
         "recent_papers": 59,
         "recent_citations": 422
@@ -131992,8 +132069,8 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [
         "polypyrrole",
-        "conducting polymers",
         "Electric Conductivity",
+        "conducting polymers",
         "Pyrroles",
         "reduced graphene oxide",
         "bioelectrodes",
@@ -132390,7 +132467,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 124,
-        "citations": 8501,
+        "citations": 8502,
         "h_index": 38,
         "recent_papers": 61,
         "recent_citations": 1753
@@ -132496,7 +132573,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 184,
-        "citations": 7481,
+        "citations": 7482,
         "h_index": 50,
         "recent_papers": 7,
         "recent_citations": 45
@@ -132549,7 +132626,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 155,
-        "citations": 14571,
+        "citations": 14572,
         "h_index": 47,
         "recent_papers": 87,
         "recent_citations": 2002
@@ -132679,10 +132756,10 @@ window.KOREA_BIO_MAP = {
         "Meibomian Gland Dysfunction",
         "laser speckle contrast imaging",
         "meibomian glands",
+        "Eye Pain",
         "Neuralgia",
         "volumetric imaging",
-        "neuropathic pain",
-        "event-based imaging"
+        "neuropathic pain"
       ],
       "techniques": [
         "형광·공초점 이미징",
@@ -132707,7 +132784,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 110,
-        "citations": 4290,
+        "citations": 4294,
         "h_index": 34,
         "recent_papers": 28,
         "recent_citations": 365
@@ -132919,10 +132996,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 131,
-        "citations": 2505,
+        "citations": 2506,
         "h_index": 30,
         "recent_papers": 18,
-        "recent_citations": 539
+        "recent_citations": 540
       }
     },
     {
@@ -133106,10 +133183,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 91,
+        "papers": 92,
         "citations": 1246,
         "h_index": 20,
-        "recent_papers": 34,
+        "recent_papers": 35,
         "recent_citations": 177
       }
     },
@@ -133262,10 +133339,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 76,
+        "papers": 75,
         "citations": 3884,
         "h_index": 35,
-        "recent_papers": 18,
+        "recent_papers": 17,
         "recent_citations": 430
       }
     },
@@ -133795,10 +133872,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 50,
-        "citations": 689,
+        "citations": 690,
         "h_index": 16,
         "recent_papers": 16,
-        "recent_citations": 104
+        "recent_citations": 105
       }
     },
     {
@@ -133979,10 +134056,10 @@ window.KOREA_BIO_MAP = {
         "6-phosphogluconate dehydrogenase",
         "Phosphogluconate Dehydrogenase",
         "oxidative pentose phosphate pathway",
+        "Ubiquitin-Protein Ligases",
         "Adaptor Proteins, Signal Transducing",
         "imetelstat",
-        "prostate cancer metastasis",
-        "Ubiquitin-Protein Ligases"
+        "prostate cancer metastasis"
       ],
       "techniques": [
         "종양 이종이식 모델",
@@ -134109,10 +134186,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 51,
-        "citations": 743,
+        "citations": 744,
         "h_index": 14,
         "recent_papers": 11,
-        "recent_citations": 46
+        "recent_citations": 47
       }
     },
     {
@@ -134368,7 +134445,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 56,
-        "citations": 2583,
+        "citations": 2584,
         "h_index": 18,
         "recent_papers": 8,
         "recent_citations": 59
@@ -134467,10 +134544,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 46,
-        "citations": 682,
+        "citations": 684,
         "h_index": 15,
         "recent_papers": 23,
-        "recent_citations": 375
+        "recent_citations": 377
       }
     },
     {
@@ -134619,7 +134696,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 350,
-        "citations": 17761,
+        "citations": 17764,
         "h_index": 70,
         "recent_papers": 66,
         "recent_citations": 1271
@@ -134826,7 +134903,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 143,
+        "papers": 142,
         "citations": 3988,
         "h_index": 35,
         "recent_papers": 45,
@@ -135090,10 +135167,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 134,
-        "citations": 3151,
+        "citations": 3153,
         "h_index": 31,
         "recent_papers": 12,
-        "recent_citations": 188
+        "recent_citations": 189
       }
     },
     {
@@ -135249,7 +135326,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 108,
-        "citations": 6330,
+        "citations": 6331,
         "h_index": 45,
         "recent_papers": 29,
         "recent_citations": 290
@@ -135433,7 +135510,7 @@ window.KOREA_BIO_MAP = {
         "Calcium Channels, N-Type",
         "channel gating",
         "Anoctamins",
-        "Cell Membrane"
+        "Phospholipid Transfer Proteins"
       ],
       "techniques": [
         "전기생리",
@@ -135890,9 +135967,9 @@ window.KOREA_BIO_MAP = {
       "university_ko": "대구경북과학기술원",
       "position": "",
       "keywords": [
-        "Ribonucleoprotein, U4-U6 Small Nuclear",
         "polystyrene microplastics",
         "Microplastics",
+        "Ribonucleoprotein, U4-U6 Small Nuclear",
         "Cell Proliferation",
         "pluripotency",
         "ectoderm differentiation",
@@ -136183,11 +136260,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 66,
-        "citations": 7811,
+        "papers": 67,
+        "citations": 7812,
         "h_index": 19,
-        "recent_papers": 17,
-        "recent_citations": 124
+        "recent_papers": 18,
+        "recent_citations": 125
       }
     },
     {
@@ -136345,7 +136422,7 @@ window.KOREA_BIO_MAP = {
         "papers": 54,
         "citations": 605,
         "h_index": 13,
-        "recent_papers": 27,
+        "recent_papers": 26,
         "recent_citations": 144
       }
     },
@@ -136448,7 +136525,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 32,
-        "citations": 826,
+        "citations": 827,
         "h_index": 14,
         "recent_papers": 12,
         "recent_citations": 84
@@ -136603,7 +136680,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 58,
-        "citations": 9092,
+        "citations": 9093,
         "h_index": 31,
         "recent_papers": 8,
         "recent_citations": 62
@@ -137106,10 +137183,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 39,
-        "citations": 2486,
+        "citations": 2487,
         "h_index": 20,
         "recent_papers": 8,
-        "recent_citations": 40
+        "recent_citations": 41
       }
     },
     {
@@ -137259,7 +137336,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 36,
+        "papers": 35,
         "citations": 468,
         "h_index": 11,
         "recent_papers": 7,
@@ -137512,7 +137589,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 299,
+        "papers": 297,
         "citations": 1949,
         "h_index": 21,
         "recent_papers": 43,
@@ -137669,10 +137746,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 223,
-        "citations": 1878,
+        "citations": 1879,
         "h_index": 24,
         "recent_papers": 13,
-        "recent_citations": 79
+        "recent_citations": 80
       }
     },
     {
@@ -137719,10 +137796,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 223,
-        "citations": 3306,
+        "citations": 3307,
         "h_index": 33,
         "recent_papers": 14,
-        "recent_citations": 150
+        "recent_citations": 151
       }
     },
     {
@@ -137980,7 +138057,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 157,
-        "citations": 2182,
+        "citations": 2183,
         "h_index": 27,
         "recent_papers": 35,
         "recent_citations": 278
@@ -138675,10 +138752,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 84,
-        "citations": 1053,
+        "citations": 1054,
         "h_index": 18,
         "recent_papers": 16,
-        "recent_citations": 146
+        "recent_citations": 147
       }
     },
     {
@@ -138710,7 +138787,7 @@ window.KOREA_BIO_MAP = {
         "하이드로젤·스캐폴드",
         "조직공학·바이오프린팅",
         "전기생리",
-        "줄기세포·iPSC"
+        "나노입자·약물전달"
       ],
       "department": "",
       "lab": {},
@@ -138803,7 +138880,7 @@ window.KOREA_BIO_MAP = {
         "Gene Expression Regulation, Plant",
         "salt stress",
         "Brachypodium",
-        "salt tolerance"
+        "drought stress"
       ],
       "techniques": [
         "애기장대·식물 모델",
@@ -139123,7 +139200,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 61,
-        "citations": 4518,
+        "citations": 4519,
         "h_index": 24,
         "recent_papers": 4,
         "recent_citations": 7
@@ -139345,7 +139422,7 @@ window.KOREA_BIO_MAP = {
         "Parasitic Diseases, Animal",
         "Kudoa septempunctata",
         "Enteromyxum leei",
-        "Trematoda"
+        "spores"
       ],
       "techniques": [
         "유세포분석",
@@ -139612,10 +139689,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 44,
+        "papers": 45,
         "citations": 650,
         "h_index": 14,
-        "recent_papers": 17,
+        "recent_papers": 18,
         "recent_citations": 100
       }
     },
@@ -140052,10 +140129,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 593,
-        "citations": 10205,
+        "citations": 10206,
         "h_index": 35,
         "recent_papers": 245,
-        "recent_citations": 578
+        "recent_citations": 579
       }
     },
     {
@@ -141363,10 +141440,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 96,
-        "citations": 1381,
+        "citations": 1382,
         "h_index": 20,
         "recent_papers": 20,
-        "recent_citations": 385
+        "recent_citations": 386
       }
     },
     {
@@ -141604,7 +141681,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 1,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 222,
+        "papers": 221,
         "citations": 8400,
         "h_index": 46,
         "recent_papers": 70,
@@ -142030,10 +142107,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 291,
-        "citations": 10476,
+        "citations": 10477,
         "h_index": 57,
         "recent_papers": 50,
-        "recent_citations": 279
+        "recent_citations": 280
       }
     },
     {
@@ -142210,7 +142287,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 149,
-        "citations": 16165,
+        "citations": 16166,
         "h_index": 52,
         "recent_papers": 52,
         "recent_citations": 699
@@ -142455,10 +142532,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 72,
-        "citations": 945,
+        "citations": 946,
         "h_index": 19,
         "recent_papers": 18,
-        "recent_citations": 163
+        "recent_citations": 164
       }
     },
     {
@@ -142620,10 +142697,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 36,
-        "citations": 684,
+        "citations": 685,
         "h_index": 14,
         "recent_papers": 16,
-        "recent_citations": 206
+        "recent_citations": 207
       }
     },
     {
@@ -143034,7 +143111,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -143144,7 +143221,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.goneahn.com",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -143160,7 +143237,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 56,
-        "citations": 3376,
+        "citations": 3379,
         "h_index": 27,
         "recent_papers": 7,
         "recent_citations": 86
@@ -143249,7 +143326,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -143424,11 +143501,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 124,
-        "citations": 6386,
+        "papers": 125,
+        "citations": 6388,
         "h_index": 37,
         "recent_papers": 66,
-        "recent_citations": 1365
+        "recent_citations": 1366
       }
     },
     {
@@ -143514,7 +143591,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/laboflim/members/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -143622,7 +143699,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -143749,7 +143826,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://bmeel.snu.ac.kr/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -143812,11 +143889,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 403,
-        "citations": 29944,
+        "papers": 402,
+        "citations": 29948,
         "h_index": 90,
         "recent_papers": 102,
-        "recent_citations": 5675
+        "recent_citations": 5677
       }
     },
     {
@@ -143934,8 +144011,8 @@ window.KOREA_BIO_MAP = {
       "techniques": [
         "머신러닝·AI",
         "분자도킹·시뮬레이션",
-        "나노입자·약물전달",
         "하이드로젤·스캐폴드",
+        "나노입자·약물전달",
         "형광·공초점 이미징"
       ],
       "department": "바이오엔지니어링 협동과정",
@@ -143996,7 +144073,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -144012,7 +144089,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 102,
-        "citations": 3310,
+        "citations": 3311,
         "h_index": 25,
         "recent_papers": 47,
         "recent_citations": 639
@@ -144096,10 +144173,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 194,
-        "citations": 4516,
+        "citations": 4517,
         "h_index": 29,
         "recent_papers": 58,
-        "recent_citations": 601
+        "recent_citations": 602
       }
     },
     {
@@ -144181,10 +144258,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 312,
-        "citations": 22312,
+        "citations": 22317,
         "h_index": 82,
         "recent_papers": 92,
-        "recent_citations": 2642
+        "recent_citations": 2643
       }
     },
     {
@@ -144281,7 +144358,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 251,
-        "citations": 3006,
+        "citations": 3007,
         "h_index": 28,
         "recent_papers": 36,
         "recent_citations": 75
@@ -144420,10 +144497,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 307,
-        "citations": 13905,
+        "citations": 13908,
         "h_index": 60,
         "recent_papers": 53,
-        "recent_citations": 1799
+        "recent_citations": 1802
       }
     },
     {
@@ -144675,10 +144752,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 472,
-        "citations": 9846,
+        "papers": 474,
+        "citations": 9848,
         "h_index": 51,
-        "recent_papers": 172,
+        "recent_papers": 173,
         "recent_citations": 1799
       }
     },
@@ -145268,10 +145345,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 376,
-        "citations": 17056,
+        "papers": 377,
+        "citations": 17063,
         "h_index": 48,
-        "recent_papers": 78,
+        "recent_papers": 79,
         "recent_citations": 1555
       }
     },
@@ -145410,7 +145487,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -145426,7 +145503,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 193,
-        "citations": 12073,
+        "citations": 12076,
         "h_index": 53,
         "recent_papers": 52,
         "recent_citations": 495
@@ -145481,10 +145558,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 443,
-        "citations": 24121,
+        "citations": 24124,
         "h_index": 66,
         "recent_papers": 89,
-        "recent_citations": 2144
+        "recent_citations": 2146
       }
     },
     {
@@ -145545,7 +145622,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -145646,10 +145723,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 233,
+        "papers": 234,
         "citations": 5128,
         "h_index": 34,
-        "recent_papers": 91,
+        "recent_papers": 92,
         "recent_citations": 919
       }
     },
@@ -145701,7 +145778,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 81,
-        "citations": 6701,
+        "citations": 6703,
         "h_index": 37,
         "recent_papers": 16,
         "recent_citations": 483
@@ -146026,10 +146103,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 147,
-        "citations": 2699,
+        "citations": 2700,
         "h_index": 28,
         "recent_papers": 46,
-        "recent_citations": 515
+        "recent_citations": 516
       }
     },
     {
@@ -146272,7 +146349,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 221,
-        "citations": 16945,
+        "citations": 16946,
         "h_index": 41,
         "recent_papers": 53,
         "recent_citations": 870
@@ -146631,7 +146708,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 104,
-        "citations": 2768,
+        "citations": 2769,
         "h_index": 23,
         "recent_papers": 15,
         "recent_citations": 97
@@ -146827,10 +146904,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 258,
+        "papers": 259,
         "citations": 6762,
         "h_index": 43,
-        "recent_papers": 48,
+        "recent_papers": 49,
         "recent_citations": 671
       }
     },
@@ -146966,7 +147043,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "http://mipl.korea.ac.kr/people.php",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-7517-3967",
       "retired": false,
@@ -147074,7 +147151,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.aramchung.com/people.html",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-4984-0222",
       "retired": false,
@@ -147089,10 +147166,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 64,
+        "papers": 65,
         "citations": 2887,
         "h_index": 29,
-        "recent_papers": 21,
+        "recent_papers": 22,
         "recent_citations": 242
       }
     },
@@ -147399,7 +147476,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 32,
-        "citations": 3473,
+        "citations": 3474,
         "h_index": 21,
         "recent_papers": 13,
         "recent_citations": 412
@@ -147504,7 +147581,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 262,
-        "citations": 10468,
+        "citations": 10469,
         "h_index": 52,
         "recent_papers": 48,
         "recent_citations": 344
@@ -147528,11 +147605,11 @@ window.KOREA_BIO_MAP = {
         "Gene Expression Regulation, Plant",
         "plant regeneration",
         "callus formation",
-        "Transcription Factors",
         "circadian clock",
-        "Organogenesis, Plant",
+        "Transcription Factors",
         "Chromatin",
-        "Plant Shoots"
+        "Plant Shoots",
+        "Organogenesis, Plant"
       ],
       "techniques": [
         "애기장대·식물 모델",
@@ -147557,10 +147634,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 159,
-        "citations": 12266,
+        "citations": 12267,
         "h_index": 58,
         "recent_papers": 43,
-        "recent_citations": 528
+        "recent_citations": 529
       }
     },
     {
@@ -147647,7 +147724,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://seoklab.org/members.html",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-1419-9888",
       "retired": false,
@@ -147662,7 +147739,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 147,
+        "papers": 148,
         "citations": 9413,
         "h_index": 47,
         "recent_papers": 31,
@@ -147961,10 +148038,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 85,
-        "citations": 6340,
+        "citations": 6341,
         "h_index": 32,
         "recent_papers": 34,
-        "recent_citations": 606
+        "recent_citations": 607
       }
     },
     {
@@ -148063,8 +148140,8 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 208,
-        "citations": 11421,
+        "papers": 209,
+        "citations": 11422,
         "h_index": 51,
         "recent_papers": 40,
         "recent_citations": 507
@@ -148404,7 +148481,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/laboflim/members/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -148593,8 +148670,8 @@ window.KOREA_BIO_MAP = {
         "anti-inflammatory activity",
         "Syk",
         "Anti-Inflammatory Agents",
-        "Syk Kinase",
         "NF-κB signaling",
+        "Syk Kinase",
         "RAW 264.7 Cells",
         "Src kinase",
         "NF-kappa B"
@@ -148621,10 +148698,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 614,
+        "papers": 616,
         "citations": 21695,
         "h_index": 71,
-        "recent_papers": 136,
+        "recent_papers": 137,
         "recent_citations": 2064
       }
     },
@@ -148759,7 +148836,7 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 275,
+        "papers": 276,
         "citations": 7207,
         "h_index": 42,
         "recent_papers": 48,
@@ -148906,7 +148983,7 @@ window.KOREA_BIO_MAP = {
         "feature selection",
         "feature encoding",
         "Algorithms",
-        "benchmark dataset"
+        "ensemble learning"
       ],
       "techniques": [
         "머신러닝·AI",
@@ -149151,7 +149228,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://bestlaboratory.co.kr/people/alumni/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -149229,7 +149306,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://hrkimlab.github.io/team",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -149750,10 +149827,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 76,
-        "citations": 3928,
+        "citations": 3929,
         "h_index": 31,
         "recent_papers": 31,
-        "recent_citations": 567
+        "recent_citations": 568
       }
     },
     {
@@ -149849,7 +149926,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 181,
-        "citations": 17445,
+        "citations": 17446,
         "h_index": 66,
         "recent_papers": 31,
         "recent_citations": 903
@@ -149902,10 +149979,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 110,
-        "citations": 6736,
+        "citations": 6740,
         "h_index": 39,
         "recent_papers": 36,
-        "recent_citations": 895
+        "recent_citations": 896
       }
     },
     {
@@ -150065,11 +150142,11 @@ window.KOREA_BIO_MAP = {
         "colistin resistance",
         "Colistin",
         "Klebsiella pneumoniae",
-        "Anti-Bacterial Agents",
         "Microbial Sensitivity Tests",
+        "Anti-Bacterial Agents",
         "Acinetobacter baumannii",
-        "Drug Resistance, Bacterial",
-        "beta-Lactamases"
+        "beta-Lactamases",
+        "Drug Resistance, Bacterial"
       ],
       "techniques": [
         "차세대 시퀀싱(NGS)",
@@ -150211,10 +150288,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 101,
-        "citations": 2715,
+        "citations": 2717,
         "h_index": 34,
         "recent_papers": 25,
-        "recent_citations": 246
+        "recent_citations": 248
       }
     },
     {
@@ -150617,10 +150694,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 39,
-        "citations": 21133,
+        "citations": 21135,
         "h_index": 28,
         "recent_papers": 26,
-        "recent_citations": 15802
+        "recent_citations": 15804
       }
     },
     {
@@ -151135,10 +151212,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 38,
-        "citations": 1555,
+        "citations": 1556,
         "h_index": 18,
         "recent_papers": 10,
-        "recent_citations": 413
+        "recent_citations": 414
       }
     },
     {
@@ -151350,7 +151427,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 69,
-        "citations": 4990,
+        "citations": 4991,
         "h_index": 34,
         "recent_papers": 22,
         "recent_citations": 695
@@ -152037,7 +152114,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 137,
-        "citations": 4825,
+        "citations": 4826,
         "h_index": 29,
         "recent_papers": 25,
         "recent_citations": 527
@@ -152485,7 +152562,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 138,
-        "citations": 3443,
+        "citations": 3444,
         "h_index": 30,
         "recent_papers": 31,
         "recent_citations": 469
@@ -152910,7 +152987,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 87,
-        "citations": 2862,
+        "citations": 2863,
         "h_index": 25,
         "recent_papers": 17,
         "recent_citations": 268
@@ -153013,10 +153090,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 39,
-        "citations": 1111,
+        "citations": 1113,
         "h_index": 21,
         "recent_papers": 18,
-        "recent_citations": 190
+        "recent_citations": 192
       }
     },
     {
@@ -153111,10 +153188,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 78,
-        "citations": 4665,
+        "citations": 4666,
         "h_index": 37,
         "recent_papers": 34,
-        "recent_citations": 765
+        "recent_citations": 766
       }
     },
     {
@@ -153158,7 +153235,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 15,
-        "citations": 1612,
+        "citations": 1613,
         "h_index": 13,
         "recent_papers": 4,
         "recent_citations": 28
@@ -153390,8 +153467,8 @@ window.KOREA_BIO_MAP = {
         "단일세포 분석",
         "RNA-seq·전사체",
         "오가노이드",
-        "줄기세포·iPSC",
-        "생물정보·계산생물"
+        "생물정보·계산생물",
+        "줄기세포·iPSC"
       ],
       "department": "",
       "lab": {},
@@ -153408,11 +153485,11 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 72,
-        "citations": 9528,
+        "papers": 73,
+        "citations": 9532,
         "h_index": 31,
-        "recent_papers": 45,
-        "recent_citations": 2650
+        "recent_papers": 46,
+        "recent_citations": 2651
       }
     },
     {
@@ -153707,10 +153784,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 114,
-        "citations": 2533,
+        "citations": 2534,
         "h_index": 22,
         "recent_papers": 43,
-        "recent_citations": 1627
+        "recent_citations": 1628
       }
     },
     {
@@ -154035,7 +154112,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -154051,7 +154128,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 45,
-        "citations": 2895,
+        "citations": 2896,
         "h_index": 25,
         "recent_papers": 9,
         "recent_citations": 153
@@ -154100,7 +154177,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 21,
-        "citations": 1234,
+        "citations": 1235,
         "h_index": 16,
         "recent_papers": 2,
         "recent_citations": 56
@@ -154154,7 +154231,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 209,
-        "citations": 67512,
+        "citations": 67517,
         "h_index": 123,
         "recent_papers": 22,
         "recent_citations": 1744
@@ -154347,7 +154424,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 74,
-        "citations": 10479,
+        "citations": 10481,
         "h_index": 31,
         "recent_papers": 34,
         "recent_citations": 612
@@ -154375,8 +154452,8 @@ window.KOREA_BIO_MAP = {
         "site-specific integration",
         "therapeutic protein production",
         "cell engineering",
-        "Clustered Regularly Interspaced Short Palindromic Repeats",
-        "Cricetinae"
+        "Cricetinae",
+        "Clustered Regularly Interspaced Short Palindromic Repeats"
       ],
       "techniques": [
         "CRISPR 유전자편집",
@@ -154447,10 +154524,10 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {
-        "papers": 46,
+        "papers": 45,
         "citations": 1874,
         "h_index": 22,
-        "recent_papers": 6,
+        "recent_papers": 5,
         "recent_citations": 125
       }
     },
@@ -154639,7 +154716,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://yulkanglab.org/team/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-0689-2826",
       "retired": false,
@@ -154714,7 +154791,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/kaist-bcbl/people/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -154787,7 +154864,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://beee.kaist.ac.kr/home/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-2053-2648",
       "retired": false,
@@ -154882,7 +154959,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.pilnam.org/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0001-7764-7353",
       "retired": false,
@@ -154898,10 +154975,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 130,
-        "citations": 4694,
+        "citations": 4696,
         "h_index": 33,
         "recent_papers": 15,
-        "recent_citations": 169
+        "recent_citations": 170
       }
     },
     {
@@ -154977,7 +155054,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://neuros.kaist.ac.kr/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -155126,7 +155203,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://ygparklab.org/members/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0003-3305-7989",
       "retired": false,
@@ -155191,10 +155268,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 34,
-        "citations": 1623,
+        "citations": 1641,
         "h_index": 21,
         "recent_papers": 13,
-        "recent_citations": 395
+        "recent_citations": 408
       }
     },
     {
@@ -155271,8 +155348,8 @@ window.KOREA_BIO_MAP = {
         "Antirheumatic Agents",
         "immunotherapy",
         "Macrophages",
-        "pulmonary surfactant",
-        "gold nanorods"
+        "Neoplasms",
+        "pulmonary surfactant"
       ],
       "techniques": [
         "나노입자·약물전달",
@@ -155329,7 +155406,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://jhp.kaist.ac.kr/member/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "0000-0002-6705-2193",
       "retired": false,
@@ -155345,7 +155422,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 284,
-        "citations": 14828,
+        "citations": 14829,
         "h_index": 60,
         "recent_papers": 69,
         "recent_citations": 905
@@ -155485,7 +155562,49 @@ window.KOREA_BIO_MAP = {
         "분자도킹·시뮬레이션"
       ],
       "department": "약학대학",
-      "lab": {},
+      "lab": {
+        "alumni": 39.0,
+        "phd_graduates": 17.0,
+        "ms_graduates": 21.0,
+        "postdoc_alumni": 1.0,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 0.0,
+        "stay_years_est": 0.0,
+        "students_with_papers": 0.0,
+        "careers": {
+          "faculty": 1,
+          "postdoc": 1,
+          "industry": 22,
+          "hospital": 0,
+          "institute": 4,
+          "study": 0,
+          "other": 10
+        },
+        "recent": {
+          "alumni": 6.0,
+          "phd_graduates": 4.0,
+          "ms_graduates": 2.0,
+          "postdoc_alumni": 0.0,
+          "phd_years_est": 0.0,
+          "integrated_years_est": 0.0,
+          "ms_years_est": 0.0,
+          "stay_years_est": 0.0,
+          "students_with_papers": 0.0,
+          "careers": {
+            "faculty": 0,
+            "postdoc": 1,
+            "industry": 2,
+            "hospital": 0,
+            "institute": 1,
+            "study": 0,
+            "other": 2
+          }
+        },
+        "alumni_url": "https://synbi.kaist.ac.kr/xe/index.php?mid=page_BaFI55",
+        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
+        "as_of": "2026-10-21"
+      },
       "orcid": "0009-0007-4751-143X",
       "retired": false,
       "url": "https://pharm.duksung.ac.kr/sub/sub01_06.php",
@@ -155576,7 +155695,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://yulkanglab.org/team/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -155651,7 +155770,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/kaist-bcbl/people/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -155724,7 +155843,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://beee.kaist.ac.kr/home/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -155819,7 +155938,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://www.pilnam.org/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -155835,10 +155954,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 130,
-        "citations": 4694,
+        "citations": 4696,
         "h_index": 33,
         "recent_papers": 15,
-        "recent_citations": 169
+        "recent_citations": 170
       }
     },
     {
@@ -155914,7 +156033,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://neuros.kaist.ac.kr/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -156063,7 +156182,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://ygparklab.org/members/",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -156128,10 +156247,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 34,
-        "citations": 1623,
+        "citations": 1641,
         "h_index": 21,
         "recent_papers": 13,
-        "recent_citations": 395
+        "recent_citations": 408
       }
     },
     {
@@ -156208,8 +156327,8 @@ window.KOREA_BIO_MAP = {
         "Antirheumatic Agents",
         "immunotherapy",
         "Macrophages",
-        "pulmonary surfactant",
-        "gold nanorods"
+        "Neoplasms",
+        "pulmonary surfactant"
       ],
       "techniques": [
         "나노입자·약물전달",
@@ -156266,7 +156385,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://jhp.kaist.ac.kr/member/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -156282,7 +156401,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 284,
-        "citations": 14828,
+        "citations": 14829,
         "h_index": 60,
         "recent_papers": 69,
         "recent_citations": 905
@@ -156422,7 +156541,49 @@ window.KOREA_BIO_MAP = {
         "분자도킹·시뮬레이션"
       ],
       "department": "바이오및뇌공학과",
-      "lab": {},
+      "lab": {
+        "alumni": 39.0,
+        "phd_graduates": 17.0,
+        "ms_graduates": 21.0,
+        "postdoc_alumni": 1.0,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 0.0,
+        "stay_years_est": 0.0,
+        "students_with_papers": 0.0,
+        "careers": {
+          "faculty": 1,
+          "postdoc": 1,
+          "industry": 22,
+          "hospital": 0,
+          "institute": 4,
+          "study": 0,
+          "other": 10
+        },
+        "recent": {
+          "alumni": 6.0,
+          "phd_graduates": 4.0,
+          "ms_graduates": 2.0,
+          "postdoc_alumni": 0.0,
+          "phd_years_est": 0.0,
+          "integrated_years_est": 0.0,
+          "ms_years_est": 0.0,
+          "stay_years_est": 0.0,
+          "students_with_papers": 0.0,
+          "careers": {
+            "faculty": 0,
+            "postdoc": 1,
+            "industry": 2,
+            "hospital": 0,
+            "institute": 1,
+            "study": 0,
+            "other": 2
+          }
+        },
+        "alumni_url": "https://synbi.kaist.ac.kr/xe/index.php?mid=page_BaFI55",
+        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
+        "as_of": "2026-10-21"
+      },
       "orcid": "",
       "retired": false,
       "url": "https://bioeng.kaist.ac.kr/",
@@ -156666,7 +156827,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://biophotonics.kaist.ac.kr/the-team",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -156682,10 +156843,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 143,
-        "citations": 5879,
+        "citations": 5880,
         "h_index": 45,
         "recent_papers": 22,
-        "recent_citations": 270
+        "recent_citations": 271
       }
     },
     {
@@ -156772,7 +156933,59 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "바이오및뇌공학과",
-      "lab": {},
+      "lab": {
+        "alumni": 55.0,
+        "phd_graduates": 41.0,
+        "ms_graduates": 14.0,
+        "postdoc_alumni": 0.0,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 0.0,
+        "stay_years_est": 0.0,
+        "students_with_papers": 35.0,
+        "papers_per_student": 3.5,
+        "first_author_per_student": 1.3,
+        "fwci_median": 0.6,
+        "top10_share": 0.19,
+        "careers": {
+          "faculty": 4,
+          "postdoc": 0,
+          "industry": 1,
+          "hospital": 1,
+          "institute": 4,
+          "study": 0,
+          "other": 17
+        },
+        "top_journals": "Alzheimer s & Dementia; Frontiers in Aging Neuroscience; IBRO Reports",
+        "recent": {
+          "alumni": 14.0,
+          "phd_graduates": 8.0,
+          "ms_graduates": 6.0,
+          "postdoc_alumni": 0.0,
+          "phd_years_est": 0.0,
+          "integrated_years_est": 0.0,
+          "ms_years_est": 0.0,
+          "stay_years_est": 0.0,
+          "students_with_papers": 14.0,
+          "papers_per_student": 3.1,
+          "first_author_per_student": 1.4,
+          "fwci_median": 0.9,
+          "top10_share": 0.2,
+          "careers": {
+            "faculty": 0,
+            "postdoc": 0,
+            "industry": 0,
+            "hospital": 0,
+            "institute": 2,
+            "study": 0,
+            "other": 5
+          },
+          "top_journals": "IBRO Reports; EJNMMI Research; Frontiers in Aging Neuroscience"
+        },
+        "alumni_url": "https://ibrain.kaist.ac.kr/alumni/",
+        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
+        "as_of": "2026-10-21"
+      },
       "orcid": "",
       "retired": false,
       "url": "https://bioeng.kaist.ac.kr/",
@@ -156825,7 +157038,33 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI"
       ],
       "department": "바이오및뇌공학과",
-      "lab": {},
+      "lab": {
+        "alumni": 19.0,
+        "phd_graduates": 8.0,
+        "ms_graduates": 11.0,
+        "postdoc_alumni": 0.0,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 0.0,
+        "stay_years_est": 0.0,
+        "students_with_papers": 5.0,
+        "papers_per_student": 0.4,
+        "first_author_per_student": 0.0,
+        "fwci_median": 0.2,
+        "top10_share": 0.0,
+        "careers": {
+          "faculty": 0,
+          "postdoc": 0,
+          "industry": 0,
+          "hospital": 0,
+          "institute": 0,
+          "study": 0,
+          "other": 11
+        },
+        "alumni_url": "https://sbie.kaist.ac.kr/people/associate-members/alumni/",
+        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
+        "as_of": "2026-10-21"
+      },
       "orcid": "",
       "retired": false,
       "url": "https://bioeng.kaist.ac.kr/",
@@ -156840,10 +157079,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 340,
-        "citations": 7343,
+        "citations": 7345,
         "h_index": 48,
         "recent_papers": 39,
-        "recent_citations": 396
+        "recent_citations": 397
       }
     },
     {
@@ -156878,7 +157117,20 @@ window.KOREA_BIO_MAP = {
         "하이드로젤·스캐폴드"
       ],
       "department": "바이오및뇌공학과",
-      "lab": {},
+      "lab": {
+        "alumni": 28.0,
+        "phd_graduates": 27.0,
+        "ms_graduates": 1.0,
+        "postdoc_alumni": 0.0,
+        "phd_years_est": 0.0,
+        "integrated_years_est": 0.0,
+        "ms_years_est": 0.0,
+        "stay_years_est": 0.0,
+        "students_with_papers": 0.0,
+        "alumni_url": "https://mcchoi.kaist.ac.kr/members/",
+        "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
+        "as_of": "2026-10-21"
+      },
       "orcid": "",
       "retired": false,
       "url": "https://bioeng.kaist.ac.kr/",
@@ -156982,7 +157234,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://omics.kaist.ac.kr/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -156998,10 +157250,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 141,
-        "citations": 17552,
+        "citations": 17553,
         "h_index": 49,
         "recent_papers": 26,
-        "recent_citations": 490
+        "recent_citations": 491
       }
     },
     {
@@ -157112,7 +157364,7 @@ window.KOREA_BIO_MAP = {
         "top_journals": "Small",
         "alumni_url": "https://isml.kaist.ac.kr/contact-us/alumni",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -157128,7 +157380,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 377,
-        "citations": 16859,
+        "citations": 16861,
         "h_index": 73,
         "recent_papers": 63,
         "recent_citations": 988
@@ -157215,7 +157467,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://bmnd.kaist.ac.kr/members",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -157310,7 +157562,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sbml.kaist.ac.kr/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -157326,10 +157578,10 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 241,
-        "citations": 13899,
+        "citations": 13902,
         "h_index": 48,
         "recent_papers": 40,
-        "recent_citations": 1214
+        "recent_citations": 1216
       }
     },
     {
@@ -157413,7 +157665,7 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "",
         "source": "사용자가 정리한 연구실 졸업생 명단 (홈페이지 기재 기준)",
-        "as_of": "2026-10-20"
+        "as_of": "2026-10-21"
       },
       "orcid": "",
       "retired": false,
@@ -157429,7 +157681,7 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 154,
-        "citations": 3868,
+        "citations": 3869,
         "h_index": 33,
         "recent_papers": 49,
         "recent_citations": 1250
@@ -157529,11 +157781,43 @@ window.KOREA_BIO_MAP = {
       "postdoc_mentor_count": 0,
       "pubs": {
         "papers": 509,
-        "citations": 9717,
+        "citations": 9718,
         "h_index": 51,
         "recent_papers": 38,
         "recent_citations": 548
       }
+    },
+    {
+      "id": "P3075",
+      "name": "이진우",
+      "name_en": "Jinwoo Lee",
+      "university": "KAIST",
+      "field": "",
+      "category": "기타",
+      "region": "대전·충청",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "한국과학기술원",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3",
+      "lab_url": "",
+      "openalex_id": "",
+      "identity": "alumni_page",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [
@@ -165263,10 +165547,10 @@ window.KOREA_BIO_MAP = {
       "source": "P0108",
       "target": "P0254",
       "type": "collaboration",
-      "paper_count": 3,
+      "paper_count": 4,
       "verified": "auto",
-      "strength": 0.222,
-      "last_year": 2022
+      "strength": 0.347,
+      "last_year": 2026
     },
     {
       "source": "P0108",
@@ -177575,18 +177859,18 @@ window.KOREA_BIO_MAP = {
       "source": "P0532",
       "target": "P2471",
       "type": "collaboration",
-      "paper_count": 180,
+      "paper_count": 181,
       "verified": "auto",
-      "strength": 4.41,
+      "strength": 4.434,
       "last_year": 2026
     },
     {
       "source": "P0532",
       "target": "P2474",
       "type": "collaboration",
-      "paper_count": 171,
+      "paper_count": 172,
       "verified": "auto",
-      "strength": 3.998,
+      "strength": 4.022,
       "last_year": 2026
     },
     {
@@ -248972,9 +249256,9 @@ window.KOREA_BIO_MAP = {
       "source": "P2471",
       "target": "P2474",
       "type": "collaboration",
-      "paper_count": 174,
+      "paper_count": 175,
       "verified": "auto",
-      "strength": 4.617,
+      "strength": 4.64,
       "last_year": 2026
     },
     {
@@ -257352,6 +257636,15 @@ window.KOREA_BIO_MAP = {
       "target": "P2609",
       "type": "advisor_student",
       "paper_count": 0,
+      "verified": "alumni_page",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P3065",
+      "target": "P0047",
+      "type": "advisor_student",
+      "paper_count": 2,
       "verified": "alumni_page",
       "strength": 0.0,
       "last_year": 0

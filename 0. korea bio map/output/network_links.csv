@@ -857,7 +857,7 @@ AUTO000855,P0105,P0801,collaboration,4,,auto,OpenAlex coauthorship between confi
 AUTO000856,P0105,P2491,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.259,2019,2025,P0105,P2491
 AUTO000857,P0107,P0842,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.17,2009,2017,P0107,P0842
 AUTO000858,P0107,P1000,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.095,2025,2026,P0107,P1000
-AUTO000859,P0108,P0254,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.222,2016,2022,P0108,P0254
+AUTO000859,P0108,P0254,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,0.347,2016,2026,P0108,P0254
 AUTO000860,P0108,P0358,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.2,2025,2025,P0108,P0358
 AUTO000861,P0108,P0801,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.188,2023,2024,P0108,P0801
 AUTO000862,P0108,P0881,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,0.139,2022,2023,P0108,P0881
@@ -2225,8 +2225,8 @@ AUTO002223,P0532,P2271,collaboration,2,,auto,OpenAlex coauthorship between confi
 AUTO002224,P0532,P2302,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,0.076,2018,2023,P0532,P2302
 AUTO002225,P0532,P2329,collaboration,18,,auto,OpenAlex coauthorship between confirmed professors,0.455,2009,2024,P0532,P2329
 AUTO002226,P0532,P2331,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.048,2023,2024,P0532,P2331
-AUTO002227,P0532,P2471,collaboration,180,,auto,OpenAlex coauthorship between confirmed professors,4.41,2012,2026,P0532,P2471
-AUTO002228,P0532,P2474,collaboration,171,,auto,OpenAlex coauthorship between confirmed professors,3.998,2011,2026,P0532,P2474
+AUTO002227,P0532,P2471,collaboration,181,,auto,OpenAlex coauthorship between confirmed professors,4.434,2012,2026,P0532,P2471
+AUTO002228,P0532,P2474,collaboration,172,,auto,OpenAlex coauthorship between confirmed professors,4.022,2011,2026,P0532,P2474
 AUTO002229,P0532,P2490,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.041,2024,2026,P0532,P2490
 AUTO002230,P0532,P2522,collaboration,46,,auto,OpenAlex coauthorship between confirmed professors,1.303,2016,2026,P0532,P2522
 AUTO002231,P0533,P0534,collaboration,5,,auto,OpenAlex coauthorship between confirmed professors,0.719,2015,2021,P0533,P0534
@@ -10158,7 +10158,7 @@ AUTO010156,P2470,P2520,collaboration,32,,auto,OpenAlex coauthorship between conf
 AUTO010157,P2470,P2644,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,0.16,2007,2014,P2470,P2644
 AUTO010158,P2470,P2908,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.202,2010,2015,P2470,P2908
 AUTO010159,P2470,P2979,collaboration,5,,auto,OpenAlex coauthorship between confirmed professors,0.222,2000,2011,P2470,P2979
-AUTO010160,P2471,P2474,collaboration,174,,auto,OpenAlex coauthorship between confirmed professors,4.617,2013,2026,P2471,P2474
+AUTO010160,P2471,P2474,collaboration,175,,auto,OpenAlex coauthorship between confirmed professors,4.64,2013,2026,P2471,P2474
 AUTO010161,P2471,P2522,collaboration,26,,auto,OpenAlex coauthorship between confirmed professors,0.618,2016,2026,P2471,P2522
 AUTO010162,P2472,P2503,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.158,2006,2006,P2472,P2503
 AUTO010163,P2472,P2508,collaboration,10,,auto,OpenAlex coauthorship between confirmed professors,0.328,2003,2007,P2472,P2508
@@ -11090,12 +11090,13 @@ ALU000159,P2886,P1225,advisor_student,3,https://seoklab.org/members.html,alumni_
 ALU000160,P3034,P1163,advisor_student,0,(given by hand: P3034),alumni_page,"listed on the lab's alumni page (unknown, 2024)",,,,P3034,P1163
 ALU000161,P3055,P2578,advisor_student,,https://jhp.kaist.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (phd, 2015)",,,,P3055,P2578
 ALU000162,P3055,P2609,advisor_student,,https://jhp.kaist.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (ms, 2012)",,,,P3055,P2609
-ALU000165,P3067,P1577,advisor_student,7,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2017)",,,,P3067,P1577
-ALU000166,P3067,P1297,advisor_student,20,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2023)",,,,P3067,P1297
-ALU000167,P3069,P0342,advisor_student,8,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,"listed on the lab's alumni page (ms, 2019)",,,,P3069,P0342
-ALU000168,P3069,P1220,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P1220
-ALU000169,P3069,P1174,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P1174
-ALU000170,P3069,P0753,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P0753
-ALU000171,P3069,P1224,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P1224
-ALU000172,P3070,P0631,advisor_student,0,https://bmnd.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (ms, 2016)",,,,P3070,P0631
-ALU000173,P3072,P0959,advisor_student,0,(given by hand: P3072),alumni_page,"listed on the lab's alumni page (ms, 2019)",,,,P3072,P0959
+ALU000165,P3065,P0047,advisor_student,2,https://sbie.kaist.ac.kr/people/associate-members/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2008)",,,,P3065,P0047
+ALU000166,P3067,P1577,advisor_student,7,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2017)",,,,P3067,P1577
+ALU000167,P3067,P1297,advisor_student,20,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2023)",,,,P3067,P1297
+ALU000168,P3069,P0342,advisor_student,8,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,"listed on the lab's alumni page (ms, 2019)",,,,P3069,P0342
+ALU000169,P3069,P1220,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P1220
+ALU000170,P3069,P1174,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P1174
+ALU000171,P3069,P0753,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P0753
+ALU000172,P3069,P1224,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P1224
+ALU000173,P3070,P0631,advisor_student,0,https://bmnd.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (ms, 2016)",,,,P3070,P0631
+ALU000174,P3072,P0959,advisor_student,0,(given by hand: P3072),alumni_page,"listed on the lab's alumni page (ms, 2019)",,,,P3072,P0959

@@ -99,6 +99,17 @@
     /* community button */
     .community{position:fixed;right:14px;bottom:14px;z-index:21;display:flex;align-items:center;gap:7px;background:linear-gradient(135deg,#fbbf24,#f59e0b);color:#111;font:700 13px Arial,sans-serif;padding:10px 15px;border-radius:999px;text-decoration:none;box-shadow:0 6px 24px rgba(251,191,36,.35)}
     .community:hover{filter:brightness(1.08)}
+    .login-btn{position:fixed;right:170px;bottom:14px;z-index:21;background:rgba(3,7,18,.78);border:1px solid rgba(255,255,255,.2);color:#e5e7eb;border-radius:999px;padding:10px 14px;font:600 13px Arial,sans-serif;cursor:pointer}
+    .login-btn:disabled{opacity:.5;cursor:default}
+    .login-modal{position:fixed;inset:0;z-index:40;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;padding:16px}
+    .login-modal[hidden]{display:none}
+    .login-box{position:relative;width:360px;max-width:100%;background:#0b1020;border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:10px;color:#e5e7eb}
+    .login-box h3{margin:0;font-size:18px}
+    .login-box p{margin:0;font-size:13px;color:#9aa7c7;line-height:1.6}
+    .login-box input{background:#0f172a;border:1px solid rgba(255,255,255,.15);border-radius:10px;color:#fff;padding:10px 12px;font-size:14px}
+    .login-send{background:linear-gradient(135deg,#fbbf24,#f59e0b);color:#111;border:0;border-radius:10px;padding:11px;font:700 14px Arial,sans-serif;cursor:pointer}
+    .login-x{position:absolute;top:8px;right:10px;background:none;border:0;color:#9aa7c7;font-size:20px;cursor:pointer}
+    .login-msg{font-size:13px;min-height:18px}
     .viewbar{position:fixed;left:14px;bottom:14px;z-index:21;display:flex;gap:3px;background:rgba(3,7,18,.78);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:4px}
     .viewbar label{display:inline-flex;align-items:center;gap:7px;color:#d7def0;font:600 12px Arial,sans-serif;padding:5px 11px;cursor:pointer;user-select:none}
     .viewbar input{accent-color:#fbbf24;width:15px;height:15px;margin:0}
@@ -210,11 +221,24 @@
     <label><input type="checkbox" id="view-collab">공동연구 선 보기</label>
   </div>
   <aside class="card" id="card" hidden aria-live="polite"></aside>
+  <button class="login-btn" id="login-btn" type="button">로그인</button>
+  <div class="login-modal" id="login-modal" hidden>
+    <form class="login-box" id="login-form">
+      <button type="button" class="login-x" id="login-close" aria-label="닫기">×</button>
+      <h3>학교 메일로 로그인</h3>
+      <p>ac.kr로 끝나는 학교 메일을 입력하면 인증 링크를 보내 드립니다. 가입과 로그인이 같습니다.</p>
+      <input id="login-email" type="email" placeholder="name@school.ac.kr" autocomplete="email" required />
+      <button type="submit" class="login-send">인증 메일 받기</button>
+      <div id="login-msg" class="login-msg"></div>
+    </form>
+  </div>
   <a class="community" href="./community.html">💬 커뮤니티</a>
 
   <script src="./vendor/three.min.js"></script>
   <script src="./vendor/3d-force-graph.min.js"></script>
   <script src="./network-data.js"></script>
+  <script src="./supabase-config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
   <script>
     // One color per broad field (src/classify.py, data/field_categories.csv).
     const CATEGORY_COLORS={
@@ -1164,5 +1188,6 @@
     buildFilters();applyFilters();
     if(window.matchMedia("(max-width:640px)").matches) setSide(false);
   </script>
+  <script src="./auth.js"></script>
 </body>
 </html>

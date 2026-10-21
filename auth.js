@@ -32,8 +32,24 @@
     return;
   }
 
-  client.auth.getSession().then(({ data }) => render(data.session && data.session.user));
+  function refresh() {
+    client.auth.getSession().then(({ data }) => {
+      const user = data.session && data.session.user;
+      render(user);
+      if (user) {
+        // 메일 링크를 다른 탭에서 눌러 로그인했을 때 이 창도 바로 바뀌게 합니다.
+        modal.hidden = true;
+        show("", true);
+      }
+    });
+  }
+
+  refresh();
   client.auth.onAuthStateChange((_event, session) => render(session && session.user));
+  // 인증 링크는 보통 새 탭에서 열리므로, 이 창으로 돌아오거나 다른 탭에서 로그인이 바뀌면 다시 확인합니다.
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) refresh(); });
+  window.addEventListener("focus", refresh);
+  window.addEventListener("storage", refresh);
 
   btn.addEventListener("click", async () => {
     if (btn.dataset.mode === "logout") {
@@ -62,6 +78,6 @@
       show("메일을 보내지 못했습니다: " + error.message, false);
       return;
     }
-    show("학교 메일로 인증 링크를 보냈습니다. 메일의 링크를 눌러 주세요.", true);
+    show("학교 메일로 인증 링크를 보냈습니다. 메일의 링크를 누른 뒤 이 창으로 돌아오면 자동으로 로그인됩니다.", true);
   });
 })();

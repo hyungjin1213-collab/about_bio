@@ -158311,7 +158311,7 @@ window.KOREA_BIO_MAP = {
       "region": "기타",
       "home_sector": "학",
       "sectors": [
-        "학"
+        "연"
       ],
       "university_ko": "",
       "position": "",

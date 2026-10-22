@@ -257518,33 +257518,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 0
     },
     {
-      "source": "P2795",
-      "target": "P0187",
-      "type": "advisor_student",
-      "paper_count": 35,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P2795",
-      "target": "P1186",
-      "type": "advisor_student",
-      "paper_count": 13,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P2795",
-      "target": "P0756",
-      "type": "advisor_student",
-      "paper_count": 7,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
       "source": "P2797",
       "target": "P3008",
       "type": "advisor_student",

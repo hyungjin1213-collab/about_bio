@@ -1,2 +1,5 @@
 professor_a_id,professor_b_id,relationship_type,decision,notes
 P0746,P0868,advisor_student,no,"현택환 교수 제자 이진우는 KAIST 이진우 (연세대 약대 이진우 P0868 아님) (사용자 제보 10/19)"
+P2795,P0187,advisor_student,no,"전누리 졸업생 엑셀에 없는 이름이 이름 비슷함으로 연결된 잘못된 링크 (이슬아, 사용자 확인 10/22)"
+P2795,P0756,advisor_student,no,"전누리 졸업생 엑셀에 없는 이름이 이름 비슷함으로 연결된 잘못된 링크 (김현아, 사용자 확인 10/22)"
+P2795,P1186,advisor_student,no,"전누리 졸업생 엑셀에 없는 이름이 이름 비슷함으로 연결된 잘못된 링크 (Doo-Sang Park, 사용자 확인 10/22)"

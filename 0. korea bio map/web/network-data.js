@@ -158108,6 +158108,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3084",
+      "name": "신흥수",
+      "name_en": "Heungsoo Shin",
+      "university": "Hanyang University",
+      "field": "",
+      "category": "분자·세포생물",
+      "region": "서울",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "한양대학교",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "생명공학과",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://bioeng.hanyang.ac.kr/board/pages/sub0201.php?pgn=21",
+      "lab_url": "http://www.bmtl.kr/main.php",
+      "openalex_id": "A5062317501",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

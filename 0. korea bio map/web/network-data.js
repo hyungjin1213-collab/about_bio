@@ -158236,6 +158236,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3088",
+      "name": "고지훈",
+      "name_en": "Jihoon Ko",
+      "university": "Hanyang University",
+      "field": "",
+      "category": "분자·세포생물",
+      "region": "서울",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "한양대학교",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "생명공학과",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://sites.google.com/view/jihoonko",
+      "lab_url": "",
+      "openalex_id": "A5048958395",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [
@@ -254911,6 +254943,15 @@ window.KOREA_BIO_MAP = {
     {
       "source": "P2795",
       "target": "P3077",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "manual",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P2795",
+      "target": "P3088",
       "type": "advisor_student",
       "paper_count": 0,
       "verified": "manual",

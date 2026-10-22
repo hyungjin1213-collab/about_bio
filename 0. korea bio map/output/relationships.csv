@@ -10741,6 +10741,7 @@ AUTO010739,P3059,P3064,collaboration,3,,auto,OpenAlex coauthorship between confi
 AUTO010740,P3062,P3064,collaboration,7,,auto,OpenAlex coauthorship between confirmed professors,0.665,2009,2025
 AUTO010741,P3064,P3067,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.521,2018,2020
 MAN000001,P2795,P3077,advisor_student,,,manual,"전누리 졸업생 엑셀: 경희대 의과대학 교수 (phd 2021, 사용자 제보)",,,
+MAN000002,P2795,P3088,advisor_student,,,manual,"전누리 졸업생 엑셀: 한양대 교수 (phd 2021, 사용자 제보)",,,
 XLS0002,P2532,P0008,advisor_student,,,yes,사용자 제보 (10/16): 양진아 = 정규열 교수 박사,,,
 XLS0003,P0002,P0008,postdoc_mentor,,,yes,사용자 제보 (10/16): 양진아 = 서상우 교수 포닥,,,
 XLS0004,P0002,P0018,advisor_student,,,yes,"사용자 제보 (10/16): 한용희 = 서상우 교수 박사, 교수 배출",,,

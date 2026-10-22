@@ -142,7 +142,7 @@
 <body>
   <div class="panel">
     <h1>Korea Bio Map · 3D</h1>
-    <p>교수 = 별 · 밝기 = 종합점수 · 크기 = 교수가 된 제자 수 · 색 = 분야</p>
+    <p>교수 = 별 · 밝기 = 종합점수 · 크기 = PI가 된 제자 수 · 색 = 분야</p>
     <div class="lines">
       <div><span class="line" style="background:#bfdbfe;height:2px"></span>지도교수 → 제자 (별을 누르면 그 교수의 선만 표시)</div>
       <div><span class="line" style="background:#c084fc;height:2px;opacity:.35"></span>포닥 멘토 → 포닥 (일단 숨김)</div>
@@ -191,7 +191,7 @@
         <select id="rank-by" aria-label="순위 기준">
           <option value="score">종합 점수</option>
           <option value="collaborator_count">공동연구 교수 수</option>
-          <option value="faculty_trainee_count">교수가 된 제자 수</option>
+          <option value="faculty_trainee_count">PI가 된 제자 수</option>
           <option value="pub:citations">피인용 수</option>
           <option value="pub:h_index">h-index</option>
           <option value="pub:recent_papers">최근 5년 논문 수</option>
@@ -353,7 +353,7 @@
         {map:STAR_TEX,color,transparent:true,opacity,depthWrite:false,blending:THREE.AdditiveBlending})).get(key);
     };
     // Brightness = 종합점수 순위 (percentile), so neighbouring scores look clearly different:
-    // the lowest 70–100% of professors. Size = 교수가 된 제자 수 (most professors have none, so
+    // the lowest 70–100% of professors. Size = PI가 된 제자 수 (most professors have none, so
     // each trainee adds a clear step). Retired professors are dimmed further.
     const SORTED_SCORES=(window.KOREA_BIO_MAP.nodes||[]).map(n=>Number(n.score)||0).sort((a,b)=>a-b);
     const starBrightness=node=>{
@@ -545,7 +545,7 @@
         <div class="stats" style="margin-top:12px">
           <div class="stat"><b>${n.score}</b><span>점수</span></div>
           <div class="stat"><b>${n.collaborator_count}</b><span>공동연구</span></div>
-          <div class="stat" title="지도 속 제자 교수 ${lin.students.length}명 · 졸업생 페이지 기준 교수 ${facultyAlumni(n)}명"><b>${Math.max(lin.students.length,facultyAlumni(n))}</b><span>교수 된 제자</span></div>
+          <div class="stat" title="지도 속 제자 교수 ${lin.students.length}명 · 졸업생 페이지 기준 교수 ${facultyAlumni(n)}명"><b>${Math.max(lin.students.length,facultyAlumni(n))}</b><span>PI가 된 제자</span></div>
           <div class="stat"><b>${lin.postdocs.length}</b><span>PI 된 포닥</span></div>
         </div>
         ${pubBlock(n)}
@@ -557,7 +557,7 @@
         ${(n.keywords||[]).length?`<h3>연구 분야</h3><div class="tags">${n.keywords.slice(0,8).map(k=>`<span class="tag">${esc(k)}</span>`).join("")}</div>`:""}
         ${(n.techniques||[]).length?`<h3>주요 기술</h3><div class="tags">${n.techniques.slice(0,6).map(k=>`<span class="tag tech">${esc(k)}</span>`).join("")}</div>`:""}
         ${lin.advisors.length||lin.mentors.length?`<h3>지도교수 · 포닥 멘토</h3><div class="people">${people(lin.advisors,"")}${people(lin.mentors,"pd")}</div>`:""}
-        ${lin.students.length||lin.postdocs.length?`<h3>교수가 된 제자 · 포닥</h3><div class="people">${people(lin.students,"")}${people(lin.postdocs,"pd")}</div>`:""}
+        ${lin.students.length||lin.postdocs.length?`<h3>PI가 된 제자 · 포닥</h3><div class="people">${people(lin.students,"")}${people(lin.postdocs,"pd")}</div>`:""}
         <button class="cmp-add">${cmpButtonText(n.id)}</button>
         ${lin.students.length?`<button class="hier-btn" id="hier-btn">Show Hierarchy</button><div class="hier-note" id="hier-note"></div>`:""}
         <div class="links">${safeUrl(n.lab_url)?`<a href="${esc(safeUrl(n.lab_url))}" target="_blank" rel="noopener">연구실 홈페이지</a>`:""}
@@ -1059,7 +1059,7 @@
       const views=nodes.map(n=>labView(n.lab));
       const head=nodes.map(n=>`<th><button data-cmp-name="${esc(n.id)}">${esc(n.name)}</button><br><span class="muted" style="font-weight:400">${esc(n.university_ko||n._uni||n.university)}</span></th>`).join("");
       const extra=[
-        ["지도 속 교수 된 제자",nodes.map(n=>n.faculty_trainee_count||0),"high",x=>x?`${x}명`:""],
+        ["지도 속 PI가 된 제자",nodes.map(n=>n.faculty_trainee_count||0),"high",x=>x?`${x}명`:""],
         ["최근 5년 논문",nodes.map(n=>(n.pubs||{}).recent_papers),"high",x=>x?`${x}편`:""],
         ["h-index",nodes.map(n=>(n.pubs||{}).h_index),"high",x=>x?`${x}`:""]
       ];

@@ -158300,6 +158300,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3090",
+      "name": "김홍남",
+      "name_en": "Hong Nam Kim",
+      "university": "KIST",
+      "field": "",
+      "category": "기타",
+      "region": "기타",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "",
+      "lab_url": "https://sites.google.com/view/hongnamkim/hong-nam-kim",
+      "openalex_id": "",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

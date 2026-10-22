@@ -60,7 +60,7 @@ P2874,name_en,Kisung Lee,사용자 제보 (10/16): 이기성 (mipl.korea.ac.kr)
 P2874,orcid,0000-0001-7517-3967,OpenAlex Kisung Lee (Korea University) 프로필의 ORCID
 P0722,removed,yes,"김재정 (서울대 화학생물공학부, 전기화학): 사용자 제보 (10/16) 은퇴로 보임. 바이오 분야 아님, 연결된 OpenAlex 프로필(Surgery)도 다른 사람"
 P0945,name_en,Hyuncheol Kim,사용자 제보 (10/16): 서강대 김현철 (ddssogang.wixsite.com/biomaterials)
-P0752,openalex_id,A5100752174,"김빛내리: 잘못된 OpenAlex 프로필(A5043554497) 제외 (10/18 사용자 제보)"
+P0752,openalex_id,A5043554497,김빛내리: OpenAlex 주소 A5043554497로 확정 (사용자 확인 10/22)
 P2845,removed,yes,"정석: 같은 사람(KIST 정석, P1116; 고려대 겸임). 중복 제거 (10/18 사용자 제보)"
 P3034,openalex_id,A5100682313,김동혁 (KAIST 공학생물대학원): 사용자 제공 OpenAlex 주소
 P2796,openalex_id,A5020220684,안지완 (SNU 치의학대학원): 사용자 제공 OpenAlex 주소

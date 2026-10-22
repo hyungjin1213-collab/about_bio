@@ -37041,7 +37041,7 @@ window.KOREA_BIO_MAP = {
       "retired": false,
       "url": "https://narrykim.org/ko/",
       "lab_url": "https://narrykim.org/",
-      "openalex_id": "A5100752174",
+      "openalex_id": "A5043554497",
       "identity": "verified",
       "score": 0,
       "collaborator_count": 0,

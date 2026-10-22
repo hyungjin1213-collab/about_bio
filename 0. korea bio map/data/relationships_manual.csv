@@ -1,1 +1,2 @@
 relationship_id,professor_a_id,professor_b_id,relationship_type,evidence_url,verified,notes
+MAN000001,P2795,P3077,advisor_student,,manual,"전누리 졸업생 엑셀: 경희대 의과대학 교수 (phd 2021, 사용자 제보)"

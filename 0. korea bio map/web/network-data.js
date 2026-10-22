@@ -157884,6 +157884,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3077",
+      "name": "이소민",
+      "name_en": "Somin Lee",
+      "university": "Kyung Hee University",
+      "field": "",
+      "category": "임상의학",
+      "region": "서울",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "경희대학교",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "College of Medicine / Pathology",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://openalex.org/authors/A5101594395",
+      "lab_url": "",
+      "openalex_id": "A5101594395",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [
@@ -254555,6 +254587,15 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.521,
       "last_year": 2020
+    },
+    {
+      "source": "P2795",
+      "target": "P3077",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "manual",
+      "strength": 0.0,
+      "last_year": 0
     },
     {
       "source": "P2532",

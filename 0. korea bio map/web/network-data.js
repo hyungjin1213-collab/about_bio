@@ -157920,7 +157920,7 @@ window.KOREA_BIO_MAP = {
     {
       "id": "P3078",
       "name": "류성언",
-      "name_en": "",
+      "name_en": "Seong Eon Ryu",
       "university": "Hanyang University",
       "field": "",
       "category": "분자·세포생물",

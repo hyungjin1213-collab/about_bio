@@ -82,6 +82,8 @@
     .career-legend{display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:6px;font-size:11.5px;color:#d7def0}
     .career-legend b{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
     .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+    .hier-btn{margin-top:12px;width:100%;background:rgba(253,230,138,.10);color:#fde68a;border:1px solid rgba(253,230,138,.45);border-radius:8px;padding:7px;font:600 12px Arial,sans-serif;cursor:pointer}
+    .hier-note{font-size:11px;color:#9aa7c7;margin-top:4px;min-height:14px}
     .cmp-add{margin-top:12px;width:100%;background:none;color:#fbbf24;border:1px solid rgba(251,191,36,.5);border-radius:8px;padding:7px;font:600 12px Arial,sans-serif;cursor:pointer}
     .cmp-add:disabled{color:#7f8aa8;border-color:rgba(127,138,168,.35);cursor:default}
     .cmp-chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
@@ -557,6 +559,7 @@
         ${lin.advisors.length||lin.mentors.length?`<h3>지도교수 · 포닥 멘토</h3><div class="people">${people(lin.advisors,"")}${people(lin.mentors,"pd")}</div>`:""}
         ${lin.students.length||lin.postdocs.length?`<h3>교수가 된 제자 · 포닥</h3><div class="people">${people(lin.students,"")}${people(lin.postdocs,"pd")}</div>`:""}
         <button class="cmp-add">${cmpButtonText(n.id)}</button>
+        ${lin.students.length?`<button class="hier-btn" id="hier-btn">Show Hierarchy</button><div class="hier-note" id="hier-note"></div>`:""}
         <div class="links">${safeUrl(n.lab_url)?`<a href="${esc(safeUrl(n.lab_url))}" target="_blank" rel="noopener">연구실 홈페이지</a>`:""}
           ${url?`<a href="${esc(url)}" target="_blank" rel="noopener">${safeUrl(n.lab_url)?"소속 페이지":"연구실·소속 페이지"}</a>`:""}
           ${n.openalex_id?`<a href="https://openalex.org/${esc(n.openalex_id)}" target="_blank" rel="noopener">논문 (OpenAlex)</a>`:""}
@@ -567,8 +570,84 @@
       card.querySelector(".close").addEventListener("click",()=>{selected=null;setFocus(null);markActive(null);closeCard();drawOverlay();});
       card.querySelectorAll(".people button").forEach(b=>b.addEventListener("click",()=>{const p=NODE_BY_ID.get(b.dataset.id);if(p) flyTo(p);}));
       card.querySelector(".cmp-add").addEventListener("click",e=>{toggleCompare(n.id);e.currentTarget.textContent=cmpButtonText(n.id);});
+      const hb=card.querySelector("#hier-btn");
+      if(hb) hb.addEventListener("click",()=>{ if(hierSet) clearHierarchy(); else showHierarchy(n); hb.textContent=hierSet?"Hierarchy 닫기":"Show Hierarchy"; });
     }
-    function closeCard(){card.hidden=true;document.body.classList.remove("card-open");}
+    function closeCard(){clearHierarchy();card.hidden=true;document.body.classList.remove("card-open");}
+
+    // ---------- show hierarchy: the professor on top, trainees and their trainees arranged below in 3D ----------
+    let hierSet=null, hierObj=null;
+    const HIER_TOP=120, HIER_STEP=130, HIER_MAX_DEPTH=3, HIER_MAX_PER_LEVEL=12;
+    function hierChildren(id){
+      return LINEAGE_LINKS.filter(l=>endId(l.source)===id).map(l=>endId(l.target)).filter(x=>NODE_BY_ID.has(x));
+    }
+    function buildHierarchy(root){
+      const levels=[[root.id]], edges=[], seen=new Set([root.id]);
+      let hidden=0;
+      for(let d=1;d<=HIER_MAX_DEPTH;d++){
+        const kept=[];
+        for(const pid of levels[d-1]) for(const c of hierChildren(pid)){
+          if(seen.has(c)) continue;
+          if(kept.length>=HIER_MAX_PER_LEVEL){ hidden++; continue; }
+          seen.add(c); kept.push(c); edges.push([pid,c]);
+        }
+        if(!kept.length) break;
+        levels.push(kept);
+      }
+      return {levels,edges,hidden};
+    }
+    // Level d is a ring below the top professor; the ring widens with the number of people on it.
+    function hierPositions(levels){
+      const pos=new Map();
+      pos.set(levels[0][0],{x:0,y:HIER_TOP,z:0});
+      for(let d=1;d<levels.length;d++){
+        const ids=levels[d], k=ids.length, R=Math.max(70,22*k)*(1+0.25*(d-1)), y=HIER_TOP-HIER_STEP*d;
+        ids.forEach((id,i)=>{
+          const a=2*Math.PI*i/k+d*0.37;   // a small twist per level, so the tree looks like a 3D cone
+          pos.set(id,{x:R*Math.cos(a),y,z:R*Math.sin(a)});
+        });
+      }
+      return pos;
+    }
+    function showHierarchy(root){
+      clearHierarchy();
+      const H=buildHierarchy(root);
+      if(H.levels.length<2) return;
+      const pos=hierPositions(H.levels);
+      hierSet=new Set(pos.keys());
+      // Pin each member's position; pinned nodes ignore the galaxy force.
+      pos.forEach((p,id)=>{const n=NODE_BY_ID.get(id); if(n){n.fx=p.x;n.fy=p.y;n.fz=p.z;}});
+      // Lines between parent and child, plus a glowing marker on every member.
+      hierObj=new THREE.Group();
+      const pts=[];
+      H.edges.forEach(([a,b])=>{const p=pos.get(a),q=pos.get(b); pts.push(p.x,p.y,p.z,q.x,q.y,q.z);});
+      const g=new THREE.BufferGeometry();
+      g.setAttribute("position",new THREE.Float32BufferAttribute(pts,3));
+      hierObj.add(new THREE.LineSegments(g,new THREE.LineBasicMaterial({color:"#fde68a",transparent:true,opacity:.9,depthWrite:false})));
+      pos.forEach((p,id)=>{
+        const sp=glowSprite(NEBULA_TEX,id===root.id?"#fff7d6":"#fde68a",id===root.id?150:70,id===root.id?.9:.6);
+        sp.position.set(p.x,p.y,p.z);
+        hierObj.add(sp);
+      });
+      Graph.scene().add(hierObj);
+      refreshVisibility();
+      Graph.d3ReheatSimulation();
+      Graph.cameraPosition({x:0,y:HIER_TOP-HIER_STEP*1.2,z:620},{x:0,y:HIER_TOP-HIER_STEP*1.2,z:0},1200);
+      const note=document.getElementById("hier-note");
+      if(note) note.textContent=`제자 ${H.edges.length}명 표시 중${H.hidden?` (+${H.hidden}명 생략)`:""} · 최대 ${HIER_MAX_DEPTH}단계`;
+    }
+    function clearHierarchy(){
+      if(!hierSet) return;
+      hierSet.forEach(id=>{const n=NODE_BY_ID.get(id); if(n){n.fx=null;n.fy=null;n.fz=null;}});
+      hierSet=null;
+      if(hierObj){
+        Graph.scene().remove(hierObj);
+        hierObj.traverse(o=>{o.geometry?.dispose();o.material?.dispose();});
+        hierObj=null;
+      }
+      refreshVisibility();
+      Graph.d3ReheatSimulation();
+    }
 
     // Stars are placed this far apart from their neighbours (1.0 = the old, crowded layout).
     const SPREAD=1.4;
@@ -925,7 +1004,7 @@
       runSearch();runRank();
     }
     // Shown = passes the filters and, in the 산학연병 view, belongs to the zoomed-in set.
-    const shownNode=n=>n._pass!==false&&n._inSet!==false;
+    const shownNode=n=>n._pass!==false&&n._inSet!==false&&(!hierSet||hierSet.has(n.id));
     function refreshVisibility(){
       const byId=new Map(NODES.map(n=>[n.id,n]));
       Graph.nodeVisibility(shownNode)

@@ -1,6 +1,6 @@
 ﻿professor_id,name_ko,name_en,university,department,missing
 P0004,김원종,wonjong kim,postech,화학과,논문 프로필 없음
-P0005,김성은,seongeun kim,Kookmin University,화학과,논문 프로필 없음; 졸업생 정보 없음
+P0005,김성은,seongeun kim,Kookmin University,화학과,졸업생 정보 없음
 P0006,조덕,Duck Cho,Samsung Medical Center; Sungkyunkwan University,,연구실 홈페이지 못 찾음
 P0008,양진아,Jina Yang,Jeju National University,,연구실 홈페이지 못 찾음
 P0009,박지훈,Jeehun Park,Kangwon National University,,연구실 홈페이지 못 찾음
@@ -764,7 +764,7 @@ P0937,정광환,Kwang-Hwan Jung,Sogang University,Department of Life Science,졸
 P0938,정수진,Soo-Jin Jung,Sogang University,Department of Life Science,졸업생 정보 없음
 P0939,주봉건,Bong-Gun Ju,Sogang University,Department of Life Science,연구실 페이지 미확인
 P0940,허진영,Jin-Young Huh,Sogang University,Department of Life Science,연구실 페이지 미확인
-P0942,강문성,Moon Sung Kang,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음; 졸업생 정보 없음
+P0942,강문성,Moon Sung Kang,Sogang University,Department of Chemical and Biomolecular Engineering,졸업생 정보 없음
 P0943,강태욱,Taewook Kang,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음
 P0944,김충익,Choongik Kim,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음; 연구실 페이지 미확인
 P0946,김형준,Hyeong Jun Kim,Sogang University,Department of Chemical and Biomolecular Engineering,논문 프로필 없음
@@ -1949,186 +1949,186 @@ P2153,,Su Bum Park,Pusan National University,,연구실 홈페이지 못 찾음
 P2154,,Chulhun Ludgerus Chang,Pusan National University,,연구실 홈페이지 못 찾음
 P2156,,Dongjun Lee,Pusan National University,,연구실 홈페이지 못 찾음
 P2157,,Jin‐Hong Shin,Pusan National University,,졸업생 정보 없음
-P2158,,Jin‐Woo Oh,Pusan National University,,연구실 페이지 미확인
-P2159,,Seun Ja Park,Kosin University,,연구실 페이지 미확인
-P2160,,Moo In Park,Kosin University,,연구실 페이지 미확인
-P2161,,Sung Il Im,Kosin University,,연구실 페이지 미확인
-P2162,이상준,Sang Joon Lee,Kosin University,,연구실 페이지 미확인
-P2163,,Won Moon,Kosin University,,연구실 페이지 미확인
-P2164,,Sung Eun Kim,Kosin University,,연구실 페이지 미확인
-P2165,,Hee‐Jae Cha,Kosin University,,연구실 페이지 미확인
-P2166,,Eun‐Kee Park,Kosin University,,연구실 페이지 미확인
-P2167,,Jung Ho Heo,Kosin University,,연구실 페이지 미확인
-P2168,,Kang Dae Lee,Kosin University,,연구실 페이지 미확인
-P2169,,Hee Kyung Chang,Kosin University,,연구실 페이지 미확인
-P2170,,Kyoungwon Jung,Kosin University,,연구실 페이지 미확인
-P2171,,Seung Uk Lee,Kosin University,,연구실 페이지 미확인
-P2172,,Ho Sik Shin,Kosin University,,연구실 페이지 미확인
-P2173,,Taeyun Kim,Kosin University,,연구실 페이지 미확인
-P2174,,Jin‐Hyuk Choi,Kosin University,,연구실 페이지 미확인
-P2175,,Jin-Hyung Park,Kosin University,,연구실 페이지 미확인
-P2176,,Seong Hoon Shin,Kosin University,,연구실 페이지 미확인
-P2177,,Hyoung Shin Lee,Kosin University,,연구실 페이지 미확인
-P2178,,Gil‐Soon Choi,Kosin University,,연구실 페이지 미확인
-P2179,,Kee Suck Suh,Kosin University,,연구실 페이지 미확인
-P2180,,Seong Hwan Park,Kosin University,,연구실 페이지 미확인
-P2181,,Kyung Won Seo,Kosin University,,연구실 페이지 미확인
-P2182,,Ki-Hoon Park,Kosin University,,연구실 페이지 미확인
-P2183,,Bu Kyung Kim,Kosin University,,연구실 페이지 미확인
-P2184,,Min Soo Jang,Kosin University,,연구실 페이지 미확인
-P2185,,Heeyoung Kim,Kosin University,,연구실 페이지 미확인
-P2186,,Taeyun Kim,Kosin University,,연구실 페이지 미확인
-P2187,,Jee‐Yeong Jeong,Kosin University,,연구실 페이지 미확인
-P2188,,Kyoung Seob Song,Kosin University,,연구실 페이지 미확인
-P2189,,Minyoung Jung,Kosin University,,연구실 페이지 미확인
-P2190,김봉준,Bong‐Joon Kim,Kosin University,,연구실 페이지 미확인
-P2191,,Yunkyung Kim,Kosin University,,연구실 페이지 미확인
-P2192,,Jong Bin Park,Kosin University,,연구실 페이지 미확인
-P2193,,So Yoon Choi,Kosin University,,연구실 페이지 미확인
-P2194,,Su In Lee,Kosin University,,연구실 페이지 미확인
-P2195,,Jaewon Shim,Kosin University,,연구실 페이지 미확인
-P2196,,Jeonghoon Heo,Kosin University,,연구실 페이지 미확인
-P2197,,Hyung Seok Kim,Kosin University,,연구실 페이지 미확인
-P2198,,Jooyeon Kim,Kosin University,,연구실 페이지 미확인
-P2199,,So‐Young Huh,Kosin University,,연구실 페이지 미확인
-P2200,,Ki Young Yoon,Kosin University,,연구실 페이지 미확인
-P2201,,Hee-Kyoo Kim,Kosin University,,연구실 페이지 미확인
-P2202,,Jin Hyung Park,Kosin University,,연구실 페이지 미확인
-P2203,,Sung‐Jin Bae,Kosin University,,연구실 페이지 미확인
-P2204,,Hun Ha Cho,Kosin University,,연구실 페이지 미확인
-P2205,,Jiyeun Kate Kim,Kosin University,,연구실 페이지 미확인
-P2206,임은진,Eun Jin Lim,Kosin University,,연구실 페이지 미확인
-P2207,,Ji Hyun Oh,Kosin University,,연구실 페이지 미확인
-P2208,,Young Il Choi,Kosin University,,연구실 페이지 미확인
-P2209,,Tae Sik Sung,Kosin University,,연구실 페이지 미확인
-P2210,,Jong‐Young Lee,Daegu Catholic University,,연구실 페이지 미확인
-P2211,,Eun Young Kim,Daegu Catholic University,,연구실 페이지 미확인
-P2212,,Jung‐Yoon Choe,Daegu Catholic University,,연구실 페이지 미확인
-P2213,,Eun Soo Kim,Daegu Catholic University,,연구실 페이지 미확인
-P2214,한지민,Jimin Han,Daegu Catholic University,,연구실 페이지 미확인
-P2215,,Yoon Seok Choi,Daegu Catholic University,,연구실 페이지 미확인
-P2216,이영수,Young Soo Lee,Daegu Catholic University,,연구실 페이지 미확인
-P2217,,Seong‐Kyu Kim,Daegu Catholic University,,연구실 페이지 미확인
-P2218,,Sung Hwa Bae,Daegu Catholic University,,연구실 페이지 미확인
-P2219,,Jae Ho Yoo,Daegu Catholic University,,연구실 페이지 미확인
-P2220,,Young‐Chae Chang,Daegu Catholic University,,연구실 페이지 미확인
-P2221,,Sang Gyu Kwak,Daegu Catholic University,,연구실 페이지 미확인
-P2222,,Seong Hee Choi,Daegu Catholic University,,연구실 페이지 미확인
-P2223,,Eun Ho Kim,Daegu Catholic University,,연구실 페이지 미확인
-P2224,,Joong Goo Kwon,Daegu Catholic University,,연구실 페이지 미확인
-P2225,,Seung‐Heon Shin,Daegu Catholic University,,연구실 페이지 미확인
-P2226,,Kee‐Sik Kim,Daegu Catholic University,,연구실 페이지 미확인
-P2227,,Jung‐Yeon Kim,Daegu Catholic University,,연구실 페이지 미확인
-P2228,,Eun Jin Kim,Daegu Catholic University,,연구실 페이지 미확인
-P2229,,Kwon‐Ho Song,Daegu Catholic University,,연구실 페이지 미확인
-P2230,,Young Seok Han,Daegu Catholic University,,연구실 페이지 미확인
-P2231,,Dong Lak Choi,Daegu Catholic University,,연구실 페이지 미확인
-P2232,,Dong Rak Kwon,Daegu Catholic University,,연구실 페이지 미확인
-P2233,,Jin Bae Lee,Daegu Catholic University,,연구실 페이지 미확인
-P2234,,Chul-Hee Choi,Daegu Catholic University,,연구실 페이지 미확인
-P2235,,Eunjung Kim,Daegu Catholic University,,연구실 페이지 미확인
-P2236,,Byoung Sun Chu,Daegu Catholic University,,연구실 페이지 미확인
-P2237,,Yong Heo,Daegu Catholic University,,연구실 페이지 미확인
-P2238,,Gi-Young Park,Daegu Catholic University,,연구실 페이지 미확인
-P2239,,Yun Kim,Daegu Catholic University,,연구실 페이지 미확인
-P2240,오훈규,Hoon Kyu Oh,Daegu Catholic University,,연구실 페이지 미확인
-P2241,,Uicheul Yoon,Daegu Catholic University,,연구실 페이지 미확인
-P2242,,Mi‐Kyung Ye,Daegu Catholic University,,연구실 페이지 미확인
-P2243,,Chang-Hyuk Choi,Daegu Catholic University,,연구실 페이지 미확인
-P2244,,Mi‐Sun Hur,Daegu Catholic University,,연구실 페이지 미확인
-P2245,,Jun Won Kim,Daegu Catholic University,,연구실 페이지 미확인
-P2246,,Kyung Chan Kim,Daegu Catholic University,,연구실 페이지 미확인
-P2247,,Chang‐Ho Jeon,Daegu Catholic University,,연구실 페이지 미확인
-P2248,,Jin Young Bae,Daegu Catholic University,,연구실 페이지 미확인
-P2249,,Chul Ho Lee,Daegu Catholic University,,연구실 페이지 미확인
-P2250,,Jin‐Kyung Kim,Daegu Catholic University,,연구실 페이지 미확인
-P2251,,Dong‐Seok Sohn,Daegu Catholic University,,연구실 페이지 미확인
-P2252,,Hwajeong Lee,Daegu Catholic University,,연구실 페이지 미확인
-P2253,,Jung Im Seok,Daegu Catholic University,,연구실 페이지 미확인
-P2254,,Sun-Jae Lee,Daegu Catholic University,,연구실 페이지 미확인
-P2255,,Im Hee Shin,Daegu Catholic University,,연구실 페이지 미확인
-P2256,,Youn Seok Choi,Daegu Catholic University,,연구실 페이지 미확인
-P2257,,Yeon Soo Lee,Daegu Catholic University,,연구실 페이지 미확인
-P2258,,Hyun Dong Je,Daegu Catholic University,,연구실 페이지 미확인
-P2259,,Sang Hoon Joo,Daegu Catholic University,,연구실 페이지 미확인
-P2260,,Won-Kee Choi,Daegu Catholic University,,연구실 페이지 미확인
-P2261,,Chi Young Jung,Daegu Catholic University,,연구실 페이지 미확인
-P2262,,Jaewoo Hong,Daegu Catholic University,,연구실 페이지 미확인
-P2263,,Yoon Jeong Cho,Daegu Catholic University,,연구실 페이지 미확인
-P2264,,Young‐A Lee,Daegu Catholic University,,연구실 페이지 미확인
-P2265,,Jeong Won Lee,Daegu Catholic University,,연구실 페이지 미확인
-P2266,,Yong Suk Moon,Daegu Catholic University,,연구실 페이지 미확인
-P2267,,Sujeong Yang,Daegu Catholic University,,연구실 페이지 미확인
-P2268,,You‐Jin Choi,Daegu Catholic University,,연구실 페이지 미확인
-P2269,,Duk Yoon Kim,Daegu Catholic University,,연구실 페이지 미확인
-P2270,,Hyo‐Soo Kim,Chosun University,,연구실 페이지 미확인
-P2271,,Dong‐Min Kim,Chosun University,,연구실 페이지 미확인
-P2272,,Keun Ho Park,Chosun University,,연구실 페이지 미확인
-P2273,,Yoonkyung Park,Chosun University,,연구실 페이지 미확인
-P2274,,Sung‐Chul Lim,Chosun University,,연구실 페이지 미확인
-P2275,,Kun Ho Lee,Chosun University,,연구실 페이지 미확인
-P2276,,Joong‐Ki Kook,Chosun University,,연구실 페이지 미확인
-P2277,,Dong‐Sung Lee,Chosun University,,연구실 페이지 미확인
-P2278,소연류,So Yeon Ryu,Chosun University,,연구실 페이지 미확인
-P2279,,Hyun Kuk Kim,Chosun University,,연구실 페이지 미확인
-P2280,최성우,Seong-Woo Choi,Chosun University,,연구실 페이지 미확인
-P2281,이숙영,Sook‐Young Lee,Chosun University,,연구실 페이지 미확인
-P2282,,Song Yub Shin,Chosun University,,연구실 페이지 미확인
-P2283,,Jae‐Joon Lee,Chosun University,,연구실 페이지 미확인
-P2284,,Mi Ah Han,Chosun University,,연구실 페이지 미확인
-P2285,,Jin Cheol Yoo,Chosun University,,연구실 페이지 미확인
-P2286,김상훈,Sang Hun Kim,Chosun University,,연구실 페이지 미확인
-P2287,,Il Han Choo,Chosun University,,연구실 페이지 미확인
-P2288,,Goo‐Rak Kwon,Chosun University,,연구실 페이지 미확인
-P2289,,Sung Soo Kim,Chosun University,,연구실 페이지 미확인
-P2290,박종,Jong Park,Chosun University,,연구실 페이지 미확인
-P2291,,Choon‐Mee Kim,Chosun University,,연구실 페이지 미확인
-P2292,,Min Sung Kim,Chosun University,,연구실 페이지 미확인
-P2293,,Eun Hyun Seo,Chosun University,,연구실 페이지 미확인
-P2294,,Shin‐Young Lee,Chosun University,,연구실 페이지 미확인
-P2295,,Hyun‐Jae Shin,Chosun University,,연구실 페이지 미확인
-P2296,,Jun Lee,Chosun University,,연구실 페이지 미확인
-P2297,김도경,Do Kyung Kim,Chosun University,,연구실 페이지 미확인
-P2298,,Sung Hwan Ki,Chosun University,,연구실 페이지 미확인
-P2299,,Hyun‐Jeong Park,Chosun University,,연구실 페이지 미확인
-P2300,,Sang‐Gun Ahn,Chosun University,,연구실 페이지 미확인
-P2301,,Seok Choi,Chosun University,,연구실 페이지 미확인
-P2302,,Seong Hwan Ahn,Chosun University,,연구실 페이지 미확인
-P2303,,Jun Sik Lee,Chosun University,,연구실 페이지 미확인
-P2304,,Na Ra Yun,Chosun University,,연구실 페이지 미확인
-P2305,,Hong Sung Chun,Chosun University,,연구실 페이지 미확인
-P2306,,Ju‐Yeon Cho,Chosun University,,연구실 페이지 미확인
-P2307,,Ho Jin You,Chosun University,,연구실 페이지 미확인
-P2308,,Chun Sung Kim,Chosun University,,연구실 페이지 미확인
-P2309,최두복,DuBok Choi,Chosun University,,연구실 페이지 미확인
-P2310,,Jinhee Kim,Chosun University,,연구실 페이지 미확인
-P2311,,Seong‐Yong Moon,Chosun University,,연구실 페이지 미확인
-P2312,,In Youb Chang,Chosun University,,연구실 페이지 미확인
-P2313,,Jin Hwa Kim,Chosun University,,연구실 페이지 미확인
-P2314,,Jae‐Sung Kim,Chosun University,,연구실 페이지 미확인
-P2315,,Jung Sup Lee,Chosun University,,연구실 페이지 미확인
-P2316,,Kyu Yeong Choi,Chosun University,,연구실 페이지 미확인
-P2317,,Jae Yeoul Jun,Chosun University,,연구실 페이지 미확인
-P2318,,Geon Park,Chosun University,,연구실 페이지 미확인
-P2319,,Hong Seok Choi,Chosun University,,연구실 페이지 미확인
-P2320,,Bong Seok Shin,Chosun University,,연구실 페이지 미확인
-P2321,,Jin-Soo Kim,Chosun University,,연구실 페이지 미확인
-P2322,,Heesang Song,Chosun University,,연구실 페이지 미확인
-P2323,,Sang Yong Kim,Chosun University,,연구실 페이지 미확인
-P2324,,Ki Tae Jung,Chosun University,,연구실 페이지 미확인
-P2325,,Chang Il Ju,Chosun University,,연구실 페이지 미확인
-P2326,,Seong‐Jung Kim,Chosun University,,연구실 페이지 미확인
-P2327,,Dong‐Hyun Choi,Chosun University,,연구실 페이지 미확인
-P2328,,Chan Ho Na,Chosun University,,연구실 페이지 미확인
-P2329,,Yong Jin Cho,Chosun University,,연구실 페이지 미확인
-P2330,,Yun Jung Lee,Wonkwang University,,연구실 페이지 미확인
-P2331,,Hyuntae Park,Wonkwang University,,연구실 페이지 미확인
-P2332,,Hyuncheol Oh,Wonkwang University,,연구실 페이지 미확인
-P2333,,Ho Sub Lee,Wonkwang University,,연구실 페이지 미확인
-P2334,,Suck Chei Choi,Wonkwang University,,연구실 페이지 미확인
-P2335,,Bong-Chul Kim,Wonkwang University,,연구실 페이지 미확인
-P2336,,Hyesook Kim,Wonkwang University,,연구실 페이지 미확인
-P2337,,Kyung‐Min Park,Wonkwang University,,연구실 페이지 미확인
+P2158,,Jin‐Woo Oh,Pusan National University,,연구실 홈페이지 못 찾음
+P2159,,Seun Ja Park,Kosin University,,연구실 홈페이지 못 찾음
+P2160,,Moo In Park,Kosin University,,연구실 홈페이지 못 찾음
+P2161,,Sung Il Im,Kosin University,,연구실 홈페이지 못 찾음
+P2162,이상준,Sang Joon Lee,Kosin University,,연구실 홈페이지 못 찾음
+P2163,,Won Moon,Kosin University,,연구실 홈페이지 못 찾음
+P2164,,Sung Eun Kim,Kosin University,,연구실 홈페이지 못 찾음
+P2165,,Hee‐Jae Cha,Kosin University,,연구실 홈페이지 못 찾음
+P2166,,Eun‐Kee Park,Kosin University,,연구실 홈페이지 못 찾음
+P2167,,Jung Ho Heo,Kosin University,,연구실 홈페이지 못 찾음
+P2168,,Kang Dae Lee,Kosin University,,연구실 홈페이지 못 찾음
+P2169,,Hee Kyung Chang,Kosin University,,연구실 홈페이지 못 찾음
+P2170,,Kyoungwon Jung,Kosin University,,연구실 홈페이지 못 찾음
+P2171,,Seung Uk Lee,Kosin University,,연구실 홈페이지 못 찾음
+P2172,,Ho Sik Shin,Kosin University,,연구실 홈페이지 못 찾음
+P2173,,Taeyun Kim,Kosin University,,연구실 홈페이지 못 찾음
+P2174,,Jin‐Hyuk Choi,Kosin University,,연구실 홈페이지 못 찾음
+P2175,,Jin-Hyung Park,Kosin University,,연구실 홈페이지 못 찾음
+P2176,,Seong Hoon Shin,Kosin University,,연구실 홈페이지 못 찾음
+P2177,,Hyoung Shin Lee,Kosin University,,연구실 홈페이지 못 찾음
+P2178,,Gil‐Soon Choi,Kosin University,,연구실 홈페이지 못 찾음
+P2179,,Kee Suck Suh,Kosin University,,연구실 홈페이지 못 찾음
+P2180,,Seong Hwan Park,Kosin University,,연구실 홈페이지 못 찾음
+P2181,,Kyung Won Seo,Kosin University,,연구실 홈페이지 못 찾음
+P2182,,Ki-Hoon Park,Kosin University,,연구실 홈페이지 못 찾음
+P2183,,Bu Kyung Kim,Kosin University,,연구실 홈페이지 못 찾음
+P2184,,Min Soo Jang,Kosin University,,연구실 홈페이지 못 찾음
+P2185,,Heeyoung Kim,Kosin University,,연구실 홈페이지 못 찾음
+P2186,,Taeyun Kim,Kosin University,,연구실 홈페이지 못 찾음
+P2187,,Jee‐Yeong Jeong,Kosin University,,연구실 홈페이지 못 찾음
+P2188,,Kyoung Seob Song,Kosin University,,연구실 홈페이지 못 찾음
+P2189,,Minyoung Jung,Kosin University,,연구실 홈페이지 못 찾음
+P2190,김봉준,Bong‐Joon Kim,Kosin University,,연구실 홈페이지 못 찾음
+P2191,,Yunkyung Kim,Kosin University,,연구실 홈페이지 못 찾음
+P2192,,Jong Bin Park,Kosin University,,연구실 홈페이지 못 찾음
+P2193,,So Yoon Choi,Kosin University,,연구실 홈페이지 못 찾음
+P2194,,Su In Lee,Kosin University,,연구실 홈페이지 못 찾음
+P2195,,Jaewon Shim,Kosin University,,연구실 홈페이지 못 찾음
+P2196,,Jeonghoon Heo,Kosin University,,연구실 홈페이지 못 찾음
+P2197,,Hyung Seok Kim,Kosin University,,연구실 홈페이지 못 찾음
+P2198,,Jooyeon Kim,Kosin University,,연구실 홈페이지 못 찾음
+P2199,,So‐Young Huh,Kosin University,,연구실 홈페이지 못 찾음
+P2200,,Ki Young Yoon,Kosin University,,연구실 홈페이지 못 찾음
+P2201,,Hee-Kyoo Kim,Kosin University,,연구실 홈페이지 못 찾음
+P2202,,Jin Hyung Park,Kosin University,,연구실 홈페이지 못 찾음
+P2203,,Sung‐Jin Bae,Kosin University,,연구실 홈페이지 못 찾음
+P2204,,Hun Ha Cho,Kosin University,,연구실 홈페이지 못 찾음
+P2205,,Jiyeun Kate Kim,Kosin University,,연구실 홈페이지 못 찾음
+P2206,임은진,Eun Jin Lim,Kosin University,,연구실 홈페이지 못 찾음
+P2207,,Ji Hyun Oh,Kosin University,,연구실 홈페이지 못 찾음
+P2208,,Young Il Choi,Kosin University,,연구실 홈페이지 못 찾음
+P2209,,Tae Sik Sung,Kosin University,,연구실 홈페이지 못 찾음
+P2210,,Jong‐Young Lee,Daegu Catholic University,,졸업생 정보 없음
+P2211,,Eun Young Kim,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2212,,Jung‐Yoon Choe,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2213,,Eun Soo Kim,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2214,한지민,Jimin Han,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2215,,Yoon Seok Choi,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2216,이영수,Young Soo Lee,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2217,,Seong‐Kyu Kim,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2218,,Sung Hwa Bae,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2219,,Jae Ho Yoo,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2220,,Young‐Chae Chang,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2221,,Sang Gyu Kwak,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2222,,Seong Hee Choi,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2223,,Eun Ho Kim,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2224,,Joong Goo Kwon,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2225,,Seung‐Heon Shin,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2226,,Kee‐Sik Kim,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2227,,Jung‐Yeon Kim,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2228,,Eun Jin Kim,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2229,,Kwon‐Ho Song,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2230,,Young Seok Han,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2231,,Dong Lak Choi,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2232,,Dong Rak Kwon,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2233,,Jin Bae Lee,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2234,,Chul-Hee Choi,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2235,,Eunjung Kim,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2236,,Byoung Sun Chu,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2237,,Yong Heo,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2238,,Gi-Young Park,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2239,,Yun Kim,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2240,오훈규,Hoon Kyu Oh,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2241,,Uicheul Yoon,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2242,,Mi‐Kyung Ye,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2243,,Chang-Hyuk Choi,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2244,,Mi‐Sun Hur,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2245,,Jun Won Kim,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2246,,Kyung Chan Kim,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2247,,Chang‐Ho Jeon,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2248,,Jin Young Bae,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2249,,Chul Ho Lee,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2250,,Jin‐Kyung Kim,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2251,,Dong‐Seok Sohn,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2252,,Hwajeong Lee,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2253,,Jung Im Seok,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2254,,Sun-Jae Lee,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2255,,Im Hee Shin,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2256,,Youn Seok Choi,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2257,,Yeon Soo Lee,Daegu Catholic University,,졸업생 정보 없음
+P2258,,Hyun Dong Je,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2259,,Sang Hoon Joo,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2260,,Won-Kee Choi,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2261,,Chi Young Jung,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2262,,Jaewoo Hong,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2263,,Yoon Jeong Cho,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2264,,Young‐A Lee,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2265,,Jeong Won Lee,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2266,,Yong Suk Moon,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2267,,Sujeong Yang,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2268,,You‐Jin Choi,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2269,,Duk Yoon Kim,Daegu Catholic University,,연구실 홈페이지 못 찾음
+P2270,,Hyo‐Soo Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2271,,Dong‐Min Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2272,,Keun Ho Park,Chosun University,,연구실 홈페이지 못 찾음
+P2273,,Yoonkyung Park,Chosun University,,연구실 홈페이지 못 찾음
+P2274,,Sung‐Chul Lim,Chosun University,,연구실 홈페이지 못 찾음
+P2275,,Kun Ho Lee,Chosun University,,연구실 홈페이지 못 찾음
+P2276,,Joong‐Ki Kook,Chosun University,,연구실 홈페이지 못 찾음
+P2277,,Dong‐Sung Lee,Chosun University,,연구실 홈페이지 못 찾음
+P2278,소연류,So Yeon Ryu,Chosun University,,졸업생 정보 없음
+P2279,,Hyun Kuk Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2280,최성우,Seong-Woo Choi,Chosun University,,연구실 홈페이지 못 찾음
+P2281,이숙영,Sook‐Young Lee,Chosun University,,연구실 홈페이지 못 찾음
+P2282,,Song Yub Shin,Chosun University,,연구실 홈페이지 못 찾음
+P2283,,Jae‐Joon Lee,Chosun University,,연구실 홈페이지 못 찾음
+P2284,,Mi Ah Han,Chosun University,,연구실 홈페이지 못 찾음
+P2285,,Jin Cheol Yoo,Chosun University,,연구실 홈페이지 못 찾음
+P2286,김상훈,Sang Hun Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2287,,Il Han Choo,Chosun University,,연구실 홈페이지 못 찾음
+P2288,,Goo‐Rak Kwon,Chosun University,,연구실 홈페이지 못 찾음
+P2289,,Sung Soo Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2290,박종,Jong Park,Chosun University,,연구실 홈페이지 못 찾음
+P2291,,Choon‐Mee Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2292,,Min Sung Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2293,,Eun Hyun Seo,Chosun University,,연구실 홈페이지 못 찾음
+P2294,,Shin‐Young Lee,Chosun University,,연구실 홈페이지 못 찾음
+P2295,,Hyun‐Jae Shin,Chosun University,,연구실 홈페이지 못 찾음
+P2296,,Jun Lee,Chosun University,,연구실 홈페이지 못 찾음
+P2297,김도경,Do Kyung Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2298,,Sung Hwan Ki,Chosun University,,연구실 홈페이지 못 찾음
+P2299,,Hyun‐Jeong Park,Chosun University,,연구실 홈페이지 못 찾음
+P2300,,Sang‐Gun Ahn,Chosun University,,연구실 홈페이지 못 찾음
+P2301,,Seok Choi,Chosun University,,연구실 홈페이지 못 찾음
+P2302,,Seong Hwan Ahn,Chosun University,,연구실 홈페이지 못 찾음
+P2303,,Jun Sik Lee,Chosun University,,연구실 홈페이지 못 찾음
+P2304,,Na Ra Yun,Chosun University,,연구실 홈페이지 못 찾음
+P2305,,Hong Sung Chun,Chosun University,,연구실 홈페이지 못 찾음
+P2306,,Ju‐Yeon Cho,Chosun University,,연구실 홈페이지 못 찾음
+P2307,,Ho Jin You,Chosun University,,연구실 홈페이지 못 찾음
+P2308,,Chun Sung Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2309,최두복,DuBok Choi,Chosun University,,연구실 홈페이지 못 찾음
+P2310,,Jinhee Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2311,,Seong‐Yong Moon,Chosun University,,연구실 홈페이지 못 찾음
+P2312,,In Youb Chang,Chosun University,,연구실 홈페이지 못 찾음
+P2313,,Jin Hwa Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2314,,Jae‐Sung Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2315,,Jung Sup Lee,Chosun University,,연구실 홈페이지 못 찾음
+P2316,,Kyu Yeong Choi,Chosun University,,연구실 홈페이지 못 찾음
+P2317,,Jae Yeoul Jun,Chosun University,,연구실 홈페이지 못 찾음
+P2318,,Geon Park,Chosun University,,연구실 홈페이지 못 찾음
+P2319,,Hong Seok Choi,Chosun University,,연구실 홈페이지 못 찾음
+P2320,,Bong Seok Shin,Chosun University,,연구실 홈페이지 못 찾음
+P2321,,Jin-Soo Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2322,,Heesang Song,Chosun University,,연구실 홈페이지 못 찾음
+P2323,,Sang Yong Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2324,,Ki Tae Jung,Chosun University,,연구실 홈페이지 못 찾음
+P2325,,Chang Il Ju,Chosun University,,연구실 홈페이지 못 찾음
+P2326,,Seong‐Jung Kim,Chosun University,,연구실 홈페이지 못 찾음
+P2327,,Dong‐Hyun Choi,Chosun University,,연구실 홈페이지 못 찾음
+P2328,,Chan Ho Na,Chosun University,,연구실 홈페이지 못 찾음
+P2329,,Yong Jin Cho,Chosun University,,연구실 홈페이지 못 찾음
+P2330,,Yun Jung Lee,Wonkwang University,,연구실 홈페이지 못 찾음
+P2331,,Hyuntae Park,Wonkwang University,,연구실 홈페이지 못 찾음
+P2332,,Hyuncheol Oh,Wonkwang University,,연구실 홈페이지 못 찾음
+P2333,,Ho Sub Lee,Wonkwang University,,연구실 홈페이지 못 찾음
+P2334,,Suck Chei Choi,Wonkwang University,,연구실 홈페이지 못 찾음
+P2335,,Bong-Chul Kim,Wonkwang University,,연구실 홈페이지 못 찾음
+P2336,,Hyesook Kim,Wonkwang University,,연구실 홈페이지 못 찾음
+P2337,,Kyung‐Min Park,Wonkwang University,,연구실 홈페이지 못 찾음
 P2338,,Kyeong Ho Yun,Wonkwang University,,연구실 페이지 미확인
 P2339,,Yong Sung Kim,Wonkwang University,,연구실 페이지 미확인
 P2340,,Moon Young Lee,Wonkwang University,,연구실 페이지 미확인
@@ -2594,7 +2594,7 @@ P2807,김경수,,Seoul National University,바이오엔지니어링 협동과정
 P2809,김영수,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
 P2810,김성완,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
 P2811,김영은,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
-P2812,남기태,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
+P2812,남기태,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
 P2813,문민환,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
 P2814,박종민,,Seoul National University,바이오엔지니어링 협동과정,연구실 페이지 미확인
 P2815,박주혁,,Seoul National University,바이오엔지니어링 협동과정,논문 프로필 없음; 연구실 페이지 미확인
@@ -2839,3 +2839,15 @@ P3068,하경호,Kyoung-Ho Ha,KAIST,바이오및뇌공학과,졸업생 정보 없
 P3073,박지민,Jimin Park,KAIST,생명화학공학과,졸업생 정보 없음
 P3074,박현규,,KAIST,생명화학공학과,졸업생 정보 없음
 P3075,이진우,Jinwoo Lee,KAIST,,논문 프로필 없음; 연구실 페이지 미확인
+P3076,박진성,Jinsung Park,Eulji University,의예과,연구실 페이지 미확인
+P3077,이소민,Somin Lee,Kyung Hee University,College of Medicine / Pathology,연구실 페이지 미확인
+P3078,류성언,Seong Eon Ryu,Hanyang University,생명공학과,졸업생 정보 없음
+P3079,윤채옥,Chae-Ok Yun,Hanyang University,생명공학과,졸업생 정보 없음
+P3082,이민형,Minhyung Lee,Hanyang University,생명공학과,졸업생 정보 없음
+P3083,임태연,Taiyoun Rhim,Hanyang University,생명공학과,졸업생 정보 없음
+P3084,신흥수,Heungsoo Shin,Hanyang University,생명공학과,졸업생 정보 없음
+P3085,이동윤,Dong Yun Lee,Hanyang University,생명공학과,졸업생 정보 없음
+P3087,김기수,Ki Su Kim,Hanyang University,생명공학과,연구실 페이지 미확인
+P3088,고지훈,Jihoon Ko,Hanyang University,생명공학과,졸업생 정보 없음
+P3089,김용희,Yong-Hee Kim,Hanyang University,생명공학과,논문 프로필 없음; 졸업생 정보 없음
+P3090,김홍남,Hong Nam Kim,KIST,뇌과학연구소 (Brain Science Institute),졸업생 정보 없음

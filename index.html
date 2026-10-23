@@ -82,6 +82,8 @@
     .career-legend{display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:6px;font-size:11.5px;color:#d7def0}
     .career-legend b{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
     .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+    .hier-btn{margin-top:12px;width:100%;background:rgba(253,230,138,.10);color:#fde68a;border:1px solid rgba(253,230,138,.45);border-radius:8px;padding:7px;font:600 12px Arial,sans-serif;cursor:pointer}
+    .hier-note{font-size:11px;color:#9aa7c7;margin-top:4px;min-height:14px}
     .cmp-add{margin-top:12px;width:100%;background:none;color:#fbbf24;border:1px solid rgba(251,191,36,.5);border-radius:8px;padding:7px;font:600 12px Arial,sans-serif;cursor:pointer}
     .cmp-add:disabled{color:#7f8aa8;border-color:rgba(127,138,168,.35);cursor:default}
     .cmp-chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
@@ -140,7 +142,7 @@
 <body>
   <div class="panel">
     <h1>Korea Bio Map · 3D</h1>
-    <p>교수 = 별 · 밝기 = 종합점수 · 크기 = 교수가 된 제자 수 · 색 = 분야</p>
+    <p>교수 = 별 · 밝기 = 종합점수 · 크기 = PI가 된 제자 수 · 색 = 분야</p>
     <div class="lines">
       <div><span class="line" style="background:#bfdbfe;height:2px"></span>지도교수 → 제자 (별을 누르면 그 교수의 선만 표시)</div>
       <div><span class="line" style="background:#c084fc;height:2px;opacity:.35"></span>포닥 멘토 → 포닥 (일단 숨김)</div>
@@ -189,7 +191,7 @@
         <select id="rank-by" aria-label="순위 기준">
           <option value="score">종합 점수</option>
           <option value="collaborator_count">공동연구 교수 수</option>
-          <option value="faculty_trainee_count">교수가 된 제자 수</option>
+          <option value="faculty_trainee_count">PI가 된 제자 수</option>
           <option value="pub:citations">피인용 수</option>
           <option value="pub:h_index">h-index</option>
           <option value="pub:recent_papers">최근 5년 논문 수</option>
@@ -350,12 +352,16 @@
       return starMats.get(key)||starMats.set(key,new THREE.SpriteMaterial(
         {map:STAR_TEX,color,transparent:true,opacity,depthWrite:false,blending:THREE.AdditiveBlending})).get(key);
     };
-    // Brightness = 종합점수 (log scale, 75–100%, so a few top scores do not wash out the rest);
-    // size = 교수가 된 제자 수. Retired professors are dimmed further.
-    const MAX_SCORE=Math.max(1,...(window.KOREA_BIO_MAP.nodes||[]).map(n=>Number(n.score)||0));
+    // Brightness = 종합점수 순위 (percentile), so neighbouring scores look clearly different:
+    // the lowest 70–100% of professors. Size = PI가 된 제자 수 (most professors have none, so
+    // each trainee adds a clear step). Retired professors are dimmed further.
+    const SORTED_SCORES=(window.KOREA_BIO_MAP.nodes||[]).map(n=>Number(n.score)||0).sort((a,b)=>a-b);
     const starBrightness=node=>{
-      const t=Math.log1p(Number(node.score)||0)/Math.log1p(MAX_SCORE);
-      return Math.round((.75+.25*t)*20)/20*(node.retired?.28:1);   // steps of .05 keep the material cache small
+      const s=Number(node.score)||0;
+      let lo=0,hi=SORTED_SCORES.length;                   // how many professors score below this one
+      while(lo<hi){const mid=(lo+hi)>>1; if(SORTED_SCORES[mid]<s) lo=mid+1; else hi=mid;}
+      const t=lo/Math.max(1,SORTED_SCORES.length);
+      return Math.round((.7+.3*t)*20)/20*(node.retired?.28:1);   // steps of .05 keep the material cache small
     };
 
     const el=document.getElementById("graph");
@@ -367,7 +373,7 @@
       .graphData({nodes:window.KOREA_BIO_MAP.nodes,links:LINEAGE_LINKS})
       // One glowing sprite per star (2,500+ stars: spheres were too heavy).
       .nodeThreeObject(node=>{
-        const r=6+Math.sqrt(Number(node.faculty_trainee_count)||0)*3.5;   // bigger = more professors trained
+        const r=5+Math.min(3*(Number(node.faculty_trainee_count)||0),22);   // +3 px per trainee, capped
         const s=new THREE.Sprite(starMaterial(starColor(node),starBrightness(node)));
         s.scale.set(r*4,r*4,1);
         return s;
@@ -539,7 +545,7 @@
         <div class="stats" style="margin-top:12px">
           <div class="stat"><b>${n.score}</b><span>점수</span></div>
           <div class="stat"><b>${n.collaborator_count}</b><span>공동연구</span></div>
-          <div class="stat" title="지도 속 제자 교수 ${lin.students.length}명 · 졸업생 페이지 기준 교수 ${facultyAlumni(n)}명"><b>${Math.max(lin.students.length,facultyAlumni(n))}</b><span>교수 된 제자</span></div>
+          <div class="stat" title="지도 속 제자 교수 ${lin.students.length}명 · 졸업생 페이지 기준 교수 ${facultyAlumni(n)}명"><b>${Math.max(lin.students.length,facultyAlumni(n))}</b><span>PI가 된 제자</span></div>
           <div class="stat"><b>${lin.postdocs.length}</b><span>PI 된 포닥</span></div>
         </div>
         ${pubBlock(n)}
@@ -551,8 +557,9 @@
         ${(n.keywords||[]).length?`<h3>연구 분야</h3><div class="tags">${n.keywords.slice(0,8).map(k=>`<span class="tag">${esc(k)}</span>`).join("")}</div>`:""}
         ${(n.techniques||[]).length?`<h3>주요 기술</h3><div class="tags">${n.techniques.slice(0,6).map(k=>`<span class="tag tech">${esc(k)}</span>`).join("")}</div>`:""}
         ${lin.advisors.length||lin.mentors.length?`<h3>지도교수 · 포닥 멘토</h3><div class="people">${people(lin.advisors,"")}${people(lin.mentors,"pd")}</div>`:""}
-        ${lin.students.length||lin.postdocs.length?`<h3>교수가 된 제자 · 포닥</h3><div class="people">${people(lin.students,"")}${people(lin.postdocs,"pd")}</div>`:""}
+        ${lin.students.length||lin.postdocs.length?`<h3>PI가 된 제자 · 포닥</h3><div class="people">${people(lin.students,"")}${people(lin.postdocs,"pd")}</div>`:""}
         <button class="cmp-add">${cmpButtonText(n.id)}</button>
+        ${lin.students.length?`<button class="hier-btn" id="hier-btn">Show Hierarchy</button><div class="hier-note" id="hier-note"></div>`:""}
         <div class="links">${safeUrl(n.lab_url)?`<a href="${esc(safeUrl(n.lab_url))}" target="_blank" rel="noopener">연구실 홈페이지</a>`:""}
           ${url?`<a href="${esc(url)}" target="_blank" rel="noopener">${safeUrl(n.lab_url)?"소속 페이지":"연구실·소속 페이지"}</a>`:""}
           ${n.openalex_id?`<a href="https://openalex.org/${esc(n.openalex_id)}" target="_blank" rel="noopener">논문 (OpenAlex)</a>`:""}
@@ -563,8 +570,84 @@
       card.querySelector(".close").addEventListener("click",()=>{selected=null;setFocus(null);markActive(null);closeCard();drawOverlay();});
       card.querySelectorAll(".people button").forEach(b=>b.addEventListener("click",()=>{const p=NODE_BY_ID.get(b.dataset.id);if(p) flyTo(p);}));
       card.querySelector(".cmp-add").addEventListener("click",e=>{toggleCompare(n.id);e.currentTarget.textContent=cmpButtonText(n.id);});
+      const hb=card.querySelector("#hier-btn");
+      if(hb) hb.addEventListener("click",()=>{ if(hierSet) clearHierarchy(); else showHierarchy(n); hb.textContent=hierSet?"Hierarchy 닫기":"Show Hierarchy"; });
     }
-    function closeCard(){card.hidden=true;document.body.classList.remove("card-open");}
+    function closeCard(){clearHierarchy();card.hidden=true;document.body.classList.remove("card-open");}
+
+    // ---------- show hierarchy: the professor on top, trainees and their trainees arranged below in 3D ----------
+    let hierSet=null, hierObj=null;
+    const HIER_TOP=120, HIER_STEP=130, HIER_MAX_DEPTH=3, HIER_MAX_PER_LEVEL=12;
+    function hierChildren(id){
+      return LINEAGE_LINKS.filter(l=>endId(l.source)===id).map(l=>endId(l.target)).filter(x=>NODE_BY_ID.has(x));
+    }
+    function buildHierarchy(root){
+      const levels=[[root.id]], edges=[], seen=new Set([root.id]);
+      let hidden=0;
+      for(let d=1;d<=HIER_MAX_DEPTH;d++){
+        const kept=[];
+        for(const pid of levels[d-1]) for(const c of hierChildren(pid)){
+          if(seen.has(c)) continue;
+          if(kept.length>=HIER_MAX_PER_LEVEL){ hidden++; continue; }
+          seen.add(c); kept.push(c); edges.push([pid,c]);
+        }
+        if(!kept.length) break;
+        levels.push(kept);
+      }
+      return {levels,edges,hidden};
+    }
+    // Level d is a ring below the top professor; the ring widens with the number of people on it.
+    function hierPositions(levels){
+      const pos=new Map();
+      pos.set(levels[0][0],{x:0,y:HIER_TOP,z:0});
+      for(let d=1;d<levels.length;d++){
+        const ids=levels[d], k=ids.length, R=Math.max(70,22*k)*(1+0.25*(d-1)), y=HIER_TOP-HIER_STEP*d;
+        ids.forEach((id,i)=>{
+          const a=2*Math.PI*i/k+d*0.37;   // a small twist per level, so the tree looks like a 3D cone
+          pos.set(id,{x:R*Math.cos(a),y,z:R*Math.sin(a)});
+        });
+      }
+      return pos;
+    }
+    function showHierarchy(root){
+      clearHierarchy();
+      const H=buildHierarchy(root);
+      if(H.levels.length<2) return;
+      const pos=hierPositions(H.levels);
+      hierSet=new Set(pos.keys());
+      // Pin each member's position; pinned nodes ignore the galaxy force.
+      pos.forEach((p,id)=>{const n=NODE_BY_ID.get(id); if(n){n.fx=p.x;n.fy=p.y;n.fz=p.z;}});
+      // Lines between parent and child, plus a glowing marker on every member.
+      hierObj=new THREE.Group();
+      const pts=[];
+      H.edges.forEach(([a,b])=>{const p=pos.get(a),q=pos.get(b); pts.push(p.x,p.y,p.z,q.x,q.y,q.z);});
+      const g=new THREE.BufferGeometry();
+      g.setAttribute("position",new THREE.Float32BufferAttribute(pts,3));
+      hierObj.add(new THREE.LineSegments(g,new THREE.LineBasicMaterial({color:"#fde68a",transparent:true,opacity:.9,depthWrite:false})));
+      pos.forEach((p,id)=>{
+        const sp=glowSprite(NEBULA_TEX,id===root.id?"#fff7d6":"#fde68a",id===root.id?150:70,id===root.id?.9:.6);
+        sp.position.set(p.x,p.y,p.z);
+        hierObj.add(sp);
+      });
+      Graph.scene().add(hierObj);
+      refreshVisibility();
+      Graph.d3ReheatSimulation();
+      Graph.cameraPosition({x:0,y:HIER_TOP-HIER_STEP*1.2,z:620},{x:0,y:HIER_TOP-HIER_STEP*1.2,z:0},1200);
+      const note=document.getElementById("hier-note");
+      if(note) note.textContent=`제자 ${H.edges.length}명 표시 중${H.hidden?` (+${H.hidden}명 생략)`:""} · 최대 ${HIER_MAX_DEPTH}단계`;
+    }
+    function clearHierarchy(){
+      if(!hierSet) return;
+      hierSet.forEach(id=>{const n=NODE_BY_ID.get(id); if(n){n.fx=null;n.fy=null;n.fz=null;}});
+      hierSet=null;
+      if(hierObj){
+        Graph.scene().remove(hierObj);
+        hierObj.traverse(o=>{o.geometry?.dispose();o.material?.dispose();});
+        hierObj=null;
+      }
+      refreshVisibility();
+      Graph.d3ReheatSimulation();
+    }
 
     // Stars are placed this far apart from their neighbours (1.0 = the old, crowded layout).
     const SPREAD=1.4;
@@ -921,7 +1004,7 @@
       runSearch();runRank();
     }
     // Shown = passes the filters and, in the 산학연병 view, belongs to the zoomed-in set.
-    const shownNode=n=>n._pass!==false&&n._inSet!==false;
+    const shownNode=n=>n._pass!==false&&n._inSet!==false&&(!hierSet||hierSet.has(n.id));
     function refreshVisibility(){
       const byId=new Map(NODES.map(n=>[n.id,n]));
       Graph.nodeVisibility(shownNode)
@@ -976,7 +1059,7 @@
       const views=nodes.map(n=>labView(n.lab));
       const head=nodes.map(n=>`<th><button data-cmp-name="${esc(n.id)}">${esc(n.name)}</button><br><span class="muted" style="font-weight:400">${esc(n.university_ko||n._uni||n.university)}</span></th>`).join("");
       const extra=[
-        ["지도 속 교수 된 제자",nodes.map(n=>n.faculty_trainee_count||0),"high",x=>x?`${x}명`:""],
+        ["지도 속 PI가 된 제자",nodes.map(n=>n.faculty_trainee_count||0),"high",x=>x?`${x}명`:""],
         ["최근 5년 논문",nodes.map(n=>(n.pubs||{}).recent_papers),"high",x=>x?`${x}편`:""],
         ["h-index",nodes.map(n=>(n.pubs||{}).h_index),"high",x=>x?`${x}`:""]
       ];

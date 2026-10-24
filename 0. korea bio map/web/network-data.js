@@ -1311,7 +1311,7 @@ window.KOREA_BIO_MAP = {
       "name": "김성지",
       "name_en": "Sungjee Kim",
       "university": "POSTECH",
-      "field": "Nanochemistry / Nanomedicine / Molecular Imaging",
+      "field": "Nanochemistry / Nanomedicine / Molecular Imaging / 나노광학",
       "category": "기타",
       "region": "대구·경북",
       "home_sector": "학",

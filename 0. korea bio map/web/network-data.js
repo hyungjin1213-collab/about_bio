@@ -57189,38 +57189,6 @@ window.KOREA_BIO_MAP = {
       }
     },
     {
-      "id": "P1124",
-      "name": "Hong Nam Kim",
-      "name_en": "Hong Nam Kim",
-      "university": "Korea Institute of Science and Technology",
-      "field": "Biomedical Engineering",
-      "category": "의공학·바이오소재",
-      "region": "서울",
-      "home_sector": "연",
-      "sectors": [
-        "연"
-      ],
-      "university_ko": "한국과학기술연구원",
-      "position": "",
-      "keywords": [],
-      "techniques": [],
-      "department": "",
-      "lab": {},
-      "orcid": "0000-0002-0329-0029",
-      "retired": false,
-      "url": "https://openalex.org/A5037602360",
-      "lab_url": "",
-      "openalex_id": "A5037602360",
-      "identity": "openalex_institution",
-      "score": 0,
-      "collaborator_count": 0,
-      "faculty_trainee_count": 0,
-      "postdoc_PI_count": 0,
-      "advisor_count": 0,
-      "postdoc_mentor_count": 0,
-      "pubs": {}
-    },
-    {
       "id": "P1125",
       "name": "Jong Hyuk Park",
       "name_en": "Jong Hyuk Park",
@@ -57941,38 +57909,6 @@ window.KOREA_BIO_MAP = {
         "recent_papers": 12,
         "recent_citations": 80
       }
-    },
-    {
-      "id": "P1138",
-      "name": "Chun Gwon Park",
-      "name_en": "Chun Gwon Park",
-      "university": "Korea Institute of Science and Technology",
-      "field": "Biomedical Engineering",
-      "category": "의공학·바이오소재",
-      "region": "서울",
-      "home_sector": "연",
-      "sectors": [
-        "연"
-      ],
-      "university_ko": "한국과학기술연구원",
-      "position": "",
-      "keywords": [],
-      "techniques": [],
-      "department": "",
-      "lab": {},
-      "orcid": "0000-0002-8926-3418",
-      "retired": false,
-      "url": "https://openalex.org/A5014715024",
-      "lab_url": "http://cbrl.skku.edu/",
-      "openalex_id": "A5014715024",
-      "identity": "openalex_institution",
-      "score": 0,
-      "collaborator_count": 0,
-      "faculty_trainee_count": 0,
-      "postdoc_PI_count": 0,
-      "advisor_count": 0,
-      "postdoc_mentor_count": 0,
-      "pubs": {}
     },
     {
       "id": "P1139",

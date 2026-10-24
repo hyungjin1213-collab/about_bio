@@ -785,8 +785,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5019115055",
       "identity": "verified",
-      "score": 22,
-      "collaborator_count": 22,
+      "score": 21,
+      "collaborator_count": 21,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -1450,8 +1450,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5047859685",
       "identity": "verified",
-      "score": 15,
-      "collaborator_count": 15,
+      "score": 14,
+      "collaborator_count": 14,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -1552,8 +1552,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5052315121",
       "identity": "verified",
-      "score": 30,
-      "collaborator_count": 20,
+      "score": 29,
+      "collaborator_count": 19,
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -3468,8 +3468,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://www.bnilab.com/",
       "openalex_id": "A5100777271",
       "identity": "verified",
-      "score": 8,
-      "collaborator_count": 8,
+      "score": 7,
+      "collaborator_count": 7,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -5453,8 +5453,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://www.yonsei-hanlab.com/",
       "openalex_id": "A5077849607",
       "identity": "verified",
-      "score": 15,
-      "collaborator_count": 15,
+      "score": 14,
+      "collaborator_count": 14,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -5763,8 +5763,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5100722342",
       "identity": "verified",
-      "score": 11,
-      "collaborator_count": 11,
+      "score": 10,
+      "collaborator_count": 10,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -8580,8 +8580,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5101581200",
       "identity": "verified",
-      "score": 4,
-      "collaborator_count": 4,
+      "score": 3,
+      "collaborator_count": 3,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -11121,8 +11121,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://sites.google.com/view/dongkyulee-cau/home",
       "openalex_id": "A5100783160",
       "identity": "probable",
-      "score": 3,
-      "collaborator_count": 3,
+      "score": 2,
+      "collaborator_count": 2,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -12897,8 +12897,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "http://cobiotech.cau.ac.kr/professor?p_pfno=64",
       "openalex_id": "A5012140745",
       "identity": "verified",
-      "score": 15,
-      "collaborator_count": 14,
+      "score": 14,
+      "collaborator_count": 13,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
@@ -14150,8 +14150,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5054954881",
       "identity": "verified",
-      "score": 9,
-      "collaborator_count": 9,
+      "score": 8,
+      "collaborator_count": 8,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -17733,8 +17733,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://www.ewha.ac.kr/ewha/life/homepage.do",
       "openalex_id": "A5065847671",
       "identity": "verified",
-      "score": 8,
-      "collaborator_count": 8,
+      "score": 7,
+      "collaborator_count": 7,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -17919,8 +17919,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "http://home.ewha.ac.kr/~mbit/",
       "openalex_id": "A5006972618",
       "identity": "verified",
-      "score": 11,
-      "collaborator_count": 11,
+      "score": 10,
+      "collaborator_count": 10,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -17973,8 +17973,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "http://home.ewha.ac.kr/~yeungchu/",
       "openalex_id": "A5054573839",
       "identity": "verified",
-      "score": 24,
-      "collaborator_count": 24,
+      "score": 23,
+      "collaborator_count": 23,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -18846,8 +18846,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://www.ewha.ac.kr/ewha/life/homepage.do",
       "openalex_id": "A5068693487",
       "identity": "verified",
-      "score": 8,
-      "collaborator_count": 7,
+      "score": 7,
+      "collaborator_count": 6,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
@@ -19307,8 +19307,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://www.ewha.ac.kr/ewha/life/homepage.do",
       "openalex_id": "A5069892964",
       "identity": "verified",
-      "score": 7,
-      "collaborator_count": 7,
+      "score": 6,
+      "collaborator_count": 6,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -19613,8 +19613,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "http://mm.ewha.ac.kr/~sywoo/",
       "openalex_id": "A5019619340",
       "identity": "probable",
-      "score": 10,
-      "collaborator_count": 10,
+      "score": 9,
+      "collaborator_count": 9,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -19664,8 +19664,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://www.ewha.ac.kr/ewha/life/homepage.do",
       "openalex_id": "A5103233263",
       "identity": "verified",
-      "score": 9,
-      "collaborator_count": 9,
+      "score": 8,
+      "collaborator_count": 8,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -20521,8 +20521,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://www.ewha.ac.kr/ewha/life/homepage.do",
       "openalex_id": "A5081798094",
       "identity": "verified",
-      "score": 10,
-      "collaborator_count": 10,
+      "score": 9,
+      "collaborator_count": 9,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -21314,8 +21314,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://www.ewha.ac.kr/ewha/life/homepage.do",
       "openalex_id": "A5029241174",
       "identity": "verified",
-      "score": 5,
-      "collaborator_count": 5,
+      "score": 4,
+      "collaborator_count": 4,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -21978,8 +21978,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "http://mm.ewha.ac.kr/~JungWonH/",
       "openalex_id": "A5048920395",
       "identity": "verified",
-      "score": 13,
-      "collaborator_count": 13,
+      "score": 12,
+      "collaborator_count": 12,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -22283,8 +22283,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://sites.google.com/view/icplab-ewha",
       "openalex_id": "A5054033012",
       "identity": "verified",
-      "score": 14,
-      "collaborator_count": 14,
+      "score": 13,
+      "collaborator_count": 13,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -27930,8 +27930,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5004451410",
       "identity": "verified",
-      "score": 16,
-      "collaborator_count": 16,
+      "score": 15,
+      "collaborator_count": 15,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -28670,8 +28670,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5060849462",
       "identity": "verified",
-      "score": 46,
-      "collaborator_count": 36,
+      "score": 45,
+      "collaborator_count": 35,
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -28972,8 +28972,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5066094957",
       "identity": "verified",
-      "score": 20,
-      "collaborator_count": 20,
+      "score": 19,
+      "collaborator_count": 19,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -35474,8 +35474,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://fluid.snu.ac.kr/research/self-driving-lab/",
       "openalex_id": "A5043370027",
       "identity": "probable",
-      "score": 10,
-      "collaborator_count": 10,
+      "score": 9,
+      "collaborator_count": 9,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -36977,8 +36977,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5101786821",
       "identity": "verified",
-      "score": 23,
-      "collaborator_count": 13,
+      "score": 22,
+      "collaborator_count": 12,
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -41853,8 +41853,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "http://abruna.chem.cornell.edu/",
       "openalex_id": "A5083133451",
       "identity": "verified",
-      "score": 8,
-      "collaborator_count": 8,
+      "score": 7,
+      "collaborator_count": 7,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -44557,8 +44557,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5031068192",
       "identity": "verified",
-      "score": 54,
-      "collaborator_count": 33,
+      "score": 53,
+      "collaborator_count": 32,
       "faculty_trainee_count": 2,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
@@ -45520,8 +45520,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "http://structure.yonsei.ac.kr/",
       "openalex_id": "A5103032803",
       "identity": "verified",
-      "score": 12,
-      "collaborator_count": 12,
+      "score": 11,
+      "collaborator_count": 11,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -46609,8 +46609,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "http:///sites.google.com/view/yonsei-pharm/",
       "openalex_id": "A5034176785",
       "identity": "verified",
-      "score": 21,
-      "collaborator_count": 21,
+      "score": 20,
+      "collaborator_count": 20,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -48345,8 +48345,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5100750648",
       "identity": "verified",
-      "score": 24,
-      "collaborator_count": 21,
+      "score": 23,
+      "collaborator_count": 20,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
@@ -51232,8 +51232,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5041133038",
       "identity": "probable",
-      "score": 23,
-      "collaborator_count": 13,
+      "score": 22,
+      "collaborator_count": 12,
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -55886,8 +55886,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5100342118",
       "identity": "probable",
-      "score": 29,
-      "collaborator_count": 29,
+      "score": 27,
+      "collaborator_count": 27,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -57015,8 +57015,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://www.kist-bnl.com/",
       "openalex_id": "A5090175489",
       "identity": "openalex_institution",
-      "score": 11,
-      "collaborator_count": 11,
+      "score": 10,
+      "collaborator_count": 10,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -59270,8 +59270,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5100452198",
       "identity": "openalex_institution",
-      "score": 15,
-      "collaborator_count": 15,
+      "score": 14,
+      "collaborator_count": 14,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -59539,8 +59539,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "http://www.kangtaejoon.com",
       "openalex_id": "A5086075861",
       "identity": "openalex_institution",
-      "score": 18,
-      "collaborator_count": 18,
+      "score": 17,
+      "collaborator_count": 17,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -60940,8 +60940,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5051901421",
       "identity": "openalex_institution",
-      "score": 14,
-      "collaborator_count": 14,
+      "score": 13,
+      "collaborator_count": 13,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -62547,8 +62547,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5022042072",
       "identity": "openalex_institution",
-      "score": 18,
-      "collaborator_count": 18,
+      "score": 17,
+      "collaborator_count": 17,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -63576,8 +63576,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5010985744",
       "identity": "openalex_institution",
-      "score": 10,
-      "collaborator_count": 10,
+      "score": 9,
+      "collaborator_count": 9,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -72696,8 +72696,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5053946593",
       "identity": "openalex_institution",
-      "score": 29,
-      "collaborator_count": 18,
+      "score": 28,
+      "collaborator_count": 17,
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
@@ -72801,8 +72801,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5077700350",
       "identity": "openalex_institution",
-      "score": 17,
-      "collaborator_count": 17,
+      "score": 16,
+      "collaborator_count": 16,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -74918,8 +74918,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5062221234",
       "identity": "openalex_institution",
-      "score": 36,
-      "collaborator_count": 25,
+      "score": 35,
+      "collaborator_count": 24,
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 1,
@@ -76170,8 +76170,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5021435467",
       "identity": "openalex_institution",
-      "score": 15,
-      "collaborator_count": 12,
+      "score": 14,
+      "collaborator_count": 11,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
@@ -78776,8 +78776,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5038366277",
       "identity": "openalex_institution",
-      "score": 21,
-      "collaborator_count": 21,
+      "score": 20,
+      "collaborator_count": 20,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -79533,8 +79533,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5108388975",
       "identity": "openalex_institution",
-      "score": 55,
-      "collaborator_count": 55,
+      "score": 54,
+      "collaborator_count": 54,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -83490,8 +83490,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5039249227",
       "identity": "openalex_institution",
-      "score": 14,
-      "collaborator_count": 14,
+      "score": 12,
+      "collaborator_count": 12,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -88957,8 +88957,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5057058881",
       "identity": "openalex_institution",
-      "score": 6,
-      "collaborator_count": 6,
+      "score": 5,
+      "collaborator_count": 5,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -91179,8 +91179,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5034728621",
       "identity": "openalex_institution",
-      "score": 27,
-      "collaborator_count": 27,
+      "score": 26,
+      "collaborator_count": 26,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -92006,8 +92006,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5102811811",
       "identity": "openalex_institution",
-      "score": 11,
-      "collaborator_count": 11,
+      "score": 10,
+      "collaborator_count": 10,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -92366,8 +92366,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5102822734",
       "identity": "openalex_institution",
-      "score": 12,
-      "collaborator_count": 12,
+      "score": 11,
+      "collaborator_count": 11,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -94950,8 +94950,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5025942220",
       "identity": "openalex_institution",
-      "score": 20,
-      "collaborator_count": 19,
+      "score": 19,
+      "collaborator_count": 18,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -98050,8 +98050,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5101880123",
       "identity": "openalex_institution",
-      "score": 5,
-      "collaborator_count": 5,
+      "score": 4,
+      "collaborator_count": 4,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -98156,8 +98156,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "http://Sim-research.org",
       "openalex_id": "A5008309794",
       "identity": "openalex_institution",
-      "score": 4,
-      "collaborator_count": 4,
+      "score": 3,
+      "collaborator_count": 3,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -103681,8 +103681,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5101923708",
       "identity": "openalex_institution",
-      "score": 17,
-      "collaborator_count": 17,
+      "score": 16,
+      "collaborator_count": 16,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -104004,8 +104004,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5041155675",
       "identity": "openalex_institution",
-      "score": 15,
-      "collaborator_count": 14,
+      "score": 14,
+      "collaborator_count": 13,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -105990,8 +105990,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5102973370",
       "identity": "openalex_institution",
-      "score": 9,
-      "collaborator_count": 9,
+      "score": 8,
+      "collaborator_count": 8,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -106562,8 +106562,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5088167495",
       "identity": "openalex_institution",
-      "score": 9,
-      "collaborator_count": 9,
+      "score": 8,
+      "collaborator_count": 8,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -106720,8 +106720,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5066445933",
       "identity": "openalex_institution",
-      "score": 6,
-      "collaborator_count": 6,
+      "score": 4,
+      "collaborator_count": 4,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -111127,8 +111127,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://sites.google.com/view/molneurol",
       "openalex_id": "A5024699402",
       "identity": "openalex_institution",
-      "score": 8,
-      "collaborator_count": 8,
+      "score": 7,
+      "collaborator_count": 7,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -112114,8 +112114,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5014103481",
       "identity": "openalex_institution",
-      "score": 13,
-      "collaborator_count": 13,
+      "score": 11,
+      "collaborator_count": 11,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -112211,8 +112211,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5082688600",
       "identity": "openalex_institution",
-      "score": 9,
-      "collaborator_count": 9,
+      "score": 8,
+      "collaborator_count": 8,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -113381,8 +113381,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5040365419",
       "identity": "openalex_institution",
-      "score": 10,
-      "collaborator_count": 10,
+      "score": 9,
+      "collaborator_count": 9,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -116958,8 +116958,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5100424844",
       "identity": "openalex_institution",
-      "score": 37,
-      "collaborator_count": 34,
+      "score": 36,
+      "collaborator_count": 33,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
@@ -118980,8 +118980,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5100376597",
       "identity": "openalex_institution",
-      "score": 4,
-      "collaborator_count": 4,
+      "score": 3,
+      "collaborator_count": 3,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -124836,8 +124836,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5039662718",
       "identity": "openalex_institution",
-      "score": 21,
-      "collaborator_count": 21,
+      "score": 20,
+      "collaborator_count": 20,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -129053,8 +129053,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5046518317",
       "identity": "openalex_institution",
-      "score": 9,
-      "collaborator_count": 9,
+      "score": 8,
+      "collaborator_count": 8,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -130093,8 +130093,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5100400974",
       "identity": "openalex_institution",
-      "score": 15,
-      "collaborator_count": 15,
+      "score": 14,
+      "collaborator_count": 14,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -130146,8 +130146,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5086899824",
       "identity": "openalex_institution",
-      "score": 33,
-      "collaborator_count": 23,
+      "score": 32,
+      "collaborator_count": 22,
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -130247,13 +130247,13 @@ window.KOREA_BIO_MAP = {
       "department": "Department of Mechanical Engineering",
       "lab": {},
       "orcid": "0000-0001-5869-4330",
-      "retired": false,
+      "retired": true,
       "url": "https://openalex.org/A5013808012",
       "lab_url": "",
       "openalex_id": "A5013808012",
       "identity": "openalex_institution",
-      "score": 22,
-      "collaborator_count": 19,
+      "score": 20,
+      "collaborator_count": 17,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 1,
       "advisor_count": 0,
@@ -130397,13 +130397,13 @@ window.KOREA_BIO_MAP = {
       "department": "Department of Life Sciences",
       "lab": {},
       "orcid": "0000-0001-7292-2627",
-      "retired": false,
+      "retired": true,
       "url": "https://openalex.org/A5022553207",
       "lab_url": "",
       "openalex_id": "A5022553207",
       "identity": "openalex_institution",
-      "score": 27,
-      "collaborator_count": 17,
+      "score": 26,
+      "collaborator_count": 16,
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -130508,8 +130508,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5058106720",
       "identity": "openalex_institution",
-      "score": 12,
-      "collaborator_count": 12,
+      "score": 11,
+      "collaborator_count": 11,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -130520,60 +130520,6 @@ window.KOREA_BIO_MAP = {
         "h_index": 41,
         "recent_papers": 30,
         "recent_citations": 685
-      }
-    },
-    {
-      "id": "P2536",
-      "name": "김수정",
-      "name_en": "Sujeong Kim",
-      "university": "POSTECH",
-      "field": "Physiology",
-      "category": "생리·대사",
-      "region": "대구·경북",
-      "home_sector": "학",
-      "sectors": [
-        "학",
-        "병"
-      ],
-      "university_ko": "포항공과대학교",
-      "position": "",
-      "keywords": [
-        "severe asthma",
-        "Asthma",
-        "asthma exacerbations",
-        "severe cutaneous adverse reactions",
-        "asthma phenotypes",
-        "asthma control",
-        "Drug Hypersensitivity",
-        "sputum eosinophils"
-      ],
-      "techniques": [
-        "오가노이드",
-        "항체 개발",
-        "조직공학·바이오프린팅",
-        "머신러닝·AI",
-        "RNA 치료제·siRNA"
-      ],
-      "department": "",
-      "lab": {},
-      "orcid": "0000-0002-2494-9216",
-      "retired": false,
-      "url": "https://openalex.org/A5100739938",
-      "lab_url": "",
-      "openalex_id": "A5100739938",
-      "identity": "openalex_institution",
-      "score": 19,
-      "collaborator_count": 19,
-      "faculty_trainee_count": 0,
-      "postdoc_PI_count": 0,
-      "advisor_count": 0,
-      "postdoc_mentor_count": 0,
-      "pubs": {
-        "papers": 241,
-        "citations": 6277,
-        "h_index": 40,
-        "recent_papers": 83,
-        "recent_citations": 1136
       }
     },
     {
@@ -130615,8 +130561,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5021944382",
       "identity": "openalex_institution",
-      "score": 2,
-      "collaborator_count": 2,
+      "score": 1,
+      "collaborator_count": 1,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -130627,60 +130573,6 @@ window.KOREA_BIO_MAP = {
         "h_index": 43,
         "recent_papers": 37,
         "recent_citations": 504
-      }
-    },
-    {
-      "id": "P2538",
-      "name": "Sangwoo Kim",
-      "name_en": "Sangwoo Kim",
-      "university": "POSTECH",
-      "field": "Cancer Research",
-      "category": "암·종양",
-      "region": "대구·경북",
-      "home_sector": "학",
-      "sectors": [
-        "학",
-        "병"
-      ],
-      "university_ko": "포항공과대학교",
-      "position": "",
-      "keywords": [
-        "anticyclonic anomaly",
-        "Western Siberia",
-        "land-atmosphere interactions",
-        "somatic mosaicism",
-        "mutational signatures",
-        "genomic foundation models",
-        "Mosaicism",
-        "microsatellite instability"
-      ],
-      "techniques": [
-        "차세대 시퀀싱(NGS)",
-        "RNA-seq·전사체",
-        "줄기세포·iPSC",
-        "단일세포 분석",
-        "생물정보·계산생물"
-      ],
-      "department": "",
-      "lab": {},
-      "orcid": "0000-0001-5356-0827",
-      "retired": false,
-      "url": "https://openalex.org/A5100452154",
-      "lab_url": "",
-      "openalex_id": "A5100452154",
-      "identity": "openalex_institution",
-      "score": 10,
-      "collaborator_count": 10,
-      "faculty_trainee_count": 0,
-      "postdoc_PI_count": 0,
-      "advisor_count": 0,
-      "postdoc_mentor_count": 0,
-      "pubs": {
-        "papers": 200,
-        "citations": 5581,
-        "h_index": 37,
-        "recent_papers": 58,
-        "recent_citations": 684
       }
     },
     {
@@ -130823,7 +130715,7 @@ window.KOREA_BIO_MAP = {
       "department": "Department of Life Sciences",
       "lab": {},
       "orcid": "0000-0002-1388-1367",
-      "retired": false,
+      "retired": true,
       "url": "https://openalex.org/A5083020137",
       "lab_url": "",
       "openalex_id": "A5083020137",
@@ -130881,8 +130773,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5039843081",
       "identity": "openalex_institution",
-      "score": 18,
-      "collaborator_count": 17,
+      "score": 17,
+      "collaborator_count": 16,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -130984,13 +130876,13 @@ window.KOREA_BIO_MAP = {
       "department": "Department of Life Sciences",
       "lab": {},
       "orcid": "0000-0003-2726-907X",
-      "retired": false,
+      "retired": true,
       "url": "https://openalex.org/A5088163862",
       "lab_url": "",
       "openalex_id": "A5088163862",
       "identity": "openalex_institution",
-      "score": 22,
-      "collaborator_count": 12,
+      "score": 21,
+      "collaborator_count": 11,
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -131112,59 +131004,6 @@ window.KOREA_BIO_MAP = {
       }
     },
     {
-      "id": "P2547",
-      "name": "Ju Young Park",
-      "name_en": "Ju Young Park",
-      "university": "POSTECH",
-      "field": "Biomedical Engineering",
-      "category": "의공학·바이오소재",
-      "region": "대구·경북",
-      "home_sector": "학",
-      "sectors": [
-        "학"
-      ],
-      "university_ko": "포항공과대학교",
-      "position": "",
-      "keywords": [
-        "blood-tumor barrier permeability",
-        "Printing, Three-Dimensional",
-        "focused ultrasound",
-        "mineral composition analysis",
-        "Ulleung Basin",
-        "doxorubicin delivery",
-        "Decellularized Extracellular Matrix",
-        "Ink"
-      ],
-      "techniques": [
-        "조직공학·바이오프린팅",
-        "하이드로젤·스캐폴드",
-        "나노입자·약물전달",
-        "미세유체·장기칩",
-        "MRI·PET 영상"
-      ],
-      "department": "",
-      "lab": {},
-      "orcid": "0000-0002-5896-0958",
-      "retired": false,
-      "url": "https://openalex.org/A5089743772",
-      "lab_url": "",
-      "openalex_id": "A5089743772",
-      "identity": "openalex_institution",
-      "score": 10,
-      "collaborator_count": 10,
-      "faculty_trainee_count": 0,
-      "postdoc_PI_count": 0,
-      "advisor_count": 0,
-      "postdoc_mentor_count": 0,
-      "pubs": {
-        "papers": 159,
-        "citations": 7637,
-        "h_index": 42,
-        "recent_papers": 21,
-        "recent_citations": 284
-      }
-    },
-    {
       "id": "P2548",
       "name": "김종민",
       "name_en": "Jongmin Kim",
@@ -131272,59 +131111,6 @@ window.KOREA_BIO_MAP = {
       }
     },
     {
-      "id": "P2550",
-      "name": "Steve Park",
-      "name_en": "Steve Park",
-      "university": "POSTECH",
-      "field": "Biomedical Engineering",
-      "category": "의공학·바이오소재",
-      "region": "대구·경북",
-      "home_sector": "학",
-      "sectors": [
-        "학"
-      ],
-      "university_ko": "포항공과대학교",
-      "position": "",
-      "keywords": [
-        "solution shearing",
-        "stretchable electronics",
-        "electronic skin",
-        "tactile sensing",
-        "direct ink writing",
-        "pressure sensing",
-        "liquid metal particles",
-        "large-area thin films"
-      ],
-      "techniques": [
-        "하이드로젤·스캐폴드",
-        "조직공학·바이오프린팅",
-        "미세유체·장기칩",
-        "머신러닝·AI",
-        "나노입자·약물전달"
-      ],
-      "department": "",
-      "lab": {},
-      "orcid": "0000-0002-1428-592X",
-      "retired": false,
-      "url": "https://openalex.org/A5088241881",
-      "lab_url": "",
-      "openalex_id": "A5088241881",
-      "identity": "openalex_institution",
-      "score": 15,
-      "collaborator_count": 15,
-      "faculty_trainee_count": 0,
-      "postdoc_PI_count": 0,
-      "advisor_count": 0,
-      "postdoc_mentor_count": 0,
-      "pubs": {
-        "papers": 139,
-        "citations": 11067,
-        "h_index": 48,
-        "recent_papers": 65,
-        "recent_citations": 2382
-      }
-    },
-    {
       "id": "P2551",
       "name": "이정욱",
       "name_en": "Jeong Wook Lee",
@@ -131417,8 +131203,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5102002061",
       "identity": "openalex_institution",
-      "score": 5,
-      "collaborator_count": 5,
+      "score": 4,
+      "collaborator_count": 4,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -131481,59 +131267,6 @@ window.KOREA_BIO_MAP = {
       }
     },
     {
-      "id": "P2554",
-      "name": "Sung Key Jang",
-      "name_en": "Sung Key Jang",
-      "university": "POSTECH",
-      "field": "Hepatology",
-      "category": "임상의학",
-      "region": "대구·경북",
-      "home_sector": "학",
-      "sectors": [
-        "학"
-      ],
-      "university_ko": "포항공과대학교",
-      "position": "",
-      "keywords": [
-        "hepatitis C virus",
-        "Hepacivirus",
-        "eIF4G",
-        "Protein Biosynthesis",
-        "internal ribosome entry site",
-        "Hepatitis C",
-        "SELEX Aptamer Technique",
-        "Eukaryotic Initiation Factor-4G"
-      ],
-      "techniques": [
-        "예쁜꼬마선충",
-        "웨스턴블롯",
-        "분자도킹·시뮬레이션",
-        "RNA 치료제·siRNA",
-        "줄기세포·iPSC"
-      ],
-      "department": "",
-      "lab": {},
-      "orcid": "0000-0001-6620-8881",
-      "retired": false,
-      "url": "https://openalex.org/A5030924151",
-      "lab_url": "",
-      "openalex_id": "A5030924151",
-      "identity": "openalex_institution",
-      "score": 14,
-      "collaborator_count": 14,
-      "faculty_trainee_count": 0,
-      "postdoc_PI_count": 0,
-      "advisor_count": 0,
-      "postdoc_mentor_count": 0,
-      "pubs": {
-        "papers": 126,
-        "citations": 10503,
-        "h_index": 52,
-        "recent_papers": 7,
-        "recent_citations": 53
-      }
-    },
-    {
       "id": "P2555",
       "name": "김형함",
       "name_en": "Hyung Ham Kim",
@@ -131584,58 +131317,6 @@ window.KOREA_BIO_MAP = {
         "h_index": 33,
         "recent_papers": 25,
         "recent_citations": 655
-      }
-    },
-    {
-      "id": "P2556",
-      "name": "Sehan Park",
-      "name_en": "Sehan Park",
-      "university": "POSTECH",
-      "field": "Pathology and Forensic Medicine",
-      "category": "임상의학",
-      "region": "대구·경북",
-      "home_sector": "학",
-      "sectors": [
-        "학",
-        "병"
-      ],
-      "university_ko": "포항공과대학교",
-      "position": "",
-      "keywords": [
-        "spinal fusion",
-        "Cervical Vertebrae",
-        "Diskectomy",
-        "anterior cervical discectomy and fusion",
-        "cervical myelopathy",
-        "arm pain",
-        "adolescent idiopathic scoliosis",
-        "Foraminotomy"
-      ],
-      "techniques": [
-        "X선 결정학·구조분석",
-        "MRI·PET 영상",
-        "머신러닝·AI"
-      ],
-      "department": "",
-      "lab": {},
-      "orcid": "0000-0001-8959-8579",
-      "retired": false,
-      "url": "https://openalex.org/A5047589863",
-      "lab_url": "",
-      "openalex_id": "A5047589863",
-      "identity": "openalex_institution",
-      "score": 2,
-      "collaborator_count": 2,
-      "faculty_trainee_count": 0,
-      "postdoc_PI_count": 0,
-      "advisor_count": 0,
-      "postdoc_mentor_count": 0,
-      "pubs": {
-        "papers": 123,
-        "citations": 1095,
-        "h_index": 20,
-        "recent_papers": 91,
-        "recent_citations": 486
       }
     },
     {
@@ -131730,8 +131411,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://asel.postech.ac.kr/asel/index.do",
       "openalex_id": "A5074578302",
       "identity": "openalex_institution",
-      "score": 24,
-      "collaborator_count": 14,
+      "score": 23,
+      "collaborator_count": 13,
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -131742,59 +131423,6 @@ window.KOREA_BIO_MAP = {
         "h_index": 40,
         "recent_papers": 13,
         "recent_citations": 146
-      }
-    },
-    {
-      "id": "P2559",
-      "name": "Hae‐Won Lee",
-      "name_en": "Hae‐Won Lee",
-      "university": "POSTECH",
-      "field": "Food Science",
-      "category": "농생명·식품·생태",
-      "region": "대구·경북",
-      "home_sector": "학",
-      "sectors": [
-        "학",
-        "연"
-      ],
-      "university_ko": "포항공과대학교",
-      "position": "",
-      "keywords": [
-        "kimchi",
-        "composite insulators",
-        "creepage distance",
-        "sauerkraut",
-        "low-frequency noise",
-        "fermented vegetables",
-        "ZnO thin-film transistors",
-        "ternary logic circuits"
-      ],
-      "techniques": [
-        "질량분석",
-        "단백체",
-        "전자현미경",
-        "나노입자·약물전달"
-      ],
-      "department": "",
-      "lab": {},
-      "orcid": "0000-0002-9420-6354",
-      "retired": false,
-      "url": "https://openalex.org/A5045543211",
-      "lab_url": "",
-      "openalex_id": "A5045543211",
-      "identity": "openalex_institution",
-      "score": 6,
-      "collaborator_count": 6,
-      "faculty_trainee_count": 0,
-      "postdoc_PI_count": 0,
-      "advisor_count": 0,
-      "postdoc_mentor_count": 0,
-      "pubs": {
-        "papers": 105,
-        "citations": 1253,
-        "h_index": 21,
-        "recent_papers": 29,
-        "recent_citations": 134
       }
     },
     {
@@ -131901,60 +131529,6 @@ window.KOREA_BIO_MAP = {
         "h_index": 30,
         "recent_papers": 18,
         "recent_citations": 173
-      }
-    },
-    {
-      "id": "P2562",
-      "name": "Kyoung Eun Lee",
-      "name_en": "Kyoung Eun Lee",
-      "university": "POSTECH",
-      "field": "Pulmonary and Respiratory Medicine",
-      "category": "임상의학",
-      "region": "대구·경북",
-      "home_sector": "학",
-      "sectors": [
-        "학",
-        "병"
-      ],
-      "university_ko": "포항공과대학교",
-      "position": "",
-      "keywords": [
-        "metastatic breast cancer",
-        "trastuzumab emtansine",
-        "progression-free survival",
-        "overall survival",
-        "triple-negative breast cancer",
-        "HER2-positive metastatic breast cancer",
-        "CDK4/6 inhibitors",
-        "pertuzumab"
-      ],
-      "techniques": [
-        "항체 개발",
-        "RNA-seq·전사체",
-        "면역조직화학",
-        "MRI·PET 영상",
-        "RNA 치료제·siRNA"
-      ],
-      "department": "",
-      "lab": {},
-      "orcid": "0000-0003-1596-8666",
-      "retired": false,
-      "url": "https://openalex.org/A5101534267",
-      "lab_url": "",
-      "openalex_id": "A5101534267",
-      "identity": "openalex_institution",
-      "score": 19,
-      "collaborator_count": 19,
-      "faculty_trainee_count": 0,
-      "postdoc_PI_count": 0,
-      "advisor_count": 0,
-      "postdoc_mentor_count": 0,
-      "pubs": {
-        "papers": 74,
-        "citations": 1834,
-        "h_index": 19,
-        "recent_papers": 23,
-        "recent_citations": 601
       }
     },
     {
@@ -132469,8 +132043,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5100459017",
       "identity": "openalex_institution",
-      "score": 13,
-      "collaborator_count": 13,
+      "score": 12,
+      "collaborator_count": 12,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -133243,8 +132817,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5080204034",
       "identity": "openalex_institution",
-      "score": 12,
-      "collaborator_count": 12,
+      "score": 11,
+      "collaborator_count": 11,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -134701,8 +134275,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5104110299",
       "identity": "openalex_institution",
-      "score": 1,
-      "collaborator_count": 1,
+      "score": 0,
+      "collaborator_count": 0,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -134858,8 +134432,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5100411754",
       "identity": "openalex_institution",
-      "score": 24,
-      "collaborator_count": 24,
+      "score": 23,
+      "collaborator_count": 23,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -137092,8 +136666,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5083365266",
       "identity": "openalex_institution",
-      "score": 6,
-      "collaborator_count": 6,
+      "score": 5,
+      "collaborator_count": 5,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -138114,8 +137688,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5100746569",
       "identity": "openalex_institution",
-      "score": 9,
-      "collaborator_count": 9,
+      "score": 8,
+      "collaborator_count": 8,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -142294,38 +141868,6 @@ window.KOREA_BIO_MAP = {
       "pubs": {}
     },
     {
-      "id": "P2772",
-      "name": "이인수",
-      "name_en": "Insu Lee",
-      "university": "POSTECH",
-      "field": "",
-      "category": "기타",
-      "region": "대구·경북",
-      "home_sector": "학",
-      "sectors": [
-        "학"
-      ],
-      "university_ko": "포항공과대학교",
-      "position": "",
-      "keywords": [],
-      "techniques": [],
-      "department": "",
-      "lab": {},
-      "orcid": "",
-      "retired": false,
-      "url": "https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3",
-      "lab_url": "",
-      "openalex_id": "",
-      "identity": "alumni_page",
-      "score": 0,
-      "collaborator_count": 0,
-      "faculty_trainee_count": 0,
-      "postdoc_PI_count": 0,
-      "advisor_count": 0,
-      "postdoc_mentor_count": 0,
-      "pubs": {}
-    },
-    {
       "id": "P2773",
       "name": "김재윤",
       "name_en": "Jaeyun Kim",
@@ -142408,38 +141950,6 @@ window.KOREA_BIO_MAP = {
         "recent_papers": 52,
         "recent_citations": 703
       }
-    },
-    {
-      "id": "P2775",
-      "name": "손재성",
-      "name_en": "Jae Sung Son",
-      "university": "POSTECH",
-      "field": "",
-      "category": "기타",
-      "region": "대구·경북",
-      "home_sector": "학",
-      "sectors": [
-        "학"
-      ],
-      "university_ko": "포항공과대학교",
-      "position": "",
-      "keywords": [],
-      "techniques": [],
-      "department": "",
-      "lab": {},
-      "orcid": "",
-      "retired": false,
-      "url": "https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3",
-      "lab_url": "",
-      "openalex_id": "",
-      "identity": "alumni_page",
-      "score": 0,
-      "collaborator_count": 0,
-      "faculty_trainee_count": 0,
-      "postdoc_PI_count": 0,
-      "advisor_count": 0,
-      "postdoc_mentor_count": 0,
-      "pubs": {}
     },
     {
       "id": "P2776",
@@ -143235,8 +142745,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://mbel.snu.ac.kr/",
       "openalex_id": "A5051796736",
       "identity": "manual",
-      "score": 22,
-      "collaborator_count": 22,
+      "score": 21,
+      "collaborator_count": 21,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -143823,8 +143333,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "http://bielab.snu.ac.kr/main/",
       "openalex_id": "A5082059052",
       "identity": "manual",
-      "score": 7,
-      "collaborator_count": 7,
+      "score": 6,
+      "collaborator_count": 6,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -145349,8 +144859,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5101588373",
       "identity": "manual",
-      "score": 5,
-      "collaborator_count": 5,
+      "score": 4,
+      "collaborator_count": 4,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -147742,8 +147252,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "",
       "openalex_id": "A5049262893",
       "identity": "probable",
-      "score": 14,
-      "collaborator_count": 14,
+      "score": 13,
+      "collaborator_count": 13,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -156675,8 +156185,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "https://biosoft.kaist.ac.kr/",
       "openalex_id": "A5037879375",
       "identity": "manual",
-      "score": 15,
-      "collaborator_count": 15,
+      "score": 14,
+      "collaborator_count": 14,
       "faculty_trainee_count": 0,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -158319,8 +157829,8 @@ window.KOREA_BIO_MAP = {
       "lab_url": "http://www.bmtl.kr/main.php",
       "openalex_id": "A5062317501",
       "identity": "manual",
-      "score": 34,
-      "collaborator_count": 24,
+      "score": 33,
+      "collaborator_count": 23,
       "faculty_trainee_count": 1,
       "postdoc_PI_count": 0,
       "advisor_count": 0,
@@ -158962,7 +158472,7 @@ window.KOREA_BIO_MAP = {
     {
       "id": "P3101",
       "name": "백승태",
-      "name_en": "",
+      "name_en": "Seung Tae Baek",
       "university": "POSTECH",
       "field": "발달신경질환",
       "category": "분자·세포생물",
@@ -161178,15 +160688,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0011",
-      "target": "P2554",
-      "type": "collaboration",
-      "paper_count": 4,
-      "verified": "auto",
-      "strength": 0.137,
-      "last_year": 2011
-    },
-    {
-      "source": "P0011",
       "target": "P2633",
       "type": "collaboration",
       "paper_count": 2,
@@ -162150,15 +161651,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0023",
-      "target": "P2554",
-      "type": "collaboration",
-      "paper_count": 7,
-      "verified": "auto",
-      "strength": 0.413,
-      "last_year": 2018
-    },
-    {
-      "source": "P0023",
       "target": "P2561",
       "type": "collaboration",
       "paper_count": 3,
@@ -162318,15 +161810,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 1.274,
       "last_year": 2018
-    },
-    {
-      "source": "P0025",
-      "target": "P2547",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.061,
-      "last_year": 2009
     },
     {
       "source": "P0025",
@@ -165138,15 +164621,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0063",
-      "target": "P2550",
-      "type": "collaboration",
-      "paper_count": 15,
-      "verified": "auto",
-      "strength": 1.38,
-      "last_year": 2026
-    },
-    {
-      "source": "P0063",
       "target": "P2802",
       "type": "collaboration",
       "paper_count": 5,
@@ -167207,15 +166681,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2012
     },
     {
-      "source": "P0100",
-      "target": "P2538",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.066,
-      "last_year": 2021
-    },
-    {
       "source": "P0102",
       "target": "P0104",
       "type": "collaboration",
@@ -167601,15 +167066,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.136,
       "last_year": 2021
-    },
-    {
-      "source": "P0108",
-      "target": "P2550",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.042,
-      "last_year": 2022
     },
     {
       "source": "P0108",
@@ -168811,15 +168267,6 @@ window.KOREA_BIO_MAP = {
     {
       "source": "P0161",
       "target": "P1847",
-      "type": "collaboration",
-      "paper_count": 5,
-      "verified": "auto",
-      "strength": 0.165,
-      "last_year": 2015
-    },
-    {
-      "source": "P0161",
-      "target": "P2559",
       "type": "collaboration",
       "paper_count": 5,
       "verified": "auto",
@@ -170636,15 +170083,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2025
     },
     {
-      "source": "P0214",
-      "target": "P2536",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.099,
-      "last_year": 2012
-    },
-    {
       "source": "P0215",
       "target": "P1062",
       "type": "collaboration",
@@ -171735,15 +171173,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0246",
-      "target": "P2547",
-      "type": "collaboration",
-      "paper_count": 4,
-      "verified": "auto",
-      "strength": 0.237,
-      "last_year": 2021
-    },
-    {
-      "source": "P0246",
       "target": "P2759",
       "type": "collaboration",
       "paper_count": 27,
@@ -172506,15 +171935,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.107,
       "last_year": 2016
-    },
-    {
-      "source": "P0272",
-      "target": "P2554",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.035,
-      "last_year": 1998
     },
     {
       "source": "P0272",
@@ -175136,15 +174556,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2025
     },
     {
-      "source": "P0350",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 10,
-      "verified": "auto",
-      "strength": 0.484,
-      "last_year": 2020
-    },
-    {
       "source": "P0351",
       "target": "P0388",
       "type": "collaboration",
@@ -175260,15 +174671,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.023,
       "last_year": 2008
-    },
-    {
-      "source": "P0354",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 5,
-      "verified": "auto",
-      "strength": 0.42,
-      "last_year": 2025
     },
     {
       "source": "P0355",
@@ -175431,15 +174833,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.288,
       "last_year": 2026
-    },
-    {
-      "source": "P0355",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 21,
-      "verified": "auto",
-      "strength": 0.912,
-      "last_year": 2020
     },
     {
       "source": "P0356",
@@ -175953,15 +175346,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.075,
       "last_year": 2021
-    },
-    {
-      "source": "P0376",
-      "target": "P2536",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.034,
-      "last_year": 2020
     },
     {
       "source": "P0378",
@@ -176504,15 +175888,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2023
     },
     {
-      "source": "P0386",
-      "target": "P2536",
-      "type": "collaboration",
-      "paper_count": 12,
-      "verified": "auto",
-      "strength": 0.395,
-      "last_year": 2026
-    },
-    {
       "source": "P0388",
       "target": "P0409",
       "type": "collaboration",
@@ -176612,15 +175987,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2022
     },
     {
-      "source": "P0393",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 3,
-      "verified": "auto",
-      "strength": 0.008,
-      "last_year": 2007
-    },
-    {
       "source": "P0394",
       "target": "P0414",
       "type": "collaboration",
@@ -176655,15 +176021,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.183,
       "last_year": 2022
-    },
-    {
-      "source": "P0394",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 5,
-      "verified": "auto",
-      "strength": 0.516,
-      "last_year": 2024
     },
     {
       "source": "P0398",
@@ -177024,15 +176381,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.563,
       "last_year": 2023
-    },
-    {
-      "source": "P0414",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 5,
-      "verified": "auto",
-      "strength": 0.516,
-      "last_year": 2024
     },
     {
       "source": "P0414",
@@ -177602,15 +176950,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2022
     },
     {
-      "source": "P0435",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.133,
-      "last_year": 2024
-    },
-    {
       "source": "P0438",
       "target": "P0444",
       "type": "collaboration",
@@ -178088,15 +177427,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2020
     },
     {
-      "source": "P0449",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 4,
-      "verified": "auto",
-      "strength": 0.33,
-      "last_year": 2023
-    },
-    {
       "source": "P0451",
       "target": "P1206",
       "type": "collaboration",
@@ -178230,15 +177560,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.222,
       "last_year": 2018
-    },
-    {
-      "source": "P0456",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 3,
-      "verified": "auto",
-      "strength": 0.008,
-      "last_year": 2007
     },
     {
       "source": "P0461",
@@ -181634,15 +180955,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2019
     },
     {
-      "source": "P0582",
-      "target": "P2536",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.034,
-      "last_year": 2020
-    },
-    {
       "source": "P0585",
       "target": "P0588",
       "type": "collaboration",
@@ -182292,15 +181604,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0597",
-      "target": "P2550",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.044,
-      "last_year": 2021
-    },
-    {
-      "source": "P0597",
       "target": "P2586",
       "type": "collaboration",
       "paper_count": 2,
@@ -182595,15 +181898,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.046,
       "last_year": 2015
-    },
-    {
-      "source": "P0603",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.088,
-      "last_year": 2022
     },
     {
       "source": "P0604",
@@ -186495,15 +185789,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0726",
-      "target": "P2550",
-      "type": "collaboration",
-      "paper_count": 6,
-      "verified": "auto",
-      "strength": 0.603,
-      "last_year": 2023
-    },
-    {
-      "source": "P0726",
       "target": "P2626",
       "type": "collaboration",
       "paper_count": 3,
@@ -187410,15 +186695,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.219,
       "last_year": 2013
-    },
-    {
-      "source": "P0751",
-      "target": "P2554",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.054,
-      "last_year": 2008
     },
     {
       "source": "P0751",
@@ -190455,15 +189731,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0832",
-      "target": "P2550",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.044,
-      "last_year": 2021
-    },
-    {
-      "source": "P0832",
       "target": "P2618",
       "type": "collaboration",
       "paper_count": 14,
@@ -191760,15 +191027,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0881",
-      "target": "P2550",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.042,
-      "last_year": 2022
-    },
-    {
-      "source": "P0881",
       "target": "P2552",
       "type": "collaboration",
       "paper_count": 2,
@@ -192336,15 +191594,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0900",
-      "target": "P2556",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.111,
-      "last_year": 2023
-    },
-    {
-      "source": "P0900",
       "target": "P3037",
       "type": "collaboration",
       "paper_count": 2,
@@ -192792,15 +192041,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.243,
       "last_year": 2024
-    },
-    {
-      "source": "P0920",
-      "target": "P2538",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.087,
-      "last_year": 2016
     },
     {
       "source": "P0920",
@@ -193485,15 +192725,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.203,
       "last_year": 2010
-    },
-    {
-      "source": "P0954",
-      "target": "P2538",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.321,
-      "last_year": 2013
     },
     {
       "source": "P0954",
@@ -195684,15 +194915,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P1010",
-      "target": "P2550",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.174,
-      "last_year": 2026
-    },
-    {
-      "source": "P1010",
       "target": "P2566",
       "type": "collaboration",
       "paper_count": 2,
@@ -197610,24 +196832,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P1098",
-      "target": "P2536",
-      "type": "collaboration",
-      "paper_count": 8,
-      "verified": "auto",
-      "strength": 0.224,
-      "last_year": 2026
-    },
-    {
-      "source": "P1098",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.042,
-      "last_year": 2009
-    },
-    {
-      "source": "P1098",
       "target": "P2572",
       "type": "collaboration",
       "paper_count": 4,
@@ -198488,15 +197692,6 @@ window.KOREA_BIO_MAP = {
       "paper_count": 3,
       "verified": "auto",
       "strength": 0.235,
-      "last_year": 2022
-    },
-    {
-      "source": "P1120",
-      "target": "P2550",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.042,
       "last_year": 2022
     },
     {
@@ -201111,15 +200306,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P1162",
-      "target": "P2547",
-      "type": "collaboration",
-      "paper_count": 3,
-      "verified": "auto",
-      "strength": 0.055,
-      "last_year": 2008
-    },
-    {
-      "source": "P1162",
       "target": "P2840",
       "type": "collaboration",
       "paper_count": 3,
@@ -201602,15 +200788,6 @@ window.KOREA_BIO_MAP = {
       "paper_count": 24,
       "verified": "auto",
       "strength": 2.654,
-      "last_year": 2025
-    },
-    {
-      "source": "P1167",
-      "target": "P2550",
-      "type": "collaboration",
-      "paper_count": 3,
-      "verified": "auto",
-      "strength": 0.325,
       "last_year": 2025
     },
     {
@@ -203487,15 +202664,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P1193",
-      "target": "P2554",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.035,
-      "last_year": 1998
-    },
-    {
-      "source": "P1193",
       "target": "P3037",
       "type": "collaboration",
       "paper_count": 2,
@@ -204981,15 +204149,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P1222",
-      "target": "P2554",
-      "type": "collaboration",
-      "paper_count": 3,
-      "verified": "auto",
-      "strength": 0.391,
-      "last_year": 2025
-    },
-    {
-      "source": "P1222",
       "target": "P2558",
       "type": "collaboration",
       "paper_count": 2,
@@ -205599,15 +204758,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 1.487,
       "last_year": 2024
-    },
-    {
-      "source": "P1242",
-      "target": "P2554",
-      "type": "collaboration",
-      "paper_count": 3,
-      "verified": "auto",
-      "strength": 0.428,
-      "last_year": 2019
     },
     {
       "source": "P1242",
@@ -214197,15 +213347,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P1415",
-      "target": "P2559",
-      "type": "collaboration",
-      "paper_count": 12,
-      "verified": "auto",
-      "strength": 0.519,
-      "last_year": 2022
-    },
-    {
-      "source": "P1415",
       "target": "P2934",
       "type": "collaboration",
       "paper_count": 2,
@@ -214302,15 +213443,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.078,
       "last_year": 2021
-    },
-    {
-      "source": "P1417",
-      "target": "P2554",
-      "type": "collaboration",
-      "paper_count": 3,
-      "verified": "auto",
-      "strength": 0.303,
-      "last_year": 2022
     },
     {
       "source": "P1418",
@@ -216012,15 +215144,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.2,
       "last_year": 2024
-    },
-    {
-      "source": "P1457",
-      "target": "P2559",
-      "type": "collaboration",
-      "paper_count": 11,
-      "verified": "auto",
-      "strength": 0.413,
-      "last_year": 2016
     },
     {
       "source": "P1457",
@@ -218154,15 +217277,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 1.789,
       "last_year": 2025
-    },
-    {
-      "source": "P1481",
-      "target": "P2538",
-      "type": "collaboration",
-      "paper_count": 5,
-      "verified": "auto",
-      "strength": 0.292,
-      "last_year": 2023
     },
     {
       "source": "P1482",
@@ -222476,15 +221590,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2022
     },
     {
-      "source": "P1531",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 13,
-      "verified": "auto",
-      "strength": 0.578,
-      "last_year": 2025
-    },
-    {
       "source": "P1532",
       "target": "P1533",
       "type": "collaboration",
@@ -224121,15 +223226,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.128,
       "last_year": 2015
-    },
-    {
-      "source": "P1545",
-      "target": "P2538",
-      "type": "collaboration",
-      "paper_count": 3,
-      "verified": "auto",
-      "strength": 0.112,
-      "last_year": 2023
     },
     {
       "source": "P1546",
@@ -227310,24 +226406,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P1623",
-      "target": "P2536",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.113,
-      "last_year": 2021
-    },
-    {
-      "source": "P1623",
-      "target": "P2554",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.13,
-      "last_year": 2026
-    },
-    {
-      "source": "P1623",
       "target": "P2737",
       "type": "collaboration",
       "paper_count": 2,
@@ -229820,15 +228898,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2024
     },
     {
-      "source": "P1732",
-      "target": "P2538",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.062,
-      "last_year": 2021
-    },
-    {
       "source": "P1736",
       "target": "P1737",
       "type": "collaboration",
@@ -231792,15 +230861,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P1775",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 4,
-      "verified": "auto",
-      "strength": 0.157,
-      "last_year": 2024
-    },
-    {
-      "source": "P1775",
       "target": "P3032",
       "type": "collaboration",
       "paper_count": 3,
@@ -232151,15 +231211,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2020
     },
     {
-      "source": "P1791",
-      "target": "P2536",
-      "type": "collaboration",
-      "paper_count": 6,
-      "verified": "auto",
-      "strength": 0.197,
-      "last_year": 2023
-    },
-    {
       "source": "P1792",
       "target": "P1905",
       "type": "collaboration",
@@ -232351,15 +231402,6 @@ window.KOREA_BIO_MAP = {
     {
       "source": "P1798",
       "target": "P2022",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.034,
-      "last_year": 2020
-    },
-    {
-      "source": "P1798",
-      "target": "P2536",
       "type": "collaboration",
       "paper_count": 2,
       "verified": "auto",
@@ -233835,15 +232877,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P1847",
-      "target": "P2559",
-      "type": "collaboration",
-      "paper_count": 8,
-      "verified": "auto",
-      "strength": 0.3,
-      "last_year": 2016
-    },
-    {
-      "source": "P1847",
       "target": "P2946",
       "type": "collaboration",
       "paper_count": 2,
@@ -235265,15 +234298,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2021
     },
     {
-      "source": "P1907",
-      "target": "P2547",
-      "type": "collaboration",
-      "paper_count": 4,
-      "verified": "auto",
-      "strength": 0.237,
-      "last_year": 2021
-    },
-    {
       "source": "P1908",
       "target": "P1926",
       "type": "collaboration",
@@ -235308,15 +234332,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.308,
       "last_year": 2026
-    },
-    {
-      "source": "P1909",
-      "target": "P2550",
-      "type": "collaboration",
-      "paper_count": 20,
-      "verified": "auto",
-      "strength": 2.147,
-      "last_year": 2025
     },
     {
       "source": "P1909",
@@ -239018,15 +238033,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2024
     },
     {
-      "source": "P2016",
-      "target": "P2536",
-      "type": "collaboration",
-      "paper_count": 22,
-      "verified": "auto",
-      "strength": 0.704,
-      "last_year": 2026
-    },
-    {
       "source": "P2017",
       "target": "P2027",
       "type": "collaboration",
@@ -239367,15 +238373,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.07,
       "last_year": 2023
-    },
-    {
-      "source": "P2022",
-      "target": "P2536",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.034,
-      "last_year": 2020
     },
     {
       "source": "P2023",
@@ -240558,15 +239555,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P2060",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 3,
-      "verified": "auto",
-      "strength": 0.104,
-      "last_year": 2015
-    },
-    {
-      "source": "P2060",
       "target": "P3047",
       "type": "collaboration",
       "paper_count": 2,
@@ -240962,15 +239950,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2020
     },
     {
-      "source": "P2071",
-      "target": "P2536",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.049,
-      "last_year": 2020
-    },
-    {
       "source": "P2072",
       "target": "P2081",
       "type": "collaboration",
@@ -241041,24 +240020,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.31,
       "last_year": 2026
-    },
-    {
-      "source": "P2074",
-      "target": "P2538",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.068,
-      "last_year": 2020
-    },
-    {
-      "source": "P2074",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 4,
-      "verified": "auto",
-      "strength": 0.244,
-      "last_year": 2025
     },
     {
       "source": "P2077",
@@ -244076,15 +243037,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2019
     },
     {
-      "source": "P2157",
-      "target": "P2536",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.218,
-      "last_year": 2019
-    },
-    {
       "source": "P2158",
       "target": "P2877",
       "type": "collaboration",
@@ -245228,24 +244180,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2026
     },
     {
-      "source": "P2176",
-      "target": "P2538",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.115,
-      "last_year": 2024
-    },
-    {
-      "source": "P2176",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 12,
-      "verified": "auto",
-      "strength": 0.65,
-      "last_year": 2025
-    },
-    {
       "source": "P2177",
       "target": "P2247",
       "type": "collaboration",
@@ -245280,15 +244214,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 2.083,
       "last_year": 2026
-    },
-    {
-      "source": "P2178",
-      "target": "P2536",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.102,
-      "last_year": 2025
     },
     {
       "source": "P2179",
@@ -245622,15 +244547,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 1.333,
       "last_year": 2026
-    },
-    {
-      "source": "P2201",
-      "target": "P2536",
-      "type": "collaboration",
-      "paper_count": 8,
-      "verified": "auto",
-      "strength": 0.281,
-      "last_year": 2024
     },
     {
       "source": "P2201",
@@ -246999,15 +245915,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.17,
       "last_year": 2025
-    },
-    {
-      "source": "P2271",
-      "target": "P2556",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.917,
-      "last_year": 2023
     },
     {
       "source": "P2271",
@@ -248708,15 +247615,6 @@ window.KOREA_BIO_MAP = {
       "paper_count": 7,
       "verified": "auto",
       "strength": 0.266,
-      "last_year": 2015
-    },
-    {
-      "source": "P2310",
-      "target": "P2536",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.059,
       "last_year": 2015
     },
     {
@@ -251033,15 +249931,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2014
     },
     {
-      "source": "P2425",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.091,
-      "last_year": 2022
-    },
-    {
       "source": "P2427",
       "target": "P2443",
       "type": "collaboration",
@@ -252915,15 +251804,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P2506",
-      "target": "P2559",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.45,
-      "last_year": 2026
-    },
-    {
-      "source": "P2506",
       "target": "P2675",
       "type": "collaboration",
       "paper_count": 4,
@@ -253203,15 +252083,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P2528",
-      "target": "P2550",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.174,
-      "last_year": 2025
-    },
-    {
-      "source": "P2528",
       "target": "P2555",
       "type": "collaboration",
       "paper_count": 4,
@@ -253245,15 +252116,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.569,
       "last_year": 2022
-    },
-    {
-      "source": "P2529",
-      "target": "P2554",
-      "type": "collaboration",
-      "paper_count": 5,
-      "verified": "auto",
-      "strength": 0.149,
-      "last_year": 2015
     },
     {
       "source": "P2529",
@@ -253428,30 +252290,12 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P2531",
-      "target": "P2547",
-      "type": "collaboration",
-      "paper_count": 29,
-      "verified": "auto",
-      "strength": 3.173,
-      "last_year": 2026
-    },
-    {
-      "source": "P2531",
       "target": "P2548",
       "type": "collaboration",
       "paper_count": 5,
       "verified": "auto",
       "strength": 1.088,
       "last_year": 2024
-    },
-    {
-      "source": "P2531",
-      "target": "P2550",
-      "type": "collaboration",
-      "paper_count": 3,
-      "verified": "auto",
-      "strength": 0.223,
-      "last_year": 2018
     },
     {
       "source": "P2531",
@@ -253545,15 +252389,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P2533",
-      "target": "P2554",
-      "type": "collaboration",
-      "paper_count": 7,
-      "verified": "auto",
-      "strength": 0.364,
-      "last_year": 2019
-    },
-    {
-      "source": "P2533",
       "target": "P2633",
       "type": "collaboration",
       "paper_count": 31,
@@ -253617,15 +252452,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P2535",
-      "target": "P2547",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.136,
-      "last_year": 2012
-    },
-    {
-      "source": "P2535",
       "target": "P2567",
       "type": "collaboration",
       "paper_count": 2,
@@ -253659,69 +252485,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.361,
       "last_year": 2022
-    },
-    {
-      "source": "P2536",
-      "target": "P2572",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.12,
-      "last_year": 2021
-    },
-    {
-      "source": "P2536",
-      "target": "P2587",
-      "type": "collaboration",
-      "paper_count": 10,
-      "verified": "auto",
-      "strength": 0.615,
-      "last_year": 2026
-    },
-    {
-      "source": "P2536",
-      "target": "P2618",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.127,
-      "last_year": 2015
-    },
-    {
-      "source": "P2536",
-      "target": "P3084",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.167,
-      "last_year": 2026
-    },
-    {
-      "source": "P2537",
-      "target": "P2550",
-      "type": "collaboration",
-      "paper_count": 5,
-      "verified": "auto",
-      "strength": 0.343,
-      "last_year": 2018
-    },
-    {
-      "source": "P2538",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.088,
-      "last_year": 2023
-    },
-    {
-      "source": "P2538",
-      "target": "P3059",
-      "type": "collaboration",
-      "paper_count": 19,
-      "verified": "auto",
-      "strength": 3.125,
-      "last_year": 2016
     },
     {
       "source": "P2539",
@@ -253815,15 +252578,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P2542",
-      "target": "P2547",
-      "type": "collaboration",
-      "paper_count": 15,
-      "verified": "auto",
-      "strength": 2.211,
-      "last_year": 2026
-    },
-    {
-      "source": "P2542",
       "target": "P2555",
       "type": "collaboration",
       "paper_count": 5,
@@ -253902,15 +252656,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 3.386,
       "last_year": 2024
-    },
-    {
-      "source": "P2544",
-      "target": "P2562",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.103,
-      "last_year": 2022
     },
     {
       "source": "P2545",
@@ -254048,33 +252793,6 @@ window.KOREA_BIO_MAP = {
       "last_year": 2015
     },
     {
-      "source": "P2547",
-      "target": "P2615",
-      "type": "collaboration",
-      "paper_count": 3,
-      "verified": "auto",
-      "strength": 0.115,
-      "last_year": 2022
-    },
-    {
-      "source": "P2547",
-      "target": "P2795",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.211,
-      "last_year": 2018
-    },
-    {
-      "source": "P2547",
-      "target": "P2885",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.073,
-      "last_year": 2009
-    },
-    {
       "source": "P2549",
       "target": "P2561",
       "type": "collaboration",
@@ -254100,51 +252818,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.148,
       "last_year": 2025
-    },
-    {
-      "source": "P2550",
-      "target": "P2552",
-      "type": "collaboration",
-      "paper_count": 4,
-      "verified": "auto",
-      "strength": 0.102,
-      "last_year": 2022
-    },
-    {
-      "source": "P2550",
-      "target": "P2802",
-      "type": "collaboration",
-      "paper_count": 4,
-      "verified": "auto",
-      "strength": 0.244,
-      "last_year": 2025
-    },
-    {
-      "source": "P2554",
-      "target": "P2558",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.217,
-      "last_year": 2025
-    },
-    {
-      "source": "P2554",
-      "target": "P2661",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.039,
-      "last_year": 2001
-    },
-    {
-      "source": "P2554",
-      "target": "P2681",
-      "type": "collaboration",
-      "paper_count": 2,
-      "verified": "auto",
-      "strength": 0.089,
-      "last_year": 2018
     },
     {
       "source": "P2555",
@@ -254181,15 +252854,6 @@ window.KOREA_BIO_MAP = {
       "verified": "auto",
       "strength": 0.123,
       "last_year": 2017
-    },
-    {
-      "source": "P2559",
-      "target": "P2834",
-      "type": "collaboration",
-      "paper_count": 4,
-      "verified": "auto",
-      "strength": 0.408,
-      "last_year": 2023
     },
     {
       "source": "P2561",
@@ -260367,15 +259031,6 @@ window.KOREA_BIO_MAP = {
     },
     {
       "source": "P0746",
-      "target": "P2772",
-      "type": "advisor_student",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0746",
       "target": "P2773",
       "type": "advisor_student",
       "paper_count": 0,
@@ -260387,15 +259042,6 @@ window.KOREA_BIO_MAP = {
       "source": "P0746",
       "target": "P0112",
       "type": "postdoc_mentor",
-      "paper_count": 0,
-      "verified": "alumni_page",
-      "strength": 0.0,
-      "last_year": 0
-    },
-    {
-      "source": "P0746",
-      "target": "P2775",
-      "type": "advisor_student",
       "paper_count": 0,
       "verified": "alumni_page",
       "strength": 0.0,

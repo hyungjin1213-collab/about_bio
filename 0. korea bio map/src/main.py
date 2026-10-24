@@ -26,6 +26,7 @@ from pipeline import (
     collect_author_stats,
     collect_collaborations,
     promote_approved_candidates,
+    removed_professors,
     resolve_professors,
     resolve_scopus_ids,
 )
@@ -147,6 +148,9 @@ def daily(client: OpenAlexClient) -> None:
 def rebuild() -> None:
     """Redraw the map from data already collected: no OpenAlex, no crawling."""
     professors = pd.read_csv(OUTPUT_DIR / "professors_enriched.csv", dtype=str).fillna("")
+    # 'removed' overrides keep the row in the enriched file but take the professor off the map.
+    overrides = pd.read_csv(DATA_DIR / "professor_overrides.csv", dtype=str, keep_default_na=False)
+    professors = professors[~professors["professor_id"].isin(removed_professors(overrides))]
     nodes, links = build_network(professors)
     print(f"Rebuilt the map: {len(nodes)} nodes, {len(links)} links")
 

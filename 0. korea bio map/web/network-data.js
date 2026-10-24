@@ -1416,7 +1416,7 @@ window.KOREA_BIO_MAP = {
       "name": "김상욱",
       "name_en": "Sanguk Kim",
       "university": "POSTECH",
-      "field": "Bioinformatics / Systems Biology / Genomics",
+      "field": "Bioinformatics / Systems Biology / Genomics / 정밀의학",
       "category": "분자·세포생물",
       "region": "대구·경북",
       "home_sector": "학",

@@ -1312,7 +1312,7 @@ window.KOREA_BIO_MAP = {
       "name_en": "Sungjee Kim",
       "university": "POSTECH",
       "field": "Nanochemistry / Nanomedicine / Molecular Imaging / 나노광학",
-      "category": "기타",
+      "category": "분자·세포생물",
       "region": "대구·경북",
       "home_sector": "학",
       "sectors": [
@@ -1337,7 +1337,7 @@ window.KOREA_BIO_MAP = {
         "전자현미경",
         "RNA 치료제·siRNA"
       ],
-      "department": "Department of Chemistry",
+      "department": "Department of Chemistry; 시스템생명공학부",
       "lab": {
         "alumni": 47.0,
         "phd_graduates": 21.0,

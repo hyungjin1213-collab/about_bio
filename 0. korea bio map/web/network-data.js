@@ -159182,6 +159182,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3108",
+      "name": "최세규",
+      "name_en": "",
+      "university": "POSTECH",
+      "field": "줄기세포학",
+      "category": "분자·세포생물",
+      "region": "대구·경북",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "포항공과대학교",
+      "position": "부교수",
+      "keywords": [],
+      "techniques": [],
+      "department": "Department of Life Sciences",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://life.postech.ac.kr/html/major/professor.php",
+      "lab_url": "https://choilab.postech.ac.kr",
+      "openalex_id": "A5070884113",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

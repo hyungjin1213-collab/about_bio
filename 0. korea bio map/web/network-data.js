@@ -159054,6 +159054,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3104",
+      "name": "유주연",
+      "name_en": "Juyeon Yoo",
+      "university": "POSTECH",
+      "field": "세포소기관(막) 네트워크 / LLPS 기반 단백질 응집체 / 바이러스-숙주 반응",
+      "category": "분자·세포생물",
+      "region": "대구·경북",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "포항공과대학교",
+      "position": "교수",
+      "keywords": [],
+      "techniques": [],
+      "department": "Department of Life Sciences",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://life.postech.ac.kr/html/major/professor.php",
+      "lab_url": "http://on-lab.postech.ac.kr/",
+      "openalex_id": "A5109091214",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

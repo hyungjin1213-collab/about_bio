@@ -159118,6 +159118,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3106",
+      "name": "조윤제",
+      "name_en": "Yunje Cho",
+      "university": "POSTECH",
+      "field": "수용체 생물학 / GPCR·수용체 키나아제 구조와 기능 / 수용체 표적 신약 발굴",
+      "category": "분자·세포생물",
+      "region": "대구·경북",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "포항공과대학교",
+      "position": "교수",
+      "keywords": [],
+      "techniques": [],
+      "department": "Department of Life Sciences",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://life.postech.ac.kr/html/major/professor.php",
+      "lab_url": "https://yunje8.wixsite.com/sbclab",
+      "openalex_id": "A5103183496",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

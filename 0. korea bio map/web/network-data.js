@@ -150433,7 +150433,7 @@ window.KOREA_BIO_MAP = {
       "retired": false,
       "url": "https://khbaek9.wixsite.com/biolab",
       "lab_url": "",
-      "openalex_id": "",
+      "openalex_id": "A5078770585",
       "identity": "manual",
       "score": 0,
       "collaborator_count": 0,
@@ -255729,6 +255729,15 @@ window.KOREA_BIO_MAP = {
     {
       "source": "P2544",
       "target": "P2971",
+      "type": "advisor_student",
+      "paper_count": 0,
+      "verified": "manual",
+      "strength": 0.0,
+      "last_year": 0
+    },
+    {
+      "source": "P2544",
+      "target": "P2955",
       "type": "advisor_student",
       "paper_count": 0,
       "verified": "manual",

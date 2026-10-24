@@ -1442,7 +1442,7 @@ window.KOREA_BIO_MAP = {
         "RNA-seq·전사체",
         "CRISPR 유전자편집"
       ],
-      "department": "Department of Life Sciences",
+      "department": "Department of Life Sciences; 합성생물학전공",
       "lab": {},
       "orcid": "",
       "retired": false,
@@ -130297,7 +130297,7 @@ window.KOREA_BIO_MAP = {
         "단일세포 분석",
         "RNA-seq·전사체"
       ],
-      "department": "Department of Chemical Engineering",
+      "department": "Department of Chemical Engineering; 합성생물학전공",
       "lab": {
         "alumni": 43.0,
         "phd_graduates": 0.0,
@@ -131195,7 +131195,7 @@ window.KOREA_BIO_MAP = {
         "qPCR",
         "분자도킹·시뮬레이션"
       ],
-      "department": "Department of Life Sciences",
+      "department": "Department of Life Sciences; 합성생물학전공",
       "lab": {},
       "orcid": "0000-0002-2713-1006",
       "retired": false,
@@ -148441,7 +148441,7 @@ window.KOREA_BIO_MAP = {
         "하이드로젤·스캐폴드",
         "조직공학·바이오프린팅"
       ],
-      "department": "Department of Life Sciences",
+      "department": "Department of Life Sciences; 합성생물학전공",
       "lab": {},
       "orcid": "0000-0002-2369-9956",
       "retired": false,

@@ -131693,18 +131693,18 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2558",
-      "name": "Jie‐Oh Lee",
+      "name": "이지오",
       "name_en": "Jie‐Oh Lee",
       "university": "POSTECH",
-      "field": "Immunology",
-      "category": "면역·감염",
+      "field": "구조생물학 / 선천성면역 / 항체공학",
+      "category": "분자·세포생물",
       "region": "대구·경북",
       "home_sector": "학",
       "sectors": [
         "학"
       ],
       "university_ko": "포항공과대학교",
-      "position": "",
+      "position": "교수",
       "keywords": [
         "IL-9",
         "CXCR3",
@@ -131722,12 +131722,12 @@ window.KOREA_BIO_MAP = {
         "유세포분석",
         "엑소좀·세포외소포"
       ],
-      "department": "",
+      "department": "Department of Life Sciences",
       "lab": {},
       "orcid": "0000-0001-6519-6049",
       "retired": false,
       "url": "https://openalex.org/A5074578302",
-      "lab_url": "",
+      "lab_url": "https://asel.postech.ac.kr/asel/index.do",
       "openalex_id": "A5074578302",
       "identity": "openalex_institution",
       "score": 24,

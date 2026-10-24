@@ -1129,13 +1129,19 @@
     // the overlaps. The overlapping layout is the default; uncheck it for separate discs. Clicking a set zooms into it and hides everyone else.
     const homeOf=n=>SECTOR_INFO[n.home_sector]?n.home_sector:sectorsOf(n)[0];
     const setCount=(s,overlap)=>NODES.filter(n=>overlap?sectorsOf(n).includes(s):homeOf(n)===s).length;
-    const VENN_R=165, VENN_D=85;    // diagonal pairs (학∩산, 병∩연) still overlap near the centre
+    // Overlap layout: four tilted ellipses, one per set. Each of the 15 combinations of sets
+    // has its own region (no circles, so a diagonal pair such as 학·산 is not forced into the centre).
+    // [centre x, centre y, half-width a, half-height b, tilt] in units of ELL_S.
+    const ELL_S=200;
+    const ELLIPSE={"학":[0.978,-0.378,1.653,0.874,0.333],"병":[0.536,0.409,1.992,0.846,1.954],
+                   "연":[0.118,-0.246,1.465,0.916,1.79],"산":[0.681,0.201,1.747,0.812,0.456]};
     let viewMode="galaxy", overlapOn=true, zoomSet=null, setGroup=null, circles={};
 
     function layoutCircles(){
       circles={};
       if(overlapOn){
-        SECTORS.forEach(s=>{const [a,b]=SECTOR_INFO[s].c;circles[s]={x:a*VENN_D,y:b*VENN_D,r:VENN_R};});
+        SECTORS.forEach(s=>{const [cx,cy,a,b,th]=ELLIPSE[s];
+          circles[s]={x:cx*ELL_S,y:cy*ELL_S,a:a*ELL_S,b:b*ELL_S,th,r:Math.max(a,b)*ELL_S};});
         return;
       }
       // Separate discs sized by how many people they hold: one row on wide
@@ -1154,6 +1160,9 @@
       });
     }
     const distTo=(x,y,s)=>Math.hypot(x-circles[s].x,y-circles[s].y);
+    // Normalised distance from a set's outline: below 1 means inside the ellipse.
+    const ellD=(x,y,s)=>{const c=circles[s],dx=x-c.x,dy=y-c.y,ct=Math.cos(c.th),st=Math.sin(c.th);
+      const u=dx*ct+dy*st,v=-dx*st+dy*ct;return Math.hypot(u/c.a,v/c.b);};
     function placeNode(n){
       if(!overlapOn){
         // Galaxy disc: denser towards the centre.
@@ -1165,12 +1174,12 @@
       // circles' edges); if no such region exists, the closest one.
       const want=new Set(sectorsOf(n));
       let best=[0,0],bestBad=Infinity;
-      const span=VENN_D+VENN_R;
-      for(let i=0;i<600&&bestBad>0;i++){
+      const span=2.8*ELL_S;
+      for(let i=0;i<900&&bestBad>0;i++){
         const x=(Math.random()*2-1)*span, y=(Math.random()*2-1)*span;
-        const inside=SECTORS.filter(s=>distTo(x,y,s)<VENN_R*0.9);
+        const inside=SECTORS.filter(s=>ellD(x,y,s)<0.9);
         if(!inside.length) continue;
-        const near=SECTORS.filter(s=>distTo(x,y,s)<VENN_R*1.06);
+        const near=SECTORS.filter(s=>ellD(x,y,s)<1.06);
         const bad=10*[...want].filter(s=>!inside.includes(s)).length+near.filter(s=>!want.has(s)).length;
         if(bad<bestBad){bestBad=bad;best=[x,y];}
       }
@@ -1195,16 +1204,21 @@
       clearSetGroup();
       setGroup=new THREE.Group();
       SECTORS.forEach(s=>{
-        const {color,label,c}=SECTOR_INFO[s], {x,y,r}=circles[s];
+        const {color,label}=SECTOR_INFO[s], {x,y,r}=circles[s];
+        const sx=circles[s].a??r, sy=circles[s].b??r, th=circles[s].th??0;
         const dim=zoomSet&&zoomSet!==s;
-        const disc=new THREE.Mesh(new THREE.CircleGeometry(r,96),
+        const disc=new THREE.Mesh(new THREE.CircleGeometry(1,96),
           new THREE.MeshBasicMaterial({color,transparent:true,opacity:dim?.015:.05,side:THREE.DoubleSide,depthWrite:false}));
-        disc.position.set(x,y,-20);setGroup.add(disc);
-        const ring=new THREE.Mesh(new THREE.RingGeometry(r-1.2,r,128),
+        disc.scale.set(sx,sy,1);disc.rotation.z=th;disc.position.set(x,y,-20);setGroup.add(disc);
+        const ring=new THREE.Mesh(new THREE.RingGeometry(0.994,1,160),
           new THREE.MeshBasicMaterial({color,transparent:true,opacity:dim?.15:.6,side:THREE.DoubleSide,depthWrite:false}));
-        ring.position.set(x,y,-20);setGroup.add(ring);
+        ring.scale.set(sx,sy,1);ring.rotation.z=th;ring.position.set(x,y,-20);setGroup.add(ring);
         const tag=textSprite(`${label}  ${setCount(s,overlapOn)}명`,color);
-        if(overlapOn) tag.position.set(c[0]*(VENN_D+VENN_R*0.62),c[1]*(VENN_D+VENN_R*0.9),0);
+        if(overlapOn){
+          // label sits just outside the ellipse, on the side facing away from the middle
+          const L=Math.hypot(x,y)||1;
+          tag.position.set(x+(x/L)*(Math.max(sx,sy)+30),y+(y/L)*(Math.max(sx,sy)+30),0);
+        }
         else tag.position.set(x,y+r+24,0);
         setGroup.add(tag);
       });

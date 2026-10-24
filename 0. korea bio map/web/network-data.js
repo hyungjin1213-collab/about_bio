@@ -159342,6 +159342,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3113",
+      "name": "서대하",
+      "name_en": "Daeha Seo",
+      "university": "POSTECH",
+      "field": "무기화학 / 나노·재료화학 / 바이오메디컬화학",
+      "category": "기타",
+      "region": "대구·경북",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "포항공과대학교",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "Department of Chemistry",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "http://small.postech.ac.kr/",
+      "lab_url": "",
+      "openalex_id": "A5006993149",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

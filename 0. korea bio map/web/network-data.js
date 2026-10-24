@@ -158107,6 +158107,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3121",
+      "name": "배기웅",
+      "name_en": "Ki Woong Bae",
+      "university": "Eulji University",
+      "field": "Ophthalmology",
+      "category": "임상의학",
+      "region": "대전·충청",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "을지대학교",
+      "position": "교수",
+      "keywords": [],
+      "techniques": [],
+      "department": "의예과",
+      "lab": {},
+      "orcid": "0000-0002-0689-2826",
+      "retired": false,
+      "url": "https://medicine.eulji.ac.kr/?menuno=3456&id=30917&type=F&gubun=view",
+      "lab_url": "",
+      "openalex_id": "A5077441392",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

@@ -159310,6 +159310,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3112",
+      "name": "김현우",
+      "name_en": "Hyeonwoo Kim",
+      "university": "POSTECH",
+      "field": "유기화학 (전기화학 유기합성 / 촉매 합성 방법론)",
+      "category": "분자·세포생물",
+      "region": "대구·경북",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "포항공과대학교",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "Department of Chemistry; 시스템생명공학부",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://scns.postech.ac.kr",
+      "lab_url": "",
+      "openalex_id": "A5046320204",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

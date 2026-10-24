@@ -159470,6 +159470,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3117",
+      "name": "손민주",
+      "name_en": "",
+      "university": "POSTECH",
+      "field": "단일분자 이미징·조작 나노기술 / 생체분자 복합체 역학 / 신경전달 기계생물학",
+      "category": "기타",
+      "region": "대구·경북",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "포항공과대학교",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "합성생물학전공",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://www.shonlab.org/",
+      "lab_url": "",
+      "openalex_id": "A5018784710",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

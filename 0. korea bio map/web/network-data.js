@@ -159534,6 +159534,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3119",
+      "name": "이상민",
+      "name_en": "",
+      "university": "POSTECH",
+      "field": "단백질 설계 / 전산재료과학",
+      "category": "기타",
+      "region": "대구·경북",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "포항공과대학교",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "합성생물학전공",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://pdl.postech.ac.kr/",
+      "lab_url": "",
+      "openalex_id": "A5100319606",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

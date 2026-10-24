@@ -159538,7 +159538,7 @@ window.KOREA_BIO_MAP = {
     {
       "id": "P3119",
       "name": "이상민",
-      "name_en": "",
+      "name_en": "Sangmin Lee",
       "university": "POSTECH",
       "field": "단백질 설계 / 전산재료과학",
       "category": "기타",

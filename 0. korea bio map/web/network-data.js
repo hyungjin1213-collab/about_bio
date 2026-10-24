@@ -158751,7 +158751,7 @@ window.KOREA_BIO_MAP = {
       "position": "교수",
       "keywords": [],
       "techniques": [],
-      "department": "Department of Life Sciences",
+      "department": "Department of Life Sciences; 시스템생명공학부",
       "lab": {},
       "orcid": "",
       "retired": false,

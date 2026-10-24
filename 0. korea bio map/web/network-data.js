@@ -307,7 +307,7 @@ window.KOREA_BIO_MAP = {
       "position": "",
       "keywords": [],
       "techniques": [],
-      "department": "화학과",
+      "department": "Department of Chemistry",
       "lab": {
         "alumni": 50.0,
         "phd_graduates": 26.0,
@@ -130056,7 +130056,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2528",
-      "name": "Sung‐Min Park",
+      "name": "박성민",
       "name_en": "Sung‐Min Park",
       "university": "POSTECH",
       "field": "Biomedical Engineering",
@@ -130085,7 +130085,7 @@ window.KOREA_BIO_MAP = {
         "오가노이드",
         "분자도킹·시뮬레이션"
       ],
-      "department": "",
+      "department": "Department of Mechanical Engineering",
       "lab": {},
       "orcid": "0000-0002-8359-8110",
       "retired": false,
@@ -130138,7 +130138,7 @@ window.KOREA_BIO_MAP = {
         "유전자변형 마우스",
         "분자도킹·시뮬레이션"
       ],
-      "department": "",
+      "department": "Department of Life Sciences",
       "lab": {},
       "orcid": "0000-0003-0913-3048",
       "retired": false,
@@ -130162,7 +130162,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2530",
-      "name": "Chulhong Kim",
+      "name": "김철홍",
       "name_en": "Chulhong Kim",
       "university": "POSTECH",
       "field": "Biomedical Engineering",
@@ -130191,7 +130191,7 @@ window.KOREA_BIO_MAP = {
         "MRI·PET 영상",
         "전자현미경"
       ],
-      "department": "",
+      "department": "Department of Mechanical Engineering",
       "lab": {},
       "orcid": "0000-0001-7249-1257",
       "retired": false,
@@ -130215,7 +130215,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2531",
-      "name": "Dong‐Woo Cho",
+      "name": "조동우",
       "name_en": "Dong‐Woo Cho",
       "university": "POSTECH",
       "field": "Biomedical Engineering",
@@ -130244,7 +130244,7 @@ window.KOREA_BIO_MAP = {
         "줄기세포·iPSC",
         "오가노이드"
       ],
-      "department": "",
+      "department": "Department of Mechanical Engineering",
       "lab": {},
       "orcid": "0000-0001-5869-4330",
       "retired": false,
@@ -130365,7 +130365,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2533",
-      "name": "Kyong‐Tai Kim",
+      "name": "김경태",
       "name_en": "Kyong‐Tai Kim",
       "university": "POSTECH",
       "field": "Molecular Biology",
@@ -130394,7 +130394,7 @@ window.KOREA_BIO_MAP = {
         "단일세포 분석",
         "CRISPR 유전자편집"
       ],
-      "department": "",
+      "department": "Department of Life Sciences",
       "lab": {},
       "orcid": "0000-0001-7292-2627",
       "retired": false,
@@ -130418,7 +130418,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2534",
-      "name": "Unyong Jeong",
+      "name": "정운룡",
       "name_en": "Unyong Jeong",
       "university": "POSTECH",
       "field": "Biomedical Engineering",
@@ -130447,7 +130447,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI",
         "조직공학·바이오프린팅"
       ],
-      "department": "",
+      "department": "Department of Chemical Engineering",
       "lab": {},
       "orcid": "0000-0002-7519-7595",
       "retired": false,
@@ -130471,7 +130471,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2535",
-      "name": "Dong Sung Kim",
+      "name": "김동성",
       "name_en": "Dong Sung Kim",
       "university": "POSTECH",
       "field": "Biomedical Engineering",
@@ -130500,7 +130500,7 @@ window.KOREA_BIO_MAP = {
         "오가노이드",
         "줄기세포·iPSC"
       ],
-      "department": "",
+      "department": "Department of Mechanical Engineering",
       "lab": {},
       "orcid": "0000-0003-4780-9635",
       "retired": false,
@@ -130578,7 +130578,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2537",
-      "name": "Dong‐Pyo Kim",
+      "name": "김동표",
       "name_en": "Dong‐Pyo Kim",
       "university": "POSTECH",
       "field": "Biomedical Engineering",
@@ -130607,7 +130607,7 @@ window.KOREA_BIO_MAP = {
         "하이드로젤·스캐폴드",
         "형광·공초점 이미징"
       ],
-      "department": "",
+      "department": "Department of Chemical Engineering",
       "lab": {},
       "orcid": "0000-0002-6804-1955",
       "retired": false,
@@ -130767,7 +130767,7 @@ window.KOREA_BIO_MAP = {
         "조직공학·바이오프린팅",
         "qPCR"
       ],
-      "department": "",
+      "department": "Department of Mechanical Engineering",
       "lab": {},
       "orcid": "0000-0002-7062-3575",
       "retired": false,
@@ -130820,7 +130820,7 @@ window.KOREA_BIO_MAP = {
         "면역조직화학",
         "전자현미경"
       ],
-      "department": "",
+      "department": "Department of Life Sciences",
       "lab": {},
       "orcid": "0000-0002-1388-1367",
       "retired": false,
@@ -130844,7 +130844,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2542",
-      "name": "Jinah Jang",
+      "name": "장진아",
       "name_en": "Jinah Jang",
       "university": "POSTECH",
       "field": "Biomedical Engineering",
@@ -130873,7 +130873,7 @@ window.KOREA_BIO_MAP = {
         "전기생리",
         "미세유체·장기칩"
       ],
-      "department": "",
+      "department": "Department of Life Sciences; Department of Mechanical Engineering; ·IT융합공학과",
       "lab": {},
       "orcid": "0000-0001-9046-3495",
       "retired": false,
@@ -130897,7 +130897,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2543",
-      "name": "Dong Soo Lee",
+      "name": "이동수",
       "name_en": "Dong Soo Lee",
       "university": "POSTECH",
       "field": "Radiology, Nuclear Medicine and Imaging",
@@ -130927,7 +130927,7 @@ window.KOREA_BIO_MAP = {
         "머신러닝·AI",
         "단일세포 분석"
       ],
-      "department": "",
+      "department": "Medical Science and Engineering",
       "lab": {},
       "orcid": "0000-0003-1627-6557",
       "retired": false,
@@ -130951,7 +130951,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2544",
-      "name": "Young Chul Sung",
+      "name": "성영철",
       "name_en": "Young Chul Sung",
       "university": "POSTECH",
       "field": "Immunology",
@@ -130981,7 +130981,7 @@ window.KOREA_BIO_MAP = {
         "종양 이종이식 모델",
         "유전자변형 마우스"
       ],
-      "department": "",
+      "department": "Department of Life Sciences",
       "lab": {},
       "orcid": "0000-0003-2726-907X",
       "retired": false,
@@ -131060,7 +131060,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2546",
-      "name": "Ki Hean Kim",
+      "name": "김기현",
       "name_en": "Ki Hean Kim",
       "university": "POSTECH",
       "field": "Biophysics",
@@ -131089,7 +131089,7 @@ window.KOREA_BIO_MAP = {
         "유전자변형 마우스",
         "유세포분석"
       ],
-      "department": "",
+      "department": "Department of Mechanical Engineering",
       "lab": {},
       "orcid": "0000-0003-3410-7706",
       "retired": false,
@@ -131409,7 +131409,7 @@ window.KOREA_BIO_MAP = {
         "줄기세포·iPSC",
         "나노입자·약물전달"
       ],
-      "department": "",
+      "department": "Department of Materials science & Engineering",
       "lab": {},
       "orcid": "0000-0002-4414-7130",
       "retired": false,
@@ -131433,7 +131433,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2553",
-      "name": "Jeehoon Han",
+      "name": "한지훈",
       "name_en": "Jeehoon Han",
       "university": "POSTECH",
       "field": "Biomedical Engineering",
@@ -131458,7 +131458,7 @@ window.KOREA_BIO_MAP = {
       "techniques": [
         "머신러닝·AI"
       ],
-      "department": "",
+      "department": "Department of Chemical Engineering",
       "lab": {},
       "orcid": "0000-0001-5268-2128",
       "retired": false,
@@ -131535,7 +131535,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2555",
-      "name": "Hyung Ham Kim",
+      "name": "김형함",
       "name_en": "Hyung Ham Kim",
       "university": "POSTECH",
       "field": "Biomedical Engineering",
@@ -131564,7 +131564,7 @@ window.KOREA_BIO_MAP = {
         "나노입자·약물전달",
         "미세유체·장기칩"
       ],
-      "department": "",
+      "department": "Department of Biomedical Engineering",
       "lab": {},
       "orcid": "0000-0002-6353-5550",
       "retired": false,
@@ -131640,7 +131640,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P2557",
-      "name": "Keehoon Kim",
+      "name": "김기훈",
       "name_en": "Keehoon Kim",
       "university": "POSTECH",
       "field": "Biomedical Engineering",
@@ -131669,7 +131669,7 @@ window.KOREA_BIO_MAP = {
         "미세유체·장기칩",
         "조직공학·바이오프린팅"
       ],
-      "department": "",
+      "department": "Department of Biomedical Engineering; Department of Mechanical Engineering",
       "lab": {},
       "orcid": "0000-0002-1734-901X",
       "retired": false,
@@ -158994,7 +158994,7 @@ window.KOREA_BIO_MAP = {
     {
       "id": "P3102",
       "name": "복서연",
-      "name_en": "",
+      "name_en": "seoyon bok",
       "university": "POSTECH",
       "field": "골격생물학 / 줄기세포생물학 / 재생의학",
       "category": "분자·세포생물",
@@ -159154,7 +159154,7 @@ window.KOREA_BIO_MAP = {
     {
       "id": "P3107",
       "name": "최규하",
-      "name_en": "",
+      "name_en": "kyuha Choi",
       "university": "POSTECH",
       "field": "식물 교차 조절",
       "category": "분자·세포생물",
@@ -159186,7 +159186,7 @@ window.KOREA_BIO_MAP = {
     {
       "id": "P3108",
       "name": "최세규",
-      "name_en": "",
+      "name_en": "sekyu Choi",
       "university": "POSTECH",
       "field": "줄기세포학",
       "category": "분자·세포생물",
@@ -159218,7 +159218,7 @@ window.KOREA_BIO_MAP = {
     {
       "id": "P3109",
       "name": "허윤하",
-      "name_en": "",
+      "name_en": "Yun Ha Hur",
       "university": "POSTECH",
       "field": "조직 재생 및 발달",
       "category": "분자·세포생물",
@@ -159250,7 +159250,7 @@ window.KOREA_BIO_MAP = {
     {
       "id": "P3110",
       "name": "황일두",
-      "name_en": "",
+      "name_en": "ildoo Hwang",
       "university": "POSTECH",
       "field": "발달신호네트워크",
       "category": "분자·세포생물",
@@ -159474,7 +159474,7 @@ window.KOREA_BIO_MAP = {
     {
       "id": "P3117",
       "name": "손민주",
-      "name_en": "",
+      "name_en": "minju Shon",
       "university": "POSTECH",
       "field": "단일분자 이미징·조작 나노기술 / 생체분자 복합체 역학 / 신경전달 기계생물학",
       "category": "기타",
@@ -159570,7 +159570,7 @@ window.KOREA_BIO_MAP = {
     {
       "id": "P3120",
       "name": "이준구",
-      "name_en": "",
+      "name_en": "Joongoo Lee",
       "university": "POSTECH",
       "field": "Chemical Biology",
       "category": "기타",

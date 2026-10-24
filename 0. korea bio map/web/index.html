@@ -1140,7 +1140,11 @@
     function layoutCircles(){
       circles={};
       if(overlapOn){
-        SECTORS.forEach(s=>{const [cx,cy,a,b,th]=ELLIPSE[s];
+        // Bigger set, bigger ellipse: area grows with the number of people, damped
+        // (fourth root, clamped) so a small set such as 산 stays readable.
+        const counts=SECTORS.map(k=>setCount(k,true)), avg=counts.reduce((a,b)=>a+b,0)/counts.length||1;
+        const sizeOf=s=>Math.min(1.15,Math.max(0.8,Math.pow(setCount(s,true)/avg,0.25)||1));
+        SECTORS.forEach(s=>{const [cx,cy,a0,b0,th]=ELLIPSE[s], f=sizeOf(s), a=a0*f, b=b0*f;
           circles[s]={x:cx*ELL_S,y:cy*ELL_S,a:a*ELL_S,b:b*ELL_S,th,r:Math.max(a,b)*ELL_S};});
         return;
       }

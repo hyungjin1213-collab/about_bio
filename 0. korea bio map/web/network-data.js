@@ -159566,6 +159566,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3120",
+      "name": "이준구",
+      "name_en": "",
+      "university": "POSTECH",
+      "field": "Chemical Biology",
+      "category": "기타",
+      "region": "대구·경북",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "포항공과대학교",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "합성생물학전공",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://chb.postech.ac.kr/chembiolab/index.do",
+      "lab_url": "",
+      "openalex_id": "A5034115773",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

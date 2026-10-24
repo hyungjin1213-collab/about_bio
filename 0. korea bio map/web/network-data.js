@@ -15,6 +15,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "dendritic cell recruitment",
         "cytotoxic chemotherapy",
@@ -90,6 +91,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Metabolic Engineering",
         "Gene Expression Regulation, Bacterial",
@@ -202,6 +204,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "inhibitory receptors",
         "TIM-3 blockade",
@@ -305,6 +308,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemistry",
@@ -391,6 +395,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "lung sound classification",
         "Extracorporeal Membrane Oxygenation",
@@ -445,6 +450,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "삼성서울병원",
       "position": "",
+      "company": "",
       "keywords": [
         "Rh-Hr Blood-Group System",
         "Killer Cells, Natural",
@@ -499,6 +505,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Theilovirus",
         "Theiler's murine encephalomyelitis virus",
@@ -606,6 +613,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Metabolic Engineering",
         "Escherichia coli",
@@ -657,6 +665,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "강원대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Killer Cells, Natural",
         "adoptive immunotherapy",
@@ -709,6 +718,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Metabolic Engineering",
         "brown macroalgae",
@@ -760,6 +770,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Killer Cells, Natural",
         "Cytotoxicity, Immunologic",
@@ -813,6 +824,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "영남대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "polybenzoxazine",
         "crystal field",
@@ -867,6 +879,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전남대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "multiple myeloma",
         "autologous stem cell transplantation",
@@ -971,6 +984,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전남대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "multiple myeloma",
         "acute myeloid leukemia",
@@ -1024,6 +1038,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Riboswitch",
         "Metabolic Engineering",
@@ -1075,6 +1090,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Killer Cells, Natural",
         "Dogs",
@@ -1128,6 +1144,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전남대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Metabolic Engineering",
         "nanobodies",
@@ -1180,6 +1197,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전남대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Medicine / Hematology-Oncology",
@@ -1213,6 +1231,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전남대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "multiple myeloma",
         "autologous stem cell transplantation",
@@ -1267,6 +1286,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Magnesium Hydroxide",
         "Drug-Eluting Stents",
@@ -1320,6 +1340,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "quantum dots",
         "cation exchange",
@@ -1425,6 +1446,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Evolution, Molecular",
         "Szilard engine",
@@ -1479,6 +1501,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Liver Transplantation",
         "Living Donors",
@@ -1527,6 +1550,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Streptomyces coelicolor",
         "Metabolic Engineering",
@@ -1580,6 +1604,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "irreversible electroporation",
         "cancer immunotherapy",
@@ -1656,6 +1681,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천향대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Killer Cells, Natural",
         "NK cell expansion",
@@ -1706,6 +1732,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "metastatic lymph nodes",
         "immune remodeling",
@@ -1781,6 +1808,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Lysosomal Storage Diseases",
         "SKAT-O",
@@ -1823,6 +1851,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Diabetes Mellitus, Type 2",
         "type 2 diabetes",
@@ -1878,6 +1907,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "삼성서울병원",
       "position": "",
+      "company": "",
       "keywords": [
         "clear cell renal cell carcinoma",
         "Prostatic Neoplasms, Castration-Resistant",
@@ -1931,6 +1961,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "ferroptosis",
         "diffuse large B-cell lymphoma",
@@ -1984,6 +2015,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "YAP-Signaling Proteins",
         "Transcriptional Coactivator with PDZ-Binding Motif Proteins",
@@ -2081,6 +2113,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "20(S)-ginsenoside Rg3",
         "white rice",
@@ -2134,6 +2167,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "chiral phosphoric acid catalysis",
         "dynamic kinetic resolution",
@@ -2184,6 +2218,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "adiponectin secretion",
         "Adiponectin",
@@ -2237,6 +2272,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "phase-transfer catalysis",
         "asymmetric synthesis",
@@ -2291,6 +2327,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "SMAD4",
         "tumor suppressor inactivation",
@@ -2398,6 +2435,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "single-molecule localization",
         "single-molecule localization microscopy",
@@ -2451,6 +2489,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "natural product isolation",
         "structure elucidation",
@@ -2504,6 +2543,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Abnormalities, Drug-Induced",
         "kidney transplantation",
@@ -2557,6 +2597,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Streptomyces",
         "Streptomyces venezuelae",
@@ -2610,6 +2651,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "candidate gene approach",
         "Multifactorial Inheritance",
@@ -2657,6 +2699,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "prophage induction",
         "temperate phages",
@@ -2704,6 +2747,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "plant immunity",
         "nonsense-mediated mRNA decay",
@@ -2753,6 +2797,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -2785,6 +2830,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "glutathione scavenging",
         "Doxorubicin",
@@ -2895,6 +2941,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "electroacupuncture",
         "traditional Korean medicine",
@@ -2968,6 +3015,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "allosteric inhibitors",
         "mutant EGFR",
@@ -3021,6 +3069,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "physician-assisted death",
         "serious illness",
@@ -3068,6 +3117,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Proprotein Convertase 9",
         "PCSK9 inhibitors",
@@ -3121,6 +3171,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Wip1",
         "histone H2AX",
@@ -3232,6 +3283,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "pancreatic ductal adenocarcinoma",
         "drug sensitivity",
@@ -3285,6 +3337,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "NAV1.8 Voltage-Gated Sodium Channel",
         "diabetic gastroparesis",
@@ -3336,6 +3389,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "p62",
         "N-degron pathway",
@@ -3389,6 +3443,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Graduate School of Biomedical Sciences",
@@ -3421,6 +3476,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "thermal drawing",
         "neural interfaces",
@@ -3498,6 +3554,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "whole slide images",
         "ACAA1",
@@ -3552,6 +3609,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Selenomonas",
         "Selenomonas sputigena",
@@ -3624,6 +3682,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "genome editing",
         "ABE8e",
@@ -3737,6 +3796,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Macrophages",
         "tumor-associated macrophages",
@@ -3790,6 +3850,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Taurodeoxycholic Acid",
         "P2X7 receptor",
@@ -3844,6 +3905,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "FRET biosensor",
         "fluorescence resonance energy transfer",
@@ -3897,6 +3959,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "antibiotic persistence",
         "Acinetobacter baumannii",
@@ -3970,6 +4033,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "organic electrochemical transistors",
         "microneedle sensors",
@@ -4022,6 +4086,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "indoxyl sulfate",
         "trained immunity",
@@ -4075,6 +4140,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "synaptic vesicles",
         "presynaptic terminals",
@@ -4150,6 +4216,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "E2F8",
         "Prostatic Neoplasms",
@@ -4204,6 +4271,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "placental growth factor",
         "tumor-associated macrophages",
@@ -4312,6 +4380,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "PD-L1 expression",
         "tumor immune microenvironment",
@@ -4365,6 +4434,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "ACE2 receptor binding affinity",
         "variants of concern",
@@ -4412,6 +4482,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Graduate School of Biomedical Sciences",
@@ -4444,6 +4515,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "satiation",
         "hypothalamus",
@@ -4497,6 +4569,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Fc engineering",
         "directed evolution",
@@ -4603,6 +4676,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Heart-Assist Devices",
         "Counterpulsation",
@@ -4655,6 +4729,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Histone Deacetylase 6",
         "Jumonji Domain-Containing Histone Demethylases",
@@ -4709,6 +4784,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "environmental barrier coatings",
         "high-temperature corrosion",
@@ -4759,6 +4835,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "psychobiotics",
         "anisotropic scaling",
@@ -4859,6 +4936,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "phospholipase D1",
         "Phospholipase D",
@@ -4912,6 +4990,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "memory of chirality",
         "dynamic kinetic resolution",
@@ -4965,6 +5044,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "hospital pharmacists",
         "pharmacist retention",
@@ -5014,6 +5094,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "aminoacyl-tRNA synthetase",
         "Amino Acyl-tRNA Synthetases",
@@ -5061,6 +5142,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "population pharmacokinetics",
         "Extracorporeal Membrane Oxygenation",
@@ -5169,6 +5251,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Astrocytes",
         "Monoamine Oxidase",
@@ -5221,6 +5304,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Silicone Oils",
         "subvisible particles",
@@ -5274,6 +5358,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "luminal A",
         "EPAS1",
@@ -5325,6 +5410,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Persons with Disabilities",
         "Health Expenditures",
@@ -5375,6 +5461,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "AIMP2",
         "Smurf2",
@@ -5481,6 +5568,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "IL-33",
         "backbone assignment",
@@ -5534,6 +5622,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "herniotomy",
         "recurrent disc herniation",
@@ -5581,6 +5670,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "T cell homeostasis",
         "IL-7",
@@ -5634,6 +5724,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "empagliflozin",
         "dapagliflozin",
@@ -5684,6 +5775,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Enhancer Elements, Genetic",
         "enhancer-promoter interactions",
@@ -5738,6 +5830,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "gelatin",
         "gelatin methacryloyl",
@@ -5791,6 +5884,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -5845,6 +5939,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "xenogeneic immune response",
         "T cell-dependent immunity",
@@ -5892,6 +5987,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "응용바이오공학과",
@@ -5969,6 +6065,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Hanwoo cattle",
         "backfat",
@@ -6021,6 +6118,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "응용바이오공학과",
@@ -6101,6 +6199,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "radiolabeling",
         "theranostics",
@@ -6155,6 +6254,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Arthritis, Rheumatoid",
         "rheumatoid arthritis",
@@ -6208,6 +6308,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Lurasidone Hydrochloride",
         "lurasidone",
@@ -6293,6 +6394,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "colonial Korea",
         "Japanese colonial rule",
@@ -6340,6 +6442,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "gender norms",
         "labor supply",
@@ -6388,6 +6491,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "headland turning",
         "lateral deviation",
@@ -6437,6 +6541,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "자유전공학부 바로가기",
@@ -6471,6 +6576,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Radiopharmaceuticals",
         "Tomography, Emission-Computed, Single-Photon",
@@ -6524,6 +6630,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "salivary lysozyme",
         "lactoperoxidase",
@@ -6571,6 +6678,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "자유전공학부 바로가기",
@@ -6603,6 +6711,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "seed orchards",
         "fertility variation",
@@ -6653,6 +6762,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "chromosome conformation capture",
         "environmental response",
@@ -6698,6 +6808,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "agricultural reservoirs",
         "rainfall erosivity",
@@ -6748,6 +6859,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "all-suture anchors",
         "suture anchors",
@@ -6795,6 +6907,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Bombina orientalis",
         "ephemeral streams",
@@ -6896,6 +7009,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "gustatory receptor neurons",
         "Enteroendocrine Cells",
@@ -7001,6 +7115,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "chloroplast genome",
         "phylogenetic relationships",
@@ -7104,6 +7219,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Genes, Essential",
         "eIF4H",
@@ -7157,6 +7273,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Osteoarthritis",
         "cartilage degeneration",
@@ -7210,6 +7327,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "balancing selection",
         "self-pollination",
@@ -7305,6 +7423,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Rotifera",
         "Water Pollutants, Chemical",
@@ -7358,6 +7477,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Adipose Tissue, Brown",
         "phospholipid synthesis",
@@ -7407,6 +7527,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Periplasmic Proteins",
         "outer membrane permeability barrier",
@@ -7454,6 +7575,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Synthetic Biology",
         "Escherichia coli",
@@ -7506,6 +7628,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "autocrine stimulation",
         "NOX2 inhibition",
@@ -7556,6 +7679,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "phosphatidylserine exposure",
         "thrombin generation",
@@ -7634,6 +7758,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "RNA, Nuclear",
         "RNA, Untranslated",
@@ -7688,6 +7813,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Central Nervous System Agents",
         "delirium",
@@ -7736,6 +7862,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "γδ T cells",
         "height-for-age z-score",
@@ -7832,6 +7959,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "chemodiversity",
         "palladium catalysis",
@@ -7878,6 +8006,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학",
@@ -7932,6 +8061,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "PLK1",
         "Polo-Like Kinase 1",
@@ -8028,6 +8158,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "poorly water-soluble drugs",
         "Biological Availability",
@@ -8081,6 +8212,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "신경과학교실",
@@ -8113,6 +8245,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "episodic vertigo",
         "familial hemiplegic migraine",
@@ -8161,6 +8294,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Amyotrophic Lateral Sclerosis",
         "sporadic ALS",
@@ -8215,6 +8349,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Amyotrophic Lateral Sclerosis",
         "Dementia",
@@ -8265,6 +8400,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Parkinson's disease",
         "alpha-synuclein aggregation",
@@ -8320,6 +8456,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "microRNA-494",
         "KIT",
@@ -8373,6 +8510,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "AXL kinase inhibitor",
         "deubiquitinase",
@@ -8427,6 +8565,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Rotator Cuff",
         "Rotator Cuff Injuries",
@@ -8478,6 +8617,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "cIAP1",
         "Fragile X Mental Retardation Protein",
@@ -8527,6 +8667,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "생물학과",
@@ -8559,6 +8700,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Deinococcus geothermalis",
         "phytoene desaturase",
@@ -8608,6 +8750,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "systemic lupus erythematosus",
         "HLA-DRB1",
@@ -8661,6 +8804,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "zinc influx",
         "CD24",
@@ -8767,6 +8911,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "water striders",
         "Heteroptera",
@@ -8869,6 +9014,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "biological control",
         "plant growth promotion",
@@ -8919,6 +9065,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "perovskite solar cells",
         "two-dimensional halide perovskites",
@@ -8968,6 +9115,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Enhancer Elements, Genetic",
         "short gastrulation",
@@ -9021,6 +9169,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "동서의과학과",
@@ -9053,6 +9202,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Whey Proteins",
         "dietary magnesium",
@@ -9100,6 +9250,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "동서의과학과",
@@ -9132,6 +9283,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Soil Microbiology",
         "novel bacterial species",
@@ -9185,6 +9337,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "noise-induced hearing loss",
         "Evoked Potentials, Auditory, Brain Stem",
@@ -9236,6 +9389,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "dialdehyde cellulose",
         "cellulose dissolution",
@@ -9289,6 +9443,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Populus",
         "Gene Expression Regulation, Plant",
@@ -9342,6 +9497,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "ferroptosis",
         "papain extraction",
@@ -9392,6 +9548,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "pancreatic ductal adenocarcinoma",
         "mitochondrial dysfunction",
@@ -9444,6 +9601,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "thermomorphogenesis",
         "karrikin signaling",
@@ -9494,6 +9652,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "UVB irradiation",
         "Vicia faba",
@@ -9544,6 +9703,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "drought tolerance",
         "rice",
@@ -9597,6 +9757,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "antioxidant capacity",
         "phenolic compounds",
@@ -9650,6 +9811,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "식품생명공학과",
@@ -9682,6 +9844,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "pasting viscosity",
         "swelling power",
@@ -9733,6 +9896,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "puffing",
         "resistant starch",
@@ -9783,6 +9947,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Antarctic lichens",
         "Agaricales",
@@ -9886,6 +10051,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Soil Pollutants",
         "Arsenic",
@@ -9940,6 +10106,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "grain quality",
         "rice breeding",
@@ -9987,6 +10154,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Bifidobacterium longum",
         "Lactiplantibacillus plantarum",
@@ -10034,6 +10202,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "유전생명공학과",
@@ -10067,6 +10236,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Daedaleopsis confragosa",
         "Retinitis Pigmentosa",
@@ -10120,6 +10290,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Xanthomonas oryzae pv. oryzae",
         "bacterial leaf blight",
@@ -10167,6 +10338,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "rice",
         "Oryza",
@@ -10221,6 +10393,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Snail Family Transcription Factors",
         "Clostridium perfringens enterotoxin",
@@ -10273,6 +10446,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "RNA Polymerase II",
         "transcription-coupled repair",
@@ -10325,6 +10499,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "ketamine",
         "Antidepressive Agents",
@@ -10377,6 +10552,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Duchenne muscular dystrophy",
         "Genetic Therapy",
@@ -10431,6 +10607,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Healthy Volunteers",
         "Cross-Over Studies",
@@ -10485,6 +10662,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "type 2 diabetes",
         "Diabetes Mellitus, Type 2",
@@ -10538,6 +10716,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "pharmacopuncture",
         "peroneal muscles",
@@ -10585,6 +10764,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "bioanalytical method validation",
         "pharmacokinetics",
@@ -10639,6 +10819,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Pharmacists",
         "Education, Pharmacy",
@@ -10692,6 +10873,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "β-chlorovinyl ketones",
         "aerobic oxidation",
@@ -10739,6 +10921,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "semaglutide",
         "PEGylation",
@@ -10791,6 +10974,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Models, Molecular",
         "Bacterial Proteins",
@@ -10844,6 +11028,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "FOXL2",
         "Forkhead Box Protein L2",
@@ -10897,6 +11082,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "stem cell factor",
         "Retinal Neovascularization",
@@ -10950,6 +11136,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "β-chlorovinyl ketones",
         "aerobic oxidation",
@@ -11002,6 +11189,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "mitochondrial calcium uniporter",
         "natural product-derived drugs",
@@ -11055,6 +11243,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Pulsed Radiofrequency Treatment",
         "lymphedema",
@@ -11149,6 +11338,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Plant Gums",
         "Compritol",
@@ -11198,6 +11388,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "protein structure prediction",
         "Drug Discovery",
@@ -11251,6 +11442,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "CoMSIA",
         "3D-QSAR",
@@ -11300,6 +11492,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "prescription review",
         "community pharmacy",
@@ -11347,6 +11540,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Lupus Erythematosus, Systemic",
         "systemic lupus erythematosus",
@@ -11400,6 +11594,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "TWIST1",
         "Twist-Related Protein 1",
@@ -11453,6 +11648,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "cancer cell dormancy",
         "RGS Proteins",
@@ -11503,6 +11699,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "irisin",
         "Myokines",
@@ -11557,6 +11754,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "bacteriocins",
         "Bifidobacterium breve",
@@ -11606,6 +11804,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Chickens",
         "Influenza in Birds",
@@ -11659,6 +11858,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "broiler chickens",
         "growth performance",
@@ -11708,6 +11908,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "cultured meat",
         "Meat",
@@ -11761,6 +11962,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "rumen microbiota",
         "rumen microbiome",
@@ -11864,6 +12066,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "regenerative medicine",
         "pluripotent stem cells",
@@ -11969,6 +12172,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "생명공학대학",
@@ -12001,6 +12205,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Biofilms",
         "food contact surfaces",
@@ -12054,6 +12259,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Food Contamination",
         "aflatoxins",
@@ -12107,6 +12313,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Hedgehog signaling",
         "Gli1",
@@ -12160,6 +12367,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "electrochemical biosensor",
         "affinity peptides",
@@ -12213,6 +12421,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Listeria monocytogenes",
         "Salmonella",
@@ -12265,6 +12474,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Norovirus",
         "hepatitis A virus",
@@ -12318,6 +12528,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "ochratoxin",
         "quantitative NMR",
@@ -12366,6 +12577,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Tenebrio molitor",
         "edible insects",
@@ -12415,6 +12627,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "C2C12 myotubes",
         "6-shogaol",
@@ -12465,6 +12678,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "watermelon",
         "Citrullus",
@@ -12515,6 +12729,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Acidovorax citrulli",
         "twitching motility",
@@ -12566,6 +12781,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "cold storage",
         "1-methylcyclopropene",
@@ -12616,6 +12832,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "glucosinolates",
         "radish",
@@ -12713,6 +12930,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "open-field cultivation",
         "net house cultivation",
@@ -12765,6 +12983,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Genome, Microbial",
         "Escherichia coli",
@@ -12872,6 +13091,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "skin-on-a-chip",
         "regenerative medicine",
@@ -12925,6 +13145,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "EGFR internalization",
         "airway mucus",
@@ -12972,6 +13193,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Java user interface",
         "ship identification",
@@ -13018,6 +13240,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "serum protein biomarkers",
         "PIVKA-II",
@@ -13069,6 +13292,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Glioblastoma",
         "pharmacogenomics",
@@ -13122,6 +13346,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Alzheimer Disease",
         "Amyloid beta-Peptides",
@@ -13175,6 +13400,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "whole-cell biosensors",
         "Biosensing Techniques",
@@ -13228,6 +13454,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "laying hens",
         "broiler chickens",
@@ -13281,6 +13508,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Bone Wires",
         "Fracture Fixation, Internal",
@@ -13334,6 +13562,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Hepatitis E virus",
         "porcine reproductive and respiratory syndrome virus",
@@ -13387,6 +13616,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Dogs",
         "Dog Diseases",
@@ -13436,6 +13666,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Influenza in Birds",
         "Poultry Diseases",
@@ -13489,6 +13720,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Dogs",
         "recombinant human granulocyte colony-stimulating factor",
@@ -13539,6 +13771,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "chlorine dioxide",
         "Disinfectants",
@@ -13586,6 +13819,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Uterus",
         "embryo implantation",
@@ -13639,6 +13873,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Aspiculuris tetraptera",
         "Enterobiasis",
@@ -13686,6 +13921,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "DC-SIGN",
         "DC-Specific ICAM-3 Grabbing Nonintegrin",
@@ -13739,6 +13975,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "overweight dogs",
         "Tripterygium wilfordii",
@@ -13786,6 +14023,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Dog Diseases",
         "Dogs",
@@ -13840,6 +14078,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "equine arteritis virus",
         "equine viral arteritis",
@@ -13893,6 +14132,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Gerbillinae",
         "Hippocampus",
@@ -13946,6 +14186,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Dog Diseases",
         "Dogs",
@@ -13995,6 +14236,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Dog Diseases",
         "Dogs",
@@ -14046,6 +14288,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "수의과대학",
@@ -14078,6 +14321,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "temporary tracheostomy",
         "myocardial calcification",
@@ -14125,6 +14369,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Xanthomonas oryzae pv. oryzae",
         "bacterial leaf blight",
@@ -14179,6 +14424,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "10-year survival",
         "low-risk differentiated thyroid cancer",
@@ -14226,6 +14472,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "plant immunity",
         "R-SNARE Proteins",
@@ -14276,6 +14523,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "NSD1",
         "Histone-Lysine N-Methyltransferase",
@@ -14329,6 +14577,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "생명과학특성학과",
@@ -14361,6 +14610,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Conditioning, Classical",
         "lateral habenula",
@@ -14414,6 +14664,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "amusement parks",
         "estimated daily intake",
@@ -14463,6 +14714,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "water holding capacity",
         "emulsion stability",
@@ -14516,6 +14768,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Salmo salar",
         "lipid oxidation",
@@ -14569,6 +14822,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "edible insects",
         "emulsion stability",
@@ -14619,6 +14873,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "건국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "carrot pomace",
         "olive leaf",
@@ -14666,6 +14921,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "forest carbon sink",
         "cellulose aerogels",
@@ -14716,6 +14972,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "PCSK9 inhibitors",
         "PCSK9 inhibition",
@@ -14768,6 +15025,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "pharmacokinetics",
         "drug-drug interactions",
@@ -14821,6 +15079,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Cytochrome P-450 CYP2C9",
         "physiologically based pharmacokinetic modeling",
@@ -14870,6 +15129,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "elexacaftor/tezacaftor/ivacaftor",
         "Cystic Fibrosis",
@@ -14917,6 +15177,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "cold atmospheric plasma",
         "long non-coding RNA",
@@ -14992,6 +15253,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Arthritis, Juvenile",
         "susceptibility genes",
@@ -15067,6 +15329,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "neurite branching",
         "netrin signaling",
@@ -15176,6 +15439,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Halictidae",
         "shotgun sequencing",
@@ -15229,6 +15493,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Yersinia enterocolitica",
         "Reticulitermes speratus",
@@ -15278,6 +15543,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "cellulose III",
         "washi",
@@ -15325,6 +15591,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "sophorolipids",
         "Gastrointestinal Microbiome",
@@ -15377,6 +15644,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Streptomyces",
         "absolute configuration",
@@ -15429,6 +15697,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "융합바이오공학과",
@@ -15461,6 +15730,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "ligand-gated ion channels",
         "gustatory receptor neurons",
@@ -15514,6 +15784,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "doenjang",
         "Aspergillus sojae",
@@ -15562,6 +15833,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "RBX2660",
         "resistome",
@@ -15613,6 +15885,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "skin lipids",
         "non-destructive analysis",
@@ -15657,6 +15930,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "rolling circle amplification",
         "mitochondrial heteroplasmy",
@@ -15710,6 +15984,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "fluorescence lifetime imaging",
         "label-free imaging",
@@ -15763,6 +16038,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "phenylpyruvate",
         "D-lactate dehydrogenase",
@@ -15810,6 +16086,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "phylogenetic turnover",
         "montane forest",
@@ -15859,6 +16136,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "MELK",
         "plant pathogenic fungi",
@@ -15912,6 +16190,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "natural regeneration",
         "seed dispersal",
@@ -15959,6 +16238,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Landsat",
         "burn severity",
@@ -16002,6 +16282,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "climate justice",
         "North Korea",
@@ -16049,6 +16330,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "정보보안암호수학과",
@@ -16081,6 +16363,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Bessel functions",
         "inverse scattering",
@@ -16130,6 +16413,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Escherichia coli O157:H7",
         "foodborne pathogens",
@@ -16182,6 +16466,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "glycemic response",
         "Glycemic Index",
@@ -16229,6 +16514,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Lutein",
         "rhesus monkeys",
@@ -16280,6 +16566,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "peritoneal fibrosis",
         "peritoneal mesothelial cells",
@@ -16334,6 +16621,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "uterine mesenchymal tumors",
         "18F-FP-CIT PET",
@@ -16384,6 +16672,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "hypertension phenotypes",
         "fibromuscular dysplasia",
@@ -16433,6 +16722,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -16465,6 +16755,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "irritable bowel syndrome with constipation",
         "symptom clustering",
@@ -16513,6 +16804,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "papillary thyroid carcinoma",
         "thyroidectomy",
@@ -16565,6 +16857,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "FOLFIRINOX",
         "primary prophylaxis",
@@ -16613,6 +16906,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "SuperAgers",
         "mild cognitive impairment",
@@ -16665,6 +16959,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Prostatectomy",
         "thrombectomy",
@@ -16719,6 +17014,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "lung transplantation",
         "ventilator-free days",
@@ -16767,6 +17063,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "pneumoperitoneum",
         "Trendelenburg position",
@@ -16815,6 +17112,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "endometrial cancer",
         "KRAS signaling",
@@ -16867,6 +17165,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "breast tumor cells",
         "tunneling nanotubes",
@@ -16920,6 +17219,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "dental implant surgery",
         "medication-related osteonecrosis of the jaw",
@@ -16974,6 +17274,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "novel HLA allele",
         "Histocompatibility Testing",
@@ -17028,6 +17329,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Suicidal Ideation",
         "depressive symptoms",
@@ -17080,6 +17382,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "problem-based learning",
         "team-based learning",
@@ -17127,6 +17430,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -17160,6 +17464,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Premature Birth",
         "preterm birth",
@@ -17213,6 +17518,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Dental Pulp Cavity",
         "Molar",
@@ -17265,6 +17571,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "opioid-sparing analgesia",
         "fentanyl consumption",
@@ -17319,6 +17626,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Brachial Plexus Block",
         "Anesthetics, Local",
@@ -17367,6 +17675,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "recurrent ovarian cancer",
         "recurrent endometrial cancer",
@@ -17421,6 +17730,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "distal radioulnar joint instability",
         "triangular fibrocartilage complex",
@@ -17471,6 +17781,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "hepatic artery occlusion",
         "Liver Transplantation",
@@ -17523,6 +17834,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Bisphosphonate-Associated Osteonecrosis of the Jaw",
         "medication-related osteonecrosis of the jaw",
@@ -17577,6 +17889,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Bacteremia",
         "unsafe injection practices",
@@ -17626,6 +17939,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -17659,6 +17973,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Palatine Tonsil",
         "sialolithiasis",
@@ -17713,6 +18028,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "end-of-life education",
         "Biliary Tract Neoplasms",
@@ -17764,6 +18080,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Robotic Surgical Procedures",
         "Colectomy",
@@ -17814,6 +18131,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Radius Fractures",
         "distal radius fracture",
@@ -17863,6 +18181,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -17896,6 +18215,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Thyroid Neoplasms",
         "endocrine therapy",
@@ -17950,6 +18270,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "radotinib",
         "chronic myeloid leukemia",
@@ -18004,6 +18325,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Pancreaticoduodenectomy",
         "single-incision laparoscopic cholecystectomy",
@@ -18052,6 +18374,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Perforator Flap",
         "Free Tissue Flaps",
@@ -18103,6 +18426,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Carcinoma, Transitional Cell",
         "Urinary Bladder Neoplasms",
@@ -18156,6 +18480,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "CD36",
         "oxidized LDL",
@@ -18208,6 +18533,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "glofitamab",
         "relapsed/refractory diffuse large B-cell lymphoma",
@@ -18255,6 +18581,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -18287,6 +18614,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Brain Ischemia",
         "Ischemic Stroke",
@@ -18341,6 +18669,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Infant, Premature",
         "Infant, Very Low Birth Weight",
@@ -18391,6 +18720,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Hip Prosthesis",
         "Knee Prosthesis",
@@ -18443,6 +18773,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "medication-related osteonecrosis of the jaw",
         "Bisphosphonate-Associated Osteonecrosis of the Jaw",
@@ -18496,6 +18827,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Bone Substitutes",
         "Bone Morphogenetic Protein Receptors",
@@ -18543,6 +18875,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "skin lesion classification",
         "skin cancer detection",
@@ -18597,6 +18930,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "odontogenic sinusitis",
         "oroantral fistula",
@@ -18647,6 +18981,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -18680,6 +19015,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "lymphedema",
         "tissue dielectric constant",
@@ -18728,6 +19064,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "critical illness",
         "critically ill patients",
@@ -18778,6 +19115,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "tinnitus",
         "loudness discomfort level",
@@ -18826,6 +19164,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "allergic contact dermatitis",
         "Dermatitis, Allergic Contact",
@@ -18876,6 +19215,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "double pylorus",
         "ulcer bleeding",
@@ -18924,6 +19264,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "kidney transplantation",
         "deceased donor kidney transplantation",
@@ -18972,6 +19313,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "acute ischemic stroke",
         "Stroke",
@@ -19026,6 +19368,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "years lived with disability",
         "socio-demographic index",
@@ -19074,6 +19417,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "tinnitus",
         "Hyperacusis",
@@ -19121,6 +19465,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -19154,6 +19499,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "relative handgrip strength",
         "Hand Strength",
@@ -19202,6 +19548,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "capsule endoscopy",
         "Helicobacter pylori",
@@ -19255,6 +19602,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -19288,6 +19636,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "chronic cough",
         "Asthma",
@@ -19337,6 +19686,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "ZEB1",
         "cancer-associated fibroblasts",
@@ -19391,6 +19741,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "androgen deprivation therapy",
         "Thulium",
@@ -19443,6 +19794,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "cerebral tuberculosis",
         "Ventricular Fibrillation",
@@ -19495,6 +19847,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "larval antigens",
         "Anisakis",
@@ -19543,6 +19896,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Laryngoscopes",
         "preoperative frailty",
@@ -19590,6 +19944,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Palatine Tonsil",
         "HMC-1 cells",
@@ -19644,6 +19999,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "metastatic breast cancer",
         "estrogen receptor status",
@@ -19695,6 +20051,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "delayed sternal closure",
         "negative pressure wound therapy",
@@ -19742,6 +20099,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -19775,6 +20133,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Hip Fractures",
         "Arthroplasty, Replacement, Hip",
@@ -19828,6 +20187,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "post-traumatic stress disorder",
         "Stress Disorders, Post-Traumatic",
@@ -19881,6 +20241,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "B lymphocyte transformation",
         "histone acetyltransferase inhibitors",
@@ -19931,6 +20292,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Thyroid Nodule",
         "breast lesion differentiation",
@@ -19981,6 +20343,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -20014,6 +20377,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Emergency Service, Hospital",
         "diagnostic accuracy",
@@ -20063,6 +20427,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Osteoclasts",
         "Bone Resorption",
@@ -20117,6 +20482,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Gastrectomy",
         "Bariatric Surgery",
@@ -20164,6 +20530,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -20197,6 +20564,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "vesicoureteral reflux",
         "infants",
@@ -20245,6 +20613,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "systemic lupus erythematosus",
         "Rheumatic Diseases",
@@ -20299,6 +20668,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Pulmonary Disease, Chronic Obstructive",
         "chronic obstructive pulmonary disease",
@@ -20353,6 +20723,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "cell membrane tension",
         "cytoskeletal forces",
@@ -20403,6 +20774,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "tinnitus",
         "chronic tinnitus",
@@ -20452,6 +20824,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "femoral nerve palsy",
         "iliopsoas hematoma",
@@ -20500,6 +20873,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Breast Neoplasms",
         "breast-conserving surgery",
@@ -20552,6 +20926,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Streptococcus pneumoniae",
         "pneumolysin",
@@ -20606,6 +20981,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "acute ischemic stroke",
         "thrombectomy",
@@ -20658,6 +21034,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Knee Joint",
         "Osteoarthritis, Knee",
@@ -20705,6 +21082,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Palatine Tonsil",
         "Schwann cell-like cells",
@@ -20758,6 +21136,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -20792,6 +21171,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "adolescent obesity",
         "tuberculosis prevention",
@@ -20839,6 +21219,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "predictors of institutionalization",
         "institutionalization",
@@ -20887,6 +21268,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "external quality assessment",
         "linearity",
@@ -20939,6 +21321,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "proton pump inhibitors",
         "gastroesophageal reflux disease",
@@ -20992,6 +21375,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "laboratory diagnosis",
         "colistin resistance",
@@ -21045,6 +21429,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "hemifacial spasm",
         "psychiatric outpatient visits",
@@ -21093,6 +21478,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "post-anesthesia care unit",
         "open radical cystectomy",
@@ -21141,6 +21527,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Visual Acuity",
         "Tomography, Optical Coherence",
@@ -21190,6 +21577,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "high-grade serous ovarian cancer",
         "versican",
@@ -21242,6 +21630,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Echocardiography",
         "Mitral Valve Stenosis",
@@ -21293,6 +21682,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Han River estuary",
         "musk ketone",
@@ -21345,6 +21735,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Injections, Epidural",
         "patellar resurfacing",
@@ -21392,6 +21783,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Health Status Disparities",
         "workplace violence",
@@ -21440,6 +21832,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "drug-resistant epilepsy",
         "epilepsy",
@@ -21492,6 +21885,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "mast cell density",
         "cathelicidin LL-37",
@@ -21542,6 +21936,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "neuroinflammatory diseases",
         "X-Box Binding Protein 1",
@@ -21595,6 +21990,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "radical cystectomy",
         "urothelial carcinoma",
@@ -21645,6 +22041,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "low-dose CT",
         "image denoising",
@@ -21698,6 +22095,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Bacteremia",
         "North Korean defectors",
@@ -21750,6 +22148,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "proton pump inhibitors",
         "tube removal",
@@ -21804,6 +22203,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "hypertension",
         "ambulatory blood pressure monitoring",
@@ -21855,6 +22255,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "intercalated cells",
         "collecting duct",
@@ -21907,6 +22308,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "99mTc-pertechnetate scintigraphy",
         "ectopic gastric mucosa",
@@ -21955,6 +22357,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "genetic counseling",
         "BRCA1",
@@ -22008,6 +22411,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Encephalomyocarditis virus",
         "galectin-4",
@@ -22062,6 +22466,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Malpractice",
         "medical malpractice litigation",
@@ -22110,6 +22515,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Polycystic Ovary Syndrome",
         "Diabetes Mellitus, Type 2",
@@ -22161,6 +22567,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Restless Legs Syndrome",
         "epilepsy",
@@ -22211,6 +22618,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "limb salvage",
         "stent size",
@@ -22260,6 +22668,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Palatine Tonsil",
         "conditioned medium",
@@ -22313,6 +22722,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Health Personnel",
         "radiographers",
@@ -22360,6 +22770,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -22392,6 +22803,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동덕여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "testosterone propionate-induced BPH",
         "androgen receptor signaling",
@@ -22439,6 +22851,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동덕여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "mechanistic toxicity",
         "special classes",
@@ -22486,6 +22899,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동덕여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "T cell receptor T cell therapy",
         "cadaverine production",
@@ -22539,6 +22953,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동덕여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "pentagastrin",
         "African Swine Fever",
@@ -22592,6 +23007,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동덕여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "DDB2",
         "Poly ADP Ribosylation",
@@ -22645,6 +23061,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동덕여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "association colloids",
         "phenolic lipids",
@@ -22694,6 +23111,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동덕여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "photodynamic therapy",
         "Ethacrynic Acid",
@@ -22747,6 +23165,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "삼육대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학",
@@ -22779,6 +23198,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "liver acinus",
         "hepatic zonation",
@@ -22829,6 +23249,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "human placenta",
         "carbon tetrachloride-induced liver injury",
@@ -22876,6 +23297,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "adhesive peptides",
         "mussel proteins",
@@ -22929,6 +23351,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Enterococcus raffinosus",
         "Enterococcus durans",
@@ -22977,6 +23400,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "pluripotent stem cells",
         "DNA, Mitochondrial",
@@ -23030,6 +23454,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "embryo implantation",
         "Uterus",
@@ -23084,6 +23509,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Foot Injuries",
         "GRIN3A",
@@ -23137,6 +23563,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "생명과학대학",
@@ -23169,6 +23596,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "embryonal carcinoma cells",
         "NCCIT cells",
@@ -23222,6 +23650,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "deubiquitinase",
         "Deubiquitinating Enzymes",
@@ -23276,6 +23705,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "non-invasive prenatal testing",
         "Noninvasive Prenatal Testing",
@@ -23329,6 +23759,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Printing, Three-Dimensional",
         "myoblast alignment",
@@ -23381,6 +23812,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "metastatic potential",
         "tumor heterogeneity",
@@ -23435,6 +23867,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Ovarian Neoplasms",
         "high-grade serous ovarian cancer",
@@ -23488,6 +23921,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Propiophenones",
         "xanthohumol",
@@ -23541,6 +23975,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "coacervates",
         "microRNA delivery",
@@ -23594,6 +24029,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "HSP27",
         "IkBα",
@@ -23644,6 +24080,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Pseudomonas aeruginosa",
         "RNA Phages",
@@ -23697,6 +24134,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "mRNA delivery",
         "Vitronectin",
@@ -23746,6 +24184,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "community pharmacy",
         "pharmacist counseling",
@@ -23794,6 +24233,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "HIF-1α inhibitors",
         "small molecule-drug conjugates",
@@ -23847,6 +24287,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Akt dephosphorylation",
         "protein phosphatase 2A",
@@ -23900,6 +24341,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "TNF-alpha inhibitors",
         "non-biologic DMARDs",
@@ -23949,6 +24391,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "TNBS-induced colitis",
         "Trinitrobenzenesulfonic Acid",
@@ -23998,6 +24441,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Allomyrina dichotoma",
         "Gryllus bimaculatus",
@@ -24050,6 +24494,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Diketopiperazines",
         "Pyruvaldehyde",
@@ -24097,6 +24542,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Melanocytes",
         "Melanins",
@@ -24150,6 +24596,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "information transfer rate",
         "steady-state visual evoked potentials",
@@ -24199,6 +24646,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Elaeocarpus sylvestris",
         "antioxidant activity",
@@ -24246,6 +24694,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "multifactor dimensionality reduction",
         "gene-gene interaction",
@@ -24299,6 +24748,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Cadaver",
         "Anatomy",
@@ -24346,6 +24796,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "neuregulin-1",
         "EAAC1",
@@ -24399,6 +24850,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "postnatal development",
         "epididymal adipose tissue",
@@ -24452,6 +24904,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "pressure injury staging",
         "Cohen's kappa",
@@ -24500,6 +24953,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Reg3β",
         "melatonin",
@@ -24547,6 +25001,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의예과",
@@ -24580,6 +25035,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "type 2 diabetes",
         "HbA1c",
@@ -24628,6 +25084,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "human enteroviruses",
         "tuberculous pleural effusion",
@@ -24676,6 +25133,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Gout",
         "urate-lowering therapy",
@@ -24729,6 +25187,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "dialysis-free survival",
         "claudin-19",
@@ -24777,6 +25236,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "recurrent ventricular fibrillation",
         "sudden cardiac death prevention",
@@ -24828,6 +25288,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Hospitals, Psychiatric",
         "human rights",
@@ -24875,6 +25336,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "ventral posteromedial thalamic nucleus",
         "supraspinal pain processing",
@@ -24928,6 +25390,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Azygos Vein",
         "Academic Success",
@@ -24979,6 +25442,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "CNS homeostasis",
         "astrocyte-neuron crosstalk",
@@ -25026,6 +25490,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Microglia",
         "Neuralgia",
@@ -25079,6 +25544,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "stroke rehabilitation",
         "hemiplegic gait",
@@ -25129,6 +25595,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "renal cell carcinoma subtypes",
         "prognostic factors",
@@ -25177,6 +25644,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Cancellous Bone",
         "TotalSegmentator",
@@ -25227,6 +25695,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "cardio-ankle vascular index",
         "fine powders",
@@ -25275,6 +25744,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Food Insecurity",
         "Tobacco Products",
@@ -25326,6 +25796,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "non-alcoholic fatty liver disease",
         "Korean Genome and Epidemiology Study",
@@ -25375,6 +25846,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Reverse Genetics",
         "Flaviviridae",
@@ -25422,6 +25894,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "differentially accessible regions",
         "non-coding genome",
@@ -25472,6 +25945,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "continuous wound infiltration",
         "single-port laparoscopy",
@@ -25520,6 +25994,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "acute ischemic stroke",
         "Ischemic Stroke",
@@ -25573,6 +26048,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Cluster Headache",
         "Migraine Disorders",
@@ -25625,6 +26101,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Hashimoto's encephalopathy",
         "nonconvulsive status epilepticus",
@@ -25675,6 +26152,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Ischemic Stroke",
         "acute ischemic stroke",
@@ -25726,6 +26204,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "differential expression analysis",
         "Epigenesis, Genetic",
@@ -25779,6 +26258,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "plant immunity",
         "SNARE Proteins",
@@ -25829,6 +26309,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "indoor air quality",
         "Erwinia amylovora",
@@ -25878,6 +26359,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "PRAME",
         "DBC1",
@@ -25925,6 +26407,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Endothelial Cells",
         "bovine aortic endothelial cells",
@@ -25978,6 +26461,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "prostatic acid phosphatase",
         "Periodontal Diseases",
@@ -26031,6 +26515,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "skin microbiome",
         "Alu elements",
@@ -26084,6 +26569,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Acinetobacter Infections",
         "Acinetobacter baumannii",
@@ -26131,6 +26617,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "non-alcoholic fatty liver disease",
         "Hedgehog signaling",
@@ -26184,6 +26671,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "melanocyte stem cells",
         "melanoma initiation",
@@ -26231,6 +26719,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "colorimetric biosensor",
         "total polyphenols",
@@ -26281,6 +26770,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "skin microbiome",
         "Microbiota",
@@ -26334,6 +26824,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "lactic acid bacteria",
         "Levilactobacillus brevis",
@@ -26386,6 +26877,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "soybean",
         "Aulacorthum solani",
@@ -26435,6 +26927,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "nutrient digestibility",
         "growth performance",
@@ -26486,6 +26979,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "corneal alkali burn",
         "blepharitis",
@@ -26536,6 +27030,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "weaned piglets",
         "growth performance",
@@ -26588,6 +27083,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오융합대학",
@@ -26620,6 +27116,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "cut flowers",
         "vase life",
@@ -26668,6 +27165,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "radish",
         "fruit size",
@@ -26718,6 +27216,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Gene Expression Regulation, Plant",
         "elf18",
@@ -26793,6 +27292,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "feather pecking",
         "ejaculate quality",
@@ -26840,6 +27340,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "percutaneous absorption",
         "Franz diffusion cell",
@@ -26893,6 +27394,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Opuntia",
         "BACE1 inhibition",
@@ -26941,6 +27443,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Endosonography",
         "Pancreatic Neoplasms",
@@ -26994,6 +27497,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Cytochrome P-450 CYP2D6",
         "Tolperisone",
@@ -27043,6 +27547,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "total synthesis",
         "structure confirmation",
@@ -27117,6 +27622,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "tricaprylin",
         "local inflammation",
@@ -27167,6 +27673,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Receptor, Serotonin, 5-HT1B",
         "rs6313",
@@ -27214,6 +27721,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "tinnitus",
         "computer-based testing",
@@ -27265,6 +27773,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Kelch-Like ECH-Associated Protein 1",
         "Sequestosome-1 Protein",
@@ -27317,6 +27826,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "mesenchymal stem-like subtype",
         "triple-negative breast cancer",
@@ -27368,6 +27878,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "mammaglobin",
         "CDH1 mutation",
@@ -27421,6 +27932,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "implantable microelectrodes",
         "subretinal prosthesis",
@@ -27469,6 +27981,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Students",
         "Education, Medical",
@@ -27516,6 +28029,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "restandardization",
         "maternal folate",
@@ -27563,6 +28077,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "triple-negative breast cancer",
         "Triple Negative Breast Neoplasms",
@@ -27616,6 +28131,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -27648,6 +28164,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Mycoplasma hyopneumoniae",
         "Circoviridae Infections",
@@ -27698,6 +28215,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "MTDH",
         "tongue biopsy",
@@ -27745,6 +28263,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -27778,6 +28297,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "incident reporting systems",
         "C-MAC videolaryngoscope",
@@ -27826,6 +28346,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "Drug-Eluting Stents",
@@ -27878,6 +28399,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -27911,6 +28433,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "biologic discontinuation",
         "risankizumab",
@@ -27960,6 +28483,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "high-pressure homogenization",
         "Niclosamide",
@@ -28007,6 +28531,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -28040,6 +28565,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Peritoneal Neoplasms",
         "peritoneal carcinomatosis",
@@ -28091,6 +28617,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Extracorporeal Membrane Oxygenation",
         "resuscitative endovascular balloon occlusion of the aorta",
@@ -28139,6 +28666,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "allergic rhinitis",
         "chronic rhinosinusitis",
@@ -28193,6 +28721,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "breast cancer survivors",
         "Breast Neoplasms",
@@ -28244,6 +28773,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "gastric tuberculosis",
         "retroperitoneal leiomyoma",
@@ -28297,6 +28827,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Alopecia",
         "androgenetic alopecia",
@@ -28350,6 +28881,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "tuberculosis",
         "pulmonary tuberculosis",
@@ -28398,6 +28930,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Talus",
         "Charcot foot",
@@ -28447,6 +28980,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "unstable ankle fractures",
         "radiographic outcomes",
@@ -28493,6 +29027,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "AZD0530",
         "saracatinib",
@@ -28547,6 +29082,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "lacunar stroke",
         "subcortical infarcts",
@@ -28597,6 +29133,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "hepatocellular carcinoma",
         "chronic hepatitis C",
@@ -28648,6 +29185,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Rome IV criteria",
         "constipation",
@@ -28700,6 +29238,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "liver function test abnormalities",
         "Hepatitis C Antibodies",
@@ -28748,6 +29287,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Eosinophilic Esophagitis",
         "peripheral eosinophil count",
@@ -28796,6 +29336,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "atrial fibrillation",
         "dabigatran",
@@ -28847,6 +29388,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Hemoglobins, Abnormal",
         "methemoglobinemia",
@@ -28897,6 +29439,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "preventable trauma deaths",
         "dose conformity",
@@ -28950,6 +29493,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "overall survival",
         "progression-free survival",
@@ -29003,6 +29547,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "anxiety prediction",
         "digital phenotyping",
@@ -29053,6 +29598,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "hospital ward design",
         "Coronavirus Infections",
@@ -29103,6 +29649,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "medullary thyroid carcinoma",
         "germline mutation testing",
@@ -29151,6 +29698,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "attitudes toward advance directives",
         "visiting nurses",
@@ -29201,6 +29749,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "seizure prevention",
         "eclampsia",
@@ -29249,6 +29798,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "tracheal tumor",
         "adenoid cystic carcinoma",
@@ -29297,6 +29847,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "helicopter emergency medical services",
         "out-of-hospital cardiac arrest",
@@ -29345,6 +29896,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "head impulse test",
         "ocular flutter",
@@ -29394,6 +29946,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -29427,6 +29980,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "chronic myeloid leukemia",
         "major molecular response",
@@ -29475,6 +30029,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "musculoskeletal imaging",
         "automated fracture detection",
@@ -29526,6 +30081,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "selenium deficiency",
         "CKD-EPI equation",
@@ -29577,6 +30133,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Cardiopulmonary Resuscitation",
         "out-of-hospital cardiac arrest",
@@ -29631,6 +30188,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Crohn Disease",
         "duodenal neuroendocrine tumor",
@@ -29682,6 +30240,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "sternal fracture",
         "thoracic trauma",
@@ -29730,6 +30289,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Palliative Prognostic Index",
         "Micrognathism",
@@ -29781,6 +30341,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "hypothyroidism",
         "TSH suppression",
@@ -29832,6 +30393,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "traumatic brain injury",
         "regional trauma centers",
@@ -29880,6 +30442,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "low-level laser therapy",
         "Low-Level Light Therapy",
@@ -29934,6 +30497,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "chronic radiation dermatitis",
         "radiation-induced skin cancer",
@@ -29984,6 +30548,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Intracranial Aneurysm",
         "aneurysm recurrence",
@@ -30035,6 +30600,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "olfactory organ",
         "endovascular intervention",
@@ -30085,6 +30651,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "ANCA-associated vasculitis",
         "Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis",
@@ -30133,6 +30700,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "laparoscopic distal pancreatectomy",
         "laparoscopic foreign body removal",
@@ -30186,6 +30754,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Urinary Bladder Neoplasms",
         "BCG Vaccine",
@@ -30240,6 +30809,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "neurointensivists",
         "in-hospital cardiac arrest",
@@ -30288,6 +30858,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Mycoplasma genitalium",
         "Mycoplasma Infections",
@@ -30336,6 +30907,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Acrocephalosyndactylia",
         "sleep bruxism",
@@ -30390,6 +30962,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "allergic rhinitis",
         "nasal obstruction",
@@ -30441,6 +31014,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "peritoneal carcinomatosis",
         "cytoreductive surgery",
@@ -30489,6 +31063,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "major adverse kidney events",
         "renin-angiotensin system inhibitors",
@@ -30539,6 +31114,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "pyometra",
         "Ureaplasma",
@@ -30587,6 +31163,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "negative pressure wound therapy",
         "forearm reconstruction",
@@ -30635,6 +31212,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Transcatheter Aortic Valve Replacement",
         "Heart Valve Prosthesis",
@@ -30685,6 +31263,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "extent of resection",
         "Meningeal Neoplasms",
@@ -30735,6 +31314,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "small bowel surgery",
         "procedural confidence",
@@ -30783,6 +31363,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "biologic discontinuation",
         "Alopecia",
@@ -30830,6 +31411,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Printing, Three-Dimensional",
         "bioinks",
@@ -30883,6 +31465,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "1-butyl-3-methylimidazolium hexafluorophosphate",
         "2-butene",
@@ -30931,6 +31514,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "hallucination detection",
         "web search integration",
@@ -30984,6 +31568,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "gallium-based liquid metals",
         "eutectic gallium-indium",
@@ -31089,6 +31674,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "long-term potentiation and depression",
         "artificial synapses",
@@ -31191,6 +31777,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "thermal dose",
         "heat penetration",
@@ -31238,6 +31825,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Bacteriophages",
         "endolysin",
@@ -31288,6 +31876,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "yeast cell wall polysaccharides",
         "precision fermentation",
@@ -31338,6 +31927,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "erythorbic acid",
         "Lipase",
@@ -31387,6 +31977,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Contact Lenses",
         "Cystinosis",
@@ -31438,6 +32029,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Paracoccus denitrificans",
         "amicyanin",
@@ -31489,6 +32081,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "bone regeneration",
         "osteogenic differentiation",
@@ -31599,6 +32192,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "polymer globules",
         "interfacial layer thickness",
@@ -31647,6 +32241,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "post-exercise hypotension",
         "exercise training response",
@@ -31697,6 +32292,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "media hype",
         "risk perception",
@@ -31744,6 +32340,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "triboelectric nanogenerator",
         "charge storage layer",
@@ -31794,6 +32391,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "글로벌철도시스템학과(계약학과)",
@@ -31827,6 +32425,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "work-life balance",
         "neutral point clamped inverter",
@@ -31874,6 +32473,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Periodontitis",
         "alveolar bone loss",
@@ -31927,6 +32527,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Root Canal Preparation",
         "root canal instrumentation",
@@ -31976,6 +32577,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Trigeminal Nucleus, Spinal",
         "jaw-jerk reflex",
@@ -32023,6 +32625,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "panoramic radiography",
         "Radiography, Panoramic",
@@ -32072,6 +32675,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "RNA, Long Noncoding",
         "THP-1 cells",
@@ -32126,6 +32730,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Solitary Fibrous Tumors",
         "Myeloid Progenitor Cells",
@@ -32179,6 +32784,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "porphyrin synthesis",
         "oxyfluorfen",
@@ -32228,6 +32834,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "생명공학부",
@@ -32260,6 +32867,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "pexophagy",
         "macroautophagy",
@@ -32313,6 +32921,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Sumoylation",
         "Saccharomyces cerevisiae",
@@ -32417,6 +33026,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "생명공학부",
@@ -32449,6 +33059,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Helicobacter pylori",
         "type IV secretion system",
@@ -32499,6 +33110,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "small cell lung cancer",
         "RBL2",
@@ -32552,6 +33164,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "gene misexpression",
         "rice husk biochar",
@@ -32655,6 +33268,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Henipavirus",
         "Henipavirus Infections",
@@ -32705,6 +33319,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "SIRT1",
         "Muscular Atrophy",
@@ -32756,6 +33371,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Saccharomyces cerevisiae",
         "xylose fermentation",
@@ -32865,6 +33481,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Aspergillus nidulans",
         "Spores, Fungal",
@@ -32917,6 +33534,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "volatile aromatic compounds",
         "Wickerhamomyces anomalus",
@@ -32967,6 +33585,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "NF-κB signaling",
         "nutraceuticals",
@@ -33076,6 +33695,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "chlorosulfonyl isocyanate",
         "microfibrillated cellulose",
@@ -33129,6 +33749,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "antioxidant activity",
         "Heme Oxygenase-1",
@@ -33181,6 +33802,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "hyaluronidase inhibition",
         "collagenase inhibition",
@@ -33231,6 +33853,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Monascus pigments",
         "tetrabutylammonium fluoride",
@@ -33282,6 +33905,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "tamoxifen resistance",
         "Tyro3",
@@ -33335,6 +33959,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -33367,6 +33992,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "memory of chirality",
         "asymmetric total synthesis",
@@ -33420,6 +34046,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -33453,6 +34080,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "T-Lymphocytes",
         "Receptors, Antigen, T-Cell",
@@ -33562,6 +34190,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "chronic myeloid leukemia",
         "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
@@ -33615,6 +34244,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Hepatitis B virus",
         "Lymphocyte Activation",
@@ -33668,6 +34298,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "leptomeningeal metastasis",
         "Glycerolphosphate Dehydrogenase",
@@ -33721,6 +34352,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -33753,6 +34385,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "quantum dots",
         "Spheroids, Cellular",
@@ -33837,6 +34470,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "tau acetylation",
         "Alzheimer Disease",
@@ -33887,6 +34521,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Streptomyces",
         "absolute configuration",
@@ -33940,6 +34575,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Nanostructures",
         "noninvasive cancer therapy",
@@ -33993,6 +34629,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Chaperone-Mediated Autophagy",
         "LAMP2A",
@@ -34045,6 +34682,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "antiproliferative activity",
         "Apoptosis",
@@ -34098,6 +34736,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "OATP1B3",
         "carfilzomib",
@@ -34151,6 +34790,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "CL316,243",
         "Adipocytes",
@@ -34204,6 +34844,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "radotinib",
         "Pyrazines",
@@ -34254,6 +34895,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "TM4SF5",
         "Membrane Proteins",
@@ -34307,6 +34949,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -34340,6 +34983,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "chemical reaction prediction",
         "conformational space annealing",
@@ -34393,6 +35037,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "KEYNOTE-522",
         "pneumonitis",
@@ -34446,6 +35091,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "insulin-like growth factor II",
         "alveolar stem cells",
@@ -34499,6 +35145,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "physiologically based pharmacokinetic modeling",
         "pharmacokinetics",
@@ -34607,6 +35254,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "T follicular helper cells",
         "Th17 Cells",
@@ -34715,6 +35363,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Peroxiredoxin III",
         "Platelet Activation",
@@ -34823,6 +35472,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "ligand-binding domain",
         "crystal structure",
@@ -34876,6 +35526,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "iron catalysis",
         "transfer hydrogenation",
@@ -34983,6 +35634,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Mo/ZSM-5 catalyst",
         "zeolite structure",
@@ -35033,6 +35685,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "stretchable electronics",
         "soft bioelectronics",
@@ -35086,6 +35739,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "selective catalytic reduction",
         "NH3-SCR",
@@ -35187,6 +35841,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -35219,6 +35874,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -35251,6 +35907,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -35325,6 +35982,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Streptomyces cattleya",
         "C-terminal tagging",
@@ -35372,6 +36030,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -35404,6 +36063,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "slot-die coating",
         "adaptive mesh refinement",
@@ -35504,6 +36164,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -35536,6 +36197,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -35568,6 +36230,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Fusarium semitectum",
         "apicidin",
@@ -35615,6 +36278,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -35647,6 +36311,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -35679,6 +36344,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -35712,6 +36378,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "visible light photocatalysis",
         "surface plasmon resonance",
@@ -35809,6 +36476,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "anion exchange membrane water electrolysis",
         "capacitive deionization",
@@ -35913,6 +36581,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Frenkel line",
         "copper(II) acetylacetonate",
@@ -35964,6 +36633,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -35997,6 +36667,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "all-solid-state batteries",
         "sodium-ion batteries",
@@ -36047,6 +36718,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "silicon photonics",
         "precision agriculture",
@@ -36122,6 +36794,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -36154,6 +36827,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "proton conductivity",
         "sulfonated poly(arylene ether sulfone)",
@@ -36208,6 +36882,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "bulk-fill composites",
         "radiant emittance",
@@ -36255,6 +36930,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "retrosynthesis",
         "materials discovery",
@@ -36308,6 +36984,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "figure of merit ZT",
         "lattice thermal conductivity",
@@ -36380,6 +37057,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "lithium metal batteries",
         "all-solid-state batteries",
@@ -36489,6 +37167,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Yarrowia",
         "Metabolic Engineering",
@@ -36565,6 +37244,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "single-atom catalysts",
         "oxygen reduction reaction",
@@ -36674,6 +37354,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Bioreactors",
         "process analytical technology",
@@ -36725,6 +37406,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cryogels",
         "bone regeneration",
@@ -36805,6 +37487,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cellular Senescence",
         "senescence-associated secretory phenotype",
@@ -36907,6 +37590,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "intrinsically disordered regions",
         "Intrinsically Disordered Proteins",
@@ -36954,6 +37638,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "fibro-adipogenic progenitors",
         "neuromuscular junction maturation",
@@ -37008,6 +37693,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Ribonuclease III",
         "RNA Processing, Post-Transcriptional",
@@ -37113,6 +37799,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Adipocytes",
         "adipose tissue inflammation",
@@ -37167,6 +37854,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "CFHR5",
         "acetylome",
@@ -37221,6 +37909,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Osteoarthritis",
         "chondrocyte senescence",
@@ -37330,6 +38019,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Biological Sciences",
@@ -37395,6 +38085,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Biological Sciences",
@@ -37469,6 +38160,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "conformational states",
         "chaperonin",
@@ -37544,6 +38236,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Gene Expression Regulation, Plant",
         "WOX5",
@@ -37618,6 +38311,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "PANoptosis",
         "pyroptosis",
@@ -37669,6 +38363,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "protein structure prediction",
         "Software",
@@ -37722,6 +38417,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Biological Sciences",
@@ -37754,6 +38450,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Gastrointestinal Microbiome",
         "Bacteroides thetaiotaomicron",
@@ -37803,6 +38500,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "CD200",
         "GFRA1",
@@ -37856,6 +38554,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "protein structure prediction",
         "RoseTTAFold",
@@ -37909,6 +38608,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Biological Sciences",
@@ -37941,6 +38641,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Phosphoenolpyruvate Sugar Phosphotransferase System",
         "HPr",
@@ -37990,6 +38691,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "dual oxidase",
         "TNF Receptor-Associated Factor 3",
@@ -38091,6 +38793,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Hedgehog signaling",
         "bladder cancer",
@@ -38144,6 +38847,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Diptera",
         "Scathophagidae",
@@ -38194,6 +38898,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "primary visual cortex",
         "fast-spiking interneurons",
@@ -38243,6 +38948,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Hemocytes",
         "scribblers",
@@ -38350,6 +39056,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "human cytomegalovirus",
         "R-loops",
@@ -38403,6 +39110,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "SNARE Proteins",
         "magnetic tweezers",
@@ -38508,6 +39216,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Biological Sciences",
@@ -38562,6 +39271,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "duckweed",
         "hydrotropism",
@@ -38615,6 +39325,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Biological Sciences",
@@ -38647,6 +39358,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "vernalization",
         "FLOWERING LOCUS C",
@@ -38700,6 +39412,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "touch neurons",
         "neuronal aging",
@@ -38753,6 +39466,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Biological Sciences",
@@ -38813,6 +39527,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Kinetochores",
         "Aurora Kinase B",
@@ -38861,6 +39576,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Multiple Sclerosis",
         "Astrocytes",
@@ -38936,6 +39652,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "fungal diversity",
         "fungal taxonomy",
@@ -38988,6 +39705,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Biological Sciences",
@@ -39021,6 +39739,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "TAIL-seq",
         "wild-type embryos",
@@ -39132,6 +39851,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "PTEN-Induced Putative Kinase",
         "PINK1",
@@ -39186,6 +39906,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "DNA, Ancient",
         "ancient genomes",
@@ -39238,6 +39959,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Indoleacetic Acids",
         "PIN2",
@@ -39290,6 +40012,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Herbivory",
         "insect functional groups",
@@ -39397,6 +40120,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Taste Buds",
         "taste cells",
@@ -39473,6 +40197,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "temporal integration",
         "synergistic information",
@@ -39526,6 +40251,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "brassinosteroid biosynthesis",
         "brassinosteroids",
@@ -39577,6 +40303,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "RNA-directed DNA methylation",
         "Gene Expression Regulation, Plant",
@@ -39628,6 +40355,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Biological Sciences",
@@ -39661,6 +40389,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Saccharomyces cerevisiae Proteins",
         "Saccharomyces cerevisiae",
@@ -39715,6 +40444,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Viola",
         "explosive seed dispersal",
@@ -39788,6 +40518,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Proteogenomics",
         "3D tumor microenvironment",
@@ -39841,6 +40572,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "T cell quiescence",
         "Lymphocyte Activation",
@@ -39916,6 +40648,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "African Swine Fever",
         "African Swine Fever Virus",
@@ -39969,6 +40702,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "drug metabolism",
         "pharmacokinetics",
@@ -40022,6 +40756,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "prostate-specific membrane antigen",
         "Glutamate Carboxypeptidase II",
@@ -40075,6 +40810,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -40107,6 +40843,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -40139,6 +40876,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Vernonia",
         "Plant Extracts",
@@ -40214,6 +40952,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -40246,6 +40985,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -40278,6 +41018,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "rhodium(III) catalysis",
         "rhodium catalysis",
@@ -40330,6 +41071,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "polydiacetylene",
         "Cryoprotective Agents",
@@ -40383,6 +41125,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -40415,6 +41158,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "ring-opening metathesis polymerization",
         "bottlebrush polymers",
@@ -40466,6 +41210,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "multiplex immunoassay",
         "Immunoassay",
@@ -40571,6 +41316,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -40645,6 +41391,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "hydrothermal stability",
         "zeolite membranes",
@@ -40695,6 +41442,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -40727,6 +41475,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -40759,6 +41508,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -40791,6 +41541,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -40823,6 +41574,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "slot-die coating",
         "automotive clearcoats",
@@ -40927,6 +41679,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -40959,6 +41712,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "solid electrolyte interphase",
         "lithium-ion batteries",
@@ -41011,6 +41765,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "enzyme immobilization",
         "glucose oxidase",
@@ -41064,6 +41819,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Apoferritins",
         "all-solid-state lithium metal batteries",
@@ -41144,6 +41900,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "interfacial polymerization",
         "thin-film composite membranes",
@@ -41251,6 +42008,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "CO2 capture",
         "CO2 adsorption",
@@ -41302,6 +42060,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Chemical and Biological Engineering",
@@ -41376,6 +42135,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Metabolic Engineering",
         "Streptomyces",
@@ -41429,6 +42189,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "in situ hydrogen generation",
         "tandem catalysis",
@@ -41531,6 +42292,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "liquid-liquid equilibrium",
         "gravitational instability",
@@ -41580,6 +42342,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "microalgae",
         "Haematococcus pluvialis",
@@ -41633,6 +42396,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "techno-economic analysis",
         "life cycle assessment",
@@ -41683,6 +42447,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Metabolic Engineering",
         "Synthetic Biology",
@@ -41789,6 +42554,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "lithium metal anode",
         "lithium-sulfur batteries",
@@ -41883,6 +42649,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "in-situ resource utilization",
         "molten salt electrolysis",
@@ -41930,6 +42697,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "AC133 Antigen",
         "Cathepsin D",
@@ -41983,6 +42751,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Plasminogen Activator Inhibitor 1",
         "bile duct ligation",
@@ -42031,6 +42800,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cronobacter sakazakii",
         "Aptamers, Nucleotide",
@@ -42084,6 +42854,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "CRTC2",
         "Protein-Arginine N-Methyltransferases",
@@ -42137,6 +42908,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Life Sciences",
@@ -42169,6 +42941,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "receptor-like cytoplasmic kinase",
         "BIK1",
@@ -42218,6 +42991,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Platelet Glycoprotein GPIIb-IIIa Complex",
         "integrin αIIbβ3",
@@ -42271,6 +43045,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "AIMP1",
         "dendritic cells",
@@ -42324,6 +43099,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "host restriction factors",
         "Antigens, CD1d",
@@ -42375,6 +43151,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "dopamine D2 receptor",
         "Receptors, Dopamine D2",
@@ -42450,6 +43227,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "TRIM72",
         "N-degron",
@@ -42503,6 +43281,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "thermomorphogenesis",
         "PIF4",
@@ -42555,6 +43334,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Life Sciences",
@@ -42587,6 +43367,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "dorsomedial striatum",
         "compulsive-like behavior",
@@ -42662,6 +43443,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Aspergillus fumigatus",
         "Gene Expression Regulation, Fungal",
@@ -42713,6 +43495,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Life Sciences",
@@ -42745,6 +43528,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Life Sciences",
@@ -42819,6 +43603,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "POCl3 diffusion",
         "screen-printed contacts",
@@ -42867,6 +43652,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Gene Expression Regulation, Plant",
         "shoot regeneration",
@@ -42920,6 +43706,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "alveolar type II cells",
         "Alveolar Epithelial Cells",
@@ -43028,6 +43815,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "active ageing",
         "serum uric acid",
@@ -43121,6 +43909,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "TNFα-induced apoptosis",
         "Smurf1",
@@ -43175,6 +43964,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Argonaute Proteins",
         "8-oxoguanine",
@@ -43275,6 +44065,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "metalloproteins",
         "artificial metalloproteins",
@@ -43374,6 +44165,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Uropathogenic Escherichia coli",
         "Mast Cells",
@@ -43423,6 +44215,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "TAZ",
         "Adaptor Proteins, Signal Transducing",
@@ -43473,6 +44266,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Life Sciences",
@@ -43552,6 +44346,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "School of Life Sciences",
@@ -43584,6 +44379,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -43616,6 +44412,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -43648,6 +44445,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -43680,6 +44478,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -43712,6 +44511,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "nutrient availability",
         "cancer metabolism",
@@ -43759,6 +44559,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Pharmacy",
@@ -43791,6 +44592,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "gap junctional intercellular communication",
         "reasoning traces",
@@ -43844,6 +44646,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Biotechnology",
@@ -43876,6 +44679,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Autophagy",
         "Angiogenesis Inhibitors",
@@ -43929,6 +44733,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Biotechnology",
@@ -43961,6 +44766,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cryptococcus neoformans",
         "cryptococcosis",
@@ -44014,6 +44820,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Biotechnology",
@@ -44046,6 +44853,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Biotechnology",
@@ -44078,6 +44886,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Biotechnology",
@@ -44156,6 +44965,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Norovirus",
         "Virus Replication",
@@ -44209,6 +45019,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "keratin degradation",
         "thermophilic bacteria",
@@ -44314,6 +45125,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "tremelimumab",
         "durvalumab",
@@ -44416,6 +45228,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Biotechnology",
@@ -44449,6 +45262,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Biotechnology",
@@ -44482,6 +45296,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Pyrogallol",
         "extracellular matrix",
@@ -44587,6 +45402,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Biotechnology",
@@ -44620,6 +45436,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "commensal microbiota",
         "germ-free mice",
@@ -44718,6 +45535,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "CHO cell culture",
         "CHO Cells",
@@ -44769,6 +45587,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Gene Expression Regulation, Plant",
         "stomatal development",
@@ -44819,6 +45638,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Rhodococcus",
         "Xylenes",
@@ -44870,6 +45690,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Genome, Bacterial",
         "Erwinia amylovora",
@@ -44923,6 +45744,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Systems Biology",
@@ -44955,6 +45777,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Systems Biology",
@@ -44987,6 +45810,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Alzheimer's disease",
         "Alzheimer Disease",
@@ -45040,6 +45864,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Systems Biology",
@@ -45072,6 +45897,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Systems Biology",
@@ -45104,6 +45930,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Systems Biology",
@@ -45136,6 +45963,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Systems Biology",
@@ -45169,6 +45997,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "thermomorphogenesis",
         "Al-Zn-Mg-Cu alloy",
@@ -45220,6 +46049,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "hydrogen inhalation",
         "knee stiffness",
@@ -45267,6 +46097,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "FBXO7",
         "Parkinson's disease",
@@ -45343,6 +46174,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "somatic structural variants",
         "3D tumor microenvironment",
@@ -45426,6 +46258,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Telomere-Binding Proteins",
         "telomeric chromatin",
@@ -45475,6 +46308,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "DXD motif",
         "cis-acting mutations",
@@ -45550,6 +46384,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Systems Biology",
@@ -45583,6 +46418,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cancer stem cell niche",
         "SIRT3",
@@ -45678,6 +46514,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "enhancer remodeling",
         "BRD4",
@@ -45787,6 +46624,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Biochemistry",
@@ -45819,6 +46657,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Cilia",
         "primary cilia",
@@ -45872,6 +46711,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Biochemistry",
@@ -45905,6 +46745,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "nutrient availability",
         "cancer metabolism",
@@ -45958,6 +46799,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Biochemistry",
@@ -45992,6 +46834,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "immune-related hepatitis",
         "major pathological response",
@@ -46041,6 +46884,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Biochemistry",
@@ -46074,6 +46918,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "firefighters",
         "fire suppression",
@@ -46124,6 +46969,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "cancer metabolism",
         "nutrient availability",
@@ -46176,6 +47022,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Biochemistry",
@@ -46252,6 +47099,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Lymphocytic choriomeningitis virus",
         "tumor surveillance",
@@ -46363,6 +47211,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "sympathetic dominance",
         "normal sinus rhythm",
@@ -46436,6 +47285,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Medicine / Pharmacology",
@@ -46468,6 +47318,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Medicine / Pharmacology",
@@ -46500,6 +47351,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Medicine / Pharmacology",
@@ -46533,6 +47385,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "population pharmacokinetics",
         "allometric scaling",
@@ -46586,6 +47439,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "unconventional secretion",
         "Smurf1",
@@ -46639,6 +47493,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "College of Medicine / Pharmacology",
@@ -46672,6 +47527,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Golgi fragmentation",
         "gastric cancer progression",
@@ -46726,6 +47582,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Kelch-Like ECH-Associated Protein 1",
         "nonalcoholic steatohepatitis",
@@ -46778,6 +47635,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "HE4",
         "Rab25",
@@ -46832,6 +47690,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "oncolytic adenovirus",
         "HSP27",
@@ -46886,6 +47745,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "surface protein expression",
         "sample multiplexing",
@@ -46940,6 +47800,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "viperin",
         "human cytomegalovirus",
@@ -46993,6 +47854,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "MARTX toxin",
         "Vibrio vulnificus",
@@ -47089,6 +47951,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Plants, Genetically Modified",
         "Oryza",
@@ -47140,6 +48003,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "RNA-Binding Protein EWS",
         "Cell Self Renewal",
@@ -47187,6 +48051,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Science",
@@ -47219,6 +48084,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "cuticular wax biosynthesis",
         "Waxes",
@@ -47300,6 +48166,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Science",
@@ -47332,6 +48199,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Science",
@@ -47364,6 +48232,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Vibrio vulnificus",
         "Gene Expression Regulation, Bacterial",
@@ -47417,6 +48286,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Gene Expression Regulation, Plant",
         "Plastocyanin",
@@ -47469,6 +48339,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Rhodopsins, Microbial",
         "microbial rhodopsins",
@@ -47522,6 +48393,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Thyroid Nodule",
         "Ultrasonography",
@@ -47572,6 +48444,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Jumonji Domain-Containing Histone Demethylases",
         "JMJD3",
@@ -47625,6 +48498,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "TBK1",
         "adipose tissue inflammation",
@@ -47674,6 +48548,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Graphite",
         "carbon nanomaterials",
@@ -47727,6 +48602,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemical and Biomolecular Engineering",
@@ -47801,6 +48677,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemical and Biomolecular Engineering",
@@ -47833,6 +48710,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Microbubbles",
         "polymersomes",
@@ -47938,6 +48816,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemical and Biomolecular Engineering",
@@ -48012,6 +48891,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "methane",
         "Methylocystaceae",
@@ -48063,6 +48943,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemical and Biomolecular Engineering",
@@ -48095,6 +48976,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemical and Biomolecular Engineering",
@@ -48173,6 +49055,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemical and Biomolecular Engineering",
@@ -48205,6 +49088,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Desulfovibrio desulfuricans",
         "formate dehydrogenase",
@@ -48258,6 +49142,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemical and Biomolecular Engineering",
@@ -48290,6 +49175,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemical and Biomolecular Engineering",
@@ -48322,6 +49208,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "ectoine production",
         "Metabolic Engineering",
@@ -48375,6 +49262,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemical and Biomolecular Engineering",
@@ -48449,6 +49337,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemical and Biomolecular Engineering",
@@ -48481,6 +49370,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "MCM-22 zeolite",
         "Fischer-Tropsch synthesis",
@@ -48531,6 +49421,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Sphingosine N-Acyltransferase",
         "Sphingolipids",
@@ -48584,6 +49475,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "barley sprouts",
         "Plant Extracts",
@@ -48635,6 +49527,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학",
@@ -48667,6 +49560,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "NFATc1",
         "osteoclastogenesis",
@@ -48720,6 +49614,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Ilex rotunda",
         "anti-inflammatory activity",
@@ -48773,6 +49668,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "medication regimen complexity",
         "MRCI",
@@ -48820,6 +49716,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "cleavable linkers",
         "legumain",
@@ -48871,6 +49768,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "lichen secondary metabolites",
         "KITENIN",
@@ -48924,6 +49822,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "목포대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "calretinin",
         "ribbon synapses",
@@ -48975,6 +49874,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "목포대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "RS3",
         "Intestine, Large",
@@ -49023,6 +49923,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "목포대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "caspase activation",
         "oxaliplatin resistance",
@@ -49076,6 +49977,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "목포대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "oral bioavailability",
         "intestinal permeability",
@@ -49128,6 +50030,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "목포대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "sphingosine kinase 1",
         "fingolimod",
@@ -49178,6 +50081,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "목포대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학 Pharmacy",
@@ -49210,6 +50114,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "목포대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "subvisible particles",
         "Silicone Oils",
@@ -49263,6 +50168,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "목포대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Aortic Aneurysm, Abdominal",
         "glucose-lowering therapy",
@@ -49310,6 +50216,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "수의과대학",
@@ -49342,6 +50249,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Thymosin",
         "thymosin beta 4",
@@ -49395,6 +50303,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "수의과대학",
@@ -49427,6 +50336,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "porcine circovirus type 3",
         "Pseudorabies",
@@ -49480,6 +50390,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "porcine reproductive and respiratory syndrome virus",
         "Porcine respiratory and reproductive syndrome virus",
@@ -49533,6 +50444,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Thioacetamide",
         "metabolic acidosis",
@@ -49583,6 +50495,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "canine mammary tumors",
         "Mammary Glands, Human",
@@ -49636,6 +50549,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Brucellosis",
         "Brucella Vaccine",
@@ -49686,6 +50600,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "African Swine Fever",
         "African Swine Fever Virus",
@@ -49734,6 +50649,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "African Swine Fever Virus",
         "African Swine Fever",
@@ -49787,6 +50703,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "neuronal reprogramming",
         "ASCL1",
@@ -49840,6 +50757,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "PAK4",
         "SIRT6",
@@ -49891,6 +50809,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "DNA methylation sequencing",
         "Group 4 medulloblastoma",
@@ -49944,6 +50863,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "evogliptin",
         "Cannabis sativa",
@@ -49993,6 +50913,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "PAK4",
         "p21-Activated Kinases",
@@ -50044,6 +50965,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "cannabidiol",
         "polycaprolactone nanofibers",
@@ -50097,6 +51019,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "total synthesis",
         "sentinel lymph node",
@@ -50150,6 +51073,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "children and adolescents",
         "type 1 diabetes",
@@ -50200,6 +51124,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "potassium-competitive acid blocker",
         "proton pump inhibitors",
@@ -50247,6 +51172,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "treatment uptake",
         "HCV elimination",
@@ -50294,6 +51220,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Kelch-Like ECH-Associated Protein 1",
         "NF-E2-Related Factor 2",
@@ -50348,6 +51275,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Kupffer Cells",
         "liver inflammation",
@@ -50397,6 +51325,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "YKL-40",
         "Chitinase-3-Like Protein 1",
@@ -50452,6 +51381,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "childhood cancer survivors",
         "St. Jude Lifetime Cohort",
@@ -50559,6 +51489,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "TNF-alpha inhibitors",
         "single nucleotide polymorphisms",
@@ -50612,6 +51543,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "α-glucosidase inhibition",
         "natural product isolation",
@@ -50665,6 +51597,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "YKL-40",
         "cytokine-induced killer cells",
@@ -50718,6 +51651,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충북대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "CIAPIN1",
         "PANoptosis",
@@ -50812,6 +51746,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "교수",
+      "company": "",
       "keywords": [
         "autism spectrum disorder",
         "Synapses",
@@ -50866,6 +51801,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Histone-Lysine N-Methyltransferase",
         "H3K4 methylation",
@@ -50919,6 +51855,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "South Atlantic Convergence Zone",
         "wave-mean flow interaction",
@@ -50967,6 +51904,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "교수",
+      "company": "",
       "keywords": [
         "VEGF trap",
         "bimanual interaction",
@@ -51021,6 +51959,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "de novo protein design",
         "chemically induced dimerization",
@@ -51074,6 +52013,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "KAIST 생명과학과",
@@ -51106,6 +52046,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Glioblastoma",
         "antitumor immunity",
@@ -51159,6 +52100,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "ribosome collisions",
         "ZAK",
@@ -51209,6 +52151,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Bilirubin",
         "CpG adjuvant",
@@ -51263,6 +52206,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "synaptic pruning",
         "Astrocytes",
@@ -51318,6 +52262,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "transcription activator-like effectors",
         "mitochondrial DNA editing",
@@ -51367,6 +52312,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Fear",
         "lateral amygdala",
@@ -51421,6 +52367,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "교수",
+      "company": "",
       "keywords": [
         "thymic epithelial tumors",
         "tumor evolution",
@@ -51475,6 +52422,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "SYNGAP1",
         "Receptors, AMPA",
@@ -51528,6 +52476,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산과학기술원",
       "position": "교수",
+      "company": "",
       "keywords": [
         "autonomous mobility-on-demand",
         "fleet rebalancing",
@@ -51601,6 +52550,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산과학기술원",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "vanB gene",
         "PNA-FISH",
@@ -51712,6 +52662,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산과학기술원",
       "position": "교수",
+      "company": "",
       "keywords": [
         "systems immunology",
         "autofluorescence correction",
@@ -51763,6 +52714,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산과학기술원",
       "position": "교수",
+      "company": "",
       "keywords": [
         "photoluminescence quantum yield",
         "quantum dots",
@@ -51814,6 +52766,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산과학기술원",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "store-operated calcium entry",
         "ORAI1 Protein",
@@ -51867,6 +52820,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산과학기술원",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Blood Glucose Self-Monitoring",
         "broaden-and-build theory",
@@ -51917,6 +52871,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산과학기술원",
       "position": "교수",
+      "company": "",
       "keywords": [
         "lab-on-a-disc",
         "liquid biopsy",
@@ -52029,6 +52984,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산과학기술원",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "two-dimensional infrared spectroscopy",
         "hydrogen bond dynamics",
@@ -52081,6 +53037,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산과학기술원",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "membrane protein folding",
         "single-molecule force spectroscopy",
@@ -52133,6 +53090,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산과학기술원",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "BIO",
@@ -52213,6 +53171,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "tetanus neurotoxin",
         "Tetanus Toxin",
@@ -52261,6 +53220,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울시립대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "oncogene-induced senescence",
         "senescence-associated heterochromatin foci",
@@ -52314,6 +53274,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울시립대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Polyubiquitin",
         "Ubiquitin",
@@ -52368,6 +53329,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울시립대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "HIV Infections",
         "HIV-1",
@@ -52468,6 +53430,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울시립대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "gintonin",
         "neurogranin",
@@ -52519,6 +53482,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천향대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Forensic Anthropology",
         "febrile seizures",
@@ -52568,6 +53532,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천향대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "pectineus muscle",
         "internal pudendal artery",
@@ -52615,6 +53580,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천향대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "genome editing",
         "guide RNA",
@@ -52667,6 +53633,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천향대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Cadaver",
         "elastic fibers",
@@ -52715,6 +53682,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천향대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "KRAS",
         "Transcriptional Activation",
@@ -52768,6 +53736,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천향대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Adipocytes, Brown",
         "RAP80",
@@ -52821,6 +53790,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천향대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "extensively drug-resistant tuberculosis",
         "Mycobacterium tuberculosis",
@@ -52870,6 +53840,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천향대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "malignant mesothelioma",
         "Mesothelioma",
@@ -52923,6 +53894,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천향대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "ADAMTS1",
         "metalloproteinase activation",
@@ -52976,6 +53948,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천향대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "blood glucose prediction",
         "gated recurrent unit",
@@ -53025,6 +53998,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Osteoarthritis",
         "polymethoxyflavonoids",
@@ -53075,6 +54049,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Burkitt Lymphoma",
         "Ramos cells",
@@ -53127,6 +54102,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Orostachys japonicus",
         "adoptive T cell therapy",
@@ -53180,6 +54156,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Streptolysins",
         "cholesterol-dependent cytolysins",
@@ -53230,6 +54207,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "혁신신약ㆍ제약공학부",
@@ -53263,6 +54241,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Intracranial Aneurysm",
         "aneurysm occlusion",
@@ -53313,6 +54292,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "entrectinib",
         "dissolution rate",
@@ -53362,6 +54342,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "혁신신약ㆍ제약공학부",
@@ -53394,6 +54375,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "NFATc3",
         "Receptor, trkA",
@@ -53441,6 +54423,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학과",
@@ -53474,6 +54457,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Mycobacterium tuberculosis",
         "Antitubercular Agents",
@@ -53523,6 +54507,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학과",
@@ -53555,6 +54540,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "mushroom tyrosinase",
         "tyrosinase inhibitors",
@@ -53605,6 +54591,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "selumetinib",
         "trametinib",
@@ -53657,6 +54644,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "total synthesis",
         "Depsipeptides",
@@ -53704,6 +54692,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Corynebacterium ammoniagenes",
         "Corynebacterium",
@@ -53751,6 +54740,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "CCNB2",
         "Oocytes",
@@ -53801,6 +54791,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "pork supply chain",
         "Salmonella Infantis",
@@ -53854,6 +54845,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인제대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "endothelial inflammation",
         "endothelial mechanotransduction",
@@ -53906,6 +54898,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "계명대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "PROTACs",
         "GLP",
@@ -53959,6 +54952,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "계명대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "bacterial taxonomy",
         "novel bacterial species",
@@ -54008,6 +55002,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "계명대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "thymoquinone",
         "STAT3 signaling",
@@ -54061,6 +55056,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "계명대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "postmenopausal status",
         "individual risk assessment",
@@ -54108,6 +55104,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "계명대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Cytochrome P-450 CYP2C9",
         "Pharmacogenomic Variants",
@@ -54158,6 +55155,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "계명대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Histone Deacetylase 6",
         "alpha-tubulin acetylation",
@@ -54211,6 +55209,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "계명대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "child and adolescent psychiatry",
         "adolescent depression",
@@ -54258,6 +55257,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "계명대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "poly(2-oxazoline)",
         "polymeric micelles",
@@ -54311,6 +55311,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "계명대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Respiration Disorders",
         "respiratory dysfunction",
@@ -54358,6 +55359,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "영남대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "multimarker panels",
         "protein biomarkers",
@@ -54411,6 +55413,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전남대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "onion",
         "I locus",
@@ -54458,6 +55461,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전남대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "전임교수",
@@ -54490,6 +55494,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전남대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "cardiomyocyte contractility",
         "cardiomyocyte maturation",
@@ -54543,6 +55548,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전남대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "GIGANTEA",
         "photoperiodic flowering",
@@ -54639,6 +55645,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전남대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "ATM kinase",
         "ataxia telangiectasia",
@@ -54689,6 +55696,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "책임연구원",
+      "company": "",
       "keywords": [
         "polyhydroxyalkanoates",
         "biodegradable plastics",
@@ -54737,6 +55745,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Respiratory Distress Syndrome, Newborn",
         "Betamethasone",
@@ -54785,6 +55794,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "강원대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Fructans",
         "levan",
@@ -54832,6 +55842,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "강원대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Phyllostachys edulis",
         "cork",
@@ -54881,6 +55892,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "차의과학대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "생명과학대학",
@@ -54914,6 +55926,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "estimated glomerular filtration rate",
         "chronic kidney disease",
@@ -54966,6 +55979,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "아주대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "total synthesis",
         "stereoselective synthesis",
@@ -55017,6 +56031,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "아주대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "ventrolateral preoptic nucleus",
         "hypnotic effects",
@@ -55125,6 +56140,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "아주대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "IL-31",
         "bakuchiol",
@@ -55178,6 +56194,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Oryza rufipogon",
         "Quantitative Trait Loci",
@@ -55228,6 +56245,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "floral organ abscission",
         "INFLORESCENCE DEFICIENT IN ABSCISSION",
@@ -55278,6 +56296,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "농업생명과학대학",
@@ -55310,6 +56329,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "audit fees",
         "corporate governance",
@@ -55360,6 +56380,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "seedling growth",
         "litterfall",
@@ -55408,6 +56429,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "leaf spot",
         "new fungal species",
@@ -55457,6 +56479,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "freshness index",
         "bacterial density",
@@ -55509,6 +56532,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Escherichia coli O157:H7",
         "edible insects",
@@ -55556,6 +56580,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Pyrethrins",
         "calcium homeostasis",
@@ -55608,6 +56633,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Hanwoo cattle",
         "carcass weight",
@@ -55661,6 +56687,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Miridae",
         "Heteroptera",
@@ -55711,6 +56738,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Erwinia pyrifoliae",
         "Ewingella americana",
@@ -55764,6 +56792,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Collembola",
         "Soil Pollutants",
@@ -55811,6 +56840,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "maize",
         "Zea mays",
@@ -55863,6 +56893,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "allergen immunotherapy",
         "allergic rhinitis",
@@ -55916,6 +56947,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "herbicide metabolism",
         "Echinochloa",
@@ -55967,6 +56999,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "facial index",
         "cone-beam computed tomography",
@@ -56014,6 +57047,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Listeria monocytogenes",
         "microbial source tracking",
@@ -56066,6 +57100,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Corynebacterium glutamicum",
         "Metabolic Engineering",
@@ -56116,6 +57151,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "broiler houses",
         "building energy simulation",
@@ -56163,6 +57199,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "papillary thyroid carcinoma",
         "Proto-Oncogene Proteins c-ret",
@@ -56213,6 +57250,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "canine atopic dermatitis",
         "geometric mean",
@@ -56260,6 +57298,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "농업생명과학대학",
@@ -56293,6 +57332,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "partial equilibrium model",
         "agricultural policy",
@@ -56341,6 +57381,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Cicatrix, Hypertrophic",
         "familial hypokalemic periodic paralysis",
@@ -56388,6 +57429,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경성대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "collagenase inhibition",
         "elastase inhibition",
@@ -56436,6 +57478,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경성대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "lanthipeptides",
         "sodium naphthalenide",
@@ -56490,6 +57533,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "recreational boats",
         "adult height prediction",
@@ -56542,6 +57586,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "non-alcoholic fatty liver disease",
         "pancreatic fat fraction",
@@ -56592,6 +57637,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "metal-organic frameworks",
         "Immunoassay",
@@ -56646,6 +57692,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "structural color",
         "ferroelectric polymers",
@@ -56700,6 +57747,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "metal matrix nanocomposites",
         "hydrodeoxygenation",
@@ -56754,6 +57802,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "vascular niche",
         "interstitial fluid flow",
@@ -56808,6 +57857,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "butyric acid production",
         "Clostridium tyrobutyricum",
@@ -56861,6 +57911,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Immunogenic Cell Death",
         "Phagocytosis",
@@ -56916,6 +57967,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Huntington Disease",
         "Huntington's disease",
@@ -56970,6 +58022,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Photochemotherapy",
         "aggregation-induced emission",
@@ -57046,6 +58099,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Polyethyleneimine",
         "Deoxycholic Acid",
@@ -57100,6 +58154,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "ensemble model output statistics",
         "probabilistic forecasting",
@@ -57151,6 +58206,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "deep eutectic solvents",
         "lignin valorization",
@@ -57204,6 +58260,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "resistive random access memory",
         "interfacial compatibility",
@@ -57256,6 +58313,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Biosensing Techniques",
         "Alzheimer's disease diagnosis",
@@ -57310,6 +58368,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Nrf2 activators",
         "monoamine oxidase B inhibitors",
@@ -57364,6 +58423,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "organotrifluoroborates",
         "Cannabis",
@@ -57416,6 +58476,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "endogenous gibberellins",
         "long-term yield trends",
@@ -57465,6 +58526,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "structure elucidation",
         "Streptomyces",
@@ -57519,6 +58581,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "5-HT7 receptor",
         "Receptors, Serotonin",
@@ -57573,6 +58636,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Collaborative Cross Mice",
         "gut microbiota",
@@ -57661,6 +58725,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "terahertz metamaterials",
         "Biosensing Techniques",
@@ -57715,6 +58780,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "brain-computer interface",
         "information transfer rate",
@@ -57766,6 +58832,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "non-apoptotic cell death",
         "biopharmaceutical delivery",
@@ -57820,6 +58887,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "3D pose estimation",
         "HoloLens 2",
@@ -57873,6 +58941,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "TMEM16A",
         "mechanosensitive ion channels",
@@ -57927,6 +58996,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "flexible electronics",
         "Wearable Electronic Devices",
@@ -57981,6 +59051,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "hyperspectral imaging",
         "quantitative structure-retention relationship",
@@ -58033,6 +59104,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "TREK-1",
         "TWIK-1",
@@ -58087,6 +59159,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "hexavalent chromium reduction",
         "continuous flow catalysis",
@@ -58141,6 +59214,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "tau aggregation",
         "tau Proteins",
@@ -58195,6 +59269,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "basolateral amygdala",
         "Electroencephalography",
@@ -58249,6 +59324,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Glycerophospholipids",
         "PP242",
@@ -58302,6 +59378,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "photosensitive polyimide",
         "fiber Bragg grating",
@@ -58356,6 +59433,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "functional electrical stimulation",
         "Ankle Joint",
@@ -58410,6 +59488,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "femtosecond laser ablation",
         "hydroxyapatite coating",
@@ -58464,6 +59543,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "surface-enhanced Raman scattering",
         "Spectrum Analysis, Raman",
@@ -58518,6 +59598,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "transient electronics",
         "biodegradable electronics",
@@ -58591,6 +59672,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "retinal prosthesis",
         "retinal ganglion cells",
@@ -58646,6 +59728,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Synthetic Biology",
         "biofoundries",
@@ -58701,6 +59784,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "cataract surgery",
         "dry eye",
@@ -58755,6 +59839,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "ferroptosis",
         "ferroptosis resistance",
@@ -58808,6 +59893,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "chronic obstructive pulmonary disease",
         "airway inflammation",
@@ -58862,6 +59948,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "acute lung injury",
         "alveolar stem cells",
@@ -58916,6 +60003,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Escherichia coli",
         "RNA Stability",
@@ -58970,6 +60058,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "novel bacterial species",
         "Bacterial Typing Techniques",
@@ -59022,6 +60111,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "bacterial volatile compounds",
         "Rhizosphere",
@@ -59075,6 +60165,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "RNA activation",
         "small activating RNA",
@@ -59129,6 +60220,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Ipomoea batatas",
         "Plants, Genetically Modified",
@@ -59183,6 +60275,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "photoacoustic imaging",
         "endometriosis",
@@ -59237,6 +60330,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Streptomyces",
         "chrysin derivatives",
@@ -59291,6 +60385,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Methylococcus capsulatus",
         "biofoundries",
@@ -59345,6 +60440,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Erwinia pyrifoliae",
         "Cucumis melo var. makuwa",
@@ -59398,6 +60494,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "flavonoids",
         "chemical markers",
@@ -59452,6 +60549,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "surface-enhanced Raman scattering",
         "Biosensing Techniques",
@@ -59507,6 +60605,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Celecoxib",
         "gefitinib",
@@ -59561,6 +60660,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "retinal gene therapy",
         "viral transduction efficiency",
@@ -59615,6 +60715,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "novel bacterial species",
         "Bacterial Typing Techniques",
@@ -59669,6 +60770,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Streptomyces",
         "type III polyketide synthase",
@@ -59723,6 +60825,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "peroxiredoxin 2",
         "Peroxiredoxins",
@@ -59777,6 +60880,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Biosensing Techniques",
         "Single-Domain Antibodies",
@@ -59831,6 +60935,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Diglycerides",
         "NDRG2",
@@ -59886,6 +60991,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Cytophagaceae",
         "RNA Viruses",
@@ -59940,6 +61046,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "RhoGDI1",
         "NKp30",
@@ -59994,6 +61101,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "brown adipocyte differentiation",
         "Adipocytes, Brown",
@@ -60048,6 +61156,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Nucleic Acid Amplification Techniques",
         "Biosensing Techniques",
@@ -60102,6 +61211,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Genome, Viral",
         "Plant Viruses",
@@ -60156,6 +61266,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Macaca fascicularis",
         "nonhuman primate model",
@@ -60210,6 +61321,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "fishing culture",
         "11β-hydroxysteroid dehydrogenase type 1",
@@ -60263,6 +61375,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "fluorescence polarization",
         "Nucleic Acid Amplification Techniques",
@@ -60317,6 +61430,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "terminal ileum",
         "pediatric inflammatory bowel disease",
@@ -60371,6 +61485,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "In Vitro Oocyte Maturation Techniques",
         "blastocyst development",
@@ -60426,6 +61541,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "MoS2/WS2 heterostructures",
         "novel bacterial species",
@@ -60479,6 +61595,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Base Composition",
         "Bacterial Typing Techniques",
@@ -60531,6 +61648,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "exoS",
         "NCI-H292 cells",
@@ -60585,6 +61703,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "African Swine Fever Virus",
         "African Swine Fever",
@@ -60639,6 +61758,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "allostatic load",
         "multi-ethnic Asian population",
@@ -60693,6 +61813,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "protein tyrosine phosphatase",
         "Models, Molecular",
@@ -60747,6 +61868,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "potato",
         "Phytophthora infestans",
@@ -60801,6 +61923,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Metabolic Engineering",
         "Escherichia coli",
@@ -60853,6 +61976,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Histone-Lysine N-Methyltransferase",
         "histone methyltransferase",
@@ -60906,6 +62030,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "methyl jasmonate",
         "Lavandula",
@@ -60960,6 +62085,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "draft genome sequence",
         "Genome, Bacterial",
@@ -61014,6 +62140,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Gene Expression Regulation, Plant",
         "Plant Proteins",
@@ -61067,6 +62194,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "land snails",
         "novel bacterial species",
@@ -61119,6 +62247,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "pluripotent stem cells",
         "Intestinal Mucosa",
@@ -61173,6 +62302,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "NKp30",
         "Killer Cells, Natural",
@@ -61227,6 +62357,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Thermococcus onnurineus",
         "Cas10",
@@ -61280,6 +62411,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Ampelopsis brevipedunculata",
         "Xanthomonas campestris pv. campestris",
@@ -61334,6 +62466,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Hypoxia-Inducible Factor 1, alpha Subunit",
         "mitochondrial respiration",
@@ -61388,6 +62521,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "protectin DX",
         "resolvin D5",
@@ -61442,6 +62576,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Mannosephosphates",
         "mannose 6-phosphate receptor",
@@ -61495,6 +62630,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Testicular Hormones",
         "spermiogenesis",
@@ -61549,6 +62685,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "cynomolgus macaques",
         "nonhuman primate model",
@@ -61602,6 +62739,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "plant regeneration",
         "FTIR spectroscopy",
@@ -61657,6 +62795,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "stroke rehabilitation",
         "activities of daily living",
@@ -61712,6 +62851,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Kidney Tubules, Proximal",
         "HK-2 cells",
@@ -61766,6 +62906,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "passenger thermal comfort",
         "mean radiant temperature",
@@ -61820,6 +62961,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국생명공학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "tau Proteins",
         "short neuropeptide F",
@@ -61874,6 +63016,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "disease resistance screening",
         "tomato late blight",
@@ -61927,6 +63070,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "structure elucidation",
         "natural product isolation",
@@ -61981,6 +63125,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "11-beta-Hydroxysteroid Dehydrogenase Type 1",
         "11β-HSD1 inhibitors",
@@ -62035,6 +63180,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Oxadiazoles",
         "Epilepsies, Myoclonic",
@@ -62089,6 +63235,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Oryza",
         "Plant Proteins",
@@ -62142,6 +63289,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Plant Diseases",
         "Erwinia amylovora",
@@ -62195,6 +63343,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "ZnO nanowires",
         "tat Gene Products, Human Immunodeficiency Virus",
@@ -62249,6 +63398,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "metabolic stability",
         "Antiviral Agents",
@@ -62302,6 +63452,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "osteoclastogenesis",
         "Osteoclasts",
@@ -62357,6 +63508,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Lemna paucicostata",
         "algicides",
@@ -62460,6 +63612,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Antiviral Agents",
         "COVID-19 Drug Treatment",
@@ -62514,6 +63667,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "R-loops",
         "integration site selection",
@@ -62568,6 +63722,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "rhinovirus",
         "Cholinesterase Reactivators",
@@ -62617,6 +63772,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "herbicidal activity",
         "bioherbicides",
@@ -62667,6 +63823,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "neurosteroids",
         "anxiety-like behavior",
@@ -62721,6 +63878,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "ambient backscatter communication",
         "van der Waals materials",
@@ -62772,6 +63930,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "on-site evaluation",
         "Anaplastic Lymphoma Kinase",
@@ -62824,6 +63983,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Antiviral Agents",
         "COVID-19 Drug Treatment",
@@ -62878,6 +64038,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Photolon",
         "Endoplasmic Reticulum Stress",
@@ -62931,6 +64092,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "herbicidal activity",
         "Tamarix aphylla",
@@ -62978,6 +64140,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "tobacco",
         "transgenic plants",
@@ -63022,6 +64185,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Retroviruses, Simian",
         "bromodomain",
@@ -63075,6 +64239,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "SARS-CoV-2",
         "FcγRIIB",
@@ -63130,6 +64295,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Acupuncture Therapy",
         "Hot Flashes",
@@ -63177,6 +64343,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "cryptotanshinone",
         "DU145 cells",
@@ -63231,6 +64398,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Brevibacillus brevis",
         "Plant Diseases",
@@ -63283,6 +64451,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "asymmetric synthesis",
         "Corynebacterium glutamicum",
@@ -63333,6 +64502,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "11-beta-Hydroxysteroid Dehydrogenase Type 1",
         "11β-HSD1 inhibitors",
@@ -63387,6 +64557,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "DNA-encoded libraries",
         "fibroblast co-culture",
@@ -63441,6 +64612,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Lignin",
         "low molecular weight lignin",
@@ -63490,6 +64662,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Micafungin",
         "antiviral activity",
@@ -63543,6 +64716,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "ensitrelvir",
         "nirmatrelvir",
@@ -63595,6 +64769,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Plant Diseases",
         "tomato late blight",
@@ -63645,6 +64820,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "aspartate aminotransferase to platelet ratio index",
         "MetALD",
@@ -63699,6 +64875,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "document labeling",
         "intracellular delivery",
@@ -63753,6 +64930,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "metastatic melanoma",
         "mitochondrial proteome",
@@ -63806,6 +64984,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Metabolic Engineering",
         "Directed Molecular Evolution",
@@ -63854,6 +65033,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Antiviral Agents",
         "human rhinovirus",
@@ -63906,6 +65086,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국화학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Hepatitis B virus",
         "DNA, Circular",
@@ -63957,6 +65138,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "radiomics",
         "connectome",
@@ -64011,6 +65193,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Lymphatic Vessels",
         "lymphangiogenesis",
@@ -64065,6 +65248,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Astrocytes",
         "monoamine oxidase B",
@@ -64119,6 +65303,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Thermogenesis",
         "beta3-adrenergic receptor",
@@ -64173,6 +65358,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "multisensory integration",
         "Visual Perception",
@@ -64227,6 +65413,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "micro-LEDs",
         "cancer stem-like cells",
@@ -64281,6 +65468,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Ferrets",
         "ferret model",
@@ -64335,6 +65523,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "multiple scattering",
         "deep tissue imaging",
@@ -64390,6 +65579,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "protospacer adjacent motif",
         "RNA, Guide, Kinetoplastida",
@@ -64444,6 +65634,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "DNA Repair",
         "mismatch repair deficiency",
@@ -64499,6 +65690,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "liquid metal electrodes",
         "Wearable Electronic Devices",
@@ -64553,6 +65745,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "circadian rhythm",
         "quasi-steady-state approximation",
@@ -64607,6 +65800,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "mediodorsal thalamus",
         "thalamocortical activity",
@@ -64661,6 +65855,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Reward",
         "Prefrontal Cortex",
@@ -64715,6 +65910,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "RNF43",
         "ZNRF3",
@@ -64768,6 +65964,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -64802,6 +65999,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "connectome",
         "structural connectome",
@@ -64854,6 +66052,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "stretchable electronics",
         "self-healing polymers",
@@ -64907,6 +66106,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Xenopus laevis",
         "PARP inhibitors",
@@ -64961,6 +66161,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "spontaneous thought",
         "self-relevance",
@@ -65065,6 +66266,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "tail-anchored proteins",
         "Get3",
@@ -65120,6 +66322,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "PARP inhibitors",
         "Silicon",
@@ -65174,6 +66377,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Genome, Plant",
         "pine wilt disease",
@@ -65228,6 +66432,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Adhesives",
         "tissue adhesion",
@@ -65280,6 +66485,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Facial Expression",
         "Emotions",
@@ -65352,6 +66558,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "DNA, Z-Form",
         "Z-DNA",
@@ -65402,6 +66609,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -65435,6 +66643,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "deep tissue imaging",
         "label-free imaging",
@@ -65489,6 +66698,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Ferrets",
         "Orthomyxoviridae Infections",
@@ -65540,6 +66750,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "sorafenib resistance",
         "glutamine metabolism",
@@ -65595,6 +66806,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "oncolytic virotherapy",
         "Orthopoxvirus",
@@ -65649,6 +66861,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "topologically associating domains",
         "chromosome conformation",
@@ -65703,6 +66916,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "circularly polarized luminescence",
         "random motility",
@@ -65756,6 +66970,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "visual working memory",
         "Visual Perception",
@@ -65806,6 +67021,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "cerebellar granular layer",
         "containerization",
@@ -65859,6 +67075,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "vascular niche",
         "brain endothelial cells",
@@ -65913,6 +67130,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "multiple scattering",
         "deep tissue imaging",
@@ -65963,6 +67181,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Rhodopsin",
         "Syndecan-2",
@@ -66017,6 +67236,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "ATAD5",
         "ATPases Associated with Diverse Cellular Activities",
@@ -66070,6 +67290,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "기초과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "medial prefrontal cortex",
         "Prefrontal Cortex",
@@ -66124,6 +67345,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "phospholipase C-gamma1",
         "Phospholipase C gamma",
@@ -66179,6 +67401,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "ACCORD trial",
         "macroalbuminuria",
@@ -66275,6 +67498,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "array tomography",
         "Lysosomes",
@@ -66328,6 +67552,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "IFT88",
         "myelin homeostasis",
@@ -66383,6 +67608,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "self-differentiation",
         "lateral amygdala",
@@ -66437,6 +67663,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "VAMP3",
         "Astrocytes",
@@ -66490,6 +67717,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "neuroinflammatory diseases",
         "Brain Diseases",
@@ -66544,6 +67772,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Ventral Tegmental Area",
         "Nucleus Accumbens",
@@ -66597,6 +67826,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Synapses",
         "dendritic spines",
@@ -66651,6 +67881,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "CR4",
         "TDP-43 proteinopathy",
@@ -66705,6 +67936,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "VAMP3",
         "Vesicle-Associated Membrane Protein 3",
@@ -66756,6 +67988,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "HCN channels",
         "gustatory receptor neurons",
@@ -66810,6 +68043,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "CLC-ec1",
         "MLC1",
@@ -66863,6 +68097,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Alzheimer Disease",
         "multi-omics integration",
@@ -66916,6 +68151,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "tissue clearing",
         "Smith-Magenis syndrome",
@@ -66970,6 +68206,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "posterior parietal cortex",
         "spine density",
@@ -67022,6 +68259,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Transcranial Direct Current Stimulation",
         "realistic head model",
@@ -67076,6 +68314,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "mTOR inhibition",
         "radioresistance (biology)",
@@ -67129,6 +68368,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "spinal and bulbar muscular atrophy",
         "generative adversarial networks",
@@ -67182,6 +68422,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "resting-state functional connectivity",
         "autism spectrum disorder",
@@ -67289,6 +68530,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "phospholipid scramblase",
         "TMEM16F",
@@ -67342,6 +68584,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "emotion perception",
         "emotional arousal",
@@ -67394,6 +68637,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Dugesia japonica",
         "seizure-like behavior",
@@ -67444,6 +68688,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "NSD3",
         "H3K36 methylation",
@@ -67496,6 +68741,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "semaphorin 3E",
         "PlexinD1",
@@ -67547,6 +68793,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Emx2",
         "Empty Spiracles Homeobox Proteins",
@@ -67599,6 +68846,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "synaptic pruning",
         "corticostriatal synapses",
@@ -67649,6 +68897,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Blood-Brain Barrier",
         "TDP-43 phosphorylation",
@@ -67699,6 +68948,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국뇌연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "IFT88",
         "zwitterionic detergents",
@@ -67753,6 +69003,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "acupuncture",
         "Acupuncture Therapy",
@@ -67808,6 +69059,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Hepatitis B, Chronic",
         "chronic hepatitis B",
@@ -67861,6 +69113,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "glycyrrhizin",
         "simultaneous determination",
@@ -67914,6 +69167,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "glycyrrhizin",
         "traditional Korean medicine",
@@ -67969,6 +69223,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "liver cirrhosis",
         "Laparoscopy",
@@ -68023,6 +69278,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "acupuncture",
         "Acupuncture Therapy",
@@ -68077,6 +69333,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "acupuncture",
         "herbal medicine",
@@ -68128,6 +69385,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "curriculum implementation",
         "primary school teachers",
@@ -68182,6 +69440,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "absolute configuration",
         "Daphnia",
@@ -68235,6 +69494,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "herbal medicine authentication",
         "DNA barcoding",
@@ -68289,6 +69549,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "advanced glycation end products",
         "Diabetic Retinopathy",
@@ -68343,6 +69604,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "traditional Chinese medicine",
         "traditional Korean medicine",
@@ -68395,6 +69657,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "helveticoside",
         "Descurainia sophia",
@@ -68448,6 +69711,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "microdosing",
         "Mutagenicity Tests",
@@ -68502,6 +69766,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "acupuncture",
         "Acupuncture Therapy",
@@ -68554,6 +69819,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Influenza A virus",
         "antiviral activity",
@@ -68606,6 +69872,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Ficus erecta",
         "amyloid-beta aggregation",
@@ -68659,6 +69926,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Acupuncture Points",
         "acupuncture",
@@ -68711,6 +69979,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "convolution sums",
         "electroacupuncture",
@@ -68761,6 +70030,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "UDP-glucuronosyltransferase inhibition",
         "herbal formula",
@@ -68812,6 +70082,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "medically vulnerable populations",
         "medical aid beneficiaries",
@@ -68863,6 +70134,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Hyperuricemia",
         "Plant Extracts",
@@ -68913,6 +70185,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "traditional Korean medicine",
         "acupuncture",
@@ -68963,6 +70236,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Psoralea corylifolia",
         "Psoralea",
@@ -69017,6 +70291,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "swine diseases",
         "Swine",
@@ -69071,6 +70346,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Acupuncture Therapy",
         "Catgut",
@@ -69122,6 +70398,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Amyotrophic Lateral Sclerosis",
         "Acupuncture Points",
@@ -69175,6 +70452,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "acupuncture",
         "Acupuncture Therapy",
@@ -69224,6 +70502,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "herbal medicine authentication",
         "DNA Barcoding, Taxonomic",
@@ -69276,6 +70555,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "electroacupuncture",
         "Quality of Life",
@@ -69326,6 +70606,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Life Style",
         "sleep quality",
@@ -69379,6 +70660,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "acupuncture",
         "herbal medicine",
@@ -69432,6 +70714,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "chloroplast genome",
         "herbal medicine authentication",
@@ -69483,6 +70766,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "blood stasis",
         "traditional Korean medicine",
@@ -69537,6 +70821,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Receptors, Odorant",
         "olfactory receptors",
@@ -69590,6 +70875,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Acupuncture Points",
         "acupuncture",
@@ -69637,6 +70923,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Influenza A virus",
         "antiviral activity",
@@ -69688,6 +70975,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Theilovirus",
         "Theiler's murine encephalomyelitis virus",
@@ -69741,6 +71029,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "osteoclastogenesis",
         "Osteoclasts",
@@ -69795,6 +71084,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "dry eye",
         "MUC4",
@@ -69848,6 +71138,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Inula",
         "Epoxide Hydrolases",
@@ -69900,6 +71191,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Naranjo algorithm",
         "Postpartum Period",
@@ -69951,6 +71243,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Aspilia africana",
         "medicinal plants",
@@ -70002,6 +71295,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "antiviral activity",
         "Influenza A virus",
@@ -70055,6 +71349,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "acupuncture",
         "Acupuncture Therapy",
@@ -70105,6 +71400,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "cold hypersensitivity",
         "Pittsburgh Sleep Quality Index",
@@ -70152,6 +71448,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Programmed Cell Death 1 Receptor",
         "B7-H1 Antigen",
@@ -70206,6 +71503,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "immersion oil",
         "hands and feet",
@@ -70258,6 +71556,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Hyperuricemia",
         "xanthine oxidase inhibition",
@@ -70307,6 +71606,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "military pilots",
         "pilots",
@@ -70356,6 +71656,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "blood stasis",
         "traditional Korean medicine",
@@ -70407,6 +71708,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Osteoarthritis",
         "monoiodoacetate-induced osteoarthritis",
@@ -70458,6 +71760,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Facial Expression",
         "Emotional Freedom Technique",
@@ -70508,6 +71811,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "acupuncture",
         "Acupuncture Therapy",
@@ -70557,6 +71861,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Plant Extracts",
         "ovalbumin-induced asthma",
@@ -70607,6 +71912,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "microwave diathermy",
         "traditional Korean medicine",
@@ -70656,6 +71962,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "C2C12 myoblasts",
         "Muscular Atrophy",
@@ -70710,6 +72017,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "phospholipid metabolism",
         "Dermatitis, Atopic",
@@ -70763,6 +72071,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Ficus erecta",
         "Annona atemoya",
@@ -70817,6 +72126,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국한의학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Th2 cell activation",
         "ovalbumin-induced asthma",
@@ -70868,6 +72178,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "transcranial focused ultrasound",
         "motor imagery",
@@ -70922,6 +72233,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "3D cell culture",
         "cold preservation",
@@ -70976,6 +72288,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "HER2 kinase inhibitors",
         "tucatinib",
@@ -71030,6 +72343,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "marbofloxacin",
         "post-antibiotic effect",
@@ -71083,6 +72397,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "bisphenol A alternatives",
         "Benzhydryl Compounds",
@@ -71137,6 +72452,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "hepatotoxicity",
         "nephrotoxicity",
@@ -71190,6 +72506,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "COVID-19 vaccines",
         "safety pharmacology",
@@ -71243,6 +72560,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "human pluripotent stem cells",
         "drug metabolism",
@@ -71298,6 +72616,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "macitentan",
         "endothelin receptor antagonists",
@@ -71351,6 +72670,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "pesticide residues",
         "Solanum melongena",
@@ -71403,6 +72723,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "new psychoactive substances",
         "Astrocytes",
@@ -71457,6 +72778,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "Muromonab-CD3",
         "No-Observed-Adverse-Effect Level",
@@ -71510,6 +72832,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "nanohole arrays",
         "cytokine detection",
@@ -71564,6 +72887,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "polydopamine",
         "regenerative medicine",
@@ -71619,6 +72943,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "endometriosis-associated ovarian cancer",
         "community awareness",
@@ -71671,6 +72996,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "abuse liability",
         "self-administration",
@@ -71724,6 +73050,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "developmental neurotoxicity",
         "Serum-Glucocorticoid Regulated Kinases",
@@ -71777,6 +73104,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "polyethylene microplastics",
         "Microplastics",
@@ -71831,6 +73159,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "Self Administration",
         "Nucleus Accumbens",
@@ -71879,6 +73208,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "neurotoxicity screening",
         "environmental chemicals",
@@ -71931,6 +73261,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "Vehicle Emissions",
         "diesel exhaust particles",
@@ -71981,6 +73312,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "SARS-CoV-2",
         "COVID-19 vaccines",
@@ -72033,6 +73365,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "Phenylenediamines",
         "healthspan",
@@ -72087,6 +73420,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "Klebsiella pneumoniae",
         "Klebsiella Infections",
@@ -72136,6 +73470,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "Fluorocarbons",
         "GenX",
@@ -72187,6 +73522,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "3,4-dichloroaniline",
         "developmental toxicity",
@@ -72239,6 +73575,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "scutellarein",
         "Belamcanda chinensis",
@@ -72292,6 +73629,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "COVID-19 vaccines",
         "safety pharmacology",
@@ -72340,6 +73678,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "안전성평가연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "Disinfectants",
         "Neuroblastoma",
@@ -72391,6 +73730,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Metabolome",
         "Magnetic Resonance Spectroscopy",
@@ -72446,6 +73786,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "drug-target binding",
         "Dasatinib",
@@ -72501,6 +73842,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "ADDIE model",
         "Thyroid Nodule",
@@ -72555,6 +73897,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "amyloid fibril formation",
         "Amyloid",
@@ -72609,6 +73952,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Ishige okamurae",
         "calcitonin receptor",
@@ -72663,6 +74007,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "olfactory organ",
         "skin morphometry",
@@ -72714,6 +74059,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "SARS-CoV-2",
         "Virus Replication",
@@ -72768,6 +74114,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Proteome",
         "outer membrane vesicles",
@@ -72822,6 +74169,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "normoxia",
         "immune selection",
@@ -72876,6 +74224,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "hypoxia-activated prodrug",
         "Prodrugs",
@@ -72930,6 +74279,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Killer Cells, Natural",
         "carboxymethyllysine",
@@ -72984,6 +74334,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "structure elucidation",
         "chemiresistive gas sensors",
@@ -73037,6 +74388,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "postsynaptic spines",
         "shunting inhibition",
@@ -73090,6 +74442,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "phosphatidylserine synthase",
         "HSF1",
@@ -73144,6 +74497,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "hunger",
         "Sodium-Glucose Transport Proteins",
@@ -73198,6 +74552,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "cell cycle activation",
         "LASSO Cox regression",
@@ -73252,6 +74607,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "UBE2D2",
         "MUL1",
@@ -73304,6 +74660,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "aquaculture disease",
         "Miamiensis avidus",
@@ -73359,6 +74716,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "subclonal architecture",
         "Beijing",
@@ -73413,6 +74771,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "PLK1",
         "polo-box domain",
@@ -73467,6 +74826,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Gastrointestinal Microbiome",
         "gut microbiota",
@@ -73521,6 +74881,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Sargassum horneri",
         "Sargassum",
@@ -73570,6 +74931,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "lipidated peptides",
         "tirzepatide",
@@ -73620,6 +74982,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "optical coherence microscopy",
         "orbital angular momentum",
@@ -73673,6 +75036,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Runx2",
         "Osteoblasts",
@@ -73727,6 +75091,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "permanent magnet synchronous motor",
         "rotor unbalance",
@@ -73781,6 +75146,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Lower Cretaceous",
         "Carettochelyidae",
@@ -73833,6 +75199,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "non-alcoholic fatty liver disease",
         "Fatty Liver",
@@ -73887,6 +75254,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "relaxation dispersion",
         "Intrinsically Disordered Proteins",
@@ -73938,6 +75306,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "hepatic lipotoxicity",
         "Cytochrome P-450 CYP4A",
@@ -73992,6 +75361,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "cryo-electron tomography",
         "riverbank filtration",
@@ -74046,6 +75416,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "pyruvate dehydrogenase complex",
         "single-particle analysis",
@@ -74099,6 +75470,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Rab5a",
         "Rab6A",
@@ -74152,6 +75524,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "alpha-1-acid glycoprotein",
         "Cryptococcus neoformans",
@@ -74206,6 +75579,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Ribosomal Protein S6 Kinases, 90-kDa",
         "RSK2",
@@ -74259,6 +75633,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Gastrointestinal Microbiome",
         "radotinib",
@@ -74312,6 +75687,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Acyl Carrier Protein",
         "RASSF5",
@@ -74364,6 +75740,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Polyunsaturated Alkamides",
         "Benzodioxoles",
@@ -74418,6 +75795,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "fecal microbiota transplantation",
         "Gastrointestinal Microbiome",
@@ -74465,6 +75843,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "biological macromolecules",
         "Alfalfa mosaic virus",
@@ -74518,6 +75897,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "peroxiredoxin 3",
         "senescence reversal",
@@ -74569,6 +75949,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Salmonella typhimurium",
         "Indocyanine Green",
@@ -74621,6 +76002,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Cellular Senescence",
         "Corydalis",
@@ -74675,6 +76057,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "calcitonin receptor",
         "Ishige okamurae",
@@ -74726,6 +76109,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국기초과학지원연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "progoitrin",
         "glucosinolates",
@@ -74777,6 +76161,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "high-fat diet",
         "Diet, High-Fat",
@@ -74831,6 +76216,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Gastrointestinal Microbiome",
         "gut microbiota",
@@ -74884,6 +76270,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "African development",
         "rice flour",
@@ -74934,6 +76321,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Bacillus cereus",
         "Baranyi model",
@@ -74988,6 +76376,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "sarcopenia",
         "Muscular Atrophy",
@@ -75042,6 +76431,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "advanced glycation end products",
         "Receptor for Advanced Glycation End Products",
@@ -75095,6 +76485,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "lipid oxidation",
         "emulsion stability",
@@ -75146,6 +76537,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "omija",
         "doenjang",
@@ -75199,6 +76591,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Polysaccharides",
         "immune enhancement",
@@ -75252,6 +76645,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Baranyi model",
         "cheese",
@@ -75303,6 +76697,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "prebiotic activity",
         "Diet, High-Fat",
@@ -75353,6 +76748,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Asimina triloba",
         "isobavachalcone",
@@ -75406,6 +76802,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Sargassum",
         "Sargassum thunbergii",
@@ -75457,6 +76854,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Aging",
         "sarcopenia",
@@ -75510,6 +76908,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "synthetic colorants",
         "diode array detection",
@@ -75564,6 +76963,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Obesity",
         "Insulin Resistance",
@@ -75618,6 +77018,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "corticosterone-induced depression",
         "Antidepressive Agents",
@@ -75671,6 +77072,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "histone acetyltransferase inhibition",
         "AMPK",
@@ -75725,6 +77127,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Rheology",
         "Emulsions",
@@ -75778,6 +77181,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Polysaccharides",
         "cyclophosphamide-induced immunosuppression",
@@ -75828,6 +77232,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "advanced glycation end products",
         "carboxymethyllysine",
@@ -75881,6 +77286,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "consumer acceptance",
         "consumer liking",
@@ -75931,6 +77337,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Bauhaus",
         "Bacterial Typing Techniques",
@@ -75984,6 +77391,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Hitomebore",
         "Flour",
@@ -76032,6 +77440,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "PPAR alpha",
         "Tomatine",
@@ -76083,6 +77492,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "doxorubicin cardiotoxicity",
         "cardiotoxicity",
@@ -76137,6 +77547,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Chrysanthemum coronarium",
         "Magnolia kobus",
@@ -76191,6 +77602,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Corynebacterium glutamicum",
         "sequence similarity networks",
@@ -76240,6 +77652,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "starch retrogradation",
         "starch crystallinity",
@@ -76292,6 +77705,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Plant Extracts",
         "ovalbumin-induced allergy",
@@ -76340,6 +77754,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "advanced glycation end products",
         "methylglyoxal",
@@ -76390,6 +77805,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "postharvest ripening",
         "avocado",
@@ -76443,6 +77859,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "antidepressant effects",
         "NREM sleep",
@@ -76493,6 +77910,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Potassium Channels, Tandem Pore Domain",
         "two-pore domain potassium channels",
@@ -76544,6 +77962,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "consumer acceptance",
         "sensory properties",
@@ -76593,6 +78012,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "narirutin",
         "Corchorus olitorius",
@@ -76646,6 +78066,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "cardiotoxicity",
         "Araliaceae",
@@ -76697,6 +78118,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "chronobiotics",
         "probiotics",
@@ -76751,6 +78173,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "inflammatory pain",
         "spared nerve injury",
@@ -76802,6 +78225,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Cheonggukjang",
         "fermented soybean paste",
@@ -76852,6 +78276,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "UK Biobank",
         "United Kingdom",
@@ -76905,6 +78330,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Home Environment",
         "youth mentoring",
@@ -76957,6 +78383,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Capsicum annuum",
         "soluble solids",
@@ -77010,6 +78437,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Bacillus cereus",
         "green synthesis",
@@ -77064,6 +78492,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "dispersive solid-phase extraction",
         "mycotoxin co-contamination",
@@ -77114,6 +78543,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "mitochondrial fission factor",
         "mitochondrial cell death",
@@ -77165,6 +78595,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Bifidobacterium animalis",
         "dry cat food",
@@ -77219,6 +78650,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Asimina triloba",
         "Plant Extracts",
@@ -77271,6 +78703,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "volatile compounds",
         "volatile metabolites",
@@ -77322,6 +78755,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "chronic obstructive pulmonary disease",
         "alveolar macrophages",
@@ -77372,6 +78806,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "doxorubicin cardiotoxicity",
         "Receptors, Aryl Hydrocarbon",
@@ -77425,6 +78860,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "NREM sleep",
         "sleep latency",
@@ -77475,6 +78911,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "sequence similarity networks",
         "Markov clustering",
@@ -77525,6 +78962,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "gel hardness",
         "rice flour",
@@ -77575,6 +79013,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "robotic automation",
         "germination rate",
@@ -77623,6 +79062,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "cultured meat",
         "mitotic clonal expansion",
@@ -77674,6 +79114,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "protein solubility",
         "water holding capacity",
@@ -77722,6 +79163,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "gut microbiota",
         "Gastrointestinal Microbiome",
@@ -77773,6 +79215,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "PLCγ1",
         "Phospholipase C gamma",
@@ -77827,6 +79270,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국식품연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "edible insects",
         "Protaetia brevitarsis",
@@ -77876,6 +79320,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "osteolytic bone metastasis",
         "CXCL10",
@@ -77930,6 +79375,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Gastrectomy",
         "Stomach Neoplasms",
@@ -77985,6 +79431,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Proton Therapy",
         "overall survival",
@@ -78039,6 +79486,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "ALK wild-type",
         "non-small cell lung cancer",
@@ -78093,6 +79541,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Hyperthermic Intraperitoneal Chemotherapy",
         "cytoreductive surgery",
@@ -78147,6 +79596,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Diet",
         "cancer risk",
@@ -78202,6 +79652,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "secondary neurulation",
         "Spinal Dysraphism",
@@ -78257,6 +79708,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Thyroid Neoplasms",
         "differentiated thyroid cancer",
@@ -78312,6 +79764,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "endoscopic submucosal dissection",
         "Stomach Neoplasms",
@@ -78366,6 +79819,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Stomach Neoplasms",
         "early gastric cancer",
@@ -78420,6 +79874,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "multiple myeloma",
         "progression-free survival",
@@ -78474,6 +79929,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "germline pathogenic variants",
         "genetic counseling",
@@ -78528,6 +79984,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Gastrectomy",
         "early gastric cancer",
@@ -78581,6 +80038,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "rectal cancer",
         "Rectal Neoplasms",
@@ -78636,6 +80094,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Mammography",
         "Ultrasonography, Mammary",
@@ -78689,6 +80148,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "HER2-expressing solid tumors",
         "safety and tolerability",
@@ -78743,6 +80203,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "brivanib",
         "advanced hepatocellular carcinoma",
@@ -78797,6 +80258,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Pancreaticoduodenectomy",
         "Pancreatic Neoplasms",
@@ -78852,6 +80314,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "congenital vascular malformation",
         "carotid endarterectomy",
@@ -78906,6 +80369,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "living donor liver transplantation",
         "Living Donors",
@@ -78961,6 +80425,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Hyperthermic Intraperitoneal Chemotherapy",
         "recurrent ovarian cancer",
@@ -79015,6 +80480,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Ovarian Neoplasms",
         "Uterine Cervical Neoplasms",
@@ -79069,6 +80535,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "neuromyelitis optica spectrum disorder",
         "Neuromyelitis Optica",
@@ -79124,6 +80591,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "living donor liver transplantation",
         "Liver Transplantation",
@@ -79178,6 +80646,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Colonoscopy",
         "Rectal Neoplasms",
@@ -79232,6 +80701,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Rectal Neoplasms",
         "Colorectal Neoplasms",
@@ -79286,6 +80756,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "sugar-sweetened beverages",
         "beverages",
@@ -79339,6 +80810,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "metastatic castration-resistant prostate cancer",
         "enzalutamide",
@@ -79393,6 +80865,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "neoadjuvant chemoradiotherapy",
         "Rectal Neoplasms",
@@ -79446,6 +80919,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "early gastric cancer",
         "Gastrectomy",
@@ -79500,6 +80974,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Early Detection of Cancer",
         "Mass Screening",
@@ -79552,6 +81027,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "pancreatic ductal adenocarcinoma",
         "fatty acid oxidation inhibition",
@@ -79607,6 +81083,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "pancreatic ductal adenocarcinoma",
         "COVID-19",
@@ -79662,6 +81139,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "lenalidomide",
         "multiple myeloma",
@@ -79716,6 +81194,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "cancer mortality",
         "cancer incidence",
@@ -79766,6 +81245,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Stomach Neoplasms",
         "early gastric cancer",
@@ -79820,6 +81300,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "cancer survivors",
         "mortality risk",
@@ -79870,6 +81351,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Breast Neoplasms",
         "breast cancer",
@@ -79924,6 +81406,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Urinary Bladder Neoplasms",
         "non-muscle-invasive bladder cancer",
@@ -79979,6 +81462,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "pancreatic ductal adenocarcinoma",
         "Proton Therapy",
@@ -80033,6 +81517,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "gene-diet interaction",
         "Sam Shepard",
@@ -80085,6 +81570,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Sasang constitutional medicine",
         "Soeumin",
@@ -80135,6 +81621,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Early Detection of Cancer",
         "cervical cancer screening",
@@ -80183,6 +81670,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Hepatitis C",
         "mother-to-child transmission",
@@ -80234,6 +81722,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Carcinoma, Renal Cell",
         "Kidney Neoplasms",
@@ -80288,6 +81777,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "early gastric cancer",
         "Stomach Neoplasms",
@@ -80340,6 +81830,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "ALK wild-type",
         "EGFR wild-type",
@@ -80394,6 +81885,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Gastrectomy",
         "early gastric cancer",
@@ -80446,6 +81938,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "exocrine pancreatic cancer",
         "Pancreaticoduodenectomy",
@@ -80500,6 +81993,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Neuromyelitis Optica",
         "neuromyelitis optica spectrum disorder",
@@ -80554,6 +82048,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "neuromyelitis optica spectrum disorder",
         "Neuromyelitis Optica",
@@ -80609,6 +82104,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "cancer survivors",
         "Home Care Services",
@@ -80661,6 +82157,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "sarcomatoid urothelial carcinoma",
         "transurethral resection of bladder tumor",
@@ -80715,6 +82212,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Endometrial Neoplasms",
         "endometrioid histology",
@@ -80769,6 +82267,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "disease control rate",
         "progression-free survival",
@@ -80823,6 +82322,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Gastrectomy",
         "early gastric cancer",
@@ -80875,6 +82375,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "pancreatic ductal adenocarcinoma",
         "fatty acid oxidation inhibition",
@@ -80930,6 +82431,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "Paralichthys olivaceus",
         "cholesterol transport",
@@ -80985,6 +82487,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "brain tumor microenvironment",
         "galectin-9",
@@ -81039,6 +82542,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립암센터",
       "position": "",
+      "company": "",
       "keywords": [
         "childhood cancer survivors",
         "cancer survivors",
@@ -81092,6 +82596,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "rare variants",
         "SLC30A8",
@@ -81146,6 +82651,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Manhattan plot",
         "telomere length",
@@ -81197,6 +82703,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "COVID-19",
         "Bacteremia",
@@ -81250,6 +82757,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "intermittent exotropia",
         "strabismus surgery",
@@ -81303,6 +82811,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "VKORC1",
         "Korean population",
@@ -81356,6 +82865,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "HIV-1 latency",
         "HIV-1",
@@ -81409,6 +82919,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Bacillus anthracis",
         "Anthrax",
@@ -81462,6 +82973,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "SARS-CoV-2",
         "COVID-19",
@@ -81516,6 +83028,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Mycobacterium avium subsp. paratuberculosis",
         "pet dogs",
@@ -81567,6 +83080,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Alzheimer's disease",
         "plasma biomarkers",
@@ -81620,6 +83134,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Middle East Respiratory Syndrome Coronavirus",
         "SARS-CoV-2",
@@ -81674,6 +83189,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "resistance training",
         "training duration",
@@ -81721,6 +83237,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Hepatitis C, Chronic",
         "Cost of Illness",
@@ -81773,6 +83290,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "strain sensors",
         "vancomycin resistance",
@@ -81827,6 +83345,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "antimicrobial resistance",
         "Drug Resistance, Bacterial",
@@ -81880,6 +83399,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "airway epithelial cells",
         "childhood asthma",
@@ -81932,6 +83452,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Manhattan plot",
         "telomere length",
@@ -81983,6 +83504,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Antibodies, Viral",
         "COVID-19",
@@ -82030,6 +83552,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Polymorphism, Single Nucleotide",
         "Genetic Loci",
@@ -82083,6 +83606,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Korean Genome and Epidemiology Study",
         "Diet",
@@ -82132,6 +83656,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "childhood obesity",
         "adolescent obesity",
@@ -82184,6 +83709,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "SARS-CoV-2",
         "COVID-19",
@@ -82234,6 +83760,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "lymphoblastoid cell lines",
         "pre-analytical variables",
@@ -82287,6 +83814,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "dissolved gas analysis",
         "water trees",
@@ -82337,6 +83865,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Orthohantavirus",
         "hantavirus",
@@ -82386,6 +83915,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "IncX3 plasmid",
         "blaNDM",
@@ -82437,6 +83967,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "breast cancer survivors",
         "vitamin D",
@@ -82488,6 +84019,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "sexual dimorphism",
         "pleiotropy",
@@ -82539,6 +84071,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "uterine sarcoma",
         "cabozantinib",
@@ -82590,6 +84123,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "sexual dimorphism",
         "pleiotropy",
@@ -82639,6 +84173,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "vancomycin resistance",
         "shotgun sequencing",
@@ -82689,6 +84224,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "DNA, Circular",
         "covalently closed circular DNA",
@@ -82740,6 +84276,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "tau Proteins",
         "Basic Helix-Loop-Helix Leucine Zipper Transcription Factors",
@@ -82792,6 +84329,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "HIV-1",
         "Anti-HIV Agents",
@@ -82846,6 +84384,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "MERS-CoV",
         "TM4SF5",
@@ -82897,6 +84436,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "childhood obesity",
         "COPD severity",
@@ -82947,6 +84487,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Antibodies, Neutralizing",
         "COVID-19",
@@ -82998,6 +84539,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Genome, Plant",
         "Vigna",
@@ -83049,6 +84591,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "SOXF Transcription Factors",
         "pluripotent stem cells",
@@ -83103,6 +84646,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "African Swine Fever",
         "African Swine Fever Virus",
@@ -83154,6 +84698,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Hydrangea serrata",
         "Hydrangea",
@@ -83203,6 +84748,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "human cytomegalovirus",
         "Cytomegalovirus",
@@ -83251,6 +84797,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "vitamin D",
         "Muscular Atrophy",
@@ -83301,6 +84848,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "chromosome-type aberrations",
         "nuclear power plant workers",
@@ -83355,6 +84903,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국립보건연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Glutamate Carboxypeptidase II",
         "Jumonji Domain-Containing Histone Demethylases",
@@ -83403,6 +84952,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국파스퇴르연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "SARS-CoV-2",
         "Antiviral Agents",
@@ -83457,6 +85007,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국파스퇴르연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "polydiacetylene",
         "Thiamine Pyrophosphate",
@@ -83511,6 +85062,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국파스퇴르연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "Trypanosoma cruzi",
         "Leishmania donovani",
@@ -83561,6 +85113,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국파스퇴르연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "Leishmania donovani",
         "Antiprotozoal Agents",
@@ -83612,6 +85165,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국파스퇴르연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "MF59",
         "AS03",
@@ -83666,6 +85220,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국파스퇴르연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "rdxA",
         "cell death pathways",
@@ -83719,6 +85274,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국파스퇴르연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "Lymphocytic Choriomeningitis",
         "Lymphocytic choriomeningitis virus",
@@ -83773,6 +85329,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국파스퇴르연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "Mycoplasma hyopneumoniae",
         "Circoviridae Infections",
@@ -83822,6 +85379,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국파스퇴르연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "SARS-CoV-2",
         "MERS-CoV",
@@ -83873,6 +85431,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국파스퇴르연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "Carcinoma, Hepatocellular",
         "Liver Neoplasms",
@@ -83925,6 +85484,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국파스퇴르연구소",
       "position": "",
+      "company": "",
       "keywords": [
         "Carcinoma, Hepatocellular",
         "tumor spheroids",
@@ -83976,6 +85536,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "ovarian suppression",
         "Tamoxifen",
@@ -84029,6 +85590,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "fine needle aspiration cytology",
         "radiation enteritis",
@@ -84082,6 +85644,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "CIP2A",
         "REDD1",
@@ -84135,6 +85698,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "progression-free survival",
         "overall survival",
@@ -84188,6 +85752,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "CIP2A",
         "PLK1",
@@ -84242,6 +85807,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "CIP2A",
         "PLK1",
@@ -84297,6 +85863,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "glutamatergic system",
         "5-HT1A receptor",
@@ -84348,6 +85915,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "glioblastoma stem cells",
         "Neoplastic Stem Cells",
@@ -84403,6 +85971,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "Actihaemyl",
         "Fuchs endothelial corneal dystrophy",
@@ -84456,6 +86025,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "RIPK1",
         "sonic hedgehog pathway",
@@ -84509,6 +86079,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "BART",
         "conformal prediction",
@@ -84563,6 +86134,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "CIP2A",
         "PLK1",
@@ -84616,6 +86188,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "tankyrase inhibitors",
         "radiosensitization",
@@ -84670,6 +86243,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "SIRT7",
         "chorioamnionitis",
@@ -84723,6 +86297,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "cysteine deprivation",
         "REDD1",
@@ -84772,6 +86347,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "radiosensitizers",
         "CD96",
@@ -84825,6 +86401,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "hormone receptor-positive breast cancer",
         "HER2-positive breast cancer",
@@ -84878,6 +86455,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "hormone receptor-positive breast cancer",
         "Breast Neoplasms",
@@ -84928,6 +86506,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "Bacteroides thetaiotaomicron",
         "Synthetic Biology",
@@ -84981,6 +86560,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "surfactant protein D",
         "small animal radiation research platform",
@@ -85032,6 +86612,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "needle electrode",
         "wearable stimulation device",
@@ -85086,6 +86667,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "podophyllotoxin derivatives",
         "Radiation-Sensitizing Agents",
@@ -85137,6 +86719,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "self-assembling peptides",
         "peptide self-assembly",
@@ -85191,6 +86774,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "ELK3",
         "epithelial-mesenchymal plasticity",
@@ -85243,6 +86827,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "1-Alkyl-2-acetylglycerophosphocholine Esterase",
         "Endothelial Cells",
@@ -85297,6 +86882,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "Audiometry, Pure-Tone",
         "congenital aural atresia",
@@ -85345,6 +86931,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "Bcl-w",
         "Radiation Tolerance",
@@ -85396,6 +86983,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "Esophageal Squamous Cell Carcinoma",
         "Radiation Tolerance",
@@ -85449,6 +87037,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국원자력의학원",
       "position": "",
+      "company": "",
       "keywords": [
         "Bcl-w",
         "Radiation Tolerance",
@@ -85500,6 +87089,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "UAV imagery",
         "phase resolved optical emission spectroscopy",
@@ -85550,6 +87140,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "optical coherence tomography angiography",
         "3D cell models",
@@ -85604,6 +87195,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "isotope dilution",
         "certified reference materials",
@@ -85654,6 +87246,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "polystyrene microspheres",
         "bright-field microscopy",
@@ -85708,6 +87301,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "droplet digital PCR",
         "Rift Valley Fever",
@@ -85762,6 +87356,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "UFM1",
         "UBA5",
@@ -85816,6 +87411,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "optical coherence tomography angiography",
         "oil-in-water emulsions",
@@ -85868,6 +87464,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "run-length encoding",
         "entropy coding",
@@ -85915,6 +87512,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "common ion effect",
         "scanning acoustic microscopy",
@@ -85969,6 +87567,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "isotope dilution",
         "quantitative NMR",
@@ -86022,6 +87621,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "certified reference materials",
         "isotope dilution",
@@ -86072,6 +87672,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "gold nanodiscs",
         "photoacoustic imaging",
@@ -86126,6 +87727,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "measurement traceability",
         "particle counting",
@@ -86178,6 +87780,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "single-molecule counting",
         "fluorescent oligonucleotide probes",
@@ -86232,6 +87835,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "digital PCR",
         "Reference Standards",
@@ -86287,6 +87891,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "Forensic Genetics",
         "KLF14",
@@ -86339,6 +87944,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국표준과학연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "genetic profiling",
         "Inventions",
@@ -86390,6 +87996,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "kefir",
         "financial development",
@@ -86445,6 +88052,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "CT-P13",
         "subcutaneous infliximab",
@@ -86500,6 +88108,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "Biosimilar Pharmaceuticals",
         "Immunoglobulin G4-Related Disease",
@@ -86551,6 +88160,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "Leukotriene C4",
         "Inula japonica",
@@ -86599,6 +88209,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "subcutaneous infliximab",
         "infliximab",
@@ -86649,6 +88260,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "Biosimilar Pharmaceuticals",
         "biosimilars",
@@ -86698,6 +88310,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "Biosimilar Pharmaceuticals",
         "infliximab",
@@ -86749,6 +88362,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "early-stage epithelial ovarian cancer",
         "post-infectious neurological complications",
@@ -86800,6 +88414,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "Biosimilar Pharmaceuticals",
         "rituximab biosimilar",
@@ -86849,6 +88464,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "infliximab",
         "budget impact",
@@ -86900,6 +88516,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "monomethyl auristatin E",
         "TROP2",
@@ -86951,6 +88568,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "budget impact",
         "infliximab",
@@ -87001,6 +88619,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "Biosimilar Pharmaceuticals",
         "Cricetulus",
@@ -87048,6 +88667,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "Biosimilar Pharmaceuticals",
         "biosimilars",
@@ -87097,6 +88717,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "CT-P13",
         "subcutaneous infliximab",
@@ -87144,6 +88765,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "셀트리온",
       "position": "",
+      "company": "",
       "keywords": [
         "Biosimilar Pharmaceuticals",
         "plaque psoriasis",
@@ -87195,6 +88817,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "pancreatic tail",
         "pancreatic tail cancer",
@@ -87249,6 +88872,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "knee adduction moment",
         "gait biomechanics",
@@ -87301,6 +88925,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "nursing home residents",
         "ego integrity",
@@ -87351,6 +88976,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "esomeprazole",
         "radioresistance (biology)",
@@ -87404,6 +89030,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "synthetic lethality",
         "oral bioavailability",
@@ -87454,6 +89081,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "melanoma brain metastases",
         "IL-2 receptor alpha",
@@ -87505,6 +89133,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "Uvula",
         "prostate-specific antigen testing",
@@ -87554,6 +89183,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "4β-hydroxycholesterol",
         "branched-chain amino acid metabolism",
@@ -87604,6 +89234,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "H3K27me3",
         "Polycomb Repressive Complex 2",
@@ -87653,6 +89284,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "LRS3",
         "extractive question answering",
@@ -87707,6 +89339,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "USP8",
         "substrate-binding domain",
@@ -87757,6 +89390,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "domain randomization",
         "CpG adjuvant",
@@ -87808,6 +89442,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "esomeprazole magnesium",
         "plasticizer concentration",
@@ -87858,6 +89493,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "metastatic solid tumors",
         "cobimetinib",
@@ -87908,6 +89544,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "Peptoids",
         "HER2 inhibitors",
@@ -87960,6 +89597,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "PLK1",
         "PLK1 inhibitors",
@@ -88012,6 +89650,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "brain-penetrating drugs",
         "hypofractionated stereotactic radiosurgery",
@@ -88062,6 +89701,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "CYR61",
         "Receptors, Fibroblast Growth Factor",
@@ -88112,6 +89752,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "breast tumor microenvironment",
         "CDH6",
@@ -88162,6 +89803,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한미약품",
       "position": "",
+      "company": "",
       "keywords": [
         "metastatic solid tumors",
         "Erigeron",
@@ -88212,6 +89854,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대웅제약",
       "position": "",
+      "company": "",
       "keywords": [
         "MIG6",
         "MATR3",
@@ -88264,6 +89907,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대웅제약",
       "position": "",
+      "company": "",
       "keywords": [
         "Cronobacter sakazakii",
         "dairy products",
@@ -88312,6 +89956,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대웅제약",
       "position": "",
+      "company": "",
       "keywords": [
         "Niclosamide",
         "camostat",
@@ -88363,6 +90008,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대웅제약",
       "position": "",
+      "company": "",
       "keywords": [
         "arginase inhibitors",
         "Threonine-tRNA Ligase",
@@ -88413,6 +90059,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대웅제약",
       "position": "",
+      "company": "",
       "keywords": [
         "microtubule acetylation",
         "breast cancer progression",
@@ -88460,6 +90107,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대웅제약",
       "position": "",
+      "company": "",
       "keywords": [
         "camostat",
         "xanthan gum",
@@ -88509,6 +90157,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "알테오젠",
       "position": "",
+      "company": "",
       "keywords": [
         "alpha 1-Antitrypsin",
         "alpha-1-antitrypsin",
@@ -88558,6 +90207,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "에이비엘바이오",
       "position": "",
+      "company": "",
       "keywords": [
         "MUC1",
         "topoisomerase I inhibitor",
@@ -88611,6 +90261,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "에이비엘바이오",
       "position": "",
+      "company": "",
       "keywords": [
         "MUC1",
         "topoisomerase I inhibitor",
@@ -88663,6 +90314,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "에이비엘바이오",
       "position": "",
+      "company": "",
       "keywords": [
         "GPR56",
         "TEMRA cells",
@@ -88716,6 +90368,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "에이비엘바이오",
       "position": "",
+      "company": "",
       "keywords": [
         "circulating endothelial cells",
         "DLL4",
@@ -88766,6 +90419,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "에이비엘바이오",
       "position": "",
+      "company": "",
       "keywords": [
         "IGF-1 receptor",
         "Blood-Brain Barrier",
@@ -88817,6 +90471,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "마크로젠",
       "position": "",
+      "company": "",
       "keywords": [
         "lung squamous cell carcinoma",
         "tumor immune microenvironment",
@@ -88870,6 +90525,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "마크로젠",
       "position": "",
+      "company": "",
       "keywords": [
         "Aspergillus nidulans",
         "dacomitinib",
@@ -88923,6 +90579,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "마크로젠",
       "position": "",
+      "company": "",
       "keywords": [
         "Genome, Human",
         "cross-level interaction",
@@ -88977,6 +90634,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "마크로젠",
       "position": "",
+      "company": "",
       "keywords": [
         "star alleles",
         "Pharmacogenetics",
@@ -89028,6 +90686,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "CJ제일제당",
       "position": "",
+      "company": "",
       "keywords": [
         "sedentary women",
         "Synephrine",
@@ -89076,6 +90735,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "CJ제일제당",
       "position": "",
+      "company": "",
       "keywords": [
         "Litopenaeus vannamei",
         "biofloc technology",
@@ -89124,6 +90784,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "CJ제일제당",
       "position": "",
+      "company": "",
       "keywords": [
         "plant immunity",
         "BIK1",
@@ -89173,6 +90834,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "CJ제일제당",
       "position": "",
+      "company": "",
       "keywords": [
         "Eosinophilia-Myalgia Syndrome",
         "feed additive safety",
@@ -89220,6 +90882,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "CJ제일제당",
       "position": "",
+      "company": "",
       "keywords": [
         "rice straw",
         "enzymatic saccharification",
@@ -89267,6 +90930,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "CJ제일제당",
       "position": "",
+      "company": "",
       "keywords": [
         "milk protein synthesis",
         "MAC-T cells",
@@ -89318,6 +90982,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "CJ제일제당",
       "position": "",
+      "company": "",
       "keywords": [
         "Yarrowia",
         "Yarrowia lipolytica",
@@ -89368,6 +91033,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "CJ제일제당",
       "position": "",
+      "company": "",
       "keywords": [
         "differentially expressed lncRNAs",
         "HMC3 cells",
@@ -89418,6 +91084,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "LG화학",
       "position": "",
+      "company": "",
       "keywords": [
         "Extracellular Traps",
         "Galactosamine",
@@ -89467,6 +91134,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의예과",
@@ -89501,6 +91169,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제넥신",
       "position": "",
+      "company": "",
       "keywords": [
         "Influenza in Birds",
         "Chickens",
@@ -89554,6 +91223,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Scrub Typhus",
         "Orientia tsutsugamushi",
@@ -89608,6 +91278,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Klebsiella Infections",
         "Helicobacter Infections",
@@ -89662,6 +91333,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "mild cognitive impairment",
         "Cognitive Dysfunction",
@@ -89716,6 +91388,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "nursing students",
         "simulation-based education",
@@ -89770,6 +91443,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cholangiopancreatography, Endoscopic Retrograde",
         "endoscopic retrograde cholangiopancreatography",
@@ -89824,6 +91498,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Bifidobacterium longum",
         "COVID-19 pandemic",
@@ -89877,6 +91552,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "trophoblast invasion",
         "behavioral responses",
@@ -89931,6 +91607,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cervical cancer",
         "subglottic cyst",
@@ -89985,6 +91662,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "rapid response system",
         "general ward patients",
@@ -90039,6 +91717,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "COVID-19",
         "long COVID",
@@ -90093,6 +91772,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cholangiopancreatography, Endoscopic Retrograde",
         "porcine model",
@@ -90147,6 +91827,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "sarcopenia",
         "Hip Fractures",
@@ -90199,6 +91880,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Streptomyces",
         "Pseudonocardia autotrophica",
@@ -90252,6 +91934,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "non-small cell lung cancer",
         "Lung Neoplasms",
@@ -90305,6 +91988,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cerebrospinal fluid biomarkers",
         "sarcopenia",
@@ -90358,6 +92042,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "competing endogenous RNA",
         "gene regulatory networks",
@@ -90412,6 +92097,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "congenital hypothyroidism",
         "permanent congenital hypothyroidism",
@@ -90466,6 +92152,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "allergic rhinitis",
         "children",
@@ -90517,6 +92204,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Alopecia Areata",
         "pediatric alopecia areata",
@@ -90568,6 +92256,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Erectile Dysfunction",
         "diabetic erectile dysfunction",
@@ -90622,6 +92311,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "inpatient falls",
         "Accidental Falls",
@@ -90671,6 +92361,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "polyaspartamide",
         "mRNA delivery",
@@ -90725,6 +92416,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cellular Senescence",
         "Cathepsin D",
@@ -90778,6 +92470,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "polydiacetylene",
         "gramicidin A",
@@ -90832,6 +92525,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "rosacea",
         "Vitiligo",
@@ -90883,6 +92577,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Wingate test",
         "resistance training",
@@ -90935,6 +92630,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "bronchoalveolar lavage culture",
         "immunotherapy response prediction",
@@ -90989,6 +92685,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "tricuspid regurgitation progression",
         "atrial fibrillation",
@@ -91042,6 +92739,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "cardiogenic shock",
@@ -91092,6 +92790,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Diabetes Mellitus, Type 2",
         "hypoxic liver injury",
@@ -91145,6 +92844,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -91177,6 +92877,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "20(S)-ginsenoside Rg3",
         "EGFR-mutant non-small cell lung cancer",
@@ -91231,6 +92932,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "endoscopic submucosal dissection",
         "numb chin syndrome",
@@ -91286,6 +92988,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "impulse control",
         "wound scarring",
@@ -91340,6 +93043,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Tolosa-Hunt syndrome",
         "phosphoenolpyruvate carboxylase",
@@ -91393,6 +93097,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cardiac aging",
         "aerobic exercise training",
@@ -91447,6 +93152,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Sleep Apnea, Obstructive",
         "obstructive sleep apnea",
@@ -91499,6 +93205,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "low-intensity ultrasound",
         "Cartilage",
@@ -91553,6 +93260,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cellular prion protein",
         "PrPC Proteins",
@@ -91607,6 +93315,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Vestibular Nuclei",
         "Meniere's disease",
@@ -91660,6 +93369,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "RBBP4",
         "GRHL2",
@@ -91714,6 +93424,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "hemophilia A",
         "hemophilia",
@@ -91764,6 +93475,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "tobacco control",
         "quitlines",
@@ -91814,6 +93526,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Human Growth Hormone",
         "short stature",
@@ -91868,6 +93581,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Malaria, Vivax",
         "Plasmodium vivax",
@@ -91921,6 +93635,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "onion",
         "anaphylaxis",
@@ -91972,6 +93687,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "elastin-like polypeptides",
         "Fibronectins",
@@ -92026,6 +93742,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Diabetes Mellitus, Type 2",
         "type 2 diabetes",
@@ -92076,6 +93793,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "bipolar disorder",
         "major depressive disorder",
@@ -92128,6 +93846,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Prostatectomy",
         "radical prostatectomy",
@@ -92179,6 +93898,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "immunocytochemistry",
         "chorioamnionitis",
@@ -92230,6 +93950,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "polydimethylsiloxane",
         "Silwet L-77",
@@ -92281,6 +94002,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "childhood asthma",
         "allergic rhinitis",
@@ -92333,6 +94055,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "osteoporosis",
         "Osteoporotic Fractures",
@@ -92386,6 +94109,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Wernicke-Korsakoff syndrome",
         "Depression",
@@ -92438,6 +94162,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "mecanum wheels",
         "open-set recognition",
@@ -92489,6 +94214,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "glucosamine",
         "O-GlcNAcylation",
@@ -92542,6 +94268,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Korean Sign Language",
         "sleep quality",
@@ -92591,6 +94318,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Erectile Dysfunction",
         "Penis",
@@ -92644,6 +94372,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "finite element homogenization",
         "acidic fibroblast growth factor",
@@ -92697,6 +94426,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "direction of arrival estimation",
         "Taylor series expansion",
@@ -92747,6 +94477,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "endoscopic submucosal dissection",
         "Endoscopic Mucosal Resection",
@@ -92800,6 +94531,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "oleogels",
         "pasting properties",
@@ -92851,6 +94583,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "heparin-binding hemagglutinin",
         "dendritic cell maturation",
@@ -92904,6 +94637,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "amylosucrase",
         "Glucosyltransferases",
@@ -92958,6 +94692,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Zinc",
         "zinc neurotoxicity",
@@ -93011,6 +94746,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Korean red ginseng",
         "Serine-Threonine Kinase 3",
@@ -93065,6 +94801,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "amylosucrase",
         "Deinococcus geothermalis",
@@ -93118,6 +94855,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "von Mises stress",
         "automatic emergency braking",
@@ -93169,6 +94907,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Tenebrio molitor",
         "mealworms",
@@ -93222,6 +94961,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "skeletal muscle satellite cells",
         "cultured meat",
@@ -93275,6 +95015,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "triglyceride synthesis",
         "hydroxy fatty acids",
@@ -93328,6 +95069,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Quantitative Trait Loci",
         "rice",
@@ -93379,6 +95121,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "peptidyl-prolyl isomerase",
         "Pin1",
@@ -93432,6 +95175,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Caco-2 Cells",
         "intestinal absorption",
@@ -93485,6 +95229,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Genome, Plant",
         "soybean",
@@ -93538,6 +95283,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "3D-QSAR",
         "Drug Design",
@@ -93591,6 +95337,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "vase life",
         "Chrysanthemum",
@@ -93640,6 +95387,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "B-cell activating factor",
         "thymosin beta 4",
@@ -93695,6 +95443,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "HBP1",
         "invasive breast cancer",
@@ -93748,6 +95497,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "ASXL1",
         "PRAME",
@@ -93802,6 +95552,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Euonymus hamiltonianus",
         "Euonymus",
@@ -93855,6 +95606,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "multifactor dimensionality reduction",
         "gene-gene interaction",
@@ -93909,6 +95661,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "monomethyl auristatin E",
         "cynomolgus monkey toxicity",
@@ -93962,6 +95715,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "B7-H3",
         "Lhx1",
@@ -94015,6 +95769,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "subcritical water hydrolysis",
         "pork loin",
@@ -94065,6 +95820,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "volatile compounds",
         "soju",
@@ -94114,6 +95870,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cucumber",
         "Pseudoperonospora cubensis",
@@ -94167,6 +95924,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "radioresistance (biology)",
         "Radiation Tolerance",
@@ -94220,6 +95978,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Natural Killer T-Cells",
         "invariant natural killer T cells",
@@ -94273,6 +96032,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Emulsions",
         "Dimyristoylphosphatidylcholine",
@@ -94324,6 +96084,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "structure elucidation",
         "Penicillium herquei",
@@ -94376,6 +96137,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "alpha-Glucosidases",
         "alpha-glucosidase",
@@ -94426,6 +96188,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cone-beam computed tomography",
         "elementary school social studies",
@@ -94477,6 +96240,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "chloroplast genome",
         "Genome, Chloroplast",
@@ -94527,6 +96291,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Carotenoids",
         "metabolite profiling",
@@ -94581,6 +96346,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Oryza sativa subsp. japonica",
         "rice breeding",
@@ -94634,6 +96400,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Crohn's disease",
         "inflammatory bowel disease",
@@ -94687,6 +96454,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Apis mellifera",
         "Apis cerana",
@@ -94740,6 +96508,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "rolling circle amplification",
         "Nucleic Acid Amplification Techniques",
@@ -94816,6 +96585,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "CHO cell culture",
         "Physical Fitness",
@@ -94866,6 +96636,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Carotenoids",
         "1-Deoxynojirimycin",
@@ -94917,6 +96688,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "PLX4720",
         "Autophagy",
@@ -94970,6 +96742,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "gait stability",
         "Parkinson Disease",
@@ -95021,6 +96794,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "molecular beacons",
         "red cabbage",
@@ -95074,6 +96848,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "solution plasma process",
         "bionanocomposites",
@@ -95127,6 +96902,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Wound Healing",
         "calcium peroxide",
@@ -95180,6 +96956,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "fusion peptide",
         "Peptides",
@@ -95233,6 +97010,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "sonodynamic therapy",
         "piperlongumine",
@@ -95286,6 +97064,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cellular Senescence",
         "mitochondrial function",
@@ -95339,6 +97118,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "religious communities",
         "perception of God",
@@ -95392,6 +97172,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "sorafenib resistance",
         "PI3K/mTOR inhibition",
@@ -95445,6 +97226,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "long-term depression",
         "Neuronal Plasticity",
@@ -95498,6 +97280,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Nigella sativa seed oil",
         "indoor air quality management",
@@ -95551,6 +97334,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "surface plasmon polaritons",
         "single-molecule detection",
@@ -95602,6 +97386,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Neural Stem Cells",
         "human neural stem cells",
@@ -95655,6 +97440,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "mosquito microbiome",
         "Apis mellifera",
@@ -95705,6 +97491,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cancer prognosis prediction",
         "gene expression data",
@@ -95759,6 +97546,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "persister cells",
         "prebiotics",
@@ -95810,6 +97598,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Trametes hirsuta",
         "Magnaporthe oryzae",
@@ -95860,6 +97649,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "trabecular bone microarchitecture",
         "middle-aged mice",
@@ -95913,6 +97703,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "arterial stiffness",
         "moderate-intensity continuous training",
@@ -95960,6 +97751,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Oryza",
         "Plant Proteins",
@@ -96010,6 +97802,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "hypothalamus",
         "hypothalamic inflammation",
@@ -96063,6 +97856,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "force variability",
         "Transcranial Direct Current Stimulation",
@@ -96113,6 +97907,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "shape memory alloy springs",
         "finger prosthesis",
@@ -96163,6 +97958,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "arterial stiffness",
         "resistance training",
@@ -96213,6 +98009,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "high-grade serous ovarian cancer",
         "radiogenomics",
@@ -96266,6 +98063,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Fimbriae Proteins",
         "DNA origami",
@@ -96319,6 +98117,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "biodegradable plastics",
         "depolymerization",
@@ -96372,6 +98171,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "tinnitus",
         "Auditory Cortex",
@@ -96423,6 +98223,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pulmonary artery smooth muscle cells",
         "MicroRNAs",
@@ -96476,6 +98277,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Parkinson's disease",
         "executive function",
@@ -96526,6 +98328,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "radiomics",
         "3D brachytherapy",
@@ -96577,6 +98380,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "autodisplay",
         "outer membrane vesicles",
@@ -96631,6 +98435,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "stem cell-derived vesicles",
         "regenerative medicine",
@@ -96684,6 +98489,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "chronic ankle instability",
         "Star Excursion Balance Test",
@@ -96731,6 +98537,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "multimodal physiological signals",
         "finger temperature",
@@ -96784,6 +98591,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "electrothermal flow",
         "online detection",
@@ -96834,6 +98642,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "DNA, Environmental",
         "Rotifera",
@@ -96885,6 +98694,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -96917,6 +98727,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "hypothalamus",
         "Pro-Opiomelanocortin",
@@ -96969,6 +98780,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "CDCP1",
         "radioligand therapy",
@@ -97022,6 +98834,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "autosomal dominant polycystic kidney disease",
         "miR-34a",
@@ -97075,6 +98888,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Listeria monocytogenes",
         "Baranyi model",
@@ -97129,6 +98943,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cholesterol efflux capacity",
         "visceral adipose tissue",
@@ -97179,6 +98994,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "excess adiposity",
         "zonulin",
@@ -97232,6 +99048,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "NDRG2",
         "Microphthalmia-Associated Transcription Factor",
@@ -97285,6 +99102,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "hydroxycinnamic acids",
         "sensory evaluation",
@@ -97334,6 +99152,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Xylodon flaviporus",
         "monoterpene indole alkaloids",
@@ -97441,6 +99260,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Akt dephosphorylation",
         "PDE4D",
@@ -97494,6 +99314,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Fanconi Anemia",
         "Promyelocytic Leukemia Protein",
@@ -97547,6 +99368,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "L-alpha-glycerylphosphorylcholine",
         "immobilized lipase",
@@ -97596,6 +99418,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "myogenesis",
         "MyoD",
@@ -97649,6 +99472,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Ephrin-A5",
         "Cilia",
@@ -97702,6 +99526,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Knee Prosthesis",
         "Receptor for Advanced Glycation End Products",
@@ -97755,6 +99580,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "solid-phase peptide synthesis",
         "interdigitated microelectrode array",
@@ -97808,6 +99634,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "structure-activity relationship",
         "Drug Design",
@@ -97860,6 +99687,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "super-enhancers",
         "CTCF",
@@ -97913,6 +99741,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Listeria monocytogenes",
         "Baranyi model",
@@ -97963,6 +99792,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "intramembranous ossification",
         "bone-cartilage interaction",
@@ -98016,6 +99846,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "myosin heavy chain isoforms",
         "gamma-Glutamyl Hydrolase",
@@ -98069,6 +99900,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "computer-use agents",
         "multi-agent planning",
@@ -98122,6 +99954,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Protein-Arginine N-Methyltransferases",
         "CARM1",
@@ -98174,6 +100007,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "D-galactose-induced aging",
         "malondialdehyde",
@@ -98222,6 +100056,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "clonal dynamics",
         "hematopoietic stem cell homing",
@@ -98274,6 +100109,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "autosomal dominant polycystic kidney disease",
         "polycystic kidney disease",
@@ -98327,6 +100163,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "NOXO1",
         "Grb2",
@@ -98381,6 +100218,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "osteoclastogenesis",
         "osteoclast precursors",
@@ -98434,6 +100272,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "virtual creatures",
         "heart rate estimation",
@@ -98483,6 +100322,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "batch effect correction",
         "semi-supervised learning",
@@ -98536,6 +100376,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "surface electromyography",
         "shape morphing",
@@ -98586,6 +100427,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Mitosis",
         "KIF2A",
@@ -98639,6 +100481,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "orphan drugs",
         "budget impact",
@@ -98687,6 +100530,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "rhesus macaque model",
         "hematopoietic stem and progenitor cells",
@@ -98740,6 +100584,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "data mining platform",
         "Aptamers, Nucleotide",
@@ -98793,6 +100638,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "CTRP1",
         "Adipokines",
@@ -98846,6 +100692,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "murine leukemia virus",
         "DNA, Circular",
@@ -98900,6 +100747,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Sleeping Beauty transposon",
         "mouse tumor model",
@@ -98950,6 +100798,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "canine oral health",
         "tyrosinase-related protein 2",
@@ -99001,6 +100850,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "duckweed",
         "Lemna minor",
@@ -99051,6 +100901,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Anoctamins",
         "Smell",
@@ -99100,6 +100951,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "숙명여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "skeletal muscle development",
         "tunneling nanotubes",
@@ -99152,6 +101004,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "dietary habits",
         "Multiethnic Cohort Study",
@@ -99203,6 +101056,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Metabolic Engineering",
         "Triple Negative Breast Neoplasms",
@@ -99256,6 +101110,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "natural killer cells",
         "NKG2D",
@@ -99308,6 +101163,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "structure elucidation",
         "Trichoderma",
@@ -99358,6 +101214,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "G protein-coupled estrogen receptor",
         "liver cancer metastasis",
@@ -99411,6 +101268,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "mast cell degranulation",
         "LAT",
@@ -99464,6 +101322,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Substance Abuse Detection",
         "Illicit Drugs",
@@ -99513,6 +101372,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "endothelial colony-forming cells",
         "type I collagen matrix",
@@ -99565,6 +101425,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "hyperglycosylation",
         "interferon-beta",
@@ -99619,6 +101480,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "computer-aided diagnosis",
         "Image Processing, Computer-Assisted",
@@ -99672,6 +101534,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "methylglyoxal",
         "Pyruvaldehyde",
@@ -99725,6 +101588,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "aminoclay",
         "microwave-assisted extraction",
@@ -99778,6 +101642,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "glucose-stimulated insulin secretion",
         "LLC-PK1 Cells",
@@ -99831,6 +101696,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Alzheimer Disease",
         "Alzheimer's disease",
@@ -99885,6 +101751,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "ST-elevation myocardial infarction",
@@ -99937,6 +101804,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Schizophrenia",
         "metabotropic glutamate receptor 5",
@@ -99990,6 +101858,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "probiotics",
         "gut microbiota",
@@ -100043,6 +101912,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "bile acid deconjugation",
         "NQO1",
@@ -100096,6 +101966,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "lactic acid bacteria",
         "probiotics",
@@ -100149,6 +102020,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Heart Failure",
         "diastolic dysfunction",
@@ -100197,6 +102069,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Bacteriophages",
         "Litopenaeus vannamei",
@@ -100250,6 +102123,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "young households",
         "housing satisfaction",
@@ -100304,6 +102178,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "terminal cancer",
         "hospice care",
@@ -100352,6 +102227,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "hypoparathyroidism",
         "parathyroid hormone analog",
@@ -100406,6 +102282,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "image quality",
         "Tomography, X-Ray Computed",
@@ -100460,6 +102337,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pulmonary arterial hypertension",
         "Heart Failure",
@@ -100510,6 +102388,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "loop-mediated isothermal amplification",
         "Nucleic Acid Amplification Techniques",
@@ -100564,6 +102443,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "subjective cognitive decline",
         "Alzheimer's disease",
@@ -100615,6 +102495,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "advanced glycation end products",
         "low-temperature pyrolysis",
@@ -100668,6 +102549,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "dentinogenesis",
         "tooth development",
@@ -100722,6 +102604,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "anti-miR-21",
         "retinoblastoma pathway",
@@ -100776,6 +102659,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Helicobacter pylori",
         "Helicobacter Infections",
@@ -100828,6 +102712,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "rectal cancer",
         "Rectal Neoplasms",
@@ -100882,6 +102767,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "18F-THK5351",
         "tau Proteins",
@@ -100933,6 +102819,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "endoscopic submucosal dissection",
         "proton pump inhibitors",
@@ -100986,6 +102873,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "contrast-to-noise ratio",
         "image denoising",
@@ -101037,6 +102925,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Biosensing Techniques",
         "electrochemical biosensor",
@@ -101090,6 +102979,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acupuncture",
         "Acupuncture Therapy",
@@ -101142,6 +103032,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Blood Coagulation Tests",
         "Laboratories",
@@ -101195,6 +103086,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Polyesters",
         "goblet cell hyperplasia",
@@ -101248,6 +103140,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "skin rejuvenation",
         "Skin Aging",
@@ -101301,6 +103194,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "chloroplast genome",
         "Genome, Plastid",
@@ -101355,6 +103249,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "occupational health",
         "occupational exposure",
@@ -101405,6 +103300,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Lupus Erythematosus, Cutaneous",
         "psoriasis",
@@ -101458,6 +103354,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "midwifery education",
         "midwifery licensing",
@@ -101510,6 +103407,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "ST-elevation myocardial infarction",
@@ -101563,6 +103461,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Fyodor Dostoevsky",
         "Streptococcus agalactiae",
@@ -101616,6 +103515,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "point-of-care testing",
         "CMOS image sensor",
@@ -101669,6 +103569,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Serine C-Palmitoyltransferase",
         "serine palmitoyltransferase",
@@ -101723,6 +103624,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "chronic kidney disease",
         "KNOW-CKD cohort",
@@ -101774,6 +103676,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "gastric cancer",
         "IC50 prediction",
@@ -101827,6 +103730,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "intracellular calcium homeostasis",
         "Phosphatidylinositols",
@@ -101881,6 +103785,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "routine urinalysis",
         "Echocardiography",
@@ -101930,6 +103835,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Insulin Resistance",
         "non-alcoholic fatty liver disease",
@@ -101983,6 +103889,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pharmacokinetics",
         "1,25-dihydroxyvitamin D3",
@@ -102037,6 +103944,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "malignant biliary obstruction",
         "Self Expandable Metallic Stents",
@@ -102086,6 +103994,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "endometrial stem cells",
         "Endometrium",
@@ -102140,6 +104049,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "phentermine/topiramate",
         "obesity pharmacotherapy",
@@ -102188,6 +104098,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cerebrovascular reactivity",
         "acute ischemic stroke",
@@ -102238,6 +104149,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Osteoarthritis",
         "Medicine, East Asian Traditional",
@@ -102289,6 +104201,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "muscle stiffness",
         "shear wave elastography",
@@ -102341,6 +104254,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "[11C]ABP688",
         "metabotropic glutamate receptor 5",
@@ -102393,6 +104307,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Beclomethasone",
         "intralymphatic immunotherapy",
@@ -102445,6 +104360,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "flavin mononucleotide",
         "thiol-ene crosslinking",
@@ -102498,6 +104414,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "transcutaneous electrical nerve stimulation",
         "Exercise Therapy",
@@ -102546,6 +104463,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pneumoperitoneum",
         "Propofol",
@@ -102593,6 +104511,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "delay discounting",
         "gray matter volume",
@@ -102643,6 +104562,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "quantitative light-induced fluorescence",
         "aciduric bacteria",
@@ -102695,6 +104615,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acute-on-chronic liver failure",
         "liver cirrhosis",
@@ -102749,6 +104670,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "methicillin-resistant Staphylococcus aureus",
         "clinical isolates",
@@ -102802,6 +104724,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "food literacy",
         "Food Insecurity",
@@ -102856,6 +104779,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "ANT2",
         "Scabies",
@@ -102910,6 +104834,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "SARS-CoV-2",
         "COVID-19",
@@ -102964,6 +104889,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "gut microbiota",
         "Gastrointestinal Microbiome",
@@ -103018,6 +104944,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acute ischemic stroke",
         "Ischemic Stroke",
@@ -103069,6 +104996,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "status epilepticus",
         "Hippocampus",
@@ -103123,6 +105051,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "transcatheter aortic valve implantation",
         "Transcatheter Aortic Valve Replacement",
@@ -103177,6 +105106,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Hyperthermic Intraperitoneal Chemotherapy",
         "cytoreductive surgery",
@@ -103231,6 +105161,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "proton pump inhibitors",
         "endoscopic submucosal dissection",
@@ -103285,6 +105216,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "chronic obstructive pulmonary disease",
         "Pulmonary Disease, Chronic Obstructive",
@@ -103336,6 +105268,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "reporting guidelines",
         "data sharing policy",
@@ -103388,6 +105321,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "esculetin",
         "db/db mice",
@@ -103442,6 +105376,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "CPT1B",
         "Mexican Americans",
@@ -103496,6 +105431,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Crohn's disease",
         "Crohn Disease",
@@ -103549,6 +105485,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Gerbillinae",
         "gerbils",
@@ -103600,6 +105537,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "severe asthma",
         "asthma exacerbations",
@@ -103648,6 +105586,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "dynapenia",
         "endoscopic image classification",
@@ -103702,6 +105641,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Parkinson Disease",
         "Parkinson's disease",
@@ -103756,6 +105696,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acute ischemic stroke",
         "Ischemic Stroke",
@@ -103810,6 +105751,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cluster Headache",
         "migraine",
@@ -103863,6 +105805,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Korean National Health Insurance Service-Health Screening Cohort",
         "hydrophilic statins",
@@ -103917,6 +105860,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "atopic dermatitis",
         "pruritus",
@@ -103971,6 +105915,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "sound localization",
         "single-sided deafness",
@@ -104022,6 +105967,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "end-stage renal disease",
         "hemodialysis",
@@ -104070,6 +106016,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "compensatory base changes",
         "Korean National Health Insurance Service-Health Screening Cohort",
@@ -104121,6 +106068,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "timbre perception",
         "hearing rehabilitation",
@@ -104173,6 +106121,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acute ischemic stroke",
         "Ischemic Stroke",
@@ -104225,6 +106174,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "atopic dermatitis",
         "pruritus",
@@ -104277,6 +106227,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Calcaneus",
         "Cadaver",
@@ -104330,6 +106281,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "temporomandibular disorders",
         "Temporomandibular Joint Disorders",
@@ -104384,6 +106336,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acute ischemic stroke",
         "Ischemic Stroke",
@@ -104438,6 +106391,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acute ischemic stroke",
         "Ischemic Stroke",
@@ -104489,6 +106443,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "chronic epilepsy",
         "status epilepticus",
@@ -104542,6 +106497,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "mobile ad hoc networks",
         "Saxifragaceae",
@@ -104594,6 +106550,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "liver cirrhosis",
         "acute-on-chronic liver failure",
@@ -104645,6 +106602,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Guillain-Barré syndrome",
         "Guillain-Barre Syndrome",
@@ -104696,6 +106654,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "xenotransfusion",
         "complement activation",
@@ -104750,6 +106709,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "beta-Lactamases",
         "carbapenem resistance",
@@ -104803,6 +106763,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "remnant cholesterol",
         "type 2 diabetes",
@@ -104856,6 +106817,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Helicobacter pylori",
         "Helicobacter Infections",
@@ -104906,6 +106868,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "word embeddings",
         "semantic role labeling",
@@ -104957,6 +106920,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Zinc",
         "hippocampal neuronal death",
@@ -105011,6 +106975,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "subarachnoid hemorrhage",
         "delayed cerebral ischemia",
@@ -105064,6 +107029,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "aldose reductase inhibition",
         "Aldehyde Reductase",
@@ -105118,6 +107084,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "proton pump inhibitors",
         "bismuth quadruple therapy",
@@ -105168,6 +107135,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "School Nursing",
         "LH pulse frequency",
@@ -105221,6 +107189,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "SARS-CoV-2",
         "TM4SF5",
@@ -105275,6 +107244,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Apolipoprotein E4",
         "mild cognitive impairment",
@@ -105324,6 +107294,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "prion disease",
         "scrapie",
@@ -105378,6 +107349,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cognitive Dysfunction",
         "cerebral small vessel disease",
@@ -105429,6 +107401,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "capsule endoscopy",
         "small bowel bleeding",
@@ -105483,6 +107456,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "intensive care unit nurses",
         "enteral nutrition",
@@ -105536,6 +107510,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "penile girth",
         "Erectile Dysfunction",
@@ -105587,6 +107562,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "autosomal dominant polycystic kidney disease",
         "end-stage renal disease",
@@ -105638,6 +107614,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Work Schedule Tolerance",
         "long working hours",
@@ -105691,6 +107668,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "Drug-Eluting Stents",
@@ -105743,6 +107721,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "migraine",
         "Cluster Headache",
@@ -105796,6 +107775,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한림대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "autodisplay",
         "Biosensing Techniques",
@@ -105849,6 +107829,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "TNRC6A",
         "miRNA-induced silencing complex",
@@ -105903,6 +107884,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "parotid gland tumors",
         "myoepithelial carcinoma",
@@ -105956,6 +107938,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "genetic susceptibility",
         "single nucleotide polymorphisms",
@@ -106010,6 +107993,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cordyceps militaris",
         "Beauveria",
@@ -106064,6 +108048,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Nabothian cyst",
         "chronic endometritis",
@@ -106114,6 +108099,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "osteoclast activation",
         "Myocytes, Cardiac",
@@ -106168,6 +108154,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "coronary artery disease",
         "coronary CT angiography",
@@ -106218,6 +108205,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "body mass index",
         "age differences",
@@ -106266,6 +108254,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "TNRC6A",
         "dynamic functional connectivity",
@@ -106320,6 +108309,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "antibody-mediated rejection",
         "kidney transplantation",
@@ -106374,6 +108364,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Hysterectomy",
         "Laparoscopy",
@@ -106428,6 +108419,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Terminal Care",
         "Palliative Care",
@@ -106478,6 +108470,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Education, Medical, Undergraduate",
         "e-portfolio",
@@ -106529,6 +108522,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "myocardial infarction",
         "myocardial fibrosis",
@@ -106582,6 +108576,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "neovascular age-related macular degeneration",
         "Tomography, Optical Coherence",
@@ -106633,6 +108628,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "overall survival",
         "large language models",
@@ -106686,6 +108682,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -106719,6 +108716,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "lumbar degenerative disease",
         "adolescent idiopathic scoliosis",
@@ -106771,6 +108769,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Lactiplantibacillus paraplantarum",
         "indoxyl sulfate",
@@ -106822,6 +108821,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "UK Biobank",
         "chronic kidney disease",
@@ -106874,6 +108874,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "catheter dislodgement",
         "Pleura",
@@ -106923,6 +108924,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Mammary Glands, Animal",
         "Fungicides, Industrial",
@@ -106977,6 +108979,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Mesenchymal Stem Cell Transplantation",
         "Neovascularization, Physiologic",
@@ -107031,6 +109034,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "quadrivalent influenza vaccine",
         "Vaccination",
@@ -107081,6 +109085,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "amnestic mild cognitive impairment",
         "Mania",
@@ -107131,6 +109136,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pathogen screening",
         "reclassification",
@@ -107184,6 +109190,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Suicidal Ideation",
         "Asthma",
@@ -107231,6 +109238,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Trichinella spiralis",
         "trichinellosis",
@@ -107283,6 +109291,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "IT professionals",
         "COVID-19 risk factors",
@@ -107335,6 +109344,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "turmeric",
         "Gardenia jasminoides",
@@ -107388,6 +109398,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "papillary thyroid carcinoma",
         "endocapillary hypercellularity",
@@ -107439,6 +109450,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Pulsed Radiofrequency Treatment",
         "lumbar radicular pain",
@@ -107492,6 +109504,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "engineered vesicles",
         "DDX3X",
@@ -107545,6 +109558,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Korean adults",
         "Cardiovascular Diseases",
@@ -107593,6 +109607,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cordyceps",
         "Cordyceps militaris",
@@ -107644,6 +109659,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Sigma-1 Receptor",
         "chronic constriction injury",
@@ -107694,6 +109710,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "longitudinal integrated clerkship",
         "Formative Feedback",
@@ -107744,6 +109761,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "internal mammary chain irradiation",
         "normal tissue complication probability model",
@@ -107793,6 +109811,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Leisure Activities",
         "leisure-time physical activity",
@@ -107841,6 +109860,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "metabolic outcomes",
         "long-acting injectable antipsychotics",
@@ -107891,6 +109911,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "tomato detection",
         "Neoplastic Stem Cells",
@@ -107944,6 +109965,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "functional near-infrared spectroscopy",
         "Lyapunov stability",
@@ -107994,6 +110016,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "caloric restriction",
         "Aging",
@@ -108048,6 +110071,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "endoscopic submucosal dissection",
         "Endoscopic Mucosal Resection",
@@ -108102,6 +110126,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "clear aligners",
         "cone-beam computed tomography",
@@ -108156,6 +110181,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "psoriasis",
         "dermoscopy",
@@ -108207,6 +110233,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "hippocampal neurogenesis",
         "Neurogenesis",
@@ -108260,6 +110287,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "raindrop impact",
         "tunnel field-effect transistor",
@@ -108313,6 +110341,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "loperamide-induced constipation",
         "constipation",
@@ -108366,6 +110395,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "endogenous retroviruses",
         "transposable elements",
@@ -108420,6 +110450,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "dermoscopy",
         "atopic dermatitis",
@@ -108474,6 +110505,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "progression-free survival",
         "diffuse large B-cell lymphoma",
@@ -108528,6 +110560,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "type 2 diabetes",
         "Diabetes Mellitus, Type 2",
@@ -108582,6 +110615,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "intraoperative neuromonitoring",
         "papillary thyroid carcinoma",
@@ -108636,6 +110670,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "oncolytic vaccinia virus",
         "hepatocellular carcinoma",
@@ -108689,6 +110724,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Magnaporthe oryzae",
         "Oryza",
@@ -108742,6 +110778,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Pollen Tube",
         "pollen tube growth",
@@ -108796,6 +110833,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "male infertility",
         "Erectile Dysfunction",
@@ -108850,6 +110888,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Thyroid Neoplasms",
         "papillary thyroid carcinoma",
@@ -108904,6 +110943,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Root Canal Preparation",
         "root canal instrumentation",
@@ -108957,6 +110997,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "amyloid beta 25-35",
         "neuroprotection",
@@ -109008,6 +111049,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "mushroom tyrosinase",
         "tyrosinase inhibitors",
@@ -109062,6 +111104,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "HIV Infections",
         "cefazolin",
@@ -109116,6 +111159,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "osteoclastogenesis",
         "Osteoclasts",
@@ -109170,6 +111214,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "myocardial infarction",
@@ -109222,6 +111267,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "endoscopic submucosal dissection",
         "Endoscopic Mucosal Resection",
@@ -109274,6 +111320,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Fluorodeoxyglucose F18",
         "likelihood ratios",
@@ -109329,6 +111376,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "distributed energy resources",
         "Tympanic Membrane Perforation",
@@ -109383,6 +111431,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "lung transplantation",
         "Extracorporeal Membrane Oxygenation",
@@ -109434,6 +111483,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "stroke rehabilitation",
         "Stroke",
@@ -109488,6 +111538,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "nociplastic pain",
         "neuropathic pain",
@@ -109542,6 +111593,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Spinal Cord",
         "Hyperalgesia",
@@ -109596,6 +111648,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cholangiocarcinoma",
         "Bile Duct Neoplasms",
@@ -109650,6 +111703,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "double integrals",
         "chromosomal microarray analysis",
@@ -109704,6 +111758,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Heart Transplantation",
         "graft rejection",
@@ -109758,6 +111813,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Computed Tomography Angiography",
         "Plaque, Atherosclerotic",
@@ -109811,6 +111867,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "endoscopic submucosal dissection",
         "Endoscopic Mucosal Resection",
@@ -109865,6 +111922,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "hemogenic endothelium",
         "Leukemia, Myeloid, Acute",
@@ -109919,6 +111977,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "brain glucose metabolism",
         "Fluorodeoxyglucose F18",
@@ -109971,6 +112030,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Periodontitis",
         "prognostic factors",
@@ -110025,6 +112085,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Renal Dialysis",
         "diabetic nephropathy",
@@ -110079,6 +112140,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acute ischemic stroke",
         "mechanical thrombectomy",
@@ -110133,6 +112195,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Chuna manual therapy",
         "Musculoskeletal Manipulations",
@@ -110187,6 +112250,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "spinal cord injury",
         "Autonomic Dysreflexia",
@@ -110236,6 +112300,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "NQO1",
         "Heme Oxygenase-1",
@@ -110290,6 +112355,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "older adults",
         "Exercise",
@@ -110344,6 +112410,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Kawasaki disease",
         "Mucocutaneous Lymph Node Syndrome",
@@ -110395,6 +112462,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "scoliosis",
         "adolescent idiopathic scoliosis",
@@ -110449,6 +112517,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "dermoscopy",
         "basal cell carcinoma",
@@ -110500,6 +112569,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "FRET biosensor",
         "fluorescence resonance energy transfer",
@@ -110576,6 +112646,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Kawasaki disease",
         "Monocrotaline",
@@ -110629,6 +112700,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Coptis chinensis",
         "precipitate formation",
@@ -110683,6 +112755,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "dermoscopy",
         "Alopecia Areata",
@@ -110734,6 +112807,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Mellin transform",
         "regional economic resilience",
@@ -110784,6 +112858,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "endoscopic submucosal dissection",
         "Endoscopic Mucosal Resection",
@@ -110836,6 +112911,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Mycobacterium tuberculosis",
         "tuberculosis",
@@ -110889,6 +112965,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Molecularly Imprinted Polymers",
         "Molecular Imprinting",
@@ -110986,6 +113063,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Hematopoietic Stem Cells",
         "27-hydroxycholesterol",
@@ -111040,6 +113118,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "GNE myopathy",
         "ataluren",
@@ -111093,6 +113172,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "M13 bacteriophage",
         "Bacteriophage M13",
@@ -111147,6 +113227,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Colonoscopy",
         "bowel preparation",
@@ -111199,6 +113280,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "esophageal motility disorders",
         "proton pump inhibitors",
@@ -111249,6 +113331,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "atrial fibrillation",
         "premature atrial contractions",
@@ -111301,6 +113384,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Visual Acuity",
         "Endophthalmitis",
@@ -111354,6 +113438,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Crohn's disease",
         "Inflammatory Bowel Diseases",
@@ -111406,6 +113491,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Helicobacter pylori",
         "Helicobacter pylori eradication",
@@ -111457,6 +113543,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "endogenous retroviruses",
         "HERV-K",
@@ -111510,6 +113597,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "asbestos exposure",
         "pleural plaques",
@@ -111564,6 +113652,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "Drug-Eluting Stents",
@@ -111616,6 +113705,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "thyroidectomy",
         "Recurrent Laryngeal Nerve",
@@ -111670,6 +113760,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "gastric subepithelial lesions",
         "gastric adenocarcinoma",
@@ -111724,6 +113815,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Helicobacter pylori",
         "Helicobacter Infections",
@@ -111772,6 +113864,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Visual Acuity",
         "Percutaneous Coronary Intervention",
@@ -111825,6 +113918,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "kidney transplantation",
         "Peritoneal Dialysis",
@@ -111878,6 +113972,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "HANARO reactor",
         "Pulmonary Disease, Chronic Obstructive",
@@ -111928,6 +114023,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "overall survival",
         "ECOG performance status",
@@ -111981,6 +114077,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "chemical mechanical polishing",
         "polishing rate",
@@ -112029,6 +114126,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "progression-free survival",
         "Antineoplastic Combined Chemotherapy Protocols",
@@ -112080,6 +114178,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "intraoperative neuromonitoring",
         "Recurrent Laryngeal Nerve",
@@ -112127,6 +114226,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "GSDMA",
         "Drug Hypersensitivity",
@@ -112177,6 +114277,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cutaneous T-cell lymphoma",
         "Mycosis Fungoides",
@@ -112227,6 +114328,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "forensic entomology",
         "Calliphoridae",
@@ -112281,6 +114383,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Bariatric Surgery",
         "antireflux surgery",
@@ -112330,6 +114433,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "oblique lateral interbody fusion",
         "Liver Diseases, Alcoholic",
@@ -112382,6 +114486,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Bariatric Surgery",
         "trabecular bone score",
@@ -112432,6 +114537,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cutaneous T-cell lymphoma",
         "dermoscopic features",
@@ -112483,6 +114589,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "intravascular large B-cell lymphoma",
         "Geriatric Assessment",
@@ -112533,6 +114640,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Pulmonary Disease, Chronic Obstructive",
         "chronic obstructive pulmonary disease",
@@ -112582,6 +114690,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "integrated stress response",
         "ATF4",
@@ -112635,6 +114744,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "PEGylated peptide",
         "ZO-1",
@@ -112688,6 +114798,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "children",
         "peanut allergy",
@@ -112736,6 +114847,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "heart failure with preserved ejection fraction",
         "pulmonary hypertension",
@@ -112786,6 +114898,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "serum uric acid",
         "Hyperuricemia",
@@ -112835,6 +114948,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Mycosis Fungoides",
         "cutaneous T-cell lymphoma",
@@ -112885,6 +114999,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Crohn Disease",
         "pediatric inflammatory bowel disease",
@@ -112935,6 +115050,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Erwinia amylovora",
         "fire blight",
@@ -112987,6 +115103,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "PEGylated peptide",
         "M1/M2 macrophages",
@@ -113039,6 +115156,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "SUZ12",
         "Diet, Carbohydrate-Restricted",
@@ -113092,6 +115210,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "integrated stress response",
         "hepatocellular carcinoma",
@@ -113145,6 +115264,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Nose Deformities, Acquired",
         "rhinoplasty",
@@ -113196,6 +115316,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Neuromyelitis Optica",
         "neuromyelitis optica spectrum disorder",
@@ -113247,6 +115368,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "laparoscopic distal gastrectomy",
         "Petersen's hernia",
@@ -113298,6 +115420,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "anaphylaxis",
         "chronic urticaria",
@@ -113347,6 +115470,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Acellular Dermis",
         "Mammaplasty",
@@ -113396,6 +115520,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "osteoclast development",
         "pyruvate dehydrogenase kinase 1",
@@ -113449,6 +115574,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pediatric nurses",
         "job crafting",
@@ -113496,6 +115622,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Burkholderia",
         "Riptortus pedestris",
@@ -113545,6 +115672,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "eotaxin-3",
         "Chemokine CCL26",
@@ -113596,6 +115724,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Drug Hypersensitivity",
         "eperisone",
@@ -113646,6 +115775,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "TRIM29",
         "hand osteoarthritis",
@@ -113696,6 +115826,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고신대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "migrating motor complex",
         "interstitial cells of Cajal",
@@ -113747,6 +115878,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "Drug-Eluting Stents",
@@ -113801,6 +115933,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "free allocation",
         "endoscopic ultrasound",
@@ -113855,6 +115988,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "rheumatoid arthritis",
         "Arthritis, Rheumatoid",
@@ -113909,6 +116043,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Crohn's disease",
         "ulcerative colitis",
@@ -113963,6 +116098,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "healthy aging",
         "endoscopic retrograde cholangiopancreatography",
@@ -114015,6 +116151,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "airway epithelial cells",
         "MUC5B",
@@ -114068,6 +116205,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "atrial fibrillation",
         "direct oral anticoagulants",
@@ -114120,6 +116258,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Arthritis, Rheumatoid",
         "Gout",
@@ -114174,6 +116313,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "polycythemia vera",
         "ropeginterferon alfa-2b",
@@ -114227,6 +116367,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Semont maneuver",
         "Otitis Media, Suppurative",
@@ -114276,6 +116417,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "ascochlorin",
         "ascofuranone",
@@ -114330,6 +116472,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "anesthesia research",
         "random forest",
@@ -114382,6 +116525,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "voice therapy",
         "semi-occluded vocal tract exercises",
@@ -114434,6 +116578,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "tumor treating fields",
         "radiosensitization",
@@ -114488,6 +116633,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "functional dyspepsia",
         "proton pump inhibitors",
@@ -114540,6 +116686,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "chronic rhinosinusitis",
         "Sinusitis",
@@ -114591,6 +116738,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "acute myocardial infarction",
@@ -114638,6 +116786,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Plasmodium vivax",
         "Malaria, Vivax",
@@ -114692,6 +116841,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "secondary organizing pneumonia",
         "critically ill patients",
@@ -114739,6 +116889,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "TCL1",
         "Nanog",
@@ -114793,6 +116944,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "living donor liver transplantation",
         "donor safety",
@@ -114843,6 +116995,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "living donor liver transplantation",
         "Liver Transplantation",
@@ -114893,6 +117046,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "microcurrent therapy",
         "Rotator Cuff Injuries",
@@ -114945,6 +117099,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "distal transradial access",
@@ -114992,6 +117147,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "voice therapy",
         "phonation",
@@ -115042,6 +117198,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "high-protein diet",
         "oxyresveratrol",
@@ -115093,6 +117250,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "accommodative response",
         "accommodation",
@@ -115142,6 +117300,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "IgG1/IgG2a ratio",
         "BTBR T+tf/J mice",
@@ -115195,6 +117354,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "frozen shoulder",
         "ultrasound-guided injection",
@@ -115247,6 +117407,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "United States Food and Drug Administration",
         "Adverse Drug Reaction Reporting Systems",
@@ -115298,6 +117459,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "zebularine",
         "peritumoral inflammation",
@@ -115349,6 +117511,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "idiopathic normal pressure hydrocephalus",
         "cortical thickness",
@@ -115400,6 +117563,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Taste Disorders",
         "maxillary sinus",
@@ -115450,6 +117614,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "arthroscopic rotator cuff repair",
         "Shoulder Joint",
@@ -115499,6 +117664,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Facial Muscles",
         "Cadaver",
@@ -115547,6 +117713,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "quantitative EEG",
         "attention deficit hyperactivity disorder",
@@ -115597,6 +117764,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "sepsis",
         "secondary organizing pneumonia",
@@ -115645,6 +117813,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "external quality assessment",
         "urine sediment",
@@ -115697,6 +117866,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cesarean Section",
         "Prenatal Diagnosis",
@@ -115751,6 +117921,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Sicyos angulatus",
         "lipopolysaccharide translocation",
@@ -115800,6 +117971,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Aureobasidium",
         "Aureobasidium pullulans",
@@ -115854,6 +118026,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "dental implants",
         "maxillary sinus floor elevation",
@@ -115902,6 +118075,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "rheumatoid arthritis",
         "Antirheumatic Agents",
@@ -115956,6 +118130,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Bell's palsy",
         "Facial Nerve",
@@ -116007,6 +118182,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "unilateral ureteral obstruction",
         "Ureteral Obstruction",
@@ -116057,6 +118233,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "3D rotational angiography",
         "Intracranial Aneurysm",
@@ -116107,6 +118284,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Trabectedin",
         "Synthetic Lethal Mutations",
@@ -116158,6 +118336,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "total hip arthroplasty",
         "acetabular anteversion",
@@ -116209,6 +118388,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "calcium desensitization",
         "MYPT1 phosphorylation",
@@ -116260,6 +118440,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "reactive oxygen species",
         "oxaliplatin resistance",
@@ -116314,6 +118495,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "total knee arthroplasty",
         "Arthroplasty, Replacement, Knee",
@@ -116364,6 +118546,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "EGFR mutation",
         "Carcinoma, Non-Small-Cell Lung",
@@ -116414,6 +118597,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Endometrial Stromal Tumors",
         "V-ATPase",
@@ -116468,6 +118652,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Metabolic Syndrome",
         "Korean Longitudinal Study of Aging",
@@ -116515,6 +118700,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "kleptomania",
         "mesocorticolimbic system",
@@ -116566,6 +118752,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cell Culture Techniques, Three Dimensional",
         "TNFSF10",
@@ -116619,6 +118806,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "microcurrent therapy",
         "rabbit model",
@@ -116670,6 +118858,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "perineuronal nets",
         "Choerospondias axillaris",
@@ -116723,6 +118912,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Chaperone-Mediated Autophagy",
         "LAMP2A",
@@ -116774,6 +118964,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "stress urinary incontinence",
         "Prostatectomy",
@@ -116823,6 +119014,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "process performance evaluation",
         "fault management",
@@ -116871,6 +119063,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Scrub Typhus",
         "Orientia tsutsugamushi",
@@ -116925,6 +119118,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "acute myocardial infarction",
@@ -116978,6 +119172,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Antimicrobial Peptides",
         "Antimicrobial Cationic Peptides",
@@ -117032,6 +119227,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Bone Cysts, Aneurysmal",
         "MDC1",
@@ -117086,6 +119282,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Alzheimer Disease",
         "Cognitive Dysfunction",
@@ -117139,6 +119336,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "subgingival plaque",
         "oral bacteria",
@@ -117192,6 +119390,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Heme Oxygenase-1",
         "NF-kappa B",
@@ -117246,6 +119445,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "instant food consumption",
         "Health Surveys",
@@ -117296,6 +119496,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "Fractional Flow Reserve, Myocardial",
@@ -117348,6 +119549,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "stunting",
         "North Korean defectors",
@@ -117398,6 +119600,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "neoglucobrassicin",
         "antioxidant activity",
@@ -117451,6 +119654,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Antimicrobial Peptides",
         "Antimicrobial Cationic Peptides",
@@ -117504,6 +119708,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "antioxidant activity",
         "DPPH radical scavenging",
@@ -117553,6 +119758,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "COVID-19",
         "Korean medical journals",
@@ -117602,6 +119808,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Streptomyces",
         "enzyme purification",
@@ -117654,6 +119861,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "remimazolam",
         "Analgesics, Opioid",
@@ -117706,6 +119914,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "mild cognitive impairment",
         "amnestic mild cognitive impairment",
@@ -117755,6 +119964,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "mild cognitive impairment",
         "Alzheimer's disease diagnosis",
@@ -117807,6 +120017,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "left bundle branch area pacing",
         "Cardiac Pacing, Artificial",
@@ -117859,6 +120070,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "adolescents",
         "poverty duration",
@@ -117906,6 +120118,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Severe Fever with Thrombocytopenia Syndrome",
         "Scrub Typhus",
@@ -117960,6 +120173,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Mohs micrographic surgery",
         "frameshift mutation",
@@ -118012,6 +120226,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Neuropsychological Tests",
         "Cognitive Dysfunction",
@@ -118063,6 +120278,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "special education teachers",
         "teacher professional development",
@@ -118110,6 +120326,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "mushroom mycelium",
         "antioxidant activity",
@@ -118163,6 +120380,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "endoscopic submucosal dissection",
         "Endoscopic Mucosal Resection",
@@ -118216,6 +120434,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "FaDu cells",
         "pharyngeal cancer",
@@ -118269,6 +120488,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Sestrin2",
         "hepatic stellate cells",
@@ -118322,6 +120542,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "occlusal changes",
         "temporomandibular disorders",
@@ -118375,6 +120596,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Klotho Proteins",
         "salivary glands",
@@ -118428,6 +120650,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "interstitial cells of Cajal",
         "pacemaker activity",
@@ -118482,6 +120705,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acute ischemic stroke",
         "mechanical thrombectomy",
@@ -118534,6 +120758,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "FOXO6",
         "inflammasome",
@@ -118588,6 +120813,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Scrub Typhus",
         "Orientia tsutsugamushi",
@@ -118639,6 +120865,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "neuroprotection",
         "dopaminergic neurons",
@@ -118693,6 +120920,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "chronic hepatitis B",
         "liver cirrhosis",
@@ -118744,6 +120972,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "MDC1",
         "DNA Repair",
@@ -118797,6 +121026,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "FaDu cells",
         "hypopharyngeal squamous cell carcinoma",
@@ -118849,6 +121079,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "elastase inhibition",
         "hot water extract",
@@ -118899,6 +121130,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "post-exertional malaise",
         "multisystem symptoms",
@@ -118946,6 +121178,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "deep circumflex iliac artery flap",
         "Mandibular Reconstruction",
@@ -118996,6 +121229,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "MDC1",
         "soluble E-cadherin",
@@ -119050,6 +121284,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "type 2 diabetes",
         "SGLT2 inhibitors",
@@ -119099,6 +121334,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "FaDu cells",
         "25-hydroxycholesterol",
@@ -119153,6 +121389,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "prodromal Alzheimer's disease",
         "Vibrio vulnificus",
@@ -119204,6 +121441,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cognitive Dysfunction",
         "Alzheimer's disease",
@@ -119257,6 +121495,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "interstitial cells of Cajal",
         "pacemaker activity",
@@ -119310,6 +121549,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "HLA-B Antigens",
         "MspI",
@@ -119360,6 +121600,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Pin1",
         "NIMA-Interacting Peptidylprolyl Isomerase",
@@ -119414,6 +121655,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "plaque psoriasis",
         "psoriasis",
@@ -119465,6 +121707,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Carbon-Sulfur Lyases",
         "recombinant methioninase",
@@ -119517,6 +121760,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "LRP1",
         "MMP-2",
@@ -119569,6 +121813,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "metabolically unhealthy obesity",
         "metabolically healthy normal weight",
@@ -119620,6 +121865,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "sugammadex",
         "neuromuscular blockade reversal",
@@ -119670,6 +121916,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "minimally invasive spine surgery",
         "lumbar foraminal stenosis",
@@ -119720,6 +121967,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Endoscopic Mucosal Resection",
         "endoscopic submucosal dissection",
@@ -119771,6 +122019,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "ventricular tachycardia",
         "iatrogenic arterial injury",
@@ -119819,6 +122068,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "dupilumab",
         "Eczema Area and Severity Index",
@@ -119869,6 +122119,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "조선대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Orthopedic Procedures",
         "curettage",
@@ -119920,6 +122171,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "vascular inflammation",
         "ICAM-1",
@@ -119974,6 +122226,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "older adults",
         "mild cognitive impairment",
@@ -120027,6 +122280,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "marine fungi",
         "Penicillium",
@@ -120080,6 +122334,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "vascular inflammation",
         "ICAM-1",
@@ -120133,6 +122388,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "proton pump inhibitors",
         "functional dyspepsia",
@@ -120187,6 +122443,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "large language models",
         "Mandible",
@@ -120237,6 +122494,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "breast density",
         "one-carbon metabolism",
@@ -120285,6 +122543,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Lactiplantibacillus plantarum",
         "Bacillus cereus group",
@@ -120339,6 +122598,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "Drug-Eluting Stents",
@@ -120389,6 +122649,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Irritable Bowel Syndrome",
         "proton pump inhibitors",
@@ -120441,6 +122702,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Low Carbon Fuel Standard",
         "Renewable Energy Directive",
@@ -120495,6 +122757,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cerulein-induced pancreatitis",
         "sports ethics",
@@ -120547,6 +122810,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "acute myocardial infarction",
@@ -120597,6 +122861,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "traditional Korean medicine",
         "post-traumatic stress disorder",
@@ -120648,6 +122913,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "functional gastrointestinal disorders",
         "Depression",
@@ -120698,6 +122964,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Colonoscopy",
         "endoscopic submucosal dissection",
@@ -120752,6 +123019,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Fetus",
         "Cadaver",
@@ -120804,6 +123072,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "polyherbal formulation",
         "anti-adipogenic activity",
@@ -120857,6 +123126,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "TiO2 nanotubes",
         "dimensional accuracy",
@@ -120911,6 +123181,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "stroke rehabilitation",
         "Stroke",
@@ -120961,6 +123232,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "smoking status classification",
         "passive smoking",
@@ -121015,6 +123287,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "YOLOv7",
         "videofluoroscopic swallowing study",
@@ -121065,6 +123338,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Osteoarthritis",
         "NUDT7",
@@ -121118,6 +123392,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Amomum villosum",
         "Gastrodia elata",
@@ -121168,6 +123443,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "resistant starch",
         "octenyl succinic anhydride",
@@ -121220,6 +123496,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "traditional Korean medicine",
         "clinical research trends",
@@ -121270,6 +123547,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "spinal cord injury",
         "post-discharge rehabilitation",
@@ -121318,6 +123596,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "atrial fibrillation",
         "Catheter Ablation",
@@ -121367,6 +123646,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Gangliosides",
         "GD3 ganglioside",
@@ -121421,6 +123701,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "stroke rehabilitation",
         "Stroke",
@@ -121469,6 +123750,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "NFATc1",
         "osteoclastogenesis",
@@ -121523,6 +123805,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "polycaprolactone",
         "bone regeneration",
@@ -121577,6 +123860,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "trifluridine/tipiracil",
         "overall survival",
@@ -121630,6 +123914,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Guided Tissue Regeneration, Periodontal",
         "enamel matrix derivative",
@@ -121680,6 +123965,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "medication algorithm",
         "bipolar disorder",
@@ -121730,6 +124016,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Orthodontic Anchorage Procedures",
         "Tooth Movement Techniques",
@@ -121778,6 +124065,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "Drug-Eluting Stents",
@@ -121827,6 +124115,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "NFATc1",
         "osteoclastogenesis",
@@ -121878,6 +124167,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "vasorelaxation",
         "atrial natriuretic peptide",
@@ -121927,6 +124217,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Dry Powder Inhalers",
         "dry powder inhalation",
@@ -121979,6 +124270,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Peroxisomes",
         "heat acclimation",
@@ -122032,6 +124324,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "colorectal cancer",
         "MicroRNAs",
@@ -122083,6 +124376,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Streptococcus mutans",
         "dental caries",
@@ -122136,6 +124430,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Artemisia herba-alba",
         "Periodontitis",
@@ -122186,6 +124481,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "nail dystrophy",
         "nail trauma",
@@ -122235,6 +124531,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "PM2.5 exposure",
         "acute pulmonary inflammation",
@@ -122284,6 +124581,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cosmetic Techniques",
         "Dermal Fillers",
@@ -122334,6 +124632,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Students, Dental",
         "Education, Dental",
@@ -122385,6 +124684,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Salmonella Newport",
         "chlorine dioxide",
@@ -122433,6 +124733,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Pulmonary Disease, Chronic Obstructive",
         "chronic obstructive pulmonary disease",
@@ -122485,6 +124786,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "mitochondrial fission factor",
         "syntaphilin",
@@ -122536,6 +124838,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cerulein-induced pancreatitis",
         "Ceruletide",
@@ -122587,6 +124890,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "oral motor therapy",
         "occupational therapy",
@@ -122635,6 +124939,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "postoperative pain",
         "Laparoscopy",
@@ -122682,6 +124987,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Korean adults",
         "high-sensitivity C-reactive protein",
@@ -122730,6 +125036,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Kupperman index",
         "Soy Foods",
@@ -122781,6 +125088,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Elbow Injuries",
         "elbow range of motion",
@@ -122830,6 +125138,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cryphonectria parasitica",
         "mycoviruses",
@@ -122881,6 +125190,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Smad6",
         "early allograft dysfunction",
@@ -122932,6 +125242,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cadaver",
         "cadaveric dissection",
@@ -122982,6 +125293,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "localized fat",
         "Polycystic Ovary Syndrome",
@@ -123031,6 +125343,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "traditional Korean medicine",
         "pharmacopuncture",
@@ -123081,6 +125394,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "NLRP3 inflammasome",
         "IL-23/Th17 axis",
@@ -123134,6 +125448,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Aspergillus nidulans",
         "conidiation",
@@ -123186,6 +125501,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pharmacopuncture",
         "Zanthoxylum piperitum",
@@ -123235,6 +125551,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "scalp acupuncture",
         "Zanthoxylum",
@@ -123284,6 +125601,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "proprioceptive neuromuscular facilitation",
         "cybersickness",
@@ -123335,6 +125653,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "DSS-induced colitis",
         "ulcerative colitis",
@@ -123385,6 +125704,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Organic Cation Transporter 2",
         "OAT3",
@@ -123437,6 +125757,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "ovarian cancer",
         "RSF1",
@@ -123490,6 +125811,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Eisenstein series",
         "quasimodular forms",
@@ -123541,6 +125863,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "lactic acid bacteria",
         "anti-aging effects",
@@ -123591,6 +125914,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Corynebacterium durum",
         "Tryptamines",
@@ -123641,6 +125965,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Nutrition Surveys",
         "Community-Institutional Relations",
@@ -123689,6 +126014,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Toxin-Antitoxin Systems",
         "dihydrolipoamide succinyltransferase",
@@ -123740,6 +126066,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "non-alcoholic fatty liver disease",
         "Rhus coriaria",
@@ -123792,6 +126119,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Korean Longitudinal Study of Aging",
         "community-dwelling older adults",
@@ -123839,6 +126167,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "lifespan extension",
         "DAF-16/FOXO",
@@ -123888,6 +126217,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -123920,6 +126250,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Photosynthesis",
         "Silicon",
@@ -123972,6 +126303,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Receptors, Purinergic P2Y2",
         "P2Y2 receptor",
@@ -124026,6 +126358,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Streptococcus pyogenes",
         "rapid antigen test",
@@ -124079,6 +126412,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pharmacokinetics",
         "bioequivalence",
@@ -124131,6 +126465,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "methane emissions",
         "paddy soil",
@@ -124182,6 +126517,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "acute myocardial infarction",
@@ -124234,6 +126570,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Oryza",
         "beta-Fructofuranosidase",
@@ -124287,6 +126624,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Isoflavones",
         "digestive enzyme inhibition",
@@ -124337,6 +126675,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Gene Expression Regulation, Plant",
         "Molecular Chaperones",
@@ -124390,6 +126729,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pig barns",
         "multiple linear regression",
@@ -124440,6 +126780,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Brucellosis",
         "Brucella abortus",
@@ -124493,6 +126834,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Aureobasidium pullulans",
         "exopolymers",
@@ -124540,6 +126882,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "red sea bream iridovirus",
         "Fish Diseases",
@@ -124593,6 +126936,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Dogs",
         "beagle dogs",
@@ -124647,6 +126991,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Palliative Care",
         "advanced cancer",
@@ -124700,6 +127045,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cholinergic system",
         "oxidative stress",
@@ -124750,6 +127096,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "overall survival",
         "progression-free survival",
@@ -124802,6 +127149,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Plasmodium vivax",
         "Protozoan Proteins",
@@ -124855,6 +127203,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Dogs",
         "Cats",
@@ -124907,6 +127256,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "trifluoperazine",
         "IP3R3",
@@ -124960,6 +127310,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "neuroinflammation",
         "neuroprotection",
@@ -125014,6 +127365,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Students, Medical",
         "Clinical Clerkship",
@@ -125067,6 +127419,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pesticide residues",
         "residue dissipation",
@@ -125120,6 +127473,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "kinetic equations",
         "BGK model",
@@ -125171,6 +127525,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Apoptosis",
         "flavonoids",
@@ -125224,6 +127579,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "lipid oxidation",
         "total volatile basic nitrogen",
@@ -125273,6 +127629,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "blastocyst development",
         "Embryonic Development",
@@ -125327,6 +127684,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Enhancer Elements, Genetic",
         "super-enhancers",
@@ -125380,6 +127738,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cooking loss",
         "water holding capacity",
@@ -125433,6 +127792,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "middle cerebral artery occlusion",
         "Infarction, Middle Cerebral Artery",
@@ -125486,6 +127846,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cultured meat",
         "Warner-Bratzler shear force",
@@ -125538,6 +127899,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "neonatal physical therapy",
         "certified reference materials",
@@ -125591,6 +127953,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "plant microbiome",
         "Erwinia amylovora",
@@ -125644,6 +128007,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "first report",
         "plant pathogenic fungi",
@@ -125695,6 +128059,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Dog Diseases",
         "Dogs",
@@ -125749,6 +128114,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "antioxidant activity",
         "free radical scavenging",
@@ -125801,6 +128167,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Fat Emulsions, Intravenous",
         "lipid emulsions",
@@ -125848,6 +128215,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "supplemental lighting",
         "plug seedlings",
@@ -125895,6 +128263,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "glacial refugia",
         "allozyme variation",
@@ -125942,6 +128311,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "electronic nose",
         "electronic tongue",
@@ -125993,6 +128363,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "rumen fermentation",
         "Fibrobacter succinogenes",
@@ -126044,6 +128415,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "firefighters",
         "sarcopenia",
@@ -126096,6 +128468,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Intraocular Pressure",
         "corneal endotheliitis",
@@ -126150,6 +128523,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "clopidogrel",
@@ -126199,6 +128573,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Potassium Channels, Tandem Pore Domain",
         "two-pore domain potassium channels",
@@ -126252,6 +128627,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pseudo-second-order kinetics",
         "biochar",
@@ -126299,6 +128675,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "neuroprotection",
         "oxidative stress",
@@ -126352,6 +128729,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "neutrophil gelatinase-associated lipocalin",
         "Lipocalin-2",
@@ -126406,6 +128784,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Percutaneous Coronary Intervention",
         "coronary artery disease",
@@ -126457,6 +128836,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "gallbladder cancer",
         "Laparoscopy",
@@ -126511,6 +128891,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "intravitreal injection",
         "best-corrected visual acuity",
@@ -126564,6 +128945,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Plasmodesmata",
         "tomato",
@@ -126617,6 +128999,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Clostridium acetobutylicum",
         "butanol production",
@@ -126670,6 +129053,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "lipid oxidation",
         "meat quality",
@@ -126721,6 +129105,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Panax notoginseng",
         "saponin accumulation",
@@ -126775,6 +129160,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Eimeria",
         "coccidiosis",
@@ -126828,6 +129214,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "steam explosion",
         "Quercus variabilis",
@@ -126877,6 +129264,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "CD117",
         "Immunoconjugates",
@@ -126930,6 +129318,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경상국립대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Fish Diseases",
         "Paralichthys olivaceus",
@@ -126983,6 +129372,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "brown algae",
         "fucoidan",
@@ -127036,6 +129426,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "reactive oxygen species",
         "Apoptosis",
@@ -127089,6 +129480,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Keratinocytes",
         "reactive oxygen species",
@@ -127143,6 +129535,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acute ischemic stroke",
         "Ischemic Stroke",
@@ -127195,6 +129588,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Fish Diseases",
         "Fish Proteins",
@@ -127248,6 +129642,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "experimental autoimmune encephalomyelitis",
         "Vomeronasal Organ",
@@ -127302,6 +129697,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acute ischemic stroke",
         "CADASIL",
@@ -127355,6 +129751,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "amivantamab",
         "EGFR-mutant non-small cell lung cancer",
@@ -127409,6 +129806,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "hematological parameters",
         "Water Pollutants, Chemical",
@@ -127457,6 +129855,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "hypothermic machine perfusion",
         "deceased donor kidney transplantation",
@@ -127511,6 +129910,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Severe Fever with Thrombocytopenia Syndrome",
         "Phlebovirus",
@@ -127564,6 +129964,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Litopenaeus vannamei",
         "growth performance",
@@ -127612,6 +130013,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "white matter hyperintensities",
         "CADASIL",
@@ -127663,6 +130065,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "high-throughput phenotyping",
         "Plant Breeding",
@@ -127716,6 +130119,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "B16F10 melanoma cells",
         "melanogenesis",
@@ -127770,6 +130174,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "anti-inflammatory activity",
         "leaf extract",
@@ -127821,6 +130226,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "mammosphere formation",
         "breast cancer stem cells",
@@ -127874,6 +130280,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "leaf senescence",
         "Zoysia japonica",
@@ -127926,6 +130333,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Osteoarthritis",
         "cartilage degeneration",
@@ -127980,6 +130388,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Rectal Neoplasms",
         "Disease-Free Survival",
@@ -128034,6 +130443,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "medication algorithm",
         "bipolar disorder",
@@ -128086,6 +130496,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "capsule endoscopy",
         "obscure gastrointestinal bleeding",
@@ -128138,6 +130549,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "CADASIL",
         "Catechol O-Methyltransferase Inhibitors",
@@ -128190,6 +130602,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "LINC-PINT",
         "Hematopoietic Stem Cell Transplantation",
@@ -128243,6 +130656,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Keratinocytes",
         "reactive oxygen species",
@@ -128297,6 +130711,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "heat stress",
         "Chickens",
@@ -128351,6 +130766,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Gastrectomy",
         "wearable displays",
@@ -128402,6 +130818,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "antioxidant activity",
         "α-glucosidase inhibition",
@@ -128454,6 +130871,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Rotator Cuff Injuries",
         "Arthroscopy",
@@ -128504,6 +130922,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Jeju Province",
         "meta-epidemiology",
@@ -128554,6 +130973,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Severe Fever with Thrombocytopenia Syndrome",
         "Phlebovirus",
@@ -128607,6 +131027,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Abortion, Habitual",
         "endometrial thickness",
@@ -128660,6 +131081,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "5-fluorouracil resistance",
         "Cadaver",
@@ -128713,6 +131135,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Monochamus alternatus",
         "degree-days",
@@ -128763,6 +131186,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "carbapenem resistance",
         "beta-Lactamases",
@@ -128816,6 +131240,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "medical school accreditation",
         "lower urinary tract symptoms",
@@ -128867,6 +131292,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Acute Kidney Injury",
         "cisplatin nephrotoxicity",
@@ -128921,6 +131347,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "bipolar disorder",
         "Depression",
@@ -128970,6 +131397,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "water holding capacity",
         "Hermetia illucens",
@@ -129019,6 +131447,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "red-spotted grouper",
         "Epinephelus akaara",
@@ -129067,6 +131496,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acute myocardial infarction",
         "ventricular-arterial coupling",
@@ -129117,6 +131547,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Jeju Island",
         "Cholangiocarcinoma",
@@ -129170,6 +131601,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Sargassum horneri",
         "follicular lymphoma",
@@ -129224,6 +131656,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Streptococcal Infections",
         "Streptococcus suis",
@@ -129278,6 +131711,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "ventricular-arterial coupling",
         "effective arterial elastance",
@@ -129330,6 +131764,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "dermal papilla cells",
         "Hair Follicle",
@@ -129381,6 +131816,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "small nucleolar RNA host genes",
         "CD9",
@@ -129434,6 +131870,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Laminaria japonica",
         "growth performance",
@@ -129487,6 +131924,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "ion concentration polarization",
         "diffusiophoresis",
@@ -129538,6 +131976,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "β-glucan",
         "Hypoxia-Inducible Factor-Proline Dioxygenases",
@@ -129591,6 +132030,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "hair growth",
         "atopic dermatitis",
@@ -129640,6 +132080,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pentadecanoic acid",
         "heptadecanoic acid",
@@ -129694,6 +132135,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acute ischemic stroke",
         "Ischemic Stroke",
@@ -129747,6 +132189,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Intraocular Pressure",
         "glaucoma",
@@ -129800,6 +132243,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pharmacokinetics",
         "Healthy Volunteers",
@@ -129853,6 +132297,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Dog Diseases",
         "Dogs",
@@ -129907,6 +132352,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "sigmoid volvulus",
         "esophageal foreign body",
@@ -129957,6 +132403,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "myasthenia gravis",
         "neuromyelitis optica spectrum disorder",
@@ -130006,6 +132453,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "transimpedance amplifier",
         "0.18 μm CMOS",
@@ -130059,6 +132507,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Phospholipase D",
         "phospholipase D2",
@@ -130112,6 +132561,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "photoacoustic imaging",
         "Photoacoustic Techniques",
@@ -130165,6 +132615,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Printing, Three-Dimensional",
         "3D cell printing",
@@ -130218,6 +132669,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Metabolic Engineering",
         "Escherichia coli",
@@ -130315,6 +132767,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "VRK2",
         "VRK1",
@@ -130368,6 +132821,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "stretchable electronics",
         "electronic skin",
@@ -130421,6 +132875,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "triboelectric nanogenerator",
         "Nanofibers",
@@ -130474,6 +132929,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "flow chemistry",
         "microreactors",
@@ -130527,6 +132983,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "clonal hematopoiesis",
         "Chief Cells, Gastric",
@@ -130580,6 +133037,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "ion concentration polarization",
         "stretchable strain sensors",
@@ -130633,6 +133091,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "chloroplasts",
         "Nicotiana benthamiana",
@@ -130686,6 +133145,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Decellularized Extracellular Matrix",
         "bioinks",
@@ -130740,6 +133200,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "k-core percolation",
         "volume entropy",
@@ -130794,6 +133255,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "engineered stem cells",
         "metastatic renal cell carcinoma",
@@ -130849,6 +133311,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "probiotics",
         "gut microbiota",
@@ -130902,6 +133365,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "conjunctival goblet cells",
         "Moxifloxacin",
@@ -130955,6 +133419,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Synthetic Biology",
         "toehold switch",
@@ -131009,6 +133474,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "enhancer RNA",
         "Enhancer Elements, Genetic",
@@ -131062,6 +133528,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Synthetic Biology",
         "Cell-Free System",
@@ -131116,6 +133583,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "gelatin methacryloyl",
         "mechanotransduction",
@@ -131169,6 +133637,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "minimum selling price",
         "techno-economic analysis",
@@ -131218,6 +133687,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acoustic tweezers",
         "high-frequency ultrasound",
@@ -131272,6 +133742,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "surface electromyography",
         "partial hand amputation",
@@ -131324,6 +133795,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "IL-9",
         "CXCR3",
@@ -131377,6 +133849,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "IL-7",
         "vaginal administration",
@@ -131430,6 +133903,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "DISC1",
         "Ndel1",
@@ -131483,6 +133957,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Alzheimer Disease",
         "MEDLINE abstracts",
@@ -131536,6 +134011,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "point-of-care testing",
         "lateral flow immunoassay",
@@ -131589,6 +134065,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "magnetic particle imaging",
         "stroke rehabilitation",
@@ -131641,6 +134118,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "sperm ejection",
         "Sexual Behavior, Animal",
@@ -131695,6 +134173,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "polypyrrole",
         "conducting polymers",
@@ -131748,6 +134227,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "brain-computer interface",
         "rapid serial visual presentation",
@@ -131798,6 +134278,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "breast cancer stem cells",
         "small molecule inhibitors",
@@ -131851,6 +134332,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Purinergic P2X Receptor Antagonists",
         "structure-activity relationship",
@@ -131904,6 +134386,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "deoxyhemoglobin",
         "near-infrared spectroscopy",
@@ -131958,6 +134441,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Asthma",
         "protective clothing",
@@ -132009,6 +134493,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Serotonin 5-HT2 Receptor Antagonists",
         "structure-activity relationship",
@@ -132062,6 +134547,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "cavernous tissue",
         "neurovascular regeneration",
@@ -132115,6 +134601,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "effective medium theory",
         "Dielectric Spectroscopy",
@@ -132168,6 +134655,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Glucagon-Like Peptide-1 Receptor",
         "GRK5",
@@ -132221,6 +134709,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Aging",
         "Frailty",
@@ -132274,6 +134763,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "ferroelectric tunnel junctions",
         "autonomous landing",
@@ -132326,6 +134816,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "immunological synapse",
         "TAGLN2",
@@ -132379,6 +134870,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "light field microscopy",
         "Meibomian Gland Dysfunction",
@@ -132432,6 +134924,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "ARID1A",
         "tumor cell proliferation",
@@ -132485,6 +134978,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "cereblon",
         "BK channels",
@@ -132538,6 +135032,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "CCN5",
         "matricellular proteins",
@@ -132591,6 +135086,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "constitutional short stature",
         "Styela clava",
@@ -132644,6 +135140,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -132676,6 +135173,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "sarcopenia",
         "Frailty",
@@ -132730,6 +135228,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "CNTN4",
         "immune checkpoint",
@@ -132783,6 +135282,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "pronation and supination",
         "activities of daily living",
@@ -132832,6 +135332,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "acrosome biogenesis",
         "long non-coding RNA",
@@ -132885,6 +135386,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Peptoids",
         "Porphyrins",
@@ -132937,6 +135439,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "extreme learning machine",
         "Algorithms",
@@ -132988,6 +135491,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "urolithin A",
         "mitophagy",
@@ -133041,6 +135545,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "sleep-wake regulation",
         "vitamin D deficiency",
@@ -133094,6 +135599,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "cancer-associated fibroblasts",
         "monocyte differentiation",
@@ -133147,6 +135653,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "LIM-Homeodomain Proteins",
         "Motor Neurons",
@@ -133200,6 +135707,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "mannitol dehydrogenase",
         "uricase",
@@ -133253,6 +135761,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Peroxisomes",
         "pexophagy",
@@ -133308,6 +135817,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Internal Capsule",
         "Recovery of Function",
@@ -133361,6 +135871,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Bradyrhizobium elkanii",
         "Bradyrhizobium diazoefficiens",
@@ -133414,6 +135925,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "particulate respirators",
         "microplastic fibers",
@@ -133467,6 +135979,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "imaging genetics",
         "neuroimaging",
@@ -133520,6 +136033,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Peroxisomes",
         "organ of Corti",
@@ -133573,6 +136087,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "BMP signaling",
         "intersegmental vessels",
@@ -133626,6 +136141,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "dynorphin A",
         "Receptors, Opioid, mu",
@@ -133679,6 +136195,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "cereblon",
         "6-phosphogluconate dehydrogenase",
@@ -133733,6 +136250,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "magnetorheological fluid",
         "zinc ferrite",
@@ -133784,6 +136302,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "integrative Korean medicine",
         "trogocytosis",
@@ -133834,6 +136353,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "FOXO4",
         "Forkhead Transcription Factors",
@@ -133886,6 +136406,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "operational transfer path analysis",
         "fault diagnosis",
@@ -133937,6 +136458,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "omega-3 polyunsaturated fatty acids",
         "docosahexaenoic acid",
@@ -133990,6 +136512,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "homotypic membrane fusion",
         "atlastin",
@@ -134042,6 +136565,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Aminopeptidases",
         "Cupriavidus necator",
@@ -134094,6 +136618,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "carbon nanotube fibers",
         "electrophoretic deposition",
@@ -134141,6 +136666,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "neck formation",
         "flexible interconnects",
@@ -134192,6 +136718,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "유한양행",
       "position": "",
+      "company": "",
       "keywords": [
         "RET receptor",
         "intracranial activity",
@@ -134243,6 +136770,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "유한양행",
       "position": "",
+      "company": "",
       "keywords": [
         "VCA IgM",
         "omalizumab",
@@ -134291,6 +136819,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Medicare",
         "Arthritis, Rheumatoid",
@@ -134345,6 +136874,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Parylene C",
         "Electrodes, Implanted",
@@ -134399,6 +136929,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "electrical synapses",
         "subthreshold oscillations",
@@ -134451,6 +136982,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "functional near-infrared spectroscopy",
         "cortical activation",
@@ -134501,6 +137033,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "electronic nose",
         "odor detection",
@@ -134552,6 +137085,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "olfactory receptors",
         "Smell",
@@ -134605,6 +137139,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "USP14",
         "deubiquitinase",
@@ -134658,6 +137193,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "C9orf72",
         "Amyotrophic Lateral Sclerosis",
@@ -134711,6 +137247,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "water striders",
         "Passeriformes",
@@ -134762,6 +137299,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Molecularly Imprinted Polymers",
         "Molecular Imprinting",
@@ -134815,6 +137353,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "ONC201",
         "H3K27M mutation",
@@ -134868,6 +137407,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Erythropoietin",
         "Receptors, Erythropoietin",
@@ -134921,6 +137461,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Synapses",
         "Synaptic Transmission",
@@ -134974,6 +137515,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "augmented reality",
         "Surgery, Computer-Assisted",
@@ -135024,6 +137566,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "circulating tumor cells",
         "Neoplastic Cells, Circulating",
@@ -135077,6 +137620,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Wireless Technology",
         "stretchable electronics",
@@ -135130,6 +137674,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "phosphatidylinositol 4,5-bisphosphate",
         "Phosphatidylinositol 4,5-Diphosphate",
@@ -135183,6 +137728,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "swing-up control",
         "double inverted pendulum",
@@ -135234,6 +137780,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "triboelectric nanogenerator",
         "piezoelectric nanogenerators",
@@ -135283,6 +137830,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "fire-resistant steel",
         "molybdenum addition",
@@ -135332,6 +137880,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Nischarin",
         "Bioreactors",
@@ -135385,6 +137934,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Lissajous scanning",
         "blood flow oscillations",
@@ -135438,6 +137988,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Synapses",
         "GABAergic synapses",
@@ -135491,6 +138042,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "snake robot",
         "legged robots",
@@ -135541,6 +138093,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Gene Expression Regulation, Plant",
         "stomatal closure",
@@ -135594,6 +138147,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "polystyrene microplastics",
         "Microplastics",
@@ -135647,6 +138201,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "peripheral nerve stimulation",
         "neuromodulation",
@@ -135699,6 +138254,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "MDGA1",
         "ultrasonic vocalizations",
@@ -135751,6 +138307,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Reward",
         "spatiotemporal resolution",
@@ -135804,6 +138361,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "suprachiasmatic nucleus",
         "circadian rhythm",
@@ -135857,6 +138415,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "hypothalamus",
         "Neuropeptide Y",
@@ -135909,6 +138468,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "mossy cells",
         "Mossy Fibers, Hippocampal",
@@ -135963,6 +138523,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Pheromones",
         "Sensory Receptor Cells",
@@ -136015,6 +138576,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Cocaine-Related Disorders",
         "NMR chemical shifts",
@@ -136068,6 +138630,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Keap1",
         "lung squamous cell carcinoma",
@@ -136122,6 +138685,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "ultrasound localization microscopy",
         "clutter suppression",
@@ -136174,6 +138738,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "magnetic self-assembly",
         "stretchable interconnects",
@@ -136223,6 +138788,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "transthyretin amyloidosis",
         "prealbumin",
@@ -136276,6 +138842,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "leaf senescence",
         "Gene Expression Regulation, Plant",
@@ -136328,6 +138895,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Chromatin",
         "loop extrusion",
@@ -136379,6 +138947,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "da Vinci Research Kit",
         "hysteresis compensation",
@@ -136428,6 +138997,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "0.18 μm CMOS",
         "low-power analog-to-digital conversion",
@@ -136477,6 +139047,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "electrical resistance tomography",
         "robot skin",
@@ -136528,6 +139099,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "irradiated tumor cells",
         "adoptive immunotherapy",
@@ -136580,6 +139152,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "leaf senescence",
         "Gene Expression Regulation, Plant",
@@ -136632,6 +139205,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "autophagic cell death",
         "Neural Stem Cells",
@@ -136682,6 +139256,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "thermal flow field",
         "infrared signature",
@@ -136730,6 +139305,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "deep brain stimulation",
         "Subthalamic Nucleus",
@@ -136781,6 +139357,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "axon regeneration",
         "Axons",
@@ -136831,6 +139408,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "alantolactone",
         "LIN28A",
@@ -136883,6 +139461,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "retinal thinning",
         "Tomography, Optical Coherence",
@@ -136935,6 +139514,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "seborrheic dermatitis",
         "dermatological diagnosis",
@@ -136986,6 +139566,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Receptors, Odorant",
         "olfactory receptors",
@@ -137039,6 +139620,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "triboelectric nanogenerator",
         "Ti3C2Tx",
@@ -137088,6 +139670,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Holography",
         "acoustic holograms",
@@ -137138,6 +139721,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "rice",
         "population structure",
@@ -137191,6 +139775,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "mineral intake",
         "mineral content",
@@ -137238,6 +139823,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Agriculture",
         "chloropicrin",
@@ -137291,6 +139877,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cooking yield",
         "water holding capacity",
@@ -137341,6 +139928,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "kenaf",
         "mutation breeding",
@@ -137395,6 +139983,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Paralichthys olivaceus",
         "fish meal replacement",
@@ -137444,6 +140033,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "chondrocyte dedifferentiation",
         "articular chondrocytes",
@@ -137497,6 +140087,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Charcot-Marie-Tooth Disease",
         "Charcot-Marie-Tooth disease type 1A",
@@ -137550,6 +140141,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "environmental health behavior",
         "Pregnant People",
@@ -137601,6 +140193,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "circadian rhythm",
         "D-galactose-induced aging",
@@ -137654,6 +140247,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "chemotypes",
         "high pressure processing",
@@ -137705,6 +140299,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "nursing students",
         "Accidents, Home",
@@ -137752,6 +140347,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "elevated CO2",
         "high temperature",
@@ -137800,6 +140396,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "sperm maturation",
         "sperm storage",
@@ -137853,6 +140450,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Annona muricata",
         "leaf polysaccharides",
@@ -137901,6 +140499,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "National Health Programs",
         "bacterial gastroenteritis",
@@ -137948,6 +140547,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "antioxidant activity",
         "citrus peel essential oil",
@@ -137997,6 +140597,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Novirhabdovirus",
         "viral hemorrhagic septicemia virus",
@@ -138048,6 +140649,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "torrefaction",
         "torrefaction temperature",
@@ -138097,6 +140699,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pre-harvest sprouting",
         "wheat",
@@ -138150,6 +140753,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "strawberry",
         "fruit yield",
@@ -138197,6 +140801,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "1-methylcyclopropene",
         "fruit firmness",
@@ -138247,6 +140852,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Quantitative Trait Loci",
         "positional candidate genes",
@@ -138299,6 +140905,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "disease resilience",
         "salivary microRNAs",
@@ -138350,6 +140957,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Breathing Exercises",
         "pulmonary function tests",
@@ -138400,6 +141008,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Fluorocarbon Polymers",
         "carbon quantum dots",
@@ -138453,6 +141062,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Meat Substitutes",
         "nitrogen solubility index",
@@ -138500,6 +141110,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "wheat",
         "Triticum",
@@ -138550,6 +141161,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "indica",
         "rice",
@@ -138603,6 +141215,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "bacterial gastroenteritis",
         "Health Literacy",
@@ -138653,6 +141266,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "sensory evaluation",
         "antioxidant activity",
@@ -138700,6 +141314,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Students, Nursing",
         "health-promoting behaviors",
@@ -138747,6 +141362,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "MMP-2",
         "MMP-9",
@@ -138797,6 +141413,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "BALB/c 3T3 cells",
         "3-aminopropyltrimethoxysilane",
@@ -138848,6 +141465,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "microwave ablation",
         "image-guided percutaneous ablation",
@@ -138897,6 +141515,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Escherichia coli O157:H7",
         "Listeria monocytogenes",
@@ -138946,6 +141565,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Nyctereutes procyonoides",
         "Ciconia boyciana",
@@ -138995,6 +141615,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "screw speed",
         "nitrogen solubility index",
@@ -139042,6 +141663,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Myxozoa",
         "Fish Diseases",
@@ -139093,6 +141715,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "wind pressure coefficient",
         "virtual reality simulator",
@@ -139142,6 +141765,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "debris flows",
         "forest roads",
@@ -139189,6 +141813,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "wolf",
         "grey wolf",
@@ -139242,6 +141867,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "superheated steam",
         "Steam",
@@ -139291,6 +141917,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Fish Diseases",
         "DNA Virus Infections",
@@ -139338,6 +141965,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Antimicrobial Peptides",
         "biofilm inhibition",
@@ -139387,6 +142015,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Charcot-Marie-Tooth Disease",
         "Cymbidium goeringii",
@@ -139437,6 +142066,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "RNA, Double-Stranded",
         "mitochondrial double-stranded RNA",
@@ -139490,6 +142120,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "single-walled carbon nanotubes",
         "serotonin detection",
@@ -139543,6 +142174,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산과학기술원",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -139575,6 +142207,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -139607,6 +142240,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전남대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Coordination Complexes",
         "antitumor immunity",
@@ -139659,6 +142293,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -139691,6 +142326,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -139724,6 +142360,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Universal Design for Learning",
         "Parkinson's disease",
@@ -139777,6 +142414,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -139809,6 +142447,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "ligand environment",
         "CH4 oxidation",
@@ -139856,6 +142495,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -139888,6 +142528,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -139920,6 +142561,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -139952,6 +142594,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -139984,6 +142627,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산과학기술원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -140016,6 +142660,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "",
       "position": "",
+      "company": "",
       "keywords": [
         "Serum Albumin, Human",
         "human serum albumin",
@@ -140068,6 +142713,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -140100,6 +142746,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -140132,6 +142779,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "RNA biosensors",
         "data-driven design",
@@ -140180,6 +142828,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "prostate volume",
         "Korean Medical Association",
@@ -140230,6 +142879,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "antioxidant metabolism",
         "therapeutic targeting",
@@ -140277,6 +142927,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "fatty acid conjugation",
         "poorly water-soluble drugs",
@@ -140331,6 +142982,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Asphodelaceae",
         "extract standardization",
@@ -140382,6 +143034,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "aryl hydrocarbon receptor",
         "Shigella flexneri",
@@ -140433,6 +143086,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "lung-on-a-chip",
         "MUC5AC",
@@ -140480,6 +143134,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "molecular networking",
         "drug metabolite identification",
@@ -140531,6 +143186,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "psychiatric medication",
         "drug initiation",
@@ -140578,6 +143234,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "caloric restriction",
         "organ allocation",
@@ -140632,6 +143289,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "phase-transfer catalysis",
         "asymmetric synthesis",
@@ -140681,6 +143339,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "coffee leaves",
         "vicenin-2",
@@ -140730,6 +143389,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Vomeronasal Organ",
         "olfactory marker protein",
@@ -140779,6 +143439,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Dogs",
         "Dog Diseases",
@@ -140831,6 +143492,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "pancreatic cancer",
         "Pancreatic Neoplasms",
@@ -140882,6 +143544,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "mosquito-borne viruses",
         "mosquito distribution",
@@ -140933,6 +143596,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Influenza Vaccines",
         "Orthomyxoviridae Infections",
@@ -140986,6 +143650,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "equine neoplasia",
         "foals",
@@ -141035,6 +143700,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "calbindin-D9k",
         "endocrine disruptors",
@@ -141089,6 +143755,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "PARP1 inhibition",
         "Ewing sarcoma",
@@ -141142,6 +143809,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "제주대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Dog Diseases",
         "Group IV Phospholipases A2",
@@ -141193,6 +143861,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cold-pressed oil",
         "Citrus aurantifolia",
@@ -141245,6 +143914,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -141277,6 +143947,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Wound Healing",
         "angiogenesis",
@@ -141330,6 +144001,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -141363,6 +144035,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭관동대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "MicroRNAs",
         "cardiac fibroblast activation",
@@ -141416,6 +144089,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "강원대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Acoustics",
         "angiogenesis",
@@ -141469,6 +144143,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "강원대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -141501,6 +144176,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -141533,6 +144209,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가톨릭대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -141566,6 +144243,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cardiac remodeling",
         "myocardial infarction",
@@ -141620,6 +144298,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "albumin-drug conjugates",
         "macropinocytosis",
@@ -141673,6 +144352,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "단국대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -141705,6 +144385,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "microporous organic polymers",
         "conjugated microporous polymers",
@@ -141755,6 +144436,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "아주대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -141787,6 +144469,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -141819,6 +144502,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -141851,6 +144535,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "furfural hydrogenation",
         "liquid organic hydrogen carriers",
@@ -141903,6 +144588,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전남대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -141935,6 +144621,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전남대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -141967,6 +144654,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "국민대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -141999,6 +144687,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "대구경북과학기술원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -142031,6 +144720,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -142063,6 +144753,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "충남대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "pharmacokinetics",
         "plasma drug quantification",
@@ -142116,6 +144807,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "adipose-derived stem cells",
         "platelet-derived growth factor",
@@ -142165,6 +144857,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -142197,6 +144890,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -142229,6 +144923,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울과학기술대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "transferable force fields",
         "metadynamics",
@@ -142281,6 +144976,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "아주대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -142313,6 +145009,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인천대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "trabecular meshwork",
         "shear-thinning ink",
@@ -142366,6 +145063,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경북대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -142398,6 +145096,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Macular Edema",
         "Tomography, Optical Coherence",
@@ -142445,6 +145144,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -142477,6 +145177,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -142509,6 +145210,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "우석대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -142541,6 +145243,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "강원대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -142573,6 +145276,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "원광대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -142606,6 +145310,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "microphysiological systems",
         "Tumor Microenvironment",
@@ -142711,6 +145416,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "tumor hypoxia",
         "DNA-Activated Protein Kinase",
@@ -142821,6 +145527,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "cell-penetrating peptides",
         "charge conversion",
@@ -142926,6 +145633,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "single-molecule FRET",
         "DNA bendability",
@@ -142979,6 +145687,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cell surface engineering",
         "cell engineering",
@@ -143033,6 +145742,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "neutrophil extracellular traps",
         "NETosis",
@@ -143086,6 +145796,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Toll-Like Receptor 7",
         "TLR7/8 agonist",
@@ -143191,6 +145902,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "transient electronics",
         "biodegradable electronics",
@@ -143299,6 +146011,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "1/f noise",
         "DC measurement",
@@ -143346,6 +146059,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -143421,6 +146135,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "stretchable electronics",
         "wearable electronics",
@@ -143475,6 +146190,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -143508,6 +146224,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Sinusitis",
         "Rhinitis",
@@ -143562,6 +146279,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "DNA origami",
         "Nucleic Acid Conformation",
@@ -143673,6 +146391,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -143705,6 +146424,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Muscle Strength Dynamometer",
         "Robotics",
@@ -143757,6 +146477,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -143789,6 +146510,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "electrochemical CO2 reduction",
         "Faradaic efficiency",
@@ -143842,6 +146564,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "biochemical pregnancy",
         "pelvic pain",
@@ -143889,6 +146612,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Radiotherapy Planning, Computer-Assisted",
         "volumetric modulated arc therapy",
@@ -143942,6 +146666,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -143975,6 +146700,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Keloid",
         "diabetic foot ulcer",
@@ -144029,6 +146755,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "chest radiograph",
         "Radiography, Thoracic",
@@ -144081,6 +146808,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -144114,6 +146842,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "cyclic olefin copolymer",
         "Cycloparaffins",
@@ -144168,6 +146897,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "out-of-hospital cardiac arrest",
         "Emergency Medical Services",
@@ -144219,6 +146949,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -144251,6 +146982,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -144284,6 +147016,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "atrial fibrillation",
         "pulmonary vein isolation",
@@ -144337,6 +147070,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Health Records, Personal",
         "HL7 FHIR",
@@ -144387,6 +147121,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Appendicitis",
         "Tomography, X-Ray Computed",
@@ -144440,6 +147175,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -144473,6 +147209,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "orthogonal projection",
         "LangGraph",
@@ -144522,6 +147259,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -144554,6 +147292,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -144586,6 +147325,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "gingival retraction cord",
         "periodontitis severity",
@@ -144633,6 +147373,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "silicon photomultipliers",
         "time-of-flight PET",
@@ -144686,6 +147427,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -144719,6 +147461,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cardiopulmonary Resuscitation",
         "Manikins",
@@ -144772,6 +147515,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "C1q binding",
         "Receptors, Fc",
@@ -144826,6 +147570,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "organic optoelectronic devices",
         "organic light-emitting diodes",
@@ -144877,6 +147622,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "sarcopenia",
         "older adults",
@@ -144931,6 +147677,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "REM sleep behavior disorder",
         "Restless Legs Syndrome",
@@ -144984,6 +147731,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -145016,6 +147764,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Robotics",
         "soft wearable robots",
@@ -145089,6 +147838,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Brain Neoplasms",
         "leptomeningeal metastasis",
@@ -145142,6 +147892,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -145222,6 +147973,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오엔지니어링 협동과정",
@@ -145255,6 +148007,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "capsular contracture",
         "acellular dermal matrix",
@@ -145309,6 +148062,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술연구원",
       "position": "",
+      "company": "",
       "keywords": [
         "DNA nanostructures",
         "Nanostructures",
@@ -145362,6 +148116,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의생명공학과",
@@ -145394,6 +148149,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "companion diagnostics",
         "dense calcium",
@@ -145445,6 +148201,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "split intein",
         "Inteins",
@@ -145495,6 +148252,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의생명공학과",
@@ -145527,6 +148285,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Taurochenodeoxycholic Acid",
         "bone regeneration",
@@ -145580,6 +148339,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Electromagnetic Fields",
         "pulsed electromagnetic fields",
@@ -145634,6 +148394,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "Biosensing Techniques",
         "Graphite",
@@ -145687,6 +148448,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의생명공학과",
@@ -145719,6 +148481,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의생명공학과",
@@ -145752,6 +148515,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "coronary artery disease",
         "radiomics",
@@ -145801,6 +148565,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "식품생명공학과",
@@ -145833,6 +148598,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "human biomonitoring",
         "blood and urine samples",
@@ -145880,6 +148646,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "polycyclic aromatic hydrocarbons",
         "benzo[a]pyrene",
@@ -145933,6 +148700,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Pediococcus acidilactici",
         "Listeria monocytogenes",
@@ -145986,6 +148754,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "식품생명공학과",
@@ -146018,6 +148787,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "probiotic protection",
         "functional coatings",
@@ -146065,6 +148835,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "식품생명공학과",
@@ -146097,6 +148868,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "식품생명공학과",
@@ -146129,6 +148901,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "rhinoceros beetle",
         "chitin extraction",
@@ -146176,6 +148949,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오의공학부",
@@ -146208,6 +148982,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오의공학부",
@@ -146240,6 +149015,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "functional near-infrared spectroscopy",
         "Indocyanine Green",
@@ -146292,6 +149068,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "CO2 solubility",
         "sodium phenoxide",
@@ -146339,6 +149116,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "energy resolution",
         "Cs3Cu2I5",
@@ -146389,6 +149167,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "pyrrolizidines",
         "trichloroacetimidate",
@@ -146436,6 +149215,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Biosensing Techniques",
         "point-of-care testing",
@@ -146489,6 +149269,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오의공학부",
@@ -146521,6 +149302,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Extracorporeal Circulation",
         "biventricular assist",
@@ -146568,6 +149350,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Erythrocyte Aggregation",
         "optical tweezers",
@@ -146643,6 +149426,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "mechanoporation",
         "intracellular delivery",
@@ -146751,6 +149535,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오의공학부",
@@ -146783,6 +149568,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "surface-enhanced Raman scattering",
         "Spectrum Analysis, Raman",
@@ -146836,6 +149622,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오의공학부",
@@ -146869,6 +149656,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Spectrum Analysis, Raman",
         "surface-enhanced Raman spectroscopy",
@@ -146922,6 +149710,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오의공학부",
@@ -146955,6 +149744,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "Arthroplasty, Replacement, Hip",
         "Hip Prosthesis",
@@ -147008,6 +149798,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "ribosomally synthesized and post-translationally modified peptides",
         "in vivo mutagenesis",
@@ -147061,6 +149852,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "rare-earth orthoferrites",
         "ErFeO3",
@@ -147112,6 +149904,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "phenotypic screening",
         "diversity-oriented synthesis",
@@ -147165,6 +149958,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Gene Expression Regulation, Plant",
         "plant regeneration",
@@ -147219,6 +150013,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "갤럭스 창업자",
       "keywords": [
         "Software",
         "protein structure prediction",
@@ -147325,6 +150120,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "morphological characterization",
         "aluminum doping",
@@ -147372,6 +150168,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "copper-binding proteins",
         "artificial metalloproteins",
@@ -147421,6 +150218,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "UCSC Genome Browser",
         "Expressed Sequence Tags",
@@ -147469,6 +150267,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "congenital hypothyroidism",
         "newborn screening",
@@ -147520,6 +150319,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "N-heterocyclic carbenes",
         "metal-organic frameworks",
@@ -147570,6 +150370,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "proximity labeling",
         "endotrophin",
@@ -147623,6 +150424,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "palladium catalysis",
         "electrochemical functionalization",
@@ -147673,6 +150475,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "reverse electrodialysis",
         "iontronics",
@@ -147726,6 +150529,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "oxygen reduction reaction",
         "chlorine evolution reaction",
@@ -147778,6 +150582,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "SDS sedimentation volume",
         "winter wheat",
@@ -147826,6 +150631,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "alkylidenecyclopropanes",
         "phosphorus ylides",
@@ -147873,6 +150679,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "plant senescence",
         "RTEL1",
@@ -147926,6 +150733,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [
         "neuroectoderm differentiation",
         "pluripotent stem cells",
@@ -147980,6 +150788,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "gut-on-a-chip",
         "microphysiological systems",
@@ -148082,6 +150891,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "나노공학과",
@@ -148114,6 +150924,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Begomovirus",
         "Tomato leaf curl New Delhi virus",
@@ -148167,6 +150978,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "융합생명공학과",
@@ -148199,6 +151011,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "융합생명공학과",
@@ -148231,6 +151044,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "anti-inflammatory activity",
         "Syk",
@@ -148284,6 +151098,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Oocytes",
         "Meiosis",
@@ -148337,6 +151152,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "융합생명공학과",
@@ -148369,6 +151185,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Melanocytes",
         "Keratinocytes",
@@ -148423,6 +151240,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "iron chelation therapy",
         "metastatic ovarian cancer",
@@ -148476,6 +151294,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "융합생명공학과",
@@ -148508,6 +151327,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "융합생명공학과",
@@ -148540,6 +151360,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "web server",
         "sequence-based prediction",
@@ -148593,6 +151414,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "융합생명공학과",
@@ -148626,6 +151448,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Immunogenic Cell Death",
         "cancer immunotherapy",
@@ -148679,6 +151502,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "글로벌바이오메디컬공학과",
@@ -148711,6 +151535,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "글로벌바이오메디컬공학과",
@@ -148743,6 +151568,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "글로벌바이오메디컬공학과",
@@ -148823,6 +151649,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "글로벌바이오메디컬공학과",
@@ -148902,6 +151729,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "membrane potential",
         "hyperpolarization",
@@ -148953,6 +151781,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "low-rank prior",
         "variable flip angle",
@@ -149003,6 +151832,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "distributed computing",
         "ubiquitous services",
@@ -149049,6 +151879,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "글로벌바이오메디컬공학과",
@@ -149081,6 +151912,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "글로벌바이오메디컬공학과",
@@ -149113,6 +151945,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "글로벌바이오메디컬공학과",
@@ -149145,6 +151978,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "글로벌바이오메디컬공학과",
@@ -149178,6 +152012,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "narrative comprehension",
         "apparent motion",
@@ -149228,6 +152063,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "metacognition",
         "abstraction",
@@ -149278,6 +152114,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "글로벌바이오메디컬공학과",
@@ -149310,6 +152147,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "extractable nuclear antigens",
         "Merozoite Surface Protein 1",
@@ -149359,6 +152197,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "hyperpolarization",
         "membrane potential",
@@ -149412,6 +152251,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "feed-forward equalizer",
         "memory interface",
@@ -149460,6 +152300,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "metacognition",
         "Consciousness",
@@ -149513,6 +152354,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "autism spectrum disorder",
         "connectome",
@@ -149564,6 +152406,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Printing, Three-Dimensional",
         "polycaprolactone",
@@ -149617,6 +152460,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -149650,6 +152494,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Protein-Arginine N-Methyltransferases",
         "PRMT7",
@@ -149703,6 +152548,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "colistin resistance",
         "Colistin",
@@ -149756,6 +152602,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -149788,6 +152635,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -149820,6 +152668,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Hepatitis B virus",
         "IFI35",
@@ -149873,6 +152722,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -149905,6 +152755,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -149938,6 +152789,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Parotid Neoplasms",
         "Cholesteatoma, Middle Ear",
@@ -149991,6 +152843,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150023,6 +152876,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "marginal zone B cells",
         "Vδ2+ γδ T cells",
@@ -150077,6 +152931,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Air Pollutants",
         "Air Pollution",
@@ -150130,6 +152985,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150162,6 +153018,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150194,6 +153051,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150227,6 +153085,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "protein structure prediction",
         "Software",
@@ -150279,6 +153138,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150311,6 +153171,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150343,6 +153204,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150375,6 +153237,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "CKAP2",
         "Cytoskeletal Proteins",
@@ -150428,6 +153291,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150460,6 +153324,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150492,6 +153357,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150526,6 +153392,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Paris",
         "Parkinson Disease",
@@ -150579,6 +153446,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150613,6 +153481,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "human cytomegalovirus",
         "Cytomegalovirus",
@@ -150662,6 +153531,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150694,6 +153564,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Cadaver",
         "anatomy education",
@@ -150744,6 +153615,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Bile Acids and Salts",
         "fuel desulfurization",
@@ -150797,6 +153669,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150829,6 +153702,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150861,6 +153735,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150893,6 +153768,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150925,6 +153801,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -150959,6 +153836,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "innate immune cells",
         "HNF4α",
@@ -151013,6 +153891,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "BubR1",
         "Securin",
@@ -151066,6 +153945,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -151098,6 +153978,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -151130,6 +154011,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -151162,6 +154044,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -151194,6 +154077,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -151226,6 +154110,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -151258,6 +154143,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의과대학 (기초의학)",
@@ -151290,6 +154176,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Drug Misuse",
         "Testosterone Congeners",
@@ -151339,6 +154226,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Y-Family DNA Polymerases",
         "DNA-Directed DNA Polymerase",
@@ -151392,6 +154280,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Reticulitermes speratus",
         "intraspecific phylogeny",
@@ -151439,6 +154328,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -151471,6 +154361,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "amyloid quantification",
         "thioflavin T",
@@ -151519,6 +154410,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -151551,6 +154443,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "부산대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "sinonasal melanoma",
         "maxillary sinus",
@@ -151599,6 +154492,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "exotropia",
         "Ophthalmologic Surgical Procedures",
@@ -151648,6 +154542,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "novel bacterial species",
         "Bacterial Typing Techniques",
@@ -151699,6 +154594,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Cryptococcus neoformans",
         "Malassezia",
@@ -151752,6 +154648,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "시스템생명공학과",
@@ -151784,6 +154681,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "시스템생명공학과",
@@ -151816,6 +154714,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "시스템생명공학과",
@@ -151849,6 +154748,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [
         "mucosal immunity",
         "tissue-resident memory T cells",
@@ -151902,6 +154802,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "시스템생명공학과",
@@ -151934,6 +154835,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울시립대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "전임교수",
@@ -151966,6 +154868,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울시립대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "전임교수",
@@ -151998,6 +154901,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울시립대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "전임교수",
@@ -152030,6 +154934,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울시립대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "전임교수",
@@ -152062,6 +154967,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울시립대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "전임교수",
@@ -152094,6 +155000,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울시립대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "Gold",
         "surface-enhanced Raman scattering",
@@ -152147,6 +155054,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울시립대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "전임교수",
@@ -152179,6 +155087,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서강대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "화공생명공학과",
@@ -152212,6 +155121,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "tobacco control",
         "real-time diagnosis",
@@ -152261,6 +155171,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "이화여자대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "capacitive deionization",
         "λ-MnO2",
@@ -152310,6 +155221,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "공주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "desalination",
         "capacitive deionization",
@@ -152359,6 +155271,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전북대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -152391,6 +155304,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -152423,6 +155337,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "고려대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -152455,6 +155370,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "아주대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -152487,6 +155403,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -152519,6 +155436,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "아주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "explicit time integration",
         "DNA origami",
@@ -152572,6 +155490,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "DNA origami",
         "lithium metal anode",
@@ -152624,6 +155543,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "연세대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "transcranial focused ultrasound",
         "digital twin",
@@ -152675,6 +155595,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "강원대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "variable stiffness mechanism",
         "soft gripper",
@@ -152722,6 +155643,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "아주대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "shape memory alloy actuators",
         "Robotics",
@@ -152773,6 +155695,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "세종대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "soft wearable robots",
         "tendon-driven actuation",
@@ -152820,6 +155743,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -152852,6 +155776,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Gyrinidae",
         "pipe inspection robot",
@@ -152899,6 +155824,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "가천대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -152932,6 +155858,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Exoribonucleases",
         "Poly A",
@@ -152985,6 +155912,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "순천향대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -153018,6 +155946,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Tumor Microenvironment",
         "cell type annotation",
@@ -153071,6 +156000,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "서울대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -153104,6 +156034,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "광주과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Protein Biosynthesis",
         "translation elongation",
@@ -153156,6 +156087,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "전남대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -153188,6 +156120,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "중앙대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -153220,6 +156153,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -153252,6 +156186,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -153284,6 +156219,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -153317,6 +156253,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "울산과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "tungsten disulfide",
         "NH3-SCR",
@@ -153369,6 +156306,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -153401,6 +156339,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "동국대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "antibody immobilization",
         "mussel adhesive proteins",
@@ -153455,6 +156394,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "성균관대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "unfolded protein response",
         "Apoptosis",
@@ -153508,6 +156448,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Phosphoinositide-3 Kinase Inhibitors",
         "PI3K inhibitors",
@@ -153561,6 +156502,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "인하대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "workplace sexual harassment",
         "nursing students",
@@ -153608,6 +156550,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "ChIP-exo",
         "obligate methanotrophs",
@@ -153713,6 +156656,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "ginsenosides",
         "ginsenoside Rh2",
@@ -153763,6 +156707,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Clustered Regularly Interspaced Short Palindromic Repeats",
         "Endonucleases",
@@ -153816,6 +156761,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "crystal structure",
         "ScpA",
@@ -153870,6 +156816,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "CHO Cells",
         "Cricetulus",
@@ -153923,6 +156870,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "공학생물대학원",
@@ -153956,6 +156904,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Gastrointestinal Microbiome",
         "Metagenome",
@@ -154010,6 +156959,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "CHO Cells",
         "Cricetulus",
@@ -154063,6 +157013,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "tweakable block ciphers",
         "provable security",
@@ -154110,6 +157061,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "공학생물대학원",
@@ -154142,6 +157094,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "공학생물대학원",
@@ -154174,6 +157127,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "DNA data storage",
         "DNA",
@@ -154226,6 +157180,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "perceptual decision making",
         "Decision Making",
@@ -154317,6 +157272,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Epitopes, B-Lymphocyte",
         "vaccine design",
@@ -154392,6 +157348,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "factorization theorem",
         "soft-collinear effective theory",
@@ -154465,6 +157422,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "extracellular matrix",
         "Tumor Microenvironment",
@@ -154560,6 +157518,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "microelectrode arrays",
         "gold nanorods",
@@ -154655,6 +157614,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "pseudo-continuous arterial spin labeling",
         "balanced steady-state free precession",
@@ -154707,6 +157667,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "whole-brain imaging",
         "multiplex immunofluorescence",
@@ -154804,6 +157765,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "photoacoustic imaging",
         "Photoacoustic Techniques",
@@ -154853,6 +157815,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "point-of-care testing",
         "breast cancer spheroids",
@@ -154906,6 +157869,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "mRNA delivery",
         "photothermal therapy",
@@ -155007,6 +157971,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "bentonite",
         "oral bioavailability",
@@ -155056,6 +158021,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Cas13a",
         "cell-cell fusion",
@@ -155109,6 +158075,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Software",
         "E2F target genes",
@@ -155162,6 +158129,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "gene regulatory networks",
         "Data Mining",
@@ -155215,6 +158183,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "바이오및뇌공학과",
@@ -155247,6 +158216,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "phase retrieval",
         "disordered metasurfaces",
@@ -155298,6 +158268,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Lissajous scanning",
         "microlens array",
@@ -155409,6 +158380,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "video object segmentation",
         "cognitive control training",
@@ -155459,6 +158431,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Alzheimer's disease",
         "Brain Mapping",
@@ -155512,6 +158485,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Boolean networks",
         "attractor landscape",
@@ -155565,6 +158539,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Microtubules",
         "tau protein",
@@ -155618,6 +158593,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "homologous recombination deficiency",
         "alternative splicing",
@@ -155724,6 +158700,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "optical phased array",
         "LiDAR",
@@ -155771,6 +158748,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "structural color",
         "colloidal crystals",
@@ -155853,6 +158831,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "microneedles",
         "Needles",
@@ -155956,6 +158935,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "genome-scale metabolic models",
         "Metabolic Engineering",
@@ -156051,6 +159031,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "epigenetic heterogeneity",
         "microphase separation",
@@ -156154,6 +159135,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "coercivity",
         "nucleation field",
@@ -156201,6 +159183,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [
         "Biosensing Techniques",
         "isothermal amplification",
@@ -156254,6 +159237,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한국과학기술원",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "",
@@ -156287,6 +159271,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "androgen deprivation therapy",
         "Urinary Bladder Neoplasms",
@@ -156340,6 +159325,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "경희대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Wnt7b",
         "angiogenic sprouting",
@@ -156393,6 +159379,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "PTPσ",
         "Receptor-Like Protein Tyrosine Phosphatases, Class 2",
@@ -156446,6 +159433,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "oncolytic adenovirus",
         "oncolytic virotherapy",
@@ -156499,6 +159487,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "ATDC5 cells",
         "Alginates",
@@ -156574,6 +159563,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Fas signaling",
         "separation of powers",
@@ -156678,6 +159668,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "acute lung injury",
         "Polyethyleneimine",
@@ -156753,6 +159744,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "PTP4A3",
         "cytoskeleton signaling",
@@ -156806,6 +159798,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "Spheroids, Cellular",
         "Nanofibers",
@@ -156859,6 +159852,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "islet transplantation",
         "Islets of Langerhans Transplantation",
@@ -156914,6 +159908,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "SpCas9",
         "small molecule inhibitors",
@@ -156985,6 +159980,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "hyaluronic acid",
         "Molecularly Imprinted Polymers",
@@ -157038,6 +160034,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [
         "microphysiological systems",
         "ramucirumab",
@@ -157091,6 +160088,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "한양대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "생명공학과",
@@ -157123,6 +160121,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "",
       "position": "",
+      "company": "",
       "keywords": [
         "brain-on-a-chip",
         "microphysiological systems",
@@ -157177,6 +160176,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [
         "benign prostatic hyperplasia",
         "lower urinary tract symptoms",
@@ -157229,6 +160229,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157261,6 +160262,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences; 시스템생명공학부",
@@ -157293,6 +160295,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157325,6 +160328,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157357,6 +160361,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157389,6 +160394,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157421,6 +160427,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157453,6 +160460,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157485,6 +160493,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157517,6 +160526,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157549,6 +160559,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157581,6 +160592,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157613,6 +160625,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157645,6 +160658,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157677,6 +160691,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157709,6 +160724,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157741,6 +160757,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157773,6 +160790,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Life Sciences",
@@ -157805,6 +160823,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemistry",
@@ -157837,6 +160856,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemistry; 시스템생명공학부",
@@ -157869,6 +160889,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemistry",
@@ -157901,6 +160922,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemistry; 시스템생명공학부",
@@ -157933,6 +160955,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemistry",
@@ -157965,6 +160988,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "Department of Chemistry",
@@ -157997,6 +161021,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "합성생물학전공",
@@ -158029,6 +161054,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "합성생물학전공",
@@ -158061,6 +161087,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "합성생물학전공",
@@ -158093,6 +161120,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "포항공과대학교",
       "position": "",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "합성생물학전공",
@@ -158125,6 +161153,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "을지대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "의예과",
@@ -158157,6 +161186,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학",
@@ -158189,6 +161219,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학",
@@ -158221,6 +161252,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학",
@@ -158253,6 +161285,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학",
@@ -158285,6 +161318,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "부교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학",
@@ -158317,6 +161351,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학",
@@ -158349,6 +161384,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학",
@@ -158381,6 +161417,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학",
@@ -158413,6 +161450,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학",
@@ -158445,6 +161483,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학",
@@ -158477,6 +161516,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학",
@@ -158509,6 +161549,7 @@ window.KOREA_BIO_MAP = {
       ],
       "university_ko": "덕성여자대학교",
       "position": "조교수",
+      "company": "",
       "keywords": [],
       "techniques": [],
       "department": "약학대학",

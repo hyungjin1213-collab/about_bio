@@ -825,6 +825,9 @@ def export_web_data(nodes: pd.DataFrame, links: pd.DataFrame) -> None:
     # what was typed into the master Excel file (연구실정보).
     labs = alumni_lab_info()
     homepages = lab_homepages()
+    # 회사 역할 (창업자 등): data/company_roles.csv, shown on the card under the affiliation
+    roles = _read_csv(DATA_DIR / "company_roles.csv")
+    company_of = dict(zip(roles["professor_id"], roles["role"])) if not roles.empty else {}
     for pid, info in lab_info(nodes).items():
         merged = {**labs.get(pid, {}), **info, "manual": sorted(info)}   # typed values apply to every period
         for d in ("phd", "integrated", "ms", "stay"):
@@ -863,6 +866,7 @@ def export_web_data(nodes: pd.DataFrame, links: pd.DataFrame) -> None:
                     row.get("department", "")),
                 "university_ko": classifier.university_ko(row.get("university", "")),
                 "position": titles.get(row.get("professor_id", ""), ""),
+                "company": company_of.get(row.get("professor_id", ""), ""),
                 "keywords": terms[row.get("professor_id", "")]["keyword"][:8],
                 "techniques": terms[row.get("professor_id", "")]["technique"][:5],
                 "department": row.get("department", ""),

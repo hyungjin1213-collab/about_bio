@@ -540,6 +540,7 @@
       card.innerHTML=`<button class="close" aria-label="닫기">×</button>
         <h2>${esc(n.name)}${n.name_en&&n.name_en!==n.name?`<span class="en">${esc(n.name_en)}</span>`:""}${recruiting?`<span class="recruit">모집 중</span>`:""}${n.retired?`<span class="recruit" style="background:#3a4560;color:#cbd5e1">은퇴</span>`:""}</h2>
         <div class="org">${esc(n.university_ko||n._uni||n.university)}${n.department?` · ${esc(n.department)}`:""}${n.position?` · ${esc(n.position)}`:""}</div>
+        ${n.company?`<div class="org" style="color:#fbbf24">${esc(n.company)}</div>`:""}
         <div class="tags">${sectorsOf(n).map(x=>`<span class="tag" style="border-color:${SECTOR_INFO[x].color}55;color:${SECTOR_INFO[x].color}">${esc(SECTOR_INFO[x].label)}</span>`).join("")}
           ${n.category?`<span class="tag" style="color:${soften(fieldColor(n),.3)}">${esc(n.category)}</span>`:""}${n.region?`<span class="tag">${esc(n.region)}</span>`:""}</div>
         <div class="stats" style="margin-top:12px">

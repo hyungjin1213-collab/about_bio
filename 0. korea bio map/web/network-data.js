@@ -159438,6 +159438,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3116",
+      "name": "장영태",
+      "name_en": "Young-Tae Chang",
+      "university": "POSTECH",
+      "field": "유기화학 / 생화학 / 바이오메디컬화학 (화학 기반 노화 연구)",
+      "category": "기타",
+      "region": "대구·경북",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "포항공과대학교",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "Department of Chemistry",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "http://ytchang.postech.ac.kr",
+      "lab_url": "",
+      "openalex_id": "A5001055290",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

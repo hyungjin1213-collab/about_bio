@@ -159278,6 +159278,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3111",
+      "name": "권도훈",
+      "name_en": "Dohoon Kwon",
+      "university": "POSTECH",
+      "field": "생화학",
+      "category": "기타",
+      "region": "대구·경북",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "포항공과대학교",
+      "position": "",
+      "keywords": [],
+      "techniques": [],
+      "department": "Department of Chemistry",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://kwonlab.postech.ac.kr/home",
+      "lab_url": "",
+      "openalex_id": "A5102867415",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

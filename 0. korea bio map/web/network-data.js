@@ -158830,6 +158830,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3097",
+      "name": "김영진",
+      "name_en": "Young-Jin Kim",
+      "university": "POSTECH",
+      "field": "세포막 수송 단백질",
+      "category": "분자·세포생물",
+      "region": "대구·경북",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "포항공과대학교",
+      "position": "조교수",
+      "keywords": [],
+      "techniques": [],
+      "department": "Department of Life Sciences",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://life.postech.ac.kr/html/major/professor.php",
+      "lab_url": "https://yjkim001011.wixsite.com/website",
+      "openalex_id": "A5100440437",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

@@ -159086,6 +159086,38 @@ window.KOREA_BIO_MAP = {
       "advisor_count": 0,
       "postdoc_mentor_count": 0,
       "pubs": {}
+    },
+    {
+      "id": "P3105",
+      "name": "이민식",
+      "name_en": "Minsik Lee",
+      "university": "POSTECH",
+      "field": "암 / 대사 / 암 미세환경",
+      "category": "분자·세포생물",
+      "region": "대구·경북",
+      "home_sector": "학",
+      "sectors": [
+        "학"
+      ],
+      "university_ko": "포항공과대학교",
+      "position": "조교수",
+      "keywords": [],
+      "techniques": [],
+      "department": "Department of Life Sciences",
+      "lab": {},
+      "orcid": "",
+      "retired": false,
+      "url": "https://life.postech.ac.kr/html/major/professor.php",
+      "lab_url": "https://cancermetabolism.postech.ac.kr/",
+      "openalex_id": "A5070012952",
+      "identity": "manual",
+      "score": 0,
+      "collaborator_count": 0,
+      "faculty_trainee_count": 0,
+      "postdoc_PI_count": 0,
+      "advisor_count": 0,
+      "postdoc_mentor_count": 0,
+      "pubs": {}
     }
   ],
   "links": [

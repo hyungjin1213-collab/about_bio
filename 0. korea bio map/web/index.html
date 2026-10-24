@@ -216,7 +216,7 @@
   <div id="graph"></div>
   <div class="setbar" id="setbar" hidden>
     <span id="set-buttons"></span>
-    <label><input type="checkbox" id="set-overlap">교집합 보기</label>
+    <label><input type="checkbox" id="set-overlap" checked>교집합 보기</label>
   </div>
   <div class="viewbar" id="viewbar">
     <label><input type="checkbox" id="view-sectors">산학연병으로 보기</label>
@@ -1126,11 +1126,11 @@
     // Default: one galaxy disc per set (학 · 병 · 연 · 산), each professor in their
     // home set (the page they are listed on). "교집합 보기" turns the discs into
     // an overlapping Venn diagram and moves people with several affiliations into
-    // the overlaps. Clicking a set zooms into it and hides everyone else.
+    // the overlaps. The overlapping layout is the default; uncheck it for separate discs. Clicking a set zooms into it and hides everyone else.
     const homeOf=n=>SECTOR_INFO[n.home_sector]?n.home_sector:sectorsOf(n)[0];
     const setCount=(s,overlap)=>NODES.filter(n=>overlap?sectorsOf(n).includes(s):homeOf(n)===s).length;
     const VENN_R=165, VENN_D=85;    // diagonal pairs (학∩산, 병∩연) still overlap near the centre
-    let viewMode="galaxy", overlapOn=false, zoomSet=null, setGroup=null, circles={};
+    let viewMode="galaxy", overlapOn=true, zoomSet=null, setGroup=null, circles={};
 
     function layoutCircles(){
       circles={};

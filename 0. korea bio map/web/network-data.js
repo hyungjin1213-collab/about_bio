@@ -15088,10 +15088,9 @@ window.KOREA_BIO_MAP = {
         "phd_graduates": 0.0,
         "ms_graduates": 2.0,
         "postdoc_alumni": 0.0,
-        "ms_years": 3.4,
+        "ms_years": 2.0,
         "phd_years_est": 0.0,
         "integrated_years_est": 0.0,
-        "ms_years_est": 0.0,
         "stay_years": 1.6,
         "stay_years_est": 0.0,
         "students_with_papers": 2.0,
@@ -15138,7 +15137,10 @@ window.KOREA_BIO_MAP = {
         },
         "alumni_url": "https://sites.google.com/view/kim-lab-neuroscience/people",
         "source": "연구실 홈페이지 졸업생 페이지 + OpenAlex (자동 집계)",
-        "as_of": "2026-10-14"
+        "as_of": "2026-10-14",
+        "manual": [
+          "ms_years"
+        ]
       },
       "orcid": "0000-0002-2220-4173",
       "retired": false,

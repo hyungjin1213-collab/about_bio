@@ -158984,7 +158984,7 @@ window.KOREA_BIO_MAP = {
     {
       "id": "P3117",
       "name": "손민주",
-      "name_en": "minju Shon",
+      "name_en": "Min Ju Shon",
       "university": "POSTECH",
       "field": "단일분자 이미징·조작 나노기술 / 생체분자 복합체 역학 / 신경전달 기계생물학",
       "category": "기타",

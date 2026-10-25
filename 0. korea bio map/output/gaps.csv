@@ -1,5 +1,5 @@
 ﻿professor_id,name_ko,name_en,university,department,missing
-P0004,김원종,wonjong kim,postech,화학과,논문 프로필 없음
+P0004,김원종,wonjong kim,postech,Department of Chemistry,논문 프로필 없음
 P0005,김성은,seongeun kim,Kookmin University,화학과,졸업생 정보 없음
 P0006,조덕,Duck Cho,Samsung Medical Center; Sungkyunkwan University,,연구실 홈페이지 못 찾음
 P0008,양진아,Jina Yang,Jeju National University,,연구실 홈페이지 못 찾음
@@ -14,7 +14,7 @@ P0018,한용희,Yong Hee Han,Chonnam National University,School of Biological Sc
 P0019,안서연,Seo-Yeon Ahn,Chonnam National University,College of Medicine / Hematology-Oncology,졸업생 정보 없음
 P0020,정성훈,Sung-Hoon Jung,Chonnam National University,College of Medicine / Hematology-Oncology,졸업생 정보 없음
 P0021,한동근,Dong Keun Han,Korea Institute of Science and Technology,Center for Biomaterials,졸업생 정보 없음
-P0023,김상욱,Sanguk Kim,POSTECH,Department of Life Sciences,연구실 홈페이지 못 찾음
+P0023,김상욱,Sanguk Kim,POSTECH,Department of Life Sciences; 합성생물학전공,연구실 홈페이지 못 찾음
 P0024,한상빈,Sangbin Han,Sungkyunkwan University; Samsung Medical Center,School of Medicine / Anesthesiology and Pain Medicine,졸업생 정보 없음
 P0025,김병기,Byung-Gee Kim,Seoul National University,Chemical and Biological Engineering,연구실 홈페이지 못 찾음
 P0027,황일웅,Ilwoong Hwang,Soonchunhyang University,Gumi Hospital / Emergency Medicine,졸업생 정보 없음
@@ -935,7 +935,6 @@ P1119,류훈,Hoon Ryu,Korea Institute of Science and Technology,,연구실 홈�
 P1121,,Sun Hwa Kim,Korea Institute of Science and Technology,,연구실 홈페이지 못 찾음
 P1122,,Chansoo Kim,Korea Institute of Science and Technology,,연구실 홈페이지 못 찾음
 P1123,,Kwang Ho Kim,Korea Institute of Science and Technology,,연구실 홈페이지 못 찾음
-P1124,,Hong Nam Kim,Korea Institute of Science and Technology,,연구실 홈페이지 못 찾음
 P1125,,Jong Hyuk Park,Korea Institute of Science and Technology,,연구실 홈페이지 못 찾음
 P1126,,Ji Yoon Kang,Korea Institute of Science and Technology,,졸업생 정보 없음
 P1127,,Ki Duk Park,Korea Institute of Science and Technology,,연구실 홈페이지 못 찾음
@@ -948,7 +947,6 @@ P1134,,Laehyun Kim,Korea Institute of Science and Technology,,연구실 홈페�
 P1135,,Hyojin Lee,Korea Institute of Science and Technology,,연구실 홈페이지 못 찾음
 P1136,,Deukhee Lee,Korea Institute of Science and Technology,,연구실 홈페이지 못 찾음
 P1137,,Uhtaek Oh,Korea Institute of Science and Technology,,연구실 홈페이지 못 찾음
-P1138,,Chun Gwon Park,Korea Institute of Science and Technology,,졸업생 정보 없음
 P1139,,Ki Jun Yu,Korea Institute of Science and Technology,,연구실 홈페이지 못 찾음
 P1140,,Soo Hyun Park,Korea Institute of Science and Technology,,연구실 홈페이지 못 찾음
 P1141,,Eun Mi Hwang,Korea Institute of Science and Technology,,연구실 홈페이지 못 찾음
@@ -2309,176 +2307,161 @@ P2515,,Chang Lim Hyun,Jeju National University,,연구실 홈페이지 못 찾�
 P2516,,Yunkyoung Lee,Jeju National University,,연구실 홈페이지 못 찾음
 P2517,,Hyomin Lee,Jeju National University,,연구실 홈페이지 못 찾음
 P2519,,Moonjae Cho,Jeju National University,,연구실 홈페이지 못 찾음
-P2520,,Eun-Sook Yoo,Jeju National University,,연구실 페이지 미확인
-P2521,,Somi Kim Cho,Jeju National University,,연구실 페이지 미확인
-P2522,,Jun Yup Kim,Jeju National University,,연구실 페이지 미확인
-P2523,,Ahnul Ha,Jeju National University,,연구실 페이지 미확인
-P2524,,Jaeseong Oh,Jeju National University,,연구실 페이지 미확인
-P2525,,Myung‐Chul Kim,Jeju National University,,연구실 페이지 미확인
-P2526,,Heung Up Kim,Jeju National University,,연구실 페이지 미확인
-P2527,,Sa‐Yoon Kang,Jeju National University,,연구실 페이지 미확인
-P2528,,Sung‐Min Park,POSTECH,,연구실 페이지 미확인
-P2529,류성호,Sung Ho Ryu,POSTECH,,연구실 페이지 미확인
-P2530,,Chulhong Kim,POSTECH,,연구실 페이지 미확인
-P2531,,Dong‐Woo Cho,POSTECH,,연구실 페이지 미확인
-P2533,,Kyong‐Tai Kim,POSTECH,,연구실 페이지 미확인
-P2534,,Unyong Jeong,POSTECH,,연구실 페이지 미확인
-P2535,,Dong Sung Kim,POSTECH,,연구실 페이지 미확인
-P2536,김수정,Sujeong Kim,POSTECH,,연구실 페이지 미확인
-P2537,,Dong‐Pyo Kim,POSTECH,,연구실 페이지 미확인
-P2538,,Sangwoo Kim,POSTECH,,연구실 페이지 미확인
-P2539,김종경,Jong Kyoung Kim,POSTECH,,연구실 페이지 미확인
-P2540,임근배,Geunbae Lim,POSTECH,,연구실 페이지 미확인
-P2541,황인환,Inhwan Hwang,POSTECH,,연구실 페이지 미확인
-P2542,,Jinah Jang,POSTECH,,연구실 페이지 미확인
-P2543,,Dong Soo Lee,POSTECH,,연구실 페이지 미확인
-P2544,,Young Chul Sung,POSTECH,,연구실 페이지 미확인
-P2545,임신혁,Sin‐Hyeog Im,POSTECH,,연구실 페이지 미확인
-P2546,,Ki Hean Kim,POSTECH,,연구실 페이지 미확인
-P2547,,Ju Young Park,POSTECH,,연구실 페이지 미확인
-P2548,김종민,Jongmin Kim,POSTECH,,연구실 페이지 미확인
-P2549,김태경,Tae-Kyung Kim,POSTECH,,연구실 페이지 미확인
-P2550,,Steve Park,POSTECH,,연구실 페이지 미확인
-P2551,,Jeong Wook Lee,POSTECH,,연구실 페이지 미확인
-P2552,이준민,Junmin Lee,POSTECH,,연구실 페이지 미확인
-P2553,,Jeehoon Han,POSTECH,,연구실 페이지 미확인
-P2554,,Sung Key Jang,POSTECH,,연구실 페이지 미확인
-P2555,,Hyung Ham Kim,POSTECH,,연구실 페이지 미확인
-P2556,,Sehan Park,POSTECH,,연구실 페이지 미확인
-P2557,,Keehoon Kim,POSTECH,,연구실 페이지 미확인
-P2558,,Jie‐Oh Lee,POSTECH,,연구실 페이지 미확인
-P2559,,Hae‐Won Lee,POSTECH,,연구실 페이지 미확인
-P2560,이승우,Seung‐Woo Lee,POSTECH,,연구실 페이지 미확인
-P2561,박상기,Sang Ki Park,POSTECH,,연구실 페이지 미확인
-P2562,,Kyoung Eun Lee,POSTECH,,연구실 페이지 미확인
-P2563,,Hyunju Lee,GIST,,연구실 페이지 미확인
-P2564,,Min‐Gon Kim,GIST,,연구실 페이지 미확인
-P2565,,Jungwon Yoon,GIST,,연구실 페이지 미확인
-P2566,,Young‐Joon Kim,GIST,,연구실 페이지 미확인
-P2567,,Jae Young Lee,GIST,,연구실 페이지 미확인
-P2568,,Sung Chan Jun,GIST,,연구실 페이지 미확인
-P2569,,Jeong‐Seok Nam,GIST,,연구실 페이지 미확인
-P2570,,Yong‐Chul Kim,GIST,,연구실 페이지 미확인
-P2571,,Jae Gwan Kim,GIST,,연구실 페이지 미확인
-P2572,,Jung‐Hyun Kim,GIST,,연구실 페이지 미확인
-P2573,,Jin Hee Ahn,GIST,,연구실 페이지 미확인
-P2574,,Jihwan Park,GIST,,연구실 페이지 미확인
-P2575,,Sung Hoon Yang,GIST,,연구실 페이지 미확인
-P2576,,Jae Il Kim,GIST,,연구실 페이지 미확인
-P2577,,Dongryeol Ryu,GIST,,연구실 페이지 미확인
-P2578,,Jongho Lee,GIST,,연구실 페이지 미확인
-P2579,,Chang‐Duk Jun,GIST,,연구실 페이지 미확인
-P2580,,Euiheon Chung,GIST,,연구실 페이지 미확인
-P2581,,Zee‐Yong Park,GIST,,연구실 페이지 미확인
-P2582,,Chul‐Seung Park,GIST,,연구실 페이지 미확인
-P2583,,Woo Jin Park,GIST,,연구실 페이지 미확인
-P2584,,Jae‐Il Kim,GIST,,연구실 페이지 미확인
-P2585,이선재,Sunjae Lee,GIST,,연구실 페이지 미확인
-P2586,,Yunju Jo,GIST,,연구실 페이지 미확인
-P2587,,Hansoo Park,GIST,,연구실 페이지 미확인
-P2588,,Jiyeon Kang,GIST,,연구실 페이지 미확인
-P2589,,Chunghee Cho,GIST,,연구실 페이지 미확인
-P2590,,Jiwon Seo,GIST,,연구실 페이지 미확인
-P2591,,Boreom Lee,GIST,,연구실 페이지 미확인
-P2592,,Chang‐Myung Oh,GIST,,연구실 페이지 미확인
-P2593,,Tae Kim,GIST,,연구실 페이지 미확인
-P2594,,Da‐Woon Jung,GIST,,연구실 페이지 미확인
-P2595,,Mi‐Ryoung Song,GIST,,연구실 페이지 미확인
-P2596,,Inchan Kwon,GIST,,연구실 페이지 미확인
-P2597,,Raekil Park,GIST,,연구실 페이지 미확인
-P2598,,Hyoung-Ihl Kim,GIST,,연구실 페이지 미확인
-P2599,이수진,Sujin Lee,GIST,,연구실 페이지 미확인
-P2600,김태영,Tae‐Young Kim,GIST,,연구실 페이지 미확인
-P2601,,Mansu Kim,GIST,,연구실 페이지 미확인
-P2602,,Channy Park,GIST,,연구실 페이지 미확인
-P2603,,Suk‐Won Jin,GIST,,연구실 페이지 미확인
-P2604,,Yeon Sun Lee,GIST,,연구실 페이지 미확인
-P2605,,Steve K. Cho,GIST,,연구실 페이지 미확인
-P2606,,Hyun Min Kim,GIST,,연구실 페이지 미확인
-P2607,,Jeong-Su Park,GIST,,연구실 페이지 미확인
-P2608,,Chin‐Ju Park,GIST,,연구실 페이지 미확인
-P2609,,Jeongmin Oh,GIST,,연구실 페이지 미확인
-P2610,,Soyeon Shin,GIST,,연구실 페이지 미확인
-P2611,,Youngsoo Jun,GIST,,연구실 페이지 미확인
-P2612,,Yeon Ji Lee,GIST,,연구실 페이지 미확인
-P2613,,Min Ji Kim,GIST,,연구실 페이지 미확인
-P2614,,Soyeon Lee,GIST,,연구실 페이지 미확인
-P2615,,Se‐Woong Oh,Yuhan,,연구실 페이지 미확인
-P2616,,Su Kyung Kim,Yuhan,,연구실 페이지 미확인
-P2617,,Seoyoung C. Kim,DGIST,,연구실 페이지 미확인
-P2618,,Sohee Kim,DGIST,,연구실 페이지 미확인
-P2619,,Sang‐Yeol Kim,DGIST,,연구실 페이지 미확인
-P2620,,Jinung An,DGIST,,연구실 페이지 미확인
-P2621,,Jae Eun Jang,DGIST,,연구실 페이지 미확인
-P2622,,Cheil Moon,DGIST,,연구실 페이지 미확인
-P2623,,Byung‐Hoon Lee,DGIST,,연구실 페이지 미확인
-P2624,,Sung Bae Lee,DGIST,,연구실 페이지 미확인
-P2625,,Sang‐im Lee,DGIST,,연구실 페이지 미확인
-P2626,,Eunjoo Kim,DGIST,,연구실 페이지 미확인
-P2627,,Chan Chung,DGIST,,연구실 페이지 미확인
-P2628,,Chang‐Hun Lee,DGIST,,연구실 페이지 미확인
-P2629,고재원,Jaewon Ko,DGIST,,연구실 페이지 미확인
-P2630,,Jaesung Hong,DGIST,,연구실 페이지 미확인
-P2631,,Minseok S. Kim,DGIST,,연구실 페이지 미확인
-P2632,,Kyung‐In Jang,DGIST,,연구실 페이지 미확인
-P2633,,Byung‐Chang Suh,DGIST,,연구실 페이지 미확인
-P2634,,Young‐Sam Lee,DGIST,,연구실 페이지 미확인
-P2635,,Ju‐Hyuck Lee,DGIST,,연구실 페이지 미확인
-P2636,,Bong Ho Lee,DGIST,,연구실 페이지 미확인
-P2637,,Kidong Park,DGIST,,연구실 페이지 미확인
-P2638,,Cheol Ock Song,DGIST,,연구실 페이지 미확인
-P2639,,Ji Won Um,DGIST,,연구실 페이지 미확인
-P2640,,Dongwon Yun,DGIST,,연구실 페이지 미확인
-P2641,,June Myoung Kwak,DGIST,,연구실 페이지 미확인
-P2642,,Seong‐Kyoon Choi,DGIST,,연구실 페이지 미확인
-P2643,,Sanghoon Lee,DGIST,,연구실 페이지 미확인
-P2644,,Seungjoon Kim,DGIST,,연구실 페이지 미확인
-P2645,,Kwang Lee,DGIST,,연구실 페이지 미확인
-P2646,,Han Kyoung Choe,DGIST,,연구실 페이지 미확인
-P2647,,Eun‐Kyoung Kim,DGIST,,연구실 페이지 미확인
-P2648,,Yong‐Seok Oh,DGIST,,연구실 페이지 미확인
-P2649,,Kyuhyung Kim,DGIST,,연구실 페이지 미확인
-P2650,,Wookyung Yu,DGIST,,연구실 페이지 미확인
-P2651,,Youngtae Jeong,DGIST,,연구실 페이지 미확인
-P2652,,Jaesok Yu,DGIST,,연구실 페이지 미확인
-P2653,,Byeongmoon Lee,DGIST,,연구실 페이지 미확인
-P2654,,Bokyung Kim,DGIST,,연구실 페이지 미확인
-P2655,,Pyung Ok Lim,DGIST,,연구실 페이지 미확인
-P2656,,Yoori Kim,DGIST,,연구실 페이지 미확인
-P2657,,Minho Hwang,DGIST,,연구실 페이지 미확인
-P2658,,Junghyup Lee,DGIST,,연구실 페이지 미확인
-P2659,,Kyungseo Park,DGIST,,연구실 페이지 미확인
-P2660,,Il‐Kyu Choi,DGIST,,연구실 페이지 미확인
-P2661,,Hye Ryun Woo,DGIST,,연구실 페이지 미확인
-P2662,,Seong‐Woon Yu,DGIST,,연구실 페이지 미확인
-P2663,,Won-Cheol Kim,DGIST,,연구실 페이지 미확인
-P2664,,Jin‐Mo Kim,DGIST,,연구실 페이지 미확인
-P2665,,Yongcheol Cho,DGIST,,연구실 페이지 미확인
-P2666,,Kyeong‐Min Lee,DGIST,,연구실 페이지 미확인
-P2667,,Tae Wan Kim,DGIST,,연구실 페이지 미확인
-P2668,,Sewoong Kim,DGIST,,연구실 페이지 미확인
-P2669,,JaeHyung Koo,DGIST,,연구실 페이지 미확인
-P2670,,Kyeong Nam Kim,DGIST,,연구실 페이지 미확인
-P2671,,Moon Hwan Lee,DGIST,,연구실 페이지 미확인
-P2672,,Yong‐Jin Park,Kongju National University,,연구실 페이지 미확인
-P2673,최미경,Mi‐Kyeong Choi,Kongju National University,,연구실 페이지 미확인
-P2674,,Dong Sub Kim,Kongju National University,,연구실 페이지 미확인
-P2675,,Hack-Youn Kim,Kongju National University,,연구실 페이지 미확인
-P2676,,Si‐Yong Kang,Kongju National University,,연구실 페이지 미확인
-P2677,,Bong‐Joo Lee,Kongju National University,,연구실 페이지 미확인
-P2678,,Song Ja Kim,Kongju National University,,연구실 페이지 미확인
-P2679,,Ki Wha Chung,Kongju National University,,연구실 페이지 미확인
-P2680,,Hyun Kyoung Kim,Kongju National University,,연구실 페이지 미확인
-P2681,,Eunju Kim,Kongju National University,,연구실 페이지 미확인
-P2682,,Min-Ju Kim,Kongju National University,,연구실 페이지 미확인
-P2683,,Ok‐Hee Cho,Kongju National University,,연구실 페이지 미확인
-P2684,,Young‐Han You,Kongju National University,,연구실 페이지 미확인
-P2685,,Bong-Ki Kim,Kongju National University,,연구실 페이지 미확인
-P2686,,Eui‐Hong Byun,Kongju National University,,연구실 페이지 미확인
-P2687,,Dong‐Sook Kim,Kongju National University,,연구실 페이지 미확인
-P2688,,Je‐Hyuk Lee,Kongju National University,,연구실 페이지 미확인
-P2689,,Min Sun Kim,Kongju National University,,연구실 페이지 미확인
-P2690,,Sea Cheon Oh,Kongju National University,,연구실 페이지 미확인
+P2520,,Eun-Sook Yoo,Jeju National University,,연구실 홈페이지 못 찾음
+P2521,,Somi Kim Cho,Jeju National University,,연구실 홈페이지 못 찾음
+P2522,,Jun Yup Kim,Jeju National University,,연구실 홈페이지 못 찾음
+P2523,,Ahnul Ha,Jeju National University,,연구실 홈페이지 못 찾음
+P2524,,Jaeseong Oh,Jeju National University,,연구실 홈페이지 못 찾음
+P2525,,Myung‐Chul Kim,Jeju National University,,연구실 홈페이지 못 찾음
+P2526,,Heung Up Kim,Jeju National University,,연구실 홈페이지 못 찾음
+P2527,,Sa‐Yoon Kang,Jeju National University,,연구실 홈페이지 못 찾음
+P2528,박성민,Sung‐Min Park,POSTECH,Department of Mechanical Engineering,연구실 홈페이지 못 찾음
+P2529,류성호,Sung Ho Ryu,POSTECH,Department of Life Sciences,연구실 홈페이지 못 찾음
+P2530,김철홍,Chulhong Kim,POSTECH,Department of Mechanical Engineering,연구실 홈페이지 못 찾음
+P2531,조동우,Dong‐Woo Cho,POSTECH,Department of Mechanical Engineering,연구실 홈페이지 못 찾음
+P2533,김경태,Kyong‐Tai Kim,POSTECH,Department of Life Sciences,연구실 홈페이지 못 찾음
+P2534,정운룡,Unyong Jeong,POSTECH,Department of Chemical Engineering,연구실 홈페이지 못 찾음
+P2535,김동성,Dong Sung Kim,POSTECH,Department of Mechanical Engineering,연구실 홈페이지 못 찾음
+P2537,김동표,Dong‐Pyo Kim,POSTECH,Department of Chemical Engineering,연구실 홈페이지 못 찾음
+P2539,김종경,Jong Kyoung Kim,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P2540,임근배,Geunbae Lim,POSTECH,Department of Mechanical Engineering,연구실 홈페이지 못 찾음
+P2541,황인환,Inhwan Hwang,POSTECH,Department of Life Sciences,연구실 홈페이지 못 찾음
+P2542,장진아,Jinah Jang,POSTECH,Department of Life Sciences; Department of Mechanical Engineering; ·IT융합공학과,연구실 홈페이지 못 찾음
+P2543,이동수,Dong Soo Lee,POSTECH,Medical Science and Engineering,연구실 홈페이지 못 찾음
+P2544,성영철,Young Chul Sung,POSTECH,Department of Life Sciences,연구실 홈페이지 못 찾음
+P2546,김기현,Ki Hean Kim,POSTECH,Department of Mechanical Engineering,졸업생 정보 없음
+P2548,김종민,Jongmin Kim,POSTECH,Department of Life Sciences; 합성생물학전공,졸업생 정보 없음
+P2549,김태경,Tae-Kyung Kim,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P2552,이준민,Junmin Lee,POSTECH,Department of Materials science & Engineering,졸업생 정보 없음
+P2555,김형함,Hyung Ham Kim,POSTECH,Department of Biomedical Engineering,졸업생 정보 없음
+P2557,김기훈,Keehoon Kim,POSTECH,Department of Biomedical Engineering; Department of Mechanical Engineering,연구실 홈페이지 못 찾음
+P2558,이지오,Jie‐Oh Lee,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P2560,이승우,Seung‐Woo Lee,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P2561,박상기,Sang Ki Park,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P2563,,Hyunju Lee,GIST,,연구실 홈페이지 못 찾음
+P2564,,Min‐Gon Kim,GIST,,연구실 홈페이지 못 찾음
+P2565,,Jungwon Yoon,GIST,,연구실 홈페이지 못 찾음
+P2566,,Young‐Joon Kim,GIST,,연구실 홈페이지 못 찾음
+P2567,,Jae Young Lee,GIST,,연구실 홈페이지 못 찾음
+P2568,,Sung Chan Jun,GIST,,졸업생 정보 없음
+P2569,,Jeong‐Seok Nam,GIST,,연구실 홈페이지 못 찾음
+P2570,,Yong‐Chul Kim,GIST,,연구실 홈페이지 못 찾음
+P2571,,Jae Gwan Kim,GIST,,연구실 홈페이지 못 찾음
+P2572,,Jung‐Hyun Kim,GIST,,연구실 홈페이지 못 찾음
+P2573,,Jin Hee Ahn,GIST,,졸업생 정보 없음
+P2574,,Jihwan Park,GIST,,연구실 홈페이지 못 찾음
+P2575,,Sung Hoon Yang,GIST,,연구실 홈페이지 못 찾음
+P2576,,Jae Il Kim,GIST,,연구실 홈페이지 못 찾음
+P2577,,Dongryeol Ryu,GIST,,연구실 홈페이지 못 찾음
+P2578,,Jongho Lee,GIST,,연구실 홈페이지 못 찾음
+P2579,,Chang‐Duk Jun,GIST,,연구실 홈페이지 못 찾음
+P2580,,Euiheon Chung,GIST,,졸업생 정보 없음
+P2581,,Zee‐Yong Park,GIST,,연구실 홈페이지 못 찾음
+P2582,,Chul‐Seung Park,GIST,,연구실 홈페이지 못 찾음
+P2583,,Woo Jin Park,GIST,,연구실 홈페이지 못 찾음
+P2584,,Jae‐Il Kim,GIST,,연구실 홈페이지 못 찾음
+P2585,이선재,Sunjae Lee,GIST,,졸업생 정보 없음
+P2586,,Yunju Jo,GIST,,연구실 홈페이지 못 찾음
+P2587,,Hansoo Park,GIST,,연구실 홈페이지 못 찾음
+P2588,,Jiyeon Kang,GIST,,연구실 홈페이지 못 찾음
+P2589,,Chunghee Cho,GIST,,연구실 홈페이지 못 찾음
+P2590,,Jiwon Seo,GIST,,연구실 홈페이지 못 찾음
+P2591,,Boreom Lee,GIST,,졸업생 정보 없음
+P2592,,Chang‐Myung Oh,GIST,,졸업생 정보 없음
+P2594,,Da‐Woon Jung,GIST,,연구실 홈페이지 못 찾음
+P2595,,Mi‐Ryoung Song,GIST,,연구실 홈페이지 못 찾음
+P2596,,Inchan Kwon,GIST,,연구실 홈페이지 못 찾음
+P2597,,Raekil Park,GIST,,연구실 홈페이지 못 찾음
+P2598,,Hyoung-Ihl Kim,GIST,,연구실 홈페이지 못 찾음
+P2599,이수진,Sujin Lee,GIST,,연구실 홈페이지 못 찾음
+P2600,김태영,Tae‐Young Kim,GIST,,연구실 홈페이지 못 찾음
+P2601,,Mansu Kim,GIST,,연구실 홈페이지 못 찾음
+P2602,,Channy Park,GIST,,연구실 홈페이지 못 찾음
+P2603,,Suk‐Won Jin,GIST,,연구실 홈페이지 못 찾음
+P2604,,Yeon Sun Lee,GIST,,연구실 홈페이지 못 찾음
+P2605,,Steve K. Cho,GIST,,연구실 홈페이지 못 찾음
+P2606,,Hyun Min Kim,GIST,,연구실 홈페이지 못 찾음
+P2607,,Jeong-Su Park,GIST,,연구실 홈페이지 못 찾음
+P2608,,Chin‐Ju Park,GIST,,연구실 홈페이지 못 찾음
+P2609,,Jeongmin Oh,GIST,,연구실 홈페이지 못 찾음
+P2610,,Soyeon Shin,GIST,,연구실 홈페이지 못 찾음
+P2611,,Youngsoo Jun,GIST,,연구실 홈페이지 못 찾음
+P2612,,Yeon Ji Lee,GIST,,연구실 홈페이지 못 찾음
+P2613,,Min Ji Kim,GIST,,연구실 홈페이지 못 찾음
+P2614,,Soyeon Lee,GIST,,연구실 홈페이지 못 찾음
+P2615,,Se‐Woong Oh,Yuhan,,연구실 홈페이지 못 찾음
+P2616,,Su Kyung Kim,Yuhan,,연구실 홈페이지 못 찾음
+P2617,,Seoyoung C. Kim,DGIST,,연구실 홈페이지 못 찾음
+P2618,,Sohee Kim,DGIST,,연구실 홈페이지 못 찾음
+P2619,,Sang‐Yeol Kim,DGIST,,연구실 홈페이지 못 찾음
+P2620,,Jinung An,DGIST,,연구실 홈페이지 못 찾음
+P2621,,Jae Eun Jang,DGIST,,연구실 홈페이지 못 찾음
+P2622,,Cheil Moon,DGIST,,연구실 홈페이지 못 찾음
+P2623,,Byung‐Hoon Lee,DGIST,,연구실 홈페이지 못 찾음
+P2624,,Sung Bae Lee,DGIST,,졸업생 정보 없음
+P2625,,Sang‐im Lee,DGIST,,연구실 홈페이지 못 찾음
+P2626,,Eunjoo Kim,DGIST,,연구실 홈페이지 못 찾음
+P2627,,Chan Chung,DGIST,,연구실 홈페이지 못 찾음
+P2628,,Chang‐Hun Lee,DGIST,,졸업생 정보 없음
+P2629,고재원,Jaewon Ko,DGIST,,연구실 홈페이지 못 찾음
+P2630,,Jaesung Hong,DGIST,,연구실 홈페이지 못 찾음
+P2631,,Minseok S. Kim,DGIST,,연구실 홈페이지 못 찾음
+P2632,,Kyung‐In Jang,DGIST,,졸업생 정보 없음
+P2633,,Byung‐Chang Suh,DGIST,,연구실 홈페이지 못 찾음
+P2634,,Young‐Sam Lee,DGIST,,연구실 홈페이지 못 찾음
+P2635,,Ju‐Hyuck Lee,DGIST,,연구실 홈페이지 못 찾음
+P2636,,Bong Ho Lee,DGIST,,연구실 홈페이지 못 찾음
+P2637,,Kidong Park,DGIST,,연구실 홈페이지 못 찾음
+P2638,,Cheol Ock Song,DGIST,,연구실 홈페이지 못 찾음
+P2639,,Ji Won Um,DGIST,,연구실 홈페이지 못 찾음
+P2640,,Dongwon Yun,DGIST,,연구실 홈페이지 못 찾음
+P2641,,June Myoung Kwak,DGIST,,연구실 홈페이지 못 찾음
+P2642,,Seong‐Kyoon Choi,DGIST,,연구실 홈페이지 못 찾음
+P2643,,Sanghoon Lee,DGIST,,연구실 홈페이지 못 찾음
+P2644,,Seungjoon Kim,DGIST,,연구실 홈페이지 못 찾음
+P2645,,Kwang Lee,DGIST,,졸업생 정보 없음
+P2646,,Han Kyoung Choe,DGIST,,졸업생 정보 없음
+P2647,,Eun‐Kyoung Kim,DGIST,,연구실 홈페이지 못 찾음
+P2649,,Kyuhyung Kim,DGIST,,연구실 홈페이지 못 찾음
+P2650,,Wookyung Yu,DGIST,,연구실 홈페이지 못 찾음
+P2651,,Youngtae Jeong,DGIST,,연구실 홈페이지 못 찾음
+P2652,,Jaesok Yu,DGIST,,연구실 홈페이지 못 찾음
+P2653,,Byeongmoon Lee,DGIST,,연구실 홈페이지 못 찾음
+P2654,,Bokyung Kim,DGIST,,연구실 홈페이지 못 찾음
+P2655,,Pyung Ok Lim,DGIST,,연구실 홈페이지 못 찾음
+P2656,,Yoori Kim,DGIST,,연구실 홈페이지 못 찾음
+P2658,,Junghyup Lee,DGIST,,연구실 홈페이지 못 찾음
+P2659,,Kyungseo Park,DGIST,,연구실 홈페이지 못 찾음
+P2660,,Il‐Kyu Choi,DGIST,,연구실 홈페이지 못 찾음
+P2661,,Hye Ryun Woo,DGIST,,연구실 홈페이지 못 찾음
+P2662,,Seong‐Woon Yu,DGIST,,연구실 홈페이지 못 찾음
+P2663,,Won-Cheol Kim,DGIST,,연구실 홈페이지 못 찾음
+P2664,,Jin‐Mo Kim,DGIST,,연구실 홈페이지 못 찾음
+P2666,,Kyeong‐Min Lee,DGIST,,연구실 홈페이지 못 찾음
+P2667,,Tae Wan Kim,DGIST,,연구실 홈페이지 못 찾음
+P2668,,Sewoong Kim,DGIST,,연구실 홈페이지 못 찾음
+P2669,,JaeHyung Koo,DGIST,,연구실 홈페이지 못 찾음
+P2670,,Kyeong Nam Kim,DGIST,,연구실 홈페이지 못 찾음
+P2671,,Moon Hwan Lee,DGIST,,연구실 홈페이지 못 찾음
+P2672,,Yong‐Jin Park,Kongju National University,,연구실 홈페이지 못 찾음
+P2673,최미경,Mi‐Kyeong Choi,Kongju National University,,연구실 홈페이지 못 찾음
+P2674,,Dong Sub Kim,Kongju National University,,연구실 홈페이지 못 찾음
+P2675,,Hack-Youn Kim,Kongju National University,,연구실 홈페이지 못 찾음
+P2676,,Si‐Yong Kang,Kongju National University,,연구실 홈페이지 못 찾음
+P2677,,Bong‐Joo Lee,Kongju National University,,연구실 홈페이지 못 찾음
+P2678,,Song Ja Kim,Kongju National University,,연구실 홈페이지 못 찾음
+P2679,,Ki Wha Chung,Kongju National University,,연구실 홈페이지 못 찾음
+P2680,,Hyun Kyoung Kim,Kongju National University,,연구실 홈페이지 못 찾음
+P2681,,Eunju Kim,Kongju National University,,연구실 홈페이지 못 찾음
+P2682,,Min-Ju Kim,Kongju National University,,연구실 홈페이지 못 찾음
+P2683,,Ok‐Hee Cho,Kongju National University,,연구실 홈페이지 못 찾음
+P2684,,Young‐Han You,Kongju National University,,연구실 홈페이지 못 찾음
+P2685,,Bong-Ki Kim,Kongju National University,,연구실 홈페이지 못 찾음
+P2686,,Eui‐Hong Byun,Kongju National University,,연구실 홈페이지 못 찾음
+P2687,,Dong‐Sook Kim,Kongju National University,,연구실 홈페이지 못 찾음
+P2688,,Je‐Hyuk Lee,Kongju National University,,연구실 홈페이지 못 찾음
+P2689,,Min Sun Kim,Kongju National University,,연구실 홈페이지 못 찾음
+P2690,,Sea Cheon Oh,Kongju National University,,연구실 홈페이지 못 찾음
 P2691,,Jae Yoon Kim,Kongju National University,,연구실 페이지 미확인
 P2692,,Hyo Gil Choi,Kongju National University,,연구실 페이지 미확인
 P2693,,Seok-Kyu Jung,Kongju National University,,연구실 페이지 미확인
@@ -2560,10 +2543,8 @@ P2768,홍지혜,Jihye Hong,Dankook University,,논문 프로필 없음; 연구�
 P2769,손성욱,Seung Uk Son,Sungkyunkwan University,,연구실 페이지 미확인
 P2770,김상욱,Sang-Wook Kim,Ajou University,,논문 프로필 없음; 연구실 페이지 미확인
 P2771,주진,Jin Joo,Kyungpook National University,,논문 프로필 없음; 연구실 페이지 미확인
-P2772,이인수,Insu Lee,POSTECH,,논문 프로필 없음; 연구실 페이지 미확인
 P2773,김재윤,Jaeyun Kim,Sungkyunkwan University,,논문 프로필 없음; 연구실 페이지 미확인
 P2774,안광진,Kwangjin An,UNIST,,연구실 페이지 미확인
-P2775,손재성,Jae Sung Son,POSTECH,,논문 프로필 없음; 연구실 페이지 미확인
 P2776,박용일,Yong Il Park,Chonnam National University,,논문 프로필 없음; 연구실 페이지 미확인
 P2777,이지은,Ji Eun Lee,Chonnam National University,,논문 프로필 없음; 연구실 페이지 미확인
 P2778,이노현,Nohyun Lee,Kookmin University,,논문 프로필 없음; 연구실 페이지 미확인
@@ -2675,8 +2656,7 @@ P2894,정택동,Taek Dong Chung,Seoul National University,화학부,연구실 �
 P2895,주상훈,Sang Hoon Joo,Seoul National University,화학부,연구실 페이지 미확인
 P2896,홍병희,Byung Hee Hong,Seoul National University,화학부,연구실 페이지 미확인
 P2897,홍승윤,Seung Youn Hong,Seoul National University,화학부,연구실 페이지 미확인
-P2898,김민성,Min‐Sung Kim,POSTECH,학사논문 지도교수,연구실 페이지 미확인
-P2899,장지원,Jiwon Jang,POSTECH,학사논문 지도교수,연구실 페이지 미확인
+P2898,김민성,Min‐Sung Kim,POSTECH,Department of Life Sciences; 합성생물학전공,졸업생 정보 없음
 P2901,김용호,Yong Ho Kim,Sungkyunkwan University,나노공학과,논문 프로필 없음; 연구실 페이지 미확인
 P2902,이석찬,,Sungkyunkwan University,융합생명공학과,연구실 페이지 미확인
 P2903,권대혁,,Sungkyunkwan University,융합생명공학과,논문 프로필 없음; 연구실 페이지 미확인
@@ -2731,7 +2711,7 @@ P2951,박명규,,Sungkyunkwan University,의과대학 (기초의학),논문 프�
 P2952,박성진,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
 P2953,박재현,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
 P2954,배창대,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
-P2955,백관혁,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2955,백관혁,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
 P2956,신동우,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
 P2957,신명희,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
 P2958,신주호,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
@@ -2747,7 +2727,7 @@ P2967,이연종,,Sungkyunkwan University,의과대학 (기초의학),논문 프�
 P2968,이윤송,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
 P2969,이주상,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
 P2970,이창우,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
-P2971,임세진,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2971,임세진,,Sungkyunkwan University,의과대학 (기초의학),졸업생 정보 없음
 P2972,전용현,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
 P2973,정지욱,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
 P2974,정지헌,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
@@ -2805,7 +2785,7 @@ P3025,한진주,,KAIST,,논문 프로필 없음; 연구실 페이지 미확인
 P3026,월튼 존스,,KAIST,,논문 프로필 없음; 연구실 페이지 미확인
 P3027,남진우,,Hanyang University,,논문 프로필 없음; 연구실 페이지 미확인
 P3028,김동혁,,UNIST,,연구실 페이지 미확인
-P3029,이윤태,,POSTECH,,논문 프로필 없음; 연구실 페이지 미확인
+P3029,이윤태,,POSTECH,Department of Life Sciences,졸업생 정보 없음
 P3030,김창섭,,Dongguk University,화공생물공학과,졸업생 정보 없음
 P3031,김인기,,Sungkyunkwan University,지능형정밀헬스케어융합전공,졸업생 정보 없음
 P3032,홍순선,,Inha University,의예과,졸업생 정보 없음
@@ -2821,12 +2801,6 @@ P3042,이주영,,KAIST,공학생물대학원,졸업생 정보 없음
 P3043,임성순,,KAIST,공학생물대학원,논문 프로필 없음; 졸업생 정보 없음
 P3044,조병관,,KAIST,공학생물대학원,논문 프로필 없음; 졸업생 정보 없음
 P3045,최영재,,KAIST,공학생물대학원,졸업생 정보 없음
-P3051,신혜연,Hye Yeon Sin,Duksung Women's University,약학대학,졸업생 정보 없음
-P3053,박희준,Heejun Park,Duksung Women's University,약학대학,졸업생 정보 없음
-P3054,강성민,Sung‐Min Kang,Duksung Women's University,약학대학,졸업생 정보 없음
-P3056,이혜정,Hjeong Lee,Duksung Women's University,약학대학,졸업생 정보 없음
-P3057,김은숙,Eun‐Sook Kim,Duksung Women's University,약학대학,졸업생 정보 없음
-P3058,이재용,Jaeyong Lee,Duksung Women's University,약학대학,졸업생 정보 없음
 P3051,박성홍,Sung-Hong Park,KAIST,바이오및뇌공학과,졸업생 정보 없음
 P3053,박은영,Eunyeong Park,KAIST,바이오및뇌공학과,졸업생 정보 없음
 P3054,박제균,Je-Kyun Park,KAIST,바이오및뇌공학과,졸업생 정보 없음
@@ -2856,3 +2830,45 @@ P3088,고지훈,Jihoon Ko,Hanyang University,생명공학과,졸업생 정보 �
 P3089,김용희,Yong-Hee Kim,Hanyang University,생명공학과,논문 프로필 없음; 졸업생 정보 없음
 P3090,김홍남,Hong Nam Kim,KIST,뇌과학연구소 (Brain Science Institute),졸업생 정보 없음
 P3091,유탁근,Tag Keun Yoo,Eulji University,의예과,연구실 페이지 미확인
+P3092,이준호,Jun Ho Lee,Eulji University,의예과,연구실 페이지 미확인
+P3094,고용송,Yong-Song Gho,POSTECH,Department of Life Sciences; 시스템생명공학부,졸업생 정보 없음
+P3097,김영진,Young-Jin Kim,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P3098,김정훈,Jung Hoon Kim,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P3100,김종흠,Jonghum Kim,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P3101,백승태,Seung Tae Baek,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P3102,복서연,seoyon bok,POSTECH,Department of Life Sciences,연구실 페이지 미확인
+P3103,유웅재,Woongjae Yoo,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P3105,이민식,Minsik Lee,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P3107,최규하,kyuha Choi,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P3108,최세규,sekyu Choi,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P3109,허윤하,Yun Ha Hur,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P3110,황일두,ildoo Hwang,POSTECH,Department of Life Sciences,졸업생 정보 없음
+P3111,권도훈,Dohoon Kwon,POSTECH,Department of Chemistry,졸업생 정보 없음
+P3112,김현우,Hyeonwoo Kim,POSTECH,Department of Chemistry; 시스템생명공학부,졸업생 정보 없음
+P3113,서대하,Daeha Seo,POSTECH,Department of Chemistry,졸업생 정보 없음
+P3114,서종철,Jongcheol Seo,POSTECH,Department of Chemistry; 시스템생명공학부,졸업생 정보 없음
+P3115,임현석,Hyunseok Lim,POSTECH,Department of Chemistry,졸업생 정보 없음
+P3116,장영태,Young-Tae Chang,POSTECH,Department of Chemistry,졸업생 정보 없음
+P3117,손민주,Min Ju Shon,POSTECH,합성생물학전공,졸업생 정보 없음
+P3118,오승수,Seungsoo Oh,POSTECH,합성생물학전공,졸업생 정보 없음
+P3119,이상민,Sangmin Lee,POSTECH,합성생물학전공,졸업생 정보 없음
+P3120,이준구,Joongoo Lee,POSTECH,합성생물학전공,졸업생 정보 없음
+P3121,배기웅,Ki Woong Bae,Eulji University,의예과,연구실 페이지 미확인
+P3122,이용수,Yong-Su Lee,Duksung Women's University,약학대학,연구실 페이지 미확인
+P3123,윤혜란,Hye‐Ran Yoon,Duksung Women's University,약학대학,연구실 페이지 미확인
+P3124,이상협,Sang Hyup Lee,Duksung Women's University,약학대학,연구실 페이지 미확인
+P3125,조효선,Hyo Sun Cho,Duksung Women's University,약학대학,연구실 페이지 미확인
+P3126,신혜연,Hye Yeon Sin,Duksung Women's University,약학대학,논문 프로필 없음; 연구실 페이지 미확인
+P3127,정우현,Woo‐Hyun Chung,Duksung Women's University,약학대학,연구실 페이지 미확인
+P3128,박희준,Heejun Park,Duksung Women's University,약학대학,연구실 페이지 미확인
+P3129,강성민,Sung‐Min Kang,Duksung Women's University,약학대학,연구실 페이지 미확인
+P3130,박지현,Ji Hyun Park,Duksung Women's University,약학대학,연구실 페이지 미확인
+P3131,이혜정,Hjeong Lee,Duksung Women's University,약학대학,논문 프로필 없음; 연구실 페이지 미확인
+P3132,김은숙,Eun‐Sook Kim,Duksung Women's University,약학대학,논문 프로필 없음; 연구실 페이지 미확인
+P3133,이재용,Jaeyong Lee,Duksung Women's University,약학대학,연구실 페이지 미확인
+P3134,황광연,Kwang Yeon Hwang,Korea University,,연구실 페이지 미확인
+P3135,정지형,,Yonsei University,,논문 프로필 없음; 연구실 페이지 미확인
+P3136,이창욱,Changwook Lee,UNIST,,논문 프로필 없음; 연구실 페이지 미확인
+P3137,장정호,Jeong-Ho Chang,Kyungpook National University,,연구실 페이지 미확인
+P3138,최정민,Jung Min Choi,Kyungsung University,,연구실 페이지 미확인
+P3139,손선영,Sunyoung Sohn,Yonsei University,,논문 프로필 없음; 연구실 페이지 미확인

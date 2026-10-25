@@ -1132,7 +1132,7 @@
     // Overlap layout: four tilted ellipses, one per set. Each of the 15 combinations of sets
     // has its own region (no circles, so a diagonal pair such as 학·산 is not forced into the centre).
     // [centre x, centre y, half-width a, half-height b, tilt] in units of ELL_S.
-    const ELL_S=200;
+    const ELL_S=250;
     const ELLIPSE={"학":[0.978,-0.378,1.653,0.874,0.333],"병":[0.536,0.409,1.992,0.846,1.954],
                    "연":[0.118,-0.246,1.465,0.916,1.79],"산":[0.681,0.201,1.747,0.812,0.456]};
     let viewMode="galaxy", overlapOn=true, zoomSet=null, setGroup=null, circles={};

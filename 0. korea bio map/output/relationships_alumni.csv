@@ -1,183 +1,162 @@
 ﻿relationship_id,professor_a_id,professor_b_id,relationship_type,collaboration_paper_count,evidence_url,verified,notes
 ALU000001,P0288,P0191,advisor_student,,https://sites.google.com/dgu.ac.kr/molecular-biology-dongguk/member,alumni_page,listed on the lab's alumni page (unknown)
-ALU000002,P0001,P2787,advisor_student,,https://bmie.snu.ac.kr/lab-members/,alumni_page,listed on the lab's alumni page (phd)
-ALU000003,P0001,P0009,advisor_student,,https://bmie.snu.ac.kr/lab-members/,alumni_page,listed on the lab's alumni page (phd)
-ALU000004,P0001,P0005,advisor_student,,https://bmie.snu.ac.kr/lab-members/,alumni_page,listed on the lab's alumni page (phd)
-ALU000005,P0022,P2719,advisor_student,10,https://nanotrio.postech.ac.kr/nanotrio/mem/alumni.do,alumni_page,"listed on the lab's alumni page (phd, 2016)"
-ALU000006,P0022,P2720,advisor_student,11,https://nanotrio.postech.ac.kr/nanotrio/mem/alumni.do,alumni_page,"listed on the lab's alumni page (phd, 2014)"
-ALU000007,P0022,P2721,advisor_student,14,https://nanotrio.postech.ac.kr/nanotrio/mem/alumni.do,alumni_page,"listed on the lab's alumni page (phd, 2013)"
-ALU000008,P0022,P2722,advisor_student,12,https://nanotrio.postech.ac.kr/nanotrio/mem/alumni.do,alumni_page,"listed on the lab's alumni page (phd, 2013)"
-ALU000009,P0022,P2723,advisor_student,1,https://nanotrio.postech.ac.kr/nanotrio/mem/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2008)"
-ALU000010,P0066,P2144,advisor_student,8,https://sites.google.com/view/baelab/members,alumni_page,"listed on the lab's alumni page (unknown, 2016)"
-ALU000011,P0066,P2763,postdoc_mentor,1,https://sites.google.com/view/baelab/members,alumni_page,"listed on the lab's alumni page (postdoc, 2021)"
-ALU000012,P0066,P1033,postdoc_mentor,9,https://sites.google.com/view/baelab/members,alumni_page,"listed on the lab's alumni page (postdoc, 2023)"
-ALU000013,P0113,P0085,advisor_student,0,http://drl.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (phd, 2019)"
-ALU000014,P0113,P1262,advisor_student,0,http://drl.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (ms, 2023)"
-ALU000015,P0133,P2788,postdoc_mentor,4,https://sites.google.com/view/haeun-skku/members,alumni_page,"listed on the lab's alumni page (postdoc, 2016)"
-ALU000016,P0245,P1459,advisor_student,24,https://sites.google.com/view/cau-smb/members/alumni,alumni_page,"listed on the lab's alumni page (phd, 2024)"
-ALU000017,P0681,P1152,advisor_student,4,https://sites.google.com/site/kimlabknu/website-builder/events,alumni_page,"listed on the lab's alumni page (unknown, 2024)"
-ALU000018,P0712,P2792,postdoc_mentor,,https://sukjae.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (postdoc)
-ALU000019,P0712,P2793,advisor_student,3,https://sukjae.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (phd, 2004)"
-ALU000020,P0712,P2781,advisor_student,3,https://sukjae.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (phd, 2005)"
-ALU000021,P0712,P2782,advisor_student,4,https://sukjae.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (phd, 2005)"
-ALU000022,P0712,P2794,advisor_student,0,https://sukjae.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2004)"
-ALU000023,P0713,P1679,advisor_student,8,https://immprove.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (integrated, 2023)"
-ALU000024,P0713,P1305,postdoc_mentor,10,https://immprove.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (postdoc, 2014)"
-ALU000025,P0716,P0416,advisor_student,2,https://www.schong17.com/alumni,alumni_page,"listed on the lab's alumni page (ms, 2020)"
-ALU000026,P0719,P2724,advisor_student,40,https://eecat.snu.ac.kr/members/alumni/index.jsp,alumni_page,"listed on the lab's alumni page (phd, 2021)"
-ALU000027,P0719,P2725,advisor_student,14,https://eecat.snu.ac.kr/members/alumni/index.jsp,alumni_page,"listed on the lab's alumni page (phd, 2021)"
-ALU000028,P0719,P2726,advisor_student,22,https://eecat.snu.ac.kr/members/alumni/index.jsp,alumni_page,"listed on the lab's alumni page (phd, 2020)"
-ALU000029,P0719,P2727,advisor_student,33,https://eecat.snu.ac.kr/members/alumni/index.jsp,alumni_page,"listed on the lab's alumni page (phd, 2020)"
-ALU000030,P0738,P2783,advisor_student,,https://tcsm.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown)
-ALU000031,P0738,P2784,advisor_student,,https://tcsm.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown)
-ALU000032,P0738,P2785,advisor_student,,https://tcsm.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown)
-ALU000033,P0738,P2786,advisor_student,,https://tcsm.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown)
-ALU000034,P0744,P2728,postdoc_mentor,19,https://mest.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (postdoc, 2017)"
-ALU000035,P0744,P2729,advisor_student,13,https://mest.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (phd, 2015)"
-ALU000036,P0744,P2730,advisor_student,20,https://mest.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (phd, 2017)"
-ALU000037,P0744,P2732,advisor_student,20,https://mest.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (phd, 2019)"
-ALU000038,P0748,P0657,advisor_student,29,(given by hand: P0748),alumni_page,"listed on the lab's alumni page (phd, 2017)"
-ALU000039,P0748,P0486,advisor_student,3,(given by hand: P0748),alumni_page,"listed on the lab's alumni page (ms, 2019)"
-ALU000040,P0748,P0128,advisor_student,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (ms)
-ALU000041,P0748,P1089,advisor_student,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (ms)
-ALU000042,P0748,P0586,advisor_student,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (ms)
-ALU000043,P0748,P3007,postdoc_mentor,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (postdoc)
-ALU000044,P0757,P1262,advisor_student,,https://cocila.net/people-2/alumni-2/,alumni_page,listed on the lab's alumni page (ms)
-ALU000045,P0774,P1242,advisor_student,3,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (phd, 2023)"
-ALU000046,P0774,P1309,advisor_student,6,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (phd, 2023)"
-ALU000047,P0774,P3117,postdoc_mentor,8,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (postdoc, 2019)"
-ALU000048,P0774,P1220,postdoc_mentor,0,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (postdoc, 2019)"
-ALU000049,P0774,P1024,advisor_student,10,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (phd, 2014)"
-ALU000050,P0775,P2980,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000051,P0775,P2981,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000052,P0775,P0768,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000053,P0775,P2982,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000054,P0775,P0778,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000055,P0775,P2983,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000056,P0823,P2543,advisor_student,1,https://seml.korea.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (ms, 2021)"
-ALU000057,P0881,P1309,advisor_student,3,(given by hand: P0881),alumni_page,"listed on the lab's alumni page (ms, 2012)"
-ALU000058,P0881,P1703,advisor_student,1,(given by hand: P0881),alumni_page,"listed on the lab's alumni page (ms, 2013)"
-ALU000059,P0928,P1475,advisor_student,,https://sites.google.com/view/mfmt/members/alumni,alumni_page,listed on the lab's alumni page (ms)
-ALU000060,P0949,P2984,advisor_student,,https://sites.google.com/view/jyp-plastic-research/team/alumni,alumni_page,listed on the lab's alumni page (phd)
-ALU000061,P1017,P1556,advisor_student,,https://single.unist.ac.kr/ourmembers/,alumni_page,listed on the lab's alumni page (integrated)
-ALU000062,P1312,P0666,advisor_student,0,https://minyoungjung.com/alumni/,alumni_page,"listed on the lab's alumni page (unknown, 2024)"
-ALU000063,P1312,P2723,advisor_student,0,https://minyoungjung.com/alumni/,alumni_page,"listed on the lab's alumni page (unknown, 2025)"
-ALU000064,P0004,P2790,advisor_student,,(given by hand: P0004),alumni_page,"listed on the lab's alumni page (phd, 2012)"
-ALU000065,P0004,P2791,advisor_student,,(given by hand: P0004),alumni_page,"listed on the lab's alumni page (integrated, 2014)"
-ALU000066,P0007,P2757,advisor_student,0,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (ms, 2003)"
-ALU000067,P0007,P0881,advisor_student,0,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2006)"
-ALU000068,P0007,P2758,advisor_student,16,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2007)"
-ALU000069,P0007,P2759,advisor_student,16,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2008)"
-ALU000070,P0007,P2760,advisor_student,39,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2011)"
-ALU000071,P0007,P2761,postdoc_mentor,20,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (postdoc, 2012)"
-ALU000072,P0007,P2762,advisor_student,1,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2014)"
-ALU000073,P0007,P2763,advisor_student,18,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2016)"
-ALU000074,P0007,P0246,advisor_student,23,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2017)"
-ALU000075,P0007,P2764,advisor_student,21,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2018)"
-ALU000076,P0007,P2765,advisor_student,25,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2019)"
-ALU000077,P0007,P2766,advisor_student,0,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (integrated, 2020)"
-ALU000078,P0007,P2767,advisor_student,21,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (integrated, 2021)"
-ALU000079,P0007,P2768,advisor_student,19,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (integrated, 2023)"
-ALU000080,P0026,P1303,advisor_student,,https://sites.google.com/view/abdlab/members/alumni,alumni_page,listed on the lab's alumni page (phd)
-ALU000081,P0026,P1519,advisor_student,,https://sites.google.com/view/abdlab/members/alumni,alumni_page,listed on the lab's alumni page (phd)
-ALU000082,P0026,P1711,advisor_student,,https://sites.google.com/view/abdlab/members/alumni,alumni_page,listed on the lab's alumni page (phd)
-ALU000083,P0040,P0913,advisor_student,0,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2022)"
-ALU000084,P0040,P0885,advisor_student,0,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2021)"
-ALU000085,P0040,P2748,advisor_student,0,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2021)"
-ALU000086,P0040,P3001,advisor_student,3,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2007)"
-ALU000087,P0056,P0762,advisor_student,7,https://chahj72.wixsite.com/snucsl/blank-2,alumni_page,"listed on the lab's alumni page (unknown, 2022)"
-ALU000088,P0095,P1586,advisor_student,0,https://clarity.yonsei.ac.kr/people/alumni,alumni_page,"listed on the lab's alumni page (ms, 2025)"
-ALU000089,P0095,P0963,advisor_student,3,https://clarity.yonsei.ac.kr/people/alumni,alumni_page,"listed on the lab's alumni page (integrated, 2021)"
-ALU000090,P0734,P3002,advisor_student,16,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2018)"
-ALU000091,P0734,P2600,advisor_student,13,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2015)"
-ALU000092,P0734,P3003,advisor_student,16,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2015)"
-ALU000093,P0734,P3004,advisor_student,0,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (ms, 2007)"
-ALU000094,P0734,P0741,advisor_student,17,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2007)"
-ALU000095,P0734,P3005,advisor_student,12,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2005)"
-ALU000096,P0734,P3006,advisor_student,0,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (ms, 2001)"
-ALU000097,P0746,P2769,postdoc_mentor,5,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,"listed on the lab's alumni page (postdoc, 2004)"
-ALU000098,P0746,P2770,advisor_student,0,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,"listed on the lab's alumni page (phd, 2003)"
-ALU000099,P0746,P2771,advisor_student,1,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,"listed on the lab's alumni page (phd, 2005)"
-ALU000100,P0746,P1019,advisor_student,35,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,"listed on the lab's alumni page (phd, 2005)"
-ALU000101,P0746,P2772,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
-ALU000102,P0746,P2773,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
-ALU000103,P0746,P0112,postdoc_mentor,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (postdoc)
-ALU000104,P0746,P2774,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
-ALU000105,P0746,P2775,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
-ALU000106,P0746,P2776,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
-ALU000107,P0746,P2777,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
-ALU000108,P0746,P2778,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
-ALU000109,P0746,P2779,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
-ALU000110,P0746,P2780,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
-ALU000111,P0746,P0702,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
-ALU000112,P0752,P0938,postdoc_mentor,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2026)"
-ALU000113,P0752,P3017,postdoc_mentor,3,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2022)"
-ALU000114,P0752,P3018,postdoc_mentor,5,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2020)"
-ALU000115,P0752,P0785,advisor_student,11,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2018)"
-ALU000116,P0752,P3019,postdoc_mentor,4,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2017)"
-ALU000117,P0752,P3020,advisor_student,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2017)"
-ALU000118,P0752,P3021,advisor_student,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2017)"
-ALU000119,P0752,P2718,postdoc_mentor,1,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2015)"
-ALU000120,P0752,P3022,advisor_student,5,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2015)"
-ALU000121,P0752,P3023,advisor_student,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2014)"
-ALU000122,P0752,P3024,postdoc_mentor,2,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2010)"
-ALU000123,P0752,P3025,advisor_student,10,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2009)"
-ALU000124,P0752,P3026,advisor_student,0,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (unknown, 2008)"
-ALU000125,P0752,P3027,postdoc_mentor,3,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2008)"
-ALU000126,P0752,P3028,advisor_student,0,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (unknown, 2007)"
-ALU000127,P0752,P3029,advisor_student,8,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2006)"
-ALU000128,P0897,P0155,advisor_student,,http://ncst.yonsei.ac.kr/members04.html,alumni_page,listed on the lab's alumni page (phd)
-ALU000129,P0897,P2639,advisor_student,,http://ncst.yonsei.ac.kr/members04.html,alumni_page,listed on the lab's alumni page (phd)
-ALU000130,P2532,P2733,advisor_student,3,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2008)"
-ALU000131,P2532,P0002,advisor_student,55,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2012)"
-ALU000132,P2532,P0008,advisor_student,26,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2015)"
-ALU000133,P2532,P0015,advisor_student,36,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2017)"
-ALU000134,P2532,P0010,advisor_student,40,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2017)"
-ALU000135,P2532,P2734,advisor_student,7,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2021)"
-ALU000136,P2532,P2735,advisor_student,11,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2023)"
-ALU000137,P2532,P2736,advisor_student,13,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2025)"
-ALU000138,P2795,P3088,advisor_student,27,(given by hand: P2795),alumni_page,"listed on the lab's alumni page (phd, 2021)"
-ALU000139,P2795,P1186,advisor_student,13,(given by hand: P2795),alumni_page,"listed on the lab's alumni page (phd, 2020)"
-ALU000140,P2795,P3090,advisor_student,1,(given by hand: P2795),alumni_page,"listed on the lab's alumni page (phd, 2014)"
-ALU000141,P2795,P0756,advisor_student,7,(given by hand: P2795),alumni_page,"listed on the lab's alumni page (ms, 2014)"
-ALU000142,P2797,P3008,advisor_student,5,(given by hand: P2797),alumni_page,"listed on the lab's alumni page (phd, 2022)"
-ALU000143,P2797,P1092,advisor_student,2,(given by hand: P2797),alumni_page,"listed on the lab's alumni page (ms, 2015)"
-ALU000144,P2801,P2900,advisor_student,1,https://sites.google.com/view/laboflim/members/alumni,alumni_page,"listed on the lab's alumni page (ms, 2015)"
-ALU000145,P2804,P1276,advisor_student,,https://bmeel.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (ms, 2023)"
-ALU000146,P2804,P1268,advisor_student,,https://bmeel.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (ms, 2025)"
-ALU000147,P2808,P3009,advisor_student,11,(given by hand: P2808),alumni_page,"listed on the lab's alumni page (unknown, 2024)"
-ALU000148,P2808,P3010,postdoc_mentor,13,(given by hand: P2808),alumni_page,"listed on the lab's alumni page (postdoc, 2024)"
-ALU000149,P2808,P3011,postdoc_mentor,4,(given by hand: P2808),alumni_page,"listed on the lab's alumni page (postdoc, 2017)"
-ALU000150,P2839,P3012,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd)
-ALU000151,P2839,P3013,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd)
-ALU000152,P2839,P3014,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd)
-ALU000153,P2839,P3015,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd)
-ALU000154,P2839,P3016,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd)
-ALU000155,P2839,P0179,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (ms)
-ALU000156,P2841,P2800,advisor_student,,(given by hand: P2841),alumni_page,"listed on the lab's alumni page (phd, 2015)"
-ALU000157,P2874,P0878,advisor_student,,http://mipl.korea.ac.kr/people.php,alumni_page,listed on the lab's alumni page (phd)
-ALU000158,P2886,P1635,advisor_student,,https://seoklab.org/members.html,alumni_page,listed on the lab's alumni page (ms)
-ALU000159,P2886,P0765,advisor_student,18,https://seoklab.org/members.html,alumni_page,"listed on the lab's alumni page (phd, 2018)"
-ALU000160,P2886,P1006,advisor_student,17,https://seoklab.org/members.html,alumni_page,"listed on the lab's alumni page (phd, 2017)"
-ALU000161,P2886,P1465,advisor_student,16,https://seoklab.org/members.html,alumni_page,"listed on the lab's alumni page (phd, 2016)"
-ALU000162,P2886,P1225,advisor_student,3,https://seoklab.org/members.html,alumni_page,"listed on the lab's alumni page (ms, 2011)"
-ALU000163,P3034,P1163,advisor_student,0,(given by hand: P3034),alumni_page,"listed on the lab's alumni page (unknown, 2024)"
-ALU000164,P3055,P2578,advisor_student,8,https://jhp.kaist.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (phd, 2015)"
-ALU000165,P3055,P2609,advisor_student,1,https://jhp.kaist.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (ms, 2012)"
-ALU000166,P3067,P1577,advisor_student,7,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2017)"
-ALU000167,P3067,P1297,advisor_student,20,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2023)"
-ALU000168,P3069,P0342,advisor_student,8,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,"listed on the lab's alumni page (ms, 2019)"
-ALU000169,P3069,P1220,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000170,P3069,P1174,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000171,P3069,P0753,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000172,P3069,P1224,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000173,P3070,P0631,advisor_student,0,https://bmnd.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (ms, 2016)"
-ALU000174,P3072,P0959,advisor_student,0,(given by hand: P3072),alumni_page,"listed on the lab's alumni page (ms, 2019)"
-ALU000175,P3081,P1584,advisor_student,,https://sites.google.com/hanyang.ac.kr/hyubio/members/alumni,alumni_page,listed on the lab's alumni page (ms)
-ALU000176,P3106,P3134,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000177,P3106,P3135,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000178,P3106,P3136,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000179,P3106,P3137,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000180,P3106,P3138,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000181,P3106,P3139,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000182,P3106,P1146,postdoc_mentor,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (postdoc)
+ALU000002,P0066,P2144,advisor_student,8,https://sites.google.com/view/baelab/members,alumni_page,"listed on the lab's alumni page (unknown, 2016)"
+ALU000003,P0066,P2763,postdoc_mentor,1,https://sites.google.com/view/baelab/members,alumni_page,"listed on the lab's alumni page (postdoc, 2021)"
+ALU000004,P0066,P1033,postdoc_mentor,9,https://sites.google.com/view/baelab/members,alumni_page,"listed on the lab's alumni page (postdoc, 2023)"
+ALU000005,P0113,P0085,advisor_student,0,http://drl.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (phd, 2019)"
+ALU000006,P0113,P1262,advisor_student,0,http://drl.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (ms, 2023)"
+ALU000007,P0245,P1459,advisor_student,24,https://sites.google.com/view/cau-smb/members/alumni,alumni_page,"listed on the lab's alumni page (phd, 2024)"
+ALU000008,P0681,P1152,advisor_student,4,https://sites.google.com/site/kimlabknu/website-builder/events,alumni_page,"listed on the lab's alumni page (unknown, 2024)"
+ALU000009,P0713,P1679,advisor_student,8,https://immprove.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (integrated, 2023)"
+ALU000010,P0713,P1305,postdoc_mentor,10,https://immprove.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (postdoc, 2014)"
+ALU000011,P0716,P0416,advisor_student,2,https://www.schong17.com/alumni,alumni_page,"listed on the lab's alumni page (ms, 2020)"
+ALU000012,P0748,P0657,advisor_student,29,(given by hand: P0748),alumni_page,"listed on the lab's alumni page (phd, 2017)"
+ALU000013,P0748,P0486,advisor_student,3,(given by hand: P0748),alumni_page,"listed on the lab's alumni page (ms, 2019)"
+ALU000014,P0748,P0128,advisor_student,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (ms)
+ALU000015,P0748,P1089,advisor_student,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (ms)
+ALU000016,P0748,P0586,advisor_student,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (ms)
+ALU000017,P0748,P3007,postdoc_mentor,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (postdoc)
+ALU000018,P0757,P1262,advisor_student,,https://cocila.net/people-2/alumni-2/,alumni_page,listed on the lab's alumni page (ms)
+ALU000019,P0774,P1242,advisor_student,3,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (phd, 2023)"
+ALU000020,P0774,P1309,advisor_student,6,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (phd, 2023)"
+ALU000021,P0774,P3117,postdoc_mentor,8,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (postdoc, 2019)"
+ALU000022,P0774,P1220,postdoc_mentor,0,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (postdoc, 2019)"
+ALU000023,P0774,P1024,advisor_student,10,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (phd, 2014)"
+ALU000024,P0775,P2980,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000025,P0775,P2981,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000026,P0775,P0768,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000027,P0775,P2982,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000028,P0775,P0778,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000029,P0775,P2983,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000030,P0823,P2543,advisor_student,1,https://seml.korea.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (ms, 2021)"
+ALU000031,P0881,P1309,advisor_student,3,(given by hand: P0881),alumni_page,"listed on the lab's alumni page (ms, 2012)"
+ALU000032,P0881,P1703,advisor_student,1,(given by hand: P0881),alumni_page,"listed on the lab's alumni page (ms, 2013)"
+ALU000033,P0928,P1475,advisor_student,,https://sites.google.com/view/mfmt/members/alumni,alumni_page,listed on the lab's alumni page (ms)
+ALU000034,P1017,P1556,advisor_student,,https://single.unist.ac.kr/ourmembers/,alumni_page,listed on the lab's alumni page (integrated)
+ALU000035,P1312,P0666,advisor_student,0,https://minyoungjung.com/alumni/,alumni_page,"listed on the lab's alumni page (unknown, 2024)"
+ALU000036,P1312,P2723,advisor_student,0,https://minyoungjung.com/alumni/,alumni_page,"listed on the lab's alumni page (unknown, 2025)"
+ALU000037,P0004,P2790,advisor_student,,(given by hand: P0004),alumni_page,"listed on the lab's alumni page (phd, 2012)"
+ALU000038,P0004,P2791,advisor_student,,(given by hand: P0004),alumni_page,"listed on the lab's alumni page (integrated, 2014)"
+ALU000039,P0007,P2757,advisor_student,0,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (ms, 2003)"
+ALU000040,P0007,P0881,advisor_student,0,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2006)"
+ALU000041,P0007,P2758,advisor_student,16,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2007)"
+ALU000042,P0007,P2759,advisor_student,16,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2008)"
+ALU000043,P0007,P2760,advisor_student,39,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2011)"
+ALU000044,P0007,P2761,postdoc_mentor,20,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (postdoc, 2012)"
+ALU000045,P0007,P2762,advisor_student,1,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2014)"
+ALU000046,P0007,P2763,advisor_student,18,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2016)"
+ALU000047,P0007,P0246,advisor_student,23,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2017)"
+ALU000048,P0007,P2764,advisor_student,21,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2018)"
+ALU000049,P0007,P2765,advisor_student,25,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2019)"
+ALU000050,P0007,P2766,advisor_student,0,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (integrated, 2020)"
+ALU000051,P0007,P2767,advisor_student,21,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (integrated, 2021)"
+ALU000052,P0007,P2768,advisor_student,19,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (integrated, 2023)"
+ALU000053,P0026,P1303,advisor_student,,https://sites.google.com/view/abdlab/members/alumni,alumni_page,listed on the lab's alumni page (phd)
+ALU000054,P0026,P1519,advisor_student,,https://sites.google.com/view/abdlab/members/alumni,alumni_page,listed on the lab's alumni page (phd)
+ALU000055,P0026,P1711,advisor_student,,https://sites.google.com/view/abdlab/members/alumni,alumni_page,listed on the lab's alumni page (phd)
+ALU000056,P0040,P0913,advisor_student,0,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2022)"
+ALU000057,P0040,P0885,advisor_student,0,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2021)"
+ALU000058,P0040,P2748,advisor_student,0,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2021)"
+ALU000059,P0040,P3001,advisor_student,3,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2007)"
+ALU000060,P0056,P0762,advisor_student,7,https://chahj72.wixsite.com/snucsl/blank-2,alumni_page,"listed on the lab's alumni page (unknown, 2022)"
+ALU000061,P0095,P1586,advisor_student,0,https://clarity.yonsei.ac.kr/people/alumni,alumni_page,"listed on the lab's alumni page (ms, 2025)"
+ALU000062,P0095,P0963,advisor_student,3,https://clarity.yonsei.ac.kr/people/alumni,alumni_page,"listed on the lab's alumni page (integrated, 2021)"
+ALU000063,P0734,P3002,advisor_student,16,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2018)"
+ALU000064,P0734,P2600,advisor_student,13,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2015)"
+ALU000065,P0734,P3003,advisor_student,16,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2015)"
+ALU000066,P0734,P3004,advisor_student,0,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (ms, 2007)"
+ALU000067,P0734,P0741,advisor_student,17,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2007)"
+ALU000068,P0734,P3005,advisor_student,12,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2005)"
+ALU000069,P0734,P3006,advisor_student,0,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (ms, 2001)"
+ALU000070,P0746,P2769,postdoc_mentor,5,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,"listed on the lab's alumni page (postdoc, 2004)"
+ALU000071,P0746,P2770,advisor_student,0,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,"listed on the lab's alumni page (phd, 2003)"
+ALU000072,P0746,P2771,advisor_student,1,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,"listed on the lab's alumni page (phd, 2005)"
+ALU000073,P0746,P1019,advisor_student,35,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,"listed on the lab's alumni page (phd, 2005)"
+ALU000074,P0746,P2772,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
+ALU000075,P0746,P2773,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
+ALU000076,P0746,P0112,postdoc_mentor,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (postdoc)
+ALU000077,P0746,P2774,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
+ALU000078,P0746,P2775,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
+ALU000079,P0746,P2776,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
+ALU000080,P0746,P2777,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
+ALU000081,P0746,P2778,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
+ALU000082,P0746,P2779,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
+ALU000083,P0746,P2780,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
+ALU000084,P0746,P0702,advisor_student,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,alumni_page,listed on the lab's alumni page (phd)
+ALU000085,P0752,P0938,postdoc_mentor,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2026)"
+ALU000086,P0752,P3017,postdoc_mentor,3,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2022)"
+ALU000087,P0752,P3018,postdoc_mentor,5,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2020)"
+ALU000088,P0752,P0785,advisor_student,11,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2018)"
+ALU000089,P0752,P3019,postdoc_mentor,4,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2017)"
+ALU000090,P0752,P3020,advisor_student,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2017)"
+ALU000091,P0752,P3021,advisor_student,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2017)"
+ALU000092,P0752,P2718,postdoc_mentor,1,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2015)"
+ALU000093,P0752,P3022,advisor_student,5,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2015)"
+ALU000094,P0752,P3023,advisor_student,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2014)"
+ALU000095,P0752,P3024,postdoc_mentor,2,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2010)"
+ALU000096,P0752,P3025,advisor_student,10,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2009)"
+ALU000097,P0752,P3026,advisor_student,0,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (unknown, 2008)"
+ALU000098,P0752,P3027,postdoc_mentor,3,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2008)"
+ALU000099,P0752,P3028,advisor_student,0,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (unknown, 2007)"
+ALU000100,P0752,P3029,advisor_student,8,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2006)"
+ALU000101,P0897,P0155,advisor_student,,http://ncst.yonsei.ac.kr/members04.html,alumni_page,listed on the lab's alumni page (phd)
+ALU000102,P0897,P2639,advisor_student,,http://ncst.yonsei.ac.kr/members04.html,alumni_page,listed on the lab's alumni page (phd)
+ALU000103,P2795,P3088,advisor_student,27,(given by hand: P2795),alumni_page,"listed on the lab's alumni page (phd, 2021)"
+ALU000104,P2795,P1186,advisor_student,13,(given by hand: P2795),alumni_page,"listed on the lab's alumni page (phd, 2020)"
+ALU000105,P2795,P3090,advisor_student,1,(given by hand: P2795),alumni_page,"listed on the lab's alumni page (phd, 2014)"
+ALU000106,P2795,P0756,advisor_student,7,(given by hand: P2795),alumni_page,"listed on the lab's alumni page (ms, 2014)"
+ALU000107,P2797,P3008,advisor_student,5,(given by hand: P2797),alumni_page,"listed on the lab's alumni page (phd, 2022)"
+ALU000108,P2797,P1092,advisor_student,2,(given by hand: P2797),alumni_page,"listed on the lab's alumni page (ms, 2015)"
+ALU000109,P2801,P2900,advisor_student,1,https://sites.google.com/view/laboflim/members/alumni,alumni_page,"listed on the lab's alumni page (ms, 2015)"
+ALU000110,P2804,P1276,advisor_student,,https://bmeel.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (ms, 2023)"
+ALU000111,P2804,P1268,advisor_student,,https://bmeel.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (ms, 2025)"
+ALU000112,P2808,P3009,advisor_student,11,(given by hand: P2808),alumni_page,"listed on the lab's alumni page (unknown, 2024)"
+ALU000113,P2808,P3010,postdoc_mentor,13,(given by hand: P2808),alumni_page,"listed on the lab's alumni page (postdoc, 2024)"
+ALU000114,P2808,P3011,postdoc_mentor,4,(given by hand: P2808),alumni_page,"listed on the lab's alumni page (postdoc, 2017)"
+ALU000115,P2839,P3012,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd)
+ALU000116,P2839,P3013,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd)
+ALU000117,P2839,P3014,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd)
+ALU000118,P2839,P3015,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd)
+ALU000119,P2839,P3016,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd)
+ALU000120,P2839,P0179,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (ms)
+ALU000121,P2841,P2800,advisor_student,,(given by hand: P2841),alumni_page,"listed on the lab's alumni page (phd, 2015)"
+ALU000122,P2874,P0878,advisor_student,,http://mipl.korea.ac.kr/people.php,alumni_page,listed on the lab's alumni page (phd)
+ALU000123,P2886,P1635,advisor_student,,https://seoklab.org/members.html,alumni_page,listed on the lab's alumni page (ms)
+ALU000124,P2886,P0765,advisor_student,18,https://seoklab.org/members.html,alumni_page,"listed on the lab's alumni page (phd, 2018)"
+ALU000125,P2886,P1006,advisor_student,17,https://seoklab.org/members.html,alumni_page,"listed on the lab's alumni page (phd, 2017)"
+ALU000126,P2886,P1465,advisor_student,16,https://seoklab.org/members.html,alumni_page,"listed on the lab's alumni page (phd, 2016)"
+ALU000127,P2886,P1225,advisor_student,3,https://seoklab.org/members.html,alumni_page,"listed on the lab's alumni page (ms, 2011)"
+ALU000128,P3034,P1163,advisor_student,0,(given by hand: P3034),alumni_page,"listed on the lab's alumni page (unknown, 2024)"
+ALU000129,P3055,P2578,advisor_student,8,https://jhp.kaist.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (phd, 2015)"
+ALU000130,P3055,P2609,advisor_student,1,https://jhp.kaist.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (ms, 2012)"
+ALU000131,P3065,P0047,advisor_student,2,https://sbie.kaist.ac.kr/people/associate-members/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2008)"
+ALU000132,P3067,P1577,advisor_student,7,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2017)"
+ALU000133,P3067,P1297,advisor_student,20,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2023)"
+ALU000134,P3069,P0342,advisor_student,8,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,"listed on the lab's alumni page (ms, 2019)"
+ALU000135,P3069,P1220,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000136,P3069,P1174,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000137,P3069,P0753,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000138,P3069,P1224,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000139,P3070,P0631,advisor_student,0,https://bmnd.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (ms, 2016)"
+ALU000140,P3072,P0959,advisor_student,0,(given by hand: P3072),alumni_page,"listed on the lab's alumni page (ms, 2019)"
+ALU000141,P3081,P1584,advisor_student,,https://sites.google.com/hanyang.ac.kr/hyubio/members/alumni,alumni_page,listed on the lab's alumni page (ms)
+ALU000142,P3106,P3134,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000143,P3106,P3135,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000144,P3106,P3136,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000145,P3106,P3137,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000146,P3106,P3138,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000147,P3106,P3139,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000148,P3106,P1146,postdoc_mentor,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (postdoc)
+ALU000149,P2740,P1666,advisor_student,2,https://jnu-pharmacognosy.github.io/lab,alumni_page,"listed on the lab's alumni page (ms, 2023)"
+ALU000150,P2740,P1624,advisor_student,0,https://jnu-pharmacognosy.github.io/lab,alumni_page,"listed on the lab's alumni page (ms, 2025)"
+ALU000151,P2740,P1320,advisor_student,1,https://jnu-pharmacognosy.github.io/lab,alumni_page,"listed on the lab's alumni page (ms, 2026)"
+ALU000152,P2884,P1155,advisor_student,,https://chembio.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown)
+ALU000153,P2884,P0009,advisor_student,,https://chembio.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown)
+ALU000154,P2884,P3086,advisor_student,,https://chembio.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown)
+ALU000155,P2884,P0433,advisor_student,,https://chembio.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown)
+ALU000156,P2884,P1242,advisor_student,,https://chembio.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown)
+ALU000157,P2885,P0179,postdoc_mentor,0,http://seolab.creatorlink.net/Alumni,alumni_page,"listed on the lab's alumni page (postdoc, 2023)"
+ALU000158,P2890,P0480,advisor_student,3,http://www.leelab.snu.ac.kr/alumni,alumni_page,"listed on the lab's alumni page (phd, 2021)"
+ALU000159,P2890,P1251,advisor_student,2,http://www.leelab.snu.ac.kr/alumni,alumni_page,"listed on the lab's alumni page (phd, 2021)"
+ALU000160,P2891,P1193,advisor_student,2,https://amglab.wixsite.com/eslee/alumni,alumni_page,"listed on the lab's alumni page (phd, 2017)"
+ALU000161,P2901,P1315,advisor_student,,https://www.yhproteinlab.com/members/alumni,alumni_page,listed on the lab's alumni page (ms)

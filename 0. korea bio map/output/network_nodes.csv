@@ -609,7 +609,7 @@ P0672,김상룡,Sang Ryong Kim,Kyungpook National University,생명공학부,,,h
 P0673,조동형,Dong-Hyung Cho,Kyungpook National University,생명공학부,Epidemiology,A5082376747,http://biotech.knu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=13,0000-0002-8859-0310,verified,,14,0,0,0,0,14
 P0674,류홍열,Hong-Yeoul Ryu,Kyungpook National University,생명공학부,Molecular Biology,A5077533501,http://biotech.knu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=14,0000-0002-3367-9887,probable,,5,0,0,0,0,5
 P0675,염은별,Eunbyul Yeom,Kyungpook National University,생명공학부,Epidemiology,A5102719726,http://biotech.knu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=16,0009-0001-5926-1227,verified,,0,0,0,0,0,0
-P0676,김사현,Sa-Hyun Kim,Kyungpook National University,생명공학부,Surgery,A5002391204,http://biotech.knu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=17,0000-0003-3910-4838,verified,,0,0,0,0,0,0
+P0676,김사현,Sa-Hyun Kim,Kyungpook National University,생명공학부,Surgery,A5002391204,http://biotech.knu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=17,0000-0003-3910-4838,verified,,1,0,0,0,0,1
 P0677,김기범,Kee-Beom Kim,Kyungpook National University,생명공학부,Oncology,A5000762926,http://biotech.knu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=18,0000-0003-0132-8924,probable,,4,0,0,0,0,4
 P0678,이준영,Jun-Yeong Lee,Kyungpook National University,생명공학부,Food Science,A5026197268,http://biotech.knu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=19,0000-0002-4342-1863,verified,,5,0,0,0,0,5
 P0679,유지승,Ji-Seung Yoo,Kyungpook National University,생명공학부,Immunology,A5085347409,http://biotech.knu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=20,0000-0002-3708-8240,verified,,2,0,0,0,0,2
@@ -1397,7 +1397,7 @@ P1466,,Ho‐Young Park,Korea Food Research Institute,,Molecular Biology,A5061767
 P1467,,Sang Yoon Choi,Korea Food Research Institute,,Molecular Biology,A5091151217,https://openalex.org/A5091151217,0000-0001-8712-6877,openalex_institution,,19,0,0,0,0,19
 P1468,,Min‐Cheol Kang,Korea Food Research Institute,,Aquatic Science,A5101882979,https://openalex.org/A5101882979,0000-0002-9658-9045,openalex_institution,,20,0,1,0,0,21
 P1469,,Chang Hwa Jung,Korea Food Research Institute,,Molecular Biology,A5009496552,https://openalex.org/A5009496552,0000-0002-1076-750X,openalex_institution,,17,0,0,0,1,18
-P1470,,Juhee Park,Korea Food Research Institute,,Molecular Biology,A5076503259,https://openalex.org/A5076503259,0000-0002-8109-6387,openalex_institution,,4,0,0,0,0,4
+P1470,박주희,Juhee Park,Korea Food Research Institute,,Molecular Biology,A5076503259,https://openalex.org/A5076503259,0000-0002-8109-6387,openalex_institution,,4,0,0,0,0,4
 P1471,,Myung‐Sunny Kim,Korea Food Research Institute,,Physiology,A5021423992,https://openalex.org/A5021423992,0000-0002-5020-3397,openalex_institution,,18,0,0,0,0,18
 P1472,이창호,Chang-Ho Lee,Korea Food Research Institute,,Food Science,A5100723876,https://openalex.org/A5100723876,0000-0002-1039-1434,openalex_institution,,10,0,0,0,0,10
 P1473,,Jin‐Taek Hwang,Korea Food Research Institute,,Molecular Biology,A5060835270,https://openalex.org/A5060835270,0000-0002-6650-7934,openalex_institution,,21,0,0,0,0,21
@@ -3051,3 +3051,4 @@ P3140,유대선,Dae Seon Yoo,Eulji University,의예과,Urology,A5082073342,http
 P3141,이송이,Song-Yi Lee,DGIST,,Cell Biology,A5101724646,https://sites.google.com/view/rheesnu/team,,alumni_page,,5,0,1,0,0,6
 P3142,오창규,Chang-Kyu Oh,Pusan National University,,,,https://sites.google.com/view/rheesnu/team,,alumni_page,,0,0,0,0,0,0
 P3143,강정윤,Jung Yoon Kang,Eulji University,의예과,Urology,A5059984394,https://medicine.eulji.ac.kr/?menuno=3426&id=2180&type=F&gubun=view,0000-0003-4200-1020,probable,,2,0,0,0,0,2
+P3144,이민호,Min Ho Lee,Eulji University,식품생명공학전공,Insect Science,A5100781650,https://major.eulji.ac.kr/foodlife/index.html?menuno=2910,0000-0002-8193-0220,probable,,1,0,0,0,0,1

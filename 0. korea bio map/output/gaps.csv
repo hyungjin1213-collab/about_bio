@@ -613,6 +613,7 @@ P0740,이종찬,,Seoul National University,Chemical and Biological Engineering,�
 P0741,이창하,,Seoul National University,Chemical and Biological Engineering,졸업생 정보 없음
 P0742,정유성,Yousung Jung,Seoul National University,Chemical and Biological Engineering,졸업생 정보 없음
 P0744,최장욱,Jang Wook Choi,Seoul National University,Chemical and Biological Engineering,졸업생 정보 없음
+P0746,현택환,Taeghwan Hyeon,Seoul National University,Chemical and Biological Engineering,졸업생 정보 없음
 P0747,홍무선,Moo Sun Hong,Seoul National University,Chemical and Biological Engineering,졸업생 정보 없음
 P0750,고준석,Junseock Koh,Seoul National University,School of Biological Sciences,졸업생 정보 없음
 P0751,공영윤,Young-Yun Kong,Seoul National University,School of Biological Sciences,졸업생 정보 없음
@@ -1272,7 +1273,7 @@ P1466,,Ho‐Young Park,Korea Food Research Institute,,연구실 홈페이지 못
 P1467,,Sang Yoon Choi,Korea Food Research Institute,,연구실 홈페이지 못 찾음
 P1468,,Min‐Cheol Kang,Korea Food Research Institute,,연구실 홈페이지 못 찾음
 P1469,,Chang Hwa Jung,Korea Food Research Institute,,연구실 홈페이지 못 찾음
-P1470,,Juhee Park,Korea Food Research Institute,,연구실 홈페이지 못 찾음
+P1470,박주희,Juhee Park,Korea Food Research Institute,,연구실 홈페이지 못 찾음
 P1471,,Myung‐Sunny Kim,Korea Food Research Institute,,연구실 홈페이지 못 찾음
 P1472,이창호,Chang-Ho Lee,Korea Food Research Institute,,연구실 홈페이지 못 찾음
 P1473,,Jin‐Taek Hwang,Korea Food Research Institute,,연구실 홈페이지 못 찾음
@@ -2631,6 +2632,7 @@ P2870,유용상,,Korea University,바이오의공학부,연구실 페이지 미�
 P2871,윤대성,,Korea University,바이오의공학부,연구실 페이지 미확인
 P2872,윤명근,,Korea University,바이오의공학부,논문 프로필 없음; 연구실 페이지 미확인
 P2873,이규백,,Korea University,바이오의공학부,연구실 페이지 미확인
+P2875,정아람,Aram J. Chung,Korea University,바이오의공학부,졸업생 정보 없음
 P2876,정하욱,,Korea University,바이오의공학부,논문 프로필 없음; 연구실 페이지 미확인
 P2877,정호상,,Korea University,바이오의공학부,연구실 페이지 미확인
 P2878,천홍구,,Korea University,바이오의공학부,논문 프로필 없음; 연구실 페이지 미확인
@@ -2643,6 +2645,7 @@ P2889,신석민,Seokmin Shin,Seoul National University,화학부,졸업생 정�
 P2892,이현우,Hyun-Woo Rhee,Seoul National University,화학부,졸업생 정보 없음
 P2894,정택동,Taek Dong Chung,Seoul National University,화학부,졸업생 정보 없음
 P2896,홍병희,Byung Hee Hong,Seoul National University,화학부,졸업생 정보 없음
+P2898,김민성,Min‐Sung Kim,POSTECH,Department of Life Sciences; 합성생물학전공,졸업생 정보 없음
 P2901,김용호,Yong Ho Kim,Sungkyunkwan University,나노공학과,논문 프로필 없음
 P2902,이석찬,,Sungkyunkwan University,융합생명공학과,연구실 페이지 미확인
 P2903,권대혁,,Sungkyunkwan University,융합생명공학과,논문 프로필 없음; 연구실 페이지 미확인
@@ -2771,6 +2774,7 @@ P3025,한진주,,KAIST,,논문 프로필 없음; 연구실 홈페이지 못 찾�
 P3026,월튼 존스,,KAIST,,논문 프로필 없음; 연구실 홈페이지 못 찾음
 P3027,남진우,,Hanyang University,,논문 프로필 없음; 연구실 홈페이지 못 찾음
 P3028,김동혁,,UNIST,,연구실 홈페이지 못 찾음
+P3029,이윤태,,POSTECH,Department of Life Sciences,졸업생 정보 없음
 P3030,김창섭,,Dongguk University,화공생물공학과,졸업생 정보 없음
 P3031,김인기,,Sungkyunkwan University,지능형정밀헬스케어융합전공,졸업생 정보 없음
 P3032,홍순선,,Inha University,의예과,논문 프로필 없음; 졸업생 정보 없음
@@ -2857,3 +2861,4 @@ P3140,유대선,Dae Seon Yoo,Eulji University,의예과,졸업생 정보 없음
 P3141,이송이,Song-Yi Lee,DGIST,,졸업생 정보 없음
 P3142,오창규,Chang-Kyu Oh,Pusan National University,,논문 프로필 없음; 졸업생 정보 없음
 P3143,강정윤,Jung Yoon Kang,Eulji University,의예과,졸업생 정보 없음
+P3144,이민호,Min Ho Lee,Eulji University,식품생명공학전공,졸업생 정보 없음

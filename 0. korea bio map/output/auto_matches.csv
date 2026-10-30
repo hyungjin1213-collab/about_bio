@@ -1,24 +1,24 @@
 ﻿professor_id,name_ko,university,openalex_id,display_name,reason,date
-P0025,김병기,Seoul National University,A5052315121,Byung‐Gee Kim,name match 0.95; dominant profile among 5 same-name authors at Seoul National University (527 vs 70 works),2026-10-29
-P0710,이지연,Seoul National University,A5100600136,Jeeyeon Lee,name match 0.95; dominant profile among 4 same-name authors at Seoul National University (100 vs 18 works),2026-10-29
-P0772,심지원,Seoul National University,A5020003410,Jiwon Shim,name match 0.95; dominant profile among 3 same-name authors at Seoul National University (69 vs 9 works),2026-10-29
-P0787,정충원,Seoul National University,A5002329152,Choongwon Jeong,name match 0.95; dominant profile among 4 same-name authors at Seoul National University (96 vs 6 works),2026-10-29
-P0789,주용성,Seoul National University,A5073424725,Youngsung Joo,name match 1.00; dominant profile among 5 same-name authors at Seoul National University (56 vs 7 works),2026-10-29
-P0790,최명환,Seoul National University,A5002951805,Myunghwan Choi,name match 0.95; dominant profile among 2 same-name authors at Seoul National University (86 vs 5 works),2026-10-29
-P0797,황대희,Seoul National University,A5027374744,Daehee Hwang,name match 1.00; dominant profile among 2 same-name authors at Seoul National University (499 vs 3 works),2026-10-29
-P0821,김중배,Korea University,A5056333341,Jungbae Kim,name match 0.95; dominant profile among 3 same-name authors at Korea University (307 vs 3 works),2026-10-29
-P0826,오민규,Korea University,A5045663988,Min‐Kyu Oh,name match 0.95; dominant profile among 2 same-name authors at Korea University (227 vs 6 works),2026-10-29
-P0844,송현규,Korea University,A5069513324,Hyun Kyu Song,name match 0.95; dominant profile among 3 same-name authors at Korea University (224 vs 19 works),2026-10-29
-P0870,권호정,Yonsei University,A5108347775,Ho Jeong Kwon,name match 0.95; dominant profile among 4 same-name authors at Yonsei University (276 vs 17 works),2026-10-29
-P0938,정수진,Sogang University,A5059140548,Soo Jin Jung,name match 0.95; dominant profile among 2 same-name authors at Sogang University (196 vs 20 works),2026-10-29
-P0947,나정걸,Sogang University,A5007060213,Jeong‐Geol Na,name match 0.95; dominant profile among 6 same-name authors at Sogang University (139 vs 7 works),2026-10-29
-P0951,오병근,Sogang University,A5061583107,Byung‐Keun Oh,name match 0.95; dominant profile among 2 same-name authors at Sogang University (193 vs 10 works),2026-10-29
-P0954,이진원,Sogang University,A5100750648,Jinwon Lee,name match 0.95; dominant profile among 3 same-name authors at Sogang University (536 vs 10 works),2026-10-29
-P2773,김재윤,Sungkyunkwan University,A5088837397,Jaeyun Kim,name match 0.95; dominant profile among 6 same-name authors at Sungkyunkwan University (340 vs 9 works),2026-10-29
-P2788,양지영,Kyungpook National University,A5084576845,Jiyoung K. Yang,name match 0.95; dominant profile among 2 same-name authors at Kyungpook National University (122 vs 16 works),2026-10-29
-P2831,이재성,Seoul National University,A5100411630,Jae Sung Lee,name match 0.95; dominant profile among 3 same-name authors at Seoul National University (523 vs 53 works),2026-10-29
-P2946,김현진,Sungkyunkwan University,A5100359560,Hyun‐Jin Kim,name match 0.95; dominant profile among 2 same-name authors at Sungkyunkwan University (680 vs 43 works),2026-10-29
-P2954,배창대,Sungkyunkwan University,A5103457677,Chang‐Dae Bae,name match 0.95; dominant profile among 2 same-name authors at Sungkyunkwan University (53 vs 5 works),2026-10-29
-P2962,오창석,Sungkyunkwan University,A5039442479,Chang‐Seok Oh,name match 0.95; dominant profile among 2 same-name authors at Sungkyunkwan University (57 vs 1 works),2026-10-29
-P2963,원태형,Sungkyunkwan University,A5084794955,Tae Hyung Won,name match 0.95; dominant profile among 2 same-name authors at Sungkyunkwan University (43 vs 2 works),2026-10-29
-P3011,윤경호,Yonsei University,A5075728108,Kyungho Yoon,name match 0.95; dominant profile among 4 same-name authors at Yonsei University (56 vs 9 works),2026-10-29
+P0025,김병기,Seoul National University,A5052315121,Byung‐Gee Kim,name match 0.95; dominant profile among 5 same-name authors at Seoul National University (527 vs 70 works),2026-10-30
+P0710,이지연,Seoul National University,A5100600136,Jeeyeon Lee,name match 0.95; dominant profile among 4 same-name authors at Seoul National University (100 vs 18 works),2026-10-30
+P0772,심지원,Seoul National University,A5020003410,Jiwon Shim,name match 0.95; dominant profile among 3 same-name authors at Seoul National University (69 vs 9 works),2026-10-30
+P0787,정충원,Seoul National University,A5002329152,Choongwon Jeong,name match 0.95; dominant profile among 4 same-name authors at Seoul National University (96 vs 6 works),2026-10-30
+P0789,주용성,Seoul National University,A5073424725,Youngsung Joo,name match 1.00; dominant profile among 5 same-name authors at Seoul National University (56 vs 7 works),2026-10-30
+P0790,최명환,Seoul National University,A5002951805,Myunghwan Choi,name match 0.95; dominant profile among 2 same-name authors at Seoul National University (86 vs 5 works),2026-10-30
+P0797,황대희,Seoul National University,A5027374744,Daehee Hwang,name match 1.00; dominant profile among 2 same-name authors at Seoul National University (499 vs 3 works),2026-10-30
+P0821,김중배,Korea University,A5056333341,Jungbae Kim,name match 0.95; dominant profile among 3 same-name authors at Korea University (307 vs 3 works),2026-10-30
+P0826,오민규,Korea University,A5045663988,Min‐Kyu Oh,name match 0.95; dominant profile among 2 same-name authors at Korea University (227 vs 6 works),2026-10-30
+P0844,송현규,Korea University,A5069513324,Hyun Kyu Song,name match 0.95; dominant profile among 3 same-name authors at Korea University (225 vs 19 works),2026-10-30
+P0870,권호정,Yonsei University,A5108347775,Ho Jeong Kwon,name match 0.95; dominant profile among 4 same-name authors at Yonsei University (276 vs 17 works),2026-10-30
+P0938,정수진,Sogang University,A5059140548,Soo Jin Jung,name match 0.95; dominant profile among 2 same-name authors at Sogang University (196 vs 20 works),2026-10-30
+P0947,나정걸,Sogang University,A5007060213,Jeong‐Geol Na,name match 0.95; dominant profile among 6 same-name authors at Sogang University (139 vs 7 works),2026-10-30
+P0951,오병근,Sogang University,A5061583107,Byung‐Keun Oh,name match 0.95; dominant profile among 2 same-name authors at Sogang University (193 vs 10 works),2026-10-30
+P0954,이진원,Sogang University,A5100750648,Jinwon Lee,name match 0.95; dominant profile among 3 same-name authors at Sogang University (536 vs 10 works),2026-10-30
+P2773,김재윤,Sungkyunkwan University,A5088837397,Jaeyun Kim,name match 0.95; dominant profile among 6 same-name authors at Sungkyunkwan University (340 vs 9 works),2026-10-30
+P2788,양지영,Kyungpook National University,A5084576845,Jiyoung K. Yang,name match 0.95; dominant profile among 2 same-name authors at Kyungpook National University (122 vs 16 works),2026-10-30
+P2831,이재성,Seoul National University,A5100411630,Jae Sung Lee,name match 0.95; dominant profile among 3 same-name authors at Seoul National University (523 vs 53 works),2026-10-30
+P2946,김현진,Sungkyunkwan University,A5100359560,Hyun‐Jin Kim,name match 0.95; dominant profile among 2 same-name authors at Sungkyunkwan University (680 vs 43 works),2026-10-30
+P2954,배창대,Sungkyunkwan University,A5103457677,Chang‐Dae Bae,name match 0.95; dominant profile among 2 same-name authors at Sungkyunkwan University (53 vs 5 works),2026-10-30
+P2962,오창석,Sungkyunkwan University,A5039442479,Chang‐Seok Oh,name match 0.95; dominant profile among 2 same-name authors at Sungkyunkwan University (57 vs 1 works),2026-10-30
+P2963,원태형,Sungkyunkwan University,A5084794955,Tae Hyung Won,name match 0.95; dominant profile among 2 same-name authors at Sungkyunkwan University (43 vs 2 works),2026-10-30
+P3011,윤경호,Yonsei University,A5075728108,Kyungho Yoon,name match 0.95; dominant profile among 4 same-name authors at Yonsei University (56 vs 9 works),2026-10-30

@@ -19,10 +19,12 @@ P0023,김상욱,Sanguk Kim,POSTECH,Department of Life Sciences; 합성생물학�
 P0024,한상빈,Sangbin Han,Sungkyunkwan University; Samsung Medical Center,School of Medicine / Anesthesiology and Pain Medicine,졸업생 정보 없음
 P0025,김병기,Byung-Gee Kim,Seoul National University,Chemical and Biological Engineering,연구실 홈페이지 못 찾음
 P0027,황일웅,Ilwoong Hwang,Soonchunhyang University,Gumi Hospital / Emergency Medicine,졸업생 정보 없음
+P0028,박웅양,Woong-Yang Park,Sungkyunkwan University; Samsung Medical Center,School of Medicine / Cancer Biology,졸업생 정보 없음
 P0029,고영일,Youngil Koh,Seoul National University,College of Medicine / Hematology-Oncology,졸업생 정보 없음
 P0030,이승환,Seung Hwan Lee,Yonsei University,College of Medicine / Urology,졸업생 정보 없음
 P0031,임정은,Joung Eun Lim,Samsung Medical Center,Samsung Biomedical Research Institute,졸업생 정보 없음
 P0032,강윤표,Yunpyo Kang,Seoul National University,College of Pharmacy,졸업생 정보 없음
+P0033,구자현,Ja Hyun Koo,Seoul National University,College of Pharmacy,졸업생 정보 없음
 P0034,권성원,Sung Won Kwon,Seoul National University,College of Pharmacy,졸업생 정보 없음
 P0035,권용석,Yongseok Kwon,Seoul National University,College of Pharmacy,졸업생 정보 없음
 P0036,노민수,Minsoo Noh,Seoul National University,College of Pharmacy,졸업생 정보 없음
@@ -87,6 +89,7 @@ P0129,강문성,Moon‐Seong Kang,Seoul National University,농업생명과학�
 P0133,김승철,Seung-Chul Kim,Sungkyunkwan University,Faculty 1 페이지,졸업생 정보 없음
 P0134,김홍숙,Hong Sook Kim,Sungkyunkwan University,Faculty 1 페이지,졸업생 정보 없음
 P0135,양시영,Siyoung Yang,Sungkyunkwan University,Faculty 1 페이지,졸업생 정보 없음
+P0136,이대한,Daehan Lee,Sungkyunkwan University,Faculty 1 페이지,졸업생 정보 없음
 P0137,이재성,Jae-Seong Lee,Sungkyunkwan University,Faculty 1 페이지,졸업생 정보 없음
 P0138,정수명,Su Myung Jung,Sungkyunkwan University,Faculty 1 페이지,졸업생 정보 없음
 P0139,조홍백,Hongbaek Cho,Sungkyunkwan University,Faculty 1 페이지,졸업생 정보 없음
@@ -95,7 +98,7 @@ P0141,남태규,Tae‐gyu Nam,Hanyang University,약학대학,졸업생 정보 �
 P0143,주재열,Jae‐Yeol Joo,Hanyang University,약학대학,졸업생 정보 없음
 P0144,금민정,Min Jung Geum,Hanyang University,약학대학,졸업생 정보 없음
 P0146,김영미,Yeong Mi Kim,Hanyang University,약학대학,졸업생 정보 없음
-P0147,김철영,,Hanyang University,약학대학,논문 프로필 없음
+P0147,김철영,,Hanyang University,약학대학,논문 프로필 없음; 졸업생 정보 없음
 P0149,최한곤,Han‐Gon Choi,Hanyang University,약학대학,졸업생 정보 없음
 P0151,김희진,,Hanyang University,신경과학교실,논문 프로필 없음; 졸업생 정보 없음
 P0152,이규용,Gyu Yong Lee,Hanyang University,신경과학교실,졸업생 정보 없음
@@ -217,6 +220,8 @@ P0284,최원준,Won Jun Choi,Dongguk University,약학과,졸업생 정보 없�
 P0285,최영희,Young Hee Choi,Dongguk University,약학과,졸업생 정보 없음
 P0286,최창익,Chang‐Ik Choi,Dongguk University,약학과,졸업생 정보 없음
 P0287,홍은진,Mary Hong,Dongguk University,약학과,졸업생 정보 없음
+P0288,김선정,Sun Jung Kim,Dongguk University,생명과학과,졸업생 정보 없음
+P0290,김병혁,Byunghyuk Kim,Dongguk University,생명과학과,졸업생 정보 없음
 P0292,김태종,Tae-Jong Kim,Kookmin University,임산생명공학과,졸업생 정보 없음
 P0293,이태주,Tai Ju Lee,Kookmin University,임산생명공학과,졸업생 정보 없음
 P0294,곽민진,Min-Jin Kwak,Kookmin University,임산생명공학과,졸업생 정보 없음
@@ -456,6 +461,7 @@ P0560,김규봉,Kyu‐Bong Kim,Dankook University,약학대학,연구실 홈페�
 P0561,박소영,So-Young Park,Dankook University,약학대학,연구실 홈페이지 못 찾음
 P0562,서동완,Dong Wan Seo,Dankook University,약학대학,연구실 홈페이지 못 찾음
 P0563,이윤정,Yun Jeong Lee,Dankook University,약학대학,연구실 홈페이지 못 찾음
+P0564,한영택,Young Taek Han,Dankook University,약학대학,졸업생 정보 없음
 P0565,호명진,Myoung Jin Ho,Dankook University,약학대학,연구실 홈페이지 못 찾음
 P0566,권호장,Ho Jang Kwon,Dankook University,의과대학,연구실 홈페이지 못 찾음
 P0567,박일용,Ilyong Park,Dankook University,의과대학,연구실 홈페이지 못 찾음
@@ -540,7 +546,6 @@ P0651,공민석,Minsuk Kong,Seoul National University of Science and Technology,
 P0652,서승오,Seung‐Oh Seo,Seoul National University of Science and Technology,식품생명공학과,졸업생 정보 없음
 P0654,유현종,Hyunjong Yu,Seoul National University of Science and Technology,식품생명공학과,졸업생 정보 없음
 P0655,노혜란,Hyeran Noh,Seoul National University of Science and Technology,바이오메디컬학과; 방사선의과학전공,졸업생 정보 없음
-P0656,최문성,Moonsung Choi,Seoul National University of Science and Technology,바이오메디컬학과,졸업생 정보 없음
 P0658,조현우,Hyun Woo Cho,Seoul National University of Science and Technology,방사선의과학전공,졸업생 정보 없음
 P0659,김승겸,Seung Kyum Kim,Seoul National University of Science and Technology,방사선의과학전공,졸업생 정보 없음
 P0660,정익재,Ik-jae Chung,Seoul National University of Science and Technology,방사선의과학전공,졸업생 정보 없음
@@ -560,13 +565,13 @@ P0675,염은별,Eunbyul Yeom,Kyungpook National University,생명공학부,졸�
 P0676,김사현,Sa-Hyun Kim,Kyungpook National University,생명공학부,졸업생 정보 없음
 P0677,김기범,Kee-Beom Kim,Kyungpook National University,생명공학부,졸업생 정보 없음
 P0679,유지승,Ji-Seung Yoo,Kyungpook National University,생명공학부,졸업생 정보 없음
-P0680,강현주,Hyunju Kang,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,졸업생 정보 없음
-P0682,박희수,Hee-Soo Park,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,졸업생 정보 없음
-P0683,이새벽,Sae-Byuk Lee,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,졸업생 정보 없음
+P0680,강현주,Hyunju Kang,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,연구실 홈페이지 못 찾음
+P0682,박희수,Hee-Soo Park,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,연구실 홈페이지 못 찾음
+P0683,이새벽,Sae-Byuk Lee,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,연구실 홈페이지 못 찾음
 P0685,정영훈,Young Hoon Jung,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,졸업생 정보 없음
-P0686,정우식,Woo Sik Jeong,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,졸업생 정보 없음
-P0687,조영제,Young-Je Cho,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,졸업생 정보 없음
-P0688,최덕영,Deok-Yeong Choe,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,졸업생 정보 없음
+P0686,정우식,Woo Sik Jeong,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,연구실 홈페이지 못 찾음
+P0687,조영제,Young-Je Cho,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,연구실 홈페이지 못 찾음
+P0688,최덕영,Deok-Yeong Choe,Kyungpook National University,경북대학교 농업생명과학대학 식품공학부,연구실 홈페이지 못 찾음
 P0689,강건욱,Keon Wook Kang,Seoul National University,College of Pharmacy,졸업생 정보 없음
 P0690,김대덕,Dae-Duk Kim,Seoul National University,College of Pharmacy,논문 프로필 없음; 졸업생 정보 없음
 P0691,김상희,Sanghee Kim,Seoul National University,College of Pharmacy,졸업생 정보 없음
@@ -2632,7 +2637,6 @@ P2870,유용상,,Korea University,바이오의공학부,연구실 페이지 미�
 P2871,윤대성,,Korea University,바이오의공학부,연구실 페이지 미확인
 P2872,윤명근,,Korea University,바이오의공학부,논문 프로필 없음; 연구실 페이지 미확인
 P2873,이규백,,Korea University,바이오의공학부,연구실 페이지 미확인
-P2875,정아람,Aram J. Chung,Korea University,바이오의공학부,졸업생 정보 없음
 P2876,정하욱,,Korea University,바이오의공학부,논문 프로필 없음; 연구실 페이지 미확인
 P2877,정호상,,Korea University,바이오의공학부,연구실 페이지 미확인
 P2878,천홍구,,Korea University,바이오의공학부,논문 프로필 없음; 연구실 페이지 미확인
@@ -2774,7 +2778,6 @@ P3025,한진주,,KAIST,,논문 프로필 없음; 연구실 홈페이지 못 찾�
 P3026,월튼 존스,,KAIST,,논문 프로필 없음; 연구실 홈페이지 못 찾음
 P3027,남진우,,Hanyang University,,논문 프로필 없음; 연구실 홈페이지 못 찾음
 P3028,김동혁,,UNIST,,연구실 홈페이지 못 찾음
-P3029,이윤태,,POSTECH,Department of Life Sciences,졸업생 정보 없음
 P3030,김창섭,,Dongguk University,화공생물공학과,졸업생 정보 없음
 P3031,김인기,,Sungkyunkwan University,지능형정밀헬스케어융합전공,졸업생 정보 없음
 P3032,홍순선,,Inha University,의예과,논문 프로필 없음; 졸업생 정보 없음
@@ -2799,7 +2802,6 @@ P3059,이도헌,Doheon Lee,KAIST,바이오및뇌공학과,졸업생 정보 없�
 P3060,이혜선,,KAIST,바이오및뇌공학과,논문 프로필 없음; 졸업생 정보 없음
 P3061,장무석,Mooseok Jang,KAIST,바이오및뇌공학과,졸업생 정보 없음
 P3063,정아인,Ain Chung,KAIST,바이오및뇌공학과,졸업생 정보 없음
-P3066,최명철,Myung Chul Choi,KAIST,바이오및뇌공학과,졸업생 정보 없음
 P3068,하경호,Kyoung-Ho Ha,KAIST,바이오및뇌공학과,졸업생 정보 없음
 P3073,박지민,Jimin Park,KAIST,생명화학공학과,졸업생 정보 없음
 P3074,박현규,,KAIST,생명화학공학과,졸업생 정보 없음

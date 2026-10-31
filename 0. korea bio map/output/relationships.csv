@@ -11047,10 +11047,12 @@ AUTO011045,P3111,P3115,collaboration,2,,auto,OpenAlex coauthorship between confi
 AUTO011046,P3111,P3134,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.104,2016,2016
 AUTO011047,P3117,P3118,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.464,2025,2025
 AUTO011048,P3123,P3124,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.131,2015,2015
-MAN000001,P2795,P3077,advisor_student,,,manual,"전누리 졸업생 엑셀: 경희대 의과대학 교수 (phd 2021, 사용자 제보)",,,
-MAN000002,P2795,P3088,advisor_student,,,manual,"전누리 졸업생 엑셀: 한양대 교수 (phd 2021, 사용자 제보)",,,
-MAN000003,P2544,P2971,advisor_student,,,manual,성영철(POSTECH 명예교수) 제자: 사용자 제보 (10/24),,,
-MAN000004,P2544,P2955,advisor_student,,,manual,성영철(POSTECH 명예교수) 제자: 사용자 제보 (10/24),,,
+MAN000001,P2795,P3077,advisor_student,,,verified,"전누리 졸업생 엑셀: 경희대 의과대학 교수 (phd 2021, 사용자 제보)",,,
+MAN000002,P2795,P3088,advisor_student,,,verified,"전누리 졸업생 엑셀: 한양대 교수 (phd 2021, 사용자 제보)",,,
+MAN000003,P2544,P2971,advisor_student,,,verified,성영철(POSTECH 명예교수) 제자: 사용자 제보 (10/24),,,
+MAN000004,P2544,P2955,advisor_student,,,verified,성영철(POSTECH 명예교수) 제자: 사용자 제보 (10/24),,,
+MAN000005,P2795,P2846,advisor_student,,,verified,전누리 졸업생 정보: 동국대 방석영 교수 (사용자 제보 10/31),,,
+MAN000006,P2795,P3145,advisor_student,,,verified,전누리 졸업생 정보: 성균관대 안중호 교수 (사용자 제보 10/31),,,
 XLS0002,P2532,P0008,advisor_student,,,yes,사용자 제보 (10/16): 양진아 = 정규열 교수 박사,,,
 XLS0003,P0002,P0008,postdoc_mentor,,,yes,사용자 제보 (10/16): 양진아 = 서상우 교수 포닥,,,
 XLS0004,P0002,P0018,advisor_student,,,yes,"사용자 제보 (10/16): 한용희 = 서상우 교수 박사, 교수 배출",,,

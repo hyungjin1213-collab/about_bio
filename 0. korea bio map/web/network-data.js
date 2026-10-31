@@ -164125,7 +164125,7 @@ window.KOREA_BIO_MAP = {
     },
     {
       "id": "P3145",
-      "name": "안정호",
+      "name": "안중호",
       "name_en": "",
       "university": "Sungkyunkwan University",
       "field": "",

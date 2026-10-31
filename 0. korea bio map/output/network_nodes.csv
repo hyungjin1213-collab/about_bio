@@ -2460,7 +2460,7 @@ P2540,임근배,Geunbae Lim,POSTECH,Department of Mechanical Engineering,Biomedi
 P2541,황인환,Inhwan Hwang,POSTECH,Department of Life Sciences,Molecular Biology,A5083020137,https://openalex.org/A5083020137,0000-0002-1388-1367,openalex_institution,,13,0,0,0,0,13
 P2542,장진아,Jinah Jang,POSTECH,Department of Life Sciences; Department of Mechanical Engineering; ·IT융합공학과,Biomedical Engineering,A5039843081,https://openalex.org/A5039843081,0000-0001-9046-3495,openalex_institution,,16,0,0,0,1,17
 P2543,이동수,Dong Soo Lee,POSTECH,Medical Science and Engineering,"Radiology, Nuclear Medicine and Imaging",A5100436321,https://openalex.org/A5100436321,0000-0003-1627-6557,openalex_institution,,16,0,0,0,0,16
-P2544,성영철,Young Chul Sung,POSTECH,Department of Life Sciences,Immunology,A5088163862,https://openalex.org/A5088163862,0000-0003-2726-907X,openalex_institution,,13,1,0,0,0,23
+P2544,성영철,Young Chul Sung,POSTECH,Department of Life Sciences,Immunology,A5088163862,https://openalex.org/A5088163862,0000-0003-2726-907X,openalex_institution,,13,3,0,0,0,43
 P2545,임신혁,Sin‐Hyeog Im,POSTECH,Department of Life Sciences,마이크로바이옴 / 신경면역 / 자가면역질환 / 면역 기능 조절 전사 인자,A5018682015,https://openalex.org/A5018682015,0000-0002-3173-1856,openalex_institution,,23,0,0,0,0,23
 P2546,김기현,Ki Hean Kim,POSTECH,Department of Mechanical Engineering,Biophysics,A5003825516,https://openalex.org/A5003825516,0000-0003-3410-7706,openalex_institution,,25,0,0,0,0,25
 P2548,김종민,Jongmin Kim,POSTECH,Department of Life Sciences; 합성생물학전공,합성생물학,A5100334905,https://openalex.org/A5100334905,0000-0002-2713-1006,openalex_institution,,5,0,0,0,0,5
@@ -2703,7 +2703,7 @@ P2791,김지훈,,Chung-Ang University,,,,(given by hand: P0004),,alumni_page,,0,
 P2792,채윤지,,Woosuk University,,,,https://sukjae.snu.ac.kr/alumni/,,alumni_page,,0,0,0,0,0,0
 P2793,안성훈,,Kangwon National University,,,,https://sukjae.snu.ac.kr/alumni/,,alumni_page,,0,0,0,0,0,0
 P2794,신소영,,Wonkwang University,,,,https://sukjae.snu.ac.kr/alumni/,,alumni_page,,0,0,0,0,0,0
-P2795,전누리,Noo Li Jeon,Seoul National University,바이오엔지니어링 협동과정 (기계공학부),Biomedical Engineering,A5051796736;A5113677364;A5101752529;A5108656398,,,manual,,21,0,0,0,0,21
+P2795,전누리,Noo Li Jeon,Seoul National University,바이오엔지니어링 협동과정 (기계공학부),Biomedical Engineering,A5051796736;A5113677364;A5101752529;A5108656398,,,manual,,21,4,0,0,0,61
 P2796,안지완,,Seoul National University,치의학대학원,Cancer Research,A5020220684,,,manual,,11,0,0,0,0,11
 P2797,이연,Yan Lee,Seoul National University,화학부,Molecular Biology,A5100608258,,,manual,,6,0,0,0,0,6
 P2798,이남기,Nam Ki Lee,Seoul National University,화학부,Biophysics,A5053461530,,,manual,,4,0,0,0,0,4
@@ -2753,7 +2753,7 @@ P2841,최영빈,,Seoul National University,바이오엔지니어링 협동과정
 P2842,한경원,,Seoul National University,바이오엔지니어링 협동과정,,,,,manual,,0,0,0,0,0,0
 P2843,허찬영,,Seoul National University,바이오엔지니어링 협동과정,Surgery,A5038980483,,,manual,,6,0,0,0,0,6
 P2844,류주희,Ju Hee Ryu,Korea Institute of Science and Technology,,Biomedical Engineering,A5073676165,,,manual,,9,0,1,0,0,10
-P2846,방석영,,Dongguk University,의생명공학과,,,,,manual,,0,0,0,0,0,0
+P2846,방석영,,Dongguk University,의생명공학과,,,,,manual,,0,0,1,0,0,1
 P2847,김성민,,Dongguk University,의생명공학과,Computer Vision and Pattern Recognition,A5100459300,,,manual,,3,0,0,0,0,3
 P2848,권영은,,Dongguk University,의생명공학과,Molecular Biology,A5003749032,,,manual,,5,0,0,0,0,5
 P2849,정종섭,,Dongguk University,의생명공학과,,,,,manual,,0,0,0,0,0,0
@@ -2862,7 +2862,7 @@ P2951,박명규,,Sungkyunkwan University,의과대학 (기초의학),,,,,manual,
 P2952,박성진,,Sungkyunkwan University,의과대학 (기초의학),,,,,manual,,0,0,0,0,0,0
 P2953,박재현,,Sungkyunkwan University,의과대학 (기초의학),,,,,manual,,0,0,0,0,0,0
 P2954,배창대,,Sungkyunkwan University,의과대학 (기초의학),Molecular Biology,A5103457677,,,manual,,5,0,0,0,0,5
-P2955,백관혁,,Sungkyunkwan University,의과대학 (기초의학),Oncology,A5078770585,https://khbaek9.wixsite.com/biolab,,manual,,4,0,0,0,0,4
+P2955,백관혁,,Sungkyunkwan University,의과대학 (기초의학),Oncology,A5078770585,https://khbaek9.wixsite.com/biolab,,manual,,4,0,1,0,0,5
 P2956,신동우,,Sungkyunkwan University,의과대학 (기초의학),,,http://biomed.skku.edu/molbact,,manual,,0,0,0,0,0,0
 P2957,신명희,,Sungkyunkwan University,의과대학 (기초의학),,,,,manual,,0,0,0,0,0,0
 P2958,신주호,,Sungkyunkwan University,의과대학 (기초의학),Neurology,A5087269096,https://biomed.skku.edu/jhshin,,manual,,6,0,0,0,0,6
@@ -2878,7 +2878,7 @@ P2967,이연종,,Sungkyunkwan University,의과대학 (기초의학),,,,,manual,
 P2968,이윤송,,Sungkyunkwan University,의과대학 (기초의학),Pulmonary and Respiratory Medicine,A5021524792,,,manual,,1,0,0,0,0,1
 P2969,이주상,,Sungkyunkwan University,의과대학 (기초의학),Immunology,A5045212145,https://leejoosang.wixsite.com/ngml,,manual,,1,0,0,0,0,1
 P2970,이창우,,Sungkyunkwan University,의과대학 (기초의학),Oncology,A5100714436,http://biomed.skku.edu/cwlee,,manual,,17,0,0,0,0,17
-P2971,임세진,,Sungkyunkwan University,의과대학 (기초의학),Immunology,A5075740294,https://sejinim.wixsite.com/itilab,,manual,,7,0,0,0,0,7
+P2971,임세진,,Sungkyunkwan University,의과대학 (기초의학),Immunology,A5075740294,https://sejinim.wixsite.com/itilab,,manual,,7,0,1,0,0,8
 P2972,전용현,,Sungkyunkwan University,의과대학 (기초의학),,,,,manual,,0,0,0,0,0,0
 P2973,정지욱,,Sungkyunkwan University,의과대학 (기초의학),,,,,manual,,0,0,0,0,0,0
 P2974,정지헌,,Sungkyunkwan University,의과대학 (기초의학),,,https://jeeheon9.wixsite.com/jeong,,manual,,0,0,0,0,0,0
@@ -2984,7 +2984,7 @@ P3073,박지민,Jimin Park,KAIST,생명화학공학과,"Atomic and Molecular Phy
 P3074,박현규,,KAIST,생명화학공학과,Molecular Biology,A5047072400,https://cbe.kaist.ac.kr/,,manual,,18,0,0,0,0,18
 P3075,이진우,Jinwoo Lee,KAIST,,,,https://nanomat.snu.ac.kr/bbs/board.php?bo_table=sub2_3,,alumni_page,,0,0,0,0,0,0
 P3076,박진성,Jinsung Park,Eulji University,의예과,Urology,A5101553187,https://medicine.eulji.ac.kr/?menuno=3426&id=2180&type=F&gubun=view,0000-0001-6158-3359,probable,,5,0,0,0,0,5
-P3077,이소민,Somin Lee,Kyung Hee University,College of Medicine / Pathology,Biomedical Engineering,A5101594395,https://openalex.org/authors/A5101594395,,manual,,10,0,0,0,0,10
+P3077,이소민,Somin Lee,Kyung Hee University,College of Medicine / Pathology,Biomedical Engineering,A5101594395,https://openalex.org/authors/A5101594395,,manual,,10,0,1,0,0,11
 P3078,류성언,Seong Eon Ryu,Hanyang University,생명공학과,Molecular Biology,A5055386073,https://bioeng.hanyang.ac.kr/board/pages/sub0201.php?pgn=21,,manual,,13,0,0,0,0,13
 P3079,윤채옥,Chae-Ok Yun,Hanyang University,생명공학과,Genetics,A5056411116,https://bioeng.hanyang.ac.kr/board/pages/sub0201.php?pgn=21,,manual,,11,1,0,0,0,21
 P3080,이근용,Kuen-Yong Lee,Hanyang University,생명공학과,Molecular Medicine,A5029687263,https://bioeng.hanyang.ac.kr/board/pages/sub0201.php?pgn=21,,manual,,8,0,0,0,0,8
@@ -2995,7 +2995,7 @@ P3084,신흥수,Heungsoo Shin,Hanyang University,생명공학과,Biomedical Engi
 P3085,이동윤,Dong Yun Lee,Hanyang University,생명공학과,Surgery,A5100686592,https://bioeng.hanyang.ac.kr/board/pages/sub0201.php?pgn=21,,manual,,11,0,0,0,0,11
 P3086,임동현,Donghyun Lim,Hanyang University,생명공학과,Molecular Biology,A5047410204,https://bioeng.hanyang.ac.kr/board/pages/sub0201.php?pgn=21,,manual,,4,0,0,0,0,4
 P3087,김기수,Ki Su Kim,Hanyang University,생명공학과,Biomedical Engineering,A5007385493,https://bioeng.hanyang.ac.kr/board/pages/sub0201.php?pgn=21,,manual,,9,0,0,0,0,9
-P3088,고지훈,Jihoon Ko,Hanyang University,생명공학과,Biomedical Engineering,A5048958395,https://bioeng.hanyang.ac.kr/board/pages/sub0201.php?pgn=21,,manual,,4,0,1,0,0,5
+P3088,고지훈,Jihoon Ko,Hanyang University,생명공학과,Biomedical Engineering,A5048958395,https://bioeng.hanyang.ac.kr/board/pages/sub0201.php?pgn=21,,manual,,4,0,2,0,0,6
 P3089,김용희,Yong-Hee Kim,Hanyang University,생명공학과,,,https://bioeng.hanyang.ac.kr/board/pages/sub0201.php?pgn=21,,manual,,0,0,0,0,0,0
 P3090,김홍남,Hong Nam Kim,KIST,뇌과학연구소 (Brain Science Institute),Biomedical Engineering,A5037602360,,,manual,,21,1,0,0,0,31
 P3091,유탁근,Tag Keun Yoo,Eulji University,의예과,Urology,A5016005694,https://medicine.eulji.ac.kr/?menuno=3426&id=2180&type=F&gubun=view,0000-0002-2972-5166,verified,,7,0,0,0,0,7
@@ -3052,3 +3052,4 @@ P3141,이송이,Song-Yi Lee,DGIST,,Cell Biology,A5101724646,https://sites.google
 P3142,오창규,Chang-Kyu Oh,Pusan National University,,,,https://sites.google.com/view/rheesnu/team,,alumni_page,,0,0,0,0,0,0
 P3143,강정윤,Jung Yoon Kang,Eulji University,의예과,Urology,A5059984394,https://medicine.eulji.ac.kr/?menuno=3426&id=2180&type=F&gubun=view,0000-0003-4200-1020,probable,,2,0,0,0,0,2
 P3144,이민호,Min Ho Lee,Eulji University,식품생명공학전공,Insect Science,A5100781650,https://major.eulji.ac.kr/foodlife/index.html?menuno=2910,0000-0002-8193-0220,probable,,1,0,0,0,0,1
+P3145,안정호,,Sungkyunkwan University,,,,,,manual,,0,0,1,0,0,1

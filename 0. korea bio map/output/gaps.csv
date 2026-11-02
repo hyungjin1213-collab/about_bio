@@ -580,7 +580,7 @@ P0694,마크디더리치,Marc Diederich,Seoul National University,College of Pha
 P0695,박성규,Sung-Gyoo Park,Seoul National University,College of Pharmacy,연구실 홈페이지 못 찾음
 P0696,박성혁,Sunghyouk Park,Seoul National University,College of Pharmacy,졸업생 정보 없음
 P0697,백두산,Du-San Baek,Seoul National University,College of Pharmacy,논문 프로필 없음; 졸업생 정보 없음
-P0699,신민규,Min-Kyoo Shin,Seoul National University,College of Pharmacy,논문 프로필 없음; 졸업생 정보 없음
+P0699,신민규,Min-Kyoo Shin,Seoul National University,College of Pharmacy,졸업생 정보 없음
 P0700,오동찬,Dong-Chan Oh,Seoul National University,College of Pharmacy,졸업생 정보 없음
 P0701,오유경,Yu-Kyoung Oh,Seoul National University,College of Pharmacy,연구실 홈페이지 못 찾음
 P0702,이병훈,Byung Hoon Lee,Seoul National University,College of Pharmacy,졸업생 정보 없음
@@ -703,12 +703,13 @@ P0852,이효준,,Korea University,School of Life Sciences,졸업생 정보 없�
 P0855,지성길,Sung-Gil Chi,Korea University,School of Life Sciences,연구실 홈페이지 못 찾음
 P0858,최해웅,Hae Woong Choi,Korea University,School of Life Sciences,졸업생 정보 없음
 P0859,홍정호,Jeong-Ho Hong,Korea University,School of Life Sciences,졸업생 정보 없음
+P0860,황철상,,Korea University,School of Life Sciences,논문 프로필 없음
 P0861,,Daniel Park,Korea University,School of Life Sciences,논문 프로필 없음; 연구실 홈페이지 못 찾음
 P0862,강혜영,Hye-Young Kang,Yonsei University,College of Pharmacy,논문 프로필 없음; 연구실 페이지 미확인
 P0863,김국래,Kuk-Rae Kim,Yonsei University,College of Pharmacy,논문 프로필 없음; 연구실 페이지 미확인
-P0864,김동윤,Dongyoon Kim,Yonsei University,College of Pharmacy,연구실 페이지 미확인
+P0864,김동윤,Dongyoon Kim,Yonsei University,College of Pharmacy,논문 프로필 없음; 연구실 페이지 미확인
 P0865,김익연,Ik-Yon Kim,Yonsei University,College of Pharmacy,논문 프로필 없음; 연구실 페이지 미확인
-P0866,남궁완,Wan Namkung,Yonsei University,College of Pharmacy,논문 프로필 없음; 연구실 페이지 미확인
+P0866,남궁완,Wan Namkung,Yonsei University,College of Pharmacy,연구실 페이지 미확인
 P0867,남호정,Hojung Nam,Yonsei University,College of Pharmacy,논문 프로필 없음; 연구실 페이지 미확인
 P0868,이진우,Jinu Lee,Yonsei University,College of Pharmacy,연구실 페이지 미확인
 P0869,강혜진,Hyejin Kang,Yonsei University,Department of Biotechnology,논문 프로필 없음; 연구실 홈페이지 못 찾음
@@ -719,6 +720,7 @@ P0873,변상균,Sang-Gyun Byun,Yonsei University,Department of Biotechnology,논
 P0874,신용,Yong Shin,Yonsei University,Department of Biotechnology,논문 프로필 없음; 졸업생 정보 없음
 P0875,신종식,Jong-Sik Shin,Yonsei University,Department of Biotechnology,논문 프로필 없음
 P0876,오종원,Jong-Won Oh,Yonsei University,Department of Biotechnology,연구실 홈페이지 못 찾음
+P0877,이동우,Dong-Woo Lee,Yonsei University,Department of Biotechnology,논문 프로필 없음
 P0879,정은지,Eun-Ji Chung,Yonsei University,Department of Biotechnology,논문 프로필 없음; 졸업생 정보 없음
 P0880,정형일,Hyungil Jung,Yonsei University,Department of Biotechnology,논문 프로필 없음; 졸업생 정보 없음
 P0882,한균희,Kyun Hee Han,Yonsei University,Department of Biotechnology,논문 프로필 없음; 연구실 홈페이지 못 찾음
@@ -2647,7 +2649,6 @@ P2889,신석민,Seokmin Shin,Seoul National University,화학부,졸업생 정�
 P2892,이현우,Hyun-Woo Rhee,Seoul National University,화학부,졸업생 정보 없음
 P2894,정택동,Taek Dong Chung,Seoul National University,화학부,졸업생 정보 없음
 P2896,홍병희,Byung Hee Hong,Seoul National University,화학부,졸업생 정보 없음
-P2898,김민성,Min‐Sung Kim,POSTECH,Department of Life Sciences; 합성생물학전공,졸업생 정보 없음
 P2901,김용호,Yong Ho Kim,Sungkyunkwan University,나노공학과,논문 프로필 없음
 P2902,이석찬,,Sungkyunkwan University,융합생명공학과,연구실 페이지 미확인
 P2903,권대혁,,Sungkyunkwan University,융합생명공학과,논문 프로필 없음; 연구실 페이지 미확인
@@ -2867,3 +2868,5 @@ P3142,오창규,Chang-Kyu Oh,Pusan National University,,논문 프로필 없음;
 P3143,강정윤,Jung Yoon Kang,Eulji University,의예과,졸업생 정보 없음
 P3144,이민호,Min Ho Lee,Eulji University,식품생명공학전공,졸업생 정보 없음
 P3145,안중호,,Sungkyunkwan University,,논문 프로필 없음; 연구실 페이지 미확인
+P3146,,Sunil Kumar Gupta,Keimyung University,약학대학; 제약학과,졸업생 정보 없음
+P3147,박소연,Soyeun Park,Keimyung University,제약학과,졸업생 정보 없음

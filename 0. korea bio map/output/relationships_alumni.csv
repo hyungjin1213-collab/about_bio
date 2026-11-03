@@ -141,20 +141,21 @@ ALU000139,P2886,P1225,advisor_student,3,https://seoklab.org/members.html,alumni_
 ALU000140,P3034,P1163,advisor_student,0,(given by hand: P3034),alumni_page,"listed on the lab's alumni page (unknown, 2024)"
 ALU000141,P3055,P2578,advisor_student,8,https://jhp.kaist.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (phd, 2015)"
 ALU000142,P3055,P2609,advisor_student,1,https://jhp.kaist.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (ms, 2012)"
-ALU000143,P3067,P1577,advisor_student,7,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2017)"
-ALU000144,P3067,P1297,advisor_student,18,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2023)"
-ALU000145,P3069,P0342,advisor_student,8,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,"listed on the lab's alumni page (ms, 2019)"
-ALU000146,P3069,P1220,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000147,P3069,P1174,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000148,P3069,P0753,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000149,P3069,P1224,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000150,P3070,P0631,advisor_student,0,https://bmnd.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (ms, 2016)"
-ALU000151,P3072,P0959,advisor_student,0,(given by hand: P3072),alumni_page,"listed on the lab's alumni page (ms, 2019)"
-ALU000152,P3081,P1584,advisor_student,,https://sites.google.com/hanyang.ac.kr/hyubio/members/alumni,alumni_page,listed on the lab's alumni page (ms)
-ALU000153,P3106,P3134,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000154,P3106,P3135,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000155,P3106,P3136,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000156,P3106,P3137,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000157,P3106,P3138,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000158,P3106,P3139,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
-ALU000159,P3106,P1146,postdoc_mentor,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (postdoc)
+ALU000143,P3065,P0047,advisor_student,2,https://sbie.kaist.ac.kr/people/associate-members/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2008)"
+ALU000144,P3067,P1577,advisor_student,7,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2017)"
+ALU000145,P3067,P1297,advisor_student,18,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2023)"
+ALU000146,P3069,P0342,advisor_student,8,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,"listed on the lab's alumni page (ms, 2019)"
+ALU000147,P3069,P1220,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000148,P3069,P1174,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000149,P3069,P0753,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000150,P3069,P1224,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000151,P3070,P0631,advisor_student,0,https://bmnd.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (ms, 2016)"
+ALU000152,P3072,P0959,advisor_student,0,(given by hand: P3072),alumni_page,"listed on the lab's alumni page (ms, 2019)"
+ALU000153,P3081,P1584,advisor_student,,https://sites.google.com/hanyang.ac.kr/hyubio/members/alumni,alumni_page,listed on the lab's alumni page (ms)
+ALU000154,P3106,P3134,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000155,P3106,P3135,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000156,P3106,P3136,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000157,P3106,P3137,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000158,P3106,P3138,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000159,P3106,P3139,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown)
+ALU000160,P3106,P1146,postdoc_mentor,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (postdoc)

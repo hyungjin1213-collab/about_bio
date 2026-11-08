@@ -1620,11 +1620,11 @@ P1813,,Dong‐Ho Seo,Sejong University,,연구실 홈페이지 못 찾음
 P1814,임도형,Dohyung Lim,Sejong University,,연구실 홈페이지 못 찾음
 P1815,윤은영,Eun‐Young Yun,Sejong University,,연구실 홈페이지 못 찾음
 P1816,,Sungkwon Park,Sejong University,,졸업생 정보 없음
-P1817,,Hyun Uk Kim,Sejong University,,연구실 홈페이지 못 찾음
-P1818,,Joong Hyoun Chin,Sejong University,,연구실 홈페이지 못 찾음
+P1817,김현욱,Hyun Uk Kim,Sejong University,,연구실 홈페이지 못 찾음
+P1818,진중현,Joong Hyoun Chin,Sejong University,,연구실 홈페이지 못 찾음
 P1819,,Tae‐Gyu Lim,Sejong University,,연구실 홈페이지 못 찾음
 P1820,,Soon‐Mi Shim,Sejong University,,연구실 홈페이지 못 찾음
-P1821,,Kyung Do Kim,Sejong University,,연구실 홈페이지 못 찾음
+P1821,김경도,Kyung Do Kim,Sejong University,,연구실 홈페이지 못 찾음
 P1822,박황서,Hwangseo Park,Sejong University,,연구실 홈페이지 못 찾음
 P1823,임진희,Jin Hee Lim,Sejong University,,연구실 홈페이지 못 찾음
 P1824,,Eun‐Yi Moon,Sejong University,,연구실 홈페이지 못 찾음
@@ -1636,14 +1636,14 @@ P1829,박창식,Chang-Sik Park,Sejong University,,연구실 홈페이지 못 찾
 P1830,,Chun Jeih Ryu,Sejong University,,연구실 홈페이지 못 찾음
 P1831,,Geun-Pyo Hong,Sejong University,,연구실 홈페이지 못 찾음
 P1832,이승주,Seung‐Joo Lee,Sejong University,,연구실 홈페이지 못 찾음
-P1833,,Sanghyeob Lee,Sejong University,,연구실 홈페이지 못 찾음
+P1833,이상협,Sanghyeob Lee,Sejong University,,연구실 홈페이지 못 찾음
 P1834,,HyeSook Youn,Sejong University,,연구실 홈페이지 못 찾음
 P1835,,Seokmann Hong,Sejong University,,연구실 홈페이지 못 찾음
 P1836,,Soo‐Jeong Lim,Sejong University,,연구실 홈페이지 못 찾음
-P1837,,Jae Sik Yu,Sejong University,,연구실 홈페이지 못 찾음
+P1837,류제식,Jae Sik Yu,Sejong University,,연구실 홈페이지 못 찾음
 P1838,,Byung‐Hoo Lee,Sejong University,,연구실 홈페이지 못 찾음
 P1839,,Young Hyun Kim,Sejong University,,연구실 홈페이지 못 찾음
-P1840,,Hyun-Seung Park,Sejong University,,연구실 홈페이지 못 찾음
+P1840,박현승,Hyun-Seung Park,Sejong University,,연구실 홈페이지 못 찾음
 P1841,김재광,Jae Kwang Kim,Incheon National University,,연구실 홈페이지 못 찾음
 P1842,김보경,Bo-Kyeong Kim,Incheon National University,,연구실 홈페이지 못 찾음
 P1843,,Yoo Jin Lee,Incheon National University,,연구실 홈페이지 못 찾음
@@ -2337,6 +2337,7 @@ P2542,장진아,Jinah Jang,POSTECH,Department of Life Sciences; Department of Me
 P2543,이동수,Dong Soo Lee,POSTECH,Medical Science and Engineering,연구실 홈페이지 못 찾음
 P2544,성영철,Young Chul Sung,POSTECH,Department of Life Sciences,연구실 홈페이지 못 찾음
 P2546,김기현,Ki Hean Kim,POSTECH,Department of Mechanical Engineering,졸업생 정보 없음
+P2548,김종민,Jongmin Kim,POSTECH,Department of Life Sciences; 합성생물학전공,졸업생 정보 없음
 P2549,김태경,Tae-Kyung Kim,POSTECH,Department of Life Sciences,졸업생 정보 없음
 P2552,이준민,Junmin Lee,POSTECH,Department of Materials science & Engineering,졸업생 정보 없음
 P2555,김형함,Hyung Ham Kim,POSTECH,Department of Biomedical Engineering,졸업생 정보 없음
@@ -2866,3 +2867,14 @@ P3144,이민호,Min Ho Lee,Eulji University,식품생명공학전공,졸업생 �
 P3145,안중호,,Sungkyunkwan University,,논문 프로필 없음; 연구실 페이지 미확인
 P3146,,Sunil Kumar Gupta,Keimyung University,약학대학; 제약학과,졸업생 정보 없음
 P3147,박소연,Soyeun Park,Keimyung University,제약학과,졸업생 정보 없음
+P3148,서현권,Hyun Kwon Suh,Sejong University,생명과학대학,졸업생 정보 없음
+P3149,신솔,Sol Shin,Sejong University,생명과학대학,졸업생 정보 없음
+P3150,이장원,Jang‐Won Lee,Sejong University,생명과학대학,졸업생 정보 없음
+P3151,이가경,Gakyung Lee,Sejong University,생명과학대학,졸업생 정보 없음
+P3152,장경진,Kyoung‐Jin Jang,Sejong University,생명과학대학,졸업생 정보 없음
+P3153,심재경,Jaekyung Shim,Sejong University,생명시스템학부,졸업생 정보 없음
+P3154,황성빈,Seong Bin Hwang,Sejong University,생명시스템학부,졸업생 정보 없음
+P3155,김경남,,Sejong University,생명시스템학부,논문 프로필 없음; 졸업생 정보 없음
+P3156,박한용,Han Yong Park,Sejong University,생명시스템학부,졸업생 정보 없음
+P3157,박창진,Chang‐Jin Park,Sejong University,생명시스템학부,졸업생 정보 없음
+P3158,심성철,Sung‐Chur Sim,Sejong University,생명시스템학부,졸업생 정보 없음

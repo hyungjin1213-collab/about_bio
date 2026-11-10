@@ -41,32 +41,32 @@ Jeju National University,crawl,3,2026-10-14,100 pages fetched; 5 faculty-like pa
 POSTECH,crawl,2,2026-10-16,100 pages fetched; 67 faculty-like pages checked; errors: ConnectionError x2
 Duksung Women's University,crawl,2,2026-10-19,100 pages fetched; 2 faculty-like pages checked; 1 blocked by robots.txt; errors: ConnectTimeout x2
 Sejong University,crawl,2,2026-11-07,100 pages fetched; 7 faculty-like pages checked
-Inha University,crawl,0,2026-11-09,100 pages fetched; 0 faculty-like pages checked; 1 blocked by robots.txt
-Incheon National University,crawl,0,2026-11-09,100 pages fetched; 0 faculty-like pages checked; 1 blocked by robots.txt; errors: ConnectTimeout x45
-Sookmyung Women's University,crawl,0,2026-11-09,"100 pages fetched; 35 faculty-like pages checked; errors: ReadTimeout x6, ConnectTimeout x2"
-Gachon University,crawl,0,2026-11-09,1 pages fetched; 0 faculty-like pages checked; errors: SSLError x1
-Hallym University,crawl,0,2026-11-09,3 pages fetched; 0 faculty-like pages checked
-Catholic Kwandong University,crawl,0,2026-11-09,2 pages fetched; 0 faculty-like pages checked
-Pusan National University,crawl,0,2026-11-09,8 pages fetched; 0 faculty-like pages checked
-Kosin University,crawl,0,2026-11-09,0 pages fetched; 0 faculty-like pages checked; 2 blocked by robots.txt
-Daegu Catholic University,crawl,0,2026-11-09,"100 pages fetched; 2 faculty-like pages checked; errors: ConnectTimeout x3, HTTPError x1"
-Chosun University,crawl,0,2026-11-09,100 pages fetched; 0 faculty-like pages checked; 8 blocked by robots.txt; errors: ConnectTimeout x1
-Wonkwang University,crawl,0,2026-11-09,100 pages fetched; 7 faculty-like pages checked; 4 blocked by robots.txt
-Woosuk University,crawl,0,2026-11-09,"35 pages fetched; 3 faculty-like pages checked; errors: SSLError x7, HTTPError x1"
-Gyeongsang National University,crawl,0,2026-11-09,5 pages fetched; 0 faculty-like pages checked
-GIST,crawl,0,2026-11-09,0 pages fetched; 0 faculty-like pages checked; 2 blocked by robots.txt
-DGIST,crawl,0,2026-11-09,0 pages fetched; 0 faculty-like pages checked; errors: HTTPError x1
-Korea Institute of Science and Technology,crawl,0,2026-11-09,100 pages fetched; 1 faculty-like pages checked
-Korea Research Institute of Bioscience and Biotechnology,crawl,0,2026-11-09,100 pages fetched; 30 faculty-like pages checked; 4 blocked by robots.txt; errors: HTTPError x5
-Korea Research Institute of Chemical Technology,crawl,0,2026-11-09,0 pages fetched; 0 faculty-like pages checked; 1 blocked by robots.txt
-Institute for Basic Science,crawl,0,2026-11-09,100 pages fetched; 9 faculty-like pages checked; errors: HTTPError x10
-Korea Brain Research Institute,crawl,0,2026-11-09,3 pages fetched; 0 faculty-like pages checked; errors: ConnectTimeout x9
-Korea Institute of Oriental Medicine,crawl,0,2026-11-09,30 pages fetched; 0 faculty-like pages checked
-Korea Institute of Toxicology,crawl,0,2026-11-09,0 pages fetched; 0 faculty-like pages checked; 1 blocked by robots.txt
-Korea Basic Science Institute,crawl,0,2026-11-09,1 pages fetched; 0 faculty-like pages checked
-Korea Food Research Institute,crawl,0,2026-11-09,31 pages fetched; 1 faculty-like pages checked; errors: ConnectTimeout x11
-Korea National Institute of Health,crawl,0,2026-11-09,"73 pages fetched; 30 faculty-like pages checked; errors: ConnectionError x23, HTTPError x1"
-Institut Pasteur Korea,crawl,0,2026-11-09,7 pages fetched; 0 faculty-like pages checked
-Korea Institute of Radiological and Medical Sciences,crawl,0,2026-11-09,72 pages fetched; 8 faculty-like pages checked
-Korea Research Institute of Standards and Science,crawl,0,2026-11-09,39 pages fetched; 6 faculty-like pages checked; errors: ConnectTimeout x10
-Kongju National University,crawl,0,2026-11-09,0 pages fetched; 0 faculty-like pages checked; errors: SSLError x1
+Inha University,crawl,0,2026-11-10,100 pages fetched; 0 faculty-like pages checked; 1 blocked by robots.txt
+Incheon National University,crawl,0,2026-11-10,100 pages fetched; 2 faculty-like pages checked; 1 blocked by robots.txt; errors: ConnectTimeout x39
+Sookmyung Women's University,crawl,0,2026-11-10,100 pages fetched; 38 faculty-like pages checked; errors: HTTPError x7
+Gachon University,crawl,0,2026-11-10,1 pages fetched; 0 faculty-like pages checked; errors: SSLError x1
+Hallym University,crawl,0,2026-11-10,3 pages fetched; 0 faculty-like pages checked
+Catholic Kwandong University,crawl,0,2026-11-10,2 pages fetched; 0 faculty-like pages checked
+Pusan National University,crawl,0,2026-11-10,8 pages fetched; 0 faculty-like pages checked
+Kosin University,crawl,0,2026-11-10,0 pages fetched; 0 faculty-like pages checked; 2 blocked by robots.txt
+Daegu Catholic University,crawl,0,2026-11-10,"100 pages fetched; 5 faculty-like pages checked; errors: ConnectTimeout x4, ReadTimeout x3, ConnectionError x1"
+Chosun University,crawl,0,2026-11-10,100 pages fetched; 0 faculty-like pages checked; 7 blocked by robots.txt; errors: ConnectTimeout x1
+Wonkwang University,crawl,0,2026-11-10,100 pages fetched; 7 faculty-like pages checked; 4 blocked by robots.txt
+Woosuk University,crawl,0,2026-11-10,"35 pages fetched; 3 faculty-like pages checked; errors: SSLError x6, HTTPError x1"
+Gyeongsang National University,crawl,0,2026-11-10,5 pages fetched; 0 faculty-like pages checked
+GIST,crawl,0,2026-11-10,0 pages fetched; 0 faculty-like pages checked; 2 blocked by robots.txt
+DGIST,crawl,0,2026-11-10,0 pages fetched; 0 faculty-like pages checked; errors: HTTPError x1
+Korea Institute of Science and Technology,crawl,0,2026-11-10,100 pages fetched; 1 faculty-like pages checked
+Korea Research Institute of Bioscience and Biotechnology,crawl,0,2026-11-10,100 pages fetched; 31 faculty-like pages checked; 4 blocked by robots.txt; errors: HTTPError x5
+Korea Research Institute of Chemical Technology,crawl,0,2026-11-10,0 pages fetched; 0 faculty-like pages checked; 1 blocked by robots.txt
+Institute for Basic Science,crawl,0,2026-11-10,100 pages fetched; 9 faculty-like pages checked; errors: HTTPError x10
+Korea Brain Research Institute,crawl,0,2026-11-10,3 pages fetched; 0 faculty-like pages checked; errors: ConnectTimeout x9
+Korea Institute of Oriental Medicine,crawl,0,2026-11-10,30 pages fetched; 0 faculty-like pages checked
+Korea Institute of Toxicology,crawl,0,2026-11-10,0 pages fetched; 0 faculty-like pages checked; 1 blocked by robots.txt
+Korea Basic Science Institute,crawl,0,2026-11-10,1 pages fetched; 0 faculty-like pages checked
+Korea Food Research Institute,crawl,0,2026-11-10,43 pages fetched; 3 faculty-like pages checked; errors: ConnectTimeout x21
+Korea National Institute of Health,crawl,0,2026-11-10,"57 pages fetched; 20 faculty-like pages checked; errors: ConnectionError x14, HTTPError x1"
+Institut Pasteur Korea,crawl,0,2026-11-10,7 pages fetched; 0 faculty-like pages checked
+Korea Institute of Radiological and Medical Sciences,crawl,0,2026-11-10,72 pages fetched; 8 faculty-like pages checked
+Korea Research Institute of Standards and Science,crawl,0,2026-11-10,34 pages fetched; 5 faculty-like pages checked; errors: ConnectTimeout x11
+Kongju National University,crawl,0,2026-11-10,0 pages fetched; 0 faculty-like pages checked; errors: SSLError x1

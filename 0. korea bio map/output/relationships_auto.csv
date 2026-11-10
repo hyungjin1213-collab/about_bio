@@ -418,7 +418,7 @@ AUTO000416,P0038,P0691,collaboration,2,,auto,OpenAlex coauthorship between confi
 AUTO000417,P0038,P0700,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,0.423,2021,2024
 AUTO000418,P0038,P0703,collaboration,8,,auto,OpenAlex coauthorship between confirmed professors,0.876,2015,2024
 AUTO000419,P0038,P0710,collaboration,8,,auto,OpenAlex coauthorship between confirmed professors,0.465,2015,2021
-AUTO000420,P0038,P0716,collaboration,40,,auto,OpenAlex coauthorship between confirmed professors,2.947,2011,2022
+AUTO000420,P0038,P0716,collaboration,41,,auto,OpenAlex coauthorship between confirmed professors,3.002,2011,2022
 AUTO000421,P0038,P0999,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.055,2004,2007
 AUTO000422,P0038,P1137,collaboration,8,,auto,OpenAlex coauthorship between confirmed professors,0.093,2003,2005
 AUTO000423,P0038,P1219,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,0.414,2022,2024

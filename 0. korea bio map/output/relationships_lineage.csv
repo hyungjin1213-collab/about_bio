@@ -85,9 +85,9 @@ LIN000083,P1118,P2914,postdoc_mentor,5,https://doi.org/10.1158/1538-7445.am2015-
 LIN000084,P0022,P2722,advisor_student,5,https://doi.org/10.1021/ja902062j,auto,inferred from 5 first-author papers (2009-2013) with A as last author
 LIN000085,P2118,P0666,advisor_student,5,https://doi.org/10.1016/j.joen.2012.11.028,auto,inferred from 5 first-author papers (2013-2015) with A as last author
 LIN000086,P2886,P0765,advisor_student,5,https://doi.org/10.1093/nar/gkx246,auto,inferred from 5 first-author papers (2017-2020) with A as last author
-LIN000087,P0440,P0376,advisor_student,5,,auto,inferred from 5 first-author papers (2006-2011) with A as last author
-LIN000088,P0281,P1091,postdoc_mentor,5,https://doi.org/10.5851/kosfa.2020.e96,auto,inferred from 5 first-author papers (2020-2023) with A as last author
-LIN000089,P1251,P1879,advisor_student,5,https://doi.org/10.1109/embc.2017.8037508,auto,inferred from 5 first-author papers (2017-2021) with A as last author
+LIN000087,P1251,P1879,advisor_student,5,https://doi.org/10.1109/embc.2017.8037508,auto,inferred from 5 first-author papers (2017-2021) with A as last author
+LIN000088,P0440,P0376,advisor_student,5,,auto,inferred from 5 first-author papers (2006-2011) with A as last author
+LIN000089,P0281,P1091,postdoc_mentor,5,https://doi.org/10.5851/kosfa.2020.e96,auto,inferred from 5 first-author papers (2020-2023) with A as last author
 LIN000090,P1418,P1443,advisor_student,5,https://doi.org/10.1371/journal.pone.0090812,auto,inferred from 5 first-author papers (2014-2018) with A as last author
 LIN000091,P1411,P1438,advisor_student,5,https://doi.org/10.1021/jf102194t,auto,inferred from 5 first-author papers (2010-2015) with A as last author
 LIN000092,P2320,P2328,advisor_student,5,https://doi.org/10.1111/j.1346-8138.2009.00698.x,auto,inferred from 5 first-author papers (2009-2014) with A as last author
@@ -105,8 +105,8 @@ LIN000103,P3038,P1692,advisor_student,5,https://doi.org/10.1007/978-3-319-10320-
 LIN000104,P3036,P0199,postdoc_mentor,5,https://doi.org/10.14348/molcells.2015.0103,auto,inferred from 5 first-author papers (2015-2018) with A as last author
 LIN000105,P2839,P3014,advisor_student,5,https://doi.org/10.1109/urai.2013.6677311,auto,inferred from 5 first-author papers (2013-2018) with A as last author
 LIN000106,P1891,P1465,postdoc_mentor,4,https://doi.org/10.1017/s0022029914000144,auto,inferred from 4 first-author papers (2014-2015) with A as last author
-LIN000107,P1190,P1188,advisor_student,4,https://doi.org/10.1016/j.jmb.2006.05.059,auto,inferred from 4 first-author papers (2006-2009) with A as last author
-LIN000108,P0897,P0155,advisor_student,4,https://doi.org/10.1016/j.brainres.2011.01.039,auto,inferred from 4 first-author papers (2011-2013) with A as last author
+LIN000107,P0897,P0155,advisor_student,4,https://doi.org/10.1016/j.brainres.2011.01.039,auto,inferred from 4 first-author papers (2011-2013) with A as last author
+LIN000108,P1190,P1188,advisor_student,4,https://doi.org/10.1016/j.jmb.2006.05.059,auto,inferred from 4 first-author papers (2006-2009) with A as last author
 LIN000109,P2529,P1306,advisor_student,4,https://doi.org/10.1002/pmic.200800187,auto,inferred from 4 first-author papers (2008-2012) with A as last author
 LIN000110,P2892,P3141,advisor_student,4,https://doi.org/10.1016/j.celrep.2016.04.064,auto,inferred from 4 first-author papers (2016-2019) with A as last author
 LIN000111,P2558,P1005,advisor_student,4,https://doi.org/10.1016/s0014-5793(03)00128-5,auto,inferred from 4 first-author papers (2003-2007) with A as last author
@@ -151,8 +151,8 @@ LIN000149,P1579,P1422,advisor_student,3,https://doi.org/10.1016/j.bmcl.2015.08.0
 LIN000150,P1187,P1335,advisor_student,3,https://doi.org/10.1016/j.intimp.2009.01.005,auto,inferred from 3 first-author papers (2009-2009) with A as last author
 LIN000151,P0691,P0091,advisor_student,3,https://doi.org/10.1002/anie.202210317,auto,inferred from 3 first-author papers (2022-2023) with A as last author
 LIN000152,P2450,P1757,advisor_student,3,https://doi.org/10.1002/jcsm.12340,auto,inferred from 3 first-author papers (2018-2020) with A as last author
-LIN000153,P0954,P2121,postdoc_mentor,3,,auto,inferred from 3 first-author papers (2010-2011) with A as last author
-LIN000154,P1528,P1563,postdoc_mentor,3,,auto,inferred from 3 first-author papers (2013-2017) with A as last author
+LIN000153,P1528,P1563,postdoc_mentor,3,,auto,inferred from 3 first-author papers (2013-2017) with A as last author
+LIN000154,P0954,P2121,postdoc_mentor,3,,auto,inferred from 3 first-author papers (2010-2011) with A as last author
 LIN000155,P0602,P0642,advisor_student,3,https://doi.org/10.3340/jkns.2018.0045,auto,inferred from 3 first-author papers (2018-2023) with A as last author
 LIN000156,P1254,P2059,advisor_student,3,https://doi.org/10.1046/j.1472-765x.2002.01041.x,auto,inferred from 3 first-author papers (2002-2002) with A as last author
 LIN000157,P1792,P1208,advisor_student,3,https://doi.org/10.3831/kpi.2012.15.1.018,auto,inferred from 3 first-author papers (2012-2012) with A as last author

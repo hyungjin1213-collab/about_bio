@@ -113,8 +113,8 @@ LIN000111,P2558,P1005,advisor_student,4,https://doi.org/10.1016/s0014-5793(03)00
 LIN000112,P0786,P2624,advisor_student,4,https://doi.org/10.1242/dev.00595,auto,inferred from 4 first-author papers (2003-2007) with A as last author
 LIN000113,P0751,P1266,advisor_student,4,https://doi.org/10.1242/dev.01922,auto,inferred from 4 first-author papers (2005-2009) with A as last author
 LIN000114,P1155,P0055,postdoc_mentor,4,https://doi.org/10.5012/bkcs.2010.31.9.2665,auto,inferred from 4 first-author papers (2010-2011) with A as last author
-LIN000115,P1293,P1514,advisor_student,4,https://doi.org/10.1016/j.jbior.2012.09.008,auto,inferred from 4 first-author papers (2012-2017) with A as last author
-LIN000116,P2597,P2602,advisor_student,4,https://doi.org/10.4143/crt.2002.34.2.128,auto,inferred from 4 first-author papers (2002-2006) with A as last author
+LIN000115,P2597,P2602,advisor_student,4,https://doi.org/10.4143/crt.2002.34.2.128,auto,inferred from 4 first-author papers (2002-2006) with A as last author
+LIN000116,P1293,P1514,advisor_student,4,https://doi.org/10.1016/j.jbior.2012.09.008,auto,inferred from 4 first-author papers (2012-2017) with A as last author
 LIN000117,P2341,P2381,advisor_student,4,https://doi.org/10.1097/mpa.0b013e3181bd93ce,auto,inferred from 4 first-author papers (2010-2012) with A as last author
 LIN000118,P2886,P1006,advisor_student,4,https://doi.org/10.5012/bkcs.2012.33.3.770,auto,inferred from 4 first-author papers (2012-2017) with A as last author
 LIN000119,P2544,P2971,advisor_student,4,,auto,inferred from 4 first-author papers (2006-2011) with A as last author
@@ -161,8 +161,8 @@ LIN000159,P2687,P2701,postdoc_mentor,3,https://doi.org/10.1038/s41598-024-70809-
 LIN000160,P1580,P1588,advisor_student,3,https://doi.org/10.1016/j.ygeno.2014.09.001,auto,inferred from 3 first-author papers (2014-2014) with A as last author
 LIN000161,P1958,P1970,advisor_student,3,https://doi.org/10.22730/jmls.2004.2.2.71,auto,inferred from 3 first-author papers (2004-2006) with A as last author
 LIN000162,P1259,P1289,postdoc_mentor,3,https://doi.org/10.1038/nphoton.2015.24,auto,inferred from 3 first-author papers (2015-2017) with A as last author
-LIN000163,P2271,P2291,postdoc_mentor,3,,auto,inferred from 3 first-author papers (2016-2016) with A as last author
-LIN000164,P0590,P0644,advisor_student,3,https://doi.org/10.5021/ad.2018.30.3.382,auto,inferred from 3 first-author papers (2018-2022) with A as last author
+LIN000163,P0590,P0644,advisor_student,3,https://doi.org/10.5021/ad.2018.30.3.382,auto,inferred from 3 first-author papers (2018-2022) with A as last author
+LIN000164,P2271,P2291,postdoc_mentor,3,,auto,inferred from 3 first-author papers (2016-2016) with A as last author
 LIN000165,P0779,P0132,advisor_student,3,https://doi.org/10.1242/dev.128.16.3095,auto,inferred from 3 first-author papers (2001-2004) with A as last author
 LIN000166,P1890,P1913,advisor_student,3,https://doi.org/10.1016/j.bbrc.2011.10.005,auto,inferred from 3 first-author papers (2011-2013) with A as last author
 LIN000167,P1418,P1426,advisor_student,3,https://doi.org/10.1093/jac/dku008,auto,inferred from 3 first-author papers (2014-2014) with A as last author

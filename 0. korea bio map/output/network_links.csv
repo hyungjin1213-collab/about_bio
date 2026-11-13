@@ -452,7 +452,7 @@ AUTO000450,P0040,P1293,collaboration,2,,auto,OpenAlex coauthorship between confi
 AUTO000451,P0040,P1545,collaboration,5,,auto,OpenAlex coauthorship between confirmed professors,0.2,2017,2018,P0040,P1545
 AUTO000452,P0040,P1551,collaboration,6,,auto,OpenAlex coauthorship between confirmed professors,0.146,1999,2005,P0040,P1551
 AUTO000453,P0040,P1568,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.037,2001,2003,P0040,P1568
-AUTO000454,P0040,P1828,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.187,2006,2011,P0040,P1828
+AUTO000454,P0040,P1828,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.26,2006,2011,P0040,P1828
 AUTO000455,P0040,P1889,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,0.111,2007,2011,P0040,P1889
 AUTO000456,P0040,P1938,collaboration,29,,auto,OpenAlex coauthorship between confirmed professors,3.677,2009,2026,P0040,P1938
 AUTO000457,P0040,P2021,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.074,2013,2013,P0040,P2021
@@ -5180,7 +5180,7 @@ AUTO005178,P1254,P1751,collaboration,5,,auto,OpenAlex coauthorship between confi
 AUTO005179,P1254,P1804,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,1.212,2020,2021,P1254,P1804
 AUTO005180,P1254,P1893,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.097,2016,2017,P1254,P1893
 AUTO005181,P1254,P2012,collaboration,5,,auto,OpenAlex coauthorship between confirmed professors,0.45,2013,2023,P1254,P2012
-AUTO005182,P1254,P2059,collaboration,68,,auto,OpenAlex coauthorship between confirmed professors,6.173,2001,2020,P1254,P2059
+AUTO005182,P1254,P2059,collaboration,68,,auto,OpenAlex coauthorship between confirmed professors,6.183,2001,2020,P1254,P2059
 AUTO005183,P1254,P2067,collaboration,15,,auto,OpenAlex coauthorship between confirmed professors,1.551,2010,2019,P1254,P2067
 AUTO005184,P1255,P1298,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,0.092,2005,2009,P1255,P1298
 AUTO005185,P1255,P3052,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.131,2023,2025,P1255,P3052
@@ -7056,7 +7056,7 @@ AUTO007054,P1537,P2008,collaboration,73,,auto,OpenAlex coauthorship between conf
 AUTO007055,P1537,P2069,collaboration,13,,auto,OpenAlex coauthorship between confirmed professors,0.891,2011,2012,P1537,P2069
 AUTO007056,P1537,P2163,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.258,2025,2025,P1537,P2163
 AUTO007057,P1538,P1565,collaboration,8,,auto,OpenAlex coauthorship between confirmed professors,0.265,2020,2026,P1538,P1565
-AUTO007058,P1538,P1566,collaboration,126,,auto,OpenAlex coauthorship between confirmed professors,18.372,2010,2026,P1538,P1566
+AUTO007058,P1538,P1566,collaboration,127,,auto,OpenAlex coauthorship between confirmed professors,18.586,2010,2026,P1538,P1566
 AUTO007059,P1538,P2036,collaboration,7,,auto,OpenAlex coauthorship between confirmed professors,0.166,2019,2026,P1538,P2036
 AUTO007060,P1538,P2199,collaboration,30,,auto,OpenAlex coauthorship between confirmed professors,2.073,2012,2026,P1538,P2199
 AUTO007061,P1538,P2253,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.031,2025,2026,P1538,P2253
@@ -7246,7 +7246,7 @@ AUTO007244,P1552,P2011,collaboration,2,,auto,OpenAlex coauthorship between confi
 AUTO007245,P1553,P1556,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,0.885,2017,2024,P1553,P1556
 AUTO007246,P1553,P1558,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.479,2020,2026,P1553,P1558
 AUTO007247,P1553,P1564,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.216,2007,2025,P1553,P1564
-AUTO007248,P1553,P1567,collaboration,10,,auto,OpenAlex coauthorship between confirmed professors,0.928,2018,2025,P1553,P1567
+AUTO007248,P1553,P1567,collaboration,11,,auto,OpenAlex coauthorship between confirmed professors,1.071,2018,2026,P1553,P1567
 AUTO007249,P1553,P1571,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.083,2019,2021,P1553,P1571
 AUTO007250,P1553,P1602,collaboration,8,,auto,OpenAlex coauthorship between confirmed professors,0.533,2016,2023,P1553,P1602
 AUTO007251,P1553,P1634,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.051,2011,2019,P1553,P1634
@@ -8822,7 +8822,7 @@ AUTO008820,P2021,P2025,collaboration,72,,auto,OpenAlex coauthorship between conf
 AUTO008821,P2021,P2045,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.09,2008,2009,P2021,P2045
 AUTO008822,P2021,P2213,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.32,2019,2025,P2021,P2213
 AUTO008823,P2021,P2943,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.159,2011,2019,P2021,P2943
-AUTO008824,P2022,P2028,collaboration,135,,auto,OpenAlex coauthorship between confirmed professors,15.384,2004,2026,P2022,P2028
+AUTO008824,P2022,P2028,collaboration,135,,auto,OpenAlex coauthorship between confirmed professors,15.41,2004,2026,P2022,P2028
 AUTO008825,P2022,P2104,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.13,2017,2022,P2022,P2104
 AUTO008826,P2022,P2109,collaboration,8,,auto,OpenAlex coauthorship between confirmed professors,0.438,2015,2026,P2022,P2109
 AUTO008827,P2022,P2151,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.07,2022,2023,P2022,P2151
@@ -9108,12 +9108,12 @@ AUTO009106,P2103,P2597,collaboration,3,,auto,OpenAlex coauthorship between confi
 AUTO009107,P2103,P2831,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.086,2012,2014,P2103,P2831
 AUTO009108,P2103,P2836,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.11,2014,2023,P2103,P2836
 AUTO009109,P2103,P3091,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.111,2016,2018,P2103,P3091
-AUTO009110,P2104,P2109,collaboration,253,,auto,OpenAlex coauthorship between confirmed professors,22.412,2006,2026,P2104,P2109
+AUTO009110,P2104,P2109,collaboration,254,,auto,OpenAlex coauthorship between confirmed professors,22.579,2006,2026,P2104,P2109
 AUTO009111,P2104,P2125,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,0.4,2015,2023,P2104,P2125
 AUTO009112,P2104,P2137,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,0.337,2015,2026,P2104,P2137
 AUTO009113,P2104,P2138,collaboration,9,,auto,OpenAlex coauthorship between confirmed professors,1.186,2023,2025,P2104,P2138
-AUTO009114,P2104,P2147,collaboration,172,,auto,OpenAlex coauthorship between confirmed professors,15.835,2010,2026,P2104,P2147
-AUTO009115,P2104,P2151,collaboration,156,,auto,OpenAlex coauthorship between confirmed professors,16.066,2004,2026,P2104,P2151
+AUTO009114,P2104,P2147,collaboration,173,,auto,OpenAlex coauthorship between confirmed professors,16.001,2010,2026,P2104,P2147
+AUTO009115,P2104,P2151,collaboration,157,,auto,OpenAlex coauthorship between confirmed professors,16.233,2004,2026,P2104,P2151
 AUTO009116,P2104,P2184,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,0.141,2017,2022,P2104,P2184
 AUTO009117,P2104,P2320,collaboration,9,,auto,OpenAlex coauthorship between confirmed professors,0.807,2017,2026,P2104,P2320
 AUTO009118,P2105,P2120,collaboration,9,,auto,OpenAlex coauthorship between confirmed professors,0.626,2011,2022,P2105,P2120
@@ -9135,8 +9135,8 @@ AUTO009133,P2108,P2470,collaboration,3,,auto,OpenAlex coauthorship between confi
 AUTO009134,P2109,P2125,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.251,2015,2023,P2109,P2125
 AUTO009135,P2109,P2137,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.12,2015,2018,P2109,P2137
 AUTO009136,P2109,P2138,collaboration,7,,auto,OpenAlex coauthorship between confirmed professors,0.901,2023,2025,P2109,P2138
-AUTO009137,P2109,P2147,collaboration,190,,auto,OpenAlex coauthorship between confirmed professors,16.755,2008,2026,P2109,P2147
-AUTO009138,P2109,P2151,collaboration,168,,auto,OpenAlex coauthorship between confirmed professors,16.249,2005,2026,P2109,P2151
+AUTO009137,P2109,P2147,collaboration,191,,auto,OpenAlex coauthorship between confirmed professors,16.922,2008,2026,P2109,P2147
+AUTO009138,P2109,P2151,collaboration,169,,auto,OpenAlex coauthorship between confirmed professors,16.415,2005,2026,P2109,P2151
 AUTO009139,P2109,P2320,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.323,2021,2023,P2109,P2320
 AUTO009140,P2109,P2328,collaboration,10,,auto,OpenAlex coauthorship between confirmed professors,0.46,2018,2025,P2109,P2328
 AUTO009141,P2109,P2374,collaboration,3,,auto,OpenAlex coauthorship between confirmed professors,0.106,2019,2023,P2109,P2374
@@ -9324,7 +9324,7 @@ AUTO009322,P2144,P2340,collaboration,2,,auto,OpenAlex coauthorship between confi
 AUTO009323,P2144,P2454,collaboration,18,,auto,OpenAlex coauthorship between confirmed professors,2.727,2011,2024,P2144,P2454
 AUTO009324,P2144,P2570,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.108,2010,2012,P2144,P2570
 AUTO009325,P2145,P2149,collaboration,17,,auto,OpenAlex coauthorship between confirmed professors,0.591,2011,2024,P2145,P2149
-AUTO009326,P2147,P2151,collaboration,119,,auto,OpenAlex coauthorship between confirmed professors,12.874,2008,2026,P2147,P2151
+AUTO009326,P2147,P2151,collaboration,120,,auto,OpenAlex coauthorship between confirmed professors,13.04,2008,2026,P2147,P2151
 AUTO009327,P2147,P2320,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.246,2023,2023,P2147,P2320
 AUTO009328,P2148,P2349,collaboration,2,,auto,OpenAlex coauthorship between confirmed professors,0.1,2007,2009,P2148,P2349
 AUTO009329,P2148,P2482,collaboration,4,,auto,OpenAlex coauthorship between confirmed professors,4.137,2022,2025,P2148,P2482
@@ -11023,10 +11023,10 @@ LIN000106,P1891,P1465,postdoc_mentor,4,https://doi.org/10.1017/s0022029914000144
 LIN000107,P0897,P0155,advisor_student,4,https://doi.org/10.1016/j.brainres.2011.01.039,auto,inferred from 4 first-author papers (2011-2013) with A as last author,,,,P0897,P0155
 LIN000108,P1190,P1188,advisor_student,4,https://doi.org/10.1016/j.jmb.2006.05.059,auto,inferred from 4 first-author papers (2006-2009) with A as last author,,,,P1190,P1188
 LIN000109,P2529,P1306,advisor_student,4,https://doi.org/10.1002/pmic.200800187,auto,inferred from 4 first-author papers (2008-2012) with A as last author,,,,P2529,P1306
-LIN000110,P2892,P3141,advisor_student,4,https://doi.org/10.1016/j.celrep.2016.04.064,auto,inferred from 4 first-author papers (2016-2019) with A as last author,,,,P2892,P3141
-LIN000111,P2558,P1005,advisor_student,4,https://doi.org/10.1016/s0014-5793(03)00128-5,auto,inferred from 4 first-author papers (2003-2007) with A as last author,,,,P2558,P1005
-LIN000112,P0786,P2624,advisor_student,4,https://doi.org/10.1242/dev.00595,auto,inferred from 4 first-author papers (2003-2007) with A as last author,,,,P0786,P2624
-LIN000113,P0751,P1266,advisor_student,4,https://doi.org/10.1242/dev.01922,auto,inferred from 4 first-author papers (2005-2009) with A as last author,,,,P0751,P1266
+LIN000110,P0751,P1266,advisor_student,4,https://doi.org/10.1242/dev.01922,auto,inferred from 4 first-author papers (2005-2009) with A as last author,,,,P0751,P1266
+LIN000111,P2892,P3141,advisor_student,4,https://doi.org/10.1016/j.celrep.2016.04.064,auto,inferred from 4 first-author papers (2016-2019) with A as last author,,,,P2892,P3141
+LIN000112,P2558,P1005,advisor_student,4,https://doi.org/10.1016/s0014-5793(03)00128-5,auto,inferred from 4 first-author papers (2003-2007) with A as last author,,,,P2558,P1005
+LIN000113,P0786,P2624,advisor_student,4,https://doi.org/10.1242/dev.00595,auto,inferred from 4 first-author papers (2003-2007) with A as last author,,,,P0786,P2624
 LIN000114,P1155,P0055,postdoc_mentor,4,https://doi.org/10.5012/bkcs.2010.31.9.2665,auto,inferred from 4 first-author papers (2010-2011) with A as last author,,,,P1155,P0055
 LIN000115,P2597,P2602,advisor_student,4,https://doi.org/10.4143/crt.2002.34.2.128,auto,inferred from 4 first-author papers (2002-2006) with A as last author,,,,P2597,P2602
 LIN000116,P1293,P1514,advisor_student,4,https://doi.org/10.1016/j.jbior.2012.09.008,auto,inferred from 4 first-author papers (2012-2017) with A as last author,,,,P1293,P1514
@@ -11057,10 +11057,10 @@ LIN000141,P1431,P1449,postdoc_mentor,4,https://doi.org/10.1038/s42003-025-07975-
 LIN000142,P0040,P1938,advisor_student,3,,auto,inferred from 3 first-author papers (2009-2014) with A as last author,,,,P0040,P1938
 LIN000143,P2373,P1891,postdoc_mentor,3,https://doi.org/10.5851/kosfa.2010.30.5.717,auto,inferred from 3 first-author papers (2010-2015) with A as last author,,,,P2373,P1891
 LIN000144,P1521,P1595,advisor_student,3,,auto,inferred from 3 first-author papers (2011-2012) with A as last author,,,,P1521,P1595
-LIN000145,P2028,P2022,postdoc_mentor,3,https://doi.org/10.5021/ad.2013.25.3.292,auto,inferred from 3 first-author papers (2013-2015) with A as last author,,,,P2028,P2022
-LIN000146,P1481,P1506,postdoc_mentor,3,https://doi.org/10.1089/jmf.2020.4830,auto,inferred from 3 first-author papers (2021-2024) with A as last author,,,,P1481,P1506
-LIN000147,P1524,P0609,advisor_student,3,,auto,inferred from 3 first-author papers (2005-2005) with A as last author,,,,P1524,P0609
-LIN000148,P0542,P0547,advisor_student,3,,auto,inferred from 3 first-author papers (2011-2014) with A as last author,,,,P0542,P0547
+LIN000145,P0542,P0547,advisor_student,3,,auto,inferred from 3 first-author papers (2011-2014) with A as last author,,,,P0542,P0547
+LIN000146,P2028,P2022,postdoc_mentor,3,https://doi.org/10.5021/ad.2013.25.3.292,auto,inferred from 3 first-author papers (2013-2015) with A as last author,,,,P2028,P2022
+LIN000147,P1481,P1506,postdoc_mentor,3,https://doi.org/10.1089/jmf.2020.4830,auto,inferred from 3 first-author papers (2021-2024) with A as last author,,,,P1481,P1506
+LIN000148,P1524,P0609,advisor_student,3,,auto,inferred from 3 first-author papers (2005-2005) with A as last author,,,,P1524,P0609
 LIN000149,P1579,P1422,advisor_student,3,https://doi.org/10.1016/j.bmcl.2015.08.061,auto,inferred from 3 first-author papers (2015-2018) with A as last author,,,,P1579,P1422
 LIN000150,P1187,P1335,advisor_student,3,https://doi.org/10.1016/j.intimp.2009.01.005,auto,inferred from 3 first-author papers (2009-2009) with A as last author,,,,P1187,P1335
 LIN000151,P0691,P0091,advisor_student,3,https://doi.org/10.1002/anie.202210317,auto,inferred from 3 first-author papers (2022-2023) with A as last author,,,,P0691,P0091
@@ -11125,149 +11125,149 @@ LIN000209,P2429,P2438,postdoc_mentor,3,https://doi.org/10.1292/jvms.68.1013,auto
 LIN000210,P1643,P1660,postdoc_mentor,3,https://doi.org/10.3892/ijo.2015.3123,auto,inferred from 3 first-author papers (2015-2015) with A as last author,,,,P1643,P1660
 LIN000211,P1022,P1285,postdoc_mentor,3,,auto,inferred from 3 first-author papers (2020-2021) with A as last author,,,,P1022,P1285
 ALU000001,P1017,P1556,advisor_student,,https://single.unist.ac.kr/ourmembers/,alumni_page,listed on the lab's alumni page (integrated),,,,P1017,P1556
-ALU000002,P0052,P1157,advisor_student,,https://bama.snu.ac.kr/members/current,alumni_page,listed on the lab's alumni page (unknown),,,,P0052,P1157
-ALU000003,P0066,P2144,advisor_student,8,https://sites.google.com/view/baelab/members,alumni_page,"listed on the lab's alumni page (unknown, 2016)",,,,P0066,P2144
-ALU000004,P0066,P2763,postdoc_mentor,1,https://sites.google.com/view/baelab/members,alumni_page,"listed on the lab's alumni page (postdoc, 2021)",,,,P0066,P2763
-ALU000005,P0066,P1033,postdoc_mentor,9,https://sites.google.com/view/baelab/members,alumni_page,"listed on the lab's alumni page (postdoc, 2023)",,,,P0066,P1033
-ALU000006,P0113,P0085,advisor_student,28,http://drl.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (phd, 2019)",,,,P0113,P0085
-ALU000007,P0113,P1262,advisor_student,5,http://drl.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (ms, 2023)",,,,P0113,P1262
-ALU000008,P0245,P1459,advisor_student,24,https://sites.google.com/view/cau-smb/members/alumni,alumni_page,"listed on the lab's alumni page (phd, 2024)",,,,P0245,P1459
-ALU000009,P0291,P1923,advisor_student,,https://lab.minholee.net/members,alumni_page,listed on the lab's alumni page (phd),,,,P0291,P1923
-ALU000010,P0681,P1152,advisor_student,4,https://sites.google.com/site/kimlabknu/website-builder/events,alumni_page,"listed on the lab's alumni page (unknown, 2024)",,,,P0681,P1152
-ALU000011,P0713,P1679,advisor_student,8,https://immprove.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (integrated, 2023)",,,,P0713,P1679
-ALU000012,P0713,P1305,postdoc_mentor,10,https://immprove.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (postdoc, 2014)",,,,P0713,P1305
-ALU000013,P0716,P0416,advisor_student,2,https://www.schong17.com/alumni,alumni_page,"listed on the lab's alumni page (ms, 2020)",,,,P0716,P0416
-ALU000014,P0748,P0657,advisor_student,29,(given by hand: P0748),alumni_page,"listed on the lab's alumni page (phd, 2017)",,,,P0748,P0657
-ALU000015,P0748,P2714,advisor_student,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (phd),,,,P0748,P2714
-ALU000016,P0748,P0486,advisor_student,3,(given by hand: P0748),alumni_page,"listed on the lab's alumni page (ms, 2019)",,,,P0748,P0486
-ALU000017,P0748,P0128,advisor_student,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (ms),,,,P0748,P0128
-ALU000018,P0748,P1089,advisor_student,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (ms),,,,P0748,P1089
-ALU000019,P0748,P0586,advisor_student,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (ms),,,,P0748,P0586
-ALU000020,P0748,P3007,postdoc_mentor,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (postdoc),,,,P0748,P3007
-ALU000021,P0757,P1262,advisor_student,,https://cocila.net/people-2/alumni-2/,alumni_page,listed on the lab's alumni page (ms),,,,P0757,P1262
-ALU000022,P0774,P1242,advisor_student,3,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (phd, 2023)",,,,P0774,P1242
-ALU000023,P0774,P1309,advisor_student,5,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (phd, 2023)",,,,P0774,P1309
-ALU000024,P0774,P3117,postdoc_mentor,8,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (postdoc, 2019)",,,,P0774,P3117
-ALU000025,P0774,P1220,postdoc_mentor,0,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (postdoc, 2019)",,,,P0774,P1220
-ALU000027,P0775,P2980,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P0775,P2980
-ALU000028,P0775,P2981,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P0775,P2981
-ALU000029,P0775,P0768,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P0775,P0768
-ALU000030,P0775,P2982,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P0775,P2982
-ALU000031,P0775,P0778,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P0775,P0778
-ALU000032,P0775,P2983,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P0775,P2983
-ALU000033,P0823,P2543,advisor_student,1,https://seml.korea.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (ms, 2021)",,,,P0823,P2543
-ALU000034,P0881,P1309,advisor_student,3,(given by hand: P0881),alumni_page,"listed on the lab's alumni page (ms, 2012)",,,,P0881,P1309
-ALU000035,P0881,P1703,advisor_student,1,(given by hand: P0881),alumni_page,"listed on the lab's alumni page (ms, 2013)",,,,P0881,P1703
-ALU000036,P0928,P1475,advisor_student,,https://sites.google.com/view/mfmt/members/alumni,alumni_page,listed on the lab's alumni page (ms),,,,P0928,P1475
-ALU000037,P1025,P2570,advisor_student,0,https://sites.google.com/view/gslee2017/members,alumni_page,"listed on the lab's alumni page (phd, 2023)",,,,P1025,P2570
-ALU000038,P1312,P0666,advisor_student,0,https://minyoungjung.com/alumni/,alumni_page,"listed on the lab's alumni page (unknown, 2024)",,,,P1312,P0666
-ALU000039,P1312,P2723,advisor_student,0,https://minyoungjung.com/alumni/,alumni_page,"listed on the lab's alumni page (unknown, 2025)",,,,P1312,P2723
-ALU000040,P2740,P1666,advisor_student,2,https://jnu-pharmacognosy.github.io/lab,alumni_page,"listed on the lab's alumni page (ms, 2023)",,,,P2740,P1666
-ALU000041,P2740,P1624,advisor_student,0,https://jnu-pharmacognosy.github.io/lab,alumni_page,"listed on the lab's alumni page (ms, 2025)",,,,P2740,P1624
-ALU000042,P2740,P1320,advisor_student,1,https://jnu-pharmacognosy.github.io/lab,alumni_page,"listed on the lab's alumni page (ms, 2026)",,,,P2740,P1320
-ALU000043,P2884,P1155,advisor_student,,https://chembio.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown),,,,P2884,P1155
-ALU000044,P2884,P0009,advisor_student,,https://chembio.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown),,,,P2884,P0009
-ALU000045,P2884,P3086,advisor_student,,https://chembio.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown),,,,P2884,P3086
-ALU000047,P2884,P1242,advisor_student,,https://chembio.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown),,,,P2884,P1242
-ALU000048,P2885,P0179,postdoc_mentor,0,http://seolab.creatorlink.net/Alumni,alumni_page,"listed on the lab's alumni page (postdoc, 2023)",,,,P2885,P0179
-ALU000049,P2890,P0480,advisor_student,3,http://www.leelab.snu.ac.kr/alumni,alumni_page,"listed on the lab's alumni page (phd, 2021)",,,,P2890,P0480
-ALU000050,P2890,P1251,advisor_student,2,http://www.leelab.snu.ac.kr/alumni,alumni_page,"listed on the lab's alumni page (phd, 2021)",,,,P2890,P1251
-ALU000051,P2891,P1193,advisor_student,2,https://amglab.wixsite.com/eslee/alumni,alumni_page,"listed on the lab's alumni page (phd, 2017)",,,,P2891,P1193
-ALU000052,P2901,P1315,advisor_student,,https://www.yhproteinlab.com/members/alumni,alumni_page,listed on the lab's alumni page (ms),,,,P2901,P1315
-ALU000053,P3165,P3166,advisor_student,0,http://mcnl.ewha.ac.kr/mcnl/alumni.do,alumni_page,"listed on the lab's alumni page (phd, 2024)",,,,P3165,P3166
-ALU000055,P0001,P1448,advisor_student,,https://bmie.snu.ac.kr/lab-members/,alumni_page,listed on the lab's alumni page (phd),,,,P0001,P1448
-ALU000057,P0004,P2790,advisor_student,,(given by hand: P0004),alumni_page,"listed on the lab's alumni page (phd, 2012)",,,,P0004,P2790
-ALU000058,P0004,P2791,advisor_student,,(given by hand: P0004),alumni_page,"listed on the lab's alumni page (integrated, 2014)",,,,P0004,P2791
-ALU000059,P0007,P2757,advisor_student,0,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (ms, 2003)",,,,P0007,P2757
-ALU000061,P0007,P2111,advisor_student,21,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2006)",,,,P0007,P2111
-ALU000062,P0007,P2758,advisor_student,16,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2007)",,,,P0007,P2758
-ALU000064,P0007,P2760,advisor_student,39,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2011)",,,,P0007,P2760
-ALU000065,P0007,P2761,postdoc_mentor,20,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (postdoc, 2012)",,,,P0007,P2761
-ALU000066,P0007,P2762,advisor_student,1,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2014)",,,,P0007,P2762
-ALU000067,P0007,P2763,advisor_student,18,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2016)",,,,P0007,P2763
-ALU000069,P0007,P2764,advisor_student,20,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2018)",,,,P0007,P2764
-ALU000070,P0007,P2765,advisor_student,25,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2019)",,,,P0007,P2765
-ALU000072,P0007,P2767,advisor_student,21,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (integrated, 2021)",,,,P0007,P2767
-ALU000073,P0007,P2768,advisor_student,19,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (integrated, 2023)",,,,P0007,P2768
-ALU000074,P0026,P1303,advisor_student,,https://sites.google.com/view/abdlab/members/alumni,alumni_page,listed on the lab's alumni page (phd),,,,P0026,P1303
-ALU000075,P0026,P1519,advisor_student,,https://sites.google.com/view/abdlab/members/alumni,alumni_page,listed on the lab's alumni page (phd),,,,P0026,P1519
-ALU000076,P0026,P1711,advisor_student,,https://sites.google.com/view/abdlab/members/alumni,alumni_page,listed on the lab's alumni page (phd),,,,P0026,P1711
-ALU000077,P0040,P1323,advisor_student,0,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2022)",,,,P0040,P1323
-ALU000078,P0040,P0913,advisor_student,0,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2022)",,,,P0040,P0913
-ALU000079,P0040,P0885,advisor_student,0,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2021)",,,,P0040,P0885
-ALU000080,P0040,P2748,advisor_student,0,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2021)",,,,P0040,P2748
-ALU000081,P0040,P1181,advisor_student,1,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2011)",,,,P0040,P1181
-ALU000082,P0040,P3001,advisor_student,2,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2007)",,,,P0040,P3001
-ALU000083,P0056,P0762,advisor_student,6,https://chahj72.wixsite.com/snucsl/blank-2,alumni_page,"listed on the lab's alumni page (unknown, 2022)",,,,P0056,P0762
-ALU000084,P0095,P1586,advisor_student,0,https://clarity.yonsei.ac.kr/people/alumni,alumni_page,"listed on the lab's alumni page (ms, 2025)",,,,P0095,P1586
-ALU000085,P0095,P0963,advisor_student,2,https://clarity.yonsei.ac.kr/people/alumni,alumni_page,"listed on the lab's alumni page (integrated, 2021)",,,,P0095,P0963
-ALU000087,P0734,P3003,advisor_student,16,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2015)",,,,P0734,P3003
-ALU000088,P0734,P3004,advisor_student,0,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (ms, 2007)",,,,P0734,P3004
-ALU000089,P0734,P0741,advisor_student,17,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2007)",,,,P0734,P0741
-ALU000090,P0734,P3005,advisor_student,12,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2005)",,,,P0734,P3005
-ALU000091,P0734,P3006,advisor_student,0,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (ms, 2001)",,,,P0734,P3006
-ALU000092,P0752,P0938,postdoc_mentor,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2026)",,,,P0752,P0938
-ALU000093,P0752,P3017,postdoc_mentor,3,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2022)",,,,P0752,P3017
-ALU000094,P0752,P3018,postdoc_mentor,5,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2020)",,,,P0752,P3018
-ALU000095,P0752,P0785,advisor_student,11,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2018)",,,,P0752,P0785
-ALU000096,P0752,P3019,postdoc_mentor,4,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2017)",,,,P0752,P3019
-ALU000097,P0752,P3020,advisor_student,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2017)",,,,P0752,P3020
-ALU000098,P0752,P3021,advisor_student,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2017)",,,,P0752,P3021
-ALU000099,P0752,P2718,postdoc_mentor,1,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2015)",,,,P0752,P2718
-ALU000100,P0752,P3022,advisor_student,5,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2015)",,,,P0752,P3022
-ALU000101,P0752,P3023,advisor_student,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2014)",,,,P0752,P3023
-ALU000102,P0752,P3024,postdoc_mentor,2,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2010)",,,,P0752,P3024
-ALU000103,P0752,P3025,advisor_student,10,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2009)",,,,P0752,P3025
-ALU000104,P0752,P3026,advisor_student,0,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (unknown, 2008)",,,,P0752,P3026
-ALU000105,P0752,P3027,postdoc_mentor,3,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2008)",,,,P0752,P3027
-ALU000106,P0752,P3028,advisor_student,0,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (unknown, 2007)",,,,P0752,P3028
-ALU000107,P0752,P3029,advisor_student,8,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2006)",,,,P0752,P3029
-ALU000113,P2532,P0015,advisor_student,36,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2017)",,,,P2532,P0015
-ALU000115,P2532,P2734,advisor_student,7,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2021)",,,,P2532,P2734
-ALU000116,P2532,P2735,advisor_student,10,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2023)",,,,P2532,P2735
-ALU000117,P2532,P2736,advisor_student,13,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2025)",,,,P2532,P2736
-ALU000118,P2539,P1154,advisor_student,,https://cb.postech.ac.kr/lcb_postech/lec/alumni.do,alumni_page,listed on the lab's alumni page (unknown),,,,P2539,P1154
-ALU000119,P2548,P3108,advisor_student,4,http://jkimlab.postech.ac.kr/synbio/mem/alumni.do,alumni_page,"listed on the lab's alumni page (phd, 2025)",,,,P2548,P3108
-ALU000120,P2548,P1186,advisor_student,7,http://jkimlab.postech.ac.kr/synbio/mem/alumni.do,alumni_page,"listed on the lab's alumni page (phd, 2026)",,,,P2548,P1186
-ALU000121,P2560,P1536,advisor_student,,https://cilab.postech.ac.kr/ci/abo/alumni-2.do,alumni_page,listed on the lab's alumni page (integrated),,,,P2560,P1536
-ALU000124,P2795,P3090,advisor_student,1,(given by hand: P2795),alumni_page,"listed on the lab's alumni page (phd, 2014)",,,,P2795,P3090
-ALU000126,P2797,P3008,advisor_student,5,(given by hand: P2797),alumni_page,"listed on the lab's alumni page (phd, 2022)",,,,P2797,P3008
-ALU000127,P2797,P1092,advisor_student,2,(given by hand: P2797),alumni_page,"listed on the lab's alumni page (ms, 2015)",,,,P2797,P1092
-ALU000128,P2801,P2900,advisor_student,1,https://sites.google.com/view/laboflim/members/alumni,alumni_page,"listed on the lab's alumni page (ms, 2015)",,,,P2801,P2900
-ALU000129,P2804,P1276,advisor_student,,https://bmeel.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (ms, 2023)",,,,P2804,P1276
-ALU000130,P2804,P1268,advisor_student,,https://bmeel.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (ms, 2025)",,,,P2804,P1268
-ALU000131,P2808,P3009,advisor_student,11,(given by hand: P2808),alumni_page,"listed on the lab's alumni page (unknown, 2024)",,,,P2808,P3009
-ALU000132,P2808,P3010,postdoc_mentor,13,(given by hand: P2808),alumni_page,"listed on the lab's alumni page (postdoc, 2024)",,,,P2808,P3010
-ALU000133,P2808,P3011,postdoc_mentor,4,(given by hand: P2808),alumni_page,"listed on the lab's alumni page (postdoc, 2017)",,,,P2808,P3011
-ALU000134,P2839,P3012,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd),,,,P2839,P3012
-ALU000135,P2839,P3013,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd),,,,P2839,P3013
-ALU000137,P2839,P3015,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd),,,,P2839,P3015
-ALU000138,P2839,P3016,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd),,,,P2839,P3016
-ALU000139,P2839,P0179,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (ms),,,,P2839,P0179
-ALU000140,P2839,P1891,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (ms),,,,P2839,P1891
-ALU000141,P2841,P2800,advisor_student,,(given by hand: P2841),alumni_page,"listed on the lab's alumni page (phd, 2015)",,,,P2841,P2800
-ALU000142,P2886,P1635,advisor_student,,https://seoklab.org/members.html,alumni_page,listed on the lab's alumni page (ms),,,,P2886,P1635
-ALU000145,P2886,P1465,advisor_student,16,https://seoklab.org/members.html,alumni_page,"listed on the lab's alumni page (phd, 2016)",,,,P2886,P1465
-ALU000146,P2886,P1225,advisor_student,3,https://seoklab.org/members.html,alumni_page,"listed on the lab's alumni page (ms, 2011)",,,,P2886,P1225
-ALU000147,P3034,P1163,advisor_student,0,(given by hand: P3034),alumni_page,"listed on the lab's alumni page (unknown, 2024)",,,,P3034,P1163
-ALU000148,P3055,P2578,advisor_student,8,https://jhp.kaist.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (phd, 2015)",,,,P3055,P2578
-ALU000149,P3055,P2609,advisor_student,1,https://jhp.kaist.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (ms, 2012)",,,,P3055,P2609
-ALU000150,P3065,P0047,advisor_student,2,https://sbie.kaist.ac.kr/people/associate-members/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2008)",,,,P3065,P0047
-ALU000151,P3067,P1577,advisor_student,7,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2017)",,,,P3067,P1577
-ALU000152,P3067,P1297,advisor_student,17,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2023)",,,,P3067,P1297
-ALU000153,P3069,P0342,advisor_student,8,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,"listed on the lab's alumni page (ms, 2019)",,,,P3069,P0342
-ALU000154,P3069,P1220,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P1220
-ALU000155,P3069,P1174,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P1174
-ALU000156,P3069,P0753,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P0753
-ALU000157,P3069,P1224,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P1224
-ALU000158,P3070,P0631,advisor_student,0,https://bmnd.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (ms, 2016)",,,,P3070,P0631
-ALU000159,P3072,P0959,advisor_student,0,(given by hand: P3072),alumni_page,"listed on the lab's alumni page (ms, 2019)",,,,P3072,P0959
-ALU000160,P3081,P1584,advisor_student,,https://sites.google.com/hanyang.ac.kr/hyubio/members/alumni,alumni_page,listed on the lab's alumni page (ms),,,,P3081,P1584
-ALU000161,P3106,P3134,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3106,P3134
-ALU000162,P3106,P3135,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3106,P3135
-ALU000163,P3106,P3136,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3106,P3136
-ALU000164,P3106,P3137,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3106,P3137
-ALU000165,P3106,P3138,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3106,P3138
-ALU000166,P3106,P3139,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3106,P3139
-ALU000167,P3106,P1146,postdoc_mentor,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (postdoc),,,,P3106,P1146
-ALU000168,P3170,P1157,advisor_student,7,https://sites.google.com/view/junlab/home/members,alumni_page,"listed on the lab's alumni page (ms, 2024)",,,,P3170,P1157
+ALU000002,P3165,P3166,advisor_student,0,http://mcnl.ewha.ac.kr/mcnl/alumni.do,alumni_page,"listed on the lab's alumni page (phd, 2024)",,,,P3165,P3166
+ALU000003,P0052,P1157,advisor_student,,https://bama.snu.ac.kr/members/current,alumni_page,listed on the lab's alumni page (unknown),,,,P0052,P1157
+ALU000004,P0066,P2144,advisor_student,8,https://sites.google.com/view/baelab/members,alumni_page,"listed on the lab's alumni page (unknown, 2016)",,,,P0066,P2144
+ALU000005,P0066,P2763,postdoc_mentor,1,https://sites.google.com/view/baelab/members,alumni_page,"listed on the lab's alumni page (postdoc, 2021)",,,,P0066,P2763
+ALU000006,P0066,P1033,postdoc_mentor,9,https://sites.google.com/view/baelab/members,alumni_page,"listed on the lab's alumni page (postdoc, 2023)",,,,P0066,P1033
+ALU000007,P0113,P0085,advisor_student,28,http://drl.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (phd, 2019)",,,,P0113,P0085
+ALU000008,P0113,P1262,advisor_student,5,http://drl.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (ms, 2023)",,,,P0113,P1262
+ALU000009,P0245,P1459,advisor_student,24,https://sites.google.com/view/cau-smb/members/alumni,alumni_page,"listed on the lab's alumni page (phd, 2024)",,,,P0245,P1459
+ALU000010,P0291,P1923,advisor_student,,https://lab.minholee.net/members,alumni_page,listed on the lab's alumni page (phd),,,,P0291,P1923
+ALU000011,P0681,P1152,advisor_student,4,https://sites.google.com/site/kimlabknu/website-builder/events,alumni_page,"listed on the lab's alumni page (unknown, 2024)",,,,P0681,P1152
+ALU000012,P0713,P1679,advisor_student,8,https://immprove.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (integrated, 2023)",,,,P0713,P1679
+ALU000013,P0713,P1305,postdoc_mentor,10,https://immprove.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (postdoc, 2014)",,,,P0713,P1305
+ALU000014,P0716,P0416,advisor_student,2,https://www.schong17.com/alumni,alumni_page,"listed on the lab's alumni page (ms, 2020)",,,,P0716,P0416
+ALU000015,P0748,P0657,advisor_student,29,(given by hand: P0748),alumni_page,"listed on the lab's alumni page (phd, 2017)",,,,P0748,P0657
+ALU000016,P0748,P2714,advisor_student,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (phd),,,,P0748,P2714
+ALU000017,P0748,P0486,advisor_student,3,(given by hand: P0748),alumni_page,"listed on the lab's alumni page (ms, 2019)",,,,P0748,P0486
+ALU000018,P0748,P0128,advisor_student,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (ms),,,,P0748,P0128
+ALU000019,P0748,P1089,advisor_student,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (ms),,,,P0748,P1089
+ALU000020,P0748,P0586,advisor_student,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (ms),,,,P0748,P0586
+ALU000021,P0748,P3007,postdoc_mentor,,(given by hand: P0748),alumni_page,listed on the lab's alumni page (postdoc),,,,P0748,P3007
+ALU000022,P0757,P1262,advisor_student,,https://cocila.net/people-2/alumni-2/,alumni_page,listed on the lab's alumni page (ms),,,,P0757,P1262
+ALU000023,P0774,P1242,advisor_student,3,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (phd, 2023)",,,,P0774,P1242
+ALU000024,P0774,P1309,advisor_student,5,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (phd, 2023)",,,,P0774,P1309
+ALU000025,P0774,P3117,postdoc_mentor,8,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (postdoc, 2019)",,,,P0774,P3117
+ALU000026,P0774,P1220,postdoc_mentor,0,(given by hand: P0774),alumni_page,"listed on the lab's alumni page (postdoc, 2019)",,,,P0774,P1220
+ALU000028,P0775,P2980,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P0775,P2980
+ALU000029,P0775,P2981,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P0775,P2981
+ALU000030,P0775,P0768,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P0775,P0768
+ALU000031,P0775,P2982,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P0775,P2982
+ALU000032,P0775,P0778,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P0775,P0778
+ALU000033,P0775,P2983,advisor_student,,https://biosci.snu.ac.kr/about/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P0775,P2983
+ALU000034,P0823,P2543,advisor_student,1,https://seml.korea.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (ms, 2021)",,,,P0823,P2543
+ALU000035,P0881,P1309,advisor_student,3,(given by hand: P0881),alumni_page,"listed on the lab's alumni page (ms, 2012)",,,,P0881,P1309
+ALU000036,P0881,P1703,advisor_student,1,(given by hand: P0881),alumni_page,"listed on the lab's alumni page (ms, 2013)",,,,P0881,P1703
+ALU000037,P0928,P1475,advisor_student,,https://sites.google.com/view/mfmt/members/alumni,alumni_page,listed on the lab's alumni page (ms),,,,P0928,P1475
+ALU000038,P1025,P2570,advisor_student,0,https://sites.google.com/view/gslee2017/members,alumni_page,"listed on the lab's alumni page (phd, 2023)",,,,P1025,P2570
+ALU000039,P1312,P0666,advisor_student,0,https://minyoungjung.com/alumni/,alumni_page,"listed on the lab's alumni page (unknown, 2024)",,,,P1312,P0666
+ALU000040,P1312,P2723,advisor_student,0,https://minyoungjung.com/alumni/,alumni_page,"listed on the lab's alumni page (unknown, 2025)",,,,P1312,P2723
+ALU000041,P2740,P1666,advisor_student,2,https://jnu-pharmacognosy.github.io/lab,alumni_page,"listed on the lab's alumni page (ms, 2023)",,,,P2740,P1666
+ALU000042,P2740,P1624,advisor_student,0,https://jnu-pharmacognosy.github.io/lab,alumni_page,"listed on the lab's alumni page (ms, 2025)",,,,P2740,P1624
+ALU000043,P2740,P1320,advisor_student,1,https://jnu-pharmacognosy.github.io/lab,alumni_page,"listed on the lab's alumni page (ms, 2026)",,,,P2740,P1320
+ALU000044,P2884,P1155,advisor_student,,https://chembio.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown),,,,P2884,P1155
+ALU000045,P2884,P0009,advisor_student,,https://chembio.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown),,,,P2884,P0009
+ALU000046,P2884,P3086,advisor_student,,https://chembio.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown),,,,P2884,P3086
+ALU000048,P2884,P1242,advisor_student,,https://chembio.snu.ac.kr/alumni/,alumni_page,listed on the lab's alumni page (unknown),,,,P2884,P1242
+ALU000049,P2885,P0179,postdoc_mentor,0,http://seolab.creatorlink.net/Alumni,alumni_page,"listed on the lab's alumni page (postdoc, 2023)",,,,P2885,P0179
+ALU000050,P2890,P0480,advisor_student,3,http://www.leelab.snu.ac.kr/alumni,alumni_page,"listed on the lab's alumni page (phd, 2021)",,,,P2890,P0480
+ALU000051,P2890,P1251,advisor_student,2,http://www.leelab.snu.ac.kr/alumni,alumni_page,"listed on the lab's alumni page (phd, 2021)",,,,P2890,P1251
+ALU000052,P2891,P1193,advisor_student,2,https://amglab.wixsite.com/eslee/alumni,alumni_page,"listed on the lab's alumni page (phd, 2017)",,,,P2891,P1193
+ALU000053,P2901,P1315,advisor_student,,https://www.yhproteinlab.com/members/alumni,alumni_page,listed on the lab's alumni page (ms),,,,P2901,P1315
+ALU000054,P3170,P1157,advisor_student,7,https://sites.google.com/view/junlab/home/members,alumni_page,"listed on the lab's alumni page (ms, 2024)",,,,P3170,P1157
+ALU000056,P0001,P1448,advisor_student,,https://bmie.snu.ac.kr/lab-members/,alumni_page,listed on the lab's alumni page (phd),,,,P0001,P1448
+ALU000058,P0004,P2790,advisor_student,,(given by hand: P0004),alumni_page,"listed on the lab's alumni page (phd, 2012)",,,,P0004,P2790
+ALU000059,P0004,P2791,advisor_student,,(given by hand: P0004),alumni_page,"listed on the lab's alumni page (integrated, 2014)",,,,P0004,P2791
+ALU000060,P0007,P2757,advisor_student,0,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (ms, 2003)",,,,P0007,P2757
+ALU000062,P0007,P2111,advisor_student,21,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2006)",,,,P0007,P2111
+ALU000063,P0007,P2758,advisor_student,16,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2007)",,,,P0007,P2758
+ALU000065,P0007,P2760,advisor_student,39,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2011)",,,,P0007,P2760
+ALU000066,P0007,P2761,postdoc_mentor,20,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (postdoc, 2012)",,,,P0007,P2761
+ALU000067,P0007,P2762,advisor_student,1,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2014)",,,,P0007,P2762
+ALU000068,P0007,P2763,advisor_student,18,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2016)",,,,P0007,P2763
+ALU000070,P0007,P2764,advisor_student,20,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2018)",,,,P0007,P2764
+ALU000071,P0007,P2765,advisor_student,25,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (phd, 2019)",,,,P0007,P2765
+ALU000073,P0007,P2767,advisor_student,21,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (integrated, 2021)",,,,P0007,P2767
+ALU000074,P0007,P2768,advisor_student,19,http://scte.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=A,alumni_page,"listed on the lab's alumni page (integrated, 2023)",,,,P0007,P2768
+ALU000075,P0026,P1303,advisor_student,,https://sites.google.com/view/abdlab/members/alumni,alumni_page,listed on the lab's alumni page (phd),,,,P0026,P1303
+ALU000076,P0026,P1519,advisor_student,,https://sites.google.com/view/abdlab/members/alumni,alumni_page,listed on the lab's alumni page (phd),,,,P0026,P1519
+ALU000077,P0026,P1711,advisor_student,,https://sites.google.com/view/abdlab/members/alumni,alumni_page,listed on the lab's alumni page (phd),,,,P0026,P1711
+ALU000078,P0040,P1323,advisor_student,0,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2022)",,,,P0040,P1323
+ALU000079,P0040,P0913,advisor_student,0,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2022)",,,,P0040,P0913
+ALU000080,P0040,P0885,advisor_student,0,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2021)",,,,P0040,P0885
+ALU000081,P0040,P2748,advisor_student,0,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2021)",,,,P0040,P2748
+ALU000082,P0040,P1181,advisor_student,1,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2011)",,,,P0040,P1181
+ALU000083,P0040,P3001,advisor_student,2,https://molpathlab.snu.ac.kr/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2007)",,,,P0040,P3001
+ALU000084,P0056,P0762,advisor_student,6,https://chahj72.wixsite.com/snucsl/blank-2,alumni_page,"listed on the lab's alumni page (unknown, 2022)",,,,P0056,P0762
+ALU000085,P0095,P1586,advisor_student,0,https://clarity.yonsei.ac.kr/people/alumni,alumni_page,"listed on the lab's alumni page (ms, 2025)",,,,P0095,P1586
+ALU000086,P0095,P0963,advisor_student,2,https://clarity.yonsei.ac.kr/people/alumni,alumni_page,"listed on the lab's alumni page (integrated, 2021)",,,,P0095,P0963
+ALU000088,P0734,P3003,advisor_student,16,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2015)",,,,P0734,P3003
+ALU000089,P0734,P3004,advisor_student,0,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (ms, 2007)",,,,P0734,P3004
+ALU000090,P0734,P0741,advisor_student,17,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2007)",,,,P0734,P0741
+ALU000091,P0734,P3005,advisor_student,12,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (phd, 2005)",,,,P0734,P3005
+ALU000092,P0734,P3006,advisor_student,0,(given by hand: P0734),alumni_page,"listed on the lab's alumni page (ms, 2001)",,,,P0734,P3006
+ALU000093,P0752,P0938,postdoc_mentor,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2026)",,,,P0752,P0938
+ALU000094,P0752,P3017,postdoc_mentor,3,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2022)",,,,P0752,P3017
+ALU000095,P0752,P3018,postdoc_mentor,5,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2020)",,,,P0752,P3018
+ALU000096,P0752,P0785,advisor_student,11,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2018)",,,,P0752,P0785
+ALU000097,P0752,P3019,postdoc_mentor,4,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2017)",,,,P0752,P3019
+ALU000098,P0752,P3020,advisor_student,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2017)",,,,P0752,P3020
+ALU000099,P0752,P3021,advisor_student,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2017)",,,,P0752,P3021
+ALU000100,P0752,P2718,postdoc_mentor,1,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2015)",,,,P0752,P2718
+ALU000101,P0752,P3022,advisor_student,5,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2015)",,,,P0752,P3022
+ALU000102,P0752,P3023,advisor_student,7,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2014)",,,,P0752,P3023
+ALU000103,P0752,P3024,postdoc_mentor,2,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2010)",,,,P0752,P3024
+ALU000104,P0752,P3025,advisor_student,10,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2009)",,,,P0752,P3025
+ALU000105,P0752,P3026,advisor_student,0,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (unknown, 2008)",,,,P0752,P3026
+ALU000106,P0752,P3027,postdoc_mentor,3,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (postdoc, 2008)",,,,P0752,P3027
+ALU000107,P0752,P3028,advisor_student,0,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (unknown, 2007)",,,,P0752,P3028
+ALU000108,P0752,P3029,advisor_student,8,(given by hand: P0752),alumni_page,"listed on the lab's alumni page (phd, 2006)",,,,P0752,P3029
+ALU000114,P2532,P0015,advisor_student,36,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2017)",,,,P2532,P0015
+ALU000116,P2532,P2734,advisor_student,7,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2021)",,,,P2532,P2734
+ALU000117,P2532,P2735,advisor_student,10,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2023)",,,,P2532,P2735
+ALU000118,P2532,P2736,advisor_student,13,https://mdsb.postech.ac.kr/mdsb_lab/abo/alumni.do,alumni_page,"listed on the lab's alumni page (unknown, 2025)",,,,P2532,P2736
+ALU000119,P2539,P1154,advisor_student,,https://cb.postech.ac.kr/lcb_postech/lec/alumni.do,alumni_page,listed on the lab's alumni page (unknown),,,,P2539,P1154
+ALU000120,P2548,P3108,advisor_student,4,http://jkimlab.postech.ac.kr/synbio/mem/alumni.do,alumni_page,"listed on the lab's alumni page (phd, 2025)",,,,P2548,P3108
+ALU000121,P2548,P1186,advisor_student,7,http://jkimlab.postech.ac.kr/synbio/mem/alumni.do,alumni_page,"listed on the lab's alumni page (phd, 2026)",,,,P2548,P1186
+ALU000122,P2560,P1536,advisor_student,,https://cilab.postech.ac.kr/ci/abo/alumni-2.do,alumni_page,listed on the lab's alumni page (integrated),,,,P2560,P1536
+ALU000125,P2795,P3090,advisor_student,1,(given by hand: P2795),alumni_page,"listed on the lab's alumni page (phd, 2014)",,,,P2795,P3090
+ALU000127,P2797,P3008,advisor_student,5,(given by hand: P2797),alumni_page,"listed on the lab's alumni page (phd, 2022)",,,,P2797,P3008
+ALU000128,P2797,P1092,advisor_student,2,(given by hand: P2797),alumni_page,"listed on the lab's alumni page (ms, 2015)",,,,P2797,P1092
+ALU000129,P2801,P2900,advisor_student,1,https://sites.google.com/view/laboflim/members/alumni,alumni_page,"listed on the lab's alumni page (ms, 2015)",,,,P2801,P2900
+ALU000130,P2804,P1276,advisor_student,,https://bmeel.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (ms, 2023)",,,,P2804,P1276
+ALU000131,P2804,P1268,advisor_student,,https://bmeel.snu.ac.kr/people,alumni_page,"listed on the lab's alumni page (ms, 2025)",,,,P2804,P1268
+ALU000132,P2808,P3009,advisor_student,11,(given by hand: P2808),alumni_page,"listed on the lab's alumni page (unknown, 2024)",,,,P2808,P3009
+ALU000133,P2808,P3010,postdoc_mentor,13,(given by hand: P2808),alumni_page,"listed on the lab's alumni page (postdoc, 2024)",,,,P2808,P3010
+ALU000134,P2808,P3011,postdoc_mentor,4,(given by hand: P2808),alumni_page,"listed on the lab's alumni page (postdoc, 2017)",,,,P2808,P3011
+ALU000135,P2839,P3012,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd),,,,P2839,P3012
+ALU000136,P2839,P3013,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd),,,,P2839,P3013
+ALU000138,P2839,P3015,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd),,,,P2839,P3015
+ALU000139,P2839,P3016,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (phd),,,,P2839,P3016
+ALU000140,P2839,P0179,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (ms),,,,P2839,P0179
+ALU000141,P2839,P1891,advisor_student,,(given by hand: P2839),alumni_page,listed on the lab's alumni page (ms),,,,P2839,P1891
+ALU000142,P2841,P2800,advisor_student,,(given by hand: P2841),alumni_page,"listed on the lab's alumni page (phd, 2015)",,,,P2841,P2800
+ALU000143,P2886,P1635,advisor_student,,https://seoklab.org/members.html,alumni_page,listed on the lab's alumni page (ms),,,,P2886,P1635
+ALU000146,P2886,P1465,advisor_student,16,https://seoklab.org/members.html,alumni_page,"listed on the lab's alumni page (phd, 2016)",,,,P2886,P1465
+ALU000147,P2886,P1225,advisor_student,3,https://seoklab.org/members.html,alumni_page,"listed on the lab's alumni page (ms, 2011)",,,,P2886,P1225
+ALU000148,P3034,P1163,advisor_student,0,(given by hand: P3034),alumni_page,"listed on the lab's alumni page (unknown, 2024)",,,,P3034,P1163
+ALU000149,P3055,P2578,advisor_student,8,https://jhp.kaist.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (phd, 2015)",,,,P3055,P2578
+ALU000150,P3055,P2609,advisor_student,1,https://jhp.kaist.ac.kr/member/alumni,alumni_page,"listed on the lab's alumni page (ms, 2012)",,,,P3055,P2609
+ALU000151,P3065,P0047,advisor_student,2,https://sbie.kaist.ac.kr/people/associate-members/alumni/,alumni_page,"listed on the lab's alumni page (ms, 2008)",,,,P3065,P0047
+ALU000152,P3067,P1577,advisor_student,7,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2017)",,,,P3067,P1577
+ALU000153,P3067,P1297,advisor_student,17,https://omics.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (phd, 2023)",,,,P3067,P1297
+ALU000154,P3069,P0342,advisor_student,8,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,"listed on the lab's alumni page (ms, 2019)",,,,P3069,P0342
+ALU000155,P3069,P1220,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P1220
+ALU000156,P3069,P1174,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P1174
+ALU000157,P3069,P0753,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P0753
+ALU000158,P3069,P1224,advisor_student,,https://isml.kaist.ac.kr/contact-us/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3069,P1224
+ALU000159,P3070,P0631,advisor_student,0,https://bmnd.kaist.ac.kr/members,alumni_page,"listed on the lab's alumni page (ms, 2016)",,,,P3070,P0631
+ALU000160,P3072,P0959,advisor_student,0,(given by hand: P3072),alumni_page,"listed on the lab's alumni page (ms, 2019)",,,,P3072,P0959
+ALU000161,P3081,P1584,advisor_student,,https://sites.google.com/hanyang.ac.kr/hyubio/members/alumni,alumni_page,listed on the lab's alumni page (ms),,,,P3081,P1584
+ALU000162,P3106,P3134,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3106,P3134
+ALU000163,P3106,P3135,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3106,P3135
+ALU000164,P3106,P3136,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3106,P3136
+ALU000165,P3106,P3137,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3106,P3137
+ALU000166,P3106,P3138,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3106,P3138
+ALU000167,P3106,P3139,advisor_student,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (unknown),,,,P3106,P3139
+ALU000168,P3106,P1146,postdoc_mentor,,https://yunje8.wixsite.com/sbclab/alumni,alumni_page,listed on the lab's alumni page (postdoc),,,,P3106,P1146

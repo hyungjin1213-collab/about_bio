@@ -96,8 +96,8 @@ LIN000094,P2320,P2328,advisor_student,5,https://doi.org/10.1111/j.1346-8138.2009
 LIN000095,P2160,P2170,postdoc_mentor,5,https://doi.org/10.4166/kjg.2017.69.5.328,auto,inferred from 5 first-author papers (2017-2021) with A as last author
 LIN000096,P1322,P2141,advisor_student,5,https://doi.org/10.1142/s0192415x06004399,auto,inferred from 5 first-author papers (2006-2007) with A as last author
 LIN000097,P0774,P1024,advisor_student,5,https://doi.org/10.1016/j.bpj.2011.11.3649,auto,inferred from 5 first-author papers (2012-2016) with A as last author
-LIN000098,P0718,P1270,advisor_student,5,https://doi.org/10.1038/nnano.2014.38,auto,inferred from 5 first-author papers (2014-2016) with A as last author
-LIN000099,P1322,P1349,advisor_student,5,https://doi.org/10.1007/s00296-012-2367-7,auto,inferred from 5 first-author papers (2012-2016) with A as last author
+LIN000098,P1322,P1349,advisor_student,5,https://doi.org/10.1007/s00296-012-2367-7,auto,inferred from 5 first-author papers (2012-2016) with A as last author
+LIN000099,P0718,P1270,advisor_student,5,https://doi.org/10.1038/nnano.2014.38,auto,inferred from 5 first-author papers (2014-2016) with A as last author
 LIN000100,P1636,P1648,advisor_student,5,https://doi.org/10.1016/j.febslet.2008.11.035,auto,inferred from 5 first-author papers (2008-2010) with A as last author
 LIN000101,P2200,P2181,advisor_student,5,https://doi.org/10.4174/jkss.2011.81.suppl1.s34,auto,inferred from 5 first-author papers (2011-2013) with A as last author
 LIN000102,P0734,P3002,advisor_student,5,https://doi.org/10.1016/j.chemosphere.2015.01.024,auto,inferred from 5 first-author papers (2015-2020) with A as last author
@@ -118,7 +118,7 @@ LIN000116,P2558,P1005,advisor_student,4,https://doi.org/10.1038/nsb925,auto,infe
 LIN000117,P1155,P0055,postdoc_mentor,4,https://doi.org/10.5012/bkcs.2010.31.9.2665,auto,inferred from 4 first-author papers (2010-2011) with A as last author
 LIN000118,P2597,P2602,advisor_student,4,https://doi.org/10.4143/crt.2002.34.2.128,auto,inferred from 4 first-author papers (2002-2006) with A as last author
 LIN000119,P2341,P2381,advisor_student,4,https://doi.org/10.1097/mpa.0b013e3181bd93ce,auto,inferred from 4 first-author papers (2010-2012) with A as last author
-LIN000120,P0690,P3056,advisor_student,4,https://doi.org/10.1016/j.ijpharm.2022.122347,auto,inferred from 4 first-author papers (2022-2023) with A as last author
+LIN000120,P0690,P3056,advisor_student,4,https://doi.org/10.1016/j.clay.2022.106677,auto,inferred from 4 first-author papers (2022-2023) with A as last author
 LIN000121,P2886,P1006,advisor_student,4,https://doi.org/10.5012/bkcs.2012.33.3.770,auto,inferred from 4 first-author papers (2012-2017) with A as last author
 LIN000122,P2544,P2971,advisor_student,4,,auto,inferred from 4 first-author papers (2006-2011) with A as last author
 LIN000123,P1731,P1768,advisor_student,4,https://doi.org/10.1074/jbc.m412393200,auto,inferred from 4 first-author papers (2004-2006) with A as last author

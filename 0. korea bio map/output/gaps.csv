@@ -749,7 +749,7 @@ P0911,오현정,Hyun-Jung Oh,Yonsei University,Department of Biochemistry,졸업
 P0912,이원동,Won-Dong Lee,Yonsei University,Department of Biochemistry,졸업생 정보 없음
 P0913,최현규,Hyun-Gyu Choi,Yonsei University,Department of Biochemistry,논문 프로필 없음
 P0915,홍승희,Seung-Hee Hong,Yonsei University,Department of Biochemistry,논문 프로필 없음
-P0916,김주영,Joo Young Kim,Yonsei University,College of Medicine / Pharmacology,논문 프로필 없음; 졸업생 정보 없음
+P0916,김주영,Joo Young Kim,Yonsei University,College of Medicine / Pharmacology,졸업생 정보 없음
 P0917,김철훈,Chul Hoon Kim,Yonsei University,College of Medicine / Pharmacology,졸업생 정보 없음
 P0918,김형범,Hyongbum Kim,Yonsei University,College of Medicine / Pharmacology,논문 프로필 없음; 졸업생 정보 없음
 P0919,박경수,Kyungsoo Park,Yonsei University,College of Medicine / Pharmacology,졸업생 정보 없음
@@ -2345,7 +2345,6 @@ P2553,한지훈,Jeehoon Han,POSTECH,Department of Chemical Engineering,졸업생
 P2555,김형함,Hyung Ham Kim,POSTECH,Department of Biomedical Engineering,졸업생 정보 없음
 P2557,김기훈,Keehoon Kim,POSTECH,Department of Biomedical Engineering; Department of Mechanical Engineering,연구실 홈페이지 못 찾음
 P2558,이지오,Jie‐Oh Lee,POSTECH,Department of Life Sciences,졸업생 정보 없음
-P2561,박상기,Sang Ki Park,POSTECH,Department of Life Sciences,졸업생 정보 없음
 P2563,이현주,Hyunju Lee,GIST,,연구실 홈페이지 못 찾음
 P2564,김민곤,Min‐Gon Kim,GIST,,연구실 홈페이지 못 찾음
 P2565,윤정원,Jungwon Yoon,GIST,,연구실 홈페이지 못 찾음
@@ -2652,6 +2651,7 @@ P2889,신석민,Seokmin Shin,Seoul National University,화학부,졸업생 정�
 P2892,이현우,Hyun-Woo Rhee,Seoul National University,화학부,졸업생 정보 없음
 P2894,정택동,Taek Dong Chung,Seoul National University,화학부,졸업생 정보 없음
 P2896,홍병희,Byung Hee Hong,Seoul National University,화학부,졸업생 정보 없음
+P2898,김민성,Min‐Sung Kim,POSTECH,Department of Life Sciences; 합성생물학전공,졸업생 정보 없음
 P2902,이석찬,,Sungkyunkwan University,융합생명공학과,연구실 페이지 미확인
 P2903,권대혁,,Sungkyunkwan University,융합생명공학과,논문 프로필 없음; 연구실 페이지 미확인
 P2904,윤기정,,Sungkyunkwan University,융합생명공학과,논문 프로필 없음; 연구실 페이지 미확인
@@ -2694,7 +2694,7 @@ P2940,김균환,,Sungkyunkwan University,의과대학 (기초의학),연구실 �
 P2941,김기주,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 졸업생 정보 없음
 P2942,김문영,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
 P2943,김성태,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
-P2944,김재준,,Sungkyunkwan University,의과대학 (기초의학),논문 프로필 없음; 연구실 페이지 미확인
+P2944,김재준,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
 P2945,김태진,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
 P2946,김현진,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
 P2947,남주현,,Sungkyunkwan University,의과대학 (기초의학),연구실 페이지 미확인
@@ -2814,7 +2814,7 @@ P3084,신흥수,Heungsoo Shin,Hanyang University,생명공학과,졸업생 정�
 P3085,이동윤,Dong Yun Lee,Hanyang University,생명공학과,졸업생 정보 없음
 P3087,김기수,Ki Su Kim,Hanyang University,생명공학과,연구실 홈페이지 못 찾음
 P3088,고지훈,Jihoon Ko,Hanyang University,생명공학과,졸업생 정보 없음
-P3089,김용희,Yong-Hee Kim,Hanyang University,생명공학과,논문 프로필 없음; 졸업생 정보 없음
+P3089,김용희,Yong-Hee Kim,Hanyang University,생명공학과,졸업생 정보 없음
 P3090,김홍남,Hong Nam Kim,KIST,뇌과학연구소 (Brain Science Institute),졸업생 정보 없음
 P3091,유탁근,Tag Keun Yoo,Eulji University,의예과,졸업생 정보 없음
 P3092,이준호,Jun Ho Lee,Eulji University,의예과,졸업생 정보 없음

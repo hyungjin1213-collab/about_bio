@@ -8,7 +8,7 @@ P0006,조덕,Duck Cho,Samsung Medical Center; Sungkyunkwan University,,Hematolog
 P0007,김병수,Byung-Soo Kim,Seoul National University,Chemical and Biological Engineering,재생 바이오 의공학,A5100642851,https://cbe.snu.ac.kr/cbe/pgm/professorMng/list.do?menuNo=300015&profCate=66,,,,67,6,0,0,0,127
 P0008,양진아,Jina Yang,Jeju National University,,Molecular Biology,A5007222103,,,,,8,0,1,0,1,10
 P0009,박지훈,Jeehun Park,Kangwon National University,,Immunology,A5007880310,,,,,6,0,1,0,0,7
-P0010,임현규,Hyun Gyu Lim,Inha University,,Molecular Biology,A5014839787,,,,,7,0,1,0,0,8
+P0010,임현규,Hyun Gyu Lim,Inha University,,Molecular Biology,A5014839787,,,,,8,0,1,0,0,9
 P0011,김태돈,Tae-Don Kim,Yonsei University,College of Pharmacy,Gene & Cell Therapy / Immunology,A5019115055,,,verified,,21,0,0,0,0,21
 P0012,김성철,Seong-Cheol Kim,Yeungnam University,,Materials Chemistry,A5086409096,,,,,11,0,0,0,0,11
 P0013,이제중,Je-Jung Lee,Chonnam National University,College of Medicine / Hematology-Oncology,Hematology & Oncology,A5102970348,https://biomedicine.jnu.ac.kr/en/bbs/board.php?bo_table=en_research_03,,verified,,27,1,0,0,0,37
@@ -44,7 +44,7 @@ P0045,이미옥,Mi Ok Lee,Seoul National University,College of Pharmacy,Molecula
 P0047,이승희,Seunghui Lee,Seoul National University,College of Pharmacy,Ecology,A5136323851,https://shleelab.wixsite.com/shleelab,,probable,,1,0,0,0,0,1
 P0048,이유정,Youjeong Lee,Seoul National University,College of Pharmacy,Plant Science,A5067936109,https://tcd.snu.ac.kr,0000-0002-8145-9520,probable,,0,0,0,0,0,0
 P0049,이인균,Ingyun Lee,Seoul National University,College of Pharmacy,,,https://sites.google.com/view/leelabsnu,0009-0006-8473-6921,verified,,0,0,0,0,0,0
-P0050,이재영,Jae‐Young Lee,Seoul National University,College of Pharmacy,Biomaterials,A5100334531;A5130379012;A5137721736,https://bedds.snu.ac.kr/,0000-0002-8093-043X,verified,,21,0,0,0,0,21
+P0050,이재영,Jae‐Young Lee,Seoul National University,College of Pharmacy,Biomaterials,A5100334531;A5130379012;A5137721736,https://bedds.snu.ac.kr/,0000-0002-8093-043X,verified,,20,0,0,0,0,20
 P0052,이혁진,H Lee,Seoul National University,College of Pharmacy,Physiology,A5086002768,https://bama.snu.ac.kr/,0009-0000-2403-6241,probable,,0,0,0,0,0,0
 P0053,장재봉,Jaebong Jang,Seoul National University,College of Pharmacy,Pulmonary and Respiratory Medicine,A5048760496,https://sites.google.com/view/janglab,0000-0002-7962-3395,probable,,12,0,0,0,0,12
 P0054,전상민,S Jeon,Seoul National University,College of Pharmacy,Infectious Diseases,A5072167140,http://idetoxlab.snu.ac.kr,0009-0009-9637-7972,probable,,0,0,0,0,0,0
@@ -85,7 +85,7 @@ P0096,전희정,Heejung Chun,Yonsei University,College of Pharmacy,Neurology,A50
 P0097,정성훈,Seong Hoon Jeong,Yonsei University,College of Pharmacy,Molecular Biology,A5102729944,https://pharmacy.yonsei.ac.kr/faculty/name_search.do?mode=view&userId=J1pE1Vcus25pm3KQgs%2BrTA%3D%3D&sosokcd=1015058,0000-0002-7404-9056,probable,,5,1,0,0,0,15
 P0098,최준정,Junjeong Choi,Yonsei University,College of Pharmacy,Cancer Research,A5056812442,https://pharmacy.yonsei.ac.kr/faculty/name_search.do?mode=view&userId=gq%2FL4c4KdYkPhh77oMSQmA%3D%3D&sosokcd=,0000-0003-1339-593X,verified,,6,0,0,0,0,6
 P0099,한은아,Euna Han,Yonsei University,College of Pharmacy,"Public Health, Environmental and Occupational Health",A5041266811;A5115629878,https://pharmacy.yonsei.ac.kr/faculty/name_search.do?mode=view&userId=KJd3N9HMVNhlO3NKBpK6zg%3D%3D&sosokcd=,0000-0003-2656-7059,verified,,11,0,0,0,0,11
-P0100,한정민,Jung Min Han,Yonsei University,College of Pharmacy,Molecular Biology,A5077849607,https://pharmacy.yonsei.ac.kr/faculty/name_search.do?mode=view&userId=oyvFbRitgy2Jsx1McvyjcQ%3D%3D&sosokcd=,0000-0003-3372-7575,verified,,14,0,0,0,0,14
+P0100,한정민,Jung Min Han,Yonsei University,College of Pharmacy,Molecular Biology,A5077849607,https://pharmacy.yonsei.ac.kr/faculty/name_search.do?mode=view&userId=oyvFbRitgy2Jsx1McvyjcQ%3D%3D&sosokcd=,0000-0003-3372-7575,verified,,15,0,0,0,0,15
 P0102,전영호,Young Ho Jeon,Korea University,College of Pharmacy,Molecular Biology,A5074209511;A5110660928,https://pharm.korea.ac.kr/faculty/8670/subview.do,0000-0002-4764-5127,verified,,22,0,0,0,0,22
 P0103,최상은,Sang Eun Choi,Korea University,College of Pharmacy,Pathology and Forensic Medicine,A5071194102,https://pep.korea.ac.kr/,,probable,,0,0,0,0,0,0
 P0104,정용우,Yong Woo Jung,Korea University,College of Pharmacy,Immunology,A5087798691,https://pharm.korea.ac.kr/faculty/8670/subview.do,0000-0002-5599-0553,verified,,12,0,0,0,0,12
@@ -123,7 +123,7 @@ P0139,조홍백,Hongbaek Cho,Sungkyunkwan University,Faculty 1 페이지,Genetic
 P0140,최동희,Donghui Choe,Sungkyunkwan University,Faculty 1 페이지,Molecular Biology,A5060226532,http://bio.skku.edu/bbs/board.php?bo_table=F1&wr_id=52,0000-0003-1107-7380,verified,,5,0,1,0,0,6
 P0141,남태규,Tae‐gyu Nam,Hanyang University,약학대학,Cancer Research,A5071300207,http://pharmacy.hanyang.ac.kr/front/professors-en/view?id=15,0000-0002-5292-9335,probable,,5,0,0,0,0,5
 P0142,배옥남,Ok‐Nam Bae,Hanyang University,약학대학,Physiology,A5051964998;A5072297766;A5128756617,http://pharmacy.hanyang.ac.kr/front/professors-en/view?id=13,0000-0003-0583-2116,verified,,7,0,0,0,0,7
-P0143,주재열,Jae‐Yeol Joo,Hanyang University,약학대학,Molecular Biology,A5080059317,http://pharmacy.hanyang.ac.kr/front/professors-en/view?id=69,0000-0003-2571-3173,verified,,1,0,0,0,0,1
+P0143,주재열,Jae‐Yeol Joo,Hanyang University,약학대학,Molecular Biology,A5080059317,http://pharmacy.hanyang.ac.kr/front/professors-en/view?id=69,0000-0003-2571-3173,verified,,2,0,0,0,0,2
 P0144,금민정,Min Jung Geum,Hanyang University,약학대학,Geriatrics and Gerontology,A5072109887;A5137386977,http://pharmacy.hanyang.ac.kr/front/professors/professor#website,0000-0001-8493-4078,verified,,1,0,0,0,0,1
 P0145,김동욱,Dong-Uk Kim,Hanyang University,약학대학,Molecular Biology,A5102023146,http://pharmacy.hanyang.ac.kr/front/professors-en/view?id=7,0000-0003-3908-8698,probable,,8,0,0,0,0,8
 P0146,김영미,Yeong Mi Kim,Hanyang University,약학대학,Organic Chemistry,A5000896651,http://pharmacy.hanyang.ac.kr/front/professors-en/view?id=18,,probable,,0,0,0,0,0,0
@@ -178,8 +178,8 @@ P0199,구태영,Taeyoung Koo,Kyung Hee University,약학대학,Molecular Biology
 P0200,김보형,Bo‐Hyung Kim,Kyung Hee University,약학대학,Pharmacology,A5030905874;A5046904260,https://pharmreg.khu.ac.kr/regulation/user/bbs/BMSR00047/list.do?menuNo=9300014,0000-0003-3233-2918,verified,,3,0,0,0,0,3
 P0201,이상열,Sang Youl Rhee,Kyung Hee University,약학대학,"Endocrinology, Diabetes and Metabolism",A5012095455;A5100588303;A5122916406;A5123659316;A5126714420;A5131026156,https://pharmreg.khu.ac.kr/regulation/user/bbs/BMSR00047/list.do?menuNo=9300014,0000-0003-0119-5818,verified,,19,0,0,0,0,19
 P0203,장동진,Dong Jin Jang,Kyung Hee University,약학대학,Cellular and Molecular Neuroscience,A5101582246,https://pharmreg.khu.ac.kr/regulation/user/bbs/BMSR00047/list.do?menuNo=9300015,0009-0004-6130-9068,verified,,0,0,0,0,0,0
-P0204,강원구,Wonku Kang,Chung-Ang University,약학대학; 규제약학과,Pharmacology,A5102716188,http://pharm.cau.ac.kr/professor/?p_pfno=94,0000-0002-7572-4666,verified,,8,0,0,0,0,8
-P0205,김은영,Eun Young Kim,Chung-Ang University,약학대학; 규제약학과,Leadership and Management,A5100370256;A5124039509,http://pharm.cau.ac.kr/professor/?p_pfno=77,0000-0003-3525-8805,verified,,31,0,0,1,0,34
+P0204,강원구,Wonku Kang,Chung-Ang University,약학대학; 규제약학과,Pharmacology,A5102716188,http://pharm.cau.ac.kr/professor/?p_pfno=94,0000-0002-7572-4666,verified,,9,0,0,0,0,9
+P0205,김은영,Eun Young Kim,Chung-Ang University,약학대학; 규제약학과,Leadership and Management,A5100370256;A5124039509,http://pharm.cau.ac.kr/professor/?p_pfno=77,0000-0003-3525-8805,verified,,32,0,0,1,0,35
 P0207,김훈영,Hun Young Kim,Chung-Ang University,약학대학,Organic Chemistry,A5011080089,http://pharm.cau.ac.kr/professor/?p_pfno=100,0000-0002-8461-8910,verified,,1,0,1,0,1,3
 P0208,나동희,Dong Hee Na,Chung-Ang University,약학대학; 규제약학과,Pharmaceutical Science,A5062790247;A5140769250,http://pharm.cau.ac.kr/professor/?p_pfno=107,0000-0001-9313-0127,verified,,11,0,0,0,0,11
 P0209,박현호,Hyun Ho Park,Chung-Ang University,약학대학; 규제약학과,Molecular Biology,A5022716093;A5017330061;A5121076593;A5124929518;A5129235745;A5129999608;A5143832075,http://pharm.cau.ac.kr/professor/?p_pfno=108,0000-0001-9928-0847,verified,,3,0,0,0,0,3
@@ -318,7 +318,7 @@ P0350,남은미,Eun Mi Nam,Ewha Womans University,의과대학,"Public Health, E
 P0351,노경태,Gyoung Tae Noh,Ewha Womans University,의과대학,Oncology,A5050107922,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=cjU4q2cvqHhcEvD%2BfyMhdg%3D%3D,0000-0001-9849-8211,verified,,3,0,0,0,0,3
 P0352,노영학,Young Hak Roh,Ewha Womans University,의과대학,Surgery,A5073977855,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=zFkStDTAZXkJPCy%2Bw1rK7g%3D%3D,0000-0002-7192-4046,verified,,1,0,0,0,0,1
 P0353,류연주,,Ewha Womans University,의과대학,,,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=L19Z4hHfrRK%2BbeKmJqlB4g%3D%3D,0009-0008-3864-5601,verified,,0,0,0,0,0,0
-P0354,문병인,Byung-In Moon,Ewha Womans University,의과대학,Cancer Research,A5006972618;A5126191628,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=p34vpYtFT%2Btp5pIm9csDbg%3D%3D,0000-0002-7441-8472,verified,,10,0,0,0,0,10
+P0354,문병인,Byung-In Moon,Ewha Womans University,의과대학,Cancer Research,A5006972618;A5126191628,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=p34vpYtFT%2Btp5pIm9csDbg%3D%3D,0000-0002-7441-8472,verified,,11,0,0,0,0,11
 P0355,문영철,Yeung‐Chul Mun,Ewha Womans University,의과대학,Hematology,A5054573839,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=QeYkE4T1LW%2FDO53v%2B3t6ew%3D%3D,0000-0002-1882-3983,verified,,23,0,0,0,0,23
 P0356,민석기,Seog Ki Min,Ewha Womans University,의과대학,Pulmonary and Respiratory Medicine,A5025610156;A5014224201,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=%2B81KuK0kL5WkBpbylrZ7ug%3D%3D,0000-0001-9894-7603,verified,,6,0,0,0,0,6
 P0358,박보영,Bo Young Park,Ewha Womans University,의과대학,Surgery,A5101855653,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=auNNe6fAKl4X2Kt2I9Rc%2FQ%3D%3D,0000-0003-4612-6672,probable,,9,0,0,0,0,9
@@ -348,7 +348,7 @@ P0383,심경원,Kyung Won Shim,Ewha Womans University,의과대학,General Healt
 P0384,심기남,Ki‐Nam Shim,Ewha Womans University,의과대학,Surgery,A5044683284,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=%2F8uwIX474ayfW%2F1gYBcWIQ%3D%3D,0000-0003-4004-6292,probable,,29,0,0,0,0,29
 P0385,심성신,Sung Sin Sim,Ewha Womans University,의과대학,Oncology,A5063074604,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=1OXchnd0UsTjxgUcqLtm8g%3D%3D,,probable,,0,0,0,0,0,0
 P0386,심지수,Jisu Shim,Ewha Womans University,의과대학,Physiology,A5069892964;A5110588617,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=jyKivksG9uma4tB5Gf%2BzmA%3D%3D,0000-0002-8846-0364,verified,,6,0,0,0,0,6
-P0388,안영호,Young‐Ho Ahn,Ewha Womans University,의과대학,Cancer Research,A5003463853;A5101341126,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=cHDYULUWtPkKS2kiw1IbkQ%3D%3D,0000-0002-1084-0367,verified,,10,0,0,0,0,10
+P0388,안영호,Young‐Ho Ahn,Ewha Womans University,의과대학,Cancer Research,A5003463853;A5101341126,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=cHDYULUWtPkKS2kiw1IbkQ%3D%3D,0000-0002-1084-0367,verified,,11,0,0,0,0,11
 P0389,안현규,Hyun Kyu Ahn,Ewha Womans University,의과대학,Pulmonary and Respiratory Medicine,A5032769507,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=gJHvS3jvkgo8MOV2f62nuA%3D%3D,0000-0002-1996-6249,probable,,2,0,0,0,0,2
 P0390,양나래,Narae Yang,Ewha Womans University,의과대학,Neurology,A5019367734,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=KDIQiyJFejL012m63iQ79A%3D%3D,0000-0002-3226-5631,verified,,0,0,0,0,0,0
 P0391,양현종,Hyeon Jong Yang,Ewha Womans University,의과대학,Physiology,A5103526623,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=NqDzPtZv7%2F9%2Bq%2BzmA40Q%2FA%3D%3D,0000-0003-3822-4002,verified,,1,0,0,0,0,1
@@ -394,7 +394,7 @@ P0438,최경희,Kyunghee Jung‐Choi,Ewha Womans University,의과대학,Health,
 P0439,최선아,Sun Ah Choi,Ewha Womans University,의과대학,Psychiatry and Mental health,A5057445154,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=Lf%2BKkFTlGFgqdOFYFlGAuA%3D%3D,0000-0001-6164-8706,probable,,8,0,0,0,0,8
 P0440,최유원,You Won Choi,Ewha Womans University,의과대학,Dermatology,A5006653003,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=jYlsozTuYtltkP41nlTi7w%3D%3D,0000-0001-6315-3889,verified,,3,1,0,0,0,13
 P0441,최윤희,Younhee J. Choi,Ewha Womans University,의과대학,"Radiology, Nuclear Medicine and Imaging",A5025326383;A5111585567,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=oqiaaDXR0V7LxpgwrNpNaw%3D%3D,0000-0002-7971-9493,verified,,3,0,0,0,0,3
-P0442,최은오,Euno Choi,Ewha Womans University,의과대학,Surgery,A5039645150,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=CyKU2I9cNtrD6CK2ucbRrA%3D%3D,0000-0002-9284-9276,verified,,5,0,0,0,0,5
+P0442,최은오,Euno Choi,Ewha Womans University,의과대학,Surgery,A5039645150,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=CyKU2I9cNtrD6CK2ucbRrA%3D%3D,0000-0002-9284-9276,verified,,6,0,0,0,0,6
 P0443,최장환,Jang‐Hwan Choi,Ewha Womans University,의과대학,Biomedical Engineering,A5083618878,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=ZOw%2FjvBypTEp5CBsYPbJDQ%3D%3D,0000-0001-9273-034X,verified,,2,0,0,0,0,2
 P0444,최희정,Hee Jung Choi,Ewha Womans University,의과대학,Critical Care and Intensive Care Medicine,A5026949923,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=kkHg0m4mWTcdtbEg1TasQw%3D%3D,0000-0002-1468-4074,verified,,17,0,0,0,0,17
 P0445,태정현,Chung Hyun Tae,Ewha Womans University,의과대학,Pulmonary and Respiratory Medicine,A5025155778,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=fdgoCYmxHX2F2hTCEi%2B%2BOA%3D%3D,0000-0002-0764-7793,verified,,22,0,0,0,0,22
@@ -455,7 +455,7 @@ P0507,임춘화,Chun-Hwa Lim,Eulji University,의과대학소개,Occupational Th
 P0509,박영숙,Young Sook Park,Eulji University,의예과,Genetics,A5100635858,https://medicine.eulji.ac.kr/?menuno=3416&id=1520&type=F&gubun=view,0000-0001-7870-3003,verified,,5,0,0,0,0,5
 P0510,박강서,Gang Seo Park,Eulji University,의예과,"Endocrinology, Diabetes and Metabolism",A5009885771,https://medicine.eulji.ac.kr/?menuno=3416&id=1530&type=F&gubun=view,0000-0002-7964-804X,verified,,0,0,0,0,0,0
 P0511,민경완,Kyung Wan Min,Eulji University,의예과,"Endocrinology, Diabetes and Metabolism",A5101705218,https://medicine.eulji.ac.kr/?menuno=3416&id=1480&type=F&gubun=view,0000-0003-2266-9795,verified,,5,0,0,0,0,5
-P0513,모은경,Eun-Kyung Mo,Eulji University,의예과,Infectious Diseases,A5081771327,https://medicine.eulji.ac.kr/?menuno=3416&id=30337&type=F&gubun=view,,probable,,3,0,0,0,0,3
+P0513,모은경,Eun-Kyung Mo,Eulji University,의예과,Infectious Diseases,A5081771327,https://medicine.eulji.ac.kr/?menuno=3416&id=30337&type=F&gubun=view,,probable,,1,0,0,0,0,1
 P0514,손창남,Chang‐Nam Son,Eulji University,의예과,Nephrology,A5066559800,https://medicine.eulji.ac.kr/?menuno=3416&id=30493&type=F&gubun=view,0000-0002-1722-2190,probable,,4,0,0,0,0,4
 P0515,오일환,Il Hwan Oh,Eulji University,의예과,Nephrology,A5070915144,https://medicine.eulji.ac.kr/?menuno=3416&id=30338&type=F&gubun=view,0000-0003-4195-2561,probable,,1,0,0,0,0,1
 P0516,진정연,Jung Yeon Chin,Eulji University,의예과,Cardiology and Cardiovascular Medicine,A5024613549,https://medicine.eulji.ac.kr/?menuno=3416&id=11160&type=F&gubun=view,0000-0002-6892-4846,verified,,1,0,0,0,0,1
@@ -545,7 +545,7 @@ P0602,이상구,Sang Koo Lee,Dankook University,의과대학,Neurology,A50639754
 P0603,이순일,Soon Il Lee,Dankook University,의과대학,Pathology and Forensic Medicine,A5066094957,mailTo:avnrt@dankook.ac.kr,0000-0001-6318-4028,verified,,19,0,0,0,0,19
 P0604,이정재,Jung Jae Lee,Dankook University,의과대학,Psychiatry and Mental health,A5101748030;A5130271116;A5137535083,mailTo:mdjjlee@dankook.ac.kr,0000-0002-0828-3557,verified,,6,0,0,0,0,6
 P0605,이지영,Ji-Young Rhee,Dankook University,의과대학,Infectious Diseases,A5052196936,mailTo:pluripotent@naver.com,0000-0003-4664-7048,verified,,6,0,0,0,0,6
-P0606,장명철,Myung-Chul Chang,Dankook University,의과대학,Cancer Research,A5086982168,mailTo:changmc@dankook.ac.kr,0000-0001-7712-7497,verified,,6,0,0,0,0,6
+P0606,장명철,Myung-Chul Chang,Dankook University,의과대학,Cancer Research,A5086982168,mailTo:changmc@dankook.ac.kr,0000-0001-7712-7497,verified,,7,0,0,0,0,7
 P0609,조성호,Sungho Jo,Dankook University,의과대학,Surgery,A5103004319;A5137567522,mailTo:agapejsh@dankook.ac.kr,0000-0002-5004-0903,verified,,6,0,1,0,0,7
 P0610,조준성,Chun-Sung Cho,Dankook University,의과대학,Plant Science,A5087051450,mailTo:babyface@dankook.ac.kr,0000-0001-6077-652X,verified,,6,0,0,0,0,6
 P0611,최상규,Sang Gyu Choi,Dankook University,의과대학,"Radiology, Nuclear Medicine and Imaging",A5040001147,mailTo:lanslot2022@naver.com,0009-0000-0812-1569,probable,,1,0,0,0,0,1
@@ -683,7 +683,7 @@ P0747,홍무선,Moo Sun Hong,Seoul National University,Chemical and Biological E
 P0748,황석연,,Seoul National University,Chemical and Biological Engineering,생체모사 소재 및 줄기세포공학,A5075710060,http://bmsce.snu.ac.kr/,0000-0003-3735-7727,verified,,20,0,0,0,0,20
 P0749,강찬희,Chanhee Kang,Seoul National University,School of Biological Sciences,스트레스 반응 및 노화,A5079132836,http://biosci.snu.ac.kr/kanglab,0000-0003-4350-5706,verified,,7,0,0,0,0,7
 P0750,고준석,Junseock Koh,Seoul National University,School of Biological Sciences,생물리화학,A5091561167,https://biosci.snu.ac.kr/jkoh,0000-0002-2920-2656,verified,,0,0,0,0,0,0
-P0751,공영윤,Young-Yun Kong,Seoul National University,School of Biological Sciences,발생 및 질환 모델,A5101786821,http://biosci.snu.ac.kr/labdnd,0000-0001-7335-3729,verified,,13,1,0,0,0,23
+P0751,공영윤,Young-Yun Kong,Seoul National University,School of Biological Sciences,발생 및 질환 모델,A5101786821,http://biosci.snu.ac.kr/labdnd,0000-0001-7335-3729,verified,,14,1,0,0,0,24
 P0752,김빛내리,V. Narry Kim,Seoul National University,School of Biological Sciences,RNA유전체학,A5043554497,https://narrykim.org/ko/,0000-0002-3213-4965,verified,,15,0,0,0,0,15
 P0753,김재범,Jae Bum Kim,Seoul National University,School of Biological Sciences,지방세포 및 에너지대사,A5080563770;A5108133738,http://biosci.snu.ac.kr/lamr,0000-0003-2337-6935,verified,,17,0,0,0,0,17
 P0754,김종서,Jong-Seo Kim,Seoul National University,School of Biological Sciences,"단백체학, 생분자질량분석",A5082258548,https://biosci.snu.ac.kr/proteomics/,0000-0002-8909-8440,verified,,20,0,0,0,0,20
@@ -762,7 +762,7 @@ P0826,오민규,Min-Kyu Oh,Korea University,Chemical and Biological Engineering,
 P0827,노인수,Insoo Ro,Korea University,Chemical and Biological Engineering,Catalyst Design / Reaction Engineering / Data-Driven Catalysis,A5065144287,https://catalyst.korea.ac.kr/,,,,2,0,0,0,0,2
 P0828,송광호,Kwang Ho Song,Korea University,Chemical and Biological Engineering,Reaction Engineering,A5034901328,https://microche.korea.ac.kr,,,,2,0,0,0,0,2
 P0829,심상준,Sang Jun Sim,Korea University,Chemical and Biological Engineering,Bioenergy / Biosensor,A5046731470,https://nanobiotec.korea.ac.kr/,0000-0003-1045-0286,verified,,12,0,0,0,0,12
-P0830,원왕연,Wangyun Won,Korea University,Chemical and Biological Engineering,Process Systems Engineering for Sustainable Energy and Environment,A5006759772;A5120941041,https://sites.google.com,0000-0003-1072-9842,verified,,3,0,0,0,0,3
+P0830,원왕연,Wangyun Won,Korea University,Chemical and Biological Engineering,Process Systems Engineering for Sustainable Energy and Environment,A5006759772,https://sites.google.com,0000-0003-1072-9842,verified,,3,0,0,0,0,3
 P0831,양동수,Dongsoo Yang,Korea University,Chemical and Biological Engineering,Synthetic Biology / Enzyme Engineering,A5029855494,https://yanglaboratory.com/,0000-0002-0299-3128,verified,,4,0,0,0,0,4
 P0832,유승호,Seung-Ho Yu,Korea University,Chemical and Biological Engineering,Electrochemical Energy Storage and Conversion,A5083133451;A5124358896;A5134516999;A5140642456,https://yu.korea.ac.kr/,0000-0003-4833-3181,verified,,7,0,0,0,0,7
 P0833,,Shuangjun Li,Korea University,Chemical and Biological Engineering,Adsorption Thermodynamics / Carbon Capture and Utilization / Gas Adsorption,,https://cbe.korea.ac.kr/wp/professor/,,,,0,0,0,0,0,0
@@ -1113,7 +1113,7 @@ P1180,,Jae‐Won Huh,Korea Research Institute of Bioscience and Biotechnology,,P
 P1181,이수연,Su‐Yeon Lee,Korea Research Institute of Bioscience and Biotechnology,,"Ecology, Evolution, Behavior and Systematics",A5100649778,https://openalex.org/A5100649778,0009-0002-1471-2204,openalex_institution,,10,0,0,0,0,10
 P1182,,Chang Yeol Lee,Korea Research Institute of Bioscience and Biotechnology,,Molecular Biology,A5008956986,https://openalex.org/A5008956986,0000-0001-5382-8635,openalex_institution,,4,0,0,0,0,4
 P1183,,Dae‐Soo Kim,Korea Research Institute of Bioscience and Biotechnology,,Molecular Biology,A5042062960,https://openalex.org/A5042062960,0000-0002-4999-1613,openalex_institution,,21,0,0,0,0,21
-P1184,,Sun‐Uk Kim,Korea Research Institute of Bioscience and Biotechnology,,"Public Health, Environmental and Occupational Health",A5009834992,https://openalex.org/A5009834992,0000-0002-5168-6976,openalex_institution,,15,0,0,0,0,15
+P1184,,Sun‐Uk Kim,Korea Research Institute of Bioscience and Biotechnology,,"Public Health, Environmental and Occupational Health",A5009834992,https://openalex.org/A5009834992,0000-0002-5168-6976,openalex_institution,,16,0,0,0,0,16
 P1185,김보라,Bora Kim,Korea Research Institute of Bioscience and Biotechnology,,Molecular Biology,A5100735686,https://openalex.org/A5100735686,0009-0000-3381-6450,openalex_institution,,7,0,0,0,0,7
 P1186,박두상,Doo‐Sang Park,Korea Research Institute of Bioscience and Biotechnology,,Plant Science,A5074924741,https://openalex.org/A5074924741,,openalex_institution,,10,0,0,0,0,10
 P1187,,Kyung‐Seop Ahn,Korea Research Institute of Bioscience and Biotechnology,,Molecular Biology,A5103035862,https://openalex.org/A5103035862,0000-0002-5507-6331,openalex_institution,,12,1,0,0,0,22
@@ -1134,13 +1134,13 @@ P1201,,Seung Woong Lee,Korea Research Institute of Bioscience and Biotechnology,
 P1202,,Hyun Seung Ban,Korea Research Institute of Bioscience and Biotechnology,,Cancer Research,A5029428931,https://openalex.org/A5029428931,0000-0002-2698-6037,openalex_institution,,7,0,0,0,0,7
 P1203,,Jong Hyun Choi,Korea Research Institute of Bioscience and Biotechnology,,Molecular Biology,A5007435746,https://openalex.org/A5007435746,0000-0001-9760-9514,openalex_institution,,5,0,0,0,0,5
 P1204,,Doo‐Byoung Oh,Korea Research Institute of Bioscience and Biotechnology,,Molecular Biology,A5030649647,https://openalex.org/A5030649647,0000-0002-4432-0941,openalex_institution,,10,0,0,0,0,10
-P1205,,Ki‐Hoan Nam,Korea Research Institute of Bioscience and Biotechnology,,Immunology,A5053636101,https://openalex.org/A5053636101,0000-0002-0989-4456,openalex_institution,,8,0,0,0,0,8
+P1205,,Ki‐Hoan Nam,Korea Research Institute of Bioscience and Biotechnology,,Immunology,A5053636101,https://openalex.org/A5053636101,0000-0002-0989-4456,openalex_institution,,9,0,0,0,0,9
 P1206,,Jung Joo Hong,Korea Research Institute of Bioscience and Biotechnology,,Infectious Diseases,A5087742106,https://openalex.org/A5087742106,0000-0002-9795-6513,openalex_institution,,12,0,0,0,0,12
 P1207,,Suk Weon Kim,Korea Research Institute of Bioscience and Biotechnology,,Molecular Biology,A5016913337,https://openalex.org/A5016913337,0000-0002-0350-0022,openalex_institution,,13,0,0,0,0,13
 P1208,,Doo-Young Kim,Korea Research Institute of Bioscience and Biotechnology,,Plant Science,A5103246622,https://openalex.org/A5103246622,0000-0003-1327-5348,openalex_institution,,15,0,1,0,0,16
 P1209,,Jung Sun Park,Korea Research Institute of Bioscience and Biotechnology,,Pathology and Forensic Medicine,A5006682374,https://openalex.org/A5006682374,0000-0002-7562-039X,openalex_institution,,4,0,0,0,0,4
 P1210,,Namshin Kim,Korea Research Institute of Bioscience and Biotechnology,,Molecular Biology,A5021012929,https://openalex.org/A5021012929,0000-0001-6361-274X,openalex_institution,,11,0,0,0,0,11
-P1211,,Kweon Yu,Korea Research Institute of Bioscience and Biotechnology,,Cellular and Molecular Neuroscience,A5037454970,https://openalex.org/A5037454970,0000-0002-4942-2576,openalex_institution,,5,0,0,0,0,5
+P1211,,Kweon Yu,Korea Research Institute of Bioscience and Biotechnology,,Cellular and Molecular Neuroscience,A5037454970,https://openalex.org/A5037454970,0000-0002-4942-2576,openalex_institution,,6,0,0,0,0,6
 P1212,최경자,Gyung Ja Choi,Korea Research Institute of Chemical Technology,,Cell Biology,A5102705507,https://openalex.org/A5102705507,0000-0003-1564-1487,openalex_institution,,13,0,0,0,0,13
 P1213,,Sang Un Choi,Korea Research Institute of Chemical Technology,,Molecular Biology,A5109239504,https://openalex.org/A5109239504,,openalex_institution,,14,0,0,0,0,14
 P1214,,Ki Young Kim,Korea Research Institute of Chemical Technology,,Food Science,A5102712850,https://openalex.org/A5102712850,0000-0001-7868-2345,openalex_institution,,8,0,0,0,0,8
@@ -1158,7 +1158,7 @@ P1225,최정섭,Jung‐Sup Choi,Korea Research Institute of Chemical Technology,
 P1226,,Seong Soon Kim,Korea Research Institute of Chemical Technology,,Cell Biology,A5014502286,https://openalex.org/A5014502286,0000-0002-4762-8693,openalex_institution,,13,0,0,0,0,13
 P1227,김태영,Tae Yeong Kim,Korea Research Institute of Chemical Technology,,Molecular Medicine,A5101610531,https://openalex.org/A5101610531,0000-0003-0127-4663,openalex_institution,,6,0,0,0,0,6
 P1228,,Jong Yeon Hwang,Korea Research Institute of Chemical Technology,,Molecular Biology,A5039621912,https://openalex.org/A5039621912,0000-0001-5926-4877,openalex_institution,,7,0,0,0,0,7
-P1229,,Yejin Jang,Korea Research Institute of Chemical Technology,,Epidemiology,A5038369580,https://openalex.org/A5038369580,0000-0002-2440-7839,openalex_institution,,9,0,0,0,0,9
+P1229,,Yejin Jang,Korea Research Institute of Chemical Technology,,Epidemiology,A5038369580,https://openalex.org/A5038369580,0000-0002-2440-7839,openalex_institution,,10,0,0,0,0,10
 P1230,,Ji Hyun Choi,Korea Research Institute of Chemical Technology,,Cell Biology,A5102845577,https://openalex.org/A5102845577,0000-0001-7538-6129,openalex_institution,,7,0,0,0,0,7
 P1231,김영숙,Young-Sook Kim,Korea Research Institute of Chemical Technology,,Pharmacology,A5101967042,https://openalex.org/A5101967042,0000-0002-7233-4806,openalex_institution,,2,0,0,0,0,2
 P1232,,Hoyong Kim,Korea Research Institute of Chemical Technology,,Biomedical Engineering,A5003933259,https://openalex.org/A5003933259,0000-0001-7788-9483,openalex_institution,,0,0,0,0,0,0
@@ -1177,7 +1177,7 @@ P1244,,Jae Woo Han,Korea Research Institute of Chemical Technology,,Plant Scienc
 P1245,,Da Yeon Lee,Korea Research Institute of Chemical Technology,,Molecular Biology,A5108136425,https://openalex.org/A5108136425,0009-0005-2180-7115,openalex_institution,,3,0,0,0,0,3
 P1246,,Minsuk Choi,Korea Research Institute of Chemical Technology,,Molecular Biology,A5023333354,https://openalex.org/A5023333354,0000-0002-6181-3051,openalex_institution,,9,0,1,0,0,10
 P1247,,Yonghyo Kim,Korea Research Institute of Chemical Technology,,Cancer Research,A5050095542,https://openalex.org/A5050095542,0000-0002-4447-9864,openalex_institution,,1,0,0,0,0,1
-P1248,,Myung Hyun Noh,Korea Research Institute of Chemical Technology,,Molecular Biology,A5000328867,https://openalex.org/A5000328867,0000-0001-9045-7968,openalex_institution,,7,0,1,0,0,8
+P1248,,Myung Hyun Noh,Korea Research Institute of Chemical Technology,,Molecular Biology,A5000328867,https://openalex.org/A5000328867,0000-0001-9045-7968,openalex_institution,,8,0,1,0,0,9
 P1249,,Jin Soo Shin,Korea Research Institute of Chemical Technology,,Epidemiology,A5084973795,https://openalex.org/A5084973795,0009-0007-0742-4032,openalex_institution,,9,0,0,0,0,9
 P1250,,Chunkyu Ko,Korea Research Institute of Chemical Technology,,Epidemiology,A5084389391,https://openalex.org/A5084389391,0000-0001-6512-1602,openalex_institution,,3,0,0,0,0,3
 P1251,박현진,Hyunjin Park,Institute for Basic Science,,Cognitive Neuroscience,A5100328513,https://openalex.org/A5100328513,0000-0001-5681-8918,openalex_institution,,17,1,0,0,0,27
@@ -1189,19 +1189,19 @@ P1256,윤의식,Euisik Yoon,Institute for Basic Science,,Cellular and Molecular 
 P1258,최영기,Young Ki Choi,Institute for Basic Science,,Epidemiology,A5059886221,https://openalex.org/A5059886221,0000-0002-0872-0147,openalex_institution,,14,0,0,0,0,14
 P1259,,Wonshik Choi,Institute for Basic Science,,Biomedical Engineering,A5016969455,https://openalex.org/A5016969455,0000-0002-9445-7081,openalex_institution,,8,1,0,1,0,21
 P1260,김석중,Seokjoong Kim,Institute for Basic Science,,Molecular Biology,A5019048819,https://openalex.org/A5019048819,0000-0002-4693-738X,openalex_institution,,15,0,0,0,0,15
-P1261,,Kyungjae Myung,Institute for Basic Science,,Molecular Biology,A5045299545,https://openalex.org/A5045299545,0000-0001-7975-6190,openalex_institution,,21,0,0,0,0,21
+P1261,,Kyungjae Myung,Institute for Basic Science,,Molecular Biology,A5045299545,https://openalex.org/A5045299545,0000-0001-7975-6190,openalex_institution,,22,0,0,0,0,22
 P1262,,Jang‐Ung Park,Institute for Basic Science,,Biomedical Engineering,A5009610739,https://openalex.org/A5009610739,0000-0003-1522-4958,openalex_institution,,5,0,0,0,0,5
 P1263,,Jae Kyoung Kim,Institute for Basic Science,,Molecular Biology,A5067034493,https://openalex.org/A5067034493,0000-0001-7842-2172,openalex_institution,,2,0,0,0,0,2
 P1264,,Hee‐Sup Shin,Institute for Basic Science,,Cellular and Molecular Neuroscience,A5058745492,https://openalex.org/A5058745492,0000-0003-4260-3718,openalex_institution,,18,0,0,0,0,18
 P1265,,Min Whan Jung,Institute for Basic Science,,Cellular and Molecular Neuroscience,A5083929538,https://openalex.org/A5083929538,0000-0002-4145-600X,openalex_institution,,3,0,0,0,0,3
-P1266,,Bon‐Kyoung Koo,Institute for Basic Science,,Oncology,A5005310722,https://openalex.org/A5005310722,0000-0002-4134-8033,openalex_institution,,7,0,1,0,0,8
+P1266,,Bon‐Kyoung Koo,Institute for Basic Science,,Oncology,A5005310722,https://openalex.org/A5005310722,0000-0002-4134-8033,openalex_institution,,8,0,1,0,0,9
 P1267,,Seok‐Jun Hong,Institute for Basic Science,,Cognitive Neuroscience,A5018674074,https://openalex.org/A5018674074,0000-0002-1847-578X,openalex_institution,,0,0,0,0,0,0
 P1268,박보용,Bo‐yong Park,Institute for Basic Science,,Cognitive Neuroscience,A5025571555,https://openalex.org/A5025571555,0000-0001-7096-337X,openalex_institution,,7,0,0,0,0,7
 P1270,손동희,Donghee Son,Institute for Basic Science,,Biomedical Engineering,A5025968238,https://openalex.org/A5025968238,0000-0002-3772-8009,openalex_institution,,15,0,1,0,0,16
 P1271,,Taejoon Kwon,Institute for Basic Science,,Molecular Biology,A5075058925,https://openalex.org/A5075058925,0000-0002-9794-6112,openalex_institution,,18,0,0,0,0,18
 P1272,,Choong‐Wan Woo,Institute for Basic Science,,Cognitive Neuroscience,A5004122059,https://openalex.org/A5004122059,0000-0002-7423-5422,openalex_institution,,4,0,0,0,0,4
 P1273,,Hyun-Ju Cho,Institute for Basic Science,,"Public Health, Environmental and Occupational Health",A5084425441,https://openalex.org/A5084425441,0000-0001-7393-657X,openalex_institution,,6,0,0,0,0,6
-P1274,,Jinmyoung Joo,Institute for Basic Science,,Molecular Biology,A5063847168,https://openalex.org/A5063847168,0000-0003-1574-9842,openalex_institution,,8,0,0,0,0,8
+P1274,,Jinmyoung Joo,Institute for Basic Science,,Molecular Biology,A5063847168,https://openalex.org/A5063847168,0000-0003-1574-9842,openalex_institution,,9,0,0,0,0,9
 P1275,,Donghwan Shim,Institute for Basic Science,,Plant Science,A5074302162,https://openalex.org/A5074302162,0000-0002-0223-595X,openalex_institution,,7,0,0,0,0,7
 P1276,신미경,Mikyung Shin,Institute for Basic Science,,Biomedical Engineering,A5064644351,https://openalex.org/A5064644351,0000-0002-7990-5210,openalex_institution,,9,0,0,0,0,9
 P1277,,M. Justin Kim,Institute for Basic Science,,Cognitive Neuroscience,A5013244429,https://openalex.org/A5013244429,0000-0002-5886-8545,openalex_institution,,1,0,0,0,0,1
@@ -1220,7 +1220,7 @@ P1289,강성삼,Sungsam Kang,Institute for Basic Science,,Biomedical Engineering
 P1290,,Ji-Hye Yun,Institute for Basic Science,,Molecular Biology,A5012324089,https://openalex.org/A5012324089,0000-0001-7570-369X,openalex_institution,,8,0,0,0,0,8
 P1291,,Sukhyun Kang,Institute for Basic Science,,Molecular Biology,A5032365993,https://openalex.org/A5032365993,0000-0002-7567-0231,openalex_institution,,8,0,0,0,0,8
 P1292,이보영,Boyoung Lee,Institute for Basic Science,,Cellular and Molecular Neuroscience,A5101930081,https://openalex.org/A5101930081,0000-0001-9445-510X,openalex_institution,,3,0,0,0,0,3
-P1293,,Pann‐Ghill Suh,Korea Brain Research Institute,,Molecular Biology,A5063560544,https://openalex.org/A5063560544,0000-0002-9811-756X,openalex_institution,,27,1,0,0,0,37
+P1293,,Pann‐Ghill Suh,Korea Brain Research Institute,,Molecular Biology,A5063560544,https://openalex.org/A5063560544,0000-0002-9811-756X,openalex_institution,,36,1,0,0,0,46
 P1294,,Juhyun Kim,Korea Brain Research Institute,,Cellular and Molecular Neuroscience,A5100770739,https://openalex.org/A5100770739,0000-0002-3098-5010,openalex_institution,,8,0,0,0,0,8
 P1295,,Ji Young Mun,Korea Brain Research Institute,,Epidemiology,A5001441680,https://openalex.org/A5001441680,0000-0003-0820-6233,openalex_institution,,23,0,0,0,0,23
 P1296,,Youngshik Choe,Korea Brain Research Institute,,Developmental Neuroscience,A5035227436,https://openalex.org/A5035227436,0000-0002-2132-4771,openalex_institution,,15,0,0,0,0,15
@@ -1251,12 +1251,12 @@ P1320,,Min‐Tae Jeon,Korea Brain Research Institute,,Physiology,A5003255603,htt
 P1321,,Seungeun Yeo,Korea Brain Research Institute,,Molecular Biology,A5025151921,https://openalex.org/A5025151921,0000-0003-2431-8921,openalex_institution,,2,0,0,0,0,2
 P1322,이명수,Myeong Soo Lee,Korea Institute of Oriental Medicine,,Complementary and alternative medicine,A5100379084,https://openalex.org/A5100379084,0000-0001-6651-7641,openalex_institution,,34,3,0,2,0,70
 P1323,이혜원,Hye Won Lee,Korea Institute of Oriental Medicine,,Epidemiology,A5100766111,https://openalex.org/A5100766111,0000-0002-3552-3560,openalex_institution,,34,0,0,0,0,34
-P1324,서창섭,Chang‐Seob Seo,Korea Institute of Oriental Medicine,,Complementary and alternative medicine,A5076606638,https://openalex.org/A5076606638,0000-0002-8156-446X,openalex_institution,,27,1,0,0,0,37
+P1324,서창섭,Chang‐Seob Seo,Korea Institute of Oriental Medicine,,Complementary and alternative medicine,A5076606638,https://openalex.org/A5076606638,0000-0002-8156-446X,openalex_institution,,28,1,0,0,0,38
 P1325,신현규,Hyeun‐Kyoo Shin,Korea Institute of Oriental Medicine,,Pharmacology,A5072379969,https://openalex.org/A5072379969,0000-0003-2319-6678,openalex_institution,,19,0,1,0,0,20
 P1326,,Jae Young Jang,Korea Institute of Oriental Medicine,,Epidemiology,A5036816797,https://openalex.org/A5036816797,0000-0001-5335-752X,openalex_institution,,16,0,0,0,0,16
 P1327,최선미,Sun‐Mi Choi,Korea Institute of Oriental Medicine,,Complementary and alternative medicine,A5086495577,https://openalex.org/A5086495577,0000-0001-5192-4391,openalex_institution,,23,0,0,2,0,29
 P1328,이보람,Boram Lee,Korea Institute of Oriental Medicine,,Complementary and alternative medicine,A5100385566,https://openalex.org/A5100385566,0000-0003-1679-0644,openalex_institution,,11,0,0,0,0,11
-P1329,이윤미,Yun Mi Lee,Korea Institute of Oriental Medicine,,Clinical Biochemistry,A5087810531,https://openalex.org/A5087810531,0000-0002-3860-0365,openalex_institution,,14,0,0,0,0,14
+P1329,이윤미,Yun Mi Lee,Korea Institute of Oriental Medicine,,Clinical Biochemistry,A5087810531,https://openalex.org/A5087810531,0000-0002-3860-0365,openalex_institution,,15,0,0,0,0,15
 P1330,,Jun Hyung Lee,Korea Institute of Oriental Medicine,,Molecular Biology,A5100442887,https://openalex.org/A5100442887,0000-0002-5756-5470,openalex_institution,,15,0,0,0,0,15
 P1331,,Byeong Cheol Moon,Korea Institute of Oriental Medicine,,Food Science,A5020989793,https://openalex.org/A5020989793,0000-0002-5374-6274,openalex_institution,,18,0,0,0,0,18
 P1332,,Young Sook Kim,Korea Institute of Oriental Medicine,,Clinical Biochemistry,A5087371439,https://openalex.org/A5087371439,0000-0002-5584-402X,openalex_institution,,16,0,0,0,0,16
@@ -1348,7 +1348,7 @@ P1417,,Seong‐Jun Kim,Korea Basic Science Institute,,Infectious Diseases,A50777
 P1418,,Seung Il Kim,Korea Basic Science Institute,,Molecular Medicine,A5100682101,https://openalex.org/A5100682101,0000-0001-6681-4486,openalex_institution,,13,2,0,1,0,36
 P1419,,Young‐Ho Lee,Korea Basic Science Institute,,Cell Biology,A5100647015,https://openalex.org/A5100647015,0000-0001-8238-2345,openalex_institution,,11,0,0,0,0,11
 P1420,,Kwan Soo Hong,Korea Basic Science Institute,,Biomedical Engineering,A5015752428,https://openalex.org/A5015752428,0000-0003-4342-5183,openalex_institution,,17,1,0,0,0,27
-P1421,,Eun Hee Han,Korea Basic Science Institute,,Molecular Biology,A5046054350,https://openalex.org/A5046054350,0000-0002-0137-0156,openalex_institution,,17,0,0,0,0,17
+P1421,,Eun Hee Han,Korea Basic Science Institute,,Molecular Biology,A5046054350,https://openalex.org/A5046054350,0000-0002-0137-0156,openalex_institution,,18,0,0,0,0,18
 P1422,,SeonJu Park,Korea Basic Science Institute,,Molecular Biology,A5059462165,https://openalex.org/A5059462165,0000-0002-0532-5977,openalex_institution,,9,0,1,0,0,10
 P1423,,Yang Hoon Huh,Korea Basic Science Institute,,Cell Biology,A5074424556,https://openalex.org/A5074424556,0000-0003-3157-304X,openalex_institution,,18,0,0,0,0,18
 P1424,,Seung‐Hae Kwon,Korea Basic Science Institute,,Biomedical Engineering,A5032282317,https://openalex.org/A5032282317,0000-0001-5554-9015,openalex_institution,,17,0,0,0,0,17
@@ -1359,7 +1359,7 @@ P1428,,Mi Young Cho,Korea Basic Science Institute,,Immunology,A5027539286,https:
 P1429,,Min Sung Kim,Korea Basic Science Institute,,Oncology,A5100737571,https://openalex.org/A5100737571,0000-0001-6370-7239,openalex_institution,,3,0,0,0,0,3
 P1430,,Jeong Kyu Bang,Korea Basic Science Institute,,Cell Biology,A5041197835,https://openalex.org/A5041197835,0000-0001-5916-0912,openalex_institution,,10,0,0,0,0,10
 P1431,,Hea‐Jong Chung,Korea Basic Science Institute,,Molecular Biology,A5040436508,https://openalex.org/A5040436508,0000-0002-1185-7654,openalex_institution,,3,0,0,1,0,6
-P1432,한의정,Eui Jeong Han,Korea Basic Science Institute,,Aquatic Science,A5044852768,https://openalex.org/A5044852768,0009-0000-7267-2154,openalex_institution,,6,0,0,0,0,6
+P1432,한의정,Eui Jeong Han,Korea Basic Science Institute,,Aquatic Science,A5044852768,https://openalex.org/A5044852768,0009-0000-7267-2154,openalex_institution,,7,0,0,0,0,7
 P1433,정해갑,Hae‐Kap Cheong,Korea Basic Science Institute,,Molecular Biology,A5002680325,https://openalex.org/A5002680325,0000-0002-4637-6666,openalex_institution,,16,0,0,0,0,16
 P1434,,Kye‐Sung Lee,Korea Basic Science Institute,,Biomedical Engineering,A5015870275,https://openalex.org/A5015870275,0000-0001-8669-627X,openalex_institution,,2,0,0,0,0,2
 P1435,박경란,Kyung‐Ran Park,Korea Basic Science Institute,,Molecular Biology,A5013821211,https://openalex.org/A5013821211,0000-0003-3829-9039,openalex_institution,,3,0,0,0,0,3
@@ -1407,7 +1407,7 @@ P1476,김윤숙,Yoonsook Kim,Korea Food Research Institute,,Clinical Biochemistr
 P1477,,Han Sub Kwak,Korea Food Research Institute,,Food Science,A5065428721,https://openalex.org/A5065428721,0000-0003-4270-6821,openalex_institution,,5,0,1,0,0,6
 P1478,,Yiseul Kim,Korea Food Research Institute,,Molecular Biology,A5081134743,https://openalex.org/A5081134743,0000-0002-1749-230X,openalex_institution,,7,0,0,0,0,7
 P1479,성정민,Jung-Min Sung,Korea Food Research Institute,,Food Science,A5051761955,https://openalex.org/A5051761955,0000-0003-1464-2648,openalex_institution,,16,0,0,0,0,16
-P1480,,Donghwan Kim,Korea Food Research Institute,,Molecular Biology,A5100370729,https://openalex.org/A5100370729,0000-0002-0139-2494,openalex_institution,,17,0,0,0,0,17
+P1480,,Donghwan Kim,Korea Food Research Institute,,Molecular Biology,A5100370729,https://openalex.org/A5100370729,0000-0002-0139-2494,openalex_institution,,18,0,0,0,0,18
 P1481,,Hyo‐Kyoung Choi,Korea Food Research Institute,,Molecular Biology,A5021435467,https://openalex.org/A5021435467,0000-0001-9424-0432,openalex_institution,,11,0,0,1,0,14
 P1482,,Mi Jeong Sung,Korea Food Research Institute,,Physiology,A5041149103,https://openalex.org/A5041149103,0000-0001-6278-0151,openalex_institution,,16,0,0,0,0,16
 P1483,,Jae Woong Choi,Korea Food Research Institute,,Molecular Biology,A5057619310,https://openalex.org/A5057619310,0000-0001-9436-6369,openalex_institution,,8,0,0,0,0,8
@@ -1444,7 +1444,7 @@ P1513,,Eun‐Ji Song,Korea Food Research Institute,,Molecular Biology,A502985595
 P1514,,Hyun‐Jun Jang,Korea Food Research Institute,,Physiology,A5041772972,https://openalex.org/A5041772972,0000-0002-2261-0067,openalex_institution,,17,0,0,0,0,17
 P1515,,Jae Hoon Lee,Korea Food Research Institute,,Molecular Biology,A5100387467,https://openalex.org/A5100387467,0000-0002-7440-6842,openalex_institution,,9,0,0,0,0,9
 P1516,이종호,Jong-Ho Lee,National Cancer Center,,Oral Surgery,A5100726125,https://openalex.org/A5100726125,0000-0002-8843-545X,openalex_institution,,23,0,0,0,0,23
-P1517,,Young‐Woo Kim,National Cancer Center,,Pulmonary and Respiratory Medicine,A5100754761,https://openalex.org/A5100754761,0000-0002-1559-9672,openalex_institution,,32,1,0,0,0,42
+P1517,,Young‐Woo Kim,National Cancer Center,,Pulmonary and Respiratory Medicine,A5100754761,https://openalex.org/A5100754761,0000-0002-1559-9672,openalex_institution,,33,1,0,0,0,43
 P1518,김태현,Tae Hyun Kim,National Cancer Center,,Hepatology,A5100438974,https://openalex.org/A5100438974,0000-0001-8413-3385,openalex_institution,,55,0,0,0,0,55
 P1519,,Ji‐Youn Han,National Cancer Center,,Pulmonary and Respiratory Medicine,A5023055777,https://openalex.org/A5023055777,0000-0001-5033-0006,openalex_institution,,14,0,0,0,1,15
 P1520,,Myong Cheol Lim,National Cancer Center,,Reproductive Medicine,A5023387547,https://openalex.org/A5023387547,0000-0001-8964-7158,openalex_institution,,35,0,1,0,0,36
@@ -1453,7 +1453,7 @@ P1522,,Kyu‐Chang Wang,National Cancer Center,,Genetics,A5031856641,https://ope
 P1523,이은경,Eun Kyung Lee,National Cancer Center,,"Endocrinology, Diabetes and Metabolism",A5100744790,https://openalex.org/A5100744790,0000-0003-0098-0873,openalex_institution,,28,0,0,0,0,28
 P1524,김영일,Young‐Il Kim,National Cancer Center,,Pulmonary and Respiratory Medicine,A5100761904,https://openalex.org/A5100761904,0000-0002-2614-3419,openalex_institution,,33,1,0,0,0,43
 P1525,,Il Ju Choi,National Cancer Center,,Pulmonary and Respiratory Medicine,A5052122266,https://openalex.org/A5052122266,0000-0002-8339-9824,openalex_institution,,43,0,0,0,0,43
-P1526,,Hyeon‐Seok Eom,National Cancer Center,,Pathology and Forensic Medicine,A5076088179,https://openalex.org/A5076088179,0000-0002-0484-2067,openalex_institution,,26,0,0,0,0,26
+P1526,,Hyeon‐Seok Eom,National Cancer Center,,Pathology and Forensic Medicine,A5076088179,https://openalex.org/A5076088179,0000-0002-0484-2067,openalex_institution,,27,0,0,0,0,27
 P1527,,Sun‐Young Kong,National Cancer Center,,Cancer Research,A5090141367,https://openalex.org/A5090141367,0000-0003-0620-4058,openalex_institution,,56,0,0,0,0,56
 P1528,,Keun Won Ryu,National Cancer Center,,Pulmonary and Respiratory Medicine,A5079140720,https://openalex.org/A5079140720,0000-0002-5935-9777,openalex_institution,,25,0,0,1,0,28
 P1529,,Jae Hwan Oh,National Cancer Center,,Oncology,A5044237346,https://openalex.org/A5044237346,0000-0002-5883-5815,openalex_institution,,30,0,0,0,0,30
@@ -1487,7 +1487,7 @@ P1556,,Jeonghee Lee,National Cancer Center,,"Public Health, Environmental and Oc
 P1557,박성식,Seong‐Sik Park,National Cancer Center,,Complementary and alternative medicine,A5101796431,https://openalex.org/A5101796431,0000-0002-7789-2823,openalex_institution,,1,0,0,0,0,1
 P1558,,Jae Kwan Jun,National Cancer Center,,Oncology,A5046578120,https://openalex.org/A5046578120,0000-0003-1647-0675,openalex_institution,,16,0,0,0,0,16
 P1559,,Moran Ki,National Cancer Center,,Hepatology,A5054120715,https://openalex.org/A5054120715,0000-0002-8892-7104,openalex_institution,,20,0,0,0,0,20
-P1560,,Jinsoo Chung,National Cancer Center,,Pulmonary and Respiratory Medicine,A5089873628,https://openalex.org/A5089873628,0000-0003-2251-5331,openalex_institution,,14,0,0,0,0,14
+P1560,,Jinsoo Chung,National Cancer Center,,Pulmonary and Respiratory Medicine,A5089873628,https://openalex.org/A5089873628,0000-0003-2251-5331,openalex_institution,,15,0,0,0,0,15
 P1561,,Chan Gyoo Kim,National Cancer Center,,Pulmonary and Respiratory Medicine,A5044411316,https://openalex.org/A5044411316,0000-0002-1651-2559,openalex_institution,,21,0,0,0,0,21
 P1562,,Geon Kook Lee,National Cancer Center,,Pulmonary and Respiratory Medicine,A5019571637,https://openalex.org/A5019571637,0000-0003-3138-3908,openalex_institution,,17,0,0,0,0,17
 P1563,,Bang Wool Eom,National Cancer Center,,Pulmonary and Respiratory Medicine,A5024768100,https://openalex.org/A5024768100,0000-0002-0332-2051,openalex_institution,,21,0,1,0,1,23
@@ -1502,7 +1502,7 @@ P1571,,Hong Man Yoon,National Cancer Center,,Pulmonary and Respiratory Medicine,
 P1572,,Soo‐Youl Kim,National Cancer Center,,Pulmonary and Respiratory Medicine,A5014464546,https://openalex.org/A5014464546,0000-0002-4021-2206,openalex_institution,,17,0,0,0,0,17
 P1573,이형호,Hyung Ho Lee,National Cancer Center,,Surgery,A5083251665,https://openalex.org/A5083251665,0000-0003-4160-0216,openalex_institution,,6,0,0,0,0,6
 P1574,,Yong Sun Lee,National Cancer Center,,Immunology,A5018058696,https://openalex.org/A5018058696,0000-0001-9689-3410,openalex_institution,,8,0,0,0,0,8
-P1575,,Hyeon Jin Park,National Cancer Center,,"Pediatrics, Perinatology and Child Health",A5009699134,https://openalex.org/A5009699134,0000-0002-9557-3412,openalex_institution,,11,0,0,0,0,11
+P1575,,Hyeon Jin Park,National Cancer Center,,"Pediatrics, Perinatology and Child Health",A5009699134,https://openalex.org/A5009699134,0000-0002-9557-3412,openalex_institution,,12,0,0,0,0,12
 P1576,,Young Jin Kim,Korea National Institute of Health,,Genetics,A5100387373,https://openalex.org/A5100387373,0000-0002-4132-4437,openalex_institution,,14,1,0,0,0,24
 P1577,이경호,Kyoungho Lee,Korea National Institute of Health,,Physiology,A5100763494,https://openalex.org/A5100763494,0000-0003-2353-2547,openalex_institution,,4,0,0,0,0,4
 P1578,,Hee‐Chang Jang,Korea National Institute of Health,,Infectious Diseases,A5053292388,https://openalex.org/A5053292388,0000-0002-3407-8493,openalex_institution,,15,0,0,0,0,15
@@ -1559,9 +1559,9 @@ P1630,양시연,Siyeon Yang,Institut Pasteur Korea,,Animal Science and Zoology,A
 P1631,전상은,Sangeun Jeon,Institut Pasteur Korea,,Infectious Diseases,A5017529568,https://openalex.org/A5017529568,0000-0003-3695-6357,openalex_institution,,6,0,0,0,0,6
 P1632,,Haeng Ran Seo,Institut Pasteur Korea,,Oncology,A5113825721,https://openalex.org/A5113825721,0000-0003-1207-0471,openalex_institution,,3,1,0,0,0,13
 P1633,,Yeonhwa Song,Institut Pasteur Korea,,Oncology,A5077566625,https://openalex.org/A5077566625,0000-0002-9616-8726,openalex_institution,,2,0,1,0,0,3
-P1634,김현아,Hyun‐Ah Kim,Korea Institute of Radiological and Medical Sciences,,Cancer Research,A5100721354,https://openalex.org/A5100721354,0000-0001-9713-2605,openalex_institution,,24,0,0,0,0,24
+P1634,김현아,Hyun‐Ah Kim,Korea Institute of Radiological and Medical Sciences,,Cancer Research,A5100721354,https://openalex.org/A5100721354,0000-0001-9713-2605,openalex_institution,,25,0,0,0,0,25
 P1635,이승숙,Seung‐Sook Lee,Korea Institute of Radiological and Medical Sciences,,Pathology and Forensic Medicine,A5087565696,https://openalex.org/A5087565696,0000-0001-6714-5851,openalex_institution,,15,0,0,0,0,15
-P1636,,In‐Chul Park,Korea Institute of Radiological and Medical Sciences,,Oncology,A5006019721,https://openalex.org/A5006019721,0000-0003-0619-5198,openalex_institution,,16,1,0,0,0,26
+P1636,,In‐Chul Park,Korea Institute of Radiological and Medical Sciences,,Oncology,A5006019721,https://openalex.org/A5006019721,0000-0003-0619-5198,openalex_institution,,17,1,0,0,0,27
 P1637,,Hye Jin Kang,Korea Institute of Radiological and Medical Sciences,,Pathology and Forensic Medicine,A5101497636,https://openalex.org/A5101497636,0000-0002-4362-189X,openalex_institution,,17,0,0,0,0,17
 P1638,,Sang‐Gu Hwang,Korea Institute of Radiological and Medical Sciences,,Oncology,A5068010675,https://openalex.org/A5068010675,0000-0002-3402-3708,openalex_institution,,17,0,0,1,0,20
 P1639,,Jae‐Sung Kim,Korea Institute of Radiological and Medical Sciences,,Cell Biology,A5100780341,https://openalex.org/A5100780341,0000-0002-8017-4515,openalex_institution,,12,0,0,0,1,13
@@ -1624,7 +1624,7 @@ P1695,,DaBee Jeon,Celltrion,,Immunology,A5079638479,https://openalex.org/A507963
 P1696,김대진,Daejin Kim,Hanmi Pharmaceutical,,Oncology,A5100661908,https://openalex.org/A5100661908,0000-0001-7554-1870,openalex_institution,,4,0,0,0,0,4
 P1697,윤지연,Jiyeon Yoon,Hanmi Pharmaceutical,,Physiology,A5052102554,https://openalex.org/A5052102554,0000-0002-8005-8100,openalex_institution,,5,0,0,0,0,5
 P1698,임선영,Sun‐Young Lim,Hanmi Pharmaceutical,,General Health Professions,A5079217819,https://openalex.org/A5079217819,0000-0002-7737-054X,openalex_institution,,3,0,0,0,0,3
-P1699,,Sung Hee Hong,Hanmi Pharmaceutical,,Molecular Biology,A5016244479,https://openalex.org/A5016244479,0000-0003-1228-8382,openalex_institution,,4,0,0,0,0,4
+P1699,,Sung Hee Hong,Hanmi Pharmaceutical,,Molecular Biology,A5016244479,https://openalex.org/A5016244479,0000-0003-1228-8382,openalex_institution,,5,0,0,0,0,5
 P1700,,Young‐Gil Ahn,Hanmi Pharmaceutical,,Molecular Biology,A5110570483,https://openalex.org/A5110570483,,openalex_institution,,11,0,0,1,0,14
 P1701,,Yu-Yon Kim,Hanmi Pharmaceutical,,Oncology,A5063153662,https://openalex.org/A5063153662,,openalex_institution,,9,0,0,0,0,9
 P1702,,Yoon‐Jong Bae,Hanmi Pharmaceutical,,Molecular Biology,A5057804207,https://openalex.org/A5057804207,0000-0003-1607-8139,openalex_institution,,0,0,0,0,0,0
@@ -1737,7 +1737,7 @@ P1811,김양희,Yang Hee Kim,Sejong University,,Nutrition and Dietetics,A5053674
 P1812,이영주,Young‐Joo Lee,Sejong University,,Molecular Biology,A5100449457,https://openalex.org/A5100449457,0000-0001-7835-1546,openalex_institution,,8,0,0,0,0,8
 P1813,,Dong‐Ho Seo,Sejong University,,Biotechnology,A5051058375,https://openalex.org/A5051058375,0000-0003-0423-5686,openalex_institution,,20,0,0,0,0,20
 P1814,임도형,Dohyung Lim,Sejong University,,Surgery,A5016498731,https://openalex.org/A5016498731,0000-0003-3752-7079,openalex_institution,,3,0,0,0,0,3
-P1815,윤은영,Eun‐Young Yun,Sejong University,,Insect Science,A5009810500,https://openalex.org/A5009810500,0000-0002-4518-6537,openalex_institution,,7,0,0,0,0,7
+P1815,윤은영,Eun‐Young Yun,Sejong University,,Insect Science,A5009810500,https://openalex.org/A5009810500,0000-0002-4518-6537,openalex_institution,,8,0,0,0,0,8
 P1816,,Sungkwon Park,Sejong University,,Animal Science and Zoology,A5046341900,https://openalex.org/A5046341900,0000-0002-7684-9719,openalex_institution,,6,0,0,0,0,6
 P1817,김현욱,Hyun Uk Kim,Sejong University,,Biochemistry,A5101726592,https://openalex.org/A5101726592,0000-0002-4566-3057,openalex_institution,,2,0,0,0,0,2
 P1818,진중현,Joong Hyoun Chin,Sejong University,,Plant Science,A5029531431,https://openalex.org/A5029531431,0000-0003-3932-8639,openalex_institution,,3,0,0,0,0,3
@@ -1763,7 +1763,7 @@ P1837,류제식,Jae Sik Yu,Sejong University,,Complementary and alternative medi
 P1838,,Byung‐Hoo Lee,Sejong University,,Nutrition and Dietetics,A5019630170,https://openalex.org/A5019630170,0000-0001-8351-4573,openalex_institution,,8,0,0,0,0,8
 P1839,,Young Hyun Kim,Sejong University,,Oral Surgery,A5052259575,https://openalex.org/A5052259575,0000-0001-6541-3293,openalex_institution,,0,0,0,0,0,0
 P1840,박현승,Hyun-Seung Park,Sejong University,,Molecular Biology,A5032114325,https://openalex.org/A5032114325,0000-0001-7399-1923,openalex_institution,,3,0,0,0,0,3
-P1841,김재광,Jae Kwang Kim,Incheon National University,,Molecular Biology,A5100652688,https://openalex.org/A5100652688,0000-0003-2692-5370,openalex_institution,,19,0,0,0,0,19
+P1841,김재광,Jae Kwang Kim,Incheon National University,,Molecular Biology,A5100652688,https://openalex.org/A5100652688,0000-0003-2692-5370,openalex_institution,,20,0,0,0,0,20
 P1842,김보경,Bo-Kyeong Kim,Incheon National University,,Plant Science,A5064043584,https://openalex.org/A5064043584,0000-0002-0388-6754,openalex_institution,,4,0,0,0,0,4
 P1843,,Yoo Jin Lee,Incheon National University,,Genetics,A5100664630,https://openalex.org/A5100664630,0000-0003-1799-0146,openalex_institution,,18,0,0,0,0,18
 P1844,,Hyung Wook Kwon,Incheon National University,,Insect Science,A5006599707,https://openalex.org/A5006599707,0000-0001-9340-7974,openalex_institution,,12,0,0,0,0,12
@@ -1919,7 +1919,7 @@ P1995,,Hwi-young Cho,Gachon University,,Rehabilitation,A5053756940,https://opena
 P1996,,Hyun Jeong Kwak,Gachon University,,Anesthesiology and Pain Medicine,A5070653215,https://openalex.org/A5070653215,0000-0003-4432-8510,openalex_institution,,0,0,0,0,0,0
 P1997,,Wi Hoon Jung,Gachon University,,Cognitive Neuroscience,A5086676366,https://openalex.org/A5086676366,0000-0002-8697-9584,openalex_institution,,1,0,0,0,0,1
 P1998,,Hee‐Eun Kim,Gachon University,,Periodontics,A5100623436,https://openalex.org/A5100623436,0000-0002-8632-9768,openalex_institution,,3,0,0,0,0,3
-P1999,,Dong Joon Kim,Hallym University,,Epidemiology,A5100617947,https://openalex.org/A5100617947,0000-0002-5792-1500,openalex_institution,,25,0,0,1,0,28
+P1999,,Dong Joon Kim,Hallym University,,Epidemiology,A5100617947,https://openalex.org/A5100617947,0000-0002-5792-1500,openalex_institution,,26,0,0,1,0,29
 P2000,김재석,Jae‐Seok Kim,Hallym University,,Infectious Diseases,A5029539402,https://openalex.org/A5029539402,0000-0001-6025-0341,openalex_institution,,18,0,0,0,0,18
 P2001,,Sohyun Park,Hallym University,,Nutrition and Dietetics,A5100769414,https://openalex.org/A5100769414,0000-0001-6009-1002,openalex_institution,,11,0,0,0,0,11
 P2002,,Chul Woo Kim,Hallym University,,Pathology and Forensic Medicine,A5019048136,https://openalex.org/A5019048136,0000-0002-0970-0439,openalex_institution,,21,0,0,0,0,21
@@ -1936,7 +1936,7 @@ P2012,강영희,Young‐Hee Kang,Hallym University,,Molecular Biology,A500609796
 P2013,,MinJae Lee,Hallym University,,Cancer Research,A5100449731,https://openalex.org/A5100449731,0000-0002-4329-506X,openalex_institution,,0,0,0,0,0,0
 P2014,,You Sun Kim,Hallym University,,Genetics,A5071322957,https://openalex.org/A5071322957,0000-0002-5156-3458,openalex_institution,,18,0,0,0,0,18
 P2015,강일준,Il‐Jun Kang,Hallym University,,Neurology,A5016926065,https://openalex.org/A5016926065,0000-0003-0314-5195,openalex_institution,,9,0,0,0,0,9
-P2016,김주희,Joo‐Hee Kim,Hallym University,,Physiology,A5101923708,https://openalex.org/A5101923708,0000-0002-1572-5149,openalex_institution,,17,0,0,0,0,17
+P2016,김주희,Joo‐Hee Kim,Hallym University,,Physiology,A5101923708,https://openalex.org/A5101923708,0000-0002-1572-5149,openalex_institution,,16,0,0,0,0,16
 P2017,,Jae Jun Lee,Hallym University,,Surgery,A5100691799,https://openalex.org/A5100691799,0000-0002-5418-500X,openalex_institution,,12,0,0,0,0,12
 P2018,김윤정,Yun Joong Kim,Hallym University,,Neurology,A5059670570,https://openalex.org/A5059670570,0000-0002-2956-1552,openalex_institution,,11,0,0,0,0,11
 P2019,,Chi Kyung Kim,Hallym University,,Epidemiology,A5052165188,https://openalex.org/A5052165188,0000-0002-0423-7297,openalex_institution,,26,0,0,0,0,26
@@ -2144,7 +2144,7 @@ P2220,,Young‐Chae Chang,Daegu Catholic University,,Pharmacology,A5043272237,ht
 P2221,곽상규,Sang Gyu Kwak,Daegu Catholic University,,Pathology and Forensic Medicine,A5063389023,https://openalex.org/A5063389023,0000-0003-0398-5514,openalex_institution,,18,0,0,0,0,18
 P2222,최성희,Seong Hee Choi,Daegu Catholic University,,Physiology,A5061651749,https://openalex.org/A5061651749,0000-0003-2365-6187,openalex_institution,,4,0,0,0,0,4
 P2223,,Eun Ho Kim,Daegu Catholic University,,Pulmonary and Respiratory Medicine,A5027327441,https://openalex.org/A5027327441,0000-0002-6476-163X,openalex_institution,,14,0,0,0,0,14
-P2224,,Joong Goo Kwon,Daegu Catholic University,,Surgery,A5024491216,https://openalex.org/A5024491216,0000-0003-3392-785X,openalex_institution,,16,0,0,0,0,16
+P2224,,Joong Goo Kwon,Daegu Catholic University,,Surgery,A5024491216,https://openalex.org/A5024491216,0000-0003-3392-785X,openalex_institution,,17,0,0,0,0,17
 P2225,,Seung‐Heon Shin,Daegu Catholic University,,Otorhinolaryngology,A5071024563,https://openalex.org/A5071024563,0000-0002-9118-0590,openalex_institution,,8,0,0,0,0,8
 P2226,,Kee‐Sik Kim,Daegu Catholic University,,Surgery,A5018899207,https://openalex.org/A5018899207,0000-0001-5839-0513,openalex_institution,,5,0,0,0,0,5
 P2227,,Jung‐Yeon Kim,Daegu Catholic University,,"Public Health, Environmental and Occupational Health",A5052724104,https://openalex.org/A5052724104,0000-0001-7229-1466,openalex_institution,,4,0,0,0,0,4
@@ -2157,7 +2157,7 @@ P2233,,Jin Bae Lee,Daegu Catholic University,,Surgery,A5101738158,https://openal
 P2234,,Chul-Hee Choi,Daegu Catholic University,,Physiology,A5059523126,https://openalex.org/A5059523126,0000-0003-1844-3072,openalex_institution,,2,0,0,0,0,2
 P2235,김은정,Eunjung Kim,Daegu Catholic University,,Pharmacology,A5083268980,https://openalex.org/A5083268980,0000-0003-4548-2632,openalex_institution,,2,0,0,0,0,2
 P2236,,Byoung Sun Chu,Daegu Catholic University,,Epidemiology,A5075313678,https://openalex.org/A5075313678,0000-0001-9419-2194,openalex_institution,,0,0,0,0,0,0
-P2237,허용,Yong Heo,Daegu Catholic University,,Dermatology,A5026499909,https://openalex.org/A5026499909,0000-0003-2072-7410,openalex_institution,,2,0,0,0,0,2
+P2237,허용,Yong Heo,Daegu Catholic University,,Dermatology,A5026499909,https://openalex.org/A5026499909,0000-0003-2072-7410,openalex_institution,,3,0,0,0,0,3
 P2238,,Gi-Young Park,Daegu Catholic University,,Surgery,A5068465016,https://openalex.org/A5068465016,0000-0003-0056-1556,openalex_institution,,6,1,0,0,0,16
 P2239,,Yun Kim,Daegu Catholic University,,Epidemiology,A5036246628,https://openalex.org/A5036246628,0000-0002-9809-7351,openalex_institution,,0,0,0,0,0,0
 P2240,오훈규,Hoon Kyu Oh,Daegu Catholic University,,Pathology and Forensic Medicine,A5005239052,https://openalex.org/A5005239052,0000-0001-8793-1948,openalex_institution,,11,0,0,0,0,11
@@ -2301,7 +2301,7 @@ P2377,,Byung Do Lee,Wonkwang University,,Oral Surgery,A5010478453,https://openal
 P2378,,Hoikyung Kim,Wonkwang University,,Biotechnology,A5053136823,https://openalex.org/A5053136823,0000-0002-3638-7900,openalex_institution,,1,0,0,0,0,1
 P2379,,Ki‐Eun Hwang,Wonkwang University,,Pulmonary and Respiratory Medicine,A5053597885,https://openalex.org/A5053597885,0000-0002-9213-5775,openalex_institution,,5,0,0,0,0,5
 P2380,,Jae Ho Seo,Wonkwang University,,Molecular Biology,A5022010420,https://openalex.org/A5022010420,0000-0002-8466-7800,openalex_institution,,1,0,0,0,0,1
-P2381,,Gi‐Sang Bae,Wonkwang University,,Surgery,A5021752258,https://openalex.org/A5021752258,0000-0002-5627-2676,openalex_institution,,7,0,1,0,0,8
+P2381,,Gi‐Sang Bae,Wonkwang University,,Surgery,A5021752258,https://openalex.org/A5021752258,0000-0002-5627-2676,openalex_institution,,8,0,1,0,0,9
 P2382,,Hee‐Soon Woo,Wonkwang University,,Speech and Hearing,A5077697127,https://openalex.org/A5077697127,0000-0003-4712-9808,openalex_institution,,4,0,0,0,0,4
 P2383,,Cheol Lee,Wonkwang University,,Surgery,A5101757853,https://openalex.org/A5101757853,0000-0003-2472-2908,openalex_institution,,0,0,0,0,0,0
 P2384,,Cheongmin Sohn,Wonkwang University,,"Public Health, Environmental and Occupational Health",A5075667125,https://openalex.org/A5075667125,0000-0003-0529-7037,openalex_institution,,0,0,0,0,0,0
@@ -2402,7 +2402,7 @@ P2478,김미선,Mi-Sun Kim,Jeju National University,,Food Science,A5101660496,ht
 P2479,이경준,Kyeong‐Jun Lee,Jeju National University,,Aquatic Science,A5009235122,https://openalex.org/A5009235122,0000-0003-0268-578X,openalex_institution,,9,0,0,0,0,9
 P2480,,Joon Hyuk Park,Jeju National University,,Psychiatry and Mental health,A5072999958,https://openalex.org/A5072999958,0000-0002-0396-5284,openalex_institution,,14,0,0,0,0,14
 P2481,,Yong Suk Chung,Jeju National University,,Molecular Biology,A5007644928,https://openalex.org/A5007644928,0000-0003-3121-7600,openalex_institution,,3,0,0,0,0,3
-P2482,,Chang‐Gu Hyun,Jeju National University,,Cell Biology,A5047819039,https://openalex.org/A5047819039,0000-0002-3000-7989,openalex_institution,,8,0,0,0,0,8
+P2482,,Chang‐Gu Hyun,Jeju National University,,Cell Biology,A5047819039,https://openalex.org/A5047819039,0000-0002-3000-7989,openalex_institution,,9,0,0,0,0,9
 P2483,,Nam Ho Lee,Jeju National University,,Aquatic Science,A5110118936,https://openalex.org/A5110118936,0000-0001-8319-0185,openalex_institution,,18,0,0,0,0,18
 P2484,이동선,Dong‐Sun Lee,Jeju National University,,Food Science,A5008602238,https://openalex.org/A5008602238,0000-0001-7816-6471,openalex_institution,,10,0,0,0,0,10
 P2485,김정식,Jeongsik Kim,Jeju National University,,Plant Science,A5062852652,https://openalex.org/A5062852652,0000-0002-2729-6003,openalex_institution,,7,0,0,0,0,7
@@ -2438,7 +2438,7 @@ P2515,,Chang Lim Hyun,Jeju National University,,Dermatology,A5048640675,https://
 P2516,,Yunkyoung Lee,Jeju National University,,Aquatic Science,A5045429916,https://openalex.org/A5045429916,0000-0001-6453-769X,openalex_institution,,5,0,0,0,0,5
 P2517,이효민,Hyomin Lee,Jeju National University,,Biomedical Engineering,A5101787257,https://openalex.org/A5101787257,0000-0003-4390-6454,openalex_institution,,4,0,0,0,0,4
 P2519,,Moonjae Cho,Jeju National University,,Immunology,A5061545223,https://openalex.org/A5061545223,0000-0003-4799-7584,openalex_institution,,7,0,0,0,0,7
-P2520,유은숙,Eun-Sook Yoo,Jeju National University,,Urology,A5042971593,https://openalex.org/A5042971593,0000-0002-1255-8306,openalex_institution,,7,0,0,0,0,7
+P2520,유은숙,Eun-Sook Yoo,Jeju National University,,Urology,A5042971593,https://openalex.org/A5042971593,0000-0002-1255-8306,openalex_institution,,8,0,0,0,0,8
 P2521,,Somi Kim Cho,Jeju National University,,Biochemistry,A5043258328,https://openalex.org/A5043258328,0000-0002-0980-2005,openalex_institution,,3,0,0,0,0,3
 P2522,,Jun Yup Kim,Jeju National University,,Epidemiology,A5080689339,https://openalex.org/A5080689339,0000-0003-4764-5714,openalex_institution,,19,0,0,0,0,19
 P2523,,Ahnul Ha,Jeju National University,,Ophthalmology,A5041387187,https://openalex.org/A5041387187,0000-0003-4211-7971,openalex_institution,,3,0,0,0,0,3
@@ -2450,7 +2450,7 @@ P2528,박성민,Sung‐Min Park,POSTECH,Department of Mechanical Engineering,Bio
 P2529,류성호,Sung Ho Ryu,POSTECH,Department of Life Sciences,Molecular Biology,A5086899824,https://openalex.org/A5086899824,0000-0003-0913-3048,openalex_institution,,27,1,0,0,0,37
 P2530,김철홍,Chulhong Kim,POSTECH,Department of Mechanical Engineering,Biomedical Engineering,A5091718941,https://openalex.org/A5091718941,0000-0001-7249-1257,openalex_institution,,21,0,0,0,0,21
 P2531,조동우,Dong‐Woo Cho,POSTECH,Department of Mechanical Engineering,Biomedical Engineering,A5013808012,https://openalex.org/A5013808012,0000-0001-5869-4330,openalex_institution,,16,0,0,1,0,19
-P2532,정규열,Gyoo Yeol Jung,POSTECH,Department of Chemical Engineering,Molecular Biology,A5079269717,https://openalex.org/A5079269717,0000-0002-9742-3207,openalex_institution,,16,5,0,0,0,66
+P2532,정규열,Gyoo Yeol Jung,POSTECH,Department of Chemical Engineering,Molecular Biology,A5079269717,https://openalex.org/A5079269717,0000-0002-9742-3207,openalex_institution,,17,6,0,0,0,77
 P2533,김경태,Kyong‐Tai Kim,POSTECH,Department of Life Sciences,Molecular Biology,A5022553207,https://openalex.org/A5022553207,0000-0001-7292-2627,openalex_institution,,18,1,0,0,0,28
 P2534,정운룡,Unyong Jeong,POSTECH,Department of Chemical Engineering,Biomedical Engineering,A5044219595,https://openalex.org/A5044219595,0000-0002-7519-7595,openalex_institution,,9,0,0,0,0,9
 P2535,김동성,Dong Sung Kim,POSTECH,Department of Mechanical Engineering,Biomedical Engineering,A5058106720,https://openalex.org/A5058106720,0000-0003-4780-9635,openalex_institution,,11,0,0,0,0,11
@@ -2646,7 +2646,7 @@ P2732,이현정,,UNIST,,,,https://mest.snu.ac.kr/alumni/,,alumni_page,,0,0,0,0,0
 P2733,임성인,,Pukyong National University,,Molecular Biology,A5014572075,,,manual,,6,0,1,0,1,8
 P2734,황현규,,Jeonbuk National University,,,,,,manual,,0,0,0,0,0,0
 P2735,우성화,,KENTECH,,,,,,manual,,0,0,0,0,0,0
-P2736,예대열,,Gachon University,,Genetics,A5159220393,,,manual,,0,0,0,0,0,0
+P2736,예대열,,Gachon University,,Molecular Biology,A5046065269,,,manual,,3,0,1,0,0,4
 P2737,김현주,Hyeon Ju Kim,Jeju National University,교수진소개,Urology,A5087027607,https://scholar.google.com/citations?hl=ko&user=X3e8du0AAAAJ&view_op=list_works&sortby=pubdate ,0000-0002-9103-3275,verified,,14,0,0,0,0,14
 P2738,박영준,Y. Park,Jeju National University,교수진소개,Radiation,A5010897269,https://pharmacy.jejunu.ac.kr/pharmacy/professor.htm,0000-0001-9625-6008,verified,,0,0,0,0,0,0
 P2739,박철훈,Chulhun Park,Jeju National University,교수진소개,Pharmaceutical Science,A5041919965,https://chpdamian88.github.io/lab-website/gallery.html,0000-0003-4951-3213,verified,,0,0,0,0,0,0
@@ -2706,7 +2706,7 @@ P2794,신소영,,Wonkwang University,,,,https://sukjae.snu.ac.kr/alumni/,,alumni
 P2795,전누리,Noo Li Jeon,Seoul National University,바이오엔지니어링 협동과정 (기계공학부),Biomedical Engineering,A5051796736;A5113677364;A5101752529;A5108656398,,,manual,,21,4,0,0,0,61
 P2796,안지완,,Seoul National University,치의학대학원,Cancer Research,A5020220684,,,manual,,12,0,0,0,0,12
 P2797,이연,Yan Lee,Seoul National University,화학부,Molecular Biology,A5100608258,,,manual,,6,0,0,0,0,6
-P2798,이남기,Nam Ki Lee,Seoul National University,화학부,Biophysics,A5053461530,,,manual,,4,0,0,0,0,4
+P2798,이남기,Nam Ki Lee,Seoul National University,화학부,Biophysics,A5053461530,,,manual,,5,0,0,0,0,5
 P2799,김교범,Kyobum Kim,Dongguk University,,Biomaterials,A5057631043,https://kkim2014.wixsite.com/tissueeng,,manual,,3,0,0,0,0,3
 P2800,박천권,Chun Gwon Park,Sungkyunkwan University,바이오메디컬공학과,Biomaterials,A5014715024,https://sites.google.com/view/skkucbrl/,,manual,,14,0,0,0,0,14
 P2801,임용택,Yong Taik Lim,Sungkyunkwan University,나노공학과,Immunology,A5078263456,https://sites.google.com/view/laboflim/home,,manual,,20,0,0,0,0,20
@@ -3001,11 +3001,11 @@ P3090,김홍남,Hong Nam Kim,KIST,뇌과학연구소 (Brain Science Institute),B
 P3091,유탁근,Tag Keun Yoo,Eulji University,의예과,Urology,A5016005694,https://medicine.eulji.ac.kr/?menuno=3426&id=2180&type=F&gubun=view,0000-0002-2972-5166,verified,,7,0,0,0,0,7
 P3092,이준호,Jun Ho Lee,Eulji University,의예과,Urology,A5100388968,https://medicine.eulji.ac.kr/?menuno=3426&id=2180&type=F&gubun=view,0000-0003-3567-0816,verified,,7,0,0,0,0,7
 P3093,고아라,Ara Koh,POSTECH,Department of Life Sciences,마이크로바이옴 / 당뇨 / 암,A5087260130,https://life.postech.ac.kr/html/major/professor.php,,manual,,7,0,0,0,0,7
-P3094,고용송,Yong-Song Gho,POSTECH,Department of Life Sciences; 시스템생명공학부,엑소좀,A5056631863,https://life.postech.ac.kr/html/major/professor.php,,manual,,18,0,0,0,0,18
+P3094,고용송,Yong-Song Gho,POSTECH,Department of Life Sciences; 시스템생명공학부,엑소좀,A5056631863,https://life.postech.ac.kr/html/major/professor.php,,manual,,19,0,0,0,0,19
 P3095,김광순,Kwang Soon Kim,POSTECH,Department of Life Sciences,면역미생물 상호작용 / 마이크로바이옴기반 질환치료,A5101953959,https://life.postech.ac.kr/html/major/professor.php,,manual,,5,0,0,0,0,5
 P3096,김성철,Sungchul Kim,POSTECH,Department of Life Sciences,크리스퍼 생물학 / 바이러스-숙주 상호작용 / 단일-분자 생물물리학,A5100718927,https://life.postech.ac.kr/html/major/professor.php,,manual,,2,0,1,0,0,3
 P3097,김영진,Young-Jin Kim,POSTECH,Department of Life Sciences,세포막 수송 단백질,A5100440437,https://life.postech.ac.kr/html/major/professor.php,,manual,,10,0,0,0,0,10
-P3098,김정훈,Jung Hoon Kim,POSTECH,Department of Life Sciences,분자세포 신경생물학,A5002867409,https://life.postech.ac.kr/html/major/professor.php,,manual,,11,0,0,0,0,11
+P3098,김정훈,Jung Hoon Kim,POSTECH,Department of Life Sciences,분자세포 신경생물학,A5002867409,https://life.postech.ac.kr/html/major/professor.php,,manual,,12,0,0,0,0,12
 P3099,김종신,Jong-Sin Kim,POSTECH,Department of Life Sciences,신경면역학 / 혈관생물학,A5028265103,https://life.postech.ac.kr/html/major/professor.php,,manual,,6,0,0,0,0,6
 P3100,김종흠,Jonghum Kim,POSTECH,Department of Life Sciences,식물병리학,A5051879388,https://life.postech.ac.kr/html/major/professor.php,,manual,,0,0,0,0,0,0
 P3101,백승태,Seung Tae Baek,POSTECH,Department of Life Sciences,발달신경질환,A5080004279,https://life.postech.ac.kr/html/major/professor.php,,manual,,16,0,0,0,0,16
@@ -3022,7 +3022,7 @@ P3111,권도훈,Dohoon Kwon,POSTECH,Department of Chemistry,생화학,A510286741
 P3112,김현우,Hyeonwoo Kim,POSTECH,Department of Chemistry; 시스템생명공학부,유기화학 (전기화학 유기합성 / 촉매 합성 방법론),A5046320204,https://scns.postech.ac.kr,,manual,,0,0,0,0,0,0
 P3113,서대하,Daeha Seo,POSTECH,Department of Chemistry,무기화학 / 나노·재료화학 / 바이오메디컬화학,A5006993149,http://small.postech.ac.kr/,,manual,,1,0,0,0,0,1
 P3114,서종철,Jongcheol Seo,POSTECH,Department of Chemistry; 시스템생명공학부,분석화학 (이온 이동도-질량분석 / 구조 분석),A5060796492,http://scimms.postech.ac.kr,,manual,,1,0,0,0,0,1
-P3115,임현석,Hyunseok Lim,POSTECH,Department of Chemistry,유기화학 / 화학생물학 / 생화학 / 바이오메디컬화학,A5018699270,http://cbl.postech.ac.kr,,manual,,9,0,0,0,0,9
+P3115,임현석,Hyunseok Lim,POSTECH,Department of Chemistry,유기화학 / 화학생물학 / 생화학 / 바이오메디컬화학,A5018699270,http://cbl.postech.ac.kr,,manual,,10,0,0,0,0,10
 P3116,장영태,Young-Tae Chang,POSTECH,Department of Chemistry,유기화학 / 생화학 / 바이오메디컬화학 (화학 기반 노화 연구),A5001055290,http://ytchang.postech.ac.kr,,manual,,21,0,0,0,0,21
 P3117,손민주,Min Ju Shon,POSTECH,합성생물학전공,단일분자 이미징·조작 나노기술 / 생체분자 복합체 역학 / 신경전달 기계생물학,A5018784710,https://www.shonlab.org/,,manual,,3,0,0,0,0,3
 P3118,오승수,Seungsoo Oh,POSTECH,합성생물학전공,Molecular Machinery / Protocells / Darwinian Evolution of Materials / Nanobiotechnology / Biomedical applications,A5004413201,https://ohlab.postech.ac.kr/,,manual,,3,0,0,0,0,3
@@ -3076,7 +3076,8 @@ P3165,박형곤,Hyunggon Park,Ewha Womans University,의과대학,Research and T
 P3166,국립,,Kangwon National University,,,,http://mcnl.ewha.ac.kr/mcnl/alumni.do,,alumni_page,,0,0,0,0,0,0
 P3167,오지은,Jieun Oh,Ewha Womans University,의과대학,Nutrition and Dietetics,A5032100904,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=IGNqelhIcpaAf9ySFHR4zQ%3D%3D,0000-0003-4152-8306,verified,,1,0,0,0,0,1
 P3168,이한길,Hankil Lee,Ewha Womans University,의과대학,Economics and Econometrics,A5069666615;A5122790651,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=xKAqASw%2BumMKbY16x7E8Cg%3D%3D,0000-0002-7780-159X,verified,,8,0,0,0,0,8
-P3169,임경민,Kyung‐Min Lim,Ewha Womans University,의과대학,Dermatology,A5087783301;A5103915915;A5102417365,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=T5qdQzWtqsFaTKs7VGPbQg%3D%3D,0000-0002-1517-7680,verified,,14,0,0,0,0,14
+P3169,임경민,Kyung‐Min Lim,Ewha Womans University,의과대학,Dermatology,A5087783301;A5103915915;A5102417365,https://www.ewha.ac.kr/ewha/academics/medicine-prof.do?mode=view&pId=T5qdQzWtqsFaTKs7VGPbQg%3D%3D,0000-0002-1517-7680,verified,,15,0,0,0,0,15
 P3170,전상범,Sang Beom Jun,Ewha Womans University,의과대학,Cellular and Molecular Neuroscience,A5073654201,https://sites.google.com/view/junlab,0000-0003-3912-250X,probable,,2,0,0,0,0,2
 P3171,변재원,Jaewon Byun,Chonnam National University,,Applied Microbiology and Biotechnology,A5072440283,http://pse.postech.ac.kr/37,,alumni_page,,1,0,1,0,0,2
 P3172,박성준,Sung Joon Park,Kyungpook National University,,Otorhinolaryngology,A5100720983,https://seml.korea.ac.kr/member/alumni,,alumni_page,,5,0,0,0,0,5
+P3173,김태은,Da-eun Kim,Eulji University,의예과; 병리학 (병리학 및 분자의학교실); 신경과학교실,Dermatology,A5113705315,https://medicine.eulji.ac.kr/?menuno=3416&id=9620&type=F&gubun=view,0009-0002-8408-7993,verified,,2,0,0,0,0,2
